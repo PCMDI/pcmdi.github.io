@@ -1,0 +1,28 @@
+<div id="header-fat" class="navbar navbar-fixed-top navbar-noFixed">
+  <div id="brand" class="navbar-inner">
+    <div class="container">
+      <a class="brand" href="index.html">Program for Climate Model Diagnosis & Intercomparison</a>
+      <p id="llnl-menu-tab" class="pull-right"><a href="http://llnl.gov"><span>Lawrence Livermore National Laboratory</span></a></p>
+      <form class="navbar-search pull-right visible-desktop" action="search.php" method="post"><input name="searchwhat" type="hidden" value="site" />
+        <input type="search" name="googleseachTerm" class="search-query span3" placeholder="search site...">
+      </form>
+    </div>
+  </div>
+  <div class="navbar-inner">
+    <div class="container">
+      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </a>
+      <div class="nav-collapse">
+        <ul class="nav">
+          {% assign pages_list = site.pages %}
+          {% assign group = 'navigation' %}
+          {% include pages_list %}
+          <li><a href="http://www-pcmdi.llnl.gov">Old Site</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
