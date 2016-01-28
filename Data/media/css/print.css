@@ -1,4 +1,4 @@
-@import url("bootstrap.min.css");
+@import url("/llnl-docs/onelab/templates/css/bootstrap.min.css");
 @import url("bootstrap.mods.css");
 @import url("main.css");
 
@@ -6,4 +6,4 @@
 th a {color: #000}
 a[href]:after{content:"";}
 .hero-unit.hero-full-image {height: auto}
-.hero-unit.hero-full-image > .container > .row > .caption {margin-top:auto}
+.hero-unit.hero-full-image > .container > .row > .caption {margin-top:auto; margin-bottom:auto;}
