@@ -17,7 +17,7 @@ Durack, Paul	| Research Scientist	| durack1@llnl.gov	| (925) 422-5208
 Gleckler, Peter	| Research Scientist	| gleckler1@llnl.gov	| (925) 422-7631
 Harris, Matthew	| Computer Scientist	| harris112@llnl.gov	| (925) 423-8978
 Hoang, Anthony	| Systems Manager	| hoang1@llnl.gov	| (925) 423-6733
-Klein, Stephen| 	Research Scientist	| klein21@llnl.gov	| (925) 423-9777
+Klein, Stephen  | 	Research Scientist	| klein21@llnl.gov	| (925) 423-9777
 Ma, Hsi-Yen	| Research Scientist	| ma21@llnl.gov	| (925) 422-5958
 McCoy, Renata	| Computer Scientist	| mccoy20@llnl.gov	| (925) 424-5237
 Painter, Jeff	| Computer Scientist	| painter1@llnl.gov	| (925) 422-8114
