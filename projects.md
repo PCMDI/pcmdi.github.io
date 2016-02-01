@@ -61,7 +61,7 @@ Synthetic MSU temperatures from 49 simulations of 20th century climate change we
 To download the data used in the above article and read about the details on the derivation see 
 [Synthetic MSU Data][synth]
 
-[AMIP]:http://www-pcmdi.llnl.gov/projects/amip/index.php
+[AMIP]:/amip.html
 [icmc]:http://www-pcmdi.llnl.gov/projects/amip/STATUS/incoming.html
 [CMIP]:http://www-pcmdi.llnl.gov/projects/cmip/index.php
 [CMIP5]:http://pcmdi-cmip.llnl.gov/cmip5/index.html

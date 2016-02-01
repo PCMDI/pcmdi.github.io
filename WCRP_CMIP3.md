@@ -62,6 +62,11 @@ As of January 2007, over 35 terabytes of data were in the archive and over 337 t
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To [Workshop on Analyses of Climate Model Simulations for the IPCC AR4](http://www-pcmdi.llnl.gov/ipcc/Hawaii_viewgraphs.pdf) (Honolulu, Hawaii, 1-4 March 2005)
 
+###Climate Forcing
+
+In order to perform the experiments called for in support of the IPCC's Fourth Assessment Report, models require certain so-called "forcing" datasets. The forcing is mainly given in terms of atmospheric concentrations of greenhouse gases, ozone and aerosols. Although the atmospheric concentrations are based on emissions scenarios developed by IPCC, concentrations do not uniquely follow from emissions. Different concentrations can be derived from the same emissions scenarios, depending on the model used to derive them.
+
+One set of concentrations that may be used to drive climate simulations can be obtained from [Dr. Curt Covey](covey1@llnl.gov). Use of this dataset is not mandatory.
 
 
 
