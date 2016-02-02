@@ -1,9 +1,15 @@
+ubtitle: Columns template
+description: Test description
 ---
-layout: default
-title: Search
----
 
-<h2>Page name</h2>
+{% extends "base.j2" %}
 
-<?php include_once("Data/classes/searcher.php"); ?>
+{% block container %}
 
+<h2> Search </h2>
+
+{% raw %}
+<?php include_once("media/classes/searcher.php"); ?>
+{% endraw %}
+
+{% endblock container %}
