@@ -29,7 +29,7 @@ group: "navigation"
 
 ----
 
-####From the San Francisco International Airport
+#### From the San Francisco International Airport
 The San Francisco International Airport is about 49 miles west of the Laboratory. Travel time from the airport to the Laboratory is about 1 hour and 15 minutes but can be longer during commute hours.
 
     As you exit the airport, take I-101 SOUTH toward San Jose. Drive about 6.4 miles. 
@@ -41,7 +41,7 @@ The San Francisco International Airport is about 49 miles west of the Laboratory
     Continue EAST on I-580 about 20 miles past Castro Valley, Dublin, Pleasanton, and most Livermore exits. 
 
   
-####From the Oakland International Airport
+#### From the Oakland International Airport
 The Oakland International Airport is about 33 miles west of the Laboratory. Travel time from the airport to the Laboratory is about 50 minutes but can be longer during commute hours.
 
     Exit the airport and turn right on Airport Drive. 
@@ -52,7 +52,7 @@ The Oakland International Airport is about 33 miles west of the Laboratory. Trav
     I-238 turns into I-580 EAST. 
     Continue EAST on I-580 about 20 miles past Castro Valley, Dublin, Pleasanton, and most Livermore exits. 
 
-####From the San Jose International Airport
+#### From the San Jose International Airport
 The San Jose International Airport is about 36 miles southwest of the Laboratory. Travel time from the airport to the Laboratory is about 1 hour but can be longer during commute hours. 
 
     Exit the airport
@@ -62,7 +62,7 @@ The San Jose International Airport is about 36 miles southwest of the Laboratory
     Take the I-580 EAST exit toward Stockton.
     Continue EAST on I-580 past Pleasanton and most of the Livermore exits. 
 
-####I-580 to the Laboratory's Westgate Badge Office
+#### I-580 to the Laboratory's Westgate Badge Office
 
     To go to the Lab's Westgate Badge Office, take the Vasco Road exit. Keep to the right at the fork in the exit ramp. 
     Travel SOUTH on Vasco Road about 1.5 miles.

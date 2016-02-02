@@ -4,9 +4,9 @@ title: CMIP3
 group: "navigation"
 ---
 
-#About the WCRP CMIP3 Multi-Model Dataset Archive at PCMDI
+# About the WCRP CMIP3 Multi-Model Dataset Archive at PCMDI
 
-###Overview
+### Overview
 
 In response to a proposed activity of the [World Climate Research Programme's](http://www.wmo.int/files/WCRP_WEB) (WCRP's) [Working Group on Coupled Modelling](http://www.wmo.int/files/WCRP_WEB/AP_Modelling_WGCM.html) (WGCM),  PCMDI volunteered to collect model output contributed by leading modeling centers around the world.  Climate model output from simulations of the past, present and future climate was collected by PCMDI mostly during the years 2005 and 2006, and this archived data constitutes phase 3 of the [Coupled Model Intercomparison Project](http://www-pcmdi.llnl.gov/projects/cmip/index.php) (CMIP3).  In part, the WGCM organized this activity to enable those outside the major modeling centers to perform research of relevance to climate scientists preparing the Fourth Asssessment Report (AR4) of the [Intergovernmental Panel on Climate Change](http://www.ipcc.ch/) (IPCC).  The IPCC was established by the World Meteorological Organization and the United Nations Environmental Program to assess scientific information on climate change. The IPCC publishes reports that summarize the state of the science.
 
@@ -16,7 +16,7 @@ With the consent of participating climate modelling groups, the WGCM has declare
 
 As of January 2007, over 35 terabytes of data were in the archive and over 337 terabytes of data had been downloaded among the more than 1200 registered users.  Over 250 journal articles, based at least in part on the dataset, have been published or have been accepted for peer-reviewed publication.  Latest statistics can be found at: 1) [usage](http://www-pcmdi.llnl.gov/ipcc/usage_statistics.php), 2) [download rate](http://www-pcmdi.llnl.gov/ipcc/download_rate.gif), 3) [CMIP3 subprojects](http://www-pcmdi.llnl.gov/ipcc/diagnostic_subprojects.php), and 4) [publications](http://www-pcmdi.llnl.gov/ipcc/subproject_publications.php)
 
-###[Information for analysts](http://www-pcmdi.llnl.gov/ipcc/info_for_analysts.php)
+### [Information for analysts](http://www-pcmdi.llnl.gov/ipcc/info_for_analysts.php)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Terms of use agreement](http://www-pcmdi.llnl.gov/ipcc/info_for_analysts.php#Terms_of_use)
 
@@ -46,7 +46,7 @@ As of January 2007, over 35 terabytes of data were in the archive and over 337 t
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[IPCC AR4 historical details](http://www-pcmdi.llnl.gov/ipcc/historical_details.php)
 
-###Information for modeling groups contributing model output to the CMIP3 archive:
+### Information for modeling groups contributing model output to the CMIP3 archive:
 
 1. Please fill out a [brief questionnaire](http://www-pcmdi.llnl.gov/ipcc/simulation_questionnaire.php), indicating your intention to contribute model output to the IPCC archive.
 2. Follow the established procedure for preparing and transferring model output to the IPCC archive, as summarized in:
@@ -56,13 +56,13 @@ As of January 2007, over 35 terabytes of data were in the archive and over 337 t
 * [CMOR software](http://www-pcmdi.llnl.gov/software/cmor/cmor_users_guide.pdf) for producing output conforming to IPCC requirements is available here.
 3. [Additional important requests and information](http://www-pcmdi.llnl.gov/ipcc/info_for_modeling_groups.php)
 
-###Overview presentations concerning the WCRP CMIP3 multi-model dataset archived at PCMDI:
+### Overview presentations concerning the WCRP CMIP3 multi-model dataset archived at PCMDI:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To [IPCC WG1 AR4 First Lead Authors Meeting](http://www-pcmdi.llnl.gov/ipcc/Trieste_viewgraphs.pdf) (Trieste, Italy, 26-29 September 2004)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To [Workshop on Analyses of Climate Model Simulations for the IPCC AR4](http://www-pcmdi.llnl.gov/ipcc/Hawaii_viewgraphs.pdf) (Honolulu, Hawaii, 1-4 March 2005)
 
-###Climate Forcing
+### Climate Forcing
 
 In order to perform the experiments called for in support of the IPCC's Fourth Assessment Report, models require certain so-called "forcing" datasets. The forcing is mainly given in terms of atmospheric concentrations of greenhouse gases, ozone and aerosols. Although the atmospheric concentrations are based on emissions scenarios developed by IPCC, concentrations do not uniquely follow from emissions. Different concentrations can be derived from the same emissions scenarios, depending on the model used to derive them.
 
