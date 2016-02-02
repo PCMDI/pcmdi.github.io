@@ -1,3 +1,9 @@
+{% assign base = '' %}
+{% assign depth = page.url | split: '/' | size | minus: 1 %}
+{% if    depth == 1 %}{% assign base = '.' %}
+{% elsif depth == 2 %}{% assign base = '..' %}
+{% elsif depth == 3 %}{% assign base = '../..' %}
+{% elsif depth == 4 %}{% assign base = '../../..' %}{% endif %}
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
@@ -8,11 +14,11 @@
 <meta name="author" content="{{ site.author }}">
 <title>{{ page.title }}</title>
 
-<link rel="stylesheet" href="Data/media/css/bootstrap.min.css" Data/Data/media="screen" />
-<link rel="stylesheet" href="Data/media/css/bootstrap.mods.css" Data/Data/media="screen" />
-<link rel="stylesheet" href="Data/media/css/shadowbox.css" Data/Data/media="screen" />
-<link rel="stylesheet" href="Data/media/css/site.css" Data/Data/media="screen" />
-<link rel="stylesheet" href="Data/media/css/main.css" Data/Data/media="screen" />
+<link rel="stylesheet" href="{{base}}/Data/media/css/bootstrap.min.css" Data/Data/media="screen" />
+<link rel="stylesheet" href="{{base}}/Data/media/css/bootstrap.mods.css" Data/Data/media="screen" />
+<link rel="stylesheet" href="{{base}}/Data/media/css/shadowbox.css" Data/Data/media="screen" />
+<link rel="stylesheet" href="{{base}}/Data/media/css/site.css" Data/Data/media="screen" />
+<link rel="stylesheet" href="{{base}}/Data/media/css/main.css" Data/Data/media="screen" />
 </head>
 <body>
 
@@ -32,26 +38,26 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
 
 
-<script src="Data/media/js/links.js"></script>
+<script src="{{base}}/Data/media/js/links.js"></script>
 
 
-    <script src="Data/media/js/libs/bootstrap.js"></script>
-    <script src="Data/media/js/libs/bootstrap-button.js"></script>
-    <script src="Data/media/js/libs/bootstrap-collapse.js"></script>
-    <script src="Data/media/js/libs/bootstrap-dropdown.js"></script>
-    <script src="Data/media/js/libs/bootstrap-transition.js"></script>
-  <script src="Data/media/js/libs/bootstrap-alert.js"></script>
-    <script src="Data/media/js/libs/bootstrap-modal.js"></script>
-  <script src="Data/media/js/libs/bootstrap-scrollspy.js"></script>
-  <script src="Data/media/js/libs/bootstrap-tab.js"></script>
-    <script src="Data/media/js/libs/bootstrap-tooltip.js"></script>
-    <script src="Data/media/js/libs/bootstrap-popover.js"></script>
-    <script src="Data/media/js/libs/bootstrap-carousel.js"></script>
-    <script src="Data/media/js/libs/bootstrap-typeahead.js"></script>
+    <script src="{{base}}/Data/media/js/libs/bootstrap.js"></script>
+    <script src="{{base}}/Data/media/js/libs/bootstrap-button.js"></script>
+    <script src="{{base}}/Data/media/js/libs/bootstrap-collapse.js"></script>
+    <script src="{{base}}/Data/media/js/libs/bootstrap-dropdown.js"></script>
+    <script src="{{base}}/Data/media/js/libs/bootstrap-transition.js"></script>
+  <script src="{{base}}/Data/media/js/libs/bootstrap-alert.js"></script>
+    <script src="{{base}}/Data/media/js/libs/bootstrap-modal.js"></script>
+  <script src="{{base}}/Data/media/js/libs/bootstrap-scrollspy.js"></script>
+  <script src="{{base}}/Data/media/js/libs/bootstrap-tab.js"></script>
+    <script src="{{base}}/Data/media/js/libs/bootstrap-tooltip.js"></script>
+    <script src="{{base}}/Data/media/js/libs/bootstrap-popover.js"></script>
+    <script src="{{base}}/Data/media/js/libs/bootstrap-carousel.js"></script>
+    <script src="{{base}}/Data/media/js/libs/bootstrap-typeahead.js"></script>
 
-        <script src="Data/media/js/shadowbox.js"></script>
-    <script src="Data/media/js/main.js"></script>
-    <script src="Data/media/js/global.js"></script>
+        <script src="{{base}}/Data/media/js/shadowbox.js"></script>
+    <script src="{{base}}/Data/media/js/main.js"></script>
+    <script src="{{base}}/Data/media/js/global.js"></script>
 
 
 
