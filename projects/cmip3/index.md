@@ -1,7 +1,6 @@
 ---
 layout: default
 title: CMIP3
-group: "navigation"
 ---
 
 # About the WCRP CMIP3 Multi-Model Dataset Archive at PCMDI

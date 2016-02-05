@@ -1,7 +1,6 @@
 ---
 layout: default
 title: AMIP
-permalink: /projects/amip.html
 ---
 
 <h2>AMIP Sea Surface Temperature and Sea Ice:<br>
