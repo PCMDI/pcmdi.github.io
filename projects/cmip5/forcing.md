@@ -1,6 +1,6 @@
 ---
 layout: CMIP5
-title: CMIP5 Forcing Data
+title: Forcing Data
 ---
 
 CMIP5 - Modeling Info - Forcing Data
