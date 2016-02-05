@@ -11,41 +11,36 @@ title: CMIP5 Guide
 
 ## CMIP5 Experiment Design Overview:
 
-<br>
 
 The primary reference for experiment design is:
 
 *Taylor, K.E., R.J. Stouffer, G.A. Meehl: An Overview of CMIP5 and the experiment design.” Bull. Amer. Meteor. Soc., 93, 485-498, doi:10.1175/BAMS-D-11-00094.1, 2012.*
 
----
 
 An overview of various aspects of CMIP5 is provided by:
 
 *WCRP Coupled Model Intercomparison Project – Phase 5: Special Issue of the CLIVAR Exchanges Newsletter, No. 56, Vol. 15, No. 2*
 
----
 
 A fuller description (“lots of details”) of the experiments can be found in:
 
 A Summary of the CMIP5 Experiment Design
 
----
 
 The objectives and strategy for the CMIP5 decadal predictions simulations is summarized in:
 
 *Meehl, Gerald A., and Coauthors: Decadal Prediction. Bull. Amer. Meteor. Soc., 90, 1467–1485, [doi:10.1175/2009BAMS2778.1](), 2009.*
 
----
 
 For further background and information, consult the following web page:
 
 [Experiment Design]()
 
----
+
 
 **“Official” Experiment Names. cmip5_data_reference_Appendix1-1.doc (pdf format) (New 2013-03-28)**
 
----
+
 
 ## CMIP5 Forcing Information:
 
@@ -53,31 +48,31 @@ For simulations of the future, the primary references for the forcing (emissions
 
 [Representative Concentration Pathways (RCP’s)]() ([pdf form])() RCP_special_journal
 
----
+
 
 For simulations of the historical period, references for the forcing (emissions/concentrations/land-use change) can be found in the citation section of the IIASA website:
 
 http://tntcat.iiasa.ac.at/RcpDb/dsd?Action=htmlpage&page=welcome#citation
 
----
+
 
 Additional datasets and references used in CMIP5 are described on the CMIP5 website at:
 
 http://cmip-pcmdi.llnl.gov/cmip5/forcing.html
 
----
+
 
 For the "historicalMisc" simulations, modeling groups were asked to include only a subset of the forcing contributions. See the historical_Misc_forcing.pdf document for for the list of simulations forced by various combinations of anthropogenic or natural agents. The document was updated 2 Jan 2014 to include inadvertently omitted data from CCSM4 and new CESM1-CAM5 simulations"). For all CMIP5 simulations, a list of “forcings” that are active in each run is stored in each output file (in a global attributed called “forcing”) and the key to the abbreviations used in that list is available here:
 
 List of abbreviations used to describe forcing Appendix 1.2 of DRS document (pdf form)
 
----
+
 
 Additional information relevant to the development of the forcing datasets, as well as their interpretation, can be found at:
 
 IPCC's DDC
 
----
+
 
 ##CMIP5 Model Output:
 
