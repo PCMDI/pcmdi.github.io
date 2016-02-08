@@ -17,33 +17,39 @@ As of January 2007, over 35 terabytes of data were in the archive and over 337 t
 
 ### [Information for analysts](http://www-pcmdi.llnl.gov/ipcc/info_for_analysts.php)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Terms of use agreement](http://www-pcmdi.llnl.gov/ipcc/info_for_analysts.php#Terms_of_use)
+[Terms of use agreement](http://www-pcmdi.llnl.gov/ipcc/info_for_analysts.php#Terms_of_use)
+{: .indent}
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Proper citation and acknowledgement](http://www-pcmdi.llnl.gov/ipcc/info_for_analysts.php#Proper_acknowledgement)
+[Proper citation and acknowledgement](http://www-pcmdi.llnl.gov/ipcc/info_for_analysts.php#Proper_acknowledgement)
+{: .indent}
 
-     
+[How to access CMIP3 archive and getting started](http://www-pcmdi.llnl.gov/ipcc/info_for_analysts.php#getting_started)
+{: .indent}
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[How to access CMIP3 archive and getting started](http://www-pcmdi.llnl.gov/ipcc/info_for_analysts.php#getting_started)
+[Output availability at a glance](http://www-pcmdi.llnl.gov/ipcc/data_status_tables.htm)
+{: .indent}
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Output availability at a glance](http://www-pcmdi.llnl.gov/ipcc/data_status_tables.htm)
+[Check errata page frequently](http://www-pcmdi.llnl.gov/ipcc/info_for_analysts.php#Check_errata)
+{: .indent}
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Check errata page frequently](http://www-pcmdi.llnl.gov/ipcc/info_for_analysts.php#Check_errata)
+[List of simulation specifications](http://www-pcmdi.llnl.gov/ipcc/standard_output.html#Experiments)
+{: .indent}
 
-     
+[Precise definitions of variables](http://www-pcmdi.llnl.gov/ipcc/standard_output.html)
+{: .indent}
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[List of simulation specifications](http://www-pcmdi.llnl.gov/ipcc/standard_output.html#Experiments)
+[Official model names](http://www-pcmdi.llnl.gov/ipcc/model_documentation/ipcc_model_documentation.php)
+{: .indent}
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Precise definitions of variables](http://www-pcmdi.llnl.gov/ipcc/standard_output.html)
+[Model documentation](http://www-pcmdi.llnl.gov/ipcc/model_documentation/ipcc_model_documentation.php) (including simulation forcing information)
+{: .indent}
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Official model names](http://www-pcmdi.llnl.gov/ipcc/model_documentation/ipcc_model_documentation.php)
+[Which control simulation (and time period) should each perturbation run be compared to?](http://www-pcmdi.llnl.gov/ipcc/info_for_analysts.php#time_info)
+{: .indent}
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Model documentation](http://www-pcmdi.llnl.gov/ipcc/model_documentation/ipcc_model_documentation.php) (including simulation forcing information)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Which control simulation (and time period) should each perturbation run be compared to?](http://www-pcmdi.llnl.gov/ipcc/info_for_analysts.php#time_info)
-
-     
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[IPCC AR4 historical details](http://www-pcmdi.llnl.gov/ipcc/historical_details.php)
+[IPCC AR4 historical details](http://www-pcmdi.llnl.gov/ipcc/historical_details.php)
+{: .indent}
 
 ### Information for modeling groups contributing model output to the CMIP3 archive:
 
@@ -57,9 +63,11 @@ As of January 2007, over 35 terabytes of data were in the archive and over 337 t
 
 ### Overview presentations concerning the WCRP CMIP3 multi-model dataset archived at PCMDI:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To [IPCC WG1 AR4 First Lead Authors Meeting](http://www-pcmdi.llnl.gov/ipcc/Trieste_viewgraphs.pdf) (Trieste, Italy, 26-29 September 2004)
+To [IPCC WG1 AR4 First Lead Authors Meeting](http://www-pcmdi.llnl.gov/ipcc/Trieste_viewgraphs.pdf) (Trieste, Italy, 26-29 September 2004)
+{: .indent}
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To [Workshop on Analyses of Climate Model Simulations for the IPCC AR4](http://www-pcmdi.llnl.gov/ipcc/Hawaii_viewgraphs.pdf) (Honolulu, Hawaii, 1-4 March 2005)
+To [Workshop on Analyses of Climate Model Simulations for the IPCC AR4](http://www-pcmdi.llnl.gov/ipcc/Hawaii_viewgraphs.pdf) (Honolulu, Hawaii, 1-4 March 2005)
+{: .indent}
 
 ### Climate Forcing
 

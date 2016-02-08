@@ -29,7 +29,7 @@ CMIP5 promotes a standard set of model simulations in order to:
 
 The CMIP5 (CMIP Phase 5) experiment design has been finalized with the following suites of experiments:
 
-I   Decadal Hindcasts and Predictions simulations,
-II  "long-term" simulations,
-III  "atmosphere-only" (prescribed SST) simulations for especially computationally-demanding models.
+1.  Decadal Hindcasts and Predictions simulations,
+2.  "long-term" simulations,
+3.  "atmosphere-only" (prescribed SST) simulations for especially computationally-demanding models.
 

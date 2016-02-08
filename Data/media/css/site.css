@@ -5,3 +5,7 @@ blockquote.quote p{
 body{
 	font-size: 16px;
 }
+
+.indent{
+	margin-left: 20px;
+}
