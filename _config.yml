@@ -1,3 +1,5 @@
 name: PCMDI
 author: webshootertk
 markdown: kramdown
+
+baseurl: ""
