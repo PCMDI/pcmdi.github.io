@@ -52,7 +52,7 @@ Assessment Report on Climate Change][report], which is scheduled for publication
 [ASR]:  http://asr.science.energy.gov/
 [CESD]: #
 [BER]:  #
-[mi]:   model_intercomparison.html
+[mi]:   projects/
 [mpt]:  #
 [cf]:   #
 [aims]: http://aims.llnl.gov/
