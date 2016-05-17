@@ -47,16 +47,16 @@ Assessment Report on Climate Change][report], which is scheduled for publication
 
 
 [LLNL]: http://www.llnl.gov/
-[sf]: location.html
-[RGCM]: http://www.er.doe.gov/ober/CESD/regional.html
-[ASR]: http://asr.science.energy.gov/
-[CESD]: http://www.er.doe.gov/ober/CESD_top.html
-[BER]: http://www.er.doe.gov/ober/ober_top.html
-[mi]: model_intercomparison.html
-[mpt]: http://capt.llnl.gov/
-[cf]: http://cloud-feedbacks.llnl.gov/
+[sf]:   location.html
+[RGCM]: #
+[ASR]:  http://asr.science.energy.gov/
+[CESD]: #
+[BER]:  #
+[mi]:   model_intercomparison.html
+[mpt]:  #
+[cf]:   #
 [aims]: http://aims.llnl.gov/
-[cmf]: http://www-pcmdi.llnl.gov/projects/modeldoc/index.php
+[cmf]:  http://www-pcmdi.llnl.gov/projects/modeldoc/index.php
 [WCRP]: http://www.wcrp-climate.org/
 [CMIP5]: http://pcmdi-cmip.llnl.gov/cmip5/index.html
 [ESGF]: http://esgf.llnl.gov/
