@@ -103,7 +103,7 @@
   padding-top:7px;
 }
 #llnl-menu-tab {
-  background: url({{site.baseurl}}/Data/media/images/llnl-tab.png) no-repeat top center;
+  background: url(Data/media/images/llnl-tab.png) no-repeat top center;
   -webkit-border-radius: 0 0 4px 4px;
   -moz-border-radius: 0 0 4px 4px;
   border-radius: 0 0 4px 4px;
