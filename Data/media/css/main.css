@@ -137,7 +137,7 @@
   float:left;
   padding:0;
   margin:4px 0px 0px 0px;
-  background: url(/llnl-docs/onelab/templates/assets/images/small_llnl_logo.jpg) no-repeat top center;
+  background: url(/Data/media/images/small_llnl_logo.jpg) no-repeat top center;
 }
 .llnl-menu-tab > a {
   display: block;
@@ -295,7 +295,7 @@
 }
 
 span.showto {
-  background: url(/llnl-docs/onelab/templates/assets/images/mailto.png) no-repeat;
+  background: url(/Data/media/images/mailto.png) no-repeat;
   margin-left: 5px;
   padding-right: 15px
 }
@@ -335,7 +335,7 @@ span.showto {
 -------------------------------------------------------------------*/
 .hero-unit.hero-full-image {
   padding: 0;
-  background: url(/content/assets/images/hero-image-full.jpg) no-repeat center;
+  background: url(/Data/media/images/hero-image-full.jpg) no-repeat center;
   height: 326px;
 }
 
@@ -363,7 +363,7 @@ span.showto {
   display: block;
   width: 145px;
   height: 41px;
-  background: url(/content/assets/images/hero-image-hang.png) no-repeat center;
+  background: url(/Data/media/images/hero-image-hang.png) no-repeat center;
   position: absolute;
   z-index: 9999;
   top: 325px;
