@@ -1,0 +1,955 @@
+---
+layout: default
+title: AIMIP 2 
+---
+<!-- CSS for the table of content on the left side -->
+<style type"text/css" >
+#tableContent {
+    
+    position: fixed;
+}
+
+#content {
+    float:right;
+}
+
+</style>
+
+<!-- Table of content -->
+<div data-spy="scroll" data-target="#myScrollspy" data-offset="20">
+<div class="container">
+<div class="row" >
+<div class="span3" id ="tableContent" >
+<div class="well sidebar-nav" id="myScrollspy">
+
+<ul class="nav nav-pills nav-stacked">
+
+<a href="/projects/amip/" ><h4>AMIP Home</h4></a>
+<li><a href="#Introduction">Introduction </a></li>
+<li><a href="#source_data">Source Data</a></li>
+<li><a href="#purification_sst">Purification of the OISST</a></li>
+<li><a href="#masks">Land/Sea/Glacier Masks</a></li>
+<li>
+<a href="#create_sic">Creation of the Sea Ice Concentration (SIC) fields</a></li>
+
+<li>
+<a href="#prop_sic">Properties of the SIC</a></li>
+
+<li>
+<a href="#create_sst">Creation of the SST fields</a></li>
+
+<li>
+<a href="#graphics">SST and SIC Graphics</a></li>
+
+<li>
+<a href="#data">SST and SIC Observation Data</a></li>
+
+<li>
+<a href="#conclusions">Conclusions</a></li>
+
+
+
+</ul>
+</div>
+</div>
+
+<div class="span9" id="content">
+<div class="row-fluid"> 
+
+
+<!-- Mirrored from www-pcmdi.llnl.gov/amip/AMIP2EXPDSN/BCS_OBS/amip2_bcs.htm by HTTrack Website Copier/3.x [XR&CO'2004], Fri, 09 Jul 2004 21:01:42 GMT --><head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="Generator" content="Microsoft Word 97">
+   <meta name="Template" content="C:\Program Files\Microsoft Office\Office\HTML.DOT">
+   <meta name="GENERATOR" content="Mozilla/4.03 [en] (Win95; I) [Netscape]">
+   <meta name="Author" content="Anna M. McCravy">
+   <title>AMIP II Observations of SST and SIC</title>
+</head>
+<body alink="#FF0000" bgcolor="#fcf1da" link="#0000FF" text="#000000" vlink="#800080">
+&nbsp;
+
+
+<center><h2><div id="Introduction">AMIP
+II Sea Surface Temperature and Sea Ice Concentration Observations</h2></center></td>
+
+
+
+
+<h3><a href="mailto:fiorino@llnl.gov">Mike Fiorino</a></h3>
+
+
+<h3><font face="Garamond"><a href="../../../../">Program for
+Climate Model Diagnosis and Intercomparison&nbsp;</a></font></h3>
+
+
+<h3><font face="Garamond"><a href="http://www.llnl.gov/">Lawrence Livermore
+National Laboratory&nbsp;</a></font></h3>
+
+<font face="Garamond">Livermore, CA 94950</font>
+
+
+<p><b><font face="Garamond">19 February, 1997<br>15 September, 2000</font></b></p>
+
+
+
+
+
+<tr>
+<td colspan="3" height="32" valign="TOP"><i><font color="#FF0000"><b><font face="Arial"><font size="+1">Disclaimer</font></font></b><font size="+3">&nbsp;</font></font></i></td>
+</tr>
+
+<tr>
+<td valign="TOP" width="7%">&nbsp;</td>
+
+<td colspan="2" valign="CENTER" width="93%"><b>This document hopes to promote
+feedback between </b><a href="../../../../">PCMDI</a><b>,
+data providers and the <a href="http://www-pcmdi.llnl.gov/projects/amip/">AMIP </a>community.
+While the observations for the AMIP II boundary conditions have been finalized
+your comments and suggestions are encouraged. Please respond by sending
+email to Mike at <a href="mailto:fiorino@typhoon.llnl.gov">fiorino@llnl.gov</a>.</b></td>
+</tr>
+
+<tr>
+<td colspan="3" height="18" valign="TOP"><b><i><font face="Arial"><font color="#000080"><font size="+1">Table
+of Contents</font></font></font></i></b></td>
+</tr>
+</tbody></table>
+&nbsp;
+<ul>
+
+
+
+
+
+</ul>
+
+<h2>
+Introduction</h2>
+The specification of sea surface temperature (SST) and sea ice concentration
+(SIC) is the most basic and perhaps the most important experimental condition
+for AMIP II. The <font color="#FF0000">AMIP I</font> boundary conditions
+(BCS) suffered from two basic deficiencies: 1) large and unrealistic changes
+in sea ice coverage, particularly in the Antarctic; and 2) <b><i>undefined</i></b>
+points that led to substantial and unintended differences in the actual
+SST used in the 30+ models, especially around the coastlines. The first
+problem is data related while the second is primarily technical.
+
+<p>To overcome these observation deficiencies, and to improve the quality
+of the boundary forcing, we have created AMIP II BCS observations (BCSOBS)
+that are:
+</p><ul>
+<li>
+Consistent with the BCSOBS used in the <a href="http://www.ecmwf.int/">ECMWF
+</a>and <a href="http://www.ncep.noaa.gov/">NCEP </a>reanalysis</li>
+
+<li>
+Most current and best available</li>
+
+<li>
+Appropriate for climate model applications.</li>
+
+<li>
+Include the land and glacier/ice-shelf points masks used in the development</li>
+
+<li>
+Global grids with data defined at all points</li>
+</ul>
+Consistency with reanalysis is desirable as reanalysis will provide the
+bulk of AMIP II validation data. However, a considerable effort has gone
+into improving the BCS data sets since the reanalysis BCS were set two
+years ago. This is particularly true for SIC. While consistency with reanalysis
+is desirable, we wanted BCSOBS best representative of the relatively observationally
+rich 17-year AMIP II period as opposed to BCSOBS designed for multi-decadal
+GCM integrations such as the Climate of the 20<sup>th</sup> Century (C20C)
+experiment.
+
+<p>Another deficiency in the <font color="#FF0000">AMIP I</font> BCS was
+a smoothed and reduced amplitude of the SST annual cycle caused by interpolation
+of the monthly means (assumed to be valid at the mid point of the month)
+to daily values. That is, the monthly mean of the daily-interpolated values
+was different than the original observed input monthly mean. <a href="../../AMIP2EXPDSN/BCS/amip2bcs.html">Taylor
+et al</a> (1996) have developed a procedure for AMIP II to adjust the observations
+so that the monthly mean of the daily-interpolated BCS is the same as the
+observed monthly mean (BCSOBS). <b><i>Thus, the SST and SIC BCS for AMIP
+II will not be the same as the observations</i></b>. This paper focuses
+solely on the observations.
+
+</p><p>To avoid technical differences in BCS among the AMIP II participants,
+the BCS have valid data at all points. The method for filling undefined
+points over land/glaciers is the same algorithm as used in the NCEP reanalysis
+for setting SST over land and produces smoothly varying fields across the
+land/sea interface.
+
+</p><p>The BCS in the <a href="http://www.cdc.noaa.gov/cdc/reanalysis/reanalysis.shtml">NCEP/NCAR
+reanalysis</a> and <a href="http://www.ecmwf.int/research/era/">ECMWF
+reanalyses </a>were linearly interpolated to daily values to simplify their
+use in the assimilation process. When appropriate, we have formed monthly
+means using these daily values. The source data for these "daily" values,
+however, come from monthly mean, weekly or daily analyses. The change in
+frequency of the source data sets was the primary reason for using monthly
+means instead of daily or weekly BCSOBS in AMIP II.
+</p><h2>
+<a name="source_data"></a>Source Data</h2>
+There are three basic sources of data for the AMIP II BCSOBS:
+<ol>
+<li>
+satellite-sensed sea ice concentration from A. Nomura (JMA/<a href="http://www.ecmwf.int/">ECMWF</a>)
+[Nomura, 1995 #32] and R. Grumbine (NCEP) [Grumbine, 1996 #34] - passive
+microwave radiation converted to sea ice concentration using the NASA-Team
+algorithm [Cavalieri, 1992 #92]</li>
+
+<li>
+OISST
+from NCEP (Optimal Interpolation SST) [Reynolds, 1994 #17] - bias corrected
+and reanalyzed.</li>
+
+<li>
+GISST2.2a (Global Ice and SST) from the <a href="http://www.met-office.gov.uk/research/hadleycentre/">Hadley
+Centre </a>of the <a href="http://www.met-office.gov.uk">U. K. Meteorological
+Office</a> [Rayner, 1995 #33] - A new, EOF-reconstructed SST used for the
+C20C integrations. GISST2.2a is the corrected version of GISST2.2. In the
+original GISST2.2, the SST in the sea ice margin was in error.</li>
+</ol>
+The daily OISST and SIC data were kindly provided by NCEP and are identical
+to that used in both reanalyses. The GISST2.2a data were provided courtesy
+of the Hadley Centre.
+
+<p>The properties of the source data for the AMIP II BCSOBS are illustrated
+using a <a href="../../AMIP2EXPDSN/BCS_OBS/grf/amip2_data_sources.gif">time
+line</a> and in the following table.
+<br>&nbsp;
+<table border="" bordercolor="#000000">
+<tbody><tr>
+<td valign="CENTER">
+<center>
+<h3>
+Field</h3></center>
+</td>
+
+<td valign="CENTER">
+<center>
+<h3>
+Source&nbsp;</h3></center>
+</td>
+
+<td valign="CENTER">
+<center>
+<h3>
+Period&nbsp;</h3></center>
+</td>
+
+<td valign="CENTER">
+<center>
+<h3>
+Frequency&nbsp;</h3></center>
+</td>
+
+<td valign="CENTER">
+<center>
+<h3>
+Period</h3></center>
+</td>
+
+<td valign="CENTER">
+<center>
+<h3>
+Resolution&nbsp;</h3></center>
+</td>
+</tr>
+
+<tr>
+<td valign="CENTER">
+<h4>
+SST</h4>
+</td>
+
+<td valign="CENTER">
+<h4>
+GISST 2.2a (UKMO)&nbsp;</h4>
+
+<h4>
+OISST (NCEP)&nbsp;</h4>
+</td>
+
+<td valign="CENTER">
+<h4>
+7812-8111&nbsp;</h4>
+
+<h4>
+8112-present&nbsp;</h4>
+</td>
+
+<td valign="CENTER">
+<h4>
+monthly&nbsp;</h4>
+
+<h4>
+weekly&nbsp;</h4>
+</td>
+
+<td valign="CENTER">
+<h4>
+7812-9512&nbsp;</h4>
+</td>
+
+<td valign="CENTER">
+<h4>
+1x1deg</h4>
+</td>
+</tr>
+
+<tr>
+<td valign="CENTER">
+<h4>
+Sea Ice</h4>
+</td>
+
+<td valign="CENTER">
+<h4>
+Nomura (ECMWF)&nbsp;</h4>
+
+<h4>
+Grumbine (NCEP)&nbsp;</h4>
+
+<h4>
+Grumbine (NCEP)&nbsp;</h4>
+</td>
+
+<td valign="CENTER">
+<h4>
+7812-9111&nbsp;</h4>
+
+<h4>
+9111-9510&nbsp;</h4>
+
+<h4>
+9511-present&nbsp;</h4>
+</td>
+
+<td valign="CENTER">
+<h4>
+weekly&nbsp;</h4>
+
+<h4>
+daily&nbsp;</h4>
+
+<h4>
+daily&nbsp;</h4>
+</td>
+
+<td valign="CENTER">
+<h4>
+7812-9511&nbsp;</h4>
+
+<h4>
+9512-present</h4>
+</td>
+
+<td valign="CENTER">
+<h4>
+1x1 deg&nbsp;</h4>
+
+<h4>
+1x1 deg&nbsp;</h4>
+
+<h4>
+0.5x0.5 deg&nbsp;</h4>
+</td>
+</tr>
+</tbody></table>
+We first note that the observations have three different frequencies and
+two horizontal grid resolutions. Furthermore, while most grids had a resolution
+of 1x1 deg, some had different origins. Thus, a considerable amount of
+data mechanics was necessary to rectify the data to the common grid (e.g.,
+shifting of the cyclically continuous in longitude grids to the prime meridian).
+
+</p><p>The most important properties are summarized as:
+</p><ol>
+<li>
+Different sources for both SST and SIC</li>
+
+<li>
+Different times when the source data change</li>
+
+<li>
+Different sea ice data used in the two SST analyses</li>
+</ol>
+
+<h2>
+<a name="purification_sst"></a>Preprocessing of the SST Source Data</h2>
+Both the GISST2.2a and OISST data sets contained internal sea ice masks
+(SST ~ -1.8 C) derived from different sources. Furthermore, these internal
+masks differed from that in the Nomura/Grumbine SIC. Thus, the SST and
+SIC used in reanalysis could conflict. For example, the OISST might have
+a point which is sea ice (-1.8 C) but the SIC data has the point as open
+ocean. Conversely, the SIC might define a point as being ice, but the SST
+would be warmer than the sea ice temperature.
+
+<p>The problem is illustrated for the <a href="../../AMIP2EXPDSN/BCS_OBS/grf/sst_purify/amip2.sst_purify.sic.global.gif">daily
+analyses of 1 January, 1996</a>. The white boxes show where the original
+SIC and SST data were defined as sea ice using 0.55 as the threshold value
+for the mask. The blue boxes show where the SIC analysis defines open ocean
+but the OISST is sea ice, and the red boxes where the OISST is open ocean
+and the SIC analysis indicates sea ice. The greatest areal extent of the
+conflicts occur in the <a href="../../AMIP2EXPDSN/BCS_OBS/grf/sst_purify/amip2.sst_purify.sic.shem.gif">southern
+ocean</a> although the difference in <a href="../../AMIP2EXPDSN/BCS_OBS/grf/sst_purify/amip2.sst_purify.sst.shem.gif">SST
+</a>between the original and purified SST analysis is not large. In the
+<a href="../../AMIP2EXPDSN/BCS_OBS/grf/sst_purify/amip2.sst_purify.sic.nhem.gif">Arctic</a>,
+we find more unfrozen points in the OISST where the <a href="../../AMIP2EXPDSN/BCS_OBS/grf/sst_purify/amip2.sst_purify.sst.nhem.gif">SSTs
+</a>are considerably warmer that sea ice.
+
+</p><p>To reduce such conflicts the original daily OISST were adjusted in the
+internal sea ice margins to be reflective of an ocean-only analysis. This
+"purification" process works as follows:
+</p><ul>
+<li>
+The first and last five rows on the global grid (85-90 deg) were set to
+the sea ice temperature of -1.8 C.</li>
+
+<li>
+The remaining sea ice points were set to undefined</li>
+
+<li>
+The undefined points were filled in using a Cressman scan analysis procedure
+dubbed the "weaver" at NCEP. This is the same routine used to fill or define
+SST values over land and insures a reasonable transition across the land/sea
+boundary.</li>
+</ul>
+Finally, there are three missing days in the daily-interpolated SST in
+1995: 6,12, and 17 November.
+<h2>
+<a name="masks"></a>Masks</h2>
+The land sea mask  is the same as used in the NCEP OISST.
+This mask has more ocean points than would be typically used in a model,
+but has the advantage of allowing the SST analysis to have more influence
+at the land/sea boundary -- a desirable feature when interpolating to coarser
+resolution models.
+
+<p>The glacier mask that came from the NCEP reanalysis is used primarily
+to differentiate open ocean from the permanent ice shelves of Antarctica.
+The mask was originally 2 deg, but was adjusted manually to be more representative
+of higher resolution ice shelves as seen in [Gloersen, 1992 #41].
+
+</p><p>A graphic of the mask may be found by clicking <a href="../../AMIP2EXPDSN/BCS_OBS/grf/mask/amip2.1deg.masks.gif">here</a>.
+</p><h2>
+<a name="create_sic"></a>Creation of the SIC BCSOBS</h2>
+Although the three SIC source data sets have different sampling frequencies
+and horizontal resolution, these data sets are all based on passive microwave
+observations from the SSMR and SSM/I instruments aboard the Nimbus 7 and
+DMSP satellites. Further, they use a common algorithm to convert the radiation
+to sea ice concentration.
+
+<p>The two basic data sets are identified by their creators A. Nomura (JMA
+and ECMWF, see [Nomura, 1995 #32]) and R. Grumbine (NCEP, see [Grumbine,
+1996 #34]) and the final data set for AMIP II will be called "AMIP II."
+For the Grumbine sea ice, the documentation may be found in (<a href="http://polar.ncep.noaa.gov/seaice/icegroup.html">http://polar.ncep.noaa.gov/seaice/icegroup.html</a>).
+Also, click <a href="http://www.natice.noaa.gov">here</a>
+for an excellent starting point on sea ice.
+
+</p><p>The original satellite data was on a ~25 km polar stereographic grid
+and was then interpolated to a lat/lon grid for use in models. Nomura applied
+extensive quality control of the lat/lon sea ice concentration to eliminate
+bad and missing data. He choose a weekly time interval to insure sufficient
+observations in each grid box as the SSMR sampling was less than the SSM/I.
+Whereas Nomura started with SIC, Grumbine uses the radiation data directly
+and applies quality control to both the source data and SIC product. More
+significantly, Grumbine performs his analysis daily.
+</p><h3>
+Intercomparison during the overlap period</h3>
+We first compare the two data sets in the one month where they overlap
+- December of 1991. Grumbine uses an updated algorithm for the radiance
+to sea ice conversion and more extensive quality control. Close correspondence
+would indicate the resulting sea ice analysis is dominated by the observations
+and not the process (i.e., the "what" versus the "how"). In the <a href="../../AMIP2EXPDSN/BCS_OBS/grf/grumbine_vs_nomura_9112/grum_nomura.sic.9112.nps.gif">Northern
+Hemisphere</a> we find very good agreement (I have only averaged and rectified
+the grids at this point), even when looking in the <a href="../../AMIP2EXPDSN/BCS_OBS/grf/grumbine_vs_nomura_9112/grum_nomura.sic.9112.delta.nps.gif">difference
+field</a>. However, the Grumbine field has a slightly higher net concentration,
+particularly in Hudsons Bay, but these differences are well within the
+error bounds (3-10%).
+
+<p>The agreement in the <a href="../../AMIP2EXPDSN/BCS_OBS/grf/grumbine_vs_nomura_9112/grum_nomura.sic.9112.sps.gif">Southern
+Hemisphere</a> is less good and we find consistently lower concentrations
+in the <a href="../../AMIP2EXPDSN/BCS_OBS/grf/grumbine_vs_nomura_9112/grum_nomura.sic.9112.delta.sps.gif">difference
+field</a>. Also, note the differences in at the glacier/land - ocean interface
+- a consequence of different masks. Nevertheless, the difference are still
+within error bounds and, as will be shown later, no large discontinuites
+were discovered. Thus, we conclude that the Grumbine and Nomura data are
+likely comparable and consistent even though the Grumbine data is expected
+<i>a priori</i> to be of higher quality because of improved observations
+and processing.
+</p><h3>
+Data Adjustments</h3>
+While the intercomparison showed reasonable agreement between the data
+sets, some differences in the final product used by reanalysis remained
+due to how the polar stereo data was interpolated to the 1 (0.5) deg lat/lon
+grid and different land masks. Thus, some minor adjustments were required
+to generate the final AMIP II SIC monthly means.
+
+<p>The process is outlined below:
+</p><ol>
+<li>
+<b><i>Generation of the monthly mean SIC</i></b></li>
+</ol>
+
+<ul>
+<ul>
+<li>
+average the daily SIC data to form the monthly mean. For Nomura the "daily"
+data comes from an interpolation of original weekly analyses to daily values
+as in the NCEP reanalysis. In contrast, the Grumbine data is a true daily
+analysis.</li>
+
+<li>
+set values &gt;= 0.98 to 1.0 to rectify differences in how high ice concentration
+is treated (Nomura 0.99 and Grumbine 1.00).</li>
+
+<li>
+If undefined, set the unobserved values near the North Pole (85-90) to
+1.0.</li>
+
+<li>
+move the data to the standard 360x180 1deg grid where (1,1) = 0.5E, 89.5S
+by:</li>
+
+<ul>
+<li>
+area-weighted regridding of the 0.5 deg data</li>
+
+<li>
+shifting in longitude (Nomura (1,1) = (179.5W, 89.5S) ; Grumbine (1,1)
+= 0.5W, 89.5N)</li>
+</ul>
+
+<li>
+fill the undefined points in the Nomura data using successive regridding.
+This procedure extends defined data into the undefined regions and gives
+smooth transitions at the coastlines. The purpose is to provide reasonable
+values when interpolating to a coarser (generally) model grid<b><i>. The
+regrid extrapolation does not change any defined data</i></b>.</li>
+
+<li>
+generate masks where SIC &gt; 0.10, 0.15, 0.35, 0.55, 0.70 (1=sea ice, 0 =
+open ocean, undefined values at land or glacier points).</li>
+
+<li>
+generate SIC from the GISST2.2 data using the same algorithm as above for
+intercomparison purposes.</li>
+</ul>
+</ul>
+
+<ol>
+<li>
+<b><i>Calculate "sea ice extent"</i></b></li>
+</ol>
+
+<ul>
+<ul>
+<li>
+Sea ice extent is defined by [Gloersen, 1992 #41] as the surface of the
+earth with SIC &gt; 15 % and expressed as millions of km<sup>2</sup> . We
+calculate sea ice extent in the same (roughly) 12 areas as [Gloersen, 1992
+#41] for intercomparison purposes and to verify the data is reasonable.
+A similar analysis would have uncovered the more egregious errors in the
+AMIP I SIC in the Southern Hemisphere.</li>
+</ul>
+</ul>
+
+<h2>
+<a name="prop_sic"></a>Properties of the SIC BCSOBS</h2>
+An interesting technical feature of the data were infrequent, large areas
+of very low SIC (2% and lower) in both sets, e.g., <a href="../../AMIP2EXPDSN/BCS_OBS/grf/sic/nhem/amip2.sic.nhem.9012.gif">December,
+1990</a> (Nomura) and <a href="../../AMIP2EXPDSN/BCS_OBS/grf/sic/shem/amip2.sic.shem.9506.gif">June,
+1995</a> (Grumbine). For models that use SIC instead of a mask and that
+might respond to very low values, a check would be needed. I did not filter
+these points out because they could be realistic in the ice margins and
+in the regions of low ice concentration near the Ross Ice Shelf as seen
+in the <a href="../../AMIP2EXPDSN/BCS_OBS/grf/sic/ac/amip2.sic.ac.shem.7902.gif">17-year
+mean for February</a> (summer time). Further, such a filter algorithm is
+not grossly obvious and might not be necessarily appropriate for all models.
+
+<p>To detect trends and temporal consistency we examine the sea ice extent
+calculated in a similar way as in the Gloersen et al. 1992 NASA SSMR sea
+ice atlas. Because of different land/sea masks and crude area definition
+there are differences between the AMIP II sea ice extent and that in the
+NASA atlas. However, comparing the <a href="../../AMIP2EXPDSN/BCS_OBS/grf/sic_ts/sea.ice.extent.06.arctic_ocean.gif">Arctic
+time series</a> to that on p. 114 of the atlas, we see excellent agreement
+in the low ice months but about 15 % greater extent in the winter. This
+difference is mostly a consequence of the mask (I have few land points).
+Because we need data at all points for interpolation to the model grids,
+this discrepancy is considered acceptable. The key point is that character
+of the time series is similar and no untoward trends are found in the AMIP
+II data. In contrast, the GISST2.2a data shows a serious negative trend.
+
+</p><p>Another notable feature is the large increase in December of 1995 in
+both the Arctic and <a href="../../AMIP2EXPDSN/BCS_OBS/grf/sic_ts/sea.ice.extent.12.anarctic_ocean.gif">Antarctic
+time series</a>. This is the point where Grumbine shifts to a 0.5 degree
+analysis and further investigation and more data are needed to understand
+if these data are biased.
+
+</p><p>The table below provides time series in the other Gloersen et al. areas
+and gives some comments on the plots.
+</p><center><b>Intercomparison of GISST2.2a and AMIP II sea ice extent</b></center>
+
+
+<p>&nbsp;
+<br>&nbsp;
+<table border="" bordercolor="#000000" width="739">
+<tbody><tr>
+<td valign="CENTER" width="40%"><b><font color="#000080"><font size="+1">Sea
+/ Region</font></font></b>&nbsp;</td>
+
+<td valign="CENTER" width="60%"><b><font color="#000080"><font size="+1">Comments</font></font></b>&nbsp;</td>
+</tr>
+
+<tr>
+<td valign="CENTER" width="40%"><a href="../../AMIP2EXPDSN/BCS_OBS/grf/sic_ts/sea.ice.extent.01.artc_bering_sea.gif">Bering
+Sea (Arctic)</a>&nbsp;</td>
+
+<td valign="CENTER" width="60%">Positive trend in AMIP II ice, GISST no trend,
+but more ice in 1994-96 period in AMIP II.&nbsp;</td>
+</tr>
+
+<tr>
+<td valign="CENTER" width="40%"><a href="../../AMIP2EXPDSN/BCS_OBS/grf/sic_ts/sea.ice.extent.02.artc_labador_sea.gif">Labador
+Sea (Arctic)</a>&nbsp;</td>
+
+<td valign="CENTER" width="60%">Substantial, ENSO-like interannual variation
+in both data sets, positive trend in AMIP II ice&nbsp;</td>
+</tr>
+
+<tr>
+<td valign="CENTER" width="40%"><a href="../../AMIP2EXPDSN/BCS_OBS/grf/sic_ts/sea.ice.extent.03.artc_greenland_sea.gif">Greenland
+Sea (Arctic)</a>&nbsp;</td>
+
+<td valign="CENTER" width="60%">Negative trend in GISST ice, increase in
+the 94-96 period, more ice in GISST&nbsp;</td>
+</tr>
+
+<tr>
+<td valign="CENTER" width="40%"><a href="../../AMIP2EXPDSN/BCS_OBS/grf/sic_ts/sea.ice.extent.04.artc_berents_sea.gif">Berents
+Sea (Arctic)</a>&nbsp;</td>
+
+<td valign="CENTER" width="60%">Negative trend in GISST, slight negative
+trend in AMIP II, interesting interannual variation&nbsp;</td>
+</tr>
+
+<tr>
+<td valign="CENTER" width="40%"><a href="../../AMIP2EXPDSN/BCS_OBS/grf/sic_ts/sea.ice.extent.05.artc_nihon_and_sea_o.gif">Sea
+of O / Japan (Arctic)</a>&nbsp;</td>
+
+<td valign="CENTER" width="60%">Slight negative trend in both data sets,
+more ice in AMIP II&nbsp;</td>
+</tr>
+
+<tr>
+<td valign="CENTER" width="40%"><b><i><a href="../../AMIP2EXPDSN/BCS_OBS/grf/sic_ts/sea.ice.extent.06.arctic_ocean.gif">ARCTIC
+OCEAN</a></i></b>&nbsp;</td>
+
+<td valign="CENTER" width="60%"><b><i><font color="#FF0000">Slightly more
+ice in AMIP II, but strong negative trend in GISST</font></i></b>&nbsp;</td>
+</tr>
+
+<tr>
+<td valign="CENTER" width="40%"><a href="../../AMIP2EXPDSN/BCS_OBS/grf/sic_ts/sea.ice.extent.07.antrtc_io_sec.gif">Indian
+Ocean Sector (Antarctic)</a>&nbsp;</td>
+
+<td valign="CENTER" width="60%">AMIP II more consistent, big jump in ice
+in the GISST data around 1989, large change in summer time ice in 1996
+(shift to 0.5 degree analysis)&nbsp;</td>
+</tr>
+
+<tr>
+<td valign="CENTER" width="40%"><a href="../../AMIP2EXPDSN/BCS_OBS/grf/sic_ts/sea.ice.extent.08.antrtc_wpac_sec.gif">Western
+Pacific Sector (Antarctic)</a>&nbsp;</td>
+
+<td valign="CENTER" width="60%">Large interannual variation, less trend in
+AMIP II&nbsp;</td>
+</tr>
+
+<tr>
+<td valign="CENTER" width="40%"><a href="../../AMIP2EXPDSN/BCS_OBS/grf/sic_ts/sea.ice.extent.09.antrtc_ross_sea.gif">Ross
+Sea (Antarctic)</a>&nbsp;</td>
+
+<td valign="CENTER" width="60%">Large positive trends in both data sets,
+similar 1996 summer ice feature as in the IO sector&nbsp;</td>
+</tr>
+
+<tr>
+<td valign="CENTER" width="40%"><a href="../../AMIP2EXPDSN/BCS_OBS/grf/sic_ts/sea.ice.extent.10.antrtc_amundsen_sea.gif">Amundson
+Sea (Antarctic)</a>&nbsp;</td>
+
+<td valign="CENTER" width="60%">Strong interannual variation in both sets,
+slight but opposite trends&nbsp;</td>
+</tr>
+
+<tr>
+<td valign="CENTER" width="40%"><a href="../../AMIP2EXPDSN/BCS_OBS/grf/sic_ts/sea.ice.extent.11.antrtc_weddell_sea.gif">Weddell
+Sea (Antarctic)</a>&nbsp;</td>
+
+<td valign="CENTER" width="60%">Positive trend in GISST because of greater
+ice in 1990's&nbsp;</td>
+</tr>
+
+<tr>
+<td valign="CENTER" width="40%"><b><i><a href="../../AMIP2EXPDSN/BCS_OBS/grf/sic_ts/sea.ice.extent.12.anarctic_ocean.gif">ANTARCTIC
+OCEAN</a></i></b>&nbsp;</td>
+
+<td valign="CENTER" width="60%"><b><i><font color="#FF0000">More ice and
+a big jump starting in 1989 in the GISST data leading to a positive bias
+in GISST</font></i></b>&nbsp;</td>
+</tr>
+</tbody></table>
+Despite some of the "interesting" features (occasional large areas of very
+low ice concentration and the differences in the 0.5 versus 1.0 deg analyses),
+the basic finding is that the AMIP II SIC, because of good temporal consistent
+and better data sources, is more suitable for the 17-year integration than
+the GISST2.2a SIC.
+
+</p><p>One final note is that the Grumbine SIC, after the change to daily analyses
+(December, 1995), has values over Antarctica whereas the Nomura SIC and
+the early weekly analyses do not. Thus, plots of SIC after this change
+will show quasi realistic values, but the regrid interpolation does not
+extend values (100%) to the South Pole and they are remain zero as intialized.
+This "feature" should have no affect on models with reasonable land/glacier
+masks.
+</p><h2>
+<a name="create_sst"></a>Creation of the SST BCSOBS</h2>
+Unlike SIC, where the concentrations were derived from the same type of
+observing platform, two different sources for data were used to construct
+the AMIP II SST BCSOBS. These two sources differ in:
+<ul>
+<li>
+availability of satellite data</li>
+
+<li>
+treatment of SST in the ice margins</li>
+
+<li>
+EOF reconstruction in the tropical-midlatitude oceans</li>
+</ul>
+and the properties of the resulting SST time series did, not unexpectedly,
+show large changes as the source data changed. The processing will be described
+in the sections below according to the major decisions in adjusting the
+data for AMIP II.
+<h3>
+<font color="#0000FF">Using the original monthly means for the GISST2.2a
+data</font> <font color="#0000FF">instead of the daily-interpolated fields
+from reanalysis (GISST2.2)</font></h3>
+The original GISST2.2 data are monthly means and these means were linearly
+interpolated to create daily values for the NCEP reanalysis during the
+pre-OISST period (November, 1981-present) by assuming that the monthly
+means were valid at the midpoint of the month. Full consistency with the
+NCEP reanalysis would require averaging these daily interpolated fields,
+but there were two problems with this approach: 1) an error in the ice
+margins discovered at the UKMO; and 2) damping of the annual cycle (AC).
+Thus, we used the corrected (GISST2.2a) monthly means.
+
+<p>To illustrate the AC damping problem, examine the difference between
+monthly means averaged from daily values and the original monthly means
+by clicking <a href="../../AMIP2EXPDSN/BCS_OBS/grf/gisst22_mo_vs_da/gisst22.mo_da.7908.gif">here</a>.
+Note the positive differences on the order of 0.5 C but sometimes &gt; 1 C
+in the summer hemisphere midlatitudes. This implies a substantial (&gt; 10%)
+bias in the amplitude of the annual cycle in the midlatitudes. A similar
+but smaller problem was found in the <a href="../../AMIP2EXPDSN/BCS_OBS/grf/gisst22_mo_vs_da/gisst22.mo_da.8003.gif">Southern
+Hemisphere</a>. In this case, note the strong cool anomalies in the Gulf
+Stream and Kuroshio currents.
+</p><h3>
+<font color="#0000FF">Rectify the SST to SIC</font></h3>
+As noted earlier, different SIC data sets were used in the source SST data
+and, as discussed, the first adjustment was to "purify" or <a href="#purification_sst">preprocess</a>
+the source SST data (daily or monthly mean) in its own sea ice zones. However,
+because of different values of SST in the <b><i>SIC mask regions </i></b>(SIC
+&gt; 55 %), averaging of the daily OISST means and different land/sea masks;
+different SSTs were found in SIC margins. Hence, the monthly means were
+adjusted to the same SST in the <b><i>SIC mask regions</i></b>, and in
+the <b><i>SIC margins</i></b> (10 % &lt; SIC &lt; 55 %) to insure smooth,
+and consistent transitions from an ice free to a frozen surface.
+
+<p>We first define two SSTs :1)&nbsp;<a name="OLE_LINK3"></a>SST<sub>SIC
+Mask</sub> = 271.38 K ; and 2) SST<sub>SIC Mask + </sub>= 271.48 K for
+the rectification. In the final SST, all points in the <b><i>SIC mask region</i></b>
+will equal<a name="OLE_LINK2"></a> SST<sub>SIC Mask</sub> , but first all
+SST below SST<sub>SIC Mask + </sub>are set to SST<sub>SIC Mask + </sub>to
+eliminate excessively cold points. Next, all points in the glacier regions
+and the <b><i>SIC mask region</i></b> are set to SST<sub>SIC Mask</sub>
+. The remaining land-only points (not sea and not glacier), and the points
+in the sea ice margin are set to the undefined value. Thus, the SST field
+at this point equals: 1) SST<sub>SIC Mask</sub> in the <b><i>sea ice mask
+region</i></b> and at glacier points; 2) the original value where SIC &gt;
+10%; and 3) undefined over land and in the <b><i>sea ice margin.</i></b>
+We next apply the "weaver" algorithm as described in the <a href="#purification_sst">SST
+preprocessing section</a> to set these undefined points to give smooth
+transition in the margins. However, the SST in the ice free regions (SIC
+&gt; 10%) may still be excessively cold if the point was classified as sea
+ice in the original data, but in the adjusted SST it will at least <b>not</b>
+be frozen (SST<sub>SIC Mask+</sub>).
+</p><h3>
+<font color="#0000FF">Differences in the annual cycle in the ice margins</font></h3>
+The GISST2.2a and OISST data treat the water temperature in the sea ice
+zones very differently. GISST2.2a sets the SST in the SIC &gt; 0 region using
+an <i>empirical relationship</i> based on observations. In contrast, the
+OISST sets the SST to a constant on the sea ice mask (SIC &gt; 50 % not 55
+% as in ERA) zone and the <i>analysis</i> procedure defines the SST in
+the marginal ice zones (0 &lt; SIC &lt; 50 %). Thus, the SST could conflict
+not only from differences in SIC, but in how the SST was treated in the
+ice margins and a serious difference was uncovered. Examining the <a href="../../AMIP2EXPDSN/BCS_OBS/grf/iav_za/iav.za.sst.sstorig.gif">zonally
+averaged SST</a> with the annual cycle removed shows anomalous warm water
+in the marginal sea ice regions around 80 N and 70S only during the GISST2.2a
+time.
+
+<p>The annual cycle (AC) was then calculated for the three-year period
+before (GISST2.2a AC) and after (OISST AC) the change to OISST. The difference
+field is striking, e.g., see the <a href="../../AMIP2EXPDSN/BCS_OBS/grf/sst_ac_comp/sst.ac.comp.gisst_vs_oisst.01.jan.gif">January</a>
+field. While there is a real change in the AC in the tropics and midlatitude
+oceans, a persistent warm bias was found in the high latitude ice margin.
+Use the table below to view a particular month:
+</p><center><b>Intercomparison of the GISST2.2a AC 7812-8111 and the OISST
+8212 - 8411</b></center>
+
+
+<p>&nbsp;
+<br>&nbsp;
+<table border="" bordercolor="#000000" width="840">
+<tbody><tr>
+<td valign="CENTER" width="8%">
+<center><a href="../../AMIP2EXPDSN/BCS_OBS/grf/sst_ac_comp/sst.ac.comp.gisst_vs_oisst.01.jan.gif">JAN</a></center>
+</td>
+
+<td valign="CENTER" width="8%">
+<center><a href="../../AMIP2EXPDSN/BCS_OBS/grf/sst_ac_comp/sst.ac.comp.gisst_vs_oisst.02.feb.gif">FEB</a></center>
+</td>
+
+<td valign="CENTER" width="8%">
+<center><a href="../../AMIP2EXPDSN/BCS_OBS/grf/sst_ac_comp/sst.ac.comp.gisst_vs_oisst.03.mar.gif">MAR</a></center>
+</td>
+
+<td valign="CENTER" width="8%">
+<center><a href="../../AMIP2EXPDSN/BCS_OBS/grf/sst_ac_comp/sst.ac.comp.gisst_vs_oisst.04.apr.gif">APR</a></center>
+</td>
+
+<td valign="CENTER" width="8%">
+<center><a href="../../AMIP2EXPDSN/BCS_OBS/grf/sst_ac_comp/sst.ac.comp.gisst_vs_oisst.05.may.gif">MAY</a></center>
+</td>
+
+<td valign="CENTER" width="8%">
+<center><a href="../../AMIP2EXPDSN/BCS_OBS/grf/sst_ac_comp/sst.ac.comp.gisst_vs_oisst.06.jun.gif">JUN</a></center>
+</td>
+
+<td valign="CENTER" width="8%">
+<center><a href="../../AMIP2EXPDSN/BCS_OBS/grf/sst_ac_comp/sst.ac.comp.gisst_vs_oisst.07.jul.gif">JUL</a></center>
+</td>
+
+<td valign="CENTER" width="8%">
+<center><a href="../../AMIP2EXPDSN/BCS_OBS/grf/sst_ac_comp/sst.ac.comp.gisst_vs_oisst.08.aug.gif">AUG</a></center>
+</td>
+
+<td valign="CENTER" width="8%">
+<center><a href="../../AMIP2EXPDSN/BCS_OBS/grf/sst_ac_comp/sst.ac.comp.gisst_vs_oisst.09.sep.gif">SEP</a></center>
+</td>
+
+<td valign="CENTER" width="8%">
+<center><a href="../../AMIP2EXPDSN/BCS_OBS/grf/sst_ac_comp/sst.ac.comp.gisst_vs_oisst.10.oct.gif">OCT</a></center>
+</td>
+
+<td valign="CENTER" width="8%">
+<center><a href="../../AMIP2EXPDSN/BCS_OBS/grf/sst_ac_comp/sst.ac.comp.gisst_vs_oisst.11.nov.gif">NOV</a></center>
+</td>
+
+<td valign="CENTER" width="8%">
+<center><a href="../../AMIP2EXPDSN/BCS_OBS/grf/sst_ac_comp/sst.ac.comp.gisst_vs_oisst.12.dec.gif">DEC</a></center>
+</td>
+</tr>
+</tbody></table>
+To eliminate the large differences in the AC in the data sets, the GISST2.2a
+AC was adjusted to be consistent with the OISST. We are not suggested that
+the OISST AC is necessarily better (i.e., more accurate). Rather, temporal
+consistency with the dominant source of the SST (OISST) necessitates the
+adjustment. The modification is to simply replace the 3-year GISST2.2a
+AC with the 3-year OISST AC (i.e., the AC based on the three years before
+and after the change to OISST). However, the replacement is weighted so
+that only the high latitude AC is changed. Specifically, no adjustment
+equatorward of 55 deg and full replacement poleward of 65 deg. An example
+of the correction at a <a href="../../AMIP2EXPDSN/BCS_OBS/grf/sst_ac_corr/sst.170w.ac.corr.gif">specific
+longitude and time</a> graphically shows the large differences. Note that
+some points are below SST<sub>SIC Mask.</sub> . This illustrates how the
+adjustment distorted the SIC-SST consistency. Thus, we performed the SIC-SST
+rectification again to bring the SIC and SST back in synch, but only for
+the GISST2.2a period. Also, the overcorrection only occurred at only a
+few points.
+
+</p><p>The <a href="../../AMIP2EXPDSN/BCS_OBS/grf/iav_za/iav.za.sst.sstcorr.gif">corrected</a>
+version of the <a href="../../AMIP2EXPDSN/BCS_OBS/grf/iav_za/iav.za.sst.sstorig.gif">original</a>
+zonal average SST shows that the AC replacement has yielded a consistent
+time variation in the high latitudes without affecting the tropics and
+midlatitudes. It is also interesting to note the apparent warming trend
+near ice margins from 1991-1995 in the Northern Hemisphere. This trend
+is not clearly linked with the corresponding <a href="../../AMIP2EXPDSN/BCS_OBS/grf/sic_ts/sea.ice.extent.06.arctic_ocean.gif">SIC
+trends</a> in the AMIP II SIC. The big increase in sea ice extent in 1996
+and the cooler anomalies is interesting, but may be questioned because
+of the change in the SIC analysis grid.
+
+</p><p>The small SIC-SST intercomparison above suggests that the SST should
+be <i>reanalyzed</i> using the more consistent AMIP II-type SIC and that
+such a reanalysis should explicitly link the SIC and SST in a more physical/observational
+manner (the explicit SIC-SST relationship in the GISST2.2a data is a step
+in this direction). Despite the lack of a direct connection between the
+AMIP II SIC and SST observations, we believe these data meet the requirements
+of the experiment. That is,
+</p><ul>
+<li>
+Consistency with the NCEP and ECMWF reanalyses</li>
+
+<li>
+Consistency in time</li>
+
+<li>
+A physical consistency between SST and SIC</li>
+</ul>
+While SIC-SST reanalysis (i.e., a comprehensive near surface oceanographic
+reanalysis) is clearly needed, these AMIP II BCS observations are probably
+the best available for climate model integrations during the 17-year AMIP
+II period.
+<h2>
+<a name="graphics"></a><a href="../../AMIP2EXPDSN/BCS_OBS/amip2_bcs_graphics.htm">AMIP II BCSOBS Graphics</a></h2>
+A full set of graphics (3 areas (global, nhem and shem) * 2 fields (SIC
+and SST) * 2 types (mean and anomaly) * (208 months + 12 months of climatology)
+~ 2600 plots) is available by clicking <a href="../../AMIP2EXPDSN/BCS_OBS/amip2_bcs_graphics.htm">here</a>
+(or on the section title). This page is a form that lets you "point and
+click" to select a plot.
+<h2>
+<a name="data"></a><a href="../../amip2/AMIP2EXPDSN/BCS/amipobs_dwnld.html">AMIP
+II BCSOBS Data</a></h2>
+There are several ways to access the data. The recommended path is by having
+PCMDI generate the BCS and the BCSOBS on your grid. See <a href="/projects/amip/details/">AMIP Sea Surface Temperature and Sea Ice Concentration Boundary Conditions</a>
+where you will find links to our generation process as well as links to
+the data on the 1<font face="Symbol">°</font> grid <a href="../../amip2/AMIP2EXPDSN/BCS/amipobs_dwnld.html">
+(http://www-pcmdi.llnl.gov/projects/amip/amip2/AMIP2EXPDSN/BCS/amipobs_dwnld.html</a>)
+in a variety of formats. This document also gives a complete description
+of the AMIP II BCS.
+<h2>
+<a name="conclusions"></a>Conclusion</h2>
+We hope the interactive nature of this document and the extensive plots
+will be useful in developing a clearer understanding of the data. No analysis
+and discussion of the data can substitute for a modeler / user's direct
+examination.
+
+<p>Your findings and discussion are needed to make this document a true
+community resource. Please forward them to Mike at <a href="mailto:fiorino@llnl.gov">fiorino@llnl.gov</a>.
+
+</p><p>
+</p><hr>
+
+<p>Last update 12 September 1997
+
+</p><p><a href="http://www.llnl.gov/disclaimer.html">LLNL Disclaimers</a>
+
+</p><p>UCRL-MI-125597
+
+
+
+
+</p></body><!-- Mirrored from www-pcmdi.llnl.gov/amip/AMIP2EXPDSN/BCS_OBS/amip2_bcs.htm by HTTrack Website Copier/3.x [XR&CO'2004], Fri, 09 Jul 2004 21:01:42 GMT -->
+
+</div>
+</div>
+

@@ -1,39 +1,10 @@
 ---
-layout: default
+layout: AMIP_details
 title: AIMIP Details index 
 ---
-<div data-spy="scroll" data-target="#myScrollspy" data-offset="20">
-<div class="container">
-<div class="row">
-<div class="span3">
-<div class="well sidebar-nav" id="myScrollspy">
-
-<ul class="nav nav-pills nav-stacked">
-
-<a href="#Introduction"><h4>AMIP Home</h4></a>
-<li><a href="#Summary">- Summary</a></li> 
-	<ul class="nav nav-list">
-		<li ><a href="#BM1___Shortcomings_of_the_Traditional_Me">1.Shortcomings of the  "traditional" method</a></li>
-		<li><a href="#BM2___Construction_of_the_AMIP_2_Boundar">2. Construction of the AMIP II boundary conditions</a></li>
-		<li><a href="#BM3___Comparison_of_Traditional_and_New_">3. Comparison of "traditional" and "new" methods</a></li>
-		<li><a href="#BM4___Use_of_Boundary_Condition_Data_Set">4. Use of boundary condition data set in AMIP II simulations</a></li>
-		<li><a href="#BM5___Boundary_conditions_for_suggeste">5. Boundary conditions for suggested spin-up procedure</a></li>
-		</ul>
-<li><a href="#Appendix_1">- Appendix 1 </a></li>
-<li><a href="#Appendix_2">- Appendix 2 </a></li>
-<li><a href="#Appendix_3">- Appendix 3 </a></li>
-
-
-</ul>
-</div>
-</div>
-
-<div class="span9">
-<div class="row-fluid"> 
-
 
 <!-- startprint -->
-<center><h2>AMIP&nbsp; Sea Surface Temperature and Sea Ice Concentration Boundary Conditions</font></h2>
+<center><h2><div id="Introduction">AMIP&nbsp; Sea Surface Temperature and Sea Ice Concentration Boundary Conditions</font></h2>
     <br>
     23 June 1997 (revised: 6 April 2001; 8 January 2008; 22 June 2015)
     <br>Karl E. Taylor<sup><font size="-1">1</font></sup>, David Williamson<sup><font size="-1">2</font></sup>
@@ -46,19 +17,7 @@ title: AIMIP Details index
     <br>
 <hr></center>
 
-<p><a name="Table_of"></a><u><font size="+1">Table of Contents</font></u>
-</p><p><a href="#Introduction">Introduction and links to data</a>
-<br><a href="#Summary">Summary</a>
-<br><a href="#BM1___Shortcomings_of_the_Traditional_Me">1. Shortcomings of the "traditional" method</a>
-<br><a href="#BM2___Construction_of_the_AMIP_2_Boundar">2. Construction of the AMIP II boundary conditions</a>
-<br><a href="#BM3___Comparison_of_Traditional_and_New_">3. Comparison of "traditional" and "new" methods</a>
-<br><a href="#BM4___Use_of_Boundary_Condition_Data_Set">4. Use of boundary condition data set in AMIP II simulations</a>
-<br><a href="#BM5___Boundary_conditions_for_suggeste">5. Boundary conditions for suggested spin-up procedure</a>
-<br><a href="#Appendix_1">Appendix 1: Mathematical details</a>
-<br><a href="#Appendix_2">Appendix 2: Recipe for obtaining and applying the AMIP II boundary condition data sets</a>
-<br><a href="#Appendix_3">Appendix 3: Table of mid-month dates and times</a>
-
-</p><p><div id="Introduction"><h3>Introduction and links to data</h3>
+</p><p><h3>Introduction and links to data</h3>
 </p><p>Perhaps the most important boundary conditions for AMIP-style experiments are the prescribed sea surface temperature (SST) and sea ice
 concentration (i.e., percentage of area covered by sea ice). Observed monthly mean SSTs and sea ice concentration have been compiled for
 the period January 1870 through near present. This data set will be updated periodically (at least every 6 months). These observed monthly
@@ -115,7 +74,6 @@ particular, Sheng and Zwiers (submitted to <i>Climate Dynamics</i>, 1997) descri
     <li>
     recommend a spin-up procedure that minimizes initial transients and describe the SST and sea ice data that can be used in the spin-up period.</li>
 </ul>
-<a href="#Table_of">Return to Table of Contents</a>
 <p><a name="BM1___Shortcomings_of_the_Traditional_Me"></a><h3>1.
                                                                 
 Shortcomings of the "Traditional" Method</h3>
@@ -165,8 +123,8 @@ anomalies is typically reduced below the observed variance of monthly means by 1
 will not be preserved in the actual forcing of the GCM. If the GCM response to this forcing scales linearly, then obviously the response will also
 be reduced typically by 14%. (For sea ice concentration, the corresponding number is 18%.)
 
-</p><p><a href="#Table_of">Return to Table of Contents</a>
-</p><p><a name="BM2___Construction_of_the_AMIP_2_Boundar"></a><h3>2.
+</p>
+<p><a name="BM2___Construction_of_the_AMIP_2_Boundar"></a><h3>2.
 Construction of the AMIP II Boundary Conditions</h3>
 </p><p>Because of the shortcomings described above concerning the traditional method of specifying boundary conditions, in AMIP II a new approach to
 specifying the boundary condition data sets has been devised. The boundary conditions prepared by PCMDI were originally based on the monthly-mean
@@ -228,9 +186,9 @@ for models with unrealistic calendars (e.g., twelve 30-day months), shifting the
 
 </p><p>Temperature anomaly data for the period preceding and following the AMIP II period have been used to minimize the influence of a somewhat arbitrary
 mathematical boundary condition that must be applied to solve for mid-month values. (See Appendix 1.)
-</p><p><a href="#Table_of">Return to Table of Contents</a>
+</p>
 
-</p><p><a name="BM3___Comparison_of_Traditional_and_New_"></a><h3>3.
+<p><a name="BM3___Comparison_of_Traditional_and_New_"></a><h3>3.
 Comparison of "Traditional" and "New" Methods</h3>
 </p><p>In <a href="#Fig__3">Figure 3</a> we show the observed weekly temperature time-series for a three-year period (1982-1984) at a location in the North
 Pacific. Also plotted are time-series generated by linear interpolation from observed monthly mean values (identified as "traditional") and by
@@ -257,8 +215,8 @@ series that are everywhere in better agreement with observations than the tradit
 </p><p>As noted earlier, the variance of monthly mean temperature anomalies is reduced by 14% under the "traditional" method, whereas the new method
 again forces exact agreement with observations. Thus, the new method is also superior in this regard.
 
-</p><p><a href="#Table_of">Return to Table of Contents</a>
-</p><p><a name="BM4___Use_of_Boundary_Condition_Data_Set"></a><h3>4.
+</p>
+<p><a name="BM4___Use_of_Boundary_Condition_Data_Set"></a><h3>4.
 Use of Boundary Condition Data Sets in AMIP II Simulations</h3>
 </p><p>We have described how mid-month values of SST and sea-ice concentration can be generated from observed monthly mean data. Here we describe how
 to prepare the boundary condition data for use in climate model simulations. Most of the work can be avoided by simply asking PCMDI to prepare the data
@@ -341,7 +299,7 @@ certain details that need to be taken into consideration:
         (as has been historically the practice in some models). This may therefore require some groups to modify their computer codes to
     read in the monthly sea ice concentration data set in addition to the SSTs.</li>
 </ul>
-<a href="#Table_of">Return to Table of Contents</a>
+
 <p><a name="BM5___Boundary_conditions_for_suggeste"></a><h3>5.
 Boundary conditions for suggested spin-up procedure</h3>
 </p><p>Before beginning the simulation of the AMIP II time period, the models should be spun-up in such a way as to minimize initial transients. PCMDI
@@ -360,8 +318,8 @@ needed for AMIP II.
 simply linearly ramping up to the December anomalies over a few month period. In any case the 1978 data set is artificial and only based on
 climatology, the December 1978 temperature anomalies, and the temporal autocorrelation structure of the temperature anomalies.
 
-</p><p><a href="#Table_of">Return to Table of Contents</a>
-</p><p><a name="Appendix_1"></a><h3>Appendix 1: Mathematical Details</h3>
+</p>
+<p><a name="Appendix_1"></a><h3>Appendix 1: Mathematical Details</h3>
 </p><p>Here we outline the mathematical procedure for calculating mid-month SSTs that, when linearly interpolated to generate a continuous time-series,
 will yield monthly mean temperatures that are in exact agreement with the observed monthly mean SSTs. For simplicity we describe the procedure under
 the approximation that all months are of equal length (say 30 days), but in the actual creation of the AMIP II boundary condition data set, months
@@ -483,8 +441,8 @@ but preventing abrupt jumps from one limit to the other. Specifically, if the ch
 96%, then a small amount of sea ice is moved from one month to the other to reduce the difference to less than 96%. This is done in such a way as to
 preserve the mean over the two months. These smoothed monthly means are then used in calculating the mid-month AMIP boundary condition values.
 
-</p><p><a href="#Table_of">Return to Table of Contents</a>
-</p><p><a name="Appendix_2"></a><h3>Appendix 2: Recipe for Obtaining and Applying the AMIP II Boundary Condition Data Sets</h3>
+</p>
+<p><a name="Appendix_2"></a><h3>Appendix 2: Recipe for Obtaining and Applying the AMIP II Boundary Condition Data Sets</h3>
 
 </p><p>The AMIP II SST and sea ice concentration boundary conditions should be specified such that the monthly means computed from the model output
 precisely agree with the observations as given by <a href="../BCS_OBS/amip2_bcs.htm">Fiorino (1996)</a>. There are several ways to assure agreement,
@@ -571,7 +529,7 @@ A suggested spin-up procedure is as follows:
         Simulate one year (1978) under an artificially generated boundary condition data set (supplied by PCMDI), with anomalies that are
     initially zero, but gradually approach the monthly anomalies observed in December 1978 (the first month with adequate global data).</li>
 </ul>
-<a href="#Table_of">Return to Table of Contents</a>
+
 
 <p><a name="Appendix_3"></a><h3>Appendix 3: Table of Mid-Month Dates and Times</h3>
 <br>
@@ -664,7 +622,7 @@ A suggested spin-up procedure is as follows:
 <center><i>*Number of days following 0Z January 1.</i></center>
 
 <p>
-</p><hr><a href="#Table_of">Return to Table of Contents</a>
+</p><hr>
 <hr>
 <center><a name="Fig__1"></a><img src="FIG1.gif" height="436" width="597"></center>
 
