@@ -73,6 +73,6 @@ The Coupled Model Intercomparison Project (CMIP) studies output from coupled oce
 [DOI2]:http://dx.doi.org/10.1002/joc.1756
 [synth]:http://www-pcmdi.llnl.gov/projects/msu/index.php
 [synth2011]:http://www-pcmdi.llnl.gov/projects/msu2011/index.php
-[DETC]:{{site.baseurl}}/projects/detection/
+[DETC]:{{site.baseurl}}/projects/detection/index.html
 [DCMP]:{{site.baseurl}}/projects/
 [OCME]:{{site.baseurl}}/projects/
