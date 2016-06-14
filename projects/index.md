@@ -27,7 +27,7 @@ The Coupled Model Intercomparison Project (CMIP) studies output from coupled oce
 # Detection and Attribution
 
 
-#### [Detection and Atribution Research][DETC]
+#### [Detection and Attribution Research][DETC]
  
 
 ----
@@ -35,7 +35,7 @@ The Coupled Model Intercomparison Project (CMIP) studies output from coupled oce
 # Climate Model Metrics 
 
 
-#### [Diagnosis Climate Model Performance][DCMP]
+#### [Diagnosis of Climate Model Performance][DCMP]
 
 
 ----
