@@ -67,12 +67,12 @@ To download the data used in the above article and read about the details on the
 [CMIP3]:{{site.baseurl}}/projects/cmip3/
 [CMIP5]:{{site.baseurl}}/projects/cmip5/
 [SMIP]:http://www-pcmdi.llnl.gov/projects/smip/smip2.phpsmip
-[APE]:http://www-pcmdi.llnl.gov/projects/amip/ape/index.html
+[APE]:{{site.baseurl}}/projects/ape/index.html
 [PMIP]:http://www-lsce.cea.fr/pmip2/
 [PMIP1]:http://www-lsce.cea.fr/pmip/
 [PMIP2]:http://www-lsce.cea.fr/pmip2/
 [related]:http://www.clivar.org/organization/wgcm/cmip.php
-[CAPT]:http://www-pcmdi.llnl.gov/projects/capt/index.php
+[CAPT]:{{site.baseurl}}/projects/capt/index.html 
 [ASR]:http://asr.science.energy.gov/
 [BER]:http://www.science.doe.gov/Program_Offices/BER.htm
 [ARM]:http://www.arm.gov/

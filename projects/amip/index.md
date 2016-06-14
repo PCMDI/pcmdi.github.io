@@ -13,9 +13,9 @@ The second data set is the AMIP SST and sea ice boundary conditions derived from
 
 ## Download AMIP Boundary Condition Data at 1 by 1 Degree Resolution
 
-The proper citation for the boundary condition data is the following report: Taylor, K.E., D. Williamson and F. Zwiers, 2000: "The sea surface temperature and sea ice concentration boundary conditions for AMIP II simulations" PCMDI Report 60, Program for Climate Model Diagnosis and Intercomparison, Lawrence Livermore National Laboratory, 25 pp available as a [PDF](http://www-pcmdi.llnl.gov/publications/pdf/60.pdf) (For further descriptive details, see [here](http://www-pcmdi.llnl.gov/projects/amip/AMIP2EXPDSN/BCS/index.php)). Instructions on how to correctly prescribe the boundary conditions in AMIP simulations are contained in those documents. The data sets will be periodically updated to near-present (every 6 months, or so).
+The proper citation for the boundary condition data is the following report: Taylor, K.E., D. Williamson and F. Zwiers, 2000: "The sea surface temperature and sea ice concentration boundary conditions for AMIP II simulations" PCMDI Report 60, Program for Climate Model Diagnosis and Intercomparison, Lawrence Livermore National Laboratory, 25 pp available as a [PDF](http://www-pcmdi.llnl.gov/publications/pdf/60.pdf) (For further descriptive details, see [here]({{site.baseurl}}/projects/amip/details/index.html)). Instructions on how to correctly prescribe the boundary conditions in AMIP simulations are contained in those documents. The data sets will be periodically updated to near-present (every 6 months, or so).
 
-Note that earlier versions (prior to 2007) of the observational dataset on which the boundary conditions are based were prepared following a different procedure described [here](http://www-pcmdi.llnl.gov/projects/amip/AMIP2EXPDSN/BCS_OBS/amip2_bcs.htm). There are differences between the earlier dataset and the present one which are generally small but not entirely negligible.
+Note that earlier versions (prior to 2007) of the observational dataset on which the boundary conditions are based were prepared following a different procedure described [here]({{site.baseurl}}/projects/amip/amip2/index.html ). There are differences between the earlier dataset and the present one which are generally small but not entirely negligible.
 
 
 <center> 
