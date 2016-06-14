@@ -32,7 +32,7 @@ The Coupled Model Intercomparison Project (CMIP) studies output from coupled oce
 
 ----
 
-# Model Metrics 
+# Climate Model Metrics 
 
 
 #### [Diagnosis Climate Model Performance][DCMP]
@@ -43,7 +43,7 @@ The Coupled Model Intercomparison Project (CMIP) studies output from coupled oce
 # Observations for MIPs
 
 
-#### [Observations for Climate Model Evaluation][OCME]
+#### [obs4MIPs][OCME]
 
 
 ----
