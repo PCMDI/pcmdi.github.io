@@ -7,10 +7,9 @@ group: "navigation"
 <div class="hero-unit">
   <div class="hero-bg"></div>
   <h1>PCMDI</h1>
-  <p> Some cool words about cool things about cool pcmdi. learn more will be link to CoG project page</p>
+  <p>The Program for Climate Model Diagnosis and Intercomparison: furthering the understanding of climate change through model and observational analysis and community leadership</p>
   <p><a href="#" class="btn btn-primary btn-large">Learn more »</a></p>
 </div>
-
 
 <div class="row">
   <div class="span4">
@@ -27,13 +26,10 @@ group: "navigation"
       <li>Charles Doutriaux (computer scientist)</li>
       <li>Paul Durack (climate scientist)</li>
       <li>Peter Gleckler (climate scientist)</li>
-      <li>Renata McCoy (computer scientist)</li>
       <li>Jeff Painter (computer scientist)</li>
       <li>Tom Phillips (climate scientist)</li>
       <li>Ben Santer (climate scientist)</li>
       <li>Ken Sperber (climate scientist)</li>
-      <li>Dean Williams (computer scientist)</li>
-      <li>Yuying Zhang (climate scientist)</li>
       </ul>
       </li>
     </ul>
@@ -41,7 +37,7 @@ group: "navigation"
 </div>
 
 <div class="span8">
-<h3><a href="#">PCMDI</a> Indtroduction</h3>
+<h3><a href="#">PCMDI</a> Introduction</h3>
 <p>
 <p>Established in 1989 at the Lawrence Livermore National Laboratory (<a href="https://www.llnl.gov/">LLNL</a>), the Program for Climate Model Diagnosis and Intercomparison (PCMDI) fosters and engages in research aimed at providing a systematic and comprehensive evaluation of climate models.  Working with international partners, PCMDI has inspired a fundamental cultural shift in the climate research community: there is now an expectation that everyone should have timely and unimpeded access to output from standardized climate model simulations.  This has enabled widespread scientific analysis and scrutiny of the models and, judging by the large number of resulting scientific publications, has accelerated our understanding of climate and climate change.</p>
 <p>PCMDI’s mission is to develop improved methods and tools for the diagnosis and evaluation of climate models.  Although models have become increasingly complex, model errors and disagreements among model simulations remain substantial and poorly understood. The nature and causes of these disagreements should be uncovered before the models are fully trusted to inform us about global climate change. </p>
