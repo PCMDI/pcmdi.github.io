@@ -10,11 +10,13 @@ layout: default
 
 
 
-<div class="container-fluid">
-<div class="row-fluid">
-<div class="span3" id="tableContent">
-<div class="well sidebar-nav">
-<ul class="nav nav-list">
+<div data-spy="scroll" data-target="#myScrollspy" data-offset="20">
+<div class="container">
+<div class="row" >
+<div class="span3" id ="tableContent" >
+<div class="well sidebar-nav" id="myScrollspy">
+
+<ul class="nav nav-pills nav-stacked">
 <a href="{{site.baseurl}}/projects/cmip5/"><h4>CMIP5 Home</h4></a>
 <li><a  href="{{site.baseurl}}/projects/cmip5/guide.html">Guide</a></li>
 <li id ="topic">Data Access</li>
@@ -36,7 +38,7 @@ layout: default
 </div>
 </div>
 
-<div class="span8" id="content">
+<div class="span9" id="content">
 <div class="row-fluid">
 {{ content }}
 </div>
