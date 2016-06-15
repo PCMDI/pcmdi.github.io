@@ -56,9 +56,9 @@ The Coupled Model Intercomparison Project (CMIP) studies output from coupled oce
 [icmc]:http://www-pcmdi.llnl.gov/projects/amip/STATUS/incoming.html
 [CMIP]:{{site.baseurl}}/projects/about-cmip.html
 [CMIP3]:{{site.baseurl}}/projects/cmip3/
-[CMIP2]:{{site.baseurl}}/projects/
+[CMIP2]:{{site.baseurl}}/projects/cmip2/
 [CMIP5]:{{site.baseurl}}/projects/cmip5/
-[CMIP6]:[CMIP2]:{{site.baseurl}}/projects/
+[CMIP6]:{{site.baseurl}}/projects/cmip6/
 [SMIP]:http://www-pcmdi.llnl.gov/projects/smip/smip2.phpsmip
 [APE]:{{site.baseurl}}/projects/ape/index.html
 [PMIP]:http://www-lsce.cea.fr/pmip2/
