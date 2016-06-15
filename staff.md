@@ -4,7 +4,7 @@ title: Staff
 group: "navigation"
 ---
 
-#Staff Directory
+# Staff Directory
 
 Name | Position | E-mail | Phone Number
 --- | --- | --- | --- | ---
