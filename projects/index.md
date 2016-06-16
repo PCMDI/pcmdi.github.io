@@ -29,33 +29,22 @@ The Coupled Model Intercomparison Project Phase VI
 ----
 
 # Detection and Attribution
-
-
 #### [Detection and Attribution Research][DETC]
- 
+PCMDI has led research into the detection and attribution of the causes of climate-change. This work has considered a wide-range of changes to the global climate system and included analyses of atmospheric temperature, precipitable water, ocean heat content and other key aspects of the climate system
 
 ----
 
 # Climate Model Metrics 
-
-
 #### [Diagnosis of Climate Model Performance][DCMP]
-
+The PCMDI metrics package is used to objectively compare results from climate models with observations using well-established statistical tests. Results are produced in the context of all model simulations contributed to CMIP5 and earlier CMIP phases
 
 ----
 
 # Observations for MIPs
-
-
 #### [obs4MIPs][OCME]
-Obs4MIPS (Observations for Model Intercomparisons Project) is an activity to make observational products more accessible for climate model intercomparisons.
-
+obs4MIPs (Observations for Model Intercomparisons Project) is an activity to make observational products more accessible for climate model intercomparisons.
 
 ----
-
-
-
-
 
 [AMIP]:{{site.baseurl}}/projects/amip/
 [icmc]:http://www-pcmdi.llnl.gov/projects/amip/STATUS/incoming.html
