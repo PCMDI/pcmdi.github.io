@@ -1,0 +1,1093 @@
+<HTML>
+<TITLE> CMIP2 Atlas </TITLE>
+
+
+<!-- Mirrored from www-pcmdi.llnl.gov/publications/pdf/report66/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 16 Jun 2016 01:22:08 GMT -->
+<BODY BGCOLOR = "white">
+
+<H1>
+<CENTER>
+Intercomparison of Present and Future Climates Simulated
+by Coupled Ocean-Atmosphere GCMs
+</CENTER>
+</H1>
+
+<CENTER>
+PCMDI Report No. 66
+<BR>
+UCRL-ID-140325
+</CENTER>
+<BR>
+
+<CENTER>
+Curt Covey<SUP>*</SUP>, Krishna M. AchutaRao<SUP>*</SUP>, Steven J.
+Lambert<SUP>+</SUP>, and Karl E. Taylor<SUP>*</SUP>
+<BR>
+October 2000
+</CENTER>
+
+<HR>
+<FONT SIZE = -1>
+<SUP>*</SUP>Program for Climate Model Diagnosis and Intercomparison,
+Lawrence Livermore National Laboratory, Livermore, California
+<BR>
+<SUP>+</SUP>Canadian Centre for Climate Modeling and Applications,
+Victoria, Canada
+<P>
+<I>Corresponding author address</I>: Dr. Curt Covey, Program for Climate
+Model Diagnosis and Intercomparison, Mail Code L-264, Lawrence Livermore
+National Laboratory, Livermore, CA 94550
+<BR>
+E-mail: covey1@llnl.gov
+</FONT>
+<HR>
+
+<H3> ABSTRACT </H3>
+<FONT SIZE = -1>
+<P>
+We present an overview of results from the most recent phase of the
+Coupled Model Intercomparison Project (CMIP).
+This phase of CMIP has archived output from both unforced ("control run")
+and perturbed (1% per year increasing atmospheric carbon dioxide)
+simulations by 15 modern coupled ocean-atmosphere general circulation models.
+The models are about equally divided between those employing and those not
+employing ad hoc flux adjustments at the ocean-atmosphere interface.
+The new generation of non-flux-adjusted control runs are nearly as stable
+and agree with observations nearly as well as the flux-adjusted models.
+This development represents significant progress
+in the state of the art of climate modeling since
+the Second (1995) Scientific Assessment Report 
+of the Intergovernmental Panel on Climate Change
+(IPCC; see Gates et al. 1996).
+From the increasing-CO<SUB>2</SUB> runs, we find that
+differences between different models, while substantial, are not as great as
+would be expected from earlier assessments that relied on equilibrium
+climate sensitivity.
+</FONT>
+
+<H3> 1. Introduction </H3>
+<P>
+This report summarizes several aspects of results
+from Phase 2 of the Coupled
+Model Intercomparison Project (CMIP2; see Meehl et al. 2000).
+CMIP was established in 1995 by the JSC/CLIVAR Working Group on Coupled
+Models, a part of the World Climate Research Program.  CMIP may be
+regarded as an analog of the Atmospheric Model Intercomparison Program
+(AMIP; see Gates et al. 1999) for coupled atmosphere - ocean - sea ice
+general circulation models (coupled GCMs).
+These models simulate the physical climate system given external boundary
+conditions such as solar luminosity and concentrations of radiatively active
+gases and aerosols, in contrast to atmosphere-only GCMs (AMIP-type models)
+in which sea ice and sea
+surface temperature are prescribed to match observations.
+Coupled GCMs are the
+primary models used to assess possible global warming due to the
+anthropogenic greenhouse effect.
+<P>
+The first phase of CMIP (CMIP1) collected output from coupled GCM
+"control runs" in which external climatic forcings such as greenhouse
+gas concentrations are kept constant.
+Nearly all output fields were archived as seasonal (December-January-February
+and June-July-August) climatological means.
+The next phase, CMIP2, collected output from both model control runs and matching runs
+in which atmospheric carbon dioxide increases at the rate of 1% per year.
+Under this common scenario of radiative forcing, any differences among the models are
+due to differences in their responsiveness, e.g., their differing equilibrium climate
+sensitivities and rates of ocean heat uptake, which in turn arise from differences in
+resolution, other numerical aspects, and parameterizations of sub-gridscale processes.
+CMIP2 thus facilities the study of intrinsic model differences at the price of
+idealizing the forcing scenario.
+No other anthropogenic climate forcing factors, such as anthropogenic
+aerosols (which have a net cooling effect), are included.
+Neither the control runs nor the increasing-CO<SUB>2</SUB> runs
+in CMIP include natural varations in climate forcing, e.g.,
+from volcanic eruptions or changing solar brightness.
+Each CMIP2 model simulation extends for 80 years.
+All CMIP2 model output variables were archived as four nonoverlapping
+20-year means with the exception of surface air temperature, mean sea level
+pressure and precipitation, for which all 960 monthly means were archived.
+Details of the CMIP database, together with access information, may
+be found on the CMIP Web site at http://www-pcmdi.llnl.gov/cmip/diagsub.html.
+<P>
+The purpose of this report is to give an
+overview of the CMIP2 simulations with emphasis on common model successes
+and failures in simulating the present day climate, and on common features
+of the simulated changes due to increasing CO<SUB>2</SUB>.
+We pay extra attention to the 3 fields that CMIP
+provides at monthly mean time resolution.
+The other fields, lacking information about seasonal variations,
+are necessarily described in terms of annual mean quantities.
+Extensive analyses of seasonal variations in the CMIP1 control runs
+is given by Covey et al. (2000) and Lambert and Boer (2000),
+and more specialized studies of the CMIP database are summarized by
+Meehl et al. (2000) and the CMIP Web site at http://www-pcmdi.llnl.gov/cmip/abstracts.html.
+<P>
+In this report we include 15 models from CMIP2:
+BMRC, CCCMA (CGCM1), CCSR, CERFACS (ARPEGE/OPA2), CSIRO (Mk2),
+DOE PCM, ECHAM3+LSG, GFDL (R15a), GISS (Russell),
+HadCM2, HadCM3, IAP/LASG, LMD/IPSL, MRI (Tokioka)
+and NCAR CSM.  
+(Documentation of these models is available on the CMIP Web site.)
+We have not included the CMIP2
+contributions from NRL or the older NCAR Washington and
+Meehl model.  NRL's control run is only 3 years long, and
+Washington and Meehl regard their older model as
+superceded by the DOE PCM.
+On some figures we have also included a model that has
+not yet joined CMIP2:
+ECHAM4+OPYC3.  This model has not yet been forced in
+a 1% per year CO<SUB>2</SUB> increase scenario.  We include its
+control run output in some of our figures at the request of
+the Intergovernmental Panel on Climate Change (IPCC), which will 
+include this model's simulations of
+global warming in its upcoming Third Scientific Assessment Report.
+Some of the figures below may also appear in the IPCC Report.
+<P>
+The rate
+of radiative forcing increase implied by 1% per year increasing
+CO<SUB>2</SUB> is nearly a factor
+of two greater than the actual anthropogenic forcing in recent decades, even
+if non-CO<SUB>2</SUB> greenhouse gases are added in as part of an "equivalent
+CO<SUB>2</SUB> forcing" and anthropogenic aerosols
+are ignored (see, e.g., Figure 3 of Hansen et al. 1997).
+Thus the CMIP2 increasing-CO<SUB>2</SUB> scenario cannot be considered
+as realistic for purposes of comparing model-predicted and observed
+climate changes during the past century.
+It is also not a good estimate of future anthropogenic climate
+forcing, except perhaps as an extreme case in which the world
+accelerates its consumption of fossil fuels while reducing its
+production of anthropogenic aerosols.
+Nevertheless, this idealized scenario generates an easily discernible
+response in all the CMIP2 models and thus provides the opportunity to
+compare and possibly explain different responses arising from
+different model formulations.
+
+<H3> 2. Present-day climate </H3>
+<P>
+In this section we compare output from the model control run simulations with
+recent climate observations.  It has become
+increasingly apparent that the detailed climate record of the past century
+(and indeed the past millenium) cannot be explained without considering changes
+in both natural and anthropogenic forcing (Tett et al. 1999; Santer et al. 2000; Crowley 2000).
+Since the CMIP control run boundary conditions lack these forcing
+variations, we focus on means and other statistics that we judge to be
+largely unaffected by them.
+In particular we do not discuss the climate variability simulated by
+the CMIP control runs.  This topic has been addressed in more specialized
+studies (Barnett 1999; Bell et al. 2000; Duffy et al. 2000).
+<P>
+For our observational data base we
+use the most recent and reliable sources we are aware of, including
+Jones et al. (1999) for surface air temperature, 
+Xie and Arkin (1997) for precipitation,
+and reanalysis of numerical weather
+prediction initial conditions for sea level pressure.
+We sometimes use multiple sources to provide a sense of observational
+uncertainty, e.g., reanalysis from both the European Center for
+Medium-Range Weather Forecasts (ERA15; Gibson et al. 1997)
+and the U.S. National Centers for Environmental Prediction (NCEP; Kalnay
+et al. 1996).
+<BR>
+<P><I> a. Global and annual means </I>
+<P>
+Averaging over latitude and longitude to form global means reduces 
+surface variables to one-dimensional time series.
+Additional averaging of monthly means to form annual means removes seasonal cycle
+variations (which can be substantial even for global means), providing a
+convenient entry point to
+three-dimensional model output.
+<A HREF = "#Fig1Caption">Figure 1</A>
+shows the resulting time series for CMIP2 control run surface air
+temperature and precipitation.
+<P>
+The range among the models of global- and annual-mean surface air temperature
+is rather surprising at first sight.
+Jones et al. (1999) conclude that the average value for 1961-1990 was 14.0&#176C
+and point out that this value differs from earlier estimates by only 0.1&#176C.
+It therefore seems that 
+several of the models (which simulate values from less than
+12&#176C to over 16&#176C) are in significant disagreement with the observations
+of this fundamental quantity.
+Reasons for this situation are discussed briefly by Covey et al. (2000) in the
+context of the CMIP1 models.
+The models as a group also give a 
+wide range of estimates for global- and annual-mean precipitation, compared with 
+the best observed values from several
+sources (2.66-2.82 mm / day from Table 2 in Xie and Arkin 1997).
+Precipitation, however, is notoriously difficult to measure globally, and the observational
+uncertainty of its global and annual mean 
+may not be smaller than the range of model-simulated values in Figure 1.
+<P>
+Perhaps the most striking aspect of Figure 1 is the stability of model-simulated
+temperature and precipitation.
+The stability occurs despite the fact that 6 of the 15 CMIP2 models
+refrain from employing ad hoc flux adjustments at the air-sea interface.
+Until a few years ago, conventional wisdom held that in order to suppress
+unrealistic climate drift, coupled ocean-atmosphere general circulation models 
+must add such unphysical flux "corrections" to their governing equations.
+The 1995 IPCC assessment (Gates et al. 1996) diplomatically expressed the
+concern that "[f]lux adjustments are relatively large in the models that use them,
+but their absence affects the realism of the control climate and the the
+associated feedback processes".
+The CMIP1 experiments were conducted at about the same time as this assessment
+was written.
+Covey et al. (2000) note that averaging the magnitudes of linear
+trends of global- and annual-mean surface air temperature gives 0.24 and 1.1
+&#176C / century, respectively, for flux-adjusted and non-flux-adjusted CMIP1
+models.
+For the CMIP2 models shown in Figure 1, however, the corresponding 
+numbers for the average 
+&#177 1 standard deviation over each class of model are 0.12 &#177 0.14 
+&#176C / century for the
+flux-adjusted models and 0.31 &#177 0.31 
+&#176C / century for the non-flux-adjusted models.
+Nevertheless, it must be kept in mind that a small rate of
+global mean climate drift does not preclude strong local drifts at the
+surface and problematic long term drift in the deep ocean.
+<BR>
+<P><I> b. Long-term time means </I>
+<P>
+Atmosphere: geographically distributed quantities
+<P>
+As noted above, most of the CMIP2 output variables are present in the database 
+as 20-year means that average out the seasonal cycle.
+In this subsection we examine surface variables and other two-dimensional (latitude-longitude)
+quantities.
+To summarize the performance of the models, we interpolate their output to
+a common Gaussian grid with 128 longitudes and 64 latitudes 
+and show both the model mean (the average
+over all the models) and the intermodel standard deviation (<I>sd<SUB>m</SUB></I>).
+Where possible, we compare the model means for the control simulations 
+with observations. 
+Lambert and Boer (2000) demonstrate that the
+model mean exhibits good agreement with observations, often better than any of the 
+individual models.
+High values of <I>sd<SUB>m</SUB></I> indicate areas
+where the models have difficulty in reaching a consensus, implying reduced levels
+of confidence in the model results.
+<P>
+Results for which observations are available are presented as
+four-panel displays. The upper-left panel shows the model mean and <I>sd<SUB>m</SUB></I>, the lower-left
+panel shows the observed field and the departure of the model mean from this observed
+field, and the lower-right panel shows zonal averages for the individual models
+and the observations. 
+These three panels contain only output from model control runs.
+The upper-right panel gives the differences between the model mean for years 61-80 and
+years 1-20 for the enhanced greenhouse warming simulations,
+together with these differences normalized by their standard deviation among the models.
+Results in the upper-right panels will be discussed in Section 3.
+<P>
+<A HREF = "#Fig2Caption">Figure 2</A> 
+displays results for annual mean surface air temperature (also known as screen temperature).
+Over most of the globe, the
+model mean differs from the Jones observations by less than two K, although larger differences are
+evident in polar regions. 
+These annual departures are much less than the winter and summer season errors reported 
+by Lambert and Boer (2000).
+The zonally averaged results for the individual models show that
+all are quite successful in reproducing the observed structure, except in the polar regions.
+<I>sd<SUB>m</SUB></I> values show that the
+models tend to disagree in the polar regions and over high terrain but produce
+consistent simulations over ice-free oceans.
+This consistency may occur because the ocean 
+components of coupled models tend to be more similar than their atmospheric components,
+or it may simply be due to the lack of terrain effects and strong horizontal gradients over
+open oceans.
+<P>
+<A HREF = "#Fig3Caption">Figure 3</A>
+displays results for annual mean sea level pressure. As demonstrated by <I>sd<SUB>m</SUB></I>,
+the models are very consistent in their simulations. The largest variances occur in south
+polar regions and much of this results from extrapolation below ground. Comparison with
+the ECMWF/ERA reanalysis (Gibson et al. 1997) shows that the model mean is within
+2 hPa of the observed field over most of the globe. The largest departures occur near Antarctica 
+with lesser departures north of Scandinavia, Russia and western North America.
+The zonally averaged results demonstrate the agreement among the models.
+With the exception of one model and in the southern polar regions, the models agree with each other
+to within ~5 hPa.
+Also evident from the zonally averaged results, however, is the difficulty that models have in simulating
+both the position and depth of the Antarctic trough.
+<P>
+<A HREF = "#Fig4Caption">Figure 4</A>
+displays results for annual mean precipitation. It is evident from the relatively large 
+<I>sd<SUB>m</SUB></I> that the models have difficulty in producing consistent simulations.
+This result is expected because precipitation is a small scale process.
+Likely contributors to inconsistency among models include differences in horizontal resolution 
+and sub-gridscale parameterization schemes.
+Precipitation is a difficult field to observe and thus one must be somewhat cautious in using 
+it for evaluation purposes. 
+(Comparison of surface air temperature, sea level pressure and precipitation
+with alternate observational datasets is given in Subsection (c) below.)
+Using the Xie and Arkin (1997) observations, we find that 
+in general the
+models simulate ~1 mm / day too much precipitation in mid-latitudes and somewhat too little in the tropics.
+The models correctly simulate 
+the position of the annual mean ITCZ slightly north of the Equator, but
+a striking disagreement with observations occurs in the South Pacific.
+Here the model mean has a second maximum band parallel to the Equator, but the observations have a
+maximum with a northwest-southeast orientation north of New Zealand. 
+The zonally averaged results show that this "double ITCZ" problem is shared by several of the models.
+<P>
+<A HREF = "#Fig5Caption">Figure 5</A>
+displays the annual net heat flux into the oceans.
+For the model mean, the largest oceanic heat gain is
+in the eastern tropical Pacific and the largest losses occur over the Kuroshio, the Gulf Stream
+and the southern Indian Ocean. <I>sd<SUB>m</SUB></I> is highest in the loss areas. 
+Observations
+of this field, and for its components to be discussed shortly, are best considered as estimates 
+and this fact should be kept in mind when using them to evaluate models. 
+Comparison with the observational estimates from da Silva et al. (1994) indicates that the
+model mean underestimates the heat losses from the oceans (as indicated by
+positive values of the differences between the model mean and observations) in regions where
+the ocean loses heat.
+The zonally averaged results show a large scatter among the models and a tendency for
+most of them to underestimate the heat loss from the oceans in the Northern 
+Hemisphere and subtropical Southern Hemisphere and to overestimate the heat loss in the
+mid-latitudes of the Southern Hemisphere.
+There is also an indication that the models generally place
+the equatorial maximum in heat uptake slightly too far to the north.
+<P>
+It is useful to examine separately each of the components of the annual mean surface energy balance.
+These components -- net shortwave radiative flux, net longwave radiative flux, latent heat flux
+and sensible heat flux -- are presented in 
+<A HREF = "#Fig6Caption">Figures 6-9</A>
+respectively for both land and ocean areas.
+Although the models all show the well known equator-pole contrast in annual mean shortwave flux,
+comparison of the model mean with the GEWEX Surface Radiation Budget (SRB) observational estimates 
+(Whitlock et al. 1995) 
+indicates that the shortwave flux is ~10% too high in the tropics and ~20% too low in 
+temperate and polar latitudes, an error that is apparent in the zonally averaged results
+for most of the models.
+In addition, <I>sd<SUB>m</SUB></I> values for shortwave flux reveal substantial
+inter-model variation within tropical latitudes in regions of strong convective activity. 
+For longwave flux, both <I>sd<SUB>m</SUB></I> and zonally averaged results show a very
+large scatter among the individual models, especially at high latitudes.
+The GEWEX SRB observations indicate that the model mean longwave flux is too large in the 
+tropics and sub-tropics and too small in mid-latitudes and polar regions. 
+The model mean errors in the downward shortwave flux and upward longwave flux will tend 
+to oppose one another when the net surface radiative balance is computed.
+Latent heat flux exhibits the expected patterns including (for the model mean)
+large fluxes over warm cloud-free areas in the subtropical high pressure belts and low
+values over cloudy areas. 
+Comparison with the NCEP reanalysis (Kalnay et al. 1996) indicate that the model mean has, with the
+exception of deserts, too little evaporation over land and too much over the oceans.
+The final and smallest component of the surface heat balance is sensible heat flux.
+Over land there is substantial inter-model variation of this quantity (<I>sd<SUB>m</SUB></I> is
+nearly as large as the model mean flux) and, except for deserts, the models simulate values that
+are higher than those obtained by the NCEP reanalysis. 
+Over ice-free oceans the model mean agrees much better with the reanalysis.
+<P>
+Finally we consider two additional surface fluxes that drive ocean circulation.
+For nearly all models
+the annual mean fresh water flux <A HREF = "#Fig10Caption">(Figure 10)</A>
+shows large positive fluxes (i.e., precipitation exceeding evaporation)
+near the Equator with smaller positive values 
+associated with mid-latitude storm tracks, and large negative values in the subtropical
+high pressure belts. 
+The largest values of <I>sd<SUB>m</SUB></I> for this quantity tend to be found in regions
+where the fresh water flux is into the oceans. 
+Comparison with a crude observational
+estimate obtained by combining Xie-Arkin precipitation and NCEP reanalysis evaporation shows 
+an error pattern very similar to that of precipitation, suggesting that deficiencies in
+the fresh water flux arise primarily from simulation of precipitation.
+For zonal annual mean surface wind stress <A HREF = "#Fig11Caption">(Figure 11)</A>
+the largest values of the <I>sd<SUB>m</SUB></I> over the oceans are found in the vicinity of Antarctica,
+the area where the model mean differs most from the NCEP reanalysis. 
+These problems apparently result from the difficulties the models have in simulating the depth and position of
+the Antarctic trough in mean sea level pressure. 
+<P>
+Atmosphere: zonally averaged quantities
+<P>
+We now turn to three-dimensional quantities, presented here (after zonal averaging)
+as latitude-height cross sections.
+<A HREF = "#Fig12Caption">Figure 12</A> shows zonally averaged annual mean air temperature.
+The pattern of model mean isotherms is qualitatively close to observations, but
+compared with the ECMWF/ERA reanalysis, the model
+mean is generally too cold in the troposphere and polar stratosphere
+and too warm at lower latitudes in the stratosphere. 
+The magnitude of these errors is comparable to 
+<I>sd<SUB>m</SUB></I>, implying that the models produce fairly consistent simulations of temperature
+and that the errors are common to most of the models.
+Results for the
+individual models at 925 hPa confirm this situation for the
+cold bias at low levels.
+Corresponding results for specific humidity <A HREF = "#Fig13Caption">(Figure 13)</A>
+display a fairly systematic underestimate in the low latitude troposphere, although
+the departure of the model mean from ECMWF/ERA reanalysis is rather small (~1 g / kg)
+and the pattern of the model mean in latitude-height space is again quite similar to observations.
+<P>
+<A HREF = "#Fig14Caption">Figure 14</A> shows zonally averaged annual mean zonal wind. 
+In the lower troposphere the models agree rather well with each other and with the
+ECMWF/ERA reanalysis (to within ~2 m / s) except in the vicinity of the Antarctic Trough.
+Both <I>sd<SUB>m</SUB></I> and the difference between the model mean and observations
+exhibit a noticeable increase with height.
+As a result the model simulations at upper levels depart qualitatively as well as
+quantitatively from observations, e.g., 
+the double jet structure of the Southern Hemisphere is not
+well captured by the model mean. 
+Results for the individual models at 200 hPa show
+the large scatter and further illustrate the problems in the Southern Hemisphere.
+The mass streamfunction <A HREF = "#Fig15Caption">(Figure 15)</A> 
+exhibits moderate inter-model variance at most latitudes and
+altitudes, with <I>sd<SUB>m</SUB></I> ~ 20% of model mean values, and results for
+the individual models at 600 hPa show qualitative consistency in the size and position of the
+annual mean Hadley and Ferrel cells.
+Comparison of the model mean with 
+ECMWF/ERA reanalysis indicates that the model-simulated Hadley circulation is in general too weak.
+<P>
+Ocean quantities
+<P>
+Turning to ocean variables, we examine the annual mean temperature 
+<A HREF = "#Fig16Caption">(Figure 16)</A> and salinity 
+<A HREF = "#Fig17Caption">(Figure 17)</A> at 1000 meters depth.
+(Sea surface temperature is closely coupled to surface air temperature over the oceans
+and is not explicitly discussed in this report.)
+For temperature at this level the models are generally consistent in their simulations
+(<I>sd<SUB>m</SUB></I> < 1 K) except in the
+North Atlantic, subtropical Pacific and Indian Oceans, and in the Arabian Sea.
+Available observations (Levitus and Boyer 1994) indicate that the model mean is too warm over
+most of the ocean.
+The zonally averaged results show that outside the polar regions, all but one of the models 
+simulate 1000 meter temperatures that are at or above (by up to ~2 K) the observations.
+An overly diffusive thermocline may be the root of this problem.
+The corresponding results for salinity exhibit relatively
+large <I>sd<SUB>m</SUB></I> values and some spectacular departures from observations for
+individual models.
+Compared with observations (Levitus et al. 1994) the model mean is too saline in the Atlantic 
+and Southern Oceans, and not saline enough in the Arabian Sea and Eastern Atlantic.
+<P>
+For the annual means of barotropic streamfunction 
+<A HREF = "#Fig18Caption">(Figure 18),</A> 
+global overturning streamfunction 
+<A HREF = "#Fig19Caption">(Figure 19)</A> 
+and Atlantic overturning streamfunction 
+<A HREF = "#Fig20Caption">(Figure 20)</A>
+we use three-panel displays because there are no complete observations of these quantities.
+Nevertheless it is noteworthy that the model means for all three agree qualitatively with
+conventional wisdom among oceanographers.
+Quantitative disagreement among models is most striking for the barotropic streamfunction
+off Antarctica, the global overturning streamfunction in the Southern Hemisphere and the
+Atlantic overturning streamfunction at ~1000 meters depth.
+<P>
+Poleward heat transport by the global ocean is given in 
+<A HREF = "#Fig21Caption">Figure 21.</A> In the upper left-hand 
+panel, the upper dashed line is the model mean plus one <I>sd<SUB>m</SUB></I> and the lower
+dashed line is the model mean minus one <I>sd<SUB>m</SUB></I>.
+The model mean, which is not plotted, is half way between the two dashed lines.
+Observations of Trenberth and Solomon (1994) are shown as a bold solid line in both the upper-left
+and bottom panels.
+From these observations, it appears that over most of the ocean the model-simulated transport 
+is generally too weak.
+The observations are uncertain, however.
+For example, an update (Trenberth 1998) of the Trenberth and Solomon data reduces the peak
+ocean heat transport in the Southern Hemisphere by nearly a factor of 2.
+<BR>
+<P><I> c. Global statistics </I>
+<P>
+To begin to
+obtain a more quantitative picture of how well (or how poorly) the models agree
+with observations, we use a diagram developed by Taylor (2000).
+This technique, and others exhibited in this section, are part of the
+climate diagnostic software developed at the Program for Climate Model Diagnosis and
+Intercomparison (PCMDI).
+Selected PCMDI software tools and their documentation can be downloaded from the Web site
+<CODE>http://www-pcmdi.llnl.gov/software</CODE>.
+We intend to make the software tools that produced Figures 22, 24, etc., public
+via this Web site.
+<P>
+<A HREF = "#Fig22Caption">Figure 22</A> is a Taylor diagram of the total spatial and
+temporal variability of 
+three fields: surface air temperature, sea level pressure and
+precipitation.
+The variability shown in the figure includes the seasonal cycle but excludes the
+global mean.
+The radial coordinate is the ratio of modeled to observed standard deviation.
+The cosine of the angle of the model point
+from the horizontal axis is the spatio-temporal correlation
+between model and observation.
+When plotted in these coordinates, the diagram also indicates the root-mean-square 
+difference between model and observation: this difference is proportional to the
+linear distance between the model point and the "observed" point lying on the horizonal
+axis at unit distance from the origin.
+Thus the diagram enables visualization of three quantities -- standard deviation
+normalized by observation, correlation with observation, and r.m.s. difference
+from observation -- in a two-dimensional space.
+This is possible because the three quantities are not independent of each other
+(Taylor 2000).
+Loosely speaking, the polar coordinate of the diagram gives the correlation
+between model and observation for space-time variations but
+contains no information about the amplitude of the variations, the radial
+coordinate compares the modeled and observed amplitude of the variations, and the
+distance between each model point and the "observed" point gives the r.m.s. model
+error.
+<P>
+The most striking aspect of the figure is the way it separates the three fields
+into separate groups.
+This separation agrees with the familiar qualitative statement that models simulate
+temperature best, sea level pressure less well, and precipitation worst (e.g.,
+Gates et al. 1996).
+For surface air temperature, all models a achieve a correlation with
+observation > 0.93, and the standard deviation of space-time variations is within
+&#177 15% of the observed value in nearly all models.
+(This achievement is especially noteworthy for the non-flux-adjusted models, which have
+no explicit constraints requiring surface temperatures to match observations.)
+For modeled
+sea level pressure, the correlation with observation falls mainly in the range 0.7-0.9;
+for modeled precipitation it falls in the range 0.4-0.7.
+The standard deviation of space-time variations is also
+modeled less well for precipitation and sea level pressure than it is 
+for surface air temperature.
+<P>
+To provide a sense of observational uncertainty, we include two alternate
+observed data sets in Figure 22: ECMWF/ERA reanalysis ("e") and 
+NCEP reanalysis ("n").
+These data sets are plotted as if they were model output.
+For all three fields, the alternate observed data sets fall closer to the baseline
+"observed" point than any model does -- but not much closer than the closest
+model.
+For precipitation and surface air temperature, the r.m.s. difference between either 
+of the reanalysis data sets and the baseline observations is more than half the
+smallest r.m.s. model error.
+Whether this result says something positive about the models or negative about
+reanalysis is unclear.
+More comparison between alternate sets of observations is provided in the
+following figures.
+<P>
+Figure 22 displays the total space-time variance of the model runs.
+It is also useful to examine individual components of the variance.
+<A HREF = "#Fig23Caption">Figure 23</A>
+shows how we divide a surface field (either model-simulated or
+observed) into components.
+Our procedure follows the usual practice in climatology, obtaining 
+representations of increasingly detailed space-time behavior:
+<OL>
+<LI> the global and annual mean (not included in Figure 22)
+<LI> the zonal and annual mean, giving variations with latitude
+<LI> the annual mean deviations from the zonal mean, giving variations with
+longitude (mainly land-sea contrast)
+<LI> the annual cycle of the zonal mean, giving seasonal variations as a function
+of latitude
+<LI> the annual cycle of deviations from the zonal mean, giving the remaining
+variance (apart from interannual variations, which are not considered here)
+</OL>
+<P>
+In Figures 24-26
+we divide the r.m.s. difference between each model and observation ("total error" of
+the model) into these components.
+The error component associated with the global and annual mean is called the
+bias, and the remaining error (the sum of components 2-5) is called the pattern
+error.
+The figures give -- from top to bottom -- the total error, the bias, the pattern
+error, and the remaining error components.
+For each component, errors are normalized by that component's observed standard
+deviation.
+The error amounts are color-coded so that blue indicates a small error compared
+with the observed standard deviation and red indicates a large error compared with
+the observed standard deviation.
+<P>
+Applying this metric to surface air temperature
+<A HREF = "#Fig24Caption">(Figure 24),</A> we find that nearly all error components
+in nearly all models are small, particularly the annual and zonal mean
+components.
+For three of the models -- ECHAM4+OPYC3, HadCM2 and HadCM3 -- all of the error
+components are about as small as for ERA and NCEP renalyses when the latter
+are included as extra "models".
+Turning to sea level pressure 
+<A HREF = "#Fig25Caption">(Figure 25),</A> we find that nearly all models 
+have small errors for global and zonal means, but several of the models have
+large errors for more detailed space-time patterns.
+Surprisingly, even the NCEP reanalysis has a large "error" in one component
+(annual cycle of the zonal mean) when compared with the baseline observations
+from ERA.
+Turning to precipitation 
+<A HREF = "#Fig26Caption">(Figure 26),</A> we find that model errors are concentrated
+in the annual cycle of deviations from the zonal mean.
+Large errors in this component appear for all models except HadCM2 and the two
+reanalyses.
+Errors in the global and zonal means (including the seasonal cycle of the zonal
+mean) are small for all models.
+This situation is an improvement over earlier models in which even the global and
+annual mean precipitation value could be substantially erroneous, e.g.,
+~30% greater than observed in Version 1 of the NCAR Community Climate Model 
+(Covey and Thompson 1989, Table I).
+<P>
+Figures 24-26 can also be used to
+sort models into flux-adjusted and non-flux-adjusted
+classes, as explained in the figure captions.
+Differences between these two classes of models are not obvious from the figures.
+This result reinforces the inferences made above that in modern coupled GCMs the
+performance differences between flux-adjusted and non-flux-adjusted models are
+relatively small (see also Duffy et al. 2000).
+Evidently, for at least the century-timescale integrations used
+to detect and predict anthropogenic climate change, several modeling groups now find
+it possible to dispense with flux adjustments.
+This development represents an improvement over the 
+situation a decade ago, when most groups felt that coupled models could 
+not satisfactorily reproduce the observed climate without 
+including arbitrary (and often nonphysical) adjustment terms in their equations.
+
+<H3> 3. Increasing-CO<SUB>2</SUB> climate </H3>
+<P>
+To begin our discussion of model responses to 1% per year
+increasing atmospheric CO<SUB>2</SUB>, 
+<A HREF = "#Fig27Caption">Figure 27</A>
+shows global and annual mean changes in surface air temperature and
+precipitation under this scenario, i.e., differences between the
+increasing-CO<SUB>2</SUB> and control runs.
+The surface air temperature results are similar to those shown in the 1995 IPCC
+report (Kattenberg et al. 1996, Figure 6.4).
+The models reach about 2 &#176C global mean surface warming by the time 
+CO<SUB>2</SUB> doubles around year 70, and
+the range of model results stays within roughly &#177 25% of the 
+average model result throughout the experiments.
+This rather narrow range contrasts with a greater spread of model output 
+for experiments in which the models are allowed to reach equilibrium.
+The typical statement for the equilibrium results (from IPCC reports and 
+similar sources) is that the surface warms by 3.0 &#177 1.5 &#176C 
+under doubled CO<SUB>2</SUB>.
+While it is understandable that the ultimate equilibrium warming is greater
+than the warming at the moment that CO<SUB>2</SUB> reaches twice is initial
+value, it may seem surprising that the dispersion of results from different
+models -- a factor of 3 in the equilibrium experiments -- is reduced to
+&#177 25% in the time-evolving (or "transient") experiments considered here.
+<P>
+The precipitation responses of the models span a much wider range than the
+temperature responses.
+As shown in Figure 27, the increase in global and annual mean precipitation at
+the time of CO<SUB>2</SUB> doubling varies from about 0.03 to 0.15 mm / day, a
+factor of 5.
+Although the global means of both precipitation and surface air temperature
+increase in all of the enhanced-CO<SUB>2</SUB> simulations, the correlation 
+between precipitation increases
+and temperature increases is weak, as is the correlation between precipitation
+inreases and the control run temperatures shown in the top panel of Figure 1.
+<P>
+Turning to geographical and latitude-height distributions, we recall that
+the upper-right panels of Figures 2-21 display changes simulated by the
+perturbation experiments.
+Contour lines give the model-mean
+difference between the first 20 year time mean and the last 20 year time mean of the 80
+year simulations.
+This difference is the change over
+roughly 60 years during which time atmospheric CO<SUB>2</SUB> nearly doubles.
+The intermodel standard deviation (<I>sd<SUB>m</SUB></I>) of these 60 year differences
+is used to normalize the model mean differences. Absolute values of the normalized 
+difference greater than one are shaded and indicate that the changes simulated by the
+models have a reasonable degree of consistency and therefore one might have
+increased confidence in the results.
+<P>
+For surface air temperature <A HREF = "#Fig2Caption">(Figure 2)</A> 
+there is a globally averaged model mean increase
+of 1.73&#176C. The largest changes occur in the polar regions and over land areas. The
+increases exceed <I>sd<SUB>m</SUB></I> by a factor of two over most of the globe. 
+For mean sea level pressure <A HREF = "#Fig3Caption">(Figure 3)</A> 
+the polar regions and land areas exhibit a decrease
+and the oceans tend to exhibit an increase, an indicator of monsoon-like circulations
+developing as a result of land areas warming faster than ocean areas.
+The largest values of normalized sea level pressure difference are 
+generally found in polar areas. 
+Changes in precipitation <A HREF = "#Fig4Caption">(Figure 4)</A> 
+show an increase over most of the globe. The globally averaged model mean increase is 0.07
+mm / day. Only a few areas -- generally in the sub-tropics -- exhibit a decrease. The largest
+values of normalized difference occur in high mid-latitudes and probably have an association
+with storm tracks. 
+Changes in net heat flux <A HREF = "#Fig5Caption">(Figure 5)</A> 
+are generally positive,
+indicating a slight gain of heat by the oceans. The largest values are present off the east
+coast of North America and around Antarctica. 
+The mean model change exceeds 
+<I>sd<SUB>m</SUB></I> over only a small area off the coast of Antarctica, indicating 
+that although models generally transport heat into the oceans in global warming scenarios,
+the locations at which they do so vary. 
+For the radiation components of
+the heat balance <A HREF = "#Fig6Caption">(Figures 6-7),</A> 
+the short wave flux exhibits little change while the 
+upward long wave flux is generally reduced by amounts that
+exceed the <I>sd<SUB>m</SUB></I>. 
+Latent heat flux <A HREF = "#Fig8Caption">(Figure 8)</A> 
+exhibits a general increase in accord with the increase in surface temperature 
+while sensible heat flux <A HREF = "#Fig9Caption">(Figure 9)</A> decreases.
+The models simulate an increase in
+the fresh water flux in the tropics and high mid-latitudes and a decrease in sub-tropics
+<A HREF = "#Fig10Caption">(Figure 10).</A> 
+The changes are similar in sign to the control run results, indicating that dry areas
+will become drier and wet areas wetter. Large normalized differences occur only off
+Antarctica and in the Southern Hemisphere high pressure belt, however. For zonal wind stress
+<A HREF = "#Fig11Caption">(Figure 11)</A> 
+the model-mean change is small compared with <I>sd<SUB>m</SUB></I> nearly everywhere.
+<P>
+Changes in model mean
+zonally averaged temperature as a function of height 
+<A HREF = "#Fig12Caption">(Figure 12)</A> show the expected pattern
+of warming in the troposphere and lower stratosphere and cooling in the remainder of
+the stratosphere. Changes in large areas of the troposphere and the stratosphere are
+more than twice <I>sd<SUB>m</SUB></I>. 
+Model mean zonally averaged specific humidity 
+<A HREF = "#Fig13Caption">(Figure 13)</A> 
+increases everywhere and its changes are also large compared with <I>sd<SUB>m</SUB></I>,
+consistent with the temperature changes.
+For mean zonal wind
+<A HREF = "#Fig14Caption">(Figure 14)</A> 
+the main change is an increase in speed of the mid-latitude jets;
+the models tend to agree on this change as indicated by the high levels of
+normalized difference in the jet cores.
+For the mass transport streamfunction 
+<A HREF = "#Fig15Caption">(Figure 15)</A> 
+the model mean shows a poleward
+shift of the Ferrel cells and a slight strengthening of the Hadley Circulation.
+<P>
+Changes in model mean ocean temperature and salinity at 1000 meters depth are shown in 
+<A HREF = "#Fig16Caption">Figures 16 and 17</A> 
+respectively. In general, these changes are small. The models do produce consistent simulations of
+slightly increased temperature and salinity off the coast of Antarctica. 
+The model mean barotropic streamfunction 
+<A HREF = "#Fig18Caption">(Figure 18)</A> 
+decreases off Antarctica, 
+indicating a slower Antarctic Circumpolar Current.
+As a result of the large scatter among models, however,
+the normalized differences are generally
+small. 
+Model mean global overturning streamfunction 
+<A HREF = "#Fig19Caption">(Figure 19)</A>
+and Atlantic overturning streamfunction 
+<A HREF = "#Fig20Caption">(Figure 20)</A> decrease in magnitude,
+and there is a reasonable degree of agreement among
+the models. 
+Results for ocean heat transport 
+<A HREF = "#Fig21Caption">(Figure 21)</A> are displayed differently:
+the solid line represents the model
+mean difference and the dashed lines are one <I>sd<SUB>m</SUB></I> above and below the model mean.
+The enhanced greenhouse effect acts to reduce the ocean heat transport,
+consistent with the general slowdown in ocean circulation depicted in Figures 18-20.
+
+<H3> 4. Conclusions </H3>
+<P> 
+Comparison of the CMIP2 control run output with observations of the
+present day climate reveals improvements in coupled model performance
+since the IPCC's mid-1990s assessment (Gates et al. 1996).
+The most prominent of these is a diminishing need for arbitrary flux
+adjustments at the air-sea interface.
+About half of the newer generation of coupled models omit flux adjustments, yet
+the rates of "climate drift" they exhibit (Figure 1) are within the
+bounds required for useful model simulations on time scales of a
+century or more.
+The flux-adjusted models exhibit less drift on average, however, and
+thus agree better with the limited information we possess on climate
+variations before the Industrial Revolution (e.g., Jones et al. 1998;
+Mann et al. 1999).
+Both flux-adjusted and non-flux-adjusted models produce a surprising
+variety of time-averaged global mean temperatures, from less than
+12&#176C to over 16&#176C.
+Perhaps
+this quantity has not been the subject of as much attention as it
+deserves in model development and evaluation.
+<P>
+The spatial patterns of model control run output variables display numerous
+areas of agreement and disagreement with observations (Figures 2-21).
+As always, it is difficult to determine whether 
+or not the models are "good
+enough" to be trusted when used to study climate in the distant past
+or to make predictions of the future.
+The global statistics shown in Figures 22-26 provide some
+encouragement.
+They indicate that the difference between a typical model simulation and a
+baseline set of observations is not much greater than the difference
+between different sets of observations.
+To the extent that different sets of observations (including
+model-based reanalyses) are equally reliable, this result implies that
+coupled GCM control runs are nearly as accurate as observational
+uncertainty allows them to be -- at least for the quantities
+highlighted by our global statistics.
+<P>
+The CMIP2 models do not yield the same simulation of climate change
+when they are all subjected to an identical scenario of 1% per year 
+increasing CO<SUB>2</SUB>.
+The range of model-simulated global mean warmings, however, is less 
+than the factor of 3 (1.5 - 4.5&#176C) uncertainty commonly cited for
+equilibrium warming under doubled CO<SUB>2</SUB>.
+Part of the explanation could involve the behavior of models not 
+included in this
+report, which may give more extreme results than the CMIP2 models.
+The main reason for the narrower range, however, is that the 
+response time of the climate system increases with increasing climate 
+sensitivity (Hansen et al. 1984, 1985; Wigley and Schlesinger 1985).
+This relationship has been investigated in detail for the CMIP2
+models by Raper et al. (2000).
+It introduces a partial
+cancellation of effects:
+models with larger sensitivity (greater equilibrium warming to doubled
+CO<SUB>2</SUB>) are farther from equilibrium than less-sensitive models
+at any given time during the increasing-CO<SUB>2</SUB> scenario.
+As a result, the uncertainty in model predictions of future climate
+response may be less than the uncertainty in future anthropogenic forcing
+(Hansen et al. 1997).
+On the other hand, simultated precipitation increases differ greatly
+among the CMIP2 models and appear to have no simple relationship with
+simulated temperatures.
+<P>
+Expansion of the CMIP model output set has begun under auspices of the
+JSC/CLIVAR Working Group on Coupled models, and analysis of the existing
+database is continuing.
+We encourage all interested scientists to contribute to this ongoing
+effort.
+
+<BR>
+<P>
+<FONT SIZE = -1>
+<I> Acknowledgments</I>.
+We owe thanks to Clyde Dease and Anna
+McCravy of the PCMDI computations staff for assistance with data
+processing and Web publication respectively, and of course to the
+modelers whose contributions have made CMIP possible.  
+CC also thanks his fellow IPCC Lead Authors for extensive discussions of climate
+model evaluation.
+This work was
+performed under auspices of the U.S. Department of Energy by
+University of California Lawrence Livermore National Laboratory under
+contract No. W-7405-Eng-48.
+</FONT>
+
+<H3> References </H3>
+<P>
+Barnett, T. P., 1999: 
+Comparison of near-surface air temperature variability in 11
+coupled  global climate models. 
+<I>J. Climate</I>, <B>12</B>, 511-518.
+<P>
+Bell, J., P. B. Duffy , C. Covey, L. Sloan, and CMIP investigators, 2000:
+Comparison of temperature variability in observations and sixteen climate
+model simulations. 
+<I>Geophys. Res. Lett.</I>, <B>27</B>, 261-264.
+<P>
+Covey, C., and S. L. Thompson, 1989:
+Testing the effects of ocean heat transport on climate.
+<I>Global and Planetary Change</I>, <B>75</B>, 331-341.
+<P>
+Covey, C., and Coauthors, 2000:
+The seasonal cycle in coupled ocean-atmosphere general circulation models.
+<I>Climate Dynamics</I>, in press [also available as PCMDI Report No. 51].
+<P>
+Crowley, T. J., 2000:
+Causes of climate change over the past 1000 years.
+<I>Science</I>, <B>289</B>, 270-277.
+<P>
+da Silva, A. M., C. C. Young, and S. Levitus, 1994:
+Atlas of surface marine data 1994, Volume 1: Algorithms and procedures.
+NOAA Atlas NESDIS 6, U. S. Department of Commerce.
+<P>
+Duffy, P. B., J. Bell, C. Covey, L. Sloan, and CMIP investigators, 2000:  
+Effect of flux adjustments on temperature variability in climate models.
+<I>Geophys. Res. Lett.</I>, <B>27</B>, 763-766.
+<P>
+Gates, W. L., and Coauthors, 1996:
+Climate models - Evaluation.
+<I>Climate Climate 1995: The Science of Climate Change</I>,
+J. T. Houghton et al., Eds., Cambridge University Press, 229-284.
+<P>
+Gates, W. L., and Coauthors, 1999:
+An overview of the results of the Atmospheric Model Intercomparison
+Project (AMIP I).
+<I>Bull. Amer. Meteor. Soc.</I>, <B>80</B>, 29-55.
+<P>
+Gibson, J.K., P. Kallberg, S. Uppala, A. Hernandez, A. Nomura, and E. Serrano, 1997: 
+ERA description. ECMWF Reanalysis Project Report Series No.1, European Centre for Medium-range Weather Forecasts, Reading, UK, 66 pp.
+<P>
+Hansen, J., A. Lacis, D. Rind, G. Russell,
+P. Stone, I. Fung, R. Ruedy, and J. Lerner, 1984:
+Climate sensitivity: Analysis of feedback mechanisms.
+<I>Climate Processes and Climate Sensitivity</I>, Geophysical Monograph
+Series, Vol. 29, J. E. Hansen and T. Takahashi, Eds.,
+American Geophysical Union, Washington, DC, 130-163.
+<P>
+Hansen, J., G. Russell, A. Lacis, I. Fung, D.
+Rind, and P. Stone, 1985:
+Climate response times: Dependence on climate sensitivity and ocean mixing.
+<I>Science</I>, <B>229</B>, 857-859.
+<P>
+Hansen, J., M. Sato, A. Lacis, and R. Ruedy, 1997:
+The missing climate forcing.
+<I>Phil. Trans. R. Soc. Lond.</I> B, <B>352</B>, 231-240.
+<P>
+Jones, P. D., K. R. Briffa, T. P. Barnett, and S. F. B. Tett, 1998:
+High-resolution palaeoclimatic records for the last millennium:
+Interpretation, integration and comparison with general circulation
+model control-run temperatures.
+<I>The Holocene</I>, <B>8</B>, 455-471.
+<P>
+Jones, P. D., M. New, D. E. Parker, S. Martin, and I. G. Rigor, 1999:
+Surface air temperature and its changes over the past 150 years.
+<I>Rev. Geophys.</I>, <B>37</B>, 173-199.
+<P>
+Kalnay, E., and Coauthors, 1996:
+The NCEP/NCAR 40-year reanalysis project.
+<I>Bull. Amer. Meteor. Soc.</I>, <B>77</B>, 437-471.
+<P>
+Kattenberg, A., and Coauthors, 1996:
+Climate models - Projections of future climate.
+<I>Climate Climate 1995: The Science of Climate Change</I>,
+J. T. Houghton et al., Eds., Cambridge University Press, 285-357.
+<P>
+Lambert, S. J., and G. J. Boer, 2000:
+CMIP: Evaluation and intercomparison of coupled climate models.
+<I>Climate Dynamics</I>, in press.
+<P>
+Levitus, S., R. Burgett, and T. P. Boyer, 1994:
+World Ocean Atlas 1994 Volume 3: Salinity.
+NOAA Atlas NESDIS 3, 99 pp.
+<P>
+Levitus, S., and T. P. Boyer, 1994:
+World Ocean Atlas 1994 Volume 4: Temperature.
+NOAA Atlas NESDIS 4, 117 pp.
+<P>
+Mann, M. E., R. S. Bradley, and M. K. Hughes, 1999:
+Northern Hemisphere temperatures during the past millennium:
+Inferences, uncertainties, and limitations.
+<I>Geophys. Res. Lett.</I>, <B>26</B>, 759-762.
+<P>
+Meehl, G. A., G. J. Boer, C. Covey, M. Latif, and R. J. Stouffer, 2000:
+The Coupled Model Intercomparison Project (CMIP).  <I>Bull. Amer.
+Meteor. Soc.</I>, <B>81</B>, 313-318.
+<P>
+Santer, B. D., and Coauthors, 2000:
+Interpreting differential temperature trends at the surface and in the
+lower troposphere.
+<I>Science</I>, <B>287</B>, 1227-1232.
+<P>
+Raper, S. C. B., J. M. Gregory, and R. J. Stouffer, 2000:
+The role of climate sensitivity and ocean heat uptake on AOGCM
+transient temperature and thermal expansion response.
+<I>J. Climate</I>, submitted.
+<P>
+Taylor, K. E., 2000:
+Summarizing in a single diagram multiple aspects of model performance.
+<I>J. Geophys. Res.</I>, submitted [also available as PCMDI Report No. 55].
+<P>
+Trenberth, K.E., and A. Solomon, 1994:
+The global heat balance: Heat transport in the atmosphere and ocean.
+<I>Climate Dynamics</I>, <B>10</B>, 107-134.
+<P>
+Trenberth, K. E., 1998:
+The heat budget of the atmosphere and ocean, in
+Proceedings of the First WCRP International Conference on Reanalysis,
+WCRP-104, WMO/TD-NO. 876, pp. 17-20.
+<P>
+Tett, S. F. B., P. A. Stott, M. R. Allen, W. J. Ingram, and J. F. B.
+Mitchell, 1999:
+Causes of twentieth-century temperature change near the Earth's surface.
+<I>Nature</I>, <B>399</B>, 569-572.
+<P>
+Whitlock, C. H., and Coauthors, 1995:
+The first global WCRP shortwave radiation budget data set.
+<I>Bull. Amer. Meteor. Soc.</I>, <B>76</B>, 905-922.
+<P>
+Wigley, T. M. L., and M. E. Schlesinger, 1985:
+Analytical solution for the effect of increasing CO<SUB>2</SUB> on global mean temperature.
+<I>Nature</I>, <B>315</B>, 649-652.
+<P>
+Xie, P., and P. Arkin, 1997: 
+Global precipitation: a 17-year monthly analysis based on gauge observations, 
+satellite estimates, and numerical model outputs.
+<I>Bull. Amer. Meteor. Soc.</I>, <B>78</B>, 2539-2558.
+
+<BR>
+<P>
+<H3> Figure Captions </H3>
+<P> <A NAME = "Fig1Caption" HREF = "control_tseries.pdf">Fig. 1.</A>  
+Globally averaged annual mean surface air temperature (top) and precipitation
+(bottom) from the CMIP2 control runs.
+<P> <A NAME = "Fig2Caption" HREF = "Lambert/cmip2.atlas.FigL01.pdf">Fig. 2.</A> 
+Summary of long-term time means for surface air temperature (K). 
+The upper-left panel gives the control run 80-year mean averaged over all models (contours)
+and the intermodel standard deviation (color shading). The lower-left panel gives
+observed values (contours) and the difference
+between the control run model mean and the observations (color shading). The lower-right panel
+gives zonal averages for the individual model control runs and the
+observations. 
+The upper-right panel gives the average over all models of the
+difference between the last 20-year mean and the first 20-year mean
+from the 80-year perturbation simulations, in which atmospheric carbon dioxide
+increases at a rate of 1% per year (contours), together with
+this difference normalized by the corresponding intermodel standard deviation (color shading).
+<P> <A NAME = "Fig3Caption" HREF = "Lambert/cmip2.atlas.FigL02.pdf">Fig. 3.</A> 
+Same as Fig. 2 for mean sea level pressure (hPa).
+<P> <A NAME = "Fig4Caption" HREF = "Lambert/cmip2.atlas.FigL03.pdf">Fig. 4.</A>
+Same as Fig. 2 for precipitation (mm / day).
+<P> <A NAME = "Fig5Caption" HREF = "Lambert/cmip2.atlas.FigL04.pdf">Fig. 5.</A> 
+Same as Fig. 2 for net surface heat flux (W / m<SUP>2</SUP>).
+<P> <A NAME = "Fig6Caption" HREF = "Lambert/cmip2.atlas.FigL05.pdf">Fig. 6.</A> 
+Same as Fig. 2 for short wave radiative flux (W / m<SUP>2</SUP>).
+<P> <A NAME = "Fig7Caption" HREF = "Lambert/cmip2.atlas.FigL06.pdf">Fig. 7.</A> 
+Same as Fig. 2 for long wave radiative flux (W / m<SUP>2</SUP>).
+<P> <A NAME = "Fig8Caption" HREF = "Lambert/cmip2.atlas.FigL07.pdf">Fig. 8.</A> 
+Same as Fig. 2 for latent heat flux (W / m<SUP>2</SUP>).
+<P> <A NAME = "Fig9Caption" HREF = "Lambert/cmip2.atlas.FigL08.pdf">Fig. 9.</A> 
+Same as Fig. 2 for sensible heat flux (W / m<SUP>2</SUP>).
+<P> <A NAME = "Fig10Caption" HREF = "Lambert/cmip2.atlas.FigL09.pdf">Fig. 10.</A> 
+Same as Fig. 2 for fresh water flux (mm / day).
+<P> <A NAME = "Fig11Caption" HREF = "Lambert/cmip2.atlas.FigL10.pdf">Fig. 11.</A> 
+Same as Fig. 2 for zonal wind stress (100 N / m<SUP>2</SUP>).
+<P> <A NAME = "Fig12Caption" HREF = "Lambert/cmip2.atlas.FigL11.pdf">Fig. 12.</A> 
+Same as Fig. 2 for zonally averaged temperature (K).
+<P> <A NAME = "Fig13Caption" HREF = "Lambert/cmip2.atlas.FigL12.pdf">Fig. 13.</A>  
+Same as Fig. 2 for zonally averaged specific humidity  (g / kg).
+<P> <A NAME = "Fig14Caption" HREF = "Lambert/cmip2.atlas.FigL13.pdf">Fig. 14.</A> 
+Same as Fig. 2 for zonally averaged zonal wind (m / s).
+<P> <A NAME = "Fig15Caption" HREF = "Lambert/cmip2.atlas.FigL14.pdf">Fig. 15.</A> 
+Same as Fig. 2 for mass streamfunction (10<SUP>10</SUP> kg / s)
+<P> <A NAME = "Fig16Caption" HREF = "Lambert/cmip2.atlas.FigL14B.pdf">Fig. 16.</A> 
+Same as Fig. 2 for ocean temperature at 1000 meters depth (K).
+<P> <A NAME = "Fig17Caption" HREF = "Lambert/cmip2.atlas.FigL15.pdf">Fig. 17.</A> 
+Same as Fig. 2 for ocean salinity at 1000 meters depth (psu).
+<P> <A NAME = "Fig18Caption" HREF = "Lambert/cmip2.atlas.FigL16.pdf">Fig. 18.</A> 
+Summary of long-term time means for the barotropic streamfunction (Sv). 
+The upper-left panel gives the control run 80-year mean averaged over all
+models (contours) and the intermodel standard deviation (color shading). The bottom
+panel gives zonal averages for the individual model control runs
+and the model mean. The upper-right panel gives
+the average over all models of the difference between the last 20-year mean and the first 20-year mean
+from the 80-year perturbation simulations, in which atmospheric carbon dioxide increases
+at a rate of 1% per year (contours), and this difference normalized by the corresponding intermodel standard
+deviation (color shading). 
+<P> <A NAME = "Fig19Caption" HREF = "Lambert/cmip2.atlas.FigL17.pdf">Fig. 19.</A> 
+Same as Fig. 18 for global overturning streamfunction (Sv).
+<P> <A NAME = "Fig20Caption" HREF = "Lambert/cmip2.atlas.FigL18.pdf">Fig. 20.</A>  
+Same as Fig. 18 for Atlantic overturning streamfunction (Sv).
+<P> <A NAME = "Fig21Caption" HREF = "Lambert/cmip2.atlas.FigL19.pdf">Fig. 21.</A> 
+Summary of long-term time means for northward global ocean heat transport 
+(PW). The upper-left panel gives the
+observed values as a solid line; the dashed lines are the model mean plus and minus one
+intermodel standard deviation.
+The bottom
+panel gives zonal averages for the individual model control runs
+and the model mean.
+The upper-right panel gives the average over all models of 
+the difference between the last 20-year mean and the first 20-year mean
+from the 80-year perturbation simulations, in which atmospheric carbon dioxide increases
+at a rate of 1% per year (solid line),
+and this difference plus and minus one corresponding intermodel standard deviation
+(dashed lines).
+<P> <A NAME = "Fig22Caption" HREF = "taylor.pdf">Fig. 22.</A>
+Error statistics of surface air temperature, sea level pressure and precipitation. 
+The radial coordinate gives the magnitude of total standard deviation, normalized by the observed 
+value, and the angular coordinate gives the correlation with observations. It follows that the distance between the OBSERVED point and any model's point is proportional to the r.m.s. model error (Taylor 2000). Numbers indicate models counting from left to right in Figures 24-26. Letters indicate alternate observational data sets compared with the baseline observations: e = 15-year ECMWF/ERA reanalysis ("ERA15"); n = NCEP reanalysis.
+<P> <A NAME = "Fig23Caption" HREF = "components.pdf">Fig. 23.</A>  
+Example showing division of a model output field into space and time components.
+<P> <A NAME = "Fig24Caption" HREF = "tas_portrait.pdf">Fig. 24.</A>
+Components of space-time errors in the climatological annual cycle of surface air temperature. Shown are the total error, the global and annual mean error ("bias"), the total r.m.s. ("pattern") error, and the following components (explained in Figure 23): zonal and annual mean ("clim.zm.am"); annual mean deviations from the zonal mean ("clim.zm.am.dv"), seasonal cycle of the zonal mean ("clim.zm.sc") and seasonal cycle of deviations from the zonal mean ("clim.zm.sc.dv"). For each component, errors are normalized by the component's observed standard deviation. The two left-most columns represent alternate observationally based data sets, ECMWF/ERA and NCEP reanalyses, compared with the baseline observations (Jones et al. 1999). Remaining columns give model results: the 10 models to the left of the second thick vertical line are flux adjusted and the 6 models to the right are not.
+<P> <A NAME = "Fig25Caption" HREF = "psl_portrait.pdf">Fig. 25.</A> 
+Same as Figure 24 for mean sea level pressure.
+Baseline observations are from ECMWF/ERA reanalysis.
+<P> <A NAME = "Fig26Caption" HREF = "pr_portrait.pdf">Fig. 26.</A> 
+Same as Figure 24
+for precipitation.
+Baseline observations are from Xie and Arkin (1997).
+<P> <A NAME = "Fig27Caption" HREF = "tseries.pdf">Fig. 27.</A> 
+Globally averaged difference between increasing-CO<SUB>2</SUB> and control run values
+of annual mean surface air temperature (top) and precipitation (bottom) for the CMIP2 models.
+Compare with Figure 1, which gives control run values.
+
+</BODY>
+
+<!-- Mirrored from www-pcmdi.llnl.gov/pcmdi/pubs/pdf/report66/ by HTTrack Website Copier/3.x [XR&CO'2004], Fri, 09 Jul 2004 21:19:27 GMT -->
+
+<!-- Mirrored from www-pcmdi.llnl.gov/publications/pdf/report66/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 16 Jun 2016 01:29:34 GMT -->
+</HTML>

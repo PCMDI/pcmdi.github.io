@@ -1,0 +1,64 @@
+---
+layout: default
+title: Report Series
+---
+
+<html>
+
+<!-- Mirrored from www-pcmdi.llnl.gov/pcmdi/pubs/ab34.html by HTTrack Website Copier/3.x [XR&CO'2004], Fri, 09 Jul 2004 21:01:38 GMT -->
+
+<!-- Mirrored from www-pcmdi.llnl.gov/publications/ab34.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 16 Jun 2016 00:29:35 GMT -->
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="Author" content="Anna McCravy">
+   <meta name="GENERATOR" content="Mozilla/4.51 [en] (WinNT; U) [Netscape]">
+   <title>rpt34</title>
+</head>
+<body text="#000000" bgcolor="#FFFFFF" link="#0000FF" vlink="#0000FF" alink="#FF0000">
+
+<p><h1>Report 34:&nbsp; EzGet: A Library of Fortran Subroutines
+to Facilitate Data Retrieval</h1>
+<ul><b>Taylor, </b>Karl E.
+<br>
+April 1996, 70 pp.&nbsp;
+<hr>The software described in this document is designed to facilitate retrieval
+of modeled and observed climate data stored in popular formats including
+DRS, netCDF, GrADS, and, if a control file is supplied, GRIB. You can specify
+how the data should be structured and whether it should undergo a grid
+transformation before you receive it, even when you know little about the
+structure of the stored data (i.e., its dimension order, grid, and domain).
+<p>The software is referred to here as EzGet (pronounced "easy-get") and
+it comprises a set of subroutines that can be linked to any FORTRAN program.
+EzGet reads files through the cdunif interface which is available from
+the Program for Climate Model Diagnosis and Intercomparison (PCMDI), but
+use of EzGet does not require familiarity with cdunif. The main advantages
+of using this software instead of the lower level cdunif library include:
+<ul>
+  <li>Substantial error trapping capabilities and detailed error messages </li>
+  <li>Versatile capability of conveniently selecting data from specified regions
+          (e.g., oceans, North America, all land areas north of 45 degrees latitude,
+          etc.) </li>
+  <li>Ability to map data to a new grid at the time it is retrieved by EzGet </li>
+  <li>Automatic creation of "weights" for use in subsequent averaging or masking
+        of data </li>
+  <li>Increased control in specifying the domain, grid and structure of the
+          retrieved data.<br>
+  </li>
+</ul>
+Taken together these capabilities will simplify the process of writing
+  programs for accessing data stored in different formats and structures,
+  including all the observed data sets and the model output from various
+  model intercomparison projects (AMIP, PMIP, CMIP, etc.) archived at PCMDI.
+  <p>EzGet software and the latest version of this document are available
+    through the PCMDI web site: http://www-pcmdi.llnl.gov/ktaylor/ezget/ezget.html
+    <br>For a pdf version of this document go to <i><a href="pdf/34.pdf">(pdf
+  file)</a></i>    
+</ul>
+
+
+</body>
+
+<!-- Mirrored from www-pcmdi.llnl.gov/pcmdi/pubs/ab34.html by HTTrack Website Copier/3.x [XR&CO'2004], Fri, 09 Jul 2004 21:01:38 GMT -->
+
+<!-- Mirrored from www-pcmdi.llnl.gov/publications/ab34.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 16 Jun 2016 00:30:35 GMT -->
+</html>
