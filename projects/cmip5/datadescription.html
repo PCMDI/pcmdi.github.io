@@ -1,0 +1,42 @@
+---
+layout: CMIP5
+title: Data Description
+---
+
+
+
+   <br>
+   <p class="hdr">CMIP5 - Data Description</p>
+   <br>
+   <div class="bar">   </div>
+   <br>
+   <p class="style4">The <strong> List of Requested Model Output document</strong> describes the variables that are being requested to be saved and submitted to the CMIP5 archives. The data output is required to adhere to the common standard output that is specified in the document. The viariables names, their description, their dimensions and dimension's names, as well as standard name, long name, units and other requirements are defined in the List of Requested Model Output that each model output needs to follow.</p>
+   <br>
+   <div class="bar">   </div>
+   <br>
+
+   <p class="hdr1">   The List of Requ<strong>est</strong>ed Model Output </p>
+   <p><span class="txt2"></span></p>
+   <p class="txt2">See the standard output document: <strong><a href="docs/standard_output.pdf">standard_output.pdf</a></strong> . It contains the List of Requested Variables, also available as <a href="docs/standard_output.xls">standard_output.xls</a> <!--and <a href="docs/standard_output.xlsx">standard_output.xlsx</a>-->.</p>
+   <p class="txt2">&nbsp;</p>
+   <p class="txt2">Go to <a href="output_req.html">Output Requirements</a> page to see the previous versions and changes. </p>
+   <br>
+    <div class="bar">   </div>
+   <br>
+   <p class="hdr1">CMIP5 Data Characteristics:</p>
+   <br>
+   <p class="indent txt2">&nbsp;•	Each file contains a single output variable (along with coordinate/grid variables, attributes and other metadata) from a single model and a single simulation (i.e., from a single ensemble member of a single climate experiment).  This method of structuring model output best serves the needs of most researchers who are typically interested in only a few of the many variables in the Model Intercomparison Project (MIP) databases.  Data requests can be satisfied by simply sending the appropriate file(s) without first extracting the individual field(s) of interest.</p>
+   <br>
+   <p class="indent txt2">•	There is flexibility in specifying how many time slices (samples) are stored in a single file. A single file can contain all the time-samples for a given variable and climate experiment, or the samples can be distributed in a sequence of files. </p>
+   <br>
+   <p class="indent txt2">•	Much of the metadata written to the output files is defined in MIP-specific tables of information, which in this document are referred to simply as "MIP tables" in ASCII files.</p>
+   <br>
+   <p class="indent txt2">•	The metadata is constrained by the <a href="http://cf-pcmdi.llnl.gov/">CF convention</a> (NetCDF Climate and Forecast (CF) Metadata Convention) and as specified in the CMIP5 tables. </p>
+   <br>
+   <p class="indent txt2">•	The output files are written through the <a href="http://www.unidata.ucar.edu/software/netcdf">NetCDF</a>  API following the NETCDF_CLASSIC model and without compression of any kind. <br>
+    <br>
+   </p>
+   <p class="indent txt2"><em><strong>Note:</strong></em> It is recommended that the CMOR software
+   be used to write the model output, which will ensure compliance with the CMIP5 specifications.  See the <a href="output_req.html">Output Requirements</a> page for further information and see <a href="docs/CMIP5_output_metadata_requirements.pdf">CMIP5 Model Output Format and Metadata Requirements</a> for full specifications for writing CMIP5 output.</p>
+   <p class="indent txt2">&nbsp; </p>
+   <br>

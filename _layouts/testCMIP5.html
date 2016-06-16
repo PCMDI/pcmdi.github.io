@@ -1,0 +1,83 @@
+---
+layout: default
+---
+
+
+
+<head>
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="{{site.baseurl}}/Data/media/css/contentMenu.css"/>
+</head>
+
+
+
+<div data-spy="scroll" data-target="#myScrollspy" data-offset="20">
+<div class="container">
+<div class="row" >
+<div class="span3" id ="tableContent" >
+<div class="well sidebar-nav" id="myScrollspy">
+<div class="btn-group-vertical" role="group" aria-label="...">
+    <ul class="nav nav-pills nav-stacked">
+    <a href="{{site.baseurl}}/projects/cmip5/"><button type="button" class="btn btn-default"> <h4>CMIP5 Home</h4></button></a>
+    <a  href="{{site.baseurl}}/projects/cmip5/guide.html"><button type="button" class="btn btn-default"> <li>Guide</li></button></a>
+       <div class="dropdown">
+            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"><li id ="topic">Data Access</li>
+                <span class="caret"></span>
+            </button>
+                <ul class="dropdown-menu">
+                        <li><a href="{{site.baseurl}}/projects/cmip5/data-access-getting-started.html"> Getting Started</a></li>
+                        <li><a href="{{site.baseurl}}/projects/cmip5/terms-of-use.html">  Terms of Use</a></li>
+                        <li><a href="{{site.baseurl}}/projects/cmip5/citation.html">  Citation</a></li>
+                        <li><a href="{{site.baseurl}}/projects/cmip5/availability.html">  Availability</a></li>
+                        <li><a href="{{site.baseurl}}/projects/cmip5/data-portal.html">  Data Portal</a></li>
+                        <li><a href="{{site.baseurl}}/projects/cmip5/access-faq.html">  FAQs</a></li>
+                 </ul>
+       </div>
+
+      <div class="dropdown">
+            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"><li id ="topic">For Data Providers </li>
+                  <span class="caret"></span>
+             </button>
+              <ul class="dropdown-menu">
+                    <li><a href="{{site.baseurl}}/projects/cmip5/provider-getting-started.html">  Getting Started</a></li>
+                    <li><a href="{{site.baseurl}}/projects/cmip5/forcing.html">  Forcing Data</a></li>
+                    <li><a href="{{site.baseurl}}/projects/cmip5/requirements.html">  Output Requirements</a></li>
+                    <li><a href="{{site.baseurl}}/projects/cmip5/submitting-data.html">  Submitting Data</a></li>
+                    <li><a href="{{site.baseurl}}/projects/cmip5/data-node.html">  Data Node</a></li>
+                    <li><a href="{{site.baseurl}}/projects/cmip5/provider-faq.html">  FAQs</a></li>
+               </ul>
+    </ul>
+    </div>
+    </div>
+    </div>
+
+<div class="span9" id="content">
+<div class="row-fluid">
+{{ content }}
+</div>
+</div>
+</div>
+</div>
+
+<div class="btn-group" role="group" aria-label="...">
+  <button type="button" class="btn btn-default">1</button>
+  <button type="button" class="btn btn-default">2</button>
+
+  <div class="btn-group" role="group">
+    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Dropdown
+      <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu">
+      <li><a href="#">Dropdown link</a></li>
+      <li><a href="#">Dropdown link</a></li>
+    </ul>
+  </div>
+</div>
+
+
+

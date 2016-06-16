@@ -20,3 +20,5 @@ Besides the above acknowledgement, you should register any journal articles (or 
 
 For the first time in CMIP, Digital Object Identifiers (DOI’s used, for example, in journal citations) will be assigned to various subsets of the CMIP5 multi-model dataset and, when available and as appropriate, users should cite these references in their publications. These DOI’s will provide a traceable record of the analyzed model data, as tangible evidence of their scientific value. Instructions will be forthcoming on how to cite the data using DOI’s.
 
+
+

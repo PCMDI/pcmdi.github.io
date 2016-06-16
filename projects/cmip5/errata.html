@@ -1,0 +1,1181 @@
+---
+layout: CMIP5
+title: Errata
+---
+
+<center><h2>CMIP5 Data Issues</h2></center>
+
+<p>This "online errata sheet" is an interim website summarizing known problems in the CMIP5 database
+   of climate model output. We plan to eventually replace it with a wiki-like website allowing users
+   and data providers to enter updates. Meanwhile, please email Curt Covey
+   (<a href="mailto:covey1@llnl.gov">covey1@llnl.gov</a>) to contribute updates and additional problem
+   notifications. </p>
+<p>Last update by Curt Covey on 13 February 2015. </p>
+<br>
+
+ß
+    <table border="2" cellpadding="10px">
+  <!--<caption>Errata</caption>-->
+  <tbody><tr>
+    <th>Date of first posting</th>
+    <th>Model(s)</th>
+    <th>Files</th>
+    <th width="250">Description</th>
+    <th width="200">Status</th>
+  </tr>
+
+  <!--    -->
+  <tr>
+    <td>19 January 2012</td>
+    <td>inmcm4</td>
+    <td>co2mass_Amon_inmHistorical_r1i1p1_185001-200512.nc<br>
+          and probably related files<br>    </td>
+    <td>Numbers are unreasonably low. Probably the contributor has reported the mass of carbon<br>
+          atoms in atmospheric CO2, rather than the total mass of atmospheric CO2 as specified in<br>
+          the CMIP5 Data Description.<br>
+           <a href="co2mass_Amon_inmcm4_esmHistorical_r1i1p1_185001-200512.gif">
+          <img src="co2mass_Amon_inmcm4_esmHistorical_r1i1p1_185001-200512.gif" style="border:2px solid" height="215" align="left" border="2" width="300"></a></td>
+    <td>
+      <p>Data files are still available. Multiply by the ratio of molar masses (mCO2 / mC) to
+         correct the units.</p>    </td>
+  </tr>
+
+  <!--    -->
+  <tr>
+    <td>24 January 2012</td>
+    <td>GISS-E2-H</td>
+    <td>Files in between <br>
+          thetao_Omon_GISS-E2-H_piControl_r1i1p1_140001-141912.nc and
+          thetao_Omon_GISS-E2-H_piControl_r1i1p1_241001-242912.nc
+          (and related files) are missing.</td>
+    <td>In the piControl time series, files in between Years 1419 and 2410 are not present.<br>
+          The two blocks of years that are present (1180-1419 and 2410-2649) represent<br>
+          different control runs, even though the "r1i1p1" in the file names implies that<br>
+          they come from the same model run (as specified in the CMIP5 Data Description). </td>
+    <td>
+      <p>Data files are still available.</p>    </td>
+  </tr>
+
+  <!--    -->
+  <tr>
+    <td>24 January 2012</td>
+    <td>all(?) GISS</td>
+    <td>zostoga_Omon_GISS-E2-R_historical_r4i1p3_*.nc<br>
+          and probably other zostoga files from GISS<br>    </td>
+    <td>
+           <a href="zostoga_Omon_GISS-E2-R_historical_r4i1p3_185001-200512.gif">
+          <img src="zostoga_Omon_GISS-E2-R_historical_r4i1p3_185001-200512.gif" style="border:2px solid" height="215" align="left" border="2" width="300"></a>
+               <p>Each separate file in a sequence of times (* = 185001-187512, 187601-190012, ..., 200101-200512)</p><p>
+          resets zostoga to its initial value, giving the composite time series an nonphysical sawtooth
+          shape.</p</td>
+
+    <td>
+      <p>These data files are being withdrawn by GISS.</p>    </td>
+  </tr>
+
+  <!--    -->
+  <tr>
+    <td>24 January 2012</td>
+    <td>ipsl_cm4, cnrm_cm3,ingv_echam4</td>
+    <td>sic_*.nc    </td>
+    <td>Sea ice concentration is given as a fraction, rather than percent (as specified in the CMIP5
+          Data Description).</td>
+    <td>
+      <p>Data files are still available. Multiply by 100 to correct the units.</p>    </td>
+  </tr>
+
+  <!--    -->
+  <tr>
+    <td>26 January 2012</td>
+    <td>GISS-E2-H</td>
+    <td>zos_Omon_GISS-E2-H_historical_r1i1p1_*.nc<br>
+          where * = 185001-186912, 187001-188912, ..., 199001-200512</td>
+    <td>Sea level was calculated erroneously.</td>
+    <td>
+      <p>These data files have been withdrawn by GISS.</p>    </td>
+  </tr>
+
+  <!--    -->
+  <tr>
+    <td>2 February 2012</td>
+    <td>MIROC ESM</td>
+    <td>*_day_MIROC-ESM_rcp26_r1i1p1_*
+          *_day_MIROC-ESM_rcp60_r1i1p1_*
+          *_day_MIROC-ESM_rcp45_r1i1p1_*
+          *_day_MIROC-ESM_rcp85_r1i1p1_*
+          *_day_MIROC-ESM_esmHistorical_r1i1p1_*
+          *_day_MIROC-ESM_esmrcp85_r1i1p1_* <br><br>
+          and related LUCID files
+    </td><td>For Variables ua, va, wap, ta, hur, hus and zg, data from lower pressure levels was incorrectly<br>
+          mapped to the standard pressure levels, in effect<br>
+          stretching the vertical coordinate. This also occurs for the Antarctic Plateau (black "missing data"<br>
+          in the zonal mean plot) which erroneously extends up to 60000 Pa = 600 mb.<br>
+          <a href="ta_day_MIROC-ESM_esmHistorical_r1i1p1_zonalannual2005.gif">
+          <img src="ta_day_MIROC-ESM_esmHistorical_r1i1p1_zonalannual2005.gif" style="border:2px solid" height="215" align="left" border="2" width="300"></a></td>
+
+    <td>
+      <p>MIROC is removing the erroneous files and replacing them with corrected files where
+         possible.</p>    </td>
+  </tr>
+
+  <!--    -->
+  <tr>
+    <td>8 February 2012</td>
+    <td>Several</td>
+    <td>See <a href="jgregory_cmip5ancestry.txt">table</a> provided by Jonathan Gregory, Reading, UK.</td>
+    <td>Many files contain correct data, but incorrect metadata regarding branch times from "parent" runs, e.g.<br>
+          time in a pre-industrial control run (piControl) that was used to initialize an historical run.<br>
+          The <a href="jgregory_cmip5ancestry.txt">table</a> provided by Jonathan Gregory, Reading, UK,<br>
+          provides corrected information.</td>
+    <td>
+      <p>Data files are still available.</p>    </td>
+  </tr>
+
+  <!--    -->
+  <tr>
+    <td>8 February 2012</td>
+    <td>CCSM4</td>
+    <td>zg_Amon_CCSM4_historical_r1i1p1_*.nc</td>
+    <td>Data is missing above 600 hPa.</td>
+    <td>
+      <p>CCSM consortium s removed the erroneous files and replaced them with corrected files
+         (23 March 2012).</p>    </td>
+  </tr>
+
+  <!--    -->
+  <tr>
+    <td>17 February 2012</td>
+    <td>IPSL-CM5A-LR<br>
+          IPSL-CM5A-MR<br>
+          IPSL-CM5B-LR</td><td>xxxx_Lmon_IPSL-CM*.nc <br>
+          yyyy_3hr_IPSL-CM*.nc  <br>
+          where xxxx = mrro, mrros, evspsblsoi, evspsblveg, tran <br>
+            and yyyy = mrro, mrros </td>
+    <td>Fields noted at left were too low by a factor of 48. For example, the global annual mean mrro for 2005<br>
+          is 2e-7 kg/m2/sec = 0.02 mm/day, whereas expected value is ~1 mm / day.<br>
+           <a href="mrro_Lmon_IPSL-CM5A-LR_historical_r1i1p1_2005.gif">
+          <img src="mrro_Lmon_IPSL-CM5A-LR_historical_r1i1p1_2005.gif" style="border:2px solid" height="215" align="left" border="2" width="300"></a></td>
+
+    <td>IPSL has removed and replaced the erroneous files (new version numbers 20120430 and later).</td>
+  </tr>
+
+  <!--    -->
+  <tr>
+    <td>17 February 2012</td>
+    <td>IPSL-CM5A-LR</td>
+    <td>ua_6hrPlev_IPSL-CM5A-LR_rcp85_r2i1p1_207601010300-208512312100.nc<br>
+          and related va files</td>
+    <td>Time-offset problem in older versions: e.g. file name implies that it contains years 2076-2085,
+          but metadata said years 2086-2095.</td>
+    <td>
+      <p>IPSL has removed and replaced the erroneous files (new version numbers 20111119-20120114).</p>    </td>
+  </tr>
+  <!--    -->
+  <tr>
+    <td>22 February 2012</td>
+    <td>IPSL-CM5A-MR </td>
+    <td>Cloud output from IPSL-CM5A-MR 1pctCO2, historical, and piControl runs; possibly from other experiments
+          with this model
+    </td><td>Clouds computed by the model for its climate simulations are inconsistent with clouds computed by<br>
+          separate "cloud-observation simulator" modules within the model. For example, in the figure below<br>
+          (provided by Mark Zelinka) the model is predicting a global mean cloudiness value of 58.40%, but it<br>
+          is also saying that if the ISCCP satellites observed the model-simulated Earth, they would obtain a<br>
+          global mean cloudiness value of only 44.87%. This discrepancy is too large to be explained by differences<br>
+          between model and satellite definitions of cloudiness. The source of the discrepancy is probably an<br>
+          error in the way this model implements the ISCCP cloud-observation simulator.<br>
+            <a href="IPSL-CM5A-MR_historical_simulator_check.png"><img src="IPSL-CM5A-MR_historical_simulator_check.png" style="border:2px solid" height="300" align="middle" border="2" width="300"></a></td>
+    <td>
+      <p>Contacting IPSL.</p>    </td>
+  </tr>
+  <!--    -->
+  <tr>
+    <td>1 March 2012</td>
+    <td>EC-EARTH</td>
+    <td>All ocean output, e.g. tos_Omon_EC-EARTH_*.nc </td>
+    <td>Sea surface temperature lacked a seasonal cycle. For example, compare January 2005 (top) and July 2005 (bottom)
+          from the file tos_Omon_EC-EARTH_historical_r11i1p1_185001-200512.nc. The two maps are identical.<br>
+            <a href="compare_Jan2005_Jul2005.png"><img src="compare_Jan2005_Jul2005.png" style="border:2px solid" height="300" align="middle" border="2" width="200"></a></td>
+    <td>
+      <p>ICHEC removed the problematic files and reprocessed the data to correct the problem
+         (May 2012).</p>    </td>
+  </tr>
+
+  <!--    -->
+  <tr>
+    <td>20 March 2012</td>
+    <td>inmcm4</td>
+    <td>cl_Amon_inmcm4_historical_r1i1p1_200001-200512.nc<br>
+          and related historical and RCP files for cl, clw, cli, hus;<br>
+          analogous tnta, tntmp, tntr files for AMIP    </td>
+    <td>Cloudiness values often exceeded 100% (see nearby plot). Other problems were evident in the other fields
+          named at left.<br>
+          <a href="cl_zmean_inmcm4_historical_r1i1p1_2000-1.gif"><img src="cl_zmean_inmcm4_historical_r1i1p1_2000-1.gif" style="border:2px solid" height="215" align="middle" border="2" width="300"></a></td>
+     <td> <p>INM has published corrected files (27 January 2013).</p>    </td>
+  </tr>
+
+  <!--    -->
+  <tr>
+    <td>24 March 2012 </td>
+    <td>MIROC-ESM </td>
+    <td>All files containing chl, talk, or spco2 </td>
+    <td>Units are different from the ones specified in the CMIP5 Data Description. The
+          <a href="mkawamiya_miroc-esm_unitsconversion.txt">table</a> provided by Michio Kawamiya, JAMSTEC, Japan,
+          provides conversion factors. </td>
+    <td>The MIROC group is replacing the affected files. Meanwhile, use the conversion factors in the
+          <a href="mkawamiya_miroc-esm_unitsconversion.txt">table</a>. </td>
+  </tr>
+
+  <!--    -->
+  <tr>
+    <td>25 March 2012 </td>
+    <td>FGOALS-g2 </td>
+    <td>ua_6hrPlev_FGOALS-g2*.nc
+          va_6hrPlev_FGOALS-g2*.nc
+          ta_6hrPlev_FGOALS-g2*.nc
+          rlut_Amon_FGOALS-g2*.nc
+          rlutcs_Amon_FGOALS-g2_*.nc
+          pr_*_FGOALS-g2_*.nc
+          prc_*_FGOALS-g2_*.nc </td>
+    <td>The 6 hourly ua, va and ta were incorrectly interpolated in the vertical layers, and the monthly rlut and rlutcs actually represented the corresponding outgoing longwave at the top of model not the top of atmosphere.  For variables pr and prc, the snow was added twice. </td>
+    <td>Lijuan Li et al. (LASG, Beijing, China) have removed the incorrect files and uploaded replacements
+          (7 March 2012). </td>
+  </tr>
+
+  <!--    -->
+  <tr>
+    <td>26 March 2012</td>
+    <td>CCSM4<br>
+          CESM1-CAM5<br>
+          CSIRO mk3.6<br>
+          IPSL cm5a<br>
+          MPI-ESM-LR<br>
+          MPI-ESM-P<br>
+          MIROC-ESM<br>
+          MIROC-ESM-CHEM</td>
+    <td>All clwvi files from the models listed at left</td>
+    <td>Per Jonathan Jiang et al. (JPL, Pasadena, CA), Jonannes Karlsson (Stockholm University) and
+          Daniel McCoy (University of Washington):
+          clwvi from these models is for liquid water only, rather than ice+liquid
+          (as specified in the CMIP5 Data Description). A simple diagnostic indicating this problem is
+          a difference map of clwvi - clvi. Since clvi is the ice water path, clwvi - clvi should be the
+          liquid water path, but it will be negative in some regions if clwvi is
+          for liquid water only. See nearby plot.<br>
+          <a href="MPI-ESM-LR.pdf"><img src="MPI-ESM-LR.png" style="border:2px solid" height="215" align="middle" border="2" width="300"></a></td>
+    <td>Data files are still available. The MIROC group plans to replace their problematic ESM and ESM-CHEM data files
+          (MIROC4h and MIROC5 data files are correct).</td>
+  </tr>
+
+  <!--    -->
+  <tr>
+    <td>26 March 2012</td>
+    <td>IPSL-CM5A-LR</td>
+    <td>All tasmax and tasmin files </td>
+    <td>Subtracting tasmin from tasmax gives a monthly mean diurnal cycle that is unphysically large. See nearby plot, which shows
+          results from the final time-point of the r1i1p1. Values approach 50 K in the Arctic even though at this time of year the
+          Arctic experiences perpetual night.<br>
+           <a href="finaltpoint_IPSL-CM5A-LR.historical.r1i1p1.mo.tasmax_minus_min.ver-1.png"><img src="finaltpoint_IPSL-CM5A-LR.historical.r1i1p1.mo.tasmax_minus_min.ver-1.png" style="border:2px solid" height="215" align="middle" border="2" width="300"></a></td>
+    <td>
+      <p>Data files are still available. Per Jenny Lindvall (Stockholm University, Sweden): <em>approximately</em> correct values
+         can be reconstructed from the 3-hourly data. </p>    </td>
+  </tr>
+  <!--    -->
+  <tr>
+    <td>30 March 2012</td>
+    <td>NorESM1-M</td>
+    <td>All evspsbl files </td>
+    <td>Values were exactly 1000 times too large due to an error in units conversion during post-processing.
+          See nearby plot: the global- and annual-mean value is about 0.03. If units were
+          kg m<sup>-2</sup> s<sup>-1</sup> (as stated in the metadata) then conversion to more common units would give about 3 meters per day, 1000
+          times too large.<br>
+           <a href="evspsbl_Amon_NorESM1-M_historical_r1i1p1_2005.gif"><img src="evspsbl_Amon_NorESM1-M_historical_r1i1p1_2005.gif" style="border:2px solid" height="215" align="middle" border="2" width="300"></a></td>
+    <td>
+      <p>NorESM1-M corrected the data files (June 2012).</p> </td>
+  </tr>
+
+  <!--    -->
+  <tr>
+    <td>30 March 2012</td>
+    <td>GISS-E2-R</td>
+    <td>Files covering certain times are missing (see remarks in adjacent column).</td>
+    <td>In the piControl time series, files in between Years 3631 and 3980 are not present.
+          The two blocks of years that are present (3331-3630 and 3981-4530) represent
+          different control runs, even though the "r1i1p1" in the file names implies that
+          they come from the same model run (as specified in the CMIP5 Data Description). </td>
+    <td>
+      <p>Data files are still available.</p>    </td>
+  </tr>
+
+  <!--    -->
+  <tr>
+    <td>31 March 2012</td>
+    <td>FGOALS-s2</td>
+    <td>ta_6hrLev_FGOALS-s2_*.nc<br>
+          ta_6hrPlev_FGOALS-s2_*.nc</td>
+    <td>6-hourly air temperature between 85°S and 85°N output by FGOALS-s2, except for aqua-planet experiments, has
+          virtually no annual cycle (see <a href="yu_FGOALS-s2_6hr_ta_errata.pdf">figure</a> provided by Haiyang Yu,
+          LASG, Beijing).</td>
+    <td>
+      <p>Data files have been withdrawn; corrected files will be provided.</p>    </td>
+  </tr>
+
+  <!--    -->
+  <tr>
+    <td>9 April 2012</td>
+    <td>MPI-ESM-LR</td>
+    <td>ta_cfSites_MPI-ESM-LR_*.nc </td>
+    <td>Values are much too low.
+          See nearby plot: the surface values at Site 30 (in the tropics) are all less than 271 K -- below freezing.<br>
+           <a href="ta_cfSites_MPI-ESM-LR_amip_r1i1p1_200812010000-200812312330.gif">
+           <img src="ta_cfSites_MPI-ESM-LR_amip_r1i1p1_200812010000-200812312330.gif" style="border:2px solid" height="215" align="middle" border="2" width="300"></a></td>
+    <td>
+      <p>Contacting MPI.</p> </td>
+  </tr>
+
+  <!--    -->
+  <tr>
+    <td>11 April 2012</td>
+    <td>GISS-E2-H<br>
+          GISS-E2-R</td>
+    <td>All cli and clw files contributed before March 2011</td>
+    <td>Vertical coordinates were reversed in versions contributed before March 2011.</td>
+    <td>Erroneous data files have been replaced.</td>
+  </tr>
+
+  <!--    -->
+  <tr>
+    <td>11 April 2012</td>
+    <td>CNRM-CM5</td>
+    <td>All files known to the CNRM group to be problematic</td>
+    <td>Stéphane Sénési of CNRM, Toulouse, maintains a <a href="http://www.cnrm.meteo.fr/cmip5/spip.php?article24">webpage</a>
+          listing "known issues" and related model documentation.</td>
+    <td>CNRM webpages are updated periodically.</td>
+  </tr>
+
+  <!--    -->
+  <tr>
+    <td>11 April 2012</td>
+    <td>MPI-ESM-LR</td>
+    <td>SST input to AMIP future run</td>
+    <td>A discontinuity of temperature appears at the land-sea interface (see nearby plot).<br>
+           <a href="imageNoRegrid_MPI-ESM-LR_amipFuture_r1i1p1_197901-200812_DJF_amipFuture_ANOM_ts.pdf">
+           <img src="imageNoRegrid_MPI-ESM-LR_amipFuture_r1i1p1_197901-200812_DJF_amipFuture_ANOM_ts.png" style="border:2px solid" height="200" align="middle" border="2"></a></td>
+
+
+    <td>
+      <p>MPI is deleting the current AMIP future run and re-running the experiment.</p> </td>
+  </tr>
+
+  <!--    -->
+  <tr>
+    <td>11 April 2012</td>
+    <td>inmcm4</td>
+    <td>Files in the dataset cmip5.inmcm4.historical.r1i1p1.mo.so.ver-1 and analogous datasets</td>
+    <td>The ocean depth field contained in this dataset can appear offset from the land-sea mask (see nearby plot provided by Thomas Martin, GEOMAR,
+          Kiel).<br>
+          <a href="ocndepth_cmip5.inmcm4.historical.r1i1p1.mo.so.ver-1.xml.gif">
+           <img src="ocndepth_cmip5.inmcm4.historical.r1i1p1.mo.so.ver-1.xml.gif" style="border:2px solid" height="200" align="middle" border="2" width="250"></a></td>
+    <td>
+      <p>Data remain available. Users should note that ocean data are represented on the model's native grid.
+         Geographical coordinates of each gridpoint can be seen in coordinates (lat, lon) -- <em>not</em> (rlat, rlon).</p> </td>
+  </tr>
+  <!--    -->
+  <tr>
+    <td>11 April 2012</td>
+    <td>GFDL-CM3<br>
+          GFDL-ESM2M</td>
+    <td>Files from the following datasets:<br>
+          cmip5.output1.NOAA-GFDL.GFDL-ESM2M.piControl.mon.land.Lmon.r1i1p1<br>
+          cmip5.output1.NOAA-GFDL.GFDL-CM3.piControl.day.atmos.day.r1i1p1</td>
+    <td>Many time points were missing from these datasets.</td>
+    <td>
+      GFDL is replacing the datasets with new versions containing all time points. </td>
+  </tr>
+
+  <!--    -->
+  <tr>
+    <td>12 April 2012</td>
+    <td>MPI-ESM-LR</td>
+    <td>chl_Omon_MPI-ESM-LR_historical_r1i1p1_185001-200512.nc<br>
+          and other chl files</td>
+    <td>Although the metadata says units are kg m<sup>-3</sup> (as specified in the CMIP5 Data Description) the actual
+          units are mg m<sup>-3</sup>.</td>
+    <td>The MPI group is replacing the affected files. Meanwhile the original data files are still available;
+          divide by 10<sup>6</sup> to convert units to kg m<sup>-3</sup>.</td>
+  </tr>
+
+  <!--    -->
+  <tr>
+    <td>12 April 2012</td>
+    <td>GFDL-CM3</td>
+    <td>so_Omon_GFDL-CM3_historical_r1i1p1_197501-197912.nc</td>
+    <td>This file is missing from the sequence of historical r1i1p1 salinity output.</td>
+    <td>GFDL is adding the file to the sequence (13 April).</td>
+  </tr>
+
+  <!--    -->
+  <tr>
+    <td>13 April 2012</td>
+    <td>MIROC-ESM-CHEM<br>
+          MIROC4h<br>
+          MIROC5</td>
+    <td>All files known to the MIROC group to be problematic</td>
+    <td>The MIROC group maintains a <a href="http://amaterasu.ees.hokudai.ac.jp/~fswiki/pub/wiki.cgi?page=CMIP5">website</a>
+          for their CMIP5 contribution, including a link to "Known Issues in our CMIP5 data."</td>
+    <td>The MIROC CMIP5 website is updated periodically.</td>
+  </tr>
+
+  <!--    -->
+  <tr>
+    <td>10 May 2012</td>
+    <td>MIROC</td>
+    <td>All clt files</td>
+    <td>MIROC "total cloudiness" doesn't include cloud with tau smaller than 0.3,
+          rather than including the whole atmospheric column as specified in the CMIP5 Data Description.</td>
+    <td>Data files are still available.</td>
+  </tr>
+
+  <!--    -->
+  <tr>
+    <td>12 May 2012</td>
+    <td>FGOALS-s2</td>
+    <td>evspsbl_Amon_FGOALS-s2_historical_r1i1p1_185001-200512.nc<br>
+          evspsbl_Amon_FGOALS-s2_rcp85_r1i1p1_200601-210012.nc<br>
+          and probably other FGOALS-s2 evspsbl files</td>
+    <td>Sign convention was reversed from that of the CMIP5 Data description: upward flux of water vapor was negative;
+          downward flux is positive. See nearby plot provided by Jack Scheff, University of Washington.<br>
+           <a href="FGOALS-s2_evspsbl_example.gif">
+           <img src="FGOALS-s2_evspsbl_example.gif" style="border:2px solid" height="215" align="middle" border="2"></a></td>
+    <td>
+      <p>Qing Bao et al. (LASG, Beijing, China) have removed the incorrect files and uploaded replacements
+        (16 May 2012).</p></td>
+  </tr>
+
+   <!--    -->
+  <tr>
+    <td>23 May 2012</td>
+    <td>MIROC</td>
+    <td>All mc files</td>
+    <td>MIROC "convective mass flux" is actually cloud base convective mass flux.</td>
+    <td>Data files are still available.</td>
+  </tr>
+
+  <!--    -->
+  <tr>
+    <td>1 June 2012</td>
+    <td>ACCESS1.0<br>
+          ACCESS1.3</td>
+    <td>All files known to the ACCESS group to be problematic</td>
+    <td>Peter Uhe of CSIRO Marine and Atmospheric Research, Australia, maintains a
+          <a href="https://wiki.csiro.au/display/ACCESS/Known+Issues+with+ACCESS+CMIP5+data">webpage</a>
+          listing "known issues" and related model documentation.</td>
+    <td>ACCESS webpages are updated periodically.</td>
+  </tr>
+
+  <!--    -->
+  <tr>
+    <td>1 June 2012</td>
+    <td>CMCC-CM<br>
+          EC-EARTH</td>
+    <td>evspsbl files</td>
+    <td>Sign convention is reversed from that of the CMIP5 Data description: upward flux of water vapor is negative;
+          downward flux is positive. See nearby plot provided by Jack Scheff, University of Washington.<br>
+           <a href="CMCC-CM_evspsbl_example.png">
+           <img src="CMCC-CM_evspsbl_example.png" style="border:2px solid" height="215" align="middle" border="2"></a></td>
+    <td>Contacting modelers. Data files are still available. EC-EARTH files are being corrected. </td>
+  </tr>
+
+  <!--    -->
+  <tr>
+    <td>12 July 2012</td>
+    <td>MRI-CGCM3</td>
+    <td>All albisccp and pctisccp files</td>
+    <td>Per Seiji Yukimoto, MRI, Tsukuba: the time averaging for albisccp and pctisccp has been done according
+          to 5.A.2 of <a href="http://cfmip.metoffice.com/README">ISCCP simulator documentation</a>, as indicated in
+          the CMIP5 standard output specification, except that originally the last procedure
+          <br><br>
+          avg(meanalbedocld) = avg(gridbox_meanalbedocld)/avg(totalcldarea)
+          <br><br>
+          was not applied. The original data corresponded to
+          avg(gridbox_meanalbedocld). Correct values may be obtained by the following transformations:
+          <br><br>
+          albisccp -&gt; albisccp/cltisccp*100.0<br>
+          pctisccp -&gt; pctisccp/cltisccp*100.0
+          <br><br>
+          (All the three variables have been averaged on sunlit points only,
+          so this correction works consistently.)</td>
+    <td>Erroneous data files have been replaced (July 2012).</td>
+  </tr>
+
+  <!--    -->
+  <tr>
+    <td>13 July 2012</td>
+    <td>MRI-CGCM3</td>
+    <td>All files for amip4xCO2</td>
+    <td>Per Seiji Yukimoto, MRI, Tsukuba:
+          The CO2 concentration in amip4xCO2 was not set to 4xCO2 but to 1xCO2 in years 1979-2005,
+          and to zero in years after 2006.</td>
+    <td>Erroneous data files have been replaced (January 2013).</td>
+  </tr>
+
+  <!--    -->
+  <tr>
+    <td>13 July 2012</td>
+    <td>MRI-ESM1</td>
+    <td>Files: All files for esmrcp85</td>
+    <td>Per Seiji Yukimoto, MRI, Tsukuba:
+          The emission data of carbon monoxide (CO), nitrogen oxide (NOx), and volatile organic compounds
+          (VOCs) was mistakenly (10-year advance) forced by the year 2089, and these emissions were set to
+          zero after the year 2090. The global mean ozone concentration in the troposphere abruptly decreases
+          by 10-30% after the year 2090. Since there are little impact of this error on the stratospheric ozone
+          (about 90% of the atmospheric ozone is contained in the stratosphere), the global mean total column
+          ozone is affected within 1% to 3%.
+    </td><td>A corrected simulation is now running. The data will be replaced by the end of July, 2012.</td>
+  </tr>
+
+  <!--    -->
+  <tr>
+    <td>15 July 2012</td>
+    <td>CESM1-CAM5</td>
+    <td>RCP8.5 output</td>
+    <td>A discontinuity appeared in the last five years of the simulations.
+          See nearby plot provided by Geert Jan van Oldenborgh, KNMI, the Netherlands.<br>
+           <a href="CESM1-CAM5_tas_rcp85.png">
+           <img src="CESM1-CAM5_tas_rcp85.png" style="border:2px solid" height="180" align="middle" border="2"></a></td>
+    <td>Data was corrected and republished (June 2012).</td>
+  </tr>
+
+  <!--    -->
+  <tr>
+    <td>17 July 2012</td>
+    <td>EC-EARTH</td>
+    <td>RCP8.5 output</td>
+    <td>Year 2082 is missing from Run 14 of the ensemble.
+    </td><td>Contacting the EC-EARTH group.</td>
+  </tr>
+
+  <!--    -->
+  <tr>
+    <td>19 July 2012</td>
+    <td>CanESM2<br>
+          CanCM4<br>
+          CanAM4</td>
+    <td>All concoa, concbc, concso4, concso2, concdms, concss and concdust output</td>
+    <td>Per Slava Kharin Viatcheslav, CCCma, Victoria: A mistake when conveting from mixing ratios to mass
+          concentrations rendered these fields invalid.
+    </td><td>This output is removed; there are no immediate plans to re-compute it.</td>
+  </tr>
+
+  <!--    -->
+  <tr>
+    <td>19 July 2012</td>
+    <td>MIROC-ESM<br>
+          MIROC-ESM-CHEM</td>
+    <td>sftlf and sftgif files (from CMOR Table fx)</td>
+    <td>These fractions are given as numbers between 0 and 1, rather than percent (as specified in the CMIP5
+          Data Description). See nearby plot provided by Jack Scheff, University of Washington.<br>
+           <a href="MIROC-ESMsftlfexample.gif">
+           <img src="MIROC-ESMsftlfexample.gif" style="border:2px solid" height="215" align="middle" border="2"></a></td>
+    <td>The MIROC group will correct the error (20 July 2012). Meanwhile, the original data files are still available;
+          multiply by 100 to correct the units. </td>
+  </tr>
+
+  <!--    -->
+  <tr>
+    <td>20 July 2012</td>
+    <td>FGOALS-s2</td>
+    <td>hfds files (from CMOR Table Omon)</td>
+    <td>Downward heat flux into the ocean surface had unrealistically small values due to incorrect units.
+          See nearby plot provided by Mahe Perrette, Potsdam Institute for Climate Impact Research.<br>
+           <a href="checkgcm_ohu_FGOALS_s2_19-Jul-2012.png">
+           <img src="checkgcm_ohu_FGOALS_s2_19-Jul-2012.png" style="border:2px solid" height="215" align="middle" border="2"></a></td>
+    <td>The FGOALS group corrected the error (26 July 2012).</td>
+  </tr>
+
+  <!--    -->
+  <tr>
+    <td>20 July 2012</td>
+    <td>CESM1-CAM5-1-FV2</td>
+    <td>rlut_Amon_CESM1-CAM5-1-FV2_*_r1i1p1_200601-209912.nc</td>
+    <td>Per Balwinder Singh, PNNL: There was an error in data submitted to CMIP5 in the top of atmosphere fluxes for many of the variants of CCSM and CESM model simulations (CESM1-CAM5-1-FV2, CESM1-CAM5 and CCSM4) that can lead to the conclusion that the model does not conserve energy. The model does in fact conserve energy precisely -- the error arises because we produced an inconsistent characterization of top of atmosphere energy fluxes based upon a mixture of "top of model" and "top of atmosphere" fluxes in our early submissions to CMIP5.   The field is being corrected for all runs, to eliminate the problem, but we are aware that some users have downloaded the data and corrupt versions are floating around of this field. If you care about the Top Of Atmosphere (TOA) energy budget it is important to get the corrected datasets.
+You can tell whether you have a corrupted dataset by examining metadata for the "rlut" field. If the field contains the following metadata:
+<br><br>
+"rlut:comment = "FSNTOA-FSNT+FLNT, CMIP5_table_comment: at the top of The atmosphere (to be compared with satellite measurements)"
+<br><br>
+it is correct. Otherwise "rlut" is corrupt and you should download a new copy of that data.
+</td>
+    <td>Corrected fields will be published by LLNL and NERSC.</td>
+  </tr>
+
+  <!--    -->
+  <tr>
+    <td>20 July 2012</td>
+    <td>CESM1-CAM5-1-FV2</td>
+    <td>mrso_Lmon_CESM1-CAM5-1-FV2_*_r1i1p1_200601-209912.nc</td>
+    <td>Per Balwinder Singh, PNNL: Variable msro in Lmon was computed incorrectly for many of the variants of CCSM and CESM model simulations (CESM1-CAM5-1-FV2, CESM1-CAM5 and CCSM4). For CESM1-CAM5-1-FV2, you can tell whether you have a corrupted dataset by examining metadata for the "mrso" field. If the "mrso:history" field shows that the data is processed on or after July 2012 then it is correct. Otherwise "msro" is corrupt and you should download a new copy of that data.
+<br><br>
+For other variants of CCSM and CESM (CESM1-CAM5 and CCSM4), the data is being processed by NCAR.
+</td>
+    <td>Corrected fields will be published by LLNL and NERSC.</td>
+  </tr>
+
+  <!--    -->
+  <tr>
+    <td>20 August 2012</td>
+    <td>CESM1-CAM5-1-FV2</td>
+    <td>All variables in the RCP8.5 and RCP4.5 scenarios</td>
+    <td>Per Balwinder Singh, PNNL: Both RCP8.5 and RCP4.5 experiments are corrupted. You can tell whether you have a corrupted dataset by examining metadata for these cases. If the version designation of the variables in these cases contains:
+<br><br>
+Version: 20120605
+<br><br>
+then they are corrupted.
+</td>
+    <td>PNNL is re-running the RCP4.5 and RCP8.5 cases. The data will be published by NERSC and LLNL as soon as the data are ready.</td>
+  </tr>
+
+  <!--    -->
+  <tr>
+    <td>21 August 2012</td>
+    <td>HadGEM2-ES</td>
+    <td>Pre-industrial control run and RCP8.5 scenario output</td>
+    <td>Several file pairs overlap in time e.g.:<br>
+          <br>tas_Amon_HadGEM2-ES_piControl_r1i1p1_208412-209910.nc<br>
+              tas_Amon_HadGEM2-ES_piControl_r1i1p1_209812-212311.nc<br>
+          <br>evspsbl_Amon_HadGEM2-ES_rcp85_r1i1p1_208012-209912.nc<br>
+              evspsbl_Amon_HadGEM2-ES_rcp85_r1i1p1_209912-212411.nc
+    </td>
+    <td>The HadGEM2-ES group will correct the overlap (30 July 2012). Meanwhile, data files are still available.</td>
+  </tr>
+
+  <!--    -->
+  <tr>
+    <td>21 August 2012</td>
+    <td>CCSM4</td>
+    <td>All clisccp files</td>
+    <td>Per Mark Zelinka, PCMDI: The dimensions of clisccp are described in the netcdf file as (time, tau, plev, lat, lon), but dimensions 2 and 3 have been reversed, making the true dimensions (time, plev, tau, lat, lon).  The nearby figure demonstrates this: Summing clisccp only over "tau" bins 1 and 2 produces a map (top left) that is clearly the distribution of low clouds (i.e., the sum over plev bins 1 and 2).  Similarly, summing the histogram only over "tau" bins 6 and 7 produces a map  (top right) that is clearly the distribution of high clouds (i.e., the sum over plev bins 6 and 7).<br>
+    <a href="CCSM4_amip_r7i1p1_simulator_check_v2.png">
+    <img src="CCSM4_amip_r7i1p1_simulator_check_v2.png" style="border:2px solid" height="215" align="middle" border="2"></a></td>
+    <td>Data are being corrected and will be replaced.</td>
+  </tr>
+
+  <!--    -->
+  <tr>
+    <td>24 September 2012</td>
+    <td>CCSM4<br>
+          CESM1</td>
+    <td>All files known to the CCSM / CESM consortium to be problematic</td>
+    <td>Gary Strand of NCAR maintains a
+          <a href="http://www.cesm.ucar.edu/CMIP5/errata">webpage</a>
+          listing errata information.</td>
+    <td>This webpage is updated periodically.</td>
+
+  <!--    -->
+  </tr><tr>
+    <td>24 September 2012</td>
+    <td>NICAM.09</td>
+    <td>All files for the aqua4xCO2 experiment</td>
+    <td>Configuration of the aquaplanet 4xCO2 run (6.7b) by NICAM.09 did
+not follow CMIP5 protocol. The SST (sea surface temperature) boundary condition
+condition should have been the same as the aquaControl run (6.7a), but SST was prescribed
+to be 4K warmer than the control run by mistake.</td>
+    <td>The NICAM team has now re-run the aqua4xCO2 run and corrected the data (16 October 2012).</td>
+
+  <!--    -->
+  </tr><tr>
+    <td>22 October 2012</td>
+    <td>INMCM4</td>
+    <td>Daily-mean hur output from RCP4.5 and RCP8.5 experiments</td>
+    <td>Relative humidity includes unphysical values such as negative numbers.
+          See nearby plot.<br>
+           <a href="hur_day_inmcm4_rcp85_r1i1p1_tavg20060101-20101231.png">
+           <img src="hur_day_inmcm4_rcp85_r1i1p1_tavg20060101-20101231.png" style="border:2px solid" height="215" align="middle" border="2"></a></td>
+    <td>INM will provide corrected data.</td>
+  </tr>
+
+  <!--    -->
+  <tr>
+    <td>23 October 2012</td>
+    <td>FGOALS-g2</td>
+    <td>All historical runs
+    </td><td>The historical run that provided the starting point for RCP experiments was not included in the original FGOALS-g2
+          contribution to CMIP5. At the end of May 2012, the FGOALS group added output from this run, designating its version
+          number as "r1i1p1." Since previous version numbers included "r1i1p1," <em>all historical run version numbers were
+          changed at this time</em> as described in the
+          <a href="changes_of_FGOALS-g2_historical_data.pdf">table</a> provided by Lijuan Li (LASG, Beijing, China).</td>
+    <td>Data prior to 1900 is missing in version "r2i1p1" (formerly called "r1i1p1").</td>
+  </tr>
+
+  <!--    -->
+  <tr>
+    <td>23 October 2012</td>
+    <td>NICAM.09</td>
+    <td>All</td>
+    <td>Description: CO2 concentrations of the NICAM.09 runs are 348ppmv for
+aquaControl and aqua4K and 1392ppmv for aqua4xCO2. These concentrations
+are different from those in CMIP5 experimental design (e.g. AMIP mean
+concentration for aquaControl).</td>
+    <td>Data files are still available.</td>
+
+  <!--    -->
+  </tr><tr>
+    <td>24 October 2012</td>
+    <td>HadGEM</td>
+    <td>Ocean / seaice output</td>
+    <td>In the metadata, latitude bounds near the poles exceed 90 degrees in magnitude.
+          For example tos_Omon_HadGEM2-CC_historical_r3i1p1_200112-200512.nc has lat_bnds = (-90.5, -89.5),
+          (-89.5, -88.5), ...</td>
+    <td>Contacting HadGEM group. Meanwhile, data files are still available.</td>
+  </tr>
+
+  <!--    -->
+  <tr>
+    <td>15 November 2012</td>
+    <td>CMCC-CM</td>
+    <td>rtmt_Amon_CMCC-CM_1pctCO2_r1i1p1_187101-188012.nc and other output from the 1pctCO2
+          scenario</td>
+    <td>rtmt values are much too large (over 600 W/m2).</td>
+    <td>The CMCC-CM group is investigating and will correct the problem.
+          Meanwhile, data files are still available.</td>
+  </tr>
+
+  <!--    -->
+  <tr>
+    <td>15 November 2012</td>
+    <td>CanESM2 and CanAM4</td>
+    <td>All COSP variables: cltisccp, albisccp, pctisccp, clisccp, cltcalipso, cllcalipso, clmcalipso,
+          clhcalipso, clcalipso, parasolRefl, clcalipso2, cfadDbze94, cfadLidarsr532</td>
+    <td>An error was made when incorporating COSP into CanESM2 and
+CanAM4 which resulted in COSP simulators being provided with profiles of
+pressure at layer interfaces that are shifted downward by one level.
+This mainly affected the interpolation of CALIPSO and CloudSat output to
+the prescribed vertical heights (see nearby figure from Jason Cole, CCCma) and the PARASOL
+reflectances.  The incorrect layer interface pressures also caused a
+small change in some ISCCP variables related to the determination of
+cloud top pressure.<br>
+<a href="zonal_CALIPSO_cloud_amount_CanAM4_COSP_fix.png">
+<img src="zonal_CALIPSO_cloud_amount_CanAM4_COSP_fix.png" style="border:2px solid" height="215" align="middle" border="2"></a></td>
+    <td>CCCma removed the erroneous files on 1 Nov 2012 and replaced
+them with corrected files on 19 January 2013, after rerunning the model simulations.</td>
+  </tr>
+
+  <!--    -->
+  <tr>
+    <td>4 December 2012</td>
+    <td>FGOALS-g2</td>
+    <td>Historical daily and monthly mean output from r1i1p1</td>
+    <td>Daily means and monthly means were not consistent for the r1i1p1 ensemble member
+          (but were consistent for r3i1p1).</td>
+    <td>The FGOALS has fixed the problem for r1i1p1 and re-published the data (28 January 2013).</td>
+  </tr>
+
+  <!--    -->
+  <tr>
+    <td>28 January 2013</td>
+    <td>BNU-ESM</td>
+    <td>sic from historical and piControl scenarios</td>
+    <td>From examining the locations of "missing data" (i.e. land areas)
+          in historical output, it appears that the longitude
+          coordinate is erroneously shifted by 90 degrees. See nearby figure from Geert Jan van Oldenborgh,
+          KNMI. sic in the piControl scenario has a similar problem.<br>
+          <a href="historicalBNU-ESM.sic.png">
+          <img src="historicalBNU-ESM.sic.png" style="border:2px solid" height="215" align="middle" border="2"></a></td>
+    <td>BNU is addressing the problem. Meanwhile, data files are still available. Users may be able to fix the problem
+          in the historical scenario by adding 90 degrees
+          to the longitude coordinate. </td>
+  </tr>
+
+  <!--    -->
+  <tr>
+    <td>28 January 2013</td>
+    <td>FGOALS-g2</td>
+    <td>all output from the historical and historicalNat scenarios</td>
+    <td>Volcanic forcing is missing from these scenarios.</td>
+    <td>The FGOALS group is re-running these scenarios with volcanic forcing.
+          Meanwhile, the original data files are still available.
+          When the new runs (including volcanic forcing) are done they will enter the CMIP5 database
+          labeled "historical" and "historicalNat"; at the same time the original data files will be
+          re-labeled "historicalMisc" with different p-values in the "rip" designation.</td>
+  </tr>
+
+  <!--    -->
+  <tr>
+    <td>27 February 2013</td>
+    <td>INMCM4</td>
+    <td>va_6hrPlev_inmcm4_rcp45_*.nc<br>
+          ua_6hrPlev_inmcm4_rcp45_*.nc<br>
+          ua_6hrPlev_inmcm4_rcp85_*.nc<br>
+          va_6hrPlev_inmcm4_rcp85_*.nc<br> </td>
+    <td>Winds at 250 hPa are too large by a factor of exactly 100 (winds at 500 and 850 hPa are correct).</td>
+    <td>Divide by 100 to get correct 250 hPa winds.</td>
+  </tr>
+  <!--    -->
+  <tr>
+    <td>3 October 2013</td>
+    <td>FGOALS-s2</td>
+    <td>all output from the historical and RCP scenarios</td>
+    <td>missing</td>
+    <td>Withdrawn by the FGOALS group in early 2013.
+  </td></tr>
+
+  <!--    -->
+  <tr>
+    <td>4 October 2013</td>
+    <td>CSIRO Mk3-6-0</td>
+    <td>all ocean-surface temperature (tos) output</td>
+    <td>Ocean-surface temperature is undefined (flagged as "missing data") under sea ice.
+          See nearby figure from Geert Jan van Oldenborgh, KNMI.
+          According to the CMIP5 Data Description, tos should be defined as the ocean's temperature just under the sea ice
+          where sea ice exists.
+          <br>
+          <a href="tos_CISIROmk3.6.0historical1981-2005.png">
+          <img src="tos_CISIROmk3.6.0historical1981-2005.png" style="border:2px solid" height="215" align="middle" border="2"></a></td>
+    <td>Data files are still available. Users can approximately fix the problem by setting tos = -2 degrees C under sea ice.
+  </td></tr>
+
+  <!--    -->
+  <tr>
+    <td>7 October 2013</td>
+    <td>CMCC-CM<br>
+          CMCC-CMS<br>
+          CMCC-CESM</td>
+    <td>all 3D atmospheric output on model levels</td>
+    <td>Vertical coordinate is "alternate_hybrid_sigma," but metadata incorrectly states that
+          vertical coordinate is "standard_hybrid_sigma."
+          This error affects the NetCDF attributes only, not the data.</td>
+    <td>Data files are still available. To get around the problem, use the correct formula "p = ap + b*ps"
+          instead of "p = a*p0 + b*ps."</td>
+  </tr>
+
+  <!--    -->
+  <tr>
+    <td>7 October 2013</td>
+    <td>HadGEM2-A</td>
+    <td>*aquaControl*<br>
+          *aqua4xCO2*<br>
+          *aqua4K*</td>
+    <td>The concentrations of CO2, CH4, N2O, and O3 were specified in error as ppmv when the models required
+          mass mixing ratios.  Hence the CO2 concentration is approximately 30% too low.</td>
+    <td>Data files are still available.</td>
+  </tr>
+
+ <!--    -->
+  <tr>
+    <td>7 October 2013</td>
+    <td>INMCM</td>
+    <td>all historical output</td>
+    <td>All forcings were erroneously shifted one year earlier than actual time, so that the time-coordinate units should
+          read "days after 1851" rather than 1850. This shift is most apparent in a plot of anomalous upwelling clear-sky
+          shortwave radiation at the top of atmosphere (rsutcs) for the period covering the El Chichon and Pinatubo eruptions.
+          See nearby figure from Mark Zelinka, PCMDI. In INMCM4 the reflectance peaks due to these two volcanoes appear a year earlier
+          than the actual eruption times (which appear correctly in the two other models shown).
+          <br>
+          <a href="rsutcs_inmcm4.png">
+          <img src="rsutcs_inmcm4.png" style="border:2px solid" height="215" align="middle" border="2"></a></td>
+    <td>Data files are still available. Users can fix the problem by manually correcting the time coordinate or just adding
+          1 to the year.
+  </td></tr>
+
+ <!--    -->
+  <tr>
+    <td>8 October 2013</td>
+    <td>MIROC-ESM</td>
+    <td>hfds output (net surface heat flux into ocean)</td>
+    <td>Global annual mean of this flux is about an order of magnitude too large in absolute value.
+          See nearby figure, which maps hfds for July 1991. It shows reasonable patterns for this season but a global mean
+          that's way too big (-68 W / m<sup>2</sup> noted at upper left).
+          <br>
+          <a href="hfds_Omon_MIROC-ESM_piControl_r1i1p1_1991-7.pdf">
+          <img src="hfds_Omon_MIROC-ESM_piControl_r1i1p1_1991-7.png" style="border:2px solid" height="215" align="middle" border="2"></a><br>
+          The MIROC group has traced this problem to double-counting of shortwave penetration.
+          This is why hdfs is incorrect in the summer hemisphere although other variables, such as SST, are reasonable.</td>
+    <td>Data files are still available.
+          To manually correct this error, try hfds = hfds_you_have * 0.95 + rsntds * 0.337938687
+          where rsntds is Net Downward Shortwave Radiation at Sea Water Surface [W / m<sup>2</sup>].
+  </td></tr>
+
+  <!--    -->
+  <tr>
+    <td>9 October 2013</td>
+    <td>CNRM-CM5<br>
+          IPSL-CM5A-LR</td>
+    <td>*6hrLev*historical*r1i1p1*</td>
+    <td>Data that is present in the 6hrLev files is not consistent with data in the other formats, e.g. 6hrPlev,
+          even when allowance is made for the differing vertical coordinates.</td>
+    <td>Data files are still available. Isla Simpson of Columbia University has contacted both the CNRM-CM5 and
+          IPSL-CM5A-LR groups. The IPSL
+          group confirmed that surface pressure is wrong in their 6hrLev files from 1996-1999 for hus, ta, ua and va;
+          the correct surface pressure is provided in their separate PS file.</td>
+  </tr>
+  <!--    -->
+  <tr>
+    <td>9 October 2013</td>
+    <td>CESM1-CAM5</td>
+    <td>*amipFuture*</td>
+    <td>Sea-surface temperature (SST) from the amipFuture scenario is identical to SST from the amip scenario.
+          These two scenarios are supposed to have SST differing by preset amount. It is possible that the amipFuture
+          runs were erroneously done without applying the SST difference.</td>
+    <td>The CESM1-CAM5 group is investigating the situation. Meanwhile, data files are still available.
+  </td></tr>
+
+  <!--    -->
+  <tr>
+    <td>10 March 2014</td>
+    <td>MRI-CGCM3<br>
+          MRI-ESM1</td>
+    <td>cldnci_aero_*.nc</td>
+    <td>The values are mistakenly weighted by liquid cloud top fraction
+          instead of ice cloud top fraction when computing monthly mean.</td>
+    <td>Data files are being withdrawn.
+  </td></tr>
+
+  <!--    -->
+  <tr>
+    <td>10 March 2014</td>
+    <td>MRI-CGCM3</td>
+    <td>*4co2_cfMon_MRI-CGCM3_piControl_*.nc<br>
+          *4co2_cfMon_MRI-CGCM3_amip_*.nc<br>
+          *4co2_cfMon_MRI-CGCM3_sstClim_*.nc<br>
+          *4co2_cfMon_MRI-CGCM3_aquaControl_*.nc</td>
+    <td>The same results as the corresponding 4xCO2 experiments (i.e.,
+          abrupt4xCO2, amip4xCO2, sstClim4xCO2, and aqua4xCO2) are stored in
+          these variables due to the misunderstanding of their definitions.
+          instead of ice cloud top fraction when computing monthly mean.</td>
+    <td>Data files are being withdrawn.
+  </td></tr>
+
+  <!--    -->
+  <tr>
+    <td>10 March 2014</td>
+    <td>MRI-CGCM3</td>
+    <td>tntscpbl_*.nc<br>
+          tnhusscpbl_*.nc<br>
+          tnhusd_*.nc</td>
+    <td>For temperature: tntscpbl (Cloud/BL) = dT/dt by Cloud scheme + dT/dt by BL scheme.<br>
+          For specific humidity: tnhusscpbl (Cloud/BL) = dqv/dt by Cloud scheme,
+          but tnhusd (Diffusion) = dqv/dt by BL scheme.
+  ('Diffusion' is mistakenly considered as vertical diffusion.)</td>
+    <td>Data files are still available.
+  </td></tr>
+
+ <!--    -->
+  <tr>
+    <td>12 March 2014</td>
+    <td>ACCESS1-3</td>
+    <td>pr_day_ACCESS1-3_historical_r3i1p1_19750101-19991231.nc</td>
+    <td>The time period 9-17 May 1990 (8 days) has zero precipitation.  See nearby figure, which shows the meridional mean for 1990.
+          <br>
+          <a href="meridmean_pr_day_ACCESS1-3_historical_r3i1p1_19750101-19991231.pdf">
+          <img src="meridmean_pr_day_ACCESS1-3_historical_r3i1p1_19750101-19991231.png" style="border:2px solid" height="215" align="middle" border="2"></a></td>
+    <td>Contacting ACCESS group. Meanwhile, data files are still available.
+  </td></tr>
+
+  <!--    -->
+  <tr>
+    <td>17 March 2014</td>
+    <td>HadGEM2-CC</td>
+    <td>psl_6hrPlev_HadGEM2-CC_rcp85_r1i1p1_20[n]010106-20[n+1]010100.nc<br>
+          where n = 12, 26, 45, 50, 68, 85 and 95</td>
+    <td>The 7 files named at left each have one duplicated time point for a total of 1441 time points each
+          (should be 360 * 4 = 1440 since each file contains one year of data, and this model has a 360-day
+          calendar).</td>
+    <td>Data files are still available. According to Michael Wehner (LBNL and UC Berkeley) the duplicate time slice
+          occurs at position 1319 (out of 1440) in each of the problematic files, so can be easily excised or skipped over.
+  </td></tr>
+
+  <!--    -->
+  <tr>
+    <td>19 March 2014</td>
+    <td>Had*<br> (all Met Office / Hadley Centre models)</td>
+    <td>tsl*.nc<br>
+          mrlsl*.nc</td>
+    <td>The depths bounds are wrong.  The meta-data has:<br>
+depth = 0.05, 0.225, 0.675, 2 ;
+depth_bnds =
+  0, 0.1,
+  0.1, 0.35,
+  0.35, 0.675,
+  0.675, 3 ;<br>
+
+but it should be:<br>
+
+depth = 0.05, 0.225, 0.675, 2 ;
+depth_bnds =
+  0, 0.1,
+  0.1, 0.35,
+  0.35, 1.0,
+  1.0, 3 ;
+    </td>
+    <td>Data files are still available. The two incorrect bound values shown at left can be manually corrected.
+  </td></tr>
+
+  <!--    -->
+  <tr>
+    <td>19 March 2014</td>
+    <td>INMCM4</td>
+    <td>*_3hr_inmcm4_historical_r1i1p1_1998010100-1998123121.nc<br>
+          where * = huss, ps, uas and vas<br>
+          but <em>not</em> tas, hfls, or hfss</td>
+    <td>The files specified at left have all zeros instead of data in their first time step (0Z on 1 Jan 1998).
+          this only applies to the very first 3-hour time step of the year.
+          By the second time step (3Z that day) everything looks normal again, and thereafter.
+          See nearby plots provided by Jack Scheff, University of Washington.<br>
+           <a href="vas_3hr_inmcm4_historical_r1i1p1_1998010100.png">
+           <img src="vas_3hr_inmcm4_historical_r1i1p1_1998010100.png" style="border:2px solid" height="215" align="middle" border="2"></a>
+           <a href="vas_3hr_inmcm4_historical_r1i1p1_1998010103.png">
+           <img src="vas_3hr_inmcm4_historical_r1i1p1_1998010103.png" style="border:2px solid" height="215" align="middle" border="2"></a></td>
+    <td>Contacting INM. Data files are still available.</td>
+  </tr>
+
+  <!--    -->
+  <tr>
+    <td>19 March 2014</td>
+    <td>MIROC-ESM-CHEM<br>
+          MIROC-ESM<br>
+          MIROC4h<br>
+          MIROC5</td>
+    <td>transix*<br>
+          transiy*</td>
+    <td>Sea ice mass transport values are too small in magnitude (by a factor of about 10<sup>7</sup>) and have
+          incorrect sign.
+          Separately, in case of ESM*, snow mass transport is not included in the present data.
+          For details see the link to "Known Issues in our CMIP5 data" on the
+          MIROC <a href="http://amaterasu.ees.hokudai.ac.jp/~fswiki/pub/wiki.cgi?page=CMIP5">website</a>.</td>
+    <td>Data files are still available.
+          To manually correct the magnitude and sign errors, multiply values by the grid cell sizes and reverse the sign.</td>
+  </tr>
+
+  <!--    -->
+  <tr>
+    <td>June 2014</td>
+    <td>MIROC5</td>
+    <td>All files of 20C, RCP2.6, RCP4.5, RCP8.5, and AMIP experiments</td>
+    <td>In this model, sulphate aerosol is formed by SO<sub>2</sub> oxidization process using
+OH radical, O<sub>3</sub>, and H<sub>2</sub>O<sub>2</sub> (Takemura et al. 2005: J. Geophys. Res., 110,
+D02202, Takemura et al. 2009: Atmos. Chem. Phys., 9, 3061­3073).
+However, in historical, RCPs, and AMIP experiments by MIROC5, external
+data of OH-radical were not read incidentally. This error results in
+sulphate aerosol underestimated in these experiments. Fortunately, the
+difference in historical and RCP 4.5 warming between the original
+and bug-fixed version was small.  See nearby plot provided by Tokuta Yokohata,
+NIES/CGER.<br>
+           <a href="Fig1-MIROC5_20140609.gif">
+           <img src="Fig1-MIROC5_20140609.gif" style="border:2px solid" height="215" align="middle" border="2"></a>
+</td>
+    <td>Original data files are still available.</td>
+  </tr>
+
+  <!--    -->
+  <tr>
+    <td>30 October 2014</td>
+    <td>BNU-ESM<br>
+          CCSM4<br>
+          CNRM-CM5<br></td>
+    <td>pr_3hr_*<br>
+          and other 3-hourly flux files (rsds, rsdscs, ...)<br>
+          NOTE: "cf3hr" files have different time coordinates than "3hr" files. This posting refers only to "3hr" files.</td>
+    <td>Time coordinates are different from the ones specified in the CMIP5 Data Description.
+          For precipitation and other 3-hourly flux fields the specifications require averaging over intervals 0-3Z, 3-6Z, 6-9Z,
+          ..., 21-24Z, which implies time labels 1:30Z, 4:30Z, 7:30Z, ..., 22:30Z. But the three models listed at left give time labels
+          0Z, 3Z, 6Z, ..., 21Z. For some models, the times recorded in the metadata may be erroneous.</td>
+    <td>  For CNRM-CM5, the time recorded for accumulated / averaged flux fields can be corrected by manually subtracting 1.5h.</td>
+  </tr>
+
+  <!--    -->
+  <tr>
+    <td>31 October 2014</td>
+    <td>CSIRO-Mk3-6-0</td>
+    <td>wmo_Omon_CSIRO-Mk3-6-0_historical_r1i1p1_*.nc<br>
+          wmo_Omon_CSIRO-Mk3-6-0_rcp85_r1i1p1_*.nc<br>
+          and possibly other wmo files</td>
+    <td>Ocean mass transport values are far too small in magnitude, implying nonstandard units (see nearby plot).
+          <a href="zonalmean_wmo_Omon_CSIRO-Mk3-6-0_historical_r1i1p1_1stTimepointYear2000.png"><img src="zonalmean_wmo_Omon_CSIRO-Mk3-6-0_historical_r1i1p1_1stTimepointYear2000.png" style="border:2px solid" height="215" align="middle" border="2" width="300"></a></td>
+    <td>Contacting CSIRO. Data files are still available.</td>
+  </tr>
+
+  <!--    -->
+  <tr>
+    <td>31 October 2014</td>
+    <td>BNU-ESM</td>
+    <td>pr_3hr_BNU-ESM_*.nc<br>
+    </td><td>Units of 3-hourly precipitation are m s<sup>-1</sup>, not kg m<sup>-2</sup> s<sup>-1</sup>
+          as stated in the metadata (and as specified in the CMIP5 Data Description).</td>
+    <td>Data files are still available. Multiply by 1000 to convert units to kg m<sup>-2</sup> s<sup>-1</sup>.</td>
+  </tr>
+
+  <!--    -->
+  <tr>
+    <td>24 November 2014</td>
+    <td>MRI-CGCM3</td>
+    <td>All amip r1i1p1 outputs for amip4xCO2/amip4K/amipFuture experiments<br>
+    </td><td>The model settings of the amip run were not completely the same as
+those of the amip4xCO2/amip4K/amipFuture experiments; a parameter for
+volcanic sulfate aerosols in the aerosol model was different.
+We therefore provide a new amip ensemble (r4i1p2) with the same
+parameter value for the comparison with the amip4xCO2/amip4K/amipFuture
+experiments.</td>
+    <td>New data files have been published (21 August 2014).</td>
+  </tr>
+
+  <!--    -->
+  <tr>
+    <td>25 November 2014</td>
+    <td>MIROC5</td>
+    <td>*tntscpbl*</td>
+    <td>Doesn't include contribution from 1) Boundary Layer Mixing, and part of
+          2) Stratiform Cloud and Precipitation, both of which should be included in tntscpbl.
+          This is why tntmp doesn't equal  tntr + tntc + tntscpbl.</td>
+    <td>Data files are still available.
+          The correct value for tntscpbl can be found by subtracting tntr and tntc from tntmp.
+  </td></tr>
+
+  <!--    -->
+  <tr>
+    <td>8 December 2014</td>
+    <td>CMCC-CM</td>
+    <td>*clwvi*</td>
+    <td>This field was "liquid water path," instead of "condensed water path" as it should
+          have been.</td>
+    <td>The error has been fixed and the correct data have been published on
+          <a href="http://adm07.cmcc.it">
+                   http://adm07.cmcc.it</a>.</td>
+  </tr>
+
+  <!--    -->
+  <tr>
+    <td>8 December 2014</td>
+    <td>MPI-ESM</td>
+    <td>*npp* (Net Primary Productivity<br>
+          *ra* (Autotrophic Respiration)</td>
+    <td>Published values of npp are "potential" (i.e. they do not account for structural limits to productivity
+          like density of forests) rather than the actual npp values the model finally computes. Since published
+          ra values were determined from published npp and Gross Primary Productivity, the error in npp has been
+          carried over to ra as well.
+          As shown in the nearby plots from Christian Reick of MPI, these errors can exceed 10% in future scenarios
+          that include high CO<sub>2</sub> emissions.<br>
+             <a href="box_NPP.png">
+           <img src="box_NPP.png" style="border:2px solid" height="215" align="middle" border="2" width="300"></a>
+    <br>
+             <a href="box_ra.png">
+           <img src="box_ra.png" style="border:2px solid" height="215" align="middle" border="2" width="300"></a>
+    </td>
+    <td>Data files are still available.</td>
+  </tr>
+
+  <!--    -->
+  <tr>
+    <td>13 February 2015</td>
+    <td>
+          CMCC-CM<br></td>
+    <td>pr_3hr_*<br>
+          and other 3-hourly flux files (rsds, rsdscs, ...)<br>
+          NOTE: "cf3hr" files have different time coordinates than "3hr" files. This posting refers only to "3hr" files.</td>
+    <td>The time-of-day recorded for accumulated / averaged flux
+          variables is erroneous. </td>
+    <td>Data files are still available. Times can be corrected by manually subtracting 3 hours.</td>
+  </tr>
+
+</tbody>
+</table>
+<br>
+
+
+
