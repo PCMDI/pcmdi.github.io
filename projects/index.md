@@ -31,7 +31,7 @@ The Coupled Model Intercomparison Project Phase VI
 # Detection and Attribution
 
 
-#### [Detection and Atribution Research][DETC]
+#### [Detection and Attribution Research][DETC]
  
 
 ----
@@ -39,7 +39,7 @@ The Coupled Model Intercomparison Project Phase VI
 # Climate Model Metrics 
 
 
-#### [Diagnosis Climate Model Performance][DCMP]
+#### [Diagnosis of Climate Model Performance][DCMP]
 
 
 ----
