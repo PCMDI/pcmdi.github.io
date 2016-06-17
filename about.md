@@ -13,6 +13,7 @@ img {
 <div class="hero-unit">
   <div class="hero-bg"></div>
   <h1>PCMDI</h1>
+<<<<<<< HEAD
   <p> Some cool words about cool things about cool pcmdi. </p><br>
    <div class="row">
       <div class="col-xs-4 col-md-4">
@@ -29,7 +30,11 @@ img {
     </div>
 
 
-
+=======
+  <p>The Program for Climate Model Diagnosis and Intercomparison: furthering the understanding of climate change through model and observational analysis and community leadership</p>
+  <p><a href="#" class="btn btn-primary btn-large">Learn more »</a></p>
+</div>
+>>>>>>> upstream/master
 
 <div class="row">
   <div class="span3">
@@ -38,6 +43,7 @@ img {
     <p><b>PCMDI Info</b></p>
     <ul>
       <li><a href="publications.html">Publications</a></li>
+<<<<<<< HEAD
       <li><a href="{{site.baseurl}}/projects/">Project Page</a></li>
       <li><b>Project Participants</b></li>
 
@@ -56,12 +62,34 @@ img {
       <h5>Yuying Zhang <br><i> (climate scientist)</i></h5>
 
 
+=======
+      <li><a href="#">Project Page</a></li>
+      <li>Project Participants
+      <ul>
+      <li>Karl Taylor (Director & PI)</li>
+      <li>Celine Bonfils (climate scientist)</li>
+      <li>Curt Covey (climate scientist)</li>
+      <li>Charles Doutriaux (computer scientist)</li>
+      <li>Paul Durack (climate scientist)</li>
+      <li>Peter Gleckler (climate scientist)</li>
+      <li>Jeff Painter (computer scientist)</li>
+      <li>Tom Phillips (climate scientist)</li>
+      <li>Ben Santer (climate scientist)</li>
+      <li>Ken Sperber (climate scientist)</li>
+      </ul>
+      </li>
+>>>>>>> upstream/master
     </ul>
   </div>
 </div>
 
+<<<<<<< HEAD
     <div class="span7">
 <h3><a href="#">PCMDI</a> Indtroduction</h3>
+=======
+<div class="span8">
+<h3><a href="#">PCMDI</a> Introduction</h3>
+>>>>>>> upstream/master
 <p>
 <p>Established in 1989 at the Lawrence Livermore National Laboratory (<a href="https://www.llnl.gov/">LLNL</a>), the Program for Climate Model Diagnosis and Intercomparison (PCMDI) fosters and engages in research aimed at providing a systematic and comprehensive evaluation of climate models.  Working with international partners, PCMDI has inspired a fundamental cultural shift in the climate research community: there is now an expectation that everyone should have timely and unimpeded access to output from standardized climate model simulations.  This has enabled widespread scientific analysis and scrutiny of the models and, judging by the large number of resulting scientific publications, has accelerated our understanding of climate and climate change.</p>
 <p>PCMDI’s mission is to develop improved methods and tools for the diagnosis and evaluation of climate models.  Although models have become increasingly complex, model errors and disagreements among model simulations remain substantial and poorly understood. The nature and causes of these disagreements should be uncovered before the models are fully trusted to inform us about global climate change. </p>
