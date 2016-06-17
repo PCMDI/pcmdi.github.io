@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: CMIP3
 title: CMIP3
 ---
 
