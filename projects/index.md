@@ -29,34 +29,28 @@ The Coupled Model Intercomparison Project Phase VI
 ----
 
 # Detection and Attribution
-
-
 #### [Detection and Attribution Research][DETC]
- 
+PCMDI has led research into the detection and attribution of the causes of climate-change. This work has considered a wide-range of changes to the global climate system and included analyses of atmospheric temperature, precipitable water, ocean heat content and other key aspects of the climate system
 
 ----
 
 # Climate Model Metrics 
-
-
 #### [Diagnosis of Climate Model Performance][DCMP]
-
+The PCMDI metrics package is used to objectively compare results from climate models with observations using well-established statistical tests. Results are produced in the context of all model simulations contributed to CMIP5 and earlier CMIP phases
 
 ----
 
 # Observations for MIPs
-
-
 #### [obs4MIPs][OCME]
-Obs4MIPS (Observations for Model Intercomparisons Project) is an activity to make observational products more accessible for climate model intercomparisons.
-
+obs4MIPs (Observations for Model Intercomparisons Project) is an activity to make observational products more accessible for climate model intercomparisons
 
 ----
 
+# Input for MIPs
+#### [input4MIPs][ICME]
+input4MIPS (input datasets for Model Intercomparison Projects) is an activity to make available via ESGF the boundary condition and forcing datasets needed for CMIP6. Various datasets are needed for the pre-industrial control (piControl), AMIP, and historical,  simulations, and additional datasets are needed for many of the <a href="http://www.wcrp-climate.org/modelling-wgcm-mip-catalogue/modelling-wgcm-cmip6-endorsed-mips" target="_blank>CMIP6-endorsed model intercomparison projects (MIPs) experiments</a>. Earlier versions of many of these datasets were used in the <a href="http://cmip-pcmdi.llnl.gov/cmip5" target="_blank">5th Coupled Model Intercomparison Project (CMIP5)</a>
 
-
-
-
+----
 [AMIP]:{{site.baseurl}}/projects/amip/
 [icmc]:http://www-pcmdi.llnl.gov/projects/amip/STATUS/incoming.html
 [CMIP]:{{site.baseurl}}/projects/about-cmip.html
