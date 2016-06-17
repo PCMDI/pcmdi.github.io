@@ -18,18 +18,13 @@ img {
       <div class="col-xs-4 col-md-4">
         <img class="pull-left" src="/Data/media/images/about1.jpg" alt="..." style="width:280px;height:228px;">
       <div class="col-xs-4 col-md-4">
-
           <img class="pull-left" src="/Data/media/images/about2.jpg" alt="..." style="width:280px;height:228px;">
       </div>
       <div class="col-xs-4 col-md-4">
           <img class="pull-left" src="/Data/media/images/about3.jpg" alt="..." style="width:280px;height:228px;">
-
       </div>
-
     </div>
-
 </div>
-
 
 <div class="row">
   <div class="span3">
@@ -42,27 +37,24 @@ img {
       <li><a href="{{site.baseurl}}/projects/">Project Page</a></li>
       <li><b>Project Participants</b></li>
 
-       <h5>Karl Taylor<br><i> (Director & PI)</i></h5>
-       <h5>Celine Bonfils<br><i> (climate scientist)</i></h5>
-      <h5>Curt Covey <br><i> (climate scientist)</i></h5>
-      <h5>Charles Doutriaux <br><i> (computer scientist)</i></h5>
-      <h5>Paul Durack <br><i> (climate scientist)</i></h5>
-      <h5>Peter Gleckler <br><i> (climate scientist)</i></h5>
-      <h5>Renata McCoy <br><i> (computer scientist)</i></h5>
-      <h5>Jeff Painter <br><i> (computer scientist)</i></h5>
-      <h5>Tom Phillips <br><i> (climate scientist)</i></h5>
-      <h5>Ben Santer <br><i> (climate scientist)</i></h5>
-      <h5>Ken Sperber <br><i> (climate scientist)</i></h5>
-      <h5>Dean Williams  <br><i> (computer scientist)</i></h5>
-      <h5>Yuying Zhang <br><i> (climate scientist)</i></h5>
+      <h5>Karl Taylor<br><i> (Director & PI)</i></h5>
+      <h5>Celine Bonfils<br><i> (climate scientist)</i></h5>
+      <h5>Curt Covey<br><i> (climate scientist)</i></h5>
+      <h5>Charles Doutriaux<br><i> (computer scientist)</i></h5>
+      <h5>Paul Durack<br><i> (climate scientist)</i></h5>
+      <h5>Peter Gleckler<br><i> (climate scientist)</i></h5>
+      <h5>Denis Nadeau<br><i> (computer scientist)</i></h5>
+      <h5>Jeff Painter<br><i> (computer scientist)</i></h5>
+      <h5>Tom Phillips<br><i> (climate scientist)</i></h5>
+      <h5>Ben Santer<br><i> (climate scientist)</i></h5>
+      <h5>Ken Sperber<br><i> (climate scientist)</i></h5>
+      <h5>Dean Williams<br><i> (computer scientist)</i></h5>
     </ul>
   </div>
 </div>
 
-
     <div class="span7">
-<h3><a href="#">PCMDI</a> Indtroduction</h3>
-
+<h3><a href="#">PCMDI</a>Introduction</h3>
 <p>
 <p>Established in 1989 at the Lawrence Livermore National Laboratory (<a href="https://www.llnl.gov/">LLNL</a>), the Program for Climate Model Diagnosis and Intercomparison (PCMDI) fosters and engages in research aimed at providing a systematic and comprehensive evaluation of climate models.  Working with international partners, PCMDI has inspired a fundamental cultural shift in the climate research community: there is now an expectation that everyone should have timely and unimpeded access to output from standardized climate model simulations.  This has enabled widespread scientific analysis and scrutiny of the models and, judging by the large number of resulting scientific publications, has accelerated our understanding of climate and climate change.</p>
 <p>PCMDI’s mission is to develop improved methods and tools for the diagnosis and evaluation of climate models.  Although models have become increasingly complex, model errors and disagreements among model simulations remain substantial and poorly understood. The nature and causes of these disagreements should be uncovered before the models are fully trusted to inform us about global climate change. </p>
@@ -74,7 +66,7 @@ img {
 <p>
 <h3>Presearch Highlights & Publicity</h3>
 <ul>
-<li><a href="https://public.ornl.gov/site/bernews/search_news_action.cfm?id=595">Human versus natural causes of the mid-1970s climate anomaly </a>(April 2009)</li>
+<li><a href="https://public.ornl.gov/site/bernews/search_news_action.cfm?id=595">Human versus natural causes of the mid-1970s climate anomaly</a> (April 2009)</li>
   <li><a href="https://public.ornl.gov/site/bernews/search_news_action.cfm?id=660">Exploring the role of climate model quality in detection and attribution</a> (August 2009) </li>
   <li><a href="https://public.ornl.gov/site/bernews/search_news_action.cfm?id=687">American Meteorological Society Special Group Award</a> (January 2010)</li>
   <li><a href="https://public.ornl.gov/site/bernews/search_news_action.cfm?id=867">First evidence of long-term human influence in pacific decadal oscillation</a> (November 2010)</li>
@@ -84,13 +76,6 @@ img {
   <li><a href="http://climatemodeling.science.energy.gov/research-highlights/contributions-radiative-forcing-and-climate-feedbacks-range-cmip5-global-warming">Contributions of radiative forcing and climate feedbacks to range of CMIP5 global warming responses</a> (September 2013)</li>
   <li><a href="http://climatemodeling.science.energy.gov/research-highlights/new-internationally-coordinated-climate-model-experiments-underway">New internationally coordinated climate model experiments underway</a> (September 2013)</li>
 </ul>
-
-
 </div>
-
-
-
-
-
 </p>
-</div></div>
+</div>
