@@ -64,7 +64,7 @@ img {
 </p>
 <hr>
 <p>
-<h3>Presearch Highlights & Publicity</h3>
+<h3>Research Highlights & Publicity</h3>
 <ul>
 <li><a href="https://public.ornl.gov/site/bernews/search_news_action.cfm?id=595">Human versus natural causes of the mid-1970s climate anomaly</a> (April 2009)</li>
   <li><a href="https://public.ornl.gov/site/bernews/search_news_action.cfm?id=660">Exploring the role of climate model quality in detection and attribution</a> (August 2009) </li>
