@@ -1,0 +1,72 @@
+---
+layout: default
+---
+
+
+
+<head>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="{{site.baseurl}}/Data/media/css/contentMenu.css"/>
+</head>
+
+
+
+	<div data-spy="scroll" data-target="#myScrollspy" data-offset="20">
+			<div class="container">
+				<div class="row" >
+					<div class="span3"  >
+						<div class="well sidebar-nav" id="myScrollspy" position="center">
+
+
+							<ul style="list-style-type:none">
+
+								<button id = "tb" type="button" class="btn btn-primary btn-block btn-md" data-toggle="collapse" data-target="#demo">AMIP Home</button>
+								<div id="demo" class="collapse">
+											<li><a href="http://www-pcmdi.llnl.gov/projects/amip/NEWS/overview.php">What is AMIP?</a>
+											<li><a href="{{site.baseurl}}/projects/amip/home/modelDocumentation.html">Model Documentation</a></li>
+                                            <li><a href="{{site.baseurl}}/projects/amip/home/projectHistory.html">Project History</a></li>
+                                            <li><a href="{{site.baseurl}}/projects/amip/home/projectNews.html">Project News </a></li>
+									        <li><a href="{{site.baseurl}}/projects/amip/home/publicationAbstracts.html">Publication Abstracts </a></li>
+								</div>
+
+
+								<button id = "tb" type="button" class="btn btn-primary btn-block btn-md" data-toggle="collapse" data-target="#demo2">Experiment Specification</button>
+								<div id="demo2" class="collapse">
+											  <li><a href="/projects/amip/sst.html">SST & Sea-Ice boundary conditions</a></li>
+											  <li><a href="{{site.baseurl}}/projects/cmip5/other.html">Other experimental specifications</a></li>
+								</div>
+
+								<button id = "tb" type="button" class="btn btn-primary btn-block btn-md" data-toggle="collapse" data-target="#demo3"> Model Output</button>
+								<div id="demo3" class="collapse">
+											<li><a href="http://www-pcmdi.llnl.gov/projects/amip/OUTPUT/AMIP2/"> Standard model output </a></li>
+											<li><a href="http://www-pcmdi.llnl.gov/projects/amip/OUTPUT/WGNEDIAGS/">  WGNE diagnostics </a></li>
+
+								</div>
+
+								<button id = "tb" type="button" class="btn btn-primary btn-block btn-md" data-toggle="collapse" data-target="#demo4">Research Projects </button>
+								<div id="demo4" class="collapse">
+											<li><a href="http://www-pcmdi.llnl.gov/projects/amip/DIAGSUBS/diagsp.php"> Diagnostic subprojects</a></li>
+
+								</div>
+
+								<div><a href="http://www-pcmdi.llnl.gov/projects/amip/RESOURCES/resourceintro.php">
+										<button id = "tb" type="button" class="btn btn-primary btn-block btn-md" data-toggle="collapse" data-target="#demo5">Additional Resources</button></a>
+								</div>
+
+								<div><a href="/projects/amip/">
+										<button id = "tb" type="button" class="btn btn-primary btn-block btn-md" data-toggle="collapse" data-target="#demo5">Download AMIP Boundary Condition </button></a>
+								</div>
+
+							</ul>
+
+						</div>
+					</div>
+					<div class="span9" id="content">
+						<div class="row-fluid">
+						{{ content }}
+						</div>
+					</div>
+				</div>
+</div>
