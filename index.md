@@ -38,7 +38,7 @@ Assessment Report on Climate Change][report], which is scheduled for publication
       <div class="span3">
         <a target="_blank" href="http://energy.gov">
           <h4 class="muted">DOE</h4>
-          <img src="{{site.baseurl}}/Data/media/images/doe.svg" class="thumbnail">
+          <img src="{{site.baseurl}}/Data/media/images/doe.svg" class="thumbnail" style="width:154px;height:128px;border:0px;">
         </a>
       </div>
     </div>
