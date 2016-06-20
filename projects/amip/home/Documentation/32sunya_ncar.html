@@ -1,0 +1,223 @@
+---
+layout: AMIP
+---
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN//2.0"><HTML>
+
+<!-- Mirrored from www-pcmdi.llnl.gov/modeldoc/amip1/32sunya_ncar.html by HTTrack Website Copier/3.x [XR&CO'2004], Fri, 09 Jul 2004 21:04:18 GMT -->
+
+<!-- Mirrored from www-pcmdi.llnl.gov/projects/modeldoc/amip1/32sunya_ncar.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 20 Jun 2016 20:11:32 GMT -->
+<HEAD>
+<TITLE>State University of New York at Albany/National Center for Atmospheric Research: Model SUNYA/NCAR GENESIS1.5 (T31 L18) 1994</TITLE> </HEAD>
+<BODY BACKGROUND="gifs/bg9.gif">
+<BODY>  
+
+<h2>State University of New York at Albany/National Center for Atmospheric Research: Model SUNYA/NCAR GENESIS1.5 (T31 L18) 1994</h2><hr> <h3> <a name="RTFToC1">AMIP Representative(s) </a></h3>
+
+Dr. Wei-Chyung Wang, Atmospheric Sciences Research Center, State University of New York at Albany, 100 Fuller Road, Albany, NewYork 12205; Phone: +1-518-442-3357; Fax: +1-518-442-3360; email: wang@climate.asrc.albany.edu 
+
+<h3> <a name="RTFToC3">Model Designation </a></h3>
+
+SUNYA/NCAR GENESIS1.5 (T31 L18) 1994 
+
+<h3> <a name="RTFToC4">Model Lineage </a></h3>
+
+The SUNYA/NCAR model is equivalent to version 1.5 of the <A HREF="http://www.essc.psu.edu/genesis/">GENESIS</A> (Global ENvironmental and Ecological Simulation of Interactive Systems) model, developed by the NCAR Interdisciplinary Climate Systems Section. Version 1.5 stands at a point in development intermediate between its documented predecessor (version 1.02) and a "next-generation" (version 2.0) GENESIS model. (The horizontal/vertical resolution of version 1.5 is enhanced over that of version 1.02, and some physical parameterizations have also been modified.) The GENESIS atmospheric models are based on the spectral dynamics of the NCAR CCM1 model (cf. Williamson et al. 1987<a href="32sunya_ncar_fn.html#fn0">
+[1]</a>), but their physics schemes differ significantly from those of CCM1. The  GENESIS  models also are substantially different from the <a href="28ncar_ToC.html">NCAR CCM2</a> model.
+
+<h3> <a name="RTFToC5">Model Documentation </a></h3>
+
+Key documentation for version 1.02 of the GENESIS model (see <a href="32sunya_ncar.html#RTFToC4">Model Lineage</a>) is provided by Pollard and Thompson (1992<a href="32sunya_ncar_fn.html#fn1">
+[2]</a>, 1995<a href="32sunya_ncar_fn.html#fn2">
+[3]</a>) and Thompson and Pollard (1995<a href="32sunya_ncar_fn.html#fn3">
+[4]</a>). Changes made in developing version 1.5 will be documented in future papers. 
+
+<h2> <a name="RTFToC6">Numerical/Computational Properties </a></h2> 
+
+<h3> <a name="RTFToC7">Horizontal Representation </a></h3>
+
+Spectral (spherical harmonic basis functions) with transformation to an appropriate nonuniform Gaussian grid for calculation of nonlinear atmospheric quantities. The surface variables (see <a href="32sunya_ncar.html#RTFToC30">Ocean</a>, <a href="32sunya_ncar.html#RTFToC31">Sea Ice</a>, <a href="32sunya_ncar.html#RTFToC32">Snow Cover</a>, <a href="32sunya_ncar.html#RTFToC33">Surface Characteristics</a>, <a href="32sunya_ncar.html#RTFToC34">Surface Fluxes</a>, and <a href="32sunya_ncar.html#RTFToC35">Land Surface Processes</a>) are computed on a uniform latitude-longitude grid of finer resolution (see <a href="32sunya_ncar.html#RTFToC8">Horizontal Resolution</a>). Exchanges from the surface to the atmosphere are calculated by area-averaging within the coarser atmospheric Gaussian grid, while bilinear interpolation is used for atmosphere-to-surface exchanges. Atmospheric advection of water vapor (and, on option, other tracers) is via semi-Lagrangian transport (SLT) on the Gaussian grid using cubic interpolation in all directions with operator-splitting between horizontal and vertical advection (cf. Williamson and Rasch 1989<a href="32sunya_ncar_fn.html#fn4">
+[5]</a> and Rasch and Williamson 1990<a href="32sunya_ncar_fn.html#fn5">
+[6]</a>). 
+
+<h3> <a name="RTFToC8">Horizontal Resolution </a></h3>
+
+The resolution of the model atmosphere is spectral triangular 31 (T31), roughly equivalent to 3.75 x 3.75 degrees latitude-longitude. The spectral orography (see <a href="32sunya_ncar.html#RTFToC29">Orography</a>) is present at the same resolution, but other surface characteristics and variables are derived at the T31 resolution from a uniform 2 x 2-degree latitude-longitude grid. See also <a href="32sunya_ncar.html#RTFToC7">Horizontal Representation</a>. 
+
+<h3> <a name="RTFToC9">Vertical Domain </a></h3>
+
+Surface to 5 hPa; for a surface pressure of 1000 hPa, the lowest atmospheric level is at 993 hPa. 
+
+<h3> <a name="RTFToC10">Vertical Representation </a></h3>
+
+Finite-difference sigma coordinates are used for all atmospheric variables except water vapor, for which hybrid sigma-pressure coordinates (cf. Simmons and Burridge 1981<a href="32sunya_ncar_fn.html#fn6">
+[7]</a>) are employed. Energy-conserving vertical finite-difference approximations are utilized, following Williamson (1983<a href="32sunya_ncar_fn.html#fn7">
+[8]</a>, 1988<a href="32sunya_ncar_fn.html#fn8">
+[9]</a>).See also <a href="32sunya_ncar.html#RTFToC7">Horizontal Representation</a> and <a href="32sunya_ncar.html#RTFToC20">Diffusion</a>. 
+
+<h3> <a name="RTFToC11">Vertical Resolution </a></h3>
+
+There are 18 unevenly spaced sigma (or, for water vapor, hybrid sigma-pressure levels--see <a href="32sunya_ncar.html#RTFToC10">Vertical Representation</a>). For a surface pressure of 1000 hPa, 4 levels are below 800 hPa and 7 levels are above 200 hPa. 
+
+<h3> <a name="RTFToC12">Computer/Operating System </a></h3>
+
+The AMIP simulation was run on a Cray Y/MP computer using a single processor in a UNICOS environment. 
+
+<h3> <a name="RTFToC13">Computational Performance </a></h3>
+
+For the AMIP experiment, about 4 minutes Cray Y/MP computer time per simulated day. 
+
+<h3> <a name="RTFToC14">Initialization</a></h3>
+
+For the AMIP experiment, the model atmosphere, soil moisture, and snow cover/depth are initialized for 1 January 1979 from the final state of a 200-day reference simulation run in a perpetual January mode. (For the reference simulation, AMIP ocean temperatures/sea ice extents, sun angle, and other calendar-dependent parameters were fixed at 1 January 1979 values, and AMIP solar constant and carbon dioxide concentrations were also used--see <a href="32sunya_ncar.html#RTFToC22">Solar Constant/Cycles</a> and <a href="32sunya_ncar.html#RTFToC23">Chemistry</a>.) 
+
+<h3> <a name="RTFToC15">Time Integration Scheme(s) </a></h3>
+
+Time integration is by a semi-implicit Hoskins and Simmons (1975)<a href="32sunya_ncar_fn.html#fn9">
+[10]</a> scheme with an Asselin (1972)<a href="32sunya_ncar_fn.html#fn10">
+[11]</a> frequency filter. The time step is 30 minutes for dynamics and physics, except for full radiation calculations. The longwave fluxes are calculated every 30 minutes, but with absorptivities/emissivities updated only once every 24 hours. Shortwave fluxes are computed at 1.5-hour intervals. See also <a href="32sunya_ncar.html#RTFToC24">Radiation</a>.  
+
+<h3> <a name="RTFToC16">Smoothing/Filling</a></h3>
+
+Orography is area-averaged (see <a href="32sunya_ncar.html#RTFToC29">Orography</a>). Because of the use of the SLT scheme for transport of atmospheric moisture (see <a href="32sunya_ncar.html#RTFToC7">Horizontal Representation</a>), spurious negative specific humidity values do not arise, and moisture filling procedures are therefore unnecessary. 
+
+<h3> <a name="RTFToC17">Sampling Frequency </a></h3>
+
+For the AMIP simulation, daily averages of model variables are written once every 24 hours. 
+
+<h2> <a name="RTFToC18">Dynamical/Physical Properties </a></h2> 
+
+<h3> <a name="RTFToC19">Atmospheric Dynamics </a></h3>
+
+Primitive-equation dynamics are expressed in terms of vorticity, divergence, potential temperature, specific humidity, and the logarithm of surface pressure.  
+
+<h3> <a name="RTFToC20">Diffusion</a></h3>
+
+<ul><li>	In the model troposphere, there is linear biharmonic (del^4) horizontal diffusion of vorticity, divergence, temperature, and specific humidity. In the model stratosphere (top three vertical levels), linear second-order (del^2) diffusion operates, and the diffusivities increase with height. In order to reduce spurious diffusion of moisture in the stratosphere over mountains, the specific humidity is advected on hybrid sigma-pressure surfaces, while advection of other fields is on constant sigma surfaces (see <a href="32sunya_ncar.html#RTFToC10">Vertical Representation</a>).<p>
+<li>	The vertical diffusion of heat, momentum, and moisture is simulated by the explicit modeling of subgrid-scale vertical plumes (see <a href="32sunya_ncar.html#RTFToC28">Planetary Boundary Layer</a> and <a href="32sunya_ncar.html#RTFToC34">Surface Fluxes</a>).</ul>
+
+<h3> <a name="RTFToC21">Gravity-wave Drag </a></h3>
+
+Orographic gravity-wave drag is parameterized after McFarlane (1987)<a href="32sunya_ncar_fn.html#fn11">
+[12]</a>. Deceleration of the resolved flow by dissipation of orographically excited gravity waves is a function of the rate at which the parameterized vertical component of the gravity-wave momentum flux decreases in magnitude with height. This momentum-flux term is the product of local air density, the component of the local wind in the direction of that at the near-surface reference level, and a displacement amplitude. At the surface, this amplitude is specified in terms of the subgrid-scale orographic variance, and in the free atmosphere by linear theory, but it is bounded everywhere by wave saturation values. See also <a href="32sunya_ncar.html#RTFToC29">Orography</a>. 
+
+<h3> <a name="RTFToC22">Solar Constant/Cycles </a></h3>
+
+The solar constant is the AMIP-prescribed value of 1365 W/(m^2). Both seasonal and diurnal cycles in solar forcing are simulated. 
+
+<h3> <a name="RTFToC23">Chemistry</a></h3>
+
+The carbon dioxide concentration is the AMIP-prescribed value of 345 ppm. Monthly global ozone concentrations are as described by Wang et al. (1995)<a href="32sunya_ncar_fn.html#fn12">
+[13]</a>. (Total column ozone is taken from data of Bowman and Krueger 1985<a href="32sunya_ncar_fn.html#fn13">
+[14]</a> and Stolarski et al. 1991<a href="32sunya_ncar_fn.html#fn14">
+[15]</a>. The stratospheric distribution up to 60 km is based on data of Cunnold et al. 1989<a href="32sunya_ncar_fn.html#fn15">
+[16]</a> and McCormick et al. 1992<a href="32sunya_ncar_fn.html#fn16">
+[17]</a>; above 60 km, a single mean value at 100 km taken from McClatchey et al. 1971<a href="32sunya_ncar_fn.html#fn17">
+[18]</a> is used to calculate ozone mixing ratios. Tropospheric ozone is specified from data of Logan 1985<a href="32sunya_ncar_fn.html#fn18">
+[19]</a> and Spivakovsky et al. 1990<a href="32sunya_ncar_fn.html#fn19">
+[20]</a>.) Radiative effects of oxygen, water vapor, methane, nitrous oxide, chlorofluorocarbon compounds CFC-11 and CFC-12, and of preindustrial tropospheric "background" aerosol (an option) are also included (see <a href="32sunya_ncar.html#RTFToC24">Radiation</a>). 
+
+<h3> <a name="RTFToC24">Radiation</a></h3>
+
+<ul><li>	Shortwave radiation is treated by a modified Thompson et al. (1987)<a href="32sunya_ncar_fn.html#fn20">
+[21]</a> scheme in ultraviolet/visible (0.0 to 0.90 micron) and near-infrared (0.90 to 4.0 microns) spectral bands. Gaseous absorption is calculated from broadband formulas of Ramanathan et al. (1983)<a href="32sunya_ncar_fn.html#fn21">
+[22]</a>, with ultraviolet/visible absorption by ozone and near-infrared absorption by water vapor, oxygen, and carbon dioxide treated. Reflectivities from multiple Rayleigh scattering are determined from a polynomial fit in terms of the gaseous optical depth and the solar zenith angle. A delta-Eddington approximation is used to calculate shortwave albedos and transmissivities of aerosol (see <a href="32sunya_ncar.html#RTFToC23">Chemistry</a>) and of cloudy portions of each layer. Cloud optical properties depend on liquid water content (LWC), which is prescribed as a function of height (cf. Slingo and Slingo 1991<a href="32sunya_ncar_fn.html#fn22">
+[23]</a>). Clouds that form in individual layers (see <a href="32sunya_ncar.html#RTFToC26">Cloud Formation</a>) are assumed to be randomly overlapped in the vertical. The effective cloud fraction depends on solar zenith angle (cf. Henderson-Sellers and McGuffie 1990<a href="32sunya_ncar_fn.html#fn23">
+[24]</a>) to allow for the three-dimensional blocking effect of clouds at low sun angles. <p>
+<li>	Longwave radiation is calculated in 5 spectral intervals (with wavenumber boundaries at 0.0, 5.0 x 10^4, 8.0 x 10^4, 1.0 x 10^5, 1.2 x 10^5, and 2.2 x 10^5 m^-1). Broadband absorption and emission by water vapor (cf. Ramanathan and Downey 1986<a href="32sunya_ncar_fn.html#fn24">
+[25]</a>), carbon dioxide (cf. Kiehl and Briegleb 1991<a href="32sunya_ncar_fn.html#fn25">
+[26]</a>), and ozone (cf. Ramanathan and Dickinson 1979<a href="32sunya_ncar_fn.html#fn26">
+[27]</a>) are included. In addition, there is explicit treatment of individual greenhouse trace gases (methane, nitrous oxide, and chlorofluorocarbon compounds CFC-11 and CFC-12: cf. Wang et al. 1991a<a href="32sunya_ncar_fn.html#fn27">
+[28]</a>, b<a href="32sunya_ncar_fn.html#fn28">
+[29]</a>). Cloud emissivity depends on prescribed LWC (see above). See also <a href="32sunya_ncar.html#RTFToC26">Cloud Formation</a>.</ul>
+
+<h3> <a name="RTFToC25">Convection</a></h3>
+
+Dry and moist convection as well as vertical mixing in the planetary boundary layer (PBL) are treated by an explicit model of subgrid-scale vertical plumes following the approach of Kreitzberg and Perkey (1976)<a href="32sunya_ncar_fn.html#fn43">
+[44]</a> and Anthes (1977)<a href="32sunya_ncar_fn.html#fn29">
+[30]</a>, but with simplifications. A plume may originate from any layer, and accelerate upward if buoyantly unstable; the plume radius and fractional coverage of a grid box are prescribed as a function of height. Mixing with the large-scale environmental air (entrainment and detrainment) is proportional to the plume vertical velocity. From solution of the subgrid-scale plume model for each vertical column, the implied grid-scale vertical fluxes, latent heating, and precipitation are deduced. Convective precipitation forms if the plume air is supersaturated; its subsequent evaporation in falling toward the surface (see <a href="32sunya_ncar.html#RTFToC27">Precipitation</a>) substitutes for explicit treatment of convective downdrafts and cloud/precipitation microphysics. See also <a href="32sunya_ncar.html#RTFToC28">Planetary Boundary Layer</a>.  
+
+<h3> <a name="RTFToC26">Cloud Formation </a></h3>
+
+<ul><li>	Cloud formation follows a modified Slingo and Slingo (1991)<a href="32sunya_ncar_fn.html#fn22">
+[23]</a> scheme that accounts for convective, anvil cirrus, and stratiform cloud types. In a vertical column, the depth of convective cloud is determined by the vertical extent of buoyant plumes (see <a href="32sunya_ncar.html#RTFToC25">Convection</a>), and the cloud fraction from a function of the instantaneous convective precipitation rate. (The convective cloud fraction is adjusted in accord with the assumption of random vertical overlap of cloud--see <a href="32sunya_ncar.html#RTFToC24">Radiation</a>). If the convective cloud penetrates higher than a sigma level of about 0.6, anvil cirrus also forms. <p>
+<li>	The fraction of stratiform (layer) cloud is a function of the relative humidity excess above a threshold that depends on sigma level. In order to predict realistic amounts of stratus cloud in winter polar regions, a further constraint on cloud formation in conditions of low absolute humidity is added, following Curry and Herman (1985)<a href="32sunya_ncar_fn.html#fn30">
+[31]</a>.</ul>
+
+<h3> <a name="RTFToC27">Precipitation</a></h3>
+
+<ul><li>	Precipitation forms in association with subgrid-scale supersaturated convective plumes (see <a href="32sunya_ncar.html#RTFToC25">Convection</a>). Under stable conditions, precipitation also forms to restore the large-scale supersaturated humidity to its saturated value. Both convective and large-scale precipitation evaporate in falling toward the surface. The amount of evaporation is parameterized as a function of the large-scale humidity and the thickness of the intervening atmospheric layers. <p>
+<li>	In addition, subgrid-scale spatial variability of convective precipitation falling in land grid boxes is simulated stochastically (cf. Thomas and Henderson-Sellers 1991<a href="32sunya_ncar_fn.html#fn31">
+[32]</a>). See also <a href="32sunya_ncar.html#RTFToC32">Snow Cover</a> and <a href="32sunya_ncar.html#RTFToC35">Land Surface Processes</a>.</ul>
+
+<h3> <a name="RTFToC28">Planetary Boundary Layer </a></h3>
+
+Vertical mixing in the PBL (and above the PBL for an unstable vertical lapse rate) is simulated by an explicit model of subgrid-scale plumes (see <a href="32sunya_ncar.html#RTFToC25">Convection</a>) that are initiated at the center of the lowest model layer using scaled perturbation quantities from the constant-flux region immediately below (see <a href="32sunya_ncar.html#RTFToC34">Surface Fluxes</a>). The plume vertical motion and perturbation temperature, specific humidity, and horizontal velocity components are solved as a function of height. The implied grid-scale fluxes are then used to modify the corresponding mean quantities.  
+
+<h3> <a name="RTFToC29">Orography</a></h3>
+
+Raw orography obtained from the 1 x 1-degree topographic height data of Gates and Nelson (1975)<a href="32sunya_ncar_fn.html#fn32">
+[33]</a> is area-averaged over each atmospheric grid box (see <a href="32sunya_ncar.html#RTFToC8">Horizontal Resolution</a>). The subgrid-scale orographic variances required by the gravity-wave drag parameterization (see <a href="32sunya_ncar.html#RTFToC21">Gravity-wave Drag</a>) are obtained from U.S. Navy data with resolution of 10 minutes arc (cf. Joseph 1980<a href="32sunya_ncar_fn.html#fn33">
+[34]</a>). The standard deviation (square root of the variance) of the fine-scale U.S. Navy orography in each model grid box is computed, and 75 percent of that value is added to the basic Gates-Nelson orographic height. The resulting "envelope orography" is transformed to spectral space and truncated at the T31 atmospheric model resolution (see <a href="32sunya_ncar.html#RTFToC8">Horizontal Resolution</a>).  
+
+<h3> <a name="RTFToC30">Ocean</a></h3>
+
+AMIP monthly sea surface temperature fields are prescribed, with daily values determined by linear interpolation.  
+
+<h3> <a name="RTFToC31">Sea Ice </a></h3>
+
+Monthly AMIP sea ice extents are prescribed, with fractional coverage of a model grid box allowed. A six-layer model (top layer a constant 0.03 m thick, other layers of equal thickness at each time step) similar to that of Semtner (1976)<a href="32sunya_ncar_fn.html#fn34">
+[35]</a> is used to simulate linear heat diffusion through the ice. Prognostic variables include the layer temperatures, the total ice thickness, and brine-reservoir heating. The temperature of any layer exceeding the ice melting point (0 degrees C) is reset to melting, and the excess heat is given to a brine reservoir (with capacity 25 percent of the heat required to melt the entire ice column at the current time step), or is used to melt part of the ice column if the reservoir is full. The upper boundary condition is the net balance of surface energy fluxes (see <a href="32sunya_ncar.html#RTFToC34">Surface Fluxes</a>); the bottom ice surface remains at the ocean freezing temperature (271.2 K). Snow accumulates on sea ice (see <a href="32sunya_ncar.html#RTFToC32">Snow Cover</a>) and may augment the ice thickness: snow is converted instantaneously to ice if the snow depth is enough to hydrostatically depress the snow-ice interface below the ocean surface. See also <a href="32sunya_ncar.html#RTFToC33">Surface Characteristics</a>. 
+
+<h3> <a name="RTFToC32">Snow Cover </a></h3>
+
+<ul><li>	Precipitation falls as snow if the surface air temperature is &lt; 0 degrees C, with accumulation on land and continental/sea ice surfaces. Snow cover is simulated by a three-layer model (top layer a constant 0.03 m thick, other layers of equal thickness at each time step). Prognostic variables include the layer temperatures and the total snow mass per unit horizontal area (expressed as snow thickness and fractional coverage in a model grid box). When snow falls in a previously snow-free grid box, the fractional coverage increases from zero, with total snow thickness fixed at 0.15 m. If snowfall continues, the fractional coverage increases up to 100 percent, after which the snow thickness increases (the reverse sequence applies for melting of a thick snow cover). <p>
+<li>	Heat diffuses linearly with temperature within and below the snow. The upper boundary condition is the net balance of surface energy fluxes, and the lower condition is the net heat flux at the snow-surface interface (see below). If the temperature of any snow layer becomes &gt; 0 degrees C, it is reset to 0 degrees C, snow is melted to conserve heat, and the meltwater contributes to soil moisture. Snow cover is also depleted by sublimation (a part of surface evaporation--see <a href="32sunya_ncar.html#RTFToC34">Surface Fluxes</a>), and snow modifies the roughness and the albedo of the surface (see <a href="32sunya_ncar.html#RTFToC33">Surface Characteristics</a>).<p>
+<li>	The fractional coverage of snow is the same for both bare ground and lower-layer vegetation (see <a href="32sunya_ncar.html#RTFToC35">Land Surface Processes</a>). In order to exactly conserve heat, temperatures are kept separately for buried and unburied lower-layer vegetation, and are adjusted calorimetrically as the snow cover grows/recedes. Any liquid water or snow already intercepted by the vegetation canopy that becomes buried is immediately incorporated into the lowest snow layer. The buried lower vegetation is included in the vertical heat diffusion equation as an additional layer between the soil and the snow, with thermal conduction depending on the local vegetation fractional coverage and leaf /stem area indices. See also <a href="32sunya_ncar.html#RTFToC31">Sea Ice</a>. </ul>
+
+<h3> <a name="RTFToC33">Surface Characteristics </a></h3>
+
+<ul><li>	The land surface is subdivided according to upper- and lower-story vegetation (trees and grass/shrubs) of 12 types. Vegetation attributes (e.g., fractional cover and heights, leaf and stem area indices, leaf orientation, root distribution, leaf/stem optical properties, and stomatal resistances) are specified from a detailed equilibrium vegetation model driven by present-day climate. Soil hydraulic properties are inferred from texture data of Webb et al. (1993)<a href="32sunya_ncar_fn.html#fn38">
+[39]</a> that consider 15 soil horizons, 107 soil types, and 10 continental subtypes. See also <a href="32sunya_ncar.html#RTFToC35">Land Surface Processes</a>.<p>
+<li>	The surface roughness length is a uniform 1.0 x 10^-4 m over the oceans and 5.0 x 10^-4 m over ice and snow surfaces. The spatially variable roughness over vegetated land is calculated as described by Pollard and Thompson (1994)<a href="32sunya_ncar_fn.html#fn2">
+[3]</a>; the roughness of all bare-soil areas is 5 x 10^-3 m. <p>
+<li>	The ocean surface albedo is specified after Briegleb et al. (1986)<a href="32sunya_ncar_fn.html#fn35">
+[36]</a> to be 0.0244 for the direct-beam component of radiation (with sun overhead), and a constant 0.06 for the diffuse-beam component; the direct-beam albedo varies with solar zenith angle, but not spectral interval. The albedo of ice surfaces depends on the topmost layer temperature (to account for the lower albedo of melt ponds). For temperatures that are &lt; -5 degrees C, the ice albedos for the ultraviolet/visible and near-infrared spectral bands (see <a href="32sunya_ncar.html#RTFToC24">Radiation</a>) are 0.8 and 0.5 respectively; these decrease linearly to 0.7 and 0.4 as the temperature increases to 0 degrees C (cf. Harvey 1988<a href="32sunya_ncar_fn.html#fn36">
+[37]</a>). There is no dependence on solar zenith angle or direct-beam vs diffuse-beam radiation. Following Maykut and Untersteiner (1971)<a href="32sunya_ncar_fn.html#fn37">
+[38]</a>, a fraction 0.17 of the absorbed solar flux penetrates and warms the ice to an e-folding depth of 0.66 m (see <a href="32sunya_ncar.html#RTFToC31">Sea Ice</a>). Over vegetated land, instantaneously changing (depending on solar zenith angle) spatially varying albedos are calculated as described by Pollard and Thompson (1994)<a href="32sunya_ncar_fn.html#fn2">
+[3]</a> for direct and diffuse radiation in visible (0.4-0.7 micron) and near-infrared (0.7-4.0 microns) spectral intervals. Albedos of bare dry soil are prescribed as a function of spectral interval and the texture of the topmost soil layer (cf. Webb et al. 1993<a href="32sunya_ncar_fn.html#fn38">
+[39]</a>); these values are modified by the moisture in the top soil layer (see <a href="32sunya_ncar.html#RTFToC35">Land Surface Processes</a>), but they do not depend on solar zenith angle or direct-beam vs diffuse beam radiation. The background albedos of land and ice surfaces are also modified by snow (see <a href="32sunya_ncar.html#RTFToC32">Snow Cover</a>). The snow albedo depends on the temperature (wetness) of the topmost snow layer: below -15 degrees C, the visible and near-infrared albedos are 0.9 and 0.6, respectively; these decrease linearly to 0.8 and 0.5 as the temperature increases to 0 degrees C (cf. Harvey 1988<a href="32sunya_ncar_fn.html#fn36">
+[37]</a>). The direct-beam snow albedo also depends on solar zenith angle (cf. Briegleb and Ramanathan 1982<a href="32sunya_ncar_fn.html#fn39">
+[40]</a>). <p>
+<li>	Longwave emissivities of ocean and ice surfaces are unity (blackbody emission), but over land they are a function of vegetation (the emissivity of each canopy layer depends on leaf/stem densities). </ul>
+
+<h3> <a name="RTFToC34">Surface Fluxes </a></h3>
+
+<ul><li>	Surface solar absorption is determined from albedos, and longwave emission from the Planck equation with prescribed surface emissivities (see <a href="32sunya_ncar.html#RTFToC33">Surface Characteristics</a>). <p>
+<li>	Turbulent vertical eddy fluxes of momentum, heat, and moisture are expressed as bulk formulae, following Monin-Obukhov similarity theory. The values of wind, temperature, and humidity required for the bulk formulae are taken to be those at the lowest atmospheric level (sigma = 0.993), which is assumed to be within a constant-flux surface layer. The bulk drag/transfer coefficients are functions of roughness length (see <a href="32sunya_ncar.html#RTFToC33">Surface Characteristics</a>) and stability (bulk Richardson number), following the method of Louis et al. (1981)<a href="32sunya_ncar_fn.html#fn40">
+[41]</a>. Over vegetation, the turbulent fluxes are mediated by a Land-Surface-Transfer (LSX) model (see <a href="32sunya_ncar.html#RTFToC35">Land Surface Processes</a>). The bulk formula for the surface moisture flux also depends on the surface specific humidity, which is taken as the saturated value over ocean, snow, and ice surfaces, but which otherwise is a function of soil moisture. <p>
+<li>	Above the surface layer, the turbulent diffusion of momentum, heat, and moisture is simulated by a subgrid-scale plume model (see <a href="32sunya_ncar.html#RTFToC28">Planetary Boundary Layer</a>). </ul>
+
+<h3> <a name="RTFToC35">Land Surface Processes </a></h3>
+
+<ul><li>	Effects of interactive vegetation are simulated by the LSX model (cf. Pollard and Thompson 1994<a href="32sunya_ncar_fn.html#fn2">
+[3]</a>, Thompson and Pollard 1995<a href="32sunya_ncar_fn.html#fn3">
+[4]</a>), which includes canopies in upper (trees) and lower (grasses/shrubs) layers. Prognostic variables are the temperatures of upper-layer leaves and stems and of combined lower-layer leaves/stems, as well as the stochastically varying rain and snow intercepted by these three components (see <a href="32sunya_ncar.html#RTFToC27">Precipitation</a> and <a href="32sunya_ncar.html#RTFToC32">Snow Cover</a>). The LSX model also includes evaporation of canopy-intercepted moisture and evapotranspiration via root uptake, as well as soil wilting points. Air temperatures/specific humidities within the canopies are determined from the atmospheric model and the surface conditions; canopy aerodynamics are modeled using logarithmic wind profiles above/between the vegetation layers, and a simple diffusive model of air motion within each layer. Effects of vegetation patchiness on radiation and precipitation interception are also included. <p>
+<li>	Soil temperature and fractional liquid water content are predicted in 6 layers with thicknesses 0.05, 0.10, 0.20, 0.40, 1.0, and 2.5 meters, proceeding downward. (The near-surface temperature profile of the continental ice sheets is predicted by the same model.) Heat diffuses linearly, but diffusion/drainage of liquid water is a nonlinear function of soil moisture (cf. Clapp and Hornberger 1978<a href="32sunya_ncar_fn.html#fn41">
+[42]</a>). Boundary conditions at the bottom soil level include zero diffusion of heat and liquid, but nonzero gravitational drainage (deep runoff). The upper boundary condition for heat is the net energy flux at the soil surface computed by the LSX model; infiltration of moisture is limited by the downward soil diffusion to the center of the upper layer, assuming a saturated surface (cf. Abramopoulos et al. 1988<a href="32sunya_ncar_fn.html#fn42">
+[43]</a>). A ponding reservoir (of few-centimeter capacity) simulates a "retention layer" that delays surface runoff, which occurs when the moisture capacity of the topmost soil layer is exceeded.<p>
+<li>	Soil fractional ice content is also predicted. (Ice formation affects soil hydraulics by impeding water flow, and soil thermodynamics by changing the heat capacity/conductivity and by releasing latent heat.) The specific humidity at the upper surface of the top soil layer (used to predict evaporation--see <a href="32sunya_ncar.html#RTFToC34">Surface Fluxes</a>) varies as the square of the composite liquid/ice fractions. See also <a href="32sunya_ncar.html#RTFToC32">Snow Cover</a> and <a href="32sunya_ncar.html#RTFToC33">Surface Characteristics</a>. </ul>
+
+<h4><A HREF="32sunya_ncar_fn.html"><IMG SRC="gifs/Button_blue.gif">Go to SUNYA/NCAR References</a></h4>  <p><h4><A HREF="32sunya_ncar_ToC.html"><IMG SRC="gifs/Button_blue.gif">Return to Model Table of Contents</a></h4>  
+
+<h4><A HREF="01toc.html"><IMG SRC="gifs/Button_blue.gif">	Return to Main Document Directory</a></h4>
+
+
+<hR>
+
+Last update April 19, 1996. For further information, contact:
+Tom Phillips (<a href="mailto: phillips@tworks.llnl.gov"> phillips@tworks.llnl.gov </a>)<p>  
+<A HREF="http://www.llnl.gov/disclaimer.html">LLNL Disclaimers</A><p>   UCRL-ID-116384<p>   </body>
+<!-- Mirrored from www-pcmdi.llnl.gov/modeldoc/amip1/32sunya_ncar.html by HTTrack Website Copier/3.x [XR&CO'2004], Fri, 09 Jul 2004 21:04:18 GMT -->
+
+<!-- Mirrored from www-pcmdi.llnl.gov/projects/modeldoc/amip1/32sunya_ncar.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 20 Jun 2016 20:11:32 GMT -->
+</html>    

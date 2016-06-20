@@ -1,0 +1,143 @@
+---
+layout: AMIP
+---
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN//2.0">
+<HTML>
+<!-- Mirrored from www-pcmdi.llnl.gov/modeldoc/amip1/11bmrc_c.html by HTTrack Website Copier/3.x [XR&CO'2004], Fri, 09 Jul 2004 21:04:18 GMT -->
+
+<!-- Mirrored from www-pcmdi.llnl.gov/projects/modeldoc/amip1/11bmrc_c.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 20 Jun 2016 20:11:32 GMT -->
+<HEAD><TITLE>Bureau of Meteorology Research Centre: Model BMRC BMRC3.7.1 (R31 L17) 1995</TITLE> </HEAD>
+<body background="gifs/bg9.gif">
+
+
+<BODY>
+<h2>
+<a name="RTFToC1">Bureau of Meteorology Research Centre: Model BMRC BMRC3.7.1 (R31 L17) 1995</a></h2>
+<hr>
+
+<h3><a name="RTFToC3">Model Designation </a></h3>
+Model BMRC BMRC3.7.1 (R31 L17) 1995
+
+<h3><a name="RTFToC4">Model Lineage </a></h3>
+The model differs from <A HREf="11bmrc_ToC.html">baseline model</A> BMRC BMRC2.3 (R31 L9) 1990 in the same way as does the <A HREF="11bmrc_b.html#RTFToC4">companion model</A> BMRC BMRC3.7 (R31 L17) 1995, except in its representation of <A HREf="#RTFToC32">snow cover</A>, <A HREf="#RTFToC33">surface characteristics</A>, and <A HREf="#RTFToC34">surface fluxes</A> which are associated with changes in the modeling of <A HREf="#RTFToC35">land surface processes</A>.  The greater complexity of the land surface scheme also results in a somewhat reduced <A HREf="#RTFToC13">computational performance</A>.
+
+<h3><a name="RTFToC5">Model Documentation </a></h3>
+
+Aside from a portion of the <A HREF="11bmrc.html#RTFToC5">baseline model's documentation</A> that remains relevant, key publications include Colman and McAvaney (1995)[<A HREF="11bmrc_fn.html#fn35">36</A>] and McAvaney et al. (1995)[ <A HREF="11bmrc_fn.html#fn36">37</A>] on the new convection scheme, Holtslag and Beljaars (1989)[<A HREF="11bmrc_fn.html#fn37">38</A>] and McAvaney and Hess (1996)[<A HREF="11bmrc_fn.html#fn38">39</A>] on the revised surface flux formulation, and McAvaney and Fraser (1996)[<A HREF="11bmrc_fn.html#fn39">40</A>] and Louis et al. (1981)[<A HREF="11bmrc_fn.html#fn40">41</A>] on the changes in horizontal and vertical diffusion.  The model's formulation of snow, described in McAvaney and Hess (1996)[<A HREF="11bmrc_fn.html#fn38">39</A>], follows the approach of Marshall et al. (1994)[<A HREF="11bmrc_fn.html#fn41">42</A>].  In addition (a difference from the <A HREF="11bmrc.html#RTFToC35">companion model</A>), the BASE land surface scheme is a modified form of the Bare Essentials of Surface Transfer (BEST) scheme that is documented by Cogley et al. 1990<A HREF="11bmrc_fn.html#fn51">[52]</A>, Pitman et al. 1990<A HREF="11bmrc_fn.html#fn46">[47]</A>, Pitman and Desborough (1996)<A HREF="11bmrc_fn.html#fn52">[53]</A>, and Desborough (1996)<A HREF="11bmrc_fn.html#fn48">[49]</A>.
+
+
+<h2> <a name="RTFToC6">Numerical/Computational Properties </a></h2>
+
+<h3><a name="RTFToC11">Vertical Resolution </a></h3>
+There are 17 unevenly spaced sigma levels, a substantial increase in vertical resolution over that of the <A HREF="11bmrc.html#RTFToC11">baseline model</A>. For a surface pressure of 1000 hPa,  5 levels are below 800 hPa and  5 are above 200 hPa.   
+
+<h3><a name="RTFToC12">Computer/Operating System </a></h3>
+The repeated AMIP simulation was run on a Cray Y/MP 4E computer (an upgrade over that of the <A HREF="11bmrc.html#RTFToC12">baseline experiment</A>) using a single processor in a UNICOS environment. 
+
+<h3><a name="RTFToC13">Computational Performance </a></h3>
+For the repeated AMIP experiment, about 6.1 minutes Cray Y/MP computation time per simulation day.  (This also is a somewhat lower performance than that of the <A HREF="11bmrc_b.html#RTFToC13">companion model</A> because of the use of a more complex <A HREF="#RTFToC35">land surface scheme</A>.)  
+
+<h3><a name="RTFToC14">Initialization</a></h3>
+
+For the repeated AMIP simulation, the model was initialized in the same way as in the <A HREF="11bmrc.html#RTFToC14">baseline experiment</A>, except that the specification of snow-covered land was determined from albedos derived from the vegetation dataset of Wilson and Henderson-Sellers (1985)[<A HREF="11bmrc_fn.html#fn42">43</A>].
+
+<h3><a name="RTFToC17">Sampling Frequency </a></h3>
+Departing from the procedure followed in the <A HREF="11bmrc.html#RTFToC17">baseline experiment</A>, the model history is written every 24 hours with key "flux-type" variables accumulated during the 24-hour period.
+
+<h2> <a name="RTFToC18">Dynamical/Physical Properties </a></h2>
+
+<h3><a name="RTFToC20">Diffusion</a></h3>
+<UL>
+<LI>In contrast to the <A HREF="11bmrc.html#RTFToC20">baseline model</A>, on levels with pressures > 75 hPa, a linear sixth-order (del^6) horizontal is applied to voticity, divergence, temperature, and moisture, with an appropriate first-order sigma correction made for temperature and moisture (to approximate diffusion on constant pressure surfaces over orography). For pressure levels < 75 hPa, a linear second-order horizontal diffusion is applied. Cf. McAvaney and Fraser (1996)[<A HREF="11bmrc_fn.html#fn39">40</A>] for further details.
+<P>
+<LI>In a departure from the <A HREF="11bmrc.html#RTFToC20">baseline model</A>, vertical diffusion follows the method of Louis et al. (1981)[<A HREF="11bmrc_fn.html#fn40">41</A>]. Second-order vertical diffusion (K-closure) operates above the surface layer only in conditions of static instability. The vertically variable diffusion
+coefficient depends on stability (bulk Richardson number) as well as the
+vertical shear of the wind, following standard mixing-length theory.
+</UL>
+
+
+<h3><a name="RTFToC25">Convection</a></h3>
+<UL>
+<LI>The <A HREF="11bmrc.html#RTFToC25">baseline model's</A>  Kuo penetrative convection is replaced by the mass-flux scheme of Tiedtke (1989)<A HREF="11bmrc_fn.html#fn43">[44]</A>, but without inclusion of momentum effects. The scheme accounts for midlevel and penetrative convection, and also includes effects of cumulus-scale downdrafts.  The closure assumption for midlevel/penetrative convection is that large-scale moisture convergence determines the bulk cloud mass flux. Entrainment and detrainment of mass in convective plumes occurs both through turbulent exchange and organized inflow and outflow. Cf. Colman and McAvaney (1995)[<A HREF="11bmrc_fn.html#fn35">36</A>] and McAvaney et al. (1995)[<A HREF="11bmrc_fn.html#fn36">37</A>] for further details on the consequences of the new convective scheme.
+<P>
+<LI> Shallow convection is parameterized as in the <A HREF="11bmrc.html#RTFToC25">baseline model</A> following Tiedtke (1983<a href="11bmrc_fn.html#fn23">
+[24]</a>, 1988<a href="11bmrc_fn.html#fn24">
+[25]</a>).
+</UL>
+
+<h3><a name="RTFToC26">Cloud Formation </a></h3>
+<UL>
+<LI>Changes in the <A HREF="#RTFToC25">convective scheme</A> motivate a different treatment of convective cloud from that of the <A HREF="11bmrc.html#RTFToC25">baseline model</a>.  Convective cloud amount is diagnosed following Hack et al. (1993)<A HREF="11bmrc_fn.html#fn44">[45]</A>.  In each vertical column, the total fractional cloud amount is a logarithmic function of the convective precipitation rate, but is constrained to values between  0.2 and 0.8.  Changes in cloud fraction are allocated equally to vertical layers between the bottom and top of the convective tower.
+<P>
+<LI>As in the <A HREF="11bmrc.html#RTFToC26">baseline model</A>, large-scale (stratiform) cloud formation is based on the relative humidity diagnostic of Slingo (1987)<A HREF="11bmrc_fn.html#fn25">[26]</A>, but with further modifications adopted by Hack et al. (1993)<A HREF="11bmrc_fn.html#fn44">[45]</A>.  The criteria for the height classes and relative humidity thresholds for cloud formation also are different.  
+<P>
+<LI> Clouds are of 3 height classes: high (sigma levels 0.126 to 0.417), middle (sigma levels 0.500 to 0.740), and low (sigma levels 0.811 to 0.926).  Clouds in all 3 classes can be up to two adjacent sigma layers thick if the relative humidity is within 80 percent of the maximum for that layer. The fractional amount of each type of cloud is determined from a quadratic function of the difference between the maximum relative humidity in the cloud layer and a threshold relative humidity that varies with sigma level; thresholds are 85% for low cloud, 65% for middle cloud, and 75% for high cloud.  As in Hack et al. (1993)<A HREF="11bmrc_fn.html#fn44">[45]</A>, the threshold for high cloud is increased in regions of high static stability as measured by the Brunt-Vaisalla frequency.  Low cloud is suppressed in regions of downward vertical motion.
+<P>
+<LI>As in the <A HREF="11bmrc.html#RTFToC26">baseline model</A>, inversion cloud also forms at low levels following the diagnostics of Rikus (1991)<A HREF="11bmrc_fn.html#fn7">[8]</A>; however, the cloud fraction is reduced as the height of the maximum inversion strength increases, following Hack et al. (1993)<A HREF="11bmrc_fn.html#fn44">[45]</A>.    
+</UL>
+
+ <h3><a name="RTFToC27">Precipitation</a></h3>
+In a change from the <A HREF="11bmrc.html#RTFToC27">baseline model</A>, convective precipitation is determined according to the Tiedtke (1989)<A HREF="11bmrc_fn.html#fn43">[44]</A> <A HREF="#RTFToC25">convective scheme</A>. Conversion from cloud droplets to raindrops is proportional to the convective cloud liquid water content (with freezing/melting processes ignored).  Liquid water is not stored in a convective cloud, and once detreained, it evaporates instantaneously.  The portion that does not moisten the environment falls out as subgrid-scale convective precipitation.  As in the baseline model,  evaporation of falling convective or large-scale precipitation is not simulated.
+
+<h3><a name="RTFToC32">Snow Cover </a></h3>
+<UL>
+<LI>In contrast to the <A HREF="11bmrc.html#RTFToC32">baseline model</A>, fractional snow coverage of a grid box is simulated following the approach of Marshall et al. (1994)[<A HREF="11bmrc_fn.html#fn41">42</A>].  The snow fraction is proportional to the snow depth and is inversely proportional to the local roughness length of the vegetation.  (A weighted value is derived so that the snow fraction is always < 1.)  The fractional snow cover affects the surface albedo, roughness length, and evaporation efficiency: the grid-box average for each of these quantities is calculated as the fractionally weighted sum of the snow-covered and snow-free values.  The snow albedo itself is made a decreasing function of temperature to account for granularity effects.  Cf. McAvaney and Hess (1996)<A HREF="11bmrc_fn.html#fn38">[39]</A>  for further details.
+<P>
+<LI>In addition (and in contrast to the  <A HREF="11bmrc_b.html#RTFToC32">companion model</A>), fractional snow cover alters the thermal and hydrological properties of the underlying surface.  For purposes of the thermodynamic calculations, the effective snow depth depends on snow density, a prognostic variable that changes with the accumulation of new snow (see also <A HREF="#RTFToC35">Land Surface Processes</A>).  Cf. Pitman et al. (1991)<A HREF="11bmrc_fn.html#fn46">[47]</A> for further details.
+</UL>
+<h3><a name="RTFToC33">Surface Characteristics </a></h3>
+<UL>
+<LI>In contrast to the <A HREF="11bmrc.html#RTFToC33">baseline model</A>, each grid box is divided into a vegetated fraction <B>v</B> and a bare-soil fraction <B>b</B> which add to unity.  (The <A HREF="#RTFToC32">snow-covered fraction</A> <B>s</B> of the grid box is assumed to coincide with the vegetated fraction, so that <B>b</B> + <B>s</B> = 1) The fractional vegetation <B>v</B> is determined from the number of 1x1-degree subelements of Wilson and Henderson-Sellers (1985)<A HREF="11bmrc_fn.html#fn45">[46]</A>.  
+<P>
+<LI>The albedo and surface roughness length over land also are determined differently from those of the <A HREF="11bmrc.html#RTFToC33">baseline model</A>.  The albedo has a spectral dependence, with values for the visible (wavelengths < 0.7 micron) and near-infrared (wavelengths > 0.7 micron) distinguished.  The roughness length and albedo also change with fractional snow cover (see <A HREF="#RTFToC32">Snow Cover</A>). 
+<P>
+<A NAME="aggregates"></A><LI>Aggregate values of these variables are obtained for the vegetated fraction of the grid box by area-weighted averaging over the 1x1-degree vegetation subelements.  These aggregates then are combined, in area-weighted fashion, with the the bare-soil values to obtain  grid-box average quantities.  Cf. Pitman et al. (1991)<A HREF="11bmrc_fn.html#fn46">[47]</A> for further details.
+<P>
+<LI>In addition (and in contrast to the <A HREF="11bmrc_b.html#RTFToC33">companion model</A>), other parameters required by the <A HREF="#RTFToC35">land surface scheme</A> are specified.  The vegetation canopy is modeled as a combination of leaf area index (LAI) and stem area index (SAI), and the amplitudes of the seasonal variation of LAI and of the vegetated fraction of each grid box are prescribed following Dickinson et al. (1986)<A HREF="11bmrc_fn.html#fn47">[48]</A>. The fraction of <A NAME="PAR">photosynthetically active radiation (PAR) </A>absorbed also is specified as a function of vegetation type.  For each parameter, an aggregate value is determined for the grid box following the same procedure as described <A HREF="#aggregates">above</A>.  <A NAME="textures"></A>Ten soil textures also are distinguished from 1x1-degree data of Wilson and Henderson-Sellers 1985<A HREF="11bmrc_fn.html#fn45">[46]</A>.  Associated values of hydraulic diffusivity and conductivity for <A HREF="#moisture">soil moisture prediction</A>  are specified, while the moisture porosity, field capacity, and moisture content at the vegetation wilting point are derived. Grid-box average parameters are obtained by aggregating over the 1x1-degree soil texture subelements.    Cf. Pitman et al. (1991)<A HREF="11bmrc_fn.html#fn46">[47]</A> for further details.
+</UL>
+
+<h3><a name="RTFToC34">Surface Fluxes </a></h3>
+<UL>
+<LI>As in the <A HREF="11bmrc.html#RTFToC34">baseline model</A>, turbulent vertical eddy fluxes of momentum, heat, and moisture are expressed as bulk formulae, but the approach of  Louis et al. (1981)<A HREF="11bmrc_fn.html#fn40">[41]</A> is followed instead; the transfer functions of roughness and stability present in the bulk formulae are those of Holtslag and Beljaars (1989)[<A HREF="11bmrc_fn.html#fn37">38</A>], however. The roughness length for each grid box is a value aggregated over the relevant vegetation types and the bare soil fraction,  as described in <A HREF="#RTFToC33">Surface Characteristics</A>.
+<P>
+<LI>In contrast to both the <A HREF="11bmrc.html#RTFToC34">baseline</A> and <A HREF="11bmrc_b.html#RTFToC34">companion</A> models, the surface fluxes over land are influenced by an active vegetation canopy (see <A HREF="#RTFToC35">Land Surface Processes</A>).  In particular, the canopy affects the surface moisture flux which is both retarded by stomatal resistance and increased by the reevaporation of intercepted precipitation.   
+<P>
+<LI>
+The evapotranspiration efficiency <B>beta</B>, which contributes to the transfer coefficient for the surface moisture flux, is calculated for both the canopy and the bare-soil fraction of each grid box. The value of <B>beta</B> is the ratio of the actual evapotranspiration to the potential rate <B>PE</B>, where the latter is computed in a complex fashion (e.g., <B>PE</B> for bare soil is determined by the mechanical rate at which moisture can diffuse toward the surface, following Dickinson et al. (1986)<A HREF="11bmrc_fn.html#fn47">[48]</A>).
+<P>
+<LI>In addition, the fluxes at the top of the canopy are composited from those within the canopy and from the underlying surface (see <A HREF="#RTFToC35">Land Surface Processes</A>).  The flux over vegetation then is combined, in area-weighted fashion, with that over the  bare-ground fraction to provide a grid-box average value.   Cf. Pitman et al. (1991)<A HREF="11bmrc_fn.html#fn46">[47]</A> for further details.
+</UL>
+<h3><a name="RTFToC35">Land Surface Processes </a></h3>
+<UL>
+<LI>Land surface model BASE is substituted for the simpler schemes of the <A HREF="11bmrc.html#RTFToC35">baseline</A> and <A HREF="11bmrc_b.html#RTFToC35">companion</A> models.  BASE is situated within the framework of Deardorff (1978)<A HREF="11bmrc_fn.html#fn49">[50]</A> surface models</A> and is similar in design and complexity to other force-restore schemes such as BATS (cf. Dickinson et al. 1986<A HREF="11bmrc_fn.html#fn47">[48]</A> and Dickinson et al. 1993<A HREF="11bmrc_fn.html#fn50">[51]</A>) and BEST (cf. Cogley et al. 1990<A HREF="11bmrc_fn.html#fn51">[52]</A>, Pitman et al. 1990<A HREF="11bmrc_fn.html#fn46">[47]</A>, Pitman and Desborough (1996)<A HREF="11bmrc_fn.html#fn52">[53]</A>, and Desborough (1996)<A HREF="11bmrc_fn.html#fn48">[49]</A>). 
+<P>
+<LI>The BASE vegetation canopy is divided into 2 stories, with the upper story receiving 75% of the absorbed <A HREF="#PAR">PAR</A>.  Precipitation falls uniformly across the grid box, and that which falls on the vegetated fraction may be intercepted and evaporated at the potential rate.  Wet and dry portions of the canopy are derived, with evaporation at the potential rate occurring from the wet portion; transpiration occurs for the dry portion, where the stomatal resistance is predicted as a function of the canopy temperature and PAR, as well as the supply of moisture at root depth.  A canopy evapotranspiration efficiency <B>beta</B> then is determined for use in the <A HREF="#RTFToC34">surface moisture flux</A> computation. Canopy storage and drip of intercepted moisture are predicted, with a maximum moisture capacity determined from the vegetation fraction and SAI (see <A HREF="#RTFToC33">Surface Characteristics</A>). 
+<P>
+<LI>BASE also includes an explicit canopy air space (CAS) through which the foliage and the ground exchange heat and moisture with each other and with the free atmosphere (see <A HREF="#RTFToC34">Surface Fluxes</A>).  The CAS-free portion of each grid box interacts directly with the free atmosphere, but has the same temperature and moisture values as the rest of the grid box.  The snow pack, which interacts with both the thermodynamics and hydraulics of the atmosphere and underlying surface, consists of a single layer that is characterized by the snow mass, density, and fractional extent (see <A HREF="#RTFToC32">Snow Cover</A>).  
+   
+<P>
+<A NAME="moisture"></A><LI>Soil moisture in both liquid and ice phases is predicted from diffusion equations in 3 layers (with gravitational drainage to a base layer), whose  depths vary according to the rooting of local vegetation  (see <A HREF="#RTFToC33">Surface Characteristics</A>). Moisture diffusion parameters are determined from the specified <A HREF="#textures">soil texture classes</A>.  Water moves vertically in a soil column depending on the moisture potential gradient produced by the combined influence of gravity and water pressure. Infiltration of water is at a potential rate over a specified fraction of the grid box, while its is zero over the remainder. Moisture is transferred to the atmosphere by evaporation or by root uptake (evapotranspiration), and runoff can occur from either the upper or lower soil layers. 
+<P>
+<LI>Soil temperature is predicted by the force-restore method in the same 3 layers as for soil moisture.  Soil heat capacity is determined from volumetric weighting of the air, ice, water, and mineral constituents of the soil; thermal conductivity is determined from both volumetric and  "shape factor" weighting of these constituents.  The thermal conductivity and heat capacity of the snow pack depend on the prognostic snow density (see <A HREF="#RTFToC32">Snow Cover</A>), and latent heating from melting snow and soil ice (<A HREF="#moisture">see above</A>) is included in the temperature prediction. Cf. Pitman et al. (1991)<A HREF="11bmrc_fn.html#fn46">[47]</A> for further details.
+
+</UL>
+<p><BR><h4>
+<p>
+<A HREF="11bmrc_fn.html"><IMG SRC="gifs/Button_blue.gif">	Go to BMRC References</a>
+</h4>
+<p>
+<h4><A HREF="11bmrc_ToC_c.html"><IMG SRC="gifs/Button_blue.gif">	Return to Model Table of Contents</a></h4>
+<p>
+<h4><A HREF="01toc.html"><IMG SRC="gifs/Button_blue.gif">	Return to Main Document Directory</a></h4><p>
+<HR>
+
+Last update October 2, 1996. For further information, contact: Tom Phillips (<a href="mailto: phillips@tworks.llnl.gov">phillips@tworks.llnl.gov</a>)<P>
+<A HREF="http://www.llnl.gov/disclaimer.html">LLNL Disclaimers</A><p>
+
+ UCRL-ID-116384<p>
+
+</body>
+<!-- Mirrored from www-pcmdi.llnl.gov/modeldoc/amip1/11bmrc_c.html by HTTrack Website Copier/3.x [XR&CO'2004], Fri, 09 Jul 2004 21:04:18 GMT -->
+
+<!-- Mirrored from www-pcmdi.llnl.gov/projects/modeldoc/amip1/11bmrc_c.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 20 Jun 2016 20:11:32 GMT -->
+</html>  

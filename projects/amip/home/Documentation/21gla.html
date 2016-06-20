@@ -1,0 +1,255 @@
+---
+layout: AMIP
+---
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN//2.0"> <HTML>
+<!-- Mirrored from www-pcmdi.llnl.gov/modeldoc/amip1/21gla.html by HTTrack Website Copier/3.x [XR&CO'2004], Fri, 09 Jul 2004 21:01:48 GMT -->
+
+<!-- Mirrored from www-pcmdi.llnl.gov/projects/modeldoc/amip1/21gla.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 20 Jun 2016 19:41:02 GMT -->
+<HEAD> <TITLE>Goddard Laboratory for Atmospheres: Model GLA GCM-01.0 AMIP-01 (4x5 L17) 1992</TITLE> </HEAD> 
+<BODY BACKGROUND="gifs/bg9.gif">
+<BODY><h2> <a name="RTFToC1">Goddard Laboratory for Atmospheres: Model GLA GCM-01.0 AMIP-01 (4x5 L17) 1992</a></h2> <hr><h3> <a name="RTFToC2">AMIP Representative(s)</a></h3>Dr. William K.-M. Lau, Goddard Laboratory for Atmospheres, Mail Code 913, Goddard Space Flight Center, Greenbelt, Maryland, 20771; Phone: +1-301-286-7208; Fax: +1-301-286-1759; e-mail: lau@climate.gsfc.nasa.gov; World Wide Web URL:  <a href="http://climate.gsfc.nasa.gov/">http://climate.gsfc.nasa.gov/</a>.<h3> <a name="RTFToC3">Model Designation </a></h3>
+
+GLA GCM-01.0 AMIP-01 (4x5 L17 ) 1992
+
+<h3> <a name="RTFToC4">Model Lineage </a></h3>
+
+The GLA model is derived from an earlier version described by Kalnay et al. (1983)<a href="21gla_fn.html#fn0">
+[1]</a>. Modifications include increased vertical resolution and several changes in the parameterizations of radiation, convection, cloud formation, precipitation, vertical diffusion, and surface processes (cf. Sud and Walker 1992<a href="21gla_fn.html#fn9">
+[10]</a>). Although both the GLA model and the <a href="21gsfc_ToC.html">GSFC/GEOS-1 model</a> are in use at the Goddard Laboratory for Atmospheres, they differ substantially in their dynamical formulations and numerics, as well as in their physical parameterizations, especially those pertaining to convection and land surface processes. 
+
+<h3> <a name="RTFToC5">Model Documentation </a></h3>
+
+Documentation of different aspects of the model is provided by Kalnay et al. (1983) <a href="21gla_fn.html#fn0">
+[1]</a>, Harshvardhan et al. (1987) <a href="21gla_fn.html#fn1">
+[2]</a>, Helfand and Labraga (1988) <a href="21gla_fn.html#fn2">
+[3]</a>, Helfand et al. (1991) <a href="21gla_fn.html#fn3">
+[4]</a>, Sellers et al. (1986) <a href="21gla_fn.html#fn4">
+[5]</a>, Sud and Molod (1986 <a href="21gla_fn.html#fn5">
+[6]</a>, 1988 <a href="21gla_fn.html#fn6">
+[7]</a>), Sud et al. (1991 <a href="21gla_fn.html#fn7">
+[8]</a>, 1992 <a href="21gla_fn.html#fn8">
+[9]</a>), Sud and Walker (1992 <a href="21gla_fn.html#fn9">
+[10]</a>, 1993 <a href="21gla_fn.html#fn10">
+[11]</a>), and Xue et al. (1991)<a href="21gla_fn.html#fn11">
+[12]</a>. 
+
+<h2> <a name="RTFToC6">Numerical/Computational Properties </a></h2> 
+
+<h3> <a name="RTFToC7">Horizontal Representation </a></h3>
+
+Finite differences on an energy- and momentum-conserving A-grid (cf. Arakawa and Lamb 1977) <a href="21gla_fn.html#fn12">
+[13]</a>. The horizontal advection of atmospheric variables is accurate to fourth-order (cf. Kalnay et al. 1983) <a href="21gla_fn.html#fn0">
+[1]</a>. 
+
+<h3> <a name="RTFToC8">Horizontal Resolution </a></h3>
+
+4 x 5-degree latitude-longitude grid. 
+
+<h3> <a name="RTFToC9">Vertical Domain </a></h3>
+
+Surface to about 12 hPa. For a surface pressure of 1000 hPa, the lowest atmospheric level is at a pressure of about 994 hPa. 
+
+<h3> <a name="RTFToC10">Vertical Representation </a></h3>
+
+Finite-differences in sigma coordinates. The vertical differencing scheme conserves squared potential temperature (cf. Arakawa and Suarez 1983) <a href="21gla_fn.html#fn13">
+[14]</a>. 
+
+<h3> <a name="RTFToC11">Vertical Resolution </a></h3>
+
+There are 17 unequally spaced sigma levels. For a surface pressure of 1000 hPa, 5 levels are below 800 hPa and 4 levels are above 200 hPa. 
+
+<h3> <a name="RTFToC12">Computer/Operating System </a></h3>
+
+The AMIP simulation was run on a Cray Y/MP computer using a single processor in the UNICOS environment. 
+
+<h3> <a name="RTFToC13">Computational Performance </a></h3>
+
+For the AMIP experiment, about 6 minutes of Cray Y/MP computer time per simulated day. 
+
+<h3> <a name="RTFToC14">Initialization</a></h3>
+
+For the AMIP simulation, the model atmospheric state was initialized from the ECMWF analysis for 00Z on 1 January 1979. Soil moisture and snow cover/depth were initialized from a previous model solution. 
+
+<h3> <a name="RTFToC15">Time Integration Scheme(s) </a></h3>
+
+Time integration is carried out with a Matsuno step at the start, and with leapfrog steps thereafter. The time step for dynamics is 3.75 minutes. Most model physics, including shortwave radiation, moist convection, large-scale condensation, evaporation of precipitation, cloud formation and properties, and surface processes are calculated every 30 minutes; longwave radiation is computed hourly. In addition, the level 2.5 turbulence closure scheme (see <a href="21gla.html#RTFToC20">Diffusion</a>) uses an implicit backward operator with 5-minute time step to determine the turbulence kinetic energy (TKE); however, the rate of production of TKE and the diffusion coefficients are calculated by a forward time step. 
+
+<h3> <a name="RTFToC16">Smoothing/Filling</a></h3>
+
+Orography is smoothed (see <a href="21gla.html#RTFToC29">Orography</a>). At every dynamical time step (see <a href="21gla.html#RTFToC15">Time Integration Scheme(s)</a>), a sixteenth-order Shapiro (1970)<a href="21gla_fn.html#fn14">
+[15]</a> filter (with time scale 90 minutes) is applied to the prognostic fields; a Fourier filter is also applied in polar latitudes. Negative moisture values are filled by "borrowing" moisture from the level below, and from neighboring horizontal grid boxes at the lowest vertical level. 
+
+<h3> <a name="RTFToC17">Sampling Frequency </a></h3>
+
+For the AMIP simulation, the model history is written every 6 hours. 
+
+<h2> <a name="RTFToC18">Dynamical/Physical Properties </a></h2> 
+
+<h3> <a name="RTFToC19">Atmospheric Dynamics </a></h3>
+
+Primitive-equation dynamics in flux form are expressed in terms of u and v winds, temperature, specific humidity, and surface pressure. 
+
+<h3> <a name="RTFToC20">Diffusion</a></h3>
+
+<UL><li>	Horizontal diffusion is not included.<p>
+
+ <li>	The effects of vertical diffusion are treated by the level-2.5 second-order turbulence closure model of Helfand and Labraga (1988) <a href="21gla_fn.html#fn2">
+[3]</a>. TKE is a prognostic variable, and the remaining turbulent second moments (including vertical fluxes) are diagnostically determined. See also <a href="21gla.html#RTFToC28">Planetary Boundary Layer</a>, <a href="21gla.html#RTFToC34">Surface Fluxes</a></i>, and <a href="21gla.html#RTFToC15">Time Integration Scheme(s)</a>. </ul> 
+
+<h3> <a name="RTFToC21">Gravity-wave Drag</a> </h3>
+
+Gravity-wave drag is not modeled. 
+
+<h3> <a name="RTFToC22">Solar Constant/Cycles </a></h3>
+
+The solar constant is the AMIP-prescribed value of 1365 W/(m^2). Both seasonal and diurnal cycles in solar forcing are simulated. 
+
+<h3> <a name="RTFToC23">Chemistry</a></h3>
+
+The carbon dioxide concentration is the AMIP-prescribed value of 345 ppm. Monthly climatological zonal profiles of ozone concentrations are prescribed (cf. Rosenfield et al. 1987) <a href="21gla_fn.html#fn15">
+[16]</a>. Radiative effects of water vapor and of a single type of aerosol, which is present at constant global concentration in the model's planetary boundary layer (PBL), also are included. See also <a href="21gla.html#RTFToC28">Planetary Boundary Layer</a> and <a href="21gla.html#RTFToC24">Radiation</a>. 
+
+<h3> <a name="RTFToC24">Radiation</a></h3>
+
+<UL><li>	Atmospheric radiation is treated as in Harshvardhan et al. (1987). The shortwave parameterization after Davies (1982) <a href="21gla_fn.html#fn16">
+[17]</a> follows the approach of Lacis and Hansen (1974) <a href="21gla_fn.html#fn17">
+[18]</a> for clear-sky Rayleigh scattering, and for ozone absorption in the ultraviolet (wavelengths &lt;0.35 micron) and visible (wavelengths 0.5 to 0.7 micron) spectral bands. Water vapor absorption in the near-infrared (0.7 to 4.0 microns) is treated as in Chou (1986) <a href="21gla_fn.html#fn18">
+[19]</a>.<p>
+
+ <li>	In the visible spectral band, scattering by clouds and scattering/absorption by aerosol (see <a href="21gla.html#RTFToC23">Chemistry</a>) is treated by a delta-Eddington approximation (cf. Joseph et al. 1976) <a href="21gla_fn.html#fn19">
+[20]</a>. Optical properties for a single aerosol type are specified from global climatological data (cf. Deepak and Gerber 1983 <a href="21gla_fn.html#fn20">
+[21]</a> and Sud and Walker 1992 <a href="21gla_fn.html#fn9">
+[10]</a>). For clouds, multiple-scattering effects are computed following Lacis and Hansen (1974 <a href="21gla_fn.html#fn7">
+[8]</a>), but the cloud optical thickness (which also depends on cloud type, specific humidity, and solar zenith angle) is adjusted according to the local fraction of cloud cover (cf. Sud and Walker 1992 <a href="21gla_fn.html#fn9">
+[10]</a>). Cloud optical thicknesses are set about 2.5 times higher than the Lacis and Hansen values, in agreement with values derived by Peng et al. (1982) <a href="21gla_fn.html#fn21">
+[22]</a> from Feigelson (1978) <a href="21gla_fn.html#fn22">
+[23]</a> aircraft measurements. For cumulus clouds, an optical thickness of 20 is assumed for all sigma layers that have detraining anvil clouds (see <a href="21gla.html#RTFToC26">Cloud Formation</a>). Values of single-scattering albedo and of asymmetry factor which are also required for the delta-Eddington approximation, are prescribed. <p>
+
+ <li>	For longwave absorption, the broadband transmission approach of Chou (1984)<a href="21gla_fn.html#fn23">
+[24]</a> is used for water vapor, that of Chou and Peng (1983)<a href="21gla_fn.html#fn24">
+[25]</a> for carbon dioxide, and that of Rodgers (1968)<a href="21gla_fn.html#fn25">
+[26]</a> and Rosenfield et al. (1987) <a href="21gla_fn.html#fn15">
+[16]</a> for ozone. Longwave absorption is calculated in five spectral bands (for wavenumbers between 0 and 3 x 10^-5 m^-1), with continuum absorption by water vapor treated as in Roberts et al. (1976)<a href="21gla_fn.html#fn26">
+[27]</a>. The emissivities of clouds depend on their optical thicknesses, and fractional cloud cover effects are implemented by area-weighted, cloud-radiative interactions. For purposes of the radiation calculations, all clouds are assumed to be randomly overlapped in the vertical. See also <a href="21gla.html#RTFToC26">Cloud Formation</a>.</ul> 
+
+<h3> <a name="RTFToC25">Convection</a></h3>
+
+<UL><li>	The formulation of convection follows the scheme of Arakawa and Schubert (1974) <a href="21gla_fn.html#fn27">
+[28]</a>, as implemented in discrete form by Lord and Arakawa (1980)<a href="21gla_fn.html#fn28">
+[29]</a>. Changes made to the minimum entrainment rate and to the critical cloud work function are the only modifications of the original scheme (cf. Sud and Molod 1988 <a href="21gla_fn.html#fn5">
+[6]</a>, Tokioka et al. 1988 <a href="21gla_fn.html#fn29">
+[30]</a>, Sud et al. 1991 <a href="21gla_fn.html#fn7">
+[8]</a>, and Sud and Walker 1992 <a href="21gla_fn.html#fn9">
+[10]</a>).<p>
+
+ <li>	A relative humidity of at least 90 percent is required at the cloud base for the onset of convection. The scheme predicts mass fluxes from mutually interacting cumulus subensembles which have different entrainment rates and levels of neutral buoyancy that define the tops of the clouds and their associated convective updrafts; a full spectrum of cumulus clouds of depths compatible with the vertical discretization (see <a href="21gla.html#RTFToC11">Vertical Resolution</a>) is included. The mass fluxes, which are assumed to originate in the PBL (see <a href="21gla.html#RTFToC28">Planetary Boundary Layer</a>), are optimal solutions of an integral equation, subject to a quasi-equilibrium constraint (cf. Lord et al. 1982) <a href="21gla_fn.html#fn30">
+[31]</a>; these solutions are obtained by a simplex numerical method. <p>
+
+ <li>	In turn, the predicted convective mass fluxes feed back on the large-scale fields of temperature (through latent heating and compensating subsidence), moisture (through precipitation and its evaporation, detrainment, and subsidence), and momentum (through cumulus friction). The effects on convective cloud buoyancy of phase changes from water to ice also are treated, but the drying and cooling effects of convective-scale downdrafts on the environment are not explicitly parameterized. (However, these can occur implicitly via turbulent fluxes.)<p>
+
+ <li>	Convective instability originating above the model's PBL is treated within the Helfand and Lebraga (1988) <a href="21gla_fn.html#fn2">
+[3]</a> turbulence scheme (see <a href="21gla.html#RTFToC20">Diffusion</a>). For unstable conditions in which the virtual potential temperature exceeds that of the layer above, an eddy exchange coefficient of high magnitude (100 or more) is assigned to bring about a dry convective adjustment. </ul>
+
+<h3> <a name="RTFToC26">Cloud Formation </a></h3>
+
+<UL><li>	Subgrid-scale cloud forms above the PBL as part of the cumulus convection scheme (see <a href="21gla.html#RTFToC25">Convection</a>). In the process of producing convective rain, the scheme also determines the mass of associated detraining anvil cloud. The anvils are assumed to have a conical shape and to be equal to the sigma-layer thickness at their center, while linearly tapering off to zero at the cone edge (facilitating determination of fractional cloudiness for calculation of cloud-radiative interactions--see <a href="21gla.html#RTFToC24">Radiation</a>). <p>
+
+ <li>	Large-scale precipitating cloud forms if there is local supersaturation after the model is adjusted by the convective clouds. In that case, 80 percent of a grid box is assumed to be filled by cloud (this also impacts the large-scale rainfall fraction and intensity--see <a href="21gla.html#RTFToC27">Precipitation</a>).<p>
+
+ <li>	Large-scale nonprecipitating cloud also may form; its fractional coverage is determined after Slingo and Ritter (1985) <a href="21gla_fn.html#fn31">
+[32]</a> as a quadratic function of the difference between the local relative humidity of a layer and a threshold value that is specified as a nonlinear function of sigma level (cf. Sud and Walker 1992) <a href="21gla_fn.html#fn9">
+[10]</a>. </ul>
+
+<h3> <a name="RTFToC27">Precipitation</a></h3>
+
+<UL><li>	Convective precipitation forms as part of the cumulus convection scheme and/or related moist convective adjustments (see <a href="21gla.html#RTFToC25">Convection</a>). Large-scale precipitation forms under supersaturated conditions. <p>
+
+ <li>	Both large-scale and convective precipitation evaporate in falling to the surface; the former is taken to be spatially homogeneous (see <a href="21gla.html#RTFToC26">Cloud Formation</a>), while the latter is assumed to follow the satellite-derived intensity distribution function of Ruprecht and Gray (1976)<a href="21gla_fn.html#fn32">
+[33]</a>. The evaporation parameterization accounts for precipitation intensity, drop size distribution, sphericity influence of hydrometeors, and the temperature, pressure, and relative humidity of the ambient air (cf. Sud and Molod 1988 <a href="21gla_fn.html#fn6">
+[7]</a> and Sud and Walker 1993 <a href="21gla_fn.html#fn9">
+[10]</a>).</ul>
+
+<h3> <a name="RTFToC28">Planetary Boundary Layer </a></h3>
+
+The PBL is defined by those layers with significant TKE; operationally, the PBL is represented by the first 3 levels above the surface (at sigma = 0.994, 0.971, and 0.930). Near the surface, the PBL is treated as an extended surface layer and a viscous sublayer in the space between the surface and the tops of the surface roughness elements. Appropriate parameterizations are utilized to determine turbulent fluxes in the different PBL subregions. See also <a href="21gla.html#RTFToC20">Diffusion</a>, <a href="21gla.html#RTFToC33">Surface Characteristics</a>, and <a href="21gla.html#RTFToC34">Surface Fluxes</a>. 
+
+<h3> <a name="RTFToC29">Orography</a></h3>
+
+The 1 x 1-degree topographic height data of Gates and Nelson (1975) <a href="21gla_fn.html#fn33">
+[34]</a> is area-averaged over the 4 x 5-degree grid boxes. The resulting orography is smoothed using a sixteenth-order Shapiro (1970) <a href="21gla_fn.html#fn14">
+[15]</a> filter, and a Fourier filter poleward of 60 degrees latitude. Negative terrain heights resulting from the smoothing process are set to zero. 
+
+<h3> <a name="RTFToC30">Ocean</a></h3>
+
+AMIP monthly sea surface temperature fields are prescribed, with daily values determined by linear interpolation. 
+
+<h3> <a name="RTFToC31">Sea Ice </a></h3>
+
+AMIP monthly sea ice extents are prescribed. Snow is allowed to accumulate, but without conversion to ice (the ice thickness is kept a uniform 3 meters). The ice surface temperature is predicted from the net flux of energy (see <a href="21gla.html#RTFToC34">Surface Fluxes</a>), including a conduction heat flux which is proportional to the difference between the ice surface temperature and that prescribed (-2 degrees C) for the ocean below. 
+
+<h3> <a name="RTFToC32">Snow Cover </a></h3>
+
+Precipitation falls as snow if the surface air temperature is &lt;0 degrees C. Snow may accumulate only on land, and fractional snow coverage of a grid box is parameterized as in the Simple Biosphere (SiB) model of Sellers et al. (1986) <a href="21gla_fn.html#fn4">
+[5]</a>. Snow mass is a prognostic variable that is depleted by both sublimation (which contributes to surface evaporation) and snowmelt (which contributes to soil moisture). Snow cover alters both the albedo and the thermal properties of the surface. See also <a href="21gla.html#RTFToC33">Surface Characteristics</a>, <a href="21gla.html#RTFToC34">Surface Fluxes</a>, and <a href="21gla.html#RTFToC35">Land Surface Processes</a>. 
+
+<h3> <a name="RTFToC33">Surface Characteristics </a></h3>
+
+<UL><li>	Over ice surfaces, the roughness length is prescribed as a uniform 1 x 10^-4 m. The roughness of the ocean is computed iteratively as a function of the surface wind stress which is an interpolation between the relation for moderate to high winds given by Large and Pond (1981) <a href="21gla_fn.html#fn34">
+[35]</a>, and by Kondo (1975)<a href="21gla_fn.html#fn35">
+[36]</a> for the range of weak winds. Over land, the 12 vegetation/surface types of the SiB model of Sellers et al. (1986) <a href="21gla_fn.html#fn4">
+[5]</a> and associated roughness lengths are specified at monthly intervals (cf. Dorman and Sellers 1989)<a href="21gla_fn.html#fn36">
+[37]</a>.<p>
+
+ <li>	Surface albedos depend on solar zenith angle (cf. Pinker and Laszlo 1992)<a href="21gla_fn.html#fn37">
+[38]</a> and include values for both visible (0.0-0.7 micron) and near-infrared (0.7-4.0 microns) spectral intervals. Monthly varying surface albedos for vegetated land are specified from the SiB model. Albedos of bare land, ocean, and ice are prescribed from Earth Radiation Budget Experiment (ERBE) satellite data (cf. Barkstrom et al. 1990) <a href="21gla_fn.html#fn38">
+[39]</a>. Snow cover alters the land albedos, as described by Xue et al. (1991).<p>
+
+ <li>	Over vegetated surfaces, longwave emissivity may be less than unity (graybody emission), but is 1.0 otherwise (blackbody emission).</ul>
+
+<h3> <a name="RTFToC34">Surface Fluxes </a></h3>
+
+<UL><li>	Surface solar absorption is determined from albedos, and longwave emission from the Planck equation with prescribed emissivities (see <a href="21gla.html#RTFToC33">Surface Characteristics</a>). <p>
+
+ <li>	Turbulent eddy fluxes of momentum, heat, and moisture are parameterized according to surface type and vertical location within the PBL (see <a href="21gla.html#RTFToC28">Planetary Boundary Layer</a>). Over ocean and ice surfaces, Monin-Obukhov similarity functions expressed as stability-dependent bulk formulae represent the vertical structure of an extended surface layer (of depth up to 150 m). Near-surface values of wind, temperature, and humidity required for the bulk formulae are taken to be those at the lowest atmospheric level (sigma = 0.994). For an unstable surface layer, the stability function is the KEYPS function of Panofsky (1973)<a href="21gla_fn.html#fn39">
+[40]</a> for momentum and its generalization for heat and moisture (which assures nonvanishing heat and moisture fluxes even for zero surface wind speed). For a stable surface layer, the stability functions are those of Clarke (1970)<a href="21gla_fn.html#fn40">
+[41]</a> for heat and moisture fluxes, and a slightly modified form for the surface momentum flux. The gradients in temperature and moisture in the laminar sublayer (between the surface and the tops of the roughness elements) are based on the relation of Yaglom and Kader (1974) <a href="21gla_fn.html#fn41">
+[42]</a>. Cf. Helfand (1985) <a href="21gla_fn.html#fn42">
+[43]</a> and Helfand et al. (1991) <a href="21gla_fn.html#fn3">
+[4]</a> for further details.<p>
+
+ <li>	Over land, turbulent surface fluxes are represented by bulk formulae following the formulation of Deardorff (1972) <a href="21gla_fn.html#fn43">
+[44]</a>, but with stability-dependent drag and transfer coefficients (expressed as aerodynamic and surface resistances) that are determined as in Xue et al. (1991) <a href="21gla_fn.html#fn11">
+[12]</a>. The surface moisture flux includes direct evaporation from a vegetation canopy and from bare soil, as well as evapotranspiration via root uptake (see <a href="21gla.html#RTFToC35">Land Surface Processes</a>).<p>
+
+ <li>	Above the extended surface layer, turbulent fluxes of momentum, heat, and moisture are predicted by the Helfand and Labraga (1988) <a href="21gla_fn.html#fn2">
+[3]</a> level-2.5 second-order turbulence closure scheme (see <a href="21gla.html#RTFToC20">Diffusion</a>).</ul>
+
+<h3> <a name="RTFToC35">Land Surface Processes </a></h3>
+
+<UL><li>	Land-surface processes are simulated as in the Xue et al. (1991) <a href="21gla_fn.html#fn11">
+[12]</a> modification of the SiB model of Sellers et al. (1986) <a href="21gla_fn.html#fn4">
+[5]</a>. Within the single-story vegetation canopy, evapotranspiration from dry leaves includes detailed modeling of stomatal and canopy resistances; direct evaporation from both bare soil and from the canopy interception of precipitation is also treated (see <a href="21gla.html#RTFToC34">Surface Fluxes</a>). <p>
+
+ <li>	Soil temperature is determined in 2 layers by the force-restore method of Deardorff (1978) <a href="21gla_fn.html#fn44">
+[45]</a>. Soil moisture, which is predicted from budget equations in 3 layers, is increased by infiltrated precipitation and snowmelt, and is depleted by evapotranspiration and direct evaporation. Infiltration of moisture is limited by the hydraulic conductivity of the soil, with the remainder contributing to surface runoff. Deep runoff from gravitational drainage is also simulated. See also <a href="21gla.html#RTFToC33">Surface Characteristics</a> and <a href="21gla.html#RTFToC34"<a href="21gla.html#RTFToC34">Surface Fluxes</a>.</ul> <p>
+
+<h4><p>
+
+<A HREF="21gla_fn.html"><IMG SRC="gifs/Button_blue.gif">	Go to GLA References</a></h4> <p>
+
+<h4><p>
+
+<A HREF="21gla_ToC.html"><IMG SRC="gifs/Button_blue.gif">	Return to GLA Table of Contents</a></h4> <h4><A HREF="01toc.html"><IMG SRC="gifs/Button_blue.gif">	Return to Main Document Directory</a></h4> <p>
+
+<HR>
+
+Last update April 19, 1996.  For further information, contact: Tom Phillips (<a href="mailto: phillips@tworks.llnl.gov"> phillips@tworks.llnl.gov </a>) <p><A HREF="http://www.llnl.gov/disclaimer.html">LLNL Disclaimers</A>
+<p>
+
+ UCRL-ID-116384<p>
+
+</body>
+<!-- Mirrored from www-pcmdi.llnl.gov/modeldoc/amip1/21gla.html by HTTrack Website Copier/3.x [XR&CO'2004], Fri, 09 Jul 2004 21:01:48 GMT -->
+
+<!-- Mirrored from www-pcmdi.llnl.gov/projects/modeldoc/amip1/21gla.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 20 Jun 2016 19:41:02 GMT -->
+</html> 

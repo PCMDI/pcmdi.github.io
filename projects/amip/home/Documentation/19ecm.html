@@ -1,0 +1,386 @@
+---
+layout: AMIP
+---
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN//2.0">
+<HTML>
+<!-- Mirrored from www-pcmdi.llnl.gov/modeldoc/amip1/19ecm.html by HTTrack Website Copier/3.x [XR&CO'2004], Fri, 09 Jul 2004 21:01:48 GMT -->
+
+<!-- Mirrored from www-pcmdi.llnl.gov/projects/modeldoc/amip1/19ecm.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 20 Jun 2016 19:41:02 GMT -->
+<HEAD>
+<TITLE>European Centre for Medium-Range Weather Forecasts: Model ECMWF ECMWF Cy36 (T42 L19) 1990</TITLE></HEAD>
+<BODY BACKGROUND="gifs/bg9.gif">
+<BODY>
+
+<h2>
+<a name="RTFToC1">European Centre for Medium-Range Weather Forecasts: Model ECMWF ECMWF Cy36 (T42 L19) 1990</a></h2><hr>
+<h3>
+<a name="RTFToC2">AMIP
+Representative(s)
+</a></h3>
+Dr. Laura Ferranti and Dr. David Burridge, European Centre for Medium-Range Weather Forecasts; Shinfield Park, Reading RG29AX, England; Phone: +44-1734-499000; Fax: +44-1734-869450; e-mail: Laura.Ferranti@ecmwf.INT; World Wide Web URL: <a href="http://www.ecmwf.int/">http://www.ecmwf.int/</a>
+<h3>
+<a name="RTFToC3">Model Designation
+</a></h3>
+ECMWF ECMWF Cy36 (T42 L19) 1990
+<h3>
+<a name="RTFToC4">Model
+Lineage
+</a></h3>
+Cycle 36, one of a historical line of ECMWF model versions, first became operational in June 1990.
+<h3>
+<a name="RTFToC5">Model
+Documentation
+</a></h3>
+Key documents for the model are ECMWF Research Department (1988 
+<a href="19ecm_fn.html#fn0">[1]</a>, 1991 
+<a href="19ecm_fn.html#fn1">[2]</a>) and
+a series of Research Department memoranda from 1988 to 1990 that are summarized
+in ECMWF Technical Attachment (1993)
+<a href="19ecm_fn.html#fn2">[3]</a>.
+<h2>
+<a name="RTFToC6">Numerical/Computational
+Properties
+</a></h2>
+<h3>
+<a name="RTFToC7">Horizontal
+Representation
+</a></h3>
+Spectral (spherical harmonic basis functions) with transformation to a Gaussian
+grid for calculation of nonlinear quantities and some physics.
+<h3>
+<a name="RTFToC8">Horizontal
+Resolution
+</a></h3>
+Spectral triangular 42 (T42), roughly equivalent to 2.8 x 2.8 degrees latitude-longitude.
+<h3>
+<a name="RTFToC9">Vertical
+Domain
+</a></h3>
+Surface to 10 hPa. For a surface pressure of 1000 hPa, the lowest atmospheric
+level is at about 996 hPa.
+<h3>
+<a name="RTFToC10">Vertical
+Representation
+</a></h3>
+Finite differences in hybrid sigma-pressure coordinates after Simmons and
+Burridge (1981)
+<a href="19ecm_fn.html#fn3">[4]</a> and Simmons and Str&uuml;fing
+(1981)
+<a href="19ecm_fn.html#fn4">[5]</a>.
+<h3>
+<a name="RTFToC11">Vertical
+Resolution
+</a></h3>
+There are 19 irregularly spaced hybrid levels. For a surface pressure of 1000
+hPa, 5 levels are below 800 hPa and 7 levels are above 200 hPa.
+<h3>
+<a name="RTFToC12">Computer/Operating
+System
+</a></h3>
+The AMIP simulation was run on a Cray 2 computer using a single processor in
+the UNICOS environment.
+<h3>
+<a name="RTFToC13">Computational
+Performance
+</a></h3>
+For the AMIP experiment, about 15 minutes of Cray 2 computation time per
+simulated day.
+<h3>
+<a name="RTFToC14">Initialization</a></h3>
+For the AMIP simulation start date of 1 January 1979, the model atmosphere,
+soil moisture, snow cover/depth are initialized from ECMWF operational analyses
+for 15 January 1979 that are interpolated from spectral T106 resolution to T42
+(see <a href="#RTFToC8">Horizontal Resolution</a>). 
+<h3>
+<a name="RTFToC15">Time
+Integration Scheme(s)
+</a></h3>
+A semi-implicit Hoskins and Simmons (1975)
+<a href="19ecm_fn.html#fn5">[6]</a>
+scheme with Asselin (1972)
+<a href="19ecm_fn.html#fn6">[7]</a> frequency filter
+is used for the time integration, with a time step of 30 minutes for dynamics
+and physics, except for radiation/cloud calculations, which are done once every
+3 hours. 
+<h3>
+<a name="RTFToC16">Smoothing/Filling</a></h3>
+Orography is smoothed (see <a href="#RTFToC29">Orography</a>). Negative values of atmospheric
+specific humidity (due to truncation errors in the discretized moisture
+equation) are filled by borrowing moisture from successive vertical levels
+below until all specific humidity values in the column are nonnegative. Any
+borrowing from the surface that may be required does not impact the moisture
+budget there.
+<h3>
+<a name="RTFToC17">Sampling
+Frequency
+</a></h3>
+For the AMIP simulation, the model history is written every 6 hours.
+<h2>
+<a name="RTFToC18">Dynamical/Physical
+Properties
+</a></h2>
+<h3>
+<a name="RTFToC19">Atmospheric
+Dynamics
+</a></h3>
+Primitive-equation dynamics are expressed in terms of vorticity, divergence,
+temperature, surface pressure, and specific humidity.
+<h3>
+<a name="RTFToC20">Diffusion</a></h3>
+<ul>
+<li>	Fourth-order (del^4) horizontal diffusion is applied in spectral space on hybrid vertical surfaces to vorticity, divergence, moisture, and on pressure
+surfaces to temperature. <p>
+<li>	Second-order vertical diffusion (K-closure) operates above the planetary boundary
+layer (PBL) only in conditions of static instability. In the PBL, vertical
+diffusion of momentum, heat, and moisture is proportional to the vertical
+gradients of the wind, specific humidity, and dry static energy, respectively
+(see <a href="#RTFToC28">Planetary Boundary Layer</a>). The vertically variable diffusion
+coefficient depends on stability (bulk Richardson number) as well as the
+vertical shear of the wind, following standard mixing-length theory.</ul><h3>
+<a name="RTFToC21">Gravity-wave Drag
+</a></h3>
+Drag associated with orographic gravity waves is simulated after the method of Palmer et al. (1986)
+<a href="19ecm_fn.html#fn7">[8]</a>, as modified by Miller
+et al. (1989)
+<a href="19ecm_fn.html#fn8">[9]</a>, using directionally dependent
+subgrid-scale orographic variances obtained from the U.S. Navy dataset (cf.
+Joseph 1980)
+<a href="19ecm_fn.html#fn9">[10]</a>. Surface stress due to gravity
+waves excited by stably stratified flow over irregular terrain is calculated
+from linear theory and dimensional considerations. Gravity-wave stress is a
+function of atmospheric density, low-level wind, and the Brunt-Vaisalla
+frequency. The vertical structure of the momentum flux induced by gravity waves
+is calculated from a local wave Richardson number, which describes the onset of
+turbulence due to convective instability and the turbulent breakdown
+approaching a critical level. 
+<h3>
+<a name="RTFToC22">Solar Constant/Cycles
+</a></h3>
+The solar constant is the AMIP-prescribed value of 1365 W/(m^2). Both
+seasonal and diurnal cycles in solar forcing are simulated.
+<h3>
+<a name="RTFToC23">Chemistry</a></h3>
+The carbon dioxide concentration is the AMIP-prescribed value of 345 ppm. The
+ozone profile is determined from total ozone in a column (after data by London
+et al. 1976<a href="19ecm_fn.html#fn10">[11]</a>) and the height of maximum
+concentration (after data by Wilcox and Belmont 1977)
+<a href="19ecm_fn.html#fn11">[12]</a>, and depends on pressure, latitude,
+longitude, and season. Mie radiative parameters of five types of aerosol
+(concentration depending only on height) are provided from WMO-ICSU (1984)
+<a href="19ecm_fn.html#fn12">[13]</a> data. Radiative effects of water vapor, carbon monoxide, methane, nitrous oxide, and oxygen are also included (see <a href="#RTFToC24">Radiation</a>).
+<h3>
+<a name="RTFToC24">Radiation</a></h3>
+<ul>
+<li>	Atmospheric radiation is simulated after the method of Morcrette (1989 
+<a href="19ecm_fn.html#fn13">[14]</a>, 1990 
+<a href="19ecm_fn.html#fn14">[15]</a>,
+1991
+<a href="19ecm_fn.html#fn15">[16]</a>). For clear-sky conditions, shortwave
+radiation is modeled by a two-stream formulation in spectral wavelength
+intervals 0.25-0.68 micron and 0.68-4.0 microns using a photon path
+distribution method to separate the effects of scattering and absorption
+processes. Shortwave absorption by water vapor, ozone, oxygen, carbon monoxide,
+methane, and nitrous oxide is included using line parameters of Rothman et al. (1983)
+<a href="19ecm_fn.html#fn16">[17]</a>. Rayleigh scattering and Mie
+scattering/absorption by five aerosol types are treated by a delta-Eddington
+approximation. <p>
+<li>	The clear-sky longwave scheme employs a broad-band flux emissivity method
+in six spectral intervals from wavenumbers 0 to 2.6 x 10^5 m^-1,
+with continuum absorption by water vapor included from wavenumbers 3.5 x 10^4 to 1.25 x 10^5 m^-1. The temperature/pressure
+dependence of longwave gaseous absorption follows Morcrette et al. (1986)
+<a href="19ecm_fn.html#fn17">[18]</a>. Aerosol absorption is also modeled by an emissivity formulation.
+<p>
+<li>	Shortwave scattering and absorption by cloud droplets is treated by a
+delta-Eddington approximation; radiative parameters include optical thickness,
+single-scattering albedo linked to cloud liquid water path, and prescribed
+asymmetry factor. Cloud types are distinguished by defining shortwave optical thickness as a function of effective droplet radius. Clouds are treated as
+graybodies in the longwave, with emissivity depending on cloud liquid water
+path after Stephens (1978)
+<a href="19ecm_fn.html#fn18">[19]</a>. Longwave
+scattering by cloud droplets is neglected, and droplet absorption is modeled by
+an emissivity formulation from the cloud liquid water path. For purposes of the
+radiation calculations, clouds of different types are assumed to be randomly
+overlapped in the vertical, while convective cloud and nonconvective cloud of
+the same type in adjacent layers are treated as fully overlapped. See also
+<a href="#RTFToC26">Cloud Formation</a>.</ul>
+<h3>
+<a name="RTFToC25">Convection</a></h3>
+The mass-flux convective scheme of Tiedtke (1989)
+<a href="19ecm_fn.html#fn19">[20]</a> accounts for midlevel and penetrative
+convection, and also includes effects of cumulus-scale downdrafts. Shallow
+(stratocumulus) convection is parameterized by means of an extension of the
+model's vertical diffusion scheme (cf. Tiedtke et al. 1988)
+<a href="19ecm_fn.html#fn20">[21]</a>. The closure assumption for
+midlevel/penetrative convection is that large-scale moisture convergence
+determines the bulk cloud mass flux; for shallow convection, the mass flux is
+instead maintained by surface evaporation.
+Entrainment and detrainment of mass in convective plumes occurs both through turbulent exchange and organized inflow and outflow. Momentum transport by convective circulations is also included, following Schneider and Lindzen (1976)
+<a href="19ecm_fn.html#fn21">[22]</a>. 
+<h3>
+<a name="RTFToC26">Cloud Formation
+</a></h3>
+<ul>
+<li>	Cloud formation follows the diagnostic method of Slingo (1987)
+<a href="19ecm_fn.html#fn22">[23]</a>. Clouds are of three types: shallow,
+midlevel, and high convective cloud; cloud associated with fronts/tropical
+disturbances that forms in low, medium, or high vertical layers; and low cloud
+associated with temperature inversions. <p>
+<li>	The height of midlevel/high convective cloud is determined by the level of
+non-buoyancy for moist adiabatic ascent (see <a href="#RTFToC25">Convection</a>), and the cloud
+amount (fractional area 0.2-0.8) from the scaled logarithm of the convective
+precipitation rate. If this convective cloud forms above 400 hPa and the
+fractional area is &gt; 0.4, anvil cirrus cloud also forms. Shallow convective
+cloud amount is determined from the difference between the moisture flux at
+cloud base and cloud top. <p>
+<li>	Frontal cloud is present only when the relative humidity is &gt; 80
+percent, the amount being a quadratic function of this humidity excess. Low
+frontal cloud is absent in regions of grid-scale subsidence, and the amount of
+low and middle frontal cloud is reduced in dry downdrafts around subgrid-scale
+convective clouds. In a temperature inversion, low cloud forms if the relative
+humidity is &gt; 60 percent, the amount depending on this humidity excess and
+the inversion strength. See also <a href="#RTFToC24">Radiation</a> for treatment of
+cloud-radiative interactions.</ul><h3>
+<a name="RTFToC27">Precipitation</a></h3>
+<ul>
+<li>	Freezing/melting processes in convective clouds are not considered.
+Conversion from cloud droplets to raindrops is proportional to the cloud liquid
+water content. No liquid water is stored in a convective cloud, and once
+detrained, it evaporates instantaneously with any portion not moistening the
+environment falling out as subgrid-scale convective precipitation. Evaporation
+of convective precipitation is parameterized (following Kessler 1969)
+<a href="19ecm_fn.html#fn23">[24]</a> as a function of convective rain intensity
+and saturation deficit (difference between saturated specific humidity and that
+of environment). <p>
+<li>	Precipitation also results from gridscale condensation when the local
+specific humidity exceeds the saturated humidity at ambient
+temperature/pressure; the amount of precipitation depends on the new
+equilibrium specific humidity resulting from the accompanying latent heat
+release. Before falling to the surface, gridscale precipitation must saturate
+all layers below the condensation level by evaporation. See also
+<a href="#RTFToC25">Convection</a> and <a href="#RTFToC26">Cloud Formation</a>.</ul><h3>
+<a name="RTFToC28">Planetary Boundary Layer
+</a></h3>
+The PBL is represented typically by the first 5 vertical levels above the
+surface (at about 996, 983, 955, 909, and 846 hPa for a surface pressure of
+1000 hPa, or at approximate elevations of 30 m, 150 m, 400 m, 850 m, and 1450
+m, respectively). The PBL height is diagnostically determined as the greater of
+the height predicted from Ekman theory versus a convective height that depends
+on dry static energy in the vertical.
+<h3>
+<a name="RTFToC29">Orography</a></h3>
+Orography is obtained from a U.S. Navy dataset (cf. Joseph 1980)
+<a href="19ecm_fn.html#fn9">[10]</a> with
+resolution of 10 minutes arc on a latitude/longitude grid. The mean terrain
+heights are then calculated for a T106 Gaussian grid, and the square root of
+the corresponding subgrid-scale orographic variance is added. The resulting
+"envelope orography" (cf. Wallace et al. 1983)
+<a href="19ecm_fn.html#fn24">[25]</a> is smoothed by application of a Gaussian filter with a 50 km radius of influence (cf. Brankovic and Van Maanen 1985)
+<a href="19ecm_fn.html#fn25">[26]</a>. This filtered orography is then spectrally
+fitted and truncated at the T42 resolution of the model. See also
+<a href="#RTFToC21">Gravity-wave Drag</a>. 
+<h3>
+<a name="RTFToC30">Ocean</a></h3>
+AMIP monthly sea surface temperature fields are prescribed, with daily values determined by linear interpolation.
+<h3>
+<a name="RTFToC31">Sea Ice
+</a></h3>
+AMIP monthly sea ice extents are prescribed. The surface temperature of the ice is specified from monthly climatologies. Snow is not allowed to accumulate on sea ice (see <a href="#RTFToC32">Snow Cover</a>).
+<h3>
+<a name="RTFToC32">Snow Cover
+</a></h3>
+Grid-scale precipitation may fall as snow if the temperature of the layer of
+its formation is &lt;0 degrees C. Convective precipitation changes to snow
+only if the surface air temperature is &lt;-3 degrees C, and over land only if
+the ground temperature is &lt;0 degrees C. Snow depth (measured in meters of
+equivalent liquid water) is determined prognostically from a budget equation,
+with accumulation allowed only on land surfaces. The fractional area of snow
+coverage of a grid square is given by the ratio of the snow depth to a critical
+water-equivalent depth (0.015 m), or is set to unity if the snow depth exceeds
+this critical value. Sublimation of snow is calculated as part of the surface
+evaporative flux (see <a href="#RTFToC34">Surface Fluxes</a>). Snow cover also alters the
+surface albedo (see <a href="#RTFToC33">Surface Characteristics</a>) and the heat conductivity
+of the soil (see <a href="#RTFToC35">Land Surface Processes</a>). Melting of snow (which
+contributes to soil moisture) occurs whenever the ground temperature exceeds +2 degrees C. 
+<h3>
+<a name="RTFToC33">Surface Characteristics
+</a></h3>
+<ul>
+<li>	The fractional area of vegetation (undistinguished by type) on each grid
+square is determined from Matthews (1983)
+<a href="19ecm_fn.html#fn26">[27]</a>
+1 x 1-degree data, as modified by Wilson and Henderson-Sellers (1985)
+<a href="19ecm_fn.html#fn27">[28]</a>
+<p>
+<li>	The roughness length is prescribed as 1 x 10^-3 m over sea ice. It
+is computed over open ocean from the variable surface wind stress by the method of Charnock (1955)
+<a href="19ecm_fn.html#fn28">[29]</a>, but is constrained to
+be at least 1.5 x 10^-5 m. Over land, the roughness length is prescribed
+as a blended function of local orographic variance, vegetation, and
+urbanization (cf. Tibaldi and Geleyn 1981 
+<a href="19ecm_fn.html#fn29">[30]</a>, Baumgartner et al. 1977
+<a href="19ecm_fn.html#fn30">[31]</a>, and Brankovic and Van Maanen 1985
+ <a href="19ecm_fn.html#fn25">[26]</a>) that is interpolated to the model grid. The logarithm of local
+roughness length then is smoothed by the same Gaussian filter used for the
+orography (see <a href="#RTFToC29">Orography</a>). <p>
+<li>	Annual means of satellite-observed surface albedo (range 0.07 to 0.80)
+from data of Preuss and Geleyn (1980)
+<a href="19ecm_fn.html#fn31">[32]</a> and
+Geleyn and Preuss (1983)
+<a href="19ecm_fn.html#fn32">[33]</a> are interpolated
+to the model grid and smoothed by the same Gaussian filter as for orography
+(see <a href="#RTFToC29">Orography</a>). Snow cover alters this background albedo: snow albedo (maximum 0.80) varies depending on depth, masking by vegetation, temperature,
+and the presence of ice dew (see <a href="#RTFToC32">Snow Cover</a>). Sea ice albedo is prescribed as 0.55, and ocean albedo as 0.07. Albedos do not depend on solar zenith angle or spectral interval. <p>
+<li>	Longwave emissivity is prescribed as 0.996 on all surfaces. Cf. ECMWF
+Research Department (1991)
+<a href="19ecm_fn.html#fn1">[2]</a> for further details.</ul><h3>
+<a name="RTFToC34">Surface Fluxes
+</a></h3>
+<ul>
+<li>	Surface solar absorption is determined from surface albedo, and longwave emission from the Planck equation with prescribed constant surface emissivity (see <a href="#RTFToC33">Surface Characteristics</a>). <p>
+<li>	Surface eddy fluxes of momentum, heat, and moisture are expressed as bulk formulae, following Monin-Obukhov similarity theory. The near-surface wind,
+temperature, and moisture required for the bulk formulae are taken to be the
+values at the lowest atmospheric level (at about 996 hPa for a surface pressure
+of 1000 hPa). The drag and transfer coefficients are functions of stability
+(bulk Richardson number) and roughness length (see <a href="#RTFToC33">Surface Characteristics</a>), following the method of Louis (1979)
+<a href="19ecm_fn.html#fn33">[34]</a> and Louis et al. (1981)
+<a href="19ecm_fn.html#fn34">[35]</a>, but with modifications by Miller et al. (1992)
+<a href="19ecm_fn.html#fn35">[36]</a> for calm conditions over the
+oceans. The transfer coefficient for moisture is the same as that for heat.<p>
+<li>	The surface specific humidity over the ocean and snow-covered areas is the saturated value for the local surface temperature and pressure; over bare soil it is the product of the local saturated value and the surface relative
+humidity. The moisture flux over vegetation is given by the vertical difference of the specific humidity at the lowest atmospheric level and the saturated value at the surface temperature and pressure, all multiplied by an
+evapotranspiration efficiency factor beta (cf. Budyko 1974)
+<a href="19ecm_fn.html#fn36">[37]</a>. This efficiency is the inverse sum of the aerodynamic resistance (surface drag) and the stomatal resistance, which depends on radiation stress, canopy moisture, and soil moisture stress in the vegetation root zone (cf. Sellers et al. 1986
+<a href="19ecm_fn.html#fn37">[38]</a>, Blondin 1989
+<a href="19ecm_fn.html#fn40">[41]</a>, and Blondin and B&ouml;ttger 1987<a href="19ecm_fn.html#fn38">[39]</a>). See also 
+<a href="#RTFToC35">Land Surface Processes</a>.</ul>
+<h3>
+<a name="RTFToC35">Land Surface Processes
+</a></h3>
+<ul>
+<li>	Soil temperature and moisture are predicted in two layers of thicknesses 0.07 m and 0.42 m that overlie a deep layer (of thickness 0.42 m) in which temperature and moisture are prescribed from monthly climatologies (cf. Blondin and B&ouml;ttger 1987
+<a href="19ecm_fn.html#fn38">[39]</a>, Brankovic and Van Maanen 1985
+<a href="19ecm_fn.html#fn25">[26]</a>, and Mintz and Serafini 1981
+<a href="19ecm_fn.html#fn39">[40]</a>). The upper boundary condition for the soil heat diffusion is the net surface energy balance (see 
+<a href="#RTFToC34">Surface Fluxes</a>). Soil heat capacity and diffusivity are functions of snow cover, and the diffusivity is also a function of vegetation canopy area.
+<p>
+<li>	The vegetation canopy also intercepts a fraction of the total
+precipitation (which is subject to potential evaporation) that would otherwise infiltrate the soil. The infiltrated soil moisture obeys a simple diffusion equation modified by gravitational effects (Darcy's Law), and is also affected by evaporation from the bare soil portion of each grid box as well as
+evapotranspiration by vegetation (see <a href="#RTFToC34">Surface Fluxes</a>). Runoff occurs if the maximum soil moisture capacity of the surface layer (0.02 m) or middle layer (0.12 m) is exceeded; the fraction of infiltrated moisture associated with the surface runoff due to sloping terrain is also simulated using orographic variance data (see 
+<a href="#RTFToC29">Orography</a>).</ul>
+
+
+<p><h4><p><A HREF="19ecm_fn.html"><IMG SRC="gifs/Button_blue.gif">	Go to ECMWF References</a></h4>
+
+<p><h4><p><A HREF="19ecm_ToC.html"><IMG SRC="gifs/Button_blue.gif">	Return to ECMWF Table of Contents</a></h4>
+
+<h4><A HREF="01toc.html"><IMG SRC="gifs/Button_blue.gif">	Return to Main Document Directory</a></h4>
+<P>
+<HR>
+
+Last update April 19, 1996.  For further information, contact: Tom Phillips (<a href="mailto: phillips@tworks.llnl.gov">phillips@tworks.llnl.gov </a>) <P><A HREF="http://www.llnl.gov/disclaimer.html">LLNL Disclaimers</A><p>
+UCRL-ID-116384<p>
+</body>
+<!-- Mirrored from www-pcmdi.llnl.gov/modeldoc/amip1/19ecm.html by HTTrack Website Copier/3.x [XR&CO'2004], Fri, 09 Jul 2004 21:01:48 GMT -->
+
+<!-- Mirrored from www-pcmdi.llnl.gov/projects/modeldoc/amip1/19ecm.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 20 Jun 2016 19:41:02 GMT -->
+</html>

@@ -1,0 +1,594 @@
+---
+layout: AMIP
+---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+
+<!-- Mirrored from www-pcmdi.llnl.gov/modeldoc/amip1/36ukmo.html by HTTrack Website Copier/3.x [XR&CO'2004], Fri, 09 Jul 2004 21:01:46 GMT -->
+
+<!-- Mirrored from www-pcmdi.llnl.gov/projects/modeldoc/amip1/36ukmo.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 20 Jun 2016 20:00:06 GMT -->
+<HEAD>
+   <TITLE>United Kingdom Meteorological Office: Model UKMO HADAM1 (2.5x3.75 L19) 1993</TITLE>
+   <META NAME="GENERATOR" CONTENT="Mozilla/3.01Gold (WinNT; I) [Netscape]">
+</HEAD>
+<BODY BACKGROUND="gifs/bg9.gif">
+
+<H2><A NAME="RTFToC1"></A>United Kingdom Meteorological Office: Model UKMO
+HadAM1 (2.5x3.75 L19) 1993</H2>
+
+<P>
+<HR></P>
+
+<H3><A NAME="RTFToC2"></A>AMIP Representative(s) </H3>
+
+<P>Dr. Vicky Pope, Hadley Centre for Climate Prediction and Research, United
+Kingdom Meteorological Office, London Road, Bracknell, Berkshire RG12 2SY,
+United Kingdom; Phone: +44-1344-854655; Fax: +44-1344-854898; e-mail: vdpope@meto.gov.uk;
+World Wide Web URL: <A HREF="http://www.met-office.gov.uk/">http://www.met-office.gov.uk</A>
+</P>
+
+<H3><A NAME="RTFToC3"></A>Model Designation </H3>
+
+<P>UKMO HadAM1 (2.5x3.75 L19) 1993 </P>
+
+<H3><A NAME="RTFToC4"></A>Model Lineage </H3>
+
+<P>The UKMO HadAM1 model is the first of a line of Unified Models (UM)
+intended to provide a common framework for forecasting and climate applications
+(cf. Cullen 1993<A HREF="36ukmo_fn.html#fn0"> [1]</A>). The dynamical formulations
+are those described by Bell and Dickinson (1987) <A HREF="36ukmo_fn.html#fn12">[13]</A>;
+the physical parameterizations are substantially modified from those of
+an earlier UKMO model documented by Slingo (1985)<A HREF="36ukmo_fn.html#fn1">
+[2]</A>. </P>
+
+<H3><A NAME="RTFToC5"></A>Model Documentation </H3>
+
+<P>Cullen (1993) <A HREF="36ukmo_fn.html#fn0">[1]</A> gives an overview
+of the UKMO Unified Model. Key documentation of different model features
+is provided by Cullen (1991)<A HREF="36ukmo_fn.html#fn2"> [3]</A>, Cullen
+et al. (1991)<A HREF="36ukmo_fn.html#fn3"> [4]</A>, Ingram (1993)<A HREF="36ukmo_fn.html#fn4">
+[5]</A>, Gregory (1990)<A HREF="36ukmo_fn.html#fn5"> [6]</A>, Gregory and
+Smith (1990)<A HREF="36ukmo_fn.html#fn6"> [7]</A>, Smith (1990a<A HREF="36ukmo_fn.html#fn26">
+[27]</A> , b<A HREF="36ukmo_fn.html#fn15"> [16]</A>), Smith(1993)<A HREF="36ukmo_fn.html#fn7">
+[8]</A>, Smith and Gregory (1990)<A HREF="36ukmo_fn.html#fn8"> [9]</A>,
+Wilson (1989)<A HREF="36ukmo_fn.html#fn9"> [10]</A>, and Wilson and Swinbank
+(1989)<A HREF="36ukmo_fn.html#fn10"> [11]</A>. </P>
+
+<H2><A NAME="RTFToC6"></A>Numerical/Computational Properties </H2>
+
+<H3><A NAME="RTFToC7"></A>Horizontal Representation </H3>
+
+<P>Fourth-order finite differences on a B-grid (cf. Arakawa and Lamb 1977<A HREF="36ukmo_fn.html#fn11">
+[12]</A>, Bell and Dickinson 1987<A HREF="36ukmo_fn.html#fn12"> [13]</A>)
+in spherical polar coordinates. Mass-weighted linear quantities are conserved,
+and second moments of advected quantities are conserved under nondivergent
+flow. </P>
+
+<H3><A NAME="RTFToC8"></A>Horizontal Resolution </H3>
+
+<P>2.5 x 3.75-degree latitude-longitude grid. </P>
+
+<H3><A NAME="RTFToC9"></A>Vertical Domain </H3>
+
+<P>Surface to about 5 hPa; for a surface pressure of 1000 hPa, the lowest
+atmospheric level is at about 997 hPa. </P>
+
+<H3><A NAME="RTFToC10"></A>Vertical Representation </H3>
+
+<P>Finite differences in hybrid sigma-pressure coordinates after Simmons
+and Str&uuml;fing (1981)<A HREF="36ukmo_fn.html#fn13"> [14]</A>. Mass and
+mass-weighted potential temperature and moisture are conserved. See also
+<A HREF="36ukmo.html#RTFToC7">Horizontal Representation</A>. </P>
+
+<H3><A NAME="RTFToC11"></A>Vertical Resolution </H3>
+
+<P>There are 19 unevenly spaced hybrid levels. For a surface pressure of
+1000 hPa, 4 levels are below 800 hPa and 7 levels are above 200 hPa. </P>
+
+<H3><A NAME="RTFToC12"></A>Computer/Operating System </H3>
+
+<P>The AMIP simulation was run on a Cray Y/MP computer using two processors
+in a UNICOS environment. </P>
+
+<H3><A NAME="RTFToC13"></A>Computational Performance </H3>
+
+<P>For the AMIP experiment, about 4.7 minutes Cray Y/MP computation time
+per simulated day (about half this time being associated with output postprocessing).
+</P>
+
+<H3><A NAME="RTFToC14"></A>Initialization</H3>
+
+<P>For the AMIP experiment, the model atmosphere, soil moisture, and snow
+cover/depth were initialized for 1 December 1978 from a previous model
+simulation. Snow mass for areas of permanent land ice was initially set
+to 5 x 10^4 kg/(m^2). The model was then integrated forward to the nominal
+AMIP start date of 1 January 1979. </P>
+
+<H3><A NAME="RTFToC15"></A>Time Integration Scheme(s) </H3>
+
+<P>Time integration proceeds mainly by a split-explicit scheme, where the
+solution procedure is split into &quot;adjustment&quot; and &quot;advection&quot;
+phases. In the adjustment phase, a forward-backward scheme that is second-order
+accurate in space and time is applied. The pressure, temperature, and wind
+fields are updated using the pressure gradient, the main part of the Coriolis
+terms, and the vertical advection of potential temperature. In the advective
+phase, a two-step Heun scheme is applied. A time step of 30 minutes (including
+a 10-minute adjustment step) is used for integration of dynamics and physics,
+except for full calculation of shortwave/longwave radiation once every
+3 hours. In addition, an implicit scheme is used to compute turbulent vertical
+fluxes of momentum, heat, and moisture in the planetary boundary layer
+(PBL). Cf. Cullen et al. (1991) <A HREF="36ukmo_fn.html#fn3">[4]</A>for
+further details. See also <A HREF="36ukmo.html#RTFToC20">Diffusion</A>,
+<A HREF="36ukmo.html#RTFToC28">Planetary Boundary Layer</A>, and <A HREF="36ukmo.html#RTFToC34">Surface
+Fluxes</A>. </P>
+
+<H3><A NAME="RTFToC16"></A>Smoothing/Filling</H3>
+
+<P>To prevent numerical instability, the orography is smoothed in high
+latitudes (see <A HREF="36ukmo.html#RTFToC29">Orography</A>), and Fourier
+filtering is applied to mass-weighted velocity and to increments of potential
+temperature and total moisture. Negative values of atmospheric moisture
+are removed by summing the mass-weighted positive values in each horizontal
+layer, and rescaling them to ensure global moisture conservation after
+the negative values are reset to zero. </P>
+
+<H3><A NAME="RTFToC17"></A>Sampling Frequency </H3>
+
+<P>For the AMIP simulation, the model history is written once every 6 hours.
+(All average quantities in the AMIP monthly-mean standard output data are
+computed from samples taken at every 30-minute time step.) </P>
+
+<H2><A NAME="RTFToC18"></A>Dynamical/Physical Properties </H2>
+
+<H3><A NAME="RTFToC19"></A>Atmospheric Dynamics </H3>
+
+<P>Primitive-equation dynamics, formulated to ensure approximate energy
+conservation, are expressed in terms of u and v winds, liquid/ice water
+potential temperature, total water, and surface pressure (cf. White and
+Bromley 1988<A HREF="36ukmo_fn.html#fn14"> [15]</A>). </P>
+
+<H3><A NAME="RTFToC20"></A>Diffusion</H3>
+
+<UL>
+<LI>Linear conservative horizontal diffusion is applied at fourth-order
+(del^4) to moisture, and at sixth-order (del^6) to winds and to liquid
+water potential temperature (cf. Cullen et al. 1991<A HREF="36ukmo_fn.html#fn3">[4]</A>).<BR>
+</LI>
+
+<LI>Stability-dependent, second-order vertical diffusion of momentum and
+of conserved cloud thermodynamic and water content variables (to include
+the effects of cloud-water phase changes on turbulent mixing), operates
+only in the PBL. The diffusion coefficients are functions of the vertical
+wind shear (following mixing-length theory), as well as surface roughness
+length and a bulk Richardson number that includes buoyancy parameters for
+the cloud-conserved quantities (cf. Smith 1990b<A HREF="36ukmo_fn.html#fn15">
+[16]</A>). See also <A HREF="36ukmo.html#RTFToC26">Cloud Formation</A>,
+<A HREF="36ukmo.html#RTFToC28">Planetary Boundary Layer</A>, and <A HREF="36ukmo.html#RTFToC34">Surface
+Fluxes</A>.</LI>
+</UL>
+
+<H3><A NAME="RTFToC21"></A>Gravity-wave Drag </H3>
+
+<P>The parameterization of orographic gravity-wave drag follows a modified
+Palmer et al. (1986)<A HREF="36ukmo_fn.html#fn16"> [17]</A> scheme, as
+described by Wilson and Swinbank (1989) <A HREF="36ukmo_fn.html#fn10">[11]</A>.
+The drag is given by the vertical divergence of the wave stress. Near the
+surface, the stress is equal to the product of a representative mountain
+wave number, the square of the wave amplitude (taken to be the subgrid-scale
+orographic variance--see <A HREF="36ukmo.html#RTFToC29">Orography</A>),
+and the density, wind, and Brunt-Vaisalla frequency evaluated in near-surface
+layers. At higher levels, the stress is given by this surface value weighted
+by the projection of the local wind on the surface wind. If this projection
+goes to zero, the stress is also zero; otherwise, if the minimum Richardson
+number falls below 0.25, the gravity wave is assumed to break. Above this
+critical level, the wave is maintained at marginal stability, and a corresponding
+saturation amplitude is used to compute the stress. </P>
+
+<H3><A NAME="RTFToC22"></A>Solar Constant/Cycles </H3>
+
+<P>The solar constant is the AMIP-prescribed value of 1365 W/(m^2). Both
+seasonal and diurnal cycles in solar forcing are simulated. The seasonal
+cycle of solar insolation is based on a 360-day year (each month 30 days
+in length), with the date of perihelion adjusted to minimize discrepancies
+(cf. Ingram 1993<A HREF="36ukmo_fn.html#fn4">[5]</A>). </P>
+
+<H3><A NAME="RTFToC23"></A>Chemistry</H3>
+
+<P>The carbon dioxide concentration is the AMIP-prescribed value of 345
+ppm. Zonally averaged monthly ozone profiles are specified from the climatology
+of Keating et al. (1987)<A HREF="36ukmo_fn.html#fn17"> [18]</A> above hybrid
+level 0.0225 (see <A HREF="36ukmo.html#RTFToC10">Vertical Representation</A>),
+and from satellite data of McPeters et al. (1984)<A HREF="36ukmo_fn.html#fn18">
+[19]</A> below this level. Radiative effects of water vapor and clouds,
+but not those of aerosol, are also included (see <A HREF="36ukmo.html#RTFToC24">Radiation</A>).
+</P>
+
+<H3><A NAME="RTFToC24"></A>Radiation</H3>
+
+<UL>
+<LI>The radiation schemes are as described by Ingram (1993))<A HREF="36ukmo_fn.html#fn4">[5]</A>.
+Incoming insolation is based on a 360-day year (see <A HREF="36ukmo.html#RTFToC22">Solar
+Constant/Cycles</A>). Shortwave computations follow Slingo (1985))<A HREF="36ukmo_fn.html#fn1">
+[2]</A>, extended to include 4 spectral intervals (with boundaries at 0.25,
+0.69, 1.19, 2.38, and 4.0 microns) and the interactive cloud optical properties
+of Slingo (1989)<A HREF="36ukmo_fn.html#fn19"> [20]</A>. Rayleigh scattering
+is represented by reflection of 3 percent of the incoming insolation before
+any interaction with the atmosphere. Shortwave absorption (by ozone, carbon
+dioxide, and water vapor) is treated by use of look-up tables. The effects
+of pressure broadening on carbon dioxide and water vapor absorption bands
+are included; the overlap of these bands is assumed to be random within
+each spectral interval. <BR>
+</LI>
+
+<LI>Calculation of longwave fluxes follows the method of Slingo and Wilderspin
+(1986)<A HREF="36ukmo_fn.html#fn20"> [21]</A>. Absorption by water vapor,
+carbon dioxide, and ozone is treated in 6 spectral bands (with boundaries
+at 0.0, 4.0x10^4, 5.6x10^4, 8.0x10^4, 9.0x10^4, 1.1x10^5, and 1.2x10^5
+m^-1), using exponentials for the water vapor continuum and look-up tables
+otherwise. The temperature dependence of e-type absorption in the water
+vapor continuum is after Roberts et al. (1976)<A HREF="36ukmo_fn.html#fn21">
+[22]</A>. Pathlengths of gaseous absorbers are scaled to account for pressure-broadening
+effects(and for carbon dioxide, also for temperature-broadening effects).
+<BR>
+</LI>
+
+<LI>The convective cloud in each grid box is confined to a single tower
+(with full vertical overlap). All absorption of shortwave radiation by
+the convective cloud occurs in its top layer, with the remainder of the
+beam passing unimpeded through lower layers. In each vertical column, the
+shortwave radiation interacts only with 3 stratiform clouds defined by
+vertical domain: low (levels 1 to 5), middle (levels 6 to 9), and high
+(levels 10 to 18), all randomly overlapped. The cloud with the greatest
+area in each domain interacts with the shortwave radiation, and it is assigned
+the cloud water content of all the layer clouds in the domain. (Neither
+the shortwave nor longwave scheme allows cloud in the top layer, however.)
+In the longwave, similar to the formulation of Geleyn and Hollingsworth
+(1979)<A HREF="36ukmo_fn.html#fn22"> [23]</A>, clouds in different layers
+are treated as fully overlapped if there is cloud in all intervening layers,
+while clouds separated by cloud-free layers are treated as randomly overlapped.
+<BR>
+</LI>
+
+<LI>Sunlight reflected from a cloud is assumed to pass directly to space
+without further cloud interactions, but with full gaseous absorption; the
+surface albedo (see <A HREF="36ukmo.html#RTFToC33">Surface Characteristics</A>)
+is adjusted to account for the increased absorption due to multiple reflections
+between clouds and the surface. Cloud shortwave optical properties (optical
+depth, single-scattering albedo, and asymmetry factor) are calculated from
+the cloud water path (CWP), the effective radius of the drop-size distribution
+(7 microns for water and 30 microns for ice), and the sun angle, following
+the Practical Improved Flux Method of Zdunkowski et al. (1980)<A HREF="36ukmo_fn.html#fn23">
+[24]</A>. Cloud longwave emissivity is a negative exponential function
+of CWP, with absorption coefficient 65 m^2/kg for ice clouds and 130 m^2/kg
+for water clouds. See also <A HREF="36ukmo.html#RTFToC26">Cloud Formation</A>
+and <A HREF="36ukmo.html#RTFToC27">Precipitation</A>.</LI>
+</UL>
+
+<H3><A NAME="RTFToC25"></A>Convection</H3>
+
+<UL>
+<LI>Moist and dry convection are both simulated by the mass-flux scheme
+of Gregory and Rowntree (1990))<A HREF="36ukmo_fn.html#fn25"> [26]</A>that
+is based on the bulk cloud model of Yanai et al. (1973)<A HREF="36ukmo_fn.html#fn24">
+[25]</A>. Convection is initiated if a parcel in vertical layer k has a
+minimum excess buoyancy beta that is retained in the next higher level
+k + 1 when entrainment effects and latent heating are included. The convective
+mass flux at cloud base is taken as proportional to the excess buoyancy;
+the mass flux increases in the vertical for a buoyant parcel, which entrains
+environmental air and detrains cloud air as it rises. Both updrafts and
+downdrafts are represented, the latter by an inverted entraining plume
+with initial mass flux related to that of the updraft, and with detrainment
+occurring over the lowest 100 hPa of the model atmosphere.<BR>
+</LI>
+
+<LI>When the parcel is no longer buoyant after being lifted from layer
+m to layer m + 1, it is assumed that a portion of the convective plumes
+has detrained in layer m so that the parcel in layer m + 1 has minimum
+buoyancy b. Ascent continues until a layer n is reached at which an undiluted
+(without entrainment) parcel originating from the lowest convectively active
+layer k would have zero buoyancy, or until the convective mass flux falls
+below a minimum value. Cf. Gregory (1990)<A HREF="36ukmo_fn.html#fn5">
+[6]</A> and Gregory and Rowntree (1990)<A HREF="36ukmo_fn.html#fn25"> [26]</A>
+for further details.</LI>
+</UL>
+
+<H3><A NAME="RTFToC26"></A>Cloud Formation </H3>
+
+<UL>
+<LI>The convection scheme (see <A HREF="36ukmo.html#RTFToC25">Convection</A>)
+determines the vertical extent of subgrid-scale convective cloud, which
+is treated as a single tower in each grid box. The convective cloud base
+is taken as the lower boundary of the first model layer at which saturation
+occurs, and the cloud top as the upper boundary of the last buoyant layer.
+The fractional coverage of each vertical column by convective cloud is
+a logarithmic function of the mass of liquid water condensed per unit area
+between cloud bottom and top (cf. Gregory 1990<A HREF="36ukmo_fn.html#fn5">[6]</A>).<BR>
+</LI>
+
+<LI>Large-scale (stratiform) cloud is prognostically determined in a similar
+fashion to that of Smith (1990a)<A HREF="36ukmo_fn.html#fn26"> [27]</A>.
+Cloud amount and water content are calculated from the total moisture (vapor
+plus cloud water/ice) and the liquid/frozen water temperature, which are
+conserved during changes of state of cloud water (i.e., cloud condensation
+is reversible). In each grid box, these cloud-conserved quantities are
+assumed to vary (because of unresolved atmospheric fluctuations) according
+to a top-hat statistical distribution, with specified standard deviation.
+The mean local cloud fraction is given by the part of the grid box where
+the total moisture exceeds the saturation specific humidity (defined over
+ice if the local temperature is &lt; 273.15 K, and over liquid water otherwise).
+See also <A HREF="36ukmo.html#RTFToC24">Radiation</A> for treatment of
+cloud-radiative interactions.</LI>
+</UL>
+
+<H3><A NAME="RTFToC27"></A>Precipitation</H3>
+
+<UL>
+<LI>Large-scale precipitation forms in association with stratiform cloud
+(see <A HREF="36ukmo.html#RTFToC26">Cloud Formation</A>). For purposes
+of precipitation formation and the radiation calculations (see <A HREF="36ukmo.html#RTFToC24">Radiation</A>),
+the condensate is assumed to be liquid above 0 degrees C, and to be ice
+below -15 degrees C, with a liquid/ice fraction obtained by quadratic-spline
+interpolation for intermediate temperatures. The rate of conversion of
+cloud water into liquid precipitation is a nonlinear function of the large-scale
+cloud fraction and the cloud-mean liquid water content, following Sundqvist
+(1978<A HREF="36ukmo_fn.html#fn27"> [28]</A>, 1981<A HREF="36ukmo_fn.html#fn28">
+[29]</A>) and Golding (1986)<A HREF="36ukmo_fn.html#fn29"> [30]</A>. The
+precipitation of ice is a nonlinear function of the cloud-mean ice content,
+as deduced by Heymsfield (1977)<A HREF="36ukmo_fn.html#fn30"> [31]</A>.
+Liquid and frozen precipitation also form in subgrid-scale convection (see
+<A HREF="36ukmo.html#RTFToC25">Convection</A>). <BR>
+</LI>
+
+<LI>Evaporation/sublimation of falling liquid/frozen precipitation are
+modeled after Kessler (1969)<A HREF="36ukmo_fn.html#fn31"> [32]</A> and
+Lin et al. (1983)<A HREF="36ukmo_fn.html#fn32"> [33]</A>. Frozen precipitation
+that falls to the surface defines the snowfall rate (see <A HREF="36ukmo.html#RTFToC32">Snow
+Cover</A>). For purposes of land hydrology, surface precipitation is assumed
+to be exponentially distributed over each land grid box, with fractional
+coverage of 0.5 for large-scale precipitation and 0.1 for convective precipitation.
+Cf. Smith and Gregory (1990)<A HREF="36ukmo_fn.html#fn8">[9]</A> and Dolman
+and Gregory (1992)<A HREF="36ukmo_fn.html#fn33">[34]</A> for further details.</LI>
+</UL>
+
+<H3><A NAME="RTFToC28"></A>Planetary Boundary Layer </H3>
+
+<P>Conditions within the PBL are typically represented by the first 5 levels
+above the surface (centered at about 997, 975, 930, 869, and 787 hPa for
+a surface pressure of 1000 hPa), where turbulent diffusion of momentum
+and cloud-conserved thermodynamic and moisture variables may occur (see
+<A HREF="36ukmo.html#RTFToC26">Cloud Formation</A> and <A HREF="36ukmo.html#RTFToC20">Diffusion</A>).
+The PBL top is defined either by the highest of these layers, or by the
+layer in which a modified bulk Richardson number (that incorporates buoyancy
+parameters for the cloud-conserved variables) exceeds a critical value
+of unity. Nonlocal mixing terms are included for heat and moisture. See
+also <A HREF="36ukmo.html#RTFToC33">Surface Characteristics</A>, <A HREF="36ukmo.html#RTFToC34">Surface
+Fluxes</A>, and <A HREF="36ukmo.html#RTFToC35">Land Surface Processes</A>.
+</P>
+
+<H3><A NAME="RTFToC29"></A>Orography</H3>
+
+<P>Orography obtained from the U.S. Navy 10-minute resolution dataset (cf.
+Joseph 1980<A HREF="36ukmo_fn.html#fn34"> [35]</A>) is grid-box averaged,
+and is further smoothed with a 1-2-1 filter at latitudes poleward of 60
+degrees. The orographic variances required by the gravity-wave drag parameterization
+are obtained from the same dataset (see <A HREF="36ukmo.html#RTFToC21">Gravity-wave
+Drag</A>). </P>
+
+<H3><A NAME="RTFToC30"></A>Ocean</H3>
+
+<P>AMIP monthly sea surface temperature fields are prescribed, with daily
+values determined by linear interpolation. </P>
+
+<H3><A NAME="RTFToC31"></A>Sea Ice </H3>
+
+<P>AMIP monthly sea ice extents are prescribed. The ice may occupy only
+a fraction of a grid box, and the effects of the remaining ice leads are
+accounted for in the surface roughness length, shortwave albedo and longwave
+emission, and turbulent eddy fluxes (see <A HREF="36ukmo.html#RTFToC33">Surface
+Characteristics</A> and <A HREF="36ukmo.html#RTFToC34">Surface Fluxes</A>).
+The spatially variable sea ice thickness is prescribed from climatological
+data. Snow falling on sea ice affects the surface albedo (see <A HREF="36ukmo.html#RTFToC33">Surface
+Characteristics</A>), but not the ice thickness or thermodynamic properties.
+Ice temperature is prognostically determined from a surface energy balance
+(see <A HREF="36ukmo.html#RTFToC34">Surface Fluxes</A>) that includes a
+conduction heat flux from the ocean below. Following Semtner (1976)<A HREF="36ukmo_fn.html#fn35">
+[36]</A>, the conduction flux is proportional to the difference between
+the surface temperature of the ice and the subsurface ocean temperature
+(assumed to be fixed at the melting temperature of sea ice, or -1.8 degrees
+C), and the conduction flux is inversely proportional to the prescribed
+ice thickness. </P>
+
+<H3><A NAME="RTFToC32"></A>Snow Cover </H3>
+
+<P>Surface snowfall is determined from the rate of frozen large-scale and
+convective precipitation in the lowest vertical layer. (Snowfall, like
+surface rainfall, is assumed to be distributed exponentially over each
+land grid box--see <A HREF="36ukmo.html#RTFToC27">Precipitation</A>.) On
+land only, prognostic snow mass is determined from a budget equation that
+accounts for accumulation, melting, and sublimation. Snow cover affects
+the roughness and heat conduction of the land surface, and it also alters
+the albedo of both land and sea ice (see <A HREF="36ukmo.html#RTFToC33">Surface
+Characteristics</A>). Snow melts when the temperature of the top soil/snow
+layer is &gt; 0 degrees C, the snowmelt being limited by the total heat
+content of this layer. Snowmelt augments soil moisture, and sublimation
+of snow contributes to the surface evaporative flux over land. See also
+<A HREF="36ukmo.html#RTFToC34">Surface Fluxes</A> and <A HREF="36ukmo.html#RTFToC35">Land
+Surface Processes</A>. </P>
+
+<H3><A NAME="RTFToC33"></A>Surface Characteristics </H3>
+
+<UL>
+<LI>Surface types include land, ocean, sea ice, and permanent land ice.
+Sea ice may occupy a fraction of a grid box (see <A HREF="36ukmo.html#RTFToC31">Sea
+Ice</A>). On land, 15 different soil/vegetation types are specified from
+the 1 x 1-degree data of Wilson and Henderson-Sellers (1985)<A HREF="36ukmo_fn.html#fn36">
+[37]</A>. The effects of these surface types on surface albedo (see below)
+and on surface thermodynamics and moisture (see <A HREF="36ukmo.html#RTFToC35">Land
+Surface Processes</A>) are treated via parameters derived by Buckley and
+Warrilow (1988)<A HREF="36ukmo_fn.html#fn37"> [38]</A>. <BR>
+</LI>
+
+<LI>On each surface, roughness lengths are specified for momentum, for
+heat and moisture, and for free convective turbulence (which applies in
+cases of very light surface winds under unstable conditions). Over oceans,
+the roughness length for momentum is a function of surface wind stress
+(cf. Charnock 1955<A HREF="36ukmo_fn.html#fn38"> [39]</A>), but is constrained
+to be at least 10^-4 m; the roughness length for heat and moisture is a
+constant 10^-4 m, and it is 1.3 x 10^-3 m for free convective turbulence.
+Over sea ice, the roughness length is a constant 3 x 10^-3 m, but it is
+0.10 m for that fraction of the grid box with ice leads (see <A HREF="36ukmo.html#RTFToC31">Sea
+Ice</A>). Over land, the roughness length is a function of vegetation and
+small surface irregularities; it is decreased as a linear function of snow
+cover, but is at least 5 x 10^-4 m. Cf. Smith (1990b)<A HREF="36ukmo_fn.html#fn15">
+[16]</A>for further details.<BR>
+</LI>
+
+<LI>The surface albedo of open ocean is a function of solar zenith angle.
+The albedo of sea ice varies between 0.60 and 0.85 as a linear function
+of the ice temperature above -5 degrees C, and it is also modified by snow
+cover. Where there is partial coverage of a grid box by sea ice, the surface
+albedo is given by the fractionally weighted albedos of sea ice and open
+ocean. Surface albedos of snow-free land are specified according to climatological
+vegetation and land use. Snow cover modifies the albedo of the land surface
+depending (exponentially) on the depth (following Hansen et al. 1983<A HREF="36ukmo_fn.html#fn39">
+[40]</A>) and (linearly) on the snow temperature above -2 degrees C (following
+Warrilow et al. 1990<A HREF="36ukmo_fn.html#fn40"> [41]</A>), as well as
+on the background vegetation (following Buckley and Warrilow 1988<A HREF="36ukmo_fn.html#fn37">
+[38]</A>). Cf. Ingram (1993)<A HREF="36ukmo_fn.html#fn4">[5]</A> for further
+details.<BR>
+</LI>
+
+<LI>Longwave emissivity is unity (blackbody emission) for all surfaces.
+Thermal emission from grid boxes with partial coverage by sea ice (see
+<A HREF="36ukmo.html#RTFToC31">Sea Ice</A>) is calculated from the different
+surface temperatures of ice and the open-ocean leads, weighted by the fractional
+coverage of each.</LI>
+</UL>
+
+<H3><A NAME="RTFToC34"></A>Surface Fluxes </H3>
+
+<UL>
+<LI>Surface solar absorption is determined from the surface albedos, and
+longwave emission from the Planck equation with constant emissivity of
+1.0 (see <A HREF="36ukmo.html#RTFToC33">Surface Characteristics</A>).<BR>
+</LI>
+
+<LI>Turbulent eddy fluxes are formulated as bulk formulae in a constant-flux
+surface layer, following Monin-Obukhov similarity theory. The momentum
+flux is expressed in terms of a surface stress, and the heat and moisture
+fluxes in terms of cloud-conserved quantities (liquid/frozen water temperature
+and total water content) to account for effects of phase changes on turbulent
+exchanges (see <A HREF="36ukmo.html#RTFToC26">Cloud Formation</A>). These
+surface fluxes are solved by an implicit numerical method. <BR>
+</LI>
+
+<LI>The surface atmospheric variables required for the bulk formulae are
+taken to be at the first level above the surface (at 997 hPa for a 1000
+hPa surface pressure). (For diagnostic purposes, temperature and humidity
+at 1.5 m and the wind at 10 m are also estimated from the constant-flux
+assumption.) Following Louis (1979)<A HREF="36ukmo_fn.html#fn41"> [42]</A>,
+the drag/transfer coefficients in the bulk formulae are functions of stability
+(expressed as a bulk Richardson number) and roughness length, and the same
+transfer coefficient is used for heat and moisture. In grid boxes with
+fractional sea ice, surface fluxes are computed separately for the ice
+and lead fractions, but using mean drag and transfer coefficients obtained
+from linearly weighting the coefficients for ice and lead fractions (see
+<A HREF="36ukmo.html#RTFToC31">Sea Ice</A>). <BR>
+</LI>
+
+<LI>The surface moisture flux also is a fraction beta of the local potential
+evaporation for a saturated surface. Over oceans, snow and ice, and where
+there is dew formation over land, beta is set to unity; otherwise, beta
+is a function of soil moisture and vegetation (see <A HREF="36ukmo.html#RTFToC35">Land
+Surface Processes</A>). <BR>
+</LI>
+
+<LI>Above the surface layer, momentum and cloud-conserved variables are
+mixed vertically within the PBL by stability-dependent diffusion. For unstable
+conditions, cloud-conserved temperature and water variables are transported
+by a combination of nonlocal and local mixing. Cf. Smith (1990b<A HREF="36ukmo_fn.html#fn15">[16]</A>,
+1993<A HREF="36ukmo_fn.html#fn7"> [8]</A>) for further details. See also
+<A HREF="36ukmo.html#RTFToC20">Diffusion</A> and <A HREF="36ukmo.html#RTFToC28">Planetary
+Boundary Layer</A>.</LI>
+</UL>
+
+<H3><A NAME="RTFToC35"></A>Land Surface Processes </H3>
+
+<UL>
+<LI>A vegetation canopy model (cf. Warrilow et al. 1986<A HREF="36ukmo_fn.html#fn42">
+[43]</A> and Shuttleworth 1988<A HREF="36ukmo_fn.html#fn43"> [44]</A>)
+includes effects of moisture condensation, precipitation interception,
+direct evaporation from wet leaves and from surface ponding, and evapotranspiration
+via root uptake of soil moisture. The fractional coverage and water-storage
+capacity of the canopy vary spatially by vegetation type (see <A HREF="36ukmo.html#RTFToC33">Surface
+Characteristics</A>), with a small storage added to represent surface ponding.
+The canopy intercepts a portion of the precipitation, which is exponentially
+distributed over each grid box (see <A HREF="36ukmo.html#RTFToC27">Precipitation</A>).
+Throughfall of canopy condensate and intercepted precipitation occurs in
+proportion to the degree of fullness of the canopy; evaporation from the
+wet canopy occurs in the same proportion, as a fraction of the local potential
+evaporation. Cf. Gregory and Smith (1990)<A HREF="36ukmo_fn.html#fn6">[7]</A>
+for further details.<BR>
+</LI>
+
+<LI>Soil moisture is predicted from a single-layer model with spatially
+nonuniform water-holding capacity; it is augmented by snowmelt, precipitation,
+and the throughfall of canopy condensate. This moisture infiltrates the
+soil at a rate depending on saturated soil hydraulic conductivity enhanced
+by effects of root systems that vary spatially by vegetation type (see
+<A HREF="36ukmo.html#RTFToC33">Surface Characteristics</A>). The noninfiltrated
+moisture is treated as surface runoff. Subsurface runoff from gravitational
+drainage is also parameterized as a function of spatially varying saturated
+soil hydraulic conductivity and of the ratio of soil moisture to its saturated
+value (cf. Eagleson 1978<A HREF="36ukmo_fn.html#fn44"> [45]</A>). Soil
+moisture is depleted by evaporation at a fraction beta of the local potential
+rate (see <A HREF="36ukmo.html#RTFToC34">Surface Fluxes</A>). The value
+of beta depends on the ratio of soil moisture to a spatially varying critical
+value, and on the ratio of the stomatal resistance to aerodynamic resistance
+(cf. Monteith 1965<A HREF="36ukmo_fn.html#fn45"> [46]</A>). The critical
+soil moisture and stomatal resistance vary spatially by soil/vegetation
+type (see <A HREF="36ukmo.html#RTFToC33">Surface Characteristics</A>).
+Cf. Gregory and Smith (1990)<A HREF="36ukmo_fn.html#fn6"> [7]</A> and Smith
+(1990b)<A HREF="36ukmo_fn.html#fn15"> [16]</A> for further details.<BR>
+</LI>
+
+<LI>Soil temperature is predicted after Warrilow et al. (1986)<A HREF="36ukmo_fn.html#fn40">
+[41]</A> from heat conduction in four layers. The depth of the topmost
+soil layer is given by the penetration of the diurnal wave, which depends
+on the spatially varying soil heat conductivity/capacity (see <A HREF="36ukmo.html#RTFToC33">Surface
+Characteristics</A>). The lower soil layers are, respectively, about 3.9,
+14.1, and 44.7 times the depth of this top layer. The top boundary condition
+for heat conduction is the net downward surface energy balance (see <A HREF="36ukmo.html#RTFToC34">Surface
+Fluxes</A>), including the latent heat of fusion for snowmelt (see <A HREF="36ukmo.html#RTFToC32">Snow
+Cover</A>); the bottom boundary condition is zero heat flux. Heat insulation
+by snow (see <A HREF="36ukmo.html#RTFToC32">Snow Cover</A>) is modeled
+by reducing the thermal conductivity between the top two soil layers; however,
+subsurface moisture does not affect the thermodynamic properties of the
+soil. Cf. Smith (1990b)<A HREF="36ukmo_fn.html#fn15">[16]</A> for further
+details.</LI>
+</UL>
+
+<H4><A HREF="36ukmo_fn.html"><IMG SRC="gifs/Button_blue.gif" HEIGHT=25 WIDTH=25></A><A HREF="36ukmo_fn.html">
+Go to Model References</A></H4>
+
+<P><A HREF="36ukmo_ToC.html"><IMG SRC="gifs/Button_blue.gif" HEIGHT=25 WIDTH=25></A><A HREF="36ukmo_ToC.html">
+<B>Return to Model Table of Contents</B></A></P>
+
+<H4><A HREF="01toc.html"><IMG SRC="gifs/Button_blue.gif" HEIGHT=25 WIDTH=25></A><A HREF="01toc.html">
+Return to Main Document Directory</A></H4>
+
+<P>
+<HR>Last update May 27, 1998. For further information, contact: Tom Phillips
+(<A HREF="mailto: phillips@tworks.llnl.gov"> phillips@tworks.llnl.gov</A>)
+</P>
+
+<P><A HREF="http://www.llnl.gov/disclaimer.html">LLNL Disclaimers</A></P>
+
+<P>UCRL-ID-116384</P>
+
+</BODY>
+
+<!-- Mirrored from www-pcmdi.llnl.gov/modeldoc/amip1/36ukmo.html by HTTrack Website Copier/3.x [XR&CO'2004], Fri, 09 Jul 2004 21:01:46 GMT -->
+
+<!-- Mirrored from www-pcmdi.llnl.gov/projects/modeldoc/amip1/36ukmo.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 20 Jun 2016 20:00:06 GMT -->
+</HTML>

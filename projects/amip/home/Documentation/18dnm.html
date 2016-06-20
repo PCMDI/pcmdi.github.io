@@ -1,0 +1,281 @@
+---
+layout: AMIP
+---
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN//2.0">
+<HTML>
+<!-- Mirrored from www-pcmdi.llnl.gov/modeldoc/amip1/18dnm.html by HTTrack Website Copier/3.x [XR&CO'2004], Fri, 09 Jul 2004 21:04:18 GMT -->
+
+<!-- Mirrored from www-pcmdi.llnl.gov/projects/modeldoc/amip1/18dnm.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 20 Jun 2016 20:11:32 GMT -->
+<HEAD>
+<TITLE>Department of Numerical Mathematics (of the Russian Academy of Sciences): Model DNM A5407.V1 (4x5 L7) 1991</TITLE></HEAD>
+<BODY BACKGROUND="gifs/bg9.gif">
+<BODY>
+<h2>Department of Numerical Mathematics (of the Russian Academy of Sciences): Model DNM A5407.V1 (4x5 L7) 1991</a></h2><hr><h3><a name="RTFToC2">AMIP
+Representative(s)
+</a></h3>
+Dr. V. Galin, Department of Numerical Mathematics, Russian Academy of Sciences, Leninsky Prospect, 32 A, Moscow 117334, Russia; Phone: +7-095-938-1808; Fax: +7-095-938-1808; e-mail: galin@inm.ras.ru
+<h3>
+<a name="RTFToC3">Model Designation
+</a></h3>
+DNM A5407.V1 (4x5 L7) 1991
+<h3>
+<a name="RTFToC4">Model Lineage
+</a></h3>
+The DNM model was initially developed in the early 1980s by G. I. Marchuk and collaborators (cf. Marchuk et al. 1984)
+<a href="18dnm_fn.html#fn0">[1]</a>.
+<h3>
+<a name="RTFToC5">Model Documentation
+</a></h3>
+Key documentation of the DNM model is provided by Marchuk et al. (1984)
+<a href="18dnm_fn.html#fn0">[1]</a>. The radiation scheme is described by
+Feigelson (1984)
+<a href="18dnm_fn.html#fn1">[2]</a>, Podolskaya and Rivin (1988)
+<a href="18dnm_fn.html#fn2">[3]</a>, and Galin (1984)
+<a href="18dnm_fn.html#fn3">[4]</a>. The treatment of turbulent fluxes in the planetary boundary layer (PBL) follows Lykossov (1990)
+<a href="18dnm_fn.html#fn4">[5]</a> and Kazakov and Lykossov (1982)
+<a href="18dnm_fn.html#fn5">[6]</a>.
+<h2>
+<a name="RTFToC6">Numerical/Computational Properties
+</a></h2>
+<h3>
+<a name="RTFToC7">Horizontal Representation
+</a></h3>
+Second-order finite differences on a shifted C-grid (cf. Arakawa and Lamb 1977)
+<a href="18dnm_fn.html#fn6">[7]</a> with conservation of total atmospheric mass, energy, and potential enstrophy.
+<h3>
+<a name="RTFToC8">Horizontal Resolution
+</a></h3>
+4 x 5-degree latitude-longitude grid.
+<h3>
+<a name="RTFToC9">Vertical Domain
+</a></h3>
+Surface to about 71 hPa. For a surface pressure of 1000 hPa, the lowest
+atmospheric level is at about 929 hPa.
+<h3>
+<a name="RTFToC10">Vertical Representation
+</a></h3>
+Finite differences in sigma coordinates. 
+<h3>
+<a name="RTFToC11">Vertical Resolution
+</a></h3>
+There are 7 regularly spaced sigma levels. For a surface pressure of 1000 hPa,
+one level is below 800 hPa and one level is above 200 hPa.
+<h3>
+<a name="RTFToC12">Computer/Operating System
+</a></h3>
+The AMIP simulation was run on a Cray 2 computer using a single processor in a
+UNICOS environment.
+<h3>
+<a name="RTFToC13">Computational Performance
+</a></h3>
+For the AMIP experiment, about 3 minutes Cray 2 computation time per simulated
+day.
+<h3>
+<a name="RTFToC14">Initialization</a></h3>
+For the AMIP simulation, initial conditions of the model atmosphere, soil
+moisture, and snow cover/depth for 1 January 1979 are determined from a
+simulation of October through December 1978, starting from arbitrary initial
+conditions, but with the ocean surface temperatures and sea ice extents
+prescribed to be the same as the AMIP boundary conditions for January 1979.
+<h3>
+<a name="RTFToC15">Time Integration Scheme(s)
+</a></h3>
+Time integration is by the Matsuno scheme, with time steps of 6 minutes for
+dynamics, 3 hours for radiation, and 1 hour for all other model physics.
+<h3>
+<a name="RTFToC16">Smoothing/Filling</a></h3>
+Orography is smoothed (see 
+<a href="18dnm.html#RTFToC29">Orography</a>). Atmospheric temperature, specific humidity, and u-v winds are filtered at latitudes poleward of 50 degrees.
+Negative values of atmospheric specific humidity are filled, with conservation
+of the mass of water vapor in the vertical column. 
+<h3>
+<a name="RTFToC17">Sampling Frequency
+</a></h3>
+For the AMIP simulation, the model history is written every 6 hours.
+<h2>
+<a name="RTFToC18">Dynamical/Physical Properties
+</a></h2>
+<h3>
+<a name="RTFToC19">Atmospheric Dynamics
+</a></h3>
+Primitive-equation dynamics are expressed in terms of u-v winds, temperature,
+specific humidity, surface pressure, and vertical motion. 
+<h3>
+<a name="RTFToC20">Diffusion</a></h3>
+<ul>
+<li>	Second-order nonlinear horizontal diffusion after Marchuk et al. (1984)
+<a href="18dnm_fn.html#fn0">[1]</a> is applied to the winds, temperature, and specific humidity on sigma surfaces.<p>
+<li>	Vertical diffusion includes use of a turbulent kinetic energy equation and
+non-gradient transport of momentum, heat, and moisture after the method of Lykossov (1990)
+<a href="18dnm_fn.html#fn4">[5]</a> in the PBL (see 
+<a href="18dnm.html#RTFToC28">Planetary Boundary Layer</a>). Vertical diffusion is not applied above the PBL. </ul><h3>
+<a name="RTFToC21">Gravity-wave Drag
+</a></h3>
+Gravity-wave drag is not modeled.
+<h3>
+<a name="RTFToC22">Solar Constant/Cycles
+</a></h3>
+The solar constant is the AMIP-prescribed value of 1365 W/(m^2). Both seasonal
+and diurnal cycles in solar forcing are simulated.
+<h3>
+<a name="RTFToC23">Chemistry</a></h3>
+The carbon dioxide concentration is the AMIP-prescribed value of 345 ppm.
+Zonally averaged total column ozone concentration is specified from the data of Koprova and Uranova (1978)
+<a href="18dnm_fn.html#fn7">[8]</a>, with the zonal
+vertical profile computed as in Lacis and Hansen (1974)
+<a href="18dnm_fn.html#fn8">[9]</a>. Radiative effects of water vapor are also included, but not the effects of aerosols (see 
+<a href="18dnm.html#RTFToC24">Radiation</a>).
+<h3>
+<a name="RTFToC24">Radiation</a></h3>
+<ul>
+<li>	Shortwave radiation is computed after Manabe and Strickler (1964)
+<a href="18dnm_fn.html#fn9">[10]</a> and Lacis and Hansen (1974)
+<a href="18dnm_fn.html#fn8">[9]</a> in two spectral bands--an ultraviolet/visible (UVV) band from 0.2 to 0.9 micron, and a near
+infrared (NIR) band from 0.9 to 4.0 microns. In the UVV, shortwave radiation is absorbed by ozone, but not by water vapor. Rayleigh scattering and multiple
+cloud reflection effects also are taken into account following Lacis and Hansen
+(1974)
+<a href="18dnm_fn.html#fn8">[9]</a>. In the NIR, the radiation is absorbed by water vapor and clouds, but the radiative effects of aerosols are not included; the direct-beam flux and the flux reflected by clouds and by the Earth's surface are distinguished. NIR scattering by water vapor and cloud droplets is not treated.
+<p>
+<li>	Longwave radiation is computed by the method of Feigelson (1984)
+<a href="18dnm_fn.html#fn1">[2]</a>. The integral transmission functions (including pressure-broadening effects) of carbon dioxide and water vapor are after Podolskaya and Rivin (1988)
+<a href="18dnm_fn.html#fn2">[3]</a>, but the radiative effects of the water vapor continuum are not taken into account. The longwave transmission function of ozone is calculated by the method of Raschke (1973)
+<a href="18dnm_fn.html#fn10">[11]</a>. The longwave optical properties of
+clouds are obtained from Rodgers (1967)
+<a href="18dnm_fn.html#fn11">[12]</a>. Longwave emissivity of high cloud is prescribed as 0.5, but middle and low clouds are treated as blackbodies (emissivity of 1.0). For purposes of the radiation calculations, clouds are assumed to be randomly overlapped in the vertical. See also 
+<a href="18dnm.html#RTFToC26">Cloud Formation</a>.</ul>
+<h3>
+<a name="RTFToC25">Convection</a></h3>
+<ul>
+<li>	Penetrative convection is simulated after the method of Kuo (1974)
+<a href="18dnm_fn.html#fn12">[13]</a>, and is assumed to occur only in the presence of conditionally unstable layers in the vertical and large-scale net
+moisture convergence in the horizontal. The associated convective cloud formed at the lifting condensation level is assumed to dissolve instantaneously through lateral mixing, thereby imparting heat and moisture to the environment. In a vertical column the total moisture available from convergence is divided between a fraction b that moistens the environment and the remainder (1 - b) that contributes to the latent heating (rainfall) rate. The parameter b is determined after Anthes (1977)
+<a href="18dnm_fn.html#fn13">[14]</a> as a cubic function of the ratio of the mean relative humidity of the cloud layer to a prescribed critical relative humidity threshold value; if the cloud relative humidity is less than the threshold, b is set to 1 (no heating of the environment).
+<p>
+<li>	Shallow convection is simulated inasmuch as a moist convective adjustment is carried out in the PBL only (see 
+<a href="18dnm.html#RTFToC28">Planetary Boundary Layer</a>).</ul><h3>
+<a name="RTFToC26">Cloud Formation
+</a></h3>
+A subgrid-scale convective cloud fraction is not explicitly calculated. The
+gridscale cloud fraction is based on the relative humidity diagnostic of
+Smagorinsky (1960)
+<a href="18dnm_fn.html#fn14">[15]</a> with a threshold
+humidity of 100 percent required for condensation. These clouds form at three levels (low, middle and high cloud), and are taken to be half the thickness of a sigma layer. Eight fractional cases are distinguished in each grid box: a clear-sky fraction; fractions covered only by high, middle, and low cloud, respectively; fractions covered by high and middle cloud, by high and low cloud, and by middle and low cloud; and a fraction that is covered by cloud at all levels (cf. Galin 1984
+<a href="18dnm_fn.html#fn3">[4]</a> for further details). See also 
+<a href="18dnm.html#RTFToC24">Radiation</a> for
+cloud-radiative interactions.
+<h3>
+<a name="RTFToC27">Precipitation</a></h3>
+Grid-scale precipitation is equal to the amount of condensation necessary to
+return a supersaturated layer to 100 percent relative humidity. There is no
+subsequent evaporation of falling precipitation. Convective precipitation is
+determined from the specification of the Kuo moistening parameter b (see
+<a href="18dnm.html#RTFToC25">Convection</a>).
+<h3>
+<a name="RTFToC28">Planetary Boundary Layer
+</a></h3>
+<ul>
+<li>	The top of the PBL is assumed to be at the height of the lowest
+atmospheric vertical level (at sigma = 0.929). The PBL is treated physically as
+two sublayers: a lower constant-flux sublayer, and an upper mixed transitional sublayer. In the lower sublayer, with top at height h = 70 m, the turbulent momentum, heat, and moisture fluxes are calculated following Monin-Obukhov similarity theory (see 
+<a href="18dnm.html#RTFToC34">Surface Fluxes</a>). The wind at height h is taken to be the same as that at the PBL top. The temperature at height h is determined from a continuity equation for the equivalent potential temperature flux. The specific humidity at height h is given by the product of saturated specific humidity at this temperature, and of the relative humidity, which is computed from the arithmetic mean of the inverse values at the PBL top and at the surface.
+<p>
+<li>	In the upper sublayer, the wind speed is constant, but the turning of the
+wind vector with height depends on latitude and surface type. In this upper
+sublayer there is also nongradient diffusion of heat, moisture, and momentum.
+See also <a href="18dnm.html#RTFToC20">Diffusion</a>, <a href="18dnm.html#RTFToC34">Surface Fluxes</a>, and <a href="18dnm.html#RTFToC35">Land Surface Processes</a>.
+</ul><h3>
+<a name="RTFToC29">Orography</a></h3>
+The 1 x 1-degree topographic height data of Gates and Nelson (1975)
+<a href="18dnm_fn.html#fn15">[16]</a> are smoothed by averaging over each 4 x 5-degree grid box. Then a 9-point filter is applied to further smooth data from surrounding grid cells. Finally, a Fourier filter is applied poleward of 50 degrees latitude to eliminate high-frequency orographic variance.
+<h3>
+<a name="RTFToC30">Ocean</a></h3>
+AMIP monthly sea surface temperatures are prescribed, with daily values
+determined by linear interpolation.
+<h3>
+<a name="RTFToC31">Sea Ice
+</a></h3>
+Monthly AMIP sea ice extents are prescribed, and the ice depth is taken to be a
+uniform 2 m. Snow is allowed to accumulate on sea ice (see <a href="18dnm.html#RTFToC32">Snow Cover</a>). The top surface temperature of the ice is predicted from the balance
+of surface energy fluxes (see <a href="18dnm.html#RTFToC34">Surface Fluxes</a>) including conduction heating from below. The conduction is a function of the temperature gradient across the ice, with the bottom surface temperature fixed at -2 degrees C for other surface types. 
+<h3>
+<a name="RTFToC32">Snow Cover
+</a></h3>
+Precipitation falls as snow if the surface air temperature is &lt; 0 degrees C.
+The snow depth is determined prognostically on land, continental ice, and sea
+ice from the moisture budget equation. Snow, which covers the whole of a grid box (i.e., no fractional coverage), affects the surface albedo (see
+ <a href="18dnm.html#RTFToC33">Surface Characteristics</a>). New snow also decreases the heat conductivity of bare soil up to 33 percent, but with no further decrease occurring as snow accumulates (see
+ <a href="18dnm.html#RTFToC35">Land Surface Processes</a>). Sublimation of snow is calculated as part of the surface evaporative flux (see <a href="18dnm.html#RTFToC34">Surface Fluxes</a>). Melting of snow, which contributes to soil moisture, occurs whenever the surface air temperature is &gt; 0 degrees C.
+<h3>
+<a name="RTFToC33">Surface Characteristics
+</a></h3>
+<ul>
+<li>	The surface roughness length is assumed to be different for momentum than for the heat and moisture fluxes (see 
+<a href="18dnm.html#RTFToC34">Surface Fluxes</a>). The momentum
+roughness length over the ocean is a function of the surface stress given by
+the Charnock (1955) 
+<a href="18dnm_fn.html#fn16">[17]</a> relation, with coefficient 0.14. Over ice surfaces, the roughness is prescribed to be a uniform 0.01 m. Over land, the roughness length is a spatially variable function of orography (see 
+<a href="18dnm.html#RTFToC29">Orography</a>). The roughness lengths for surface heat and moisture fluxes are the same, and are equated to the momentum roughness length weighted by a function of the Reynolds number. Observed data reviewed by Garratt (1977)
+<a href="18dnm_fn.html#fn17">[18]</a> are used to specify this function (cf. Kazakov and Lykossov 1982
+<a href="18dnm_fn.html#fn5">[6]</a> for details).
+<p>
+<li>	Surface albedos are prescribed as 0.1 over oceans, 0.6 over ice, 0.2 over
+bare soil. For snow-covered areas (see 
+<a href="18dnm.html#RTFToC32">Snow Cover</a>), the albedo is a
+linear function of water-equivalent snow depth, with values ranging between 0.2 and 0.6. These albedos are not a function of solar zenith angle or spectral
+interval.
+<p>
+<li>	Longwave emissivity is prescribed as unity (i.e., blackbody emission) fo 
+all surfaces.</ul><h3>
+<a name="RTFToC34">Surface Fluxes
+</a></h3>
+<ul>
+<li>	Surface solar absorption is determined from specified constant albedos,
+and longwave emission from the Planck equation with prescribed constant
+emissivity of 1.0 (see 
+<a href="18dnm.html#RTFToC33">Surface Characteristics</a>).
+<p>
+<li>	Surface turbulent eddy fluxes of momentum, heat, and moisture are
+simulated by a bulk aerodynamic approximation, with drag and transfer
+coefficients calculated following Monin-Obukhov similarity theory. Empirical
+functions of Businger et al. (1971)
+<a href="18dnm_fn.html#fn18">[19]</a> are matched with a -1/3 power-law dependence for strong instability (cf. Kazakov and Lykossov 1982)
+<a href="18dnm_fn.html#fn5">[6]</a>; these are used as universal functions of roughness length and of thermal stability to define the vertical profiles of wind, temperature, and humidity in the constant-flux surface layer (see <a href="18dnm.html#RTFToC28">Planetary Boundary Layer</a>). When the wind speed at the top of the surface layer (at height h = 70 m) &gt; 15 m/s, the ocean surface heat and moisture fluxes are augmented by the evaporation of sea spray, which is modeled after Borisenkov and Kuznetsov (1978)
+<a href="18dnm_fn.html#fn19">[20]</a>, based on observations of
+Monahan (1968)<a href="18dnm_fn.html#fn20">[21]</a>. Cf. Kazakov and Lykossov (1980)
+<a href="18dnm_fn.html#fn21">[22]</a> for further details.
+<p>
+<li>	The surface moisture flux depends on the near-surface wind speed and on the specific humidity difference between the top and bottom of the surface
+layer, which is a function of surface relative humidity (see <a href="18dnm.html#RTFToC28">Planetary Boundary Layer</a>). Over oceans, sea ice, and snow the surface relative humidity is prescribed as 100 percent, while over land it is a function of the soil moisture (see <a href="18dnm.html#RTFToC35">Land Surface Processes</a>).</ul><h3>
+<a name="RTFToC35">Land Surface Processes
+</a></h3>
+<ul>
+<li>	Soil temperature is computed from a surface energy balance with heat
+storage in a 1-meter layer, and with deep soil temperature at 1 meter
+prescribed from data of Legates (1987)
+<a href="18dnm_fn.html#fn22">[23]</a>. 
+<p>
+<li>	Soil moisture is predicted by a single-layer "bucket" model with uniform 0.15 m field capacity after the method of Budyko (1956)
+<a href="18dnm_fn.html#fn23">[24]</a>, but with deep soil moisture also prescribed from monthly estimates of Mintz and Serafini (1981)
+<a href="18dnm_fn.html#fn24">[25]</a>. The surface relative humidity is a function of the ratio of soil moisture to field capacity (see <a href="18dnm.html#RTFToC34">Surface Fluxes</a>).
+Runoff occurs implicitly if this ratio exceeds unity. </ul>
+
+<p>
+<h4><p><A HREF="18dnm_fn.html"><IMG SRC="gifs/Button_blue.gif">	Go to DNM References</a></h4>
+
+<p>
+<h4><p><A HREF="18dnm_ToC.html"><IMG SRC="gifs/Button_blue.gif">
+	Return to Model Table of Contents</a></h4>
+
+<h4><A HREF="01toc.html"><IMG SRC="gifs/Button_blue.gif">	Return to Main Document Directory</a></h4>
+
+<P>
+<HR>
+
+Last update May 28, 1996.  For further information, contact: Tom Phillips (<a href="mailto: phillips@tworks.llnl.gov">phillips@tworks.llnl.gov </a>)<P>
+<A HREF="http://www.llnl.gov/disclaimer.html">LLNL Disclaimers</A><p>
+UCRL-ID-116384<p>
+</body>
+<!-- Mirrored from www-pcmdi.llnl.gov/modeldoc/amip1/18dnm.html by HTTrack Website Copier/3.x [XR&CO'2004], Fri, 09 Jul 2004 21:04:18 GMT -->
+
+<!-- Mirrored from www-pcmdi.llnl.gov/projects/modeldoc/amip1/18dnm.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 20 Jun 2016 20:11:32 GMT -->
+</html>

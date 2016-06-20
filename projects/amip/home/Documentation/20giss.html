@@ -1,0 +1,398 @@
+---
+layout: AMIP
+---
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN//2.0">
+<HTML>
+<!-- Mirrored from www-pcmdi.llnl.gov/modeldoc/amip1/20giss.html by HTTrack Website Copier/3.x [XR&CO'2004], Fri, 09 Jul 2004 21:01:46 GMT -->
+
+<!-- Mirrored from www-pcmdi.llnl.gov/projects/modeldoc/amip1/20giss.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 20 Jun 2016 19:41:02 GMT -->
+<HEAD><TITLE>Goddard Institute for Space Studies: Model GISS Model II Prime (4x5 L9) 1994</TITLE>
+</HEAD>
+<BODY BACKGROUND="gifs/bg9.gif">
+<BODY>
+
+<h2><a name="RTFToC1">Goddard Institute for Space Studies: Model GISS Model II Prime (4x5 L9) 1994</a></h2><hr><h3><a name="RTFToC2">AMIP Representative(s)</a></h3>Dr. K. Kenneth Lo, NASA Goddard Institute for Space Studies, 2880 Broadway, New York, New York 10025; Phone: +1-212-678-5609; Fax: +1-212-678-5552; e-mail: cdkkl@nasagiss.giss.nasa.gov; World Wide Web URL: <a href="http://www.giss.nasa.gov/"/>http://www.giss.nasa.gov/</a>.
+<h3>
+<a name="RTFToC3">Model
+Designation
+</a></h3>
+GISS Model II Prime (4x 5 L9) 1994
+<h3>
+<a name="RTFToC4">Model
+Lineage
+</a></h3>
+The GISS model used for the AMIP experiment is a modified version of Model II that is described by Hansen et al. (1983)
+<a href="20giss_fn.html#fn0">[1]</a>.
+The current model differs from this predecessor principally in numerics and in the treatment of convection, planetary boundary layer (PBL), large-scale clouds, and ground hydrology.
+<h3>
+<a name="RTFToC5">Model
+Documentation
+</a></h3>
+Basic documentation of the model is provided by Hansen et al. (1983)
+<a href="20giss_fn.html#fn0">[1]</a>, with subsequent changes to the convective scheme described by Del Genio and Yao (1988)
+<a href="20giss_fn.html#fn1">[2]</a>, and Yao and Del Genio (1989)
+<a href="20giss_fn.html#fn2">[3]</a>. Early versions of the current large-scale cloud parameterization and ground hydrology scheme are described, respectively, by Del Genio et al. (1993)
+<a href="20giss_fn.html#fn3">[4]</a> and by Abramopoulos et al. (1988)
+<a href="20giss_fn.html#fn4">[5]</a>.
+<h2>
+<a name="RTFToC6">Numerical/Computational Properties
+</a></h2>
+<h3>
+<a name="RTFToC7">Horizontal Representation
+</a></h3>
+Atmospheric mass and zonal and meridional velocity components are represented on a B-grid (cf. Arakawa 1972)
+<a href="20giss_fn.html#fn5">[6]</a>, which conserves mass, kinetic energy (but not angular momentum) under advection, and enstrophy in the nondivergent limit. The prognostic variable for mass (see <a href="20giss.html#RTFToC19">Atmospheric Dynamics</a>) represents a mean value over a grid box. For heat and moisture
+prognostics, however, the linear gradients and second-order moments in three dimensions, and the three cross-term second-order moments are included in addition to the mean quantity for each grid box. (Potential enthalpy and water vapor are advected via a stable and accurate quadratic upstream scheme that utilizes these first- and second-order moments.)
+<h3>
+<a name="RTFToC8">Horizontal Resolution
+</a></h3>
+4 x 5-degree latitude-longitude grid.
+<h3>
+<a name="RTFToC9">Vertical Domain
+</a></h3>
+Surface to 10 hPa. For a surface pressure of 1000 hPa, the first vertical level above the surface is at about 975 hPa.
+<h3>
+<a name="RTFToC10">Vertical Representation
+</a></h3>
+Finite-difference sigma coordinates up to 10 hPa, the model top for dynamics.
+Above 10 hPa the atmosphere interacts only radiatively with lower levels (i.e., its temperature profile here is determined solely by radiation).
+<h3>
+<a name="RTFToC11">Vertical Resolution
+</a></h3>
+There are 9 unevenly spaced sigma levels (see <a href="20giss.html#RTFToC10">Vertical Representation</a>).
+For a surface pressure of 1000 hPa, 2 levels are below 800 hPa and 2 levels are
+above 200 hPa.
+<h3>
+<a name="RTFToC12">Computer/Operating System
+</a></h3>
+The AMIP simulation was run on an IBM PowerStation 580 computer, using
+RISC/6000 processors in a UNIX environment.
+<h3>
+<a name="RTFToC13">Computational Performance
+</a></h3>
+For the AMIP experiment, about 10 minutes of IBM Powerstation 580 computer time
+per simulated day.
+<h3>
+<a name="RTFToC14">Initialization</a></h3>
+For the AMIP experiment, the model atmospheric state, soil moisture, and snow cover/depth are initialized for 1 January 1979 from a previous model simulation of December. 
+<h3>
+<a name="RTFToC15">Time Integration Scheme(s)
+</a></h3>
+Time integration is by a leapfrog scheme that is initiated each hour with an
+Euler-backward step. The dynamical time step is 7.5 minutes, while the physical source terms (except radiation) are updated hourly. (The hourly update of the PBL source term employs 4 successive 15-minute time steps.) Full radiation calculations are performed once every 5 hours.
+<h3>
+<a name="RTFToC16">Smoothing/Filling</a></h3>
+The raw orography data is area-averaged (see <a href="20giss.html#RTFToC29">Orography</a>). An eighth-order Shapiro (1970)
+<a href="20giss_fn.html#fn6">[7]</a> filter is used to smooth the surface pressure. Because the quadratic upstream scheme (see <a href="20giss.html#RTFToC7">Horizontal Representation</a>) does not guarantee positive-definite atmospheric moisture, the first- and second-order moments of water vapor mixing ratios are minimally reduced, if necessary, at each advective step to maintain non-negative values.
+<h3>
+<a name="RTFToC17">Sampling Frequency
+</a></h3>
+For the AMIP simulation, daily averages of selected variables are saved as
+model history. 
+<h2>
+<a name="RTFToC18">Dynamical/Physical Properties
+</a></h2>
+<h3>
+<a name="RTFToC19">Atmospheric Dynamics
+</a></h3>
+Primitive-equation dynamics are expressed in terms of wind velocity, potential temperature, water-vapor mixing ratio, geopotential, pressure, and atmospheric mass (or PS-PT, where PS is the surface pressure and PT is a constant 10 hPa at the dynamical top--see <a href="20giss.html#RTFToC10">Vertical Representation</a>). 
+<h3>
+<a name="RTFToC20">Diffusion</a></h3>
+Neither horizontal nor vertical diffusion is explicitly modeled. However, there is horizontal transport of momentum associated with the convective mass flux (see <a href="20giss.html#RTFToC25">Convection</a>), and the quadratic upstream advective scheme (see
+<a href="20giss.html#RTFToC7">Horizontal Representation</a>) is weakly diffusive as well.
+<h3>
+<a name="RTFToC21">Gravity-wave
+Drag
+</a></h3>
+A momentum drag proportional to air density and the square of the velocity is
+introduced in the top layer of the model (cf. Hansen et al. 1983)
+<a href="20giss_fn.html#fn0">[1]</a>.
+<h3>
+<a name="RTFToC22">Solar
+Constant/Cycles
+</a></h3>
+The solar constant is the AMIP-prescribed value of 1365 W/(m^2). Both seasonal and diurnal cycles in solar forcing are simulated.
+<h3>
+<a name="RTFToC23">Chemistry</a></h3>
+The concentration of carbon dioxide is the AMIP-prescribed value of 345 ppm.
+Ozone concentrations are prescribed as a function of season, height, and
+geographic location, with column abundances obtained from the climatology of London et al. (1976)
+<a href="20giss_fn.html#fn7">[8]</a>. Radiative effects of
+water vapor, and of methane, nitrous oxide, nitric oxide, oxygen, and aerosols
+also are included (see <a href="20giss.html#RTFToC24">Radiation</a>).
+<h3>
+<a name="RTFToC24">Radiation</a></h3>
+<ul>
+<li>	A correlated k-distribution method that is a generalization of the
+approach of Lacis and Hansen (1974)
+<a href="20giss_fn.html#fn8">[9]</a> is used
+for both shortwave and longwave radiative calculations. The k-distribution for
+a given gas and frequency interval is obtained by least-squares fitting to
+calculations of line-by-line absorption for a range of temperatures and
+pressures by McClatchey et al. (1973)
+<a href="20giss_fn.html#fn9">[10]</a> and
+Rothman (1981)
+<a href="20giss_fn.html#fn10">[11]</a>.<p>
+<li>	The shortwave radiative fluxes are calculated after Lacis and Hansen
+(1974)
+<a href="20giss_fn.html#fn8">[9]</a>, but with modifications to obtain accurate results at all solar zenith
+angles and optical thicknesses. Gaseous absorbers include water vapor, carbon
+dioxide, ozone, oxygen, nitrous oxide, and nitric oxide. Multiple scattering
+computations are made of 12 k-profiles, with strong line (exponential)
+absorption of the direct solar beam computed separately for water vapor, carbon
+dioxide, and oxygen. Absorption and scattering by aerosols are also included
+using radiative properties obtained from Mie calculations for the global
+aerosol climatology of Toon and Pollack (1976)
+<a href="20giss_fn.html#fn11">[12]</a>. The spectral dependence of Mie parameters
+for clouds, aerosols, and Rayleigh scattering is specified in 6 intervals;
+these are superimposed on the 12 k-profiles to account for overlapping
+absorption.<p>
+<li>	In the longwave, the k-distribution method is used to model absorption by
+water vapor, carbon dioxide, ozone, nitrous oxide, nitric oxide, and methane
+(but with scattering effects neglected). A single k-distribution is specified
+for each gas, with 11 k-intervals for water vapor, 10 for carbon dioxide, and 4
+for ozone. <p>
+<li>	Shortwave optical thickness of large-scale cloud is based on the
+prognostic cloud water path (see <a href="20giss.html#RTFToC26">Cloud Formation</a>). The required droplet
+effective radius is diagnosed from the cloud water content by assuming constant
+number concentration with different values for land/ocean cloud and liquid/ice
+cloud (cf. Del Genio et al. 1993)
+<a href="20giss_fn.html#fn3">[4]</a>. The shortwave optical thickness of a
+convective cloud is proportional to its pressure depth. Cloud particle phase
+function and single-scattering albedo are functions of spectral interval, based
+on Mie computations for cloud droplet data of Squires (1958)
+<a href="20giss_fn.html#fn12">[13]</a> and Hansen and Pollack (1970)
+<a href="20giss_fn.html#fn13">[14]</a>. For purposes of the radiation
+calculations, partial cloud cover of a grid box is represented as full cloud
+cover that occurs for a percentage of the time (implemented via a random number generator--cf. Hansen et al. 1983)
+<a href="20giss_fn.html#fn0">[1]</a>. Longwave effects of clouds are treated by
+an emissivity formulation, where the longwave cloud properties are
+self-consistent with the shortwave properties as a result of the application of
+Mie theory.</ul><h3>
+<a name="RTFToC25">Convection</a></h3>
+<ul>
+<li>	Convection is initiated only when the grid box is convectively unstable in
+the mean. Dry convection can occur below the condensation level if the moist
+static energy of a parcel exceeds that of the layer above. Moist convection is
+triggered if the moist static energy of a parcel exceeds the saturation energy
+value in the layer above and if, in addition, the implied lifting produces
+saturation; this level defines the cloud base. The convective cloud top is
+defined as the upper boundary of the highest vertical layer for which the cloud
+parcel is buoyant.<p>
+<li>	The amount of convective mass flux is obtained from a closure assumption
+that the cloud base is restored to neutral buoyancy relative to the next higher
+layer. The mass of the rising convective plume is changed by the entrainment of
+drier environmental air, with associated decreases in buoyancy. The entrainment
+rate is prescribed for an ensemble of two convective cloud types (entraining
+and non-entraining). Heating/cooling of the environment occurs through
+compensating environmental subsidence, detrainment of cloud air at cloud top, a
+convective-scale downdraft whose mass flux detrains into the cloud base layer,
+and evaporation of falling condensate (see <a href="20giss.html#RTFToC27">Precipitation</a>). (Latent heat
+release serves only to maintain cloud buoyancy.) The convective plume and
+subsiding environmental air transport gridscale horizontal momentum, under the
+assumption that exchanged air parcels carry with them the momentum of the layer
+of origin. Cf. Del Genio and Yao (1988)
+<a href="20giss_fn.html#fn1">[2]</a> and Yao and Del Genio (1989)
+<a href="20giss_fn.html#fn2">[3]</a> for
+further details.</ul><h3>
+<a name="RTFToC26">Cloud
+Formation
+</a></h3>
+<ul><li>	Clouds result from either large-scale or convective condensation (see
+<a href="20giss.html#RTFToC25">Convection</a>). Condensation of cloud droplets is assumed to occur with
+respect to the saturated vapor pressure of water if the local temperature is
+&gt;-35 degrees C, and with respect to the mixed-phase pseudo-adiabatic
+process of Sassen and Dodd (1989)
+<a href="20giss_fn.html#fn14">[15]</a> at
+lower temperatures. Liquid droplets form if the cloud temperature is &gt;-4
+degrees C (-10 degrees C) over ocean (land), and ice forms at temperatures &lt;-40 degrees C. At intermediate temperatures either phase may exist, with
+increasing probability of ice as temperature decreases.<p>
+<li>	The local convective cloud fraction is given by the ratio of convective
+mass flux to the total atmospheric mass of the grid box (see <a href="20giss.html#RTFToC25">Convection</a> and <a href="20giss.html#RTFToC19">Atmospheric Dynamics</a>). Large-scale clouds are predicted from a
+prognostic cloud water budget equation, where fractional cloudiness is an
+increasing function of relative humidity above a 60-percent threshold.
+(Upper-tropospheric convective condensate is also detrained into large-scale
+anvil cloud.) Cloud top entrainment instability is accounted for using a
+restrictive instability criterion. Cf. Del Genio et al. (1993)
+<a href="20giss_fn.html#fn3">[4]</a> for further
+details. See also <a href="20giss.html#RTFToC24">Radiation</a> for treatment of cloud-radiative
+interactions.</ul><h3>
+<a name="RTFToC27">Precipitation</a></h3>
+<ul>
+<li>	Precipitation can result either from large-scale or convective
+condensation (see <a href="20giss.html#RTFToC26">Cloud Formation</a> and <a href="20giss.html#RTFToC25">Convection</a>); the amount of
+condensate is computed from an iterative solution of the Clausius-Clapeyron
+equation. For large-scale condensation, the prognostic cloud water is converted
+to rainwater by autoconversion and accretion, and into snow by a seeder-feeder
+parameterization. <p>
+<li>	Evaporation of both the large-scale and convective condensate is modeled,
+with the residual falling to the surface as rain or snow (see <a href="20giss.html#RTFToC32">Snow Cover</a>). Evaporation of large-scale precipitation occurs in all unsaturated
+layers below its origin. The fraction of convective condensate that evaporates
+below cloud base is equated to the ratio of the convective mass flux to the
+total air mass of the grid box, while the fraction that evaporates above the
+cloud base is taken as half this value.</ul><h3>
+<a name="RTFToC28">Planetary
+Boundary Layer
+</a></h3>
+The PBL top is defined as the height of dry convection (see <a href="20giss.html#RTFToC25">Convection</a>).
+The surface wind velocity is determined using parameterizations of a drag law
+for the surface layer and a spiral layer above. Similarity theory is applied to
+calculate the turbulent transport coefficients for the spiral layer and to
+specify instability functions that determine the surface drag coefficient. The
+surface atmospheric temperature and water-vapor mixing ratio are obtained by
+equating surface fluxes computed by the bulk aerodynamic method to a diffusive
+flux from the surface layer into the layer above; the latter flux depends on a
+stability-dependent vertical diffusion coefficient and the depth of the PBL.
+See also <a href="20giss.html#RTFToC34">Surface Fluxes</a>. 
+<h3>
+<a name="RTFToC29">Orography</a></h3>
+Orography is specified by area-averaging the 5-minute resolution topographic
+height data of National Geophysical Data Center (1988)
+<a href="20giss_fn.html#fn15">[16]</a> on the 4 x 5-degree model grid (see
+<a href="20giss.html#RTFToC8">Horizontal Resolution</a>). 
+<h3>
+<a name="RTFToC30">Ocean</a></h3>
+AMIP monthly sea surface temperatures are prescribed, with daily values
+determined by linear interpolation.
+<h3>
+<a name="RTFToC31">Sea Ice
+</a></h3>
+AMIP monthly sea ice extents are prescribed. The ice consists of two layers: an
+upper layer of constant thickness (0.1 m) and a lower layer whose thickness
+depends on the fractional ice coverage for each grid box and the number of
+months with some ice present. The total ice thickness also may be augmented by
+snow accumulation (see <a href="20giss.html#RTFToC32">Snow Cover</a>). The temperature profile in each ice
+layer is assumed to be a quadratic function of depth, with coefficients that
+are solved subject to six constraints. (These include consistency conditions on
+the temperatures and heat fluxes at the interfaces between the atmosphere and
+the ice, between the ice layers, and between the ice and the ocean; in
+addition, the mean temperature of each ice layer is set equal to its value from
+the previous hour.) After the ice temperature profiles are determined, the heat
+fluxes at the atmosphere-ice, ice-ice, and ice-ocean interfaces are updated.
+See also <a href="20giss.html#RTFToC34">Surface Fluxes</a>.
+<h3>
+<a name="RTFToC32">Snow
+Cover
+</a></h3>
+Precipitation falls as snow if the temperature of the first vertical layer
+above the surface is &lt;0 degrees C. Snow may accumulate on land, on
+continental ice, and on sea ice up to 0.1 m equivalent water, after which it
+augments the ice thickness (see <a href="20giss.html#RTFToC31"
+>Sea Ice</a>). Snow depth is computed
+prognostically as the balance of snowfall, snowmelt, and sublimation (which
+contributes to the surface evaporative flux--see <a href="20giss.html#RTFToC34">Surface Fluxes</a>). Net
+heating of the snow surface raises the ground temperature to 0 degrees C;
+additional heating produces snowmelt, which contributes to soil moisture and
+affects the thermal properties of the soil (see <a href="20giss.html#RTFToC35">Land Surface Processes</a>).
+Snow also modifies the surface albedo (see <a href="20giss.html#RTFToC33">Surface Characteristics</a>).
+<h3>
+<a name="RTFToC33">Surface
+Characteristics
+</a></h3>
+<ul>
+<li>	Each grid box is assigned appropriate fractions of land and ocean, and
+part of the ocean fraction may be covered by ice (see <a href="20giss.html#RTFToC31">Sea Ice</a>). In
+addition, permanent ice sheets are specified for Antarctica, Greenland, and
+some Arctic islands. Vegetation type is a composite over each grid-box from 32
+classifications distinguished in the 1 x 1-degree data of Matthews (1983
+<a href="20giss_fn.html#fn16">[17]</a>, 1984
+<a href="20giss_fn.html#fn17">[18]</a>).<p>
+<li>	Over land, surface roughness is a fit to the data of Fiedler and Panofsky
+(1972)
+<a href="20giss_fn.html#fn18">[19]</a> as a function of the standard
+deviation of the orography (see <a href="20giss.html#RTFToC29">Orography</a>). The maximum of this
+roughness and that of the local vegetation (including a "zero plane
+displacement" value for tall vegetation types--cf. Monteith 1973
+<a href="20giss_fn.html#fn19">[20]</a> determines the roughness over land. Over sea ice, the roughness length is a uniform 4.3 x 10^-4 m, after Doronin (1969)
+<a href="20giss_fn.html#fn20">[21]</a>. Over ocean, the surface roughness
+is a function of the momentum flux and is used to compute the neutral drag
+coefficient as well as the Stanton and Dalton numbers (see <a href="20giss.html#RTFToC34">Surface Fluxes</a>).<p>
+<li>	The surface albedo is prescribed for ocean, land ice, sea ice, and for
+eight different land surface types after the data of Matthews (1983
+<a href="20giss_fn.html#fn16">[17]</a> , 1984
+<a href="20giss_fn.html#fn17">[18]</a>). The visible and near infrared albedos are distinguished, and seasonal variations in
+the albedo for vegetated surfaces are included. The albedo of snow-covered
+ground is the snow-free value modified by factors depending on snow depth, snow
+age, and vegetation masking depth, which varies with vegetation type. Ocean
+albedo is a function of surface wind speed and solar zenith angle after Cox and
+Munk (1956)
+<a href="20giss_fn.html#fn21">[22]</a>.<p>
+<li>	The spectral dependence of longwave emissivity for deserts is included
+from data of Hovis and Callahan (1966)
+<a href="20giss_fn.html#fn22">[23]</a>, and for snow and ice from data of
+Wiscombe and Warren (1980)
+<a href="20giss_fn.html#fn23">[24]</a>. The emissivity of the ocean is a function of the surface wind speed and of the
+albedo.</ul><h3>
+<a name="RTFToC34">Surface
+Fluxes
+</a></h3>
+<ul>
+<li>	The absorbed surface solar flux is determined from albedos, and the
+surface longwave emission from the Planck function with spatially variable
+emissivities (see <a href="20giss.html#RTFToC33">Surface Characteristics</a>).<p>
+<li>	The surface wind stress is expressed as a product of air density, a drag
+coefficient, and the surface wind speed and velocity (see <a href="20giss.html#RTFToC28">Planetary Boundary Layer</a>). The surface drag coefficient is a function of both roughness length
+(see <a href="20giss.html#RTFToC33">Surface Characteristics</a>) and vertical stability.<p>
+<li>	Over land, the latent heat flux is computed separately for bare and
+vegetated surfaces (see <a href="20giss.html#RTFToC35">Land Surface Processes</a>), following Penman (1948)
+<a href="20giss_fn.html#fn24">[25]</a> and Monteith (1981)
+<a href="20giss_fn.html#fn25">[26]</a>. Over ocean and ice surfaces, the latent
+heat flux is expressed by a bulk formula that includes the product of the
+surface air density, a transfer coefficient, the surface wind speed, and the
+difference between the saturation value of mixing ratio at the ground
+temperature and the surface atmospheric value (see <a href="20giss.html#RTFToC28">Planetary Boundary Layer</a>).<p>
+<li>	Over land, the sensible heat flux is determined as the residual of the
+total net heat flux computed by the surface model (see <a href="20giss.html#RTFToC35">Land Surface Processes</a>) minus the latent heat flux. (The partitioning of the latent and
+sensible heat fluxes, or Bowen ratio, implies the surface temperature--see
+<a href="20giss.html#RTFToC35">Land Surface Processes</a>.) Over ocean and ice surfaces, the sensible heat
+flux is calculated from a bulk aerodynamic formula as a product of the surface
+air density and heat capacity, a transfer coefficient, a surface wind speed,
+and the difference between the skin temperature and the surface air temperature
+(see <a href="20giss.html#RTFToC28">Planetary Boundary Layer</a>). (The transfer coefficient is a
+stability-dependent function of the drag coefficient and is different from that
+used for the latent heat flux over ocean and ice.)</ul><h3>
+<a name="RTFToC35">Land
+Surface Processes
+</a></h3>
+<ul>
+<li>	Soil temperature is computed by solving a heat diffusion equation in six
+layers. The thickness of the top layer varies, but is approximately 0.1 m. The
+thicknesses of deeper layers increase geometrically, with the bottom boundary
+of the soil column at a nominal bedrock depth of 3.444 m. The upper boundary
+condition is the balance of surface energy fluxes (see <a href="20giss.html#RTFToC34">Surface Fluxes</a>);
+at the bottom boundary, zero net heat flux is specified. The thermal
+conductivity and heat capacity of the ground vary with snow cover, as well as
+soil moisture amount and phase. <p>
+<li>	Land-surface hydrology is treated after the physically based model of
+Abramopoulos et al. (1988)
+<a href="20giss_fn.html#fn4">[5]</a>. The scheme includes a vegetation canopy, a
+composite over each grid box from the vegetation types of Matthews (1983
+<a href="20giss_fn.html#fn16">[17]</a>, 1984
+<a href="20giss_fn.html#fn17">[18]</a>), that intercepts precipitation and dew. Evaporation from the wet canopy
+and from bare soil is treated, as well as soil-moisture loss from transpiration
+according to moisture availability and variable vegetation resistance and root
+density. Diffusion of moisture is predicted in the six soil layers, accounting
+for spatially variable composite conductivities and matric potentials that
+depend on soil type and moisture content. Infiltration of precipitation and
+snowmelt is explicitly calculated, with surface runoff occurring when the
+uppermost soil layer is saturated; underground runoff that depends on
+topographic slope is also included.</ul><p>
+
+<p><h4><p><A HREF="20giss_fn.html"><IMG SRC="gifs/Button_blue.gif">	Go to GISS References</a></h4>
+
+<p><h4><p><A HREF="20giss_ToC.html"><IMG SRC="gifs/Button_blue.gif">	Return to GISS Table of Contents</a></h4>
+
+<h4><A HREF="01toc.html"><IMG SRC="gifs/Button_blue.gif">	Return to Main Document Directory</a></h4>
+
+<P>
+<HR>
+
+Last update April 19, 1996. For further information, contact: Tom Phillips (<a href="mailto: phillips@tworks.llnl.gov">
+phillips@tworks.llnl.gov </a>)<P><A HREF="http://www.llnl.gov/disclaimer.html">LLNL Disclaimers</A>
+<p>
+UCRL-ID-116384<p>
+</body>
+<!-- Mirrored from www-pcmdi.llnl.gov/modeldoc/amip1/20giss.html by HTTrack Website Copier/3`.x [XR&CO'2004], Fri, 09 Jul 2004 21:01:46 GMT -->
+
+<!-- Mirrored from www-pcmdi.llnl.gov/projects/modeldoc/amip1/20giss.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 20 Jun 2016 19:41:02 GMT -->
+</html>

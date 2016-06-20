@@ -1,0 +1,119 @@
+---
+layout: AMIP
+---
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN//2.0">
+<HTML>
+<!-- Mirrored from www-pcmdi.llnl.gov/modeldoc/amip1/30nrl_b.html by HTTrack Website Copier/3.x [XR&CO'2004], Fri, 09 Jul 2004 21:04:18 GMT -->
+
+<!-- Mirrored from www-pcmdi.llnl.gov/projects/modeldoc/amip1/30nrl_b.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 20 Jun 2016 20:11:32 GMT -->
+<HEAD>
+<TITLE>Naval Research Laboratory: Model NRL NOGAPS3.4 (T47 L18) 1995 </TITLE>
+</HEAD>
+<BODY BACKGROUND="gifs/bg9.gif">
+<BODY> <h2>
+
+<a name="RTFToC1">Naval Research Laboratory: Model NRL NOGAPS3.4 (T47 L18) 1995</a>
+</h2>
+<hr> 
+
+<h3> <a name="RTFToC3">Model Designation </a></h3>
+<P>
+NRL NOGAPS3.4 (T47 L18) 1995 
+
+<h3> <a name="RTFToC4">Model Lineage </a></h3> 
+Except for certain computational changes,  NRL NOGAPS3.4 (T47 L18) 1995 is essentially the same as NRL model NOGAPS3.3 that is documented by Hogan and Brody 1993<A HREF="30nrl_fn.html#fn27">[28]</A>.  To arrive at the NOGAPS3.3 model, changes in a number of dynamical/physical properties are introduced in AMIP baseline model <A HREF="30nrl_ToC.html">NRL NOGAPS3.2 (T47 L18) 1993</A> in order to ameliorate the following systematic errors:
+<P>
+<UL>
+<LI>A weak and poleward shifted subtropical jet, and a tendency toward increased zonality with time
+<P>
+<LI>Over the oceans, too deep high-latitude lows and too weak surface winds
+<P>
+<LI>A warm bias in the winter midlatitude troposphere and tropical upper troposphere, and a cold bias in the lower tropical stratosphere
+<P>
+<LI>Too strong upper-level tropical easterlies and too weak Northern Hemisphere stratospheric westerlies
+<P>
+<LI>Low values of global-mean precipitation and evaporation.
+</UL>
+<P>
+<h3> <a name="RTFToC5">Model Documentation </a></h3>
+Cf. Hogan and Brody (1993)<A HREF="30nrl_fn.html#fn27">[28]</A> for a detailed discussion of differences from the <A HREF="30nrl_ToC.html">baseline model</A> as well as the motivation for introducing these changes.
+<P>
+<h2> <a name="RTFToC6">Numerical/Computational Properties </a></h2>
+<P>
+<h3> <a name="RTFToC12">Computer/Operating System </a></h3>
+<P>
+In a departure from the <A HREF="30nrl.html#RTFToC12">baseline model's simulation</A>, the repeated AMIP experiment was run on a Cray C90  with multitasking of 6 processors in the UNICOS environment.
+<P>
+<h3> <a name="RTFToC13">Computational Performance </a></h3>
+<P>
+For the AMIP experiment, about 3.3 minutes of Cray C90 computation time per simulated day, an improvement of about a factor of 3 in performance from that of the <A HREF="30nrl.html#RTFToC13">baseline integration</A> on a Cray Y/MP computer.
+<P>
+ 
+<h2> <a name="RTFToC18"> Dynamical/Physical Properties </a></h2> 
+
+<h3> <a name="RTFToC19">Atmospheric Dynamics </a></h3>
+Specific humidity itself, rather than the <A HREF="30nrl.html#RTFToC18">baseline model's formulation</A> (the inverse of the natural logarithm of specific humidity), is defined as a state variable for both dynamics and physics.
+<P>
+
+<h3> <a name="RTFToC20">Diffusion</a></h3>
+
+ 
+<ul>
+<li>
+As in the <A HREF="30nrl.html#RTFToC20">baseline model</A>, there is fourth-order horizontal diffusion of vorticity and divergence, and of departures of specific humidity and virtual potential temperature from reference states. As before also, when the wind speed at the top level exceeds 120 m/s, horizontal diffusion is increased and the spectral tendencies at the upper three vertical levels are truncated .  The formulation of horizontal diffusion is the same as in the baseline model except that the diffusion is limited to total spectral wavenumbers > 25 for vorticity and > 12 for divergence, temperature, and specific humidity. As a consequence, there is a small increase in eddy kinetic energy in wavenumbers 10-20, reducing the model's tendency toward increasing zonality with time.
+
+<p><li>	As in the <A HREF="30nrl.html#RTFToC20">baseline model</A>, vertical diffusion of momentum, heat, moisture, and buoyancy (virtual potential temperature) is parameterized after the Louis et al. (1981)<a href="30nrl_fn.html#fn4">[5]</a> formulation of K-theory, with the mixing length a function of bulk Richardson number.  However, in the model troposphere (for pressures > 300 hPa), the K coefficient is reduced to only 20% of its value in the baseline model.  A reduction in the model's tropospheric warm bias resulted.  
+</ul>
+<P>
+<h3> <a name="RTFToC21">Gravity-wave Drag </a></h3>The same formulation of gravity-wave drag as in the <A HREF="30nrl.html#RTFToC21">baseline model</A> (modified Palmer et al. (1986)<a href="30nrl_fn.html#fn5">
+[6]</a>) is used, but its domain of application is limited to the troposphere and lower stratosphere (pressures > 150 hPa).  As a consequence, there is an increase in the model's Northern Hemisphere midlatitude stratospheric winds and an improvement of its vertical temperature structure.
+<P>
+
+<H3><A NAME="RTFToC23">Chemistry</H3></A>
+<P>
+The baseline model's Dopplick (1974)<A HREF="30nrl_fn.html#fn6">[7]</A> ozone dataset is replaced by that of McPeters et al. (1984)<A HREF="30nrl_fn.html#fn28">[29]</A>.  There results a general warming of the middle and upper stratosphere which exhibited a cold bias everywhere in the baseline model.
+<P>
+<h3> <a name="RTFToC24">Radiation</a></h3>
+<P>
+The same radiation scheme as in the <A HREF="30nrl.html#RTFToC24">baseline model</A> is used, but with these differences in the representation of cloud-radiative interactions:
+<UL>
+<LI>For shortwave fluxes, the delta-Eddington scheme's single-scattering albedo is increased from 0.80 to 0.9782 in accordance with findings of Twomey and Seton (1980)<A HREF="30nrl_fn.html#fn29">[30]</A>. The shortwave flux incident at the top of the model atmosphere also is made dependent on the seasonal variation of the sun-earth distance.  Less absorption of shortwave radiation thereby resulted, ameliorating the model's tropospheric warm bias.
+<P>
+<LI>For longwave fluxes, full (maximum) overlap of clouds is assumed in the vertical rather than the mixed random and full overlap assumption of the baseline model.  An increase in outgoing longwave radiation (OLR) at the top of the model atmosphere resulted, in better agreement with ERBE satellite observations.
+</UL>
+
+<h3> <a name="RTFToC25">Convection</a></h3>
+
+ 
+As in the <A HREF="30nrl.html#RTFToC25">baseline model</A>, penetrative convection is formulated by the Arakawa and Schubert (1974)<a href="30nrl_fn.html#fn17">
+[18]</a> scheme.  However, shallow convection is no longer limited to within 175 hPa of the surface, and there is mixing of momentum in addition to the baseline model's mixing of moisture and virtual potential temperature.  The removal of the vertical restriction of shallow convection overcomes the baseline model's bias of an overly moist lower tropical troposphere, and low surface evaporation.  Momentum mixing results in small increases in tropical and midlatitude surface winds.  See also 
+<a href="#RTFToC26">Cloud Formation</a>.
+<P>
+
+<h3><a name="RTFToC26">Cloud Formation </a></h3>	
+The Slingo (1987)<A HREF="30nrl_fn.html#fn21">[22]</A> formulation of stratiform cloud formation replaces that of the <A HREF="30nrl.html#RTFToC26">baseline model</A>.  Frontal stratiform cloud forms at middle and high levels in an amount that is a quadratic function of the relative humidity excess above 80 percent, and at low levels in the same amount, provided there is upward vertical motion.  For subsident conditions, stratiform low cloud may form in a temperature inversion where the relative humidity is > 60 percent, the amount of cloud depending on this humidity excess and on the inversion strength.
+See also <a href="#RTFToC24">Radiation</a> for treatment of cloud-radiative interactions.</ul>
+<P>
+<h3><a name="RTFToC33">Surface Characteristics</a></h3>
+<P>
+Surface characteristics are the same as in the <A HREF="30nrl.html#RTFToC33">baseline model</A>, except that the land-sea mask is changed slightly, affecting the surface type of ~ 10 grid points. 
+
+
+<p><BR><h4><A HREF="30nrl_fn.html"><IMG SRC="gifs/Button_blue.gif">	Go to NRL References</a></h4>
+<h4><A HREF="30nrl_ToC_b.html"><IMG SRC="gifs/Button_blue.gif">	Return to Model Table of Contents</a></h4>
+
+<h4><A HREF="01toc.html"><IMG SRC="gifs/Button_blue.gif">	Return to Main Document Directory</a></h4>
+
+
+
+<HR>Last update May 28, 1996.  For further information, contact: Tom Phillips (<a href="mailto: phillips@tworks.llnl.gov"> phillips@tworks.llnl.gov </a>)<p>
+
+<A HREF="http://www.llnl.gov/disclaimer.html">LLNL Disclaimers</A><p>
+
+ UCRL-ID-116384<p>
+
+ </body>
+<!-- Mirrored from www-pcmdi.llnl.gov/modeldoc/amip1/30nrl_b.html by HTTrack Website Copier/3.x [XR&CO'2004], Fri, 09 Jul 2004 21:04:18 GMT -->
+
+<!-- Mirrored from www-pcmdi.llnl.gov/projects/modeldoc/amip1/30nrl_b.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 20 Jun 2016 20:11:32 GMT -->
+</html> 

@@ -1,0 +1,304 @@
+---
+layout: AMIP
+---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+
+<!-- Mirrored from www-pcmdi.llnl.gov/modeldoc/amip1/26mpi_b.html by HTTrack Website Copier/3.x [XR&CO'2004], Fri, 09 Jul 2004 21:01:49 GMT -->
+
+<!-- Mirrored from www-pcmdi.llnl.gov/projects/modeldoc/amip1/26mpi_b.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 20 Jun 2016 19:41:27 GMT -->
+<HEAD>
+   <TITLE>Max-Planck-Institut f&uuml;r Meteorologie: Model MPI ECHAM4 (T42 L19) 1995</TITLE>
+   <META NAME="GENERATOR" CONTENT="Mozilla/3.01Gold (WinNT; I) [Netscape]">
+</HEAD>
+<BODY BACKGROUND="gifs/bg9.gif">
+
+<H2><A NAME="RTFToC1"></A>Max-Planck-Institut f&uuml;r Meteorologie: Model
+MPI ECHAM4 (T42 L19) 1996</H2>
+
+<P>
+<HR></P>
+
+<H3><A NAME="RTFToC3"></A>Model Designation </H3>
+
+<P>MPI ECHAM4 (T42 L19) 1996 </P>
+
+<H3><A NAME="RTFToC4"></A>Model Lineage </H3>
+
+<P>Model MPI ECHAM4 (T42 L19) 1996 is the fourth in a series of models
+developed at MPI that originally derive from cycle 17 of the European Centre
+for Medium-Range Weather Forecasts (ECMWF) model. The ECHAM4 model's immediate
+predecessor is AMIP baseline model <A HREF="26mpi_ToC.html">MPI ECHAM3
+(T42 L19) 1992</A>. The ECHAM4 model differs most sharply from its predecessor
+in its treatment of <A HREF="#RTFToC7">transport</A> and <A HREF="#RTFToC20">diffusion</A>,
+of <A HREF="#RTFToC23">chemistry</A> and <A HREF="#RTFToC24">radiation</A>,
+and of the <A HREF="#RTFToC28">planetary boundary layer (PBL)</A>. The
+parameterizatons of <A HREF="#RTFToC25">convection</A>, <A HREF="#RTFToC26">cloud
+formation</A>, and land <A HREF="#RTFToC33">surface characteristics</A>
+also have been modified. </P>
+
+<H3><A NAME="RTFToC5"></A>Model Documentation </H3>
+
+<P>Much of the literature on the <A HREF="26mpi.html#RTFToC5">baseline
+model</A> remains relevant. Overall documentation of the ECHAM4 model is
+provided by Roeckner et al. (1996)<A HREF="26mpi_fn.html#fn51">[52]</A>.
+Details of the new semi-Lagrangian transport scheme are given by Williamson
+and Rasch (1994)<A HREF="26mpi_fn.html#fn56">[57]</A> and Hack et al. (1993)<A HREF="26mpi_fn.html#fn57">[58]</A>.
+The radiation scheme is documented by Fouquart and Bonnel (1980)<A HREF="26mpi_fn.html#fn62">[63]</A>,
+Morcrette (1991)<A HREF="26mpi_fn.html#fn63">[64]</A>, Giorgetta and Wild
+(1995)<A HREF="26mpi_fn.html#fn67">[68]</A>, and Rockel et al. (1991)<A HREF="26mpi_fn.html#fn16">[17]</A>.
+The reformulation of the PBL is after Brinkop and Roeckner (1995)<A HREF="26mpi_fn.html#fn58">[59]</A>.
+Modification of the convection scheme follows Nordeng (1996)<A HREF="26mpi_fn.html#fn71">[72]</A>,
+and changes in cloud formation are after Sundqvist et al. (1989)<A HREF="26mpi_fn.html#fn72">[73]</A>
+and Slingo (1987)<A HREF="26mpi_fn.html#fn73">[74]</A>. The new land surface
+characteristics are described by Claussen et al. (1994)<A HREF="26mpi_fn.html#fn75">[76]</A>,
+Patterson (1990)<A HREF="26mpi_fn.html#fn78">[79]</A>, and Zobler (1986)<A HREF="26mpi_fn.html#fn79">[80]</A>.
+Validation of various aspects of the ECHAM4 model is provided by Chen and
+Roeckner (1996)<A HREF="26mpi_fn.html#fn52">[53]</A>, Chen et al. (1996)<A HREF="26mpi_fn.html#fn53">[54]</A>,
+Lohmann et al. (1995)<A HREF="26mpi_fn.html#fn54">[55]</A>, and Wild et
+al. (1996)<A HREF="26mpi_fn.html#fn55">[56]</A>. </P>
+
+<H2><A NAME="RTFToC6"></A>Numerical/Computational Properties </H2>
+
+<H3><A NAME="RTFToC7"></A>Horizontal Representation </H3>
+
+<P>The horizontal representation is as in the <A HREF="26mpi.html#RTFToC7">baseline
+model</A>, except that horizontal advection of water vapor and cloud water
+are treated by the shape-preserving semi-Lagrangian transport (SLT) scheme
+of Williamson and Rasch (1994)<A HREF="26mpi_fn.html#fn56">[57]</A>, with
+further details supplied by Hack et al. (1993)<A HREF="26mpi_fn.html#fn57">[58]</A>.
+Because the SLT scheme is not inherently conservative, mass conservation
+is enforced at every time step through a variational adjustment of the
+advected variable field which weights the amplitude of the adjustment in
+proportion to the advection tendencies and the field itself. </P>
+
+<H3><A NAME="RTFToC10"></A>Vertical Representation</H3>
+
+<P>The vertical representation is as in the <A HREF="26mpi.html#RTFToC10">baseline
+model</A>, except that vertical advection of positive definite quantities
+is treated by the <A HREF="#RTFToC7">SLT scheme</A>. </P>
+
+<H3><A NAME="RTFToC12"></A>Computer/Operating System </H3>
+
+<P>The AMIP simulation was run on a Cray C90 computer using 4 processors
+in the UNICOS environment. </P>
+
+<H3><A NAME="RTFToC13"></A>Computational Performance </H3>
+
+<P>About 3.5 minutes of Cray C90 computation time per simulated day. </P>
+
+<H3><A NAME="RTFToC16"></A>Smoothing/Filling</H3>
+
+<P>Smoothing and filling procedures are the same as for the <A HREF="26mpi.html#RTFToC16">baseline
+model</A>, except that filling of spurious negative atmospheric moisture
+values is obviated by the use of the <A HREF="#RTFToC7">SLT scheme</A>.
+</P>
+
+<H2><A NAME="RTFToC18"></A>Dynamical/Physical Properties </H2>
+
+<H3><A NAME="RTFToC20"></A>Diffusion</H3>
+
+<UL>
+<LI>In contrast to the <A HREF="26mpi.html#RTFToC20">baseline model</A>,
+linear tenth-order (del^10) horizontal diffusion is applied to all prognostic
+variables below about 150 hPa. In the model stratosphere, the order of
+the scheme is reduced incrementally to second-order (del^2) at the upper
+two model levels. The horizontal diffusion coefficient is consistent with
+a height-invariant damping time scale of 9 hours for the highest resolvable
+wave number (n=42). </LI>
+
+<LI>In a departure from the K-theory approach of the <A HREF="26mpi.html#RTFToC20">baseline
+model</A>, a higher-order closure scheme after Brinkop and Roeckner (1995)
+<A HREF="26mpi_fn.html#fn58">[59]</A> is used to compute the vertical diffusion
+of momentum, heat, moisture, and cloud water. The eddy diffusion coefficients
+are calculated as functions of the square root of the prognostic turbulence
+kinetic energy (TKE) and a mixing length which is a function of both stability
+and height. Above the PBL, the asymptotic value of the mixing length (cf.
+Blackadar 1962<A HREF="26mpi_fn.html#fn59">[60]</A>) is assumed to decrease
+exponentially with height, from ~ 300 m to ~ 30 m following Holtslag and
+Boville 1993<A HREF="26mpi_fn.html#fn60">[61]</A>). See also <A HREF="#RTFToC28">Planetary
+Boundary Layer</A> and <A HREF="#RTFToC34">Surface Fluxes</A>. </LI>
+</UL>
+
+<H3><A NAME="RTFToC23"></A>Chemistry</H3>
+
+<P>Trace constituents including methane, nitrous oxide, and 16 different
+CFC's are added to the chemistry of the <A HREF="26mpi.html#RTFToC23">baseline
+model</A>. </P>
+
+<H3><A NAME="RTFToC24"></A>Radiation</H3>
+
+<P>The radiation scheme of the <A HREF="26mpi.html#RTFToC24">baseline model</A>
+is replaced. Instead, shortwave radiation is treated by the two-stream
+method of Fouquart and Bonnell (1980)<A HREF="26mpi_fn.html#fn62">[63]</A>,
+and longwave radiation by the method of Morcrette (1991)<A HREF="26mpi_fn.html#fn63">[64]</A>.
+In addition, further changes are made in the treatment of other gaseous
+absorbers, continuum absorption by water vapor, and cloud-radiative interactions.
+</P>
+
+<UL>
+<LI>For clear-sky conditions, shortwave radiation is modeled by a two-stream
+formulation in spectral wavelength intervals 0.25-0.68 micron and 0.68-4.0
+microns using a photon path distribution method to separate the effects
+of scattering and absorption processes. Shortwave absorption by water vapor,
+ozone, oxygen, carbon dioxide,methane, and nitrous oxide is included. Rayleigh
+scattering by gases and Mie scattering/absorption by aerosols also are
+treated. Cf. Fouquart and Bonnell (1980)<A HREF="26mpi_fn.html#fn62">[63]</A>
+and Morcrette (1991)<A HREF="26mpi_fn.html#fn63">[64]</A> for further details.
+</LI>
+
+<LI>The clear-sky longwave scheme employs a broad-band flux emissivity
+method in six spectral intervals from wavenumbers 0 to 2.820 x 10^5 m^-1.
+The Morcrette (1991)<A HREF="26mpi_fn.html#fn63">[64]</A> code is extended
+to include additional greenhouse gases (i.e., methane, nitrous oxide, and
+16 types of CFC's, as well as the 14.6 micron band of ozone (see <A HREF="#RTFToC23">Chemistry</A>).
+The respective absorption coefficients are fitted from AFGL<A HREF="26mpi_fn.html#fn64">[65]</A>,
+HITRAN91<A HREF="26mpi_fn.html#fn65">[66]</A>, and GEISA<A HREF="26mpi_fn.html#fn66">[67]</A>
+spectroscopic data. Based on calculations by Ma and Tipping (1991)<A HREF="26mpi_fn.html#fn68">[69]</A>,
+1992a<A HREF="26mpi_fn.html#fn69">[70]</A>, 1992b<A HREF="26mpi_fn.html#fn70">[71]</A>),
+the formulation of the water vapor continuum has been revised to include
+temperature-weighted band averages of e-type absorption and a band-dependent
+ratio of (p-e)-type to e-type continuum absorption (cf. Giorgetta and Wild
+1995<A HREF="26mpi_fn.html#fn67">[68]</A>). </LI>
+
+<LI>For cloud-radiative interactions, single-scattering properties are
+calculated following Rockel et al. (1991)<A HREF="26mpi_fn.html#fn16">[17]</A>,
+a method that entails high-resolution Mie calculations using idealized
+size distributions for both cloud droplets and ice crystals. The averaging
+over the required wide spectral ranges is done by weighting with the Planck
+function. The single-scattering parameters are expressed as functions of
+effective radius <B>r</B> by polynomial fitting of the results for different
+<B>r</B>. To account for the non-sphericity of ice crystals the associated
+asymmetry factor is reduced to ~ 0.80 for a wide range of <B>r</B>. The
+<B>r</B> values of both cloud droplets and ice crystals are parameterized
+in terms of prognostic liquid and ice water content (see <A HREF="#RTFToC26">Cloud
+Formation</A>). As in the <A HREF="26mpi.html#RTFToC24">baseline model</A>,
+radiative fluxes are calculated assuming that clouds of different types
+are randomly overlapped in the vertical, while convective cloud and nonconvective
+cloud of the same type in adjacent layers are treated as fully overlapped.
+</LI>
+</UL>
+
+<H3><A NAME="RTFToC25"></A>Convection</H3>
+
+<P>The Tiedtke (1989)<A HREF="26mpi_fn.html#fn21">[22]</A> convection scheme
+of the <A HREF="26mpi.html#RTFToC25">baseline model</A> still is utilized,
+but with modifications introduced after Nordeng (1996)<A HREF="26mpi_fn.html#fn71">[72]</A>.
+Organized entrainment depends on local buoyancy and organized detrainment
+is derived for a spectrum of clouds. The detrained cloud water, as well
+as that present in shallow non-precipitating cumulus clouds, is made a
+source term in the stratiform cloud water transport equation (see <A HREF="#RTFToC26">Cloud
+Formation</A>), and buoyancy in updrafts is controlled by the water loading.
+The closure assumption of the baseline model also is modified: cloud-base
+mass flux is linked to convective instability instead of moisture convergence.
+</P>
+
+<H3><A NAME="RTFToC26"></A>Cloud Formation</H3>
+
+<P>The prognostic cloud-formation scheme of the <A HREF="26mpi.html#RTFToC26">baseline
+model</A> is modified. Fractional cloudiness is determined as a nonlinear
+function of relative humidity excess above a threshold value, following
+Sundqvist et al. (1989)<A HREF="26mpi_fn.html#fn72">[73]</A>. Threshold
+values decrease exponentially with height (between 99% at the surface to
+60% in the upper troposphere) after Xu and Krueger (1991)<A HREF="26mpi_fn.html#fn27">[28]</A>.
+The formation of marine stratocumulus clouds is linked to the existence
+of a low-level inversion following Slingo (1987)<A HREF="26mpi_fn.html#fn73">[74]</A>.
+Cloud water from convective detrainment as well as that contained in non-precipitating
+shallow cumulus clouds (see <A HREF="#RTFToC25">Convection</A>) is a source
+term for prognostic stratiform cloud formation . The transport and turbulent
+diffusion of cloud water also are treated by the SLT and TKE schemes (see
+<A HREF="#RTFToC7">Horizontal Representation</A>, <A HREF="#RTFToC20">Diffusion</A>,
+and <A HREF="#RTFToC28">Planetary Boundary Layer</A>). See also <A HREF="#RTFToC24">Radiation</A>
+for treatment of cloud optical properties.</P>
+
+<H3><A NAME="RTFToC28"></A>Planetary Boundary Layer </H3>
+
+<P>The <A HREF="26mpi.html#RTFToC28">baseline model's</A> PBL representation
+is replaced by a higher-order closure scheme that computes the turbulent
+transfer of momentum, heat, moisture, and cloud water (cf. Brinkop and
+Roeckner (1995)<A HREF="26mpi_fn.html#fn58">[59]</A>). The eddy diffusion
+coefficients are calculated as functions of the square root of the prognostic
+turbulence kinetic energy (TKE) and a mixing length which is a function
+of both stability and height. The TKE is calculated from rate equations
+for the respective variables which include buoyancy, dissipation, wind
+shear, and vertical diffusion terms, but which neglect TKE advection. The
+buoyancy flux is formulated in terms of cloud-conservative variables (see
+Cloud Formation in the <A HREF="26mpi.html#RTFToC26">baseline model</A>).
+The boundary condition is expressed as a function of friction velocity
+and convective length scale. The asymptotic value of the mixing length
+(cf. Blackadar 1962<A HREF="26mpi_fn.html#fn59">[60]</A>) is 300 m within
+the PBL, following Holtslag and Boville 1993<A HREF="26mpi_fn.html#fn60">[61]</A>).
+See also <A HREF="#RTFToC20">Diffusion</A> and <A HREF="#RTFToC34">Surface
+Fluxes</A>. </P>
+
+<H3><A NAME="RTFToC33"></A>Surface Characteristics </H3>
+
+<P>Vegetation parameters, albedos, and roughness lengths differ from those
+of the <A HREF="26mpi.html#RTFToC33">baseline model</A>: </P>
+
+<UL>
+<LI>Fields of leaf area index (LAI), fractional vegetation cover, and forest
+ratio are constructed by allocating these parameters according to major
+ecosystem complexes identified by Olson et al. (1983)<A HREF="26mpi_fn.html#fn77">[78]</A>.
+The albedos of snow-free land are derived by blending the albedos of these
+biome distributions with those obtained from Earth Radiation Budget Experiment
+(ERBE) satellite data and from the estimates of Dorman and Sellers (1989)<A HREF="26mpi_fn.html#fn74">[75]</A>.
+The roughness lengths over land are recalculated to include the new vegetation
+and forest covers as well as the effects of subgrid-scale orography and
+urbanization, as in the <A HREF="26mpi.html#RTFToC33">baseline model</A>.
+Cf. Claussen et al. (1994)<A HREF="26mpi_fn.html#fn75">[76]</A> for further
+details. See also <A HREF="#RTFToC35">Land Surface Processes</A>. </LI>
+
+<LI>In addition, the roughness lengths for computing <A HREF="#RTFToC34">surface
+fluxes</A> of heat and moisture over oceans are decreased from those of
+the <A HREF="26mpi.html#RTFToC33">baseline model</A> in accordance with
+experimental data of Large and Pond (1982)<A HREF="26mpi_fn.html#fn76">[77]</A>.
+</LI>
+</UL>
+
+<H3><A NAME="RTFToC34"></A>Surface Fluxes </H3>
+
+<P>As in the <A HREF="26mpi.html#RTFToC34">baseline model</A>, the turbulent
+surface fluxes are formulated as functions of roughness length and moist
+bulk Richardson number, but with decreased ocean roughness lengths used
+for calculating the heat and moisture fluxes (see <A HREF="#RTFToC33">Surface
+Characteristics</A>). </P>
+
+<H3><A NAME="RTFToC35"></A>Land Surface Processes </H3>
+
+<P>The treatment of land surface processes is the same as in the <A HREF="26mpi.html#RTFToC35">baseline
+model</A>, except that the heat capacity, thermal conductivity, and field
+capacity for soil moisture are prescribed according to geographically varying
+values derived from Food and Agriculture Organization (FAO) soil type distributions
+(cf. Patterson (1990)<A HREF="26mpi_fn.html#fn78">[79]</A>, and Zobler
+(1986)<A HREF="26mpi_fn.html#fn79">[80]</A>). </P>
+
+<P><BR>
+</P>
+
+<P><A HREF="26mpi_fn.html"><IMG SRC="gifs/Button_blue.gif" HEIGHT=25 WIDTH=25></A><A HREF="26mpi_fn.html">
+<B>Go to MPI References</B></A></P>
+
+<P><A HREF="26mpi_ToC_b.html"><IMG SRC="gifs/Button_blue.gif" HEIGHT=25 WIDTH=25></A><A HREF="26mpi_ToC_b.html">
+<B>Return to Model Table of Contents</B></A></P>
+
+<H4><A HREF="01toc.html"><IMG SRC="gifs/Button_blue.gif" HEIGHT=25 WIDTH=25></A><A HREF="01toc.html">
+Return to Main Document Directory</A></H4>
+
+<P>
+<HR>Last update May 12, 1998. For further information, contact: Tom Phillips
+(<A HREF="mailto: phillips@tworks.llnl.gov"> phillips@tworks.llnl.gov </A>)</P>
+
+<P> <A HREF="http://www.llnl.gov/disclaimer.html">LLNL Disclaimers</A>
+</P>
+
+<P>UCRL-ID-116384</P>
+
+<P> </P>
+
+</BODY>
+
+<!-- Mirrored from www-pcmdi.llnl.gov/modeldoc/amip1/26mpi_b.html by HTTrack Website Copier/3.x [XR&CO'2004], Fri, 09 Jul 2004 21:01:49 GMT -->
+
+<!-- Mirrored from www-pcmdi.llnl.gov/projects/modeldoc/amip1/26mpi_b.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 20 Jun 2016 19:41:27 GMT -->
+</HTML>

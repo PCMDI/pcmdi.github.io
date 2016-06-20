@@ -1,0 +1,394 @@
+---
+layout: AMIP
+---
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN//2.0">
+<HTML>
+<!-- Mirrored from www-pcmdi.llnl.gov/modeldoc/amip1/21gsfc.html by HTTrack Website Copier/3.x [XR&CO'2004], Fri, 09 Jul 2004 21:04:18 GMT -->
+
+<!-- Mirrored from www-pcmdi.llnl.gov/projects/modeldoc/amip1/21gsfc.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 20 Jun 2016 20:11:32 GMT -->
+<HEAD>
+<TITLE>Goddard Space Flight Center: Model GSFC GEOS-1 (4x5 L20) 1993</TITLE>
+</HEAD>
+<BODY BACKGROUND="gifs/bg9.gif">
+<BODY>
+
+<h2>
+<a name="RTFToC1">Goddard Space Flight Center: Model GSFC GEOS-1 (4x5 L20) 1993</a></h2>
+<hr>
+<h3>
+<a name="RTFToC2">AMIP
+Representative(s)
+</a></h3>Dr. Wei Min and Dr. Richard Rood, Data Assimilation Office, Mail Code 910.3, Goddard Space Flight Center, Greenbelt, Maryland 20771; Phone: +1-301-286-8695; Fax: +1-301-286-1754; e-mail: min@dao.gsfc.nasa.gov (Min) and rood@sgccp.gsfc.nasa.gov (Rood); World Wide Web URL: <a href="http://dao.gsfc.nasa.gov/"> http://dao.gsfc.nasa.gov/</a><h3>
+<a name="RTFToC3">Model Designation
+</a></h3>
+GSFC GEOS-1 (4x5 L20) 1993
+<h3>
+<a name="RTFToC4">Model Lineage
+</a></h3>
+The GSFC model, equivalent to the Goddard Earth Observing System-1 (GEOS-1) model, was developed by the Data Assimilation Office of the Goddard Laboratory for Atmospheres (GLA). The GSFC/GEOS-1 model is designed for use with an optimal interpolation analysis scheme for production of multi-year global atmospheric datasets (cf. Schubert et al. 1993)
+<a href="21gsfc_fn.html#fn0">[1]</a>. The earliest model predecessor was based on the "plug-compatible" concepts outlined by Kalnay et al. (1989)
+<a href="21gsfc_fn.html#fn1">[2]</a>, and subsequent refinements are described by Fox-Rabinovitz et al. (1991)
+<a href="21gsfc_fn.html#fn2">[3]</a>, Helfand et
+al. (1991),
+<a href="21gsfc_fn.html#fn3">[4]</a> and Suarez and Takacs (1993)
+<a href="21gsfc_fn.html#fn4">[5]</a>. The GSFC/GEOS-1 model represents a different historical line of development from that of the <a href="21gla_ToC.html">GLA model</a>, which is also in use at the Goddard Laboratory for Atmospheres. The GSFC/GEOS-1 and GLA models differ substantially, especially in their dynamical formulations and numerics, as well as in physical parameterizations pertaining to the treatment of convection and land surface processes.
+<h3>
+<a name="RTFToC5">Model
+Documentation
+</a></h3>
+A summary of basic model features is provided by Schubert et al. (1993)
+<a href="21gsfc_fn.html#fn0">[1]</a>.
+Details of the numerics are given by Suarez and Takacs (1993). The radiation
+scheme is that of Harshvardhan et al. (1987)
+<a href="21gsfc_fn.html#fn5">[6]</a>. The parameterizations of convection and
+evaporation of rainfall follow Moorthi and Suarez (1992)
+<a href="21gsfc_fn.html#fn6">[7]</a> and Sud and Molod (1988)
+<a href="21gsfc_fn.html#fn7">[8]</a> respectively. Treatment of turbulent
+dissipation is based on formulations of Helfand and Labraga (1988)
+<a href="21gsfc_fn.html#fn8">[9]</a> and Helfand et al. (1991)
+<a href="21gsfc_fn.html#fn3">[4]</a>.
+<h2>
+<a name="RTFToC6">Numerical/Computational
+Properties
+</a></h2>
+<h3>
+<a name="RTFToC7">Horizontal
+Representation
+</a></h3>
+Finite differences on a staggered Arakawa C-grid that conserves potential
+enstrophy and energy (cf. Burridge and Haseler 1977
+<a href="21gsfc_fn.html#fn9">[10]</a>).
+<h3>
+<a name="RTFToC8">Horizontal
+Resolution
+</a></h3>
+4 x 5-degree latitude-longitude grid.
+<h3>
+<a name="RTFToC9">Vertical
+Domain
+</a></h3>
+Surface to about 10 hPa. For a surface pressure of 1000 hPa, the lowest
+atmospheric level is at a pressure of about 994 hPa.
+<h3>
+<a name="RTFToC10">Vertical
+Representation
+</a></h3>
+Unstaggered finite-differences in generalized sigma coordinates. The vertical
+differencing scheme is that of Arakawa and Suarez (1983)
+<a href="21gsfc_fn.html#fn10">[11]</a>, which conserves the global mass integral
+of potential temperature for adiabatic processes, and ensures an accurate
+finite-difference analogue of the energy-conversion term and the pressure
+gradient force.
+<h3>
+<a name="RTFToC11">Vertical
+Resolution
+</a></h3>
+There are 20 unevenly spaced sigma levels. For a surface pressure of 1000 hPa,
+5 levels are below 800 hPa and 7 levels are above 200 hPa.
+<h3>
+<a name="RTFToC12">Computer/Operating
+System
+</a></h3>
+The AMIP simulation was run on a Cray Y/MP computer using a single processor in
+the UNICOS environment.
+<h3>
+<a name="RTFToC13">Computational
+Performance
+</a></h3>
+For the AMIP experiment, about 4 minutes of Cray Y/MP computer time per
+simulated day.
+<h3>
+<a name="RTFToC14">Initialization</a></h3>
+For the AMIP simulation, the model atmospheric state is initialized for 1
+January 1979 from the ECMWF reanalysis of the FGGE period. The initial soil
+wetness fractions (see <a href="21gsfc.html#RTFToC35">Land Surface Processes</a>) are specified from the  January
+1979 estimates of Schemm et al. (1992)
+<a href="21gsfc_fn.html#fn11">[12]</a>,
+and snow cover from a January climatology (see <a href="21gsfc.html#RTFToC32">Snow Cover</a>).
+<h3>
+<a name="RTFToC15">Time
+Integration Scheme(s)
+</a></h3>
+The main time integration is by a leapfrog scheme with an Asselin (1972)
+<a href="21gsfc_fn.html#fn12">[13]</a> time filter. Turbulent surface fluxes and
+vertical diffusion (see <a href="21gsfc.html#RTFToC20">Diffusion</a> and <a href="21gsfc.html#RTFToC34">Surface Fluxes</a>) are
+computed by a backward-implicit iterative time scheme. The time step for
+dynamics is 5 minutes. To avoid introducing shocks and imbalances in the
+dynamics, diabatic increments are added at each dynamical time step. The
+tendencies of diabatic processes are updated at time steps of 10 minutes for
+moist convection, 30 minutes for turbulent dissipation, and 3 hours for
+radiative fluxes. 
+<h3>
+<a name="RTFToC16">Smoothing/Filling</a></h3>
+<ul>
+<li>	Orography is smoothed (see <a href="21gsfc.html#RTFToC29">Orography</a>). A sixteenth-order Shapiro
+(1970)
+<a href="21gsfc_fn.html#fn13">[14]</a> filter is applied to the winds,
+potential temperature, and specific humidity in order to damp small-scale
+dispersive waves. (The filter is applied fractionally at every 5-minute
+dynamical time step such that the amplitude of the two-grid interval wave is
+reduced by half in two hours.) A high-latitude Fourier filter also is used to
+avoid violation of the Courant-Friedrichs-Lewy (CFL) condition for the Lamb
+wave and internal gravity waves. This polar filter is applied only to the
+tendencies of the winds, potential temperature, specific humidity, and surface
+pressure.
+<p>
+<li>	Negative values of specific humidity in a vertical column are filled by
+borrowing from below, with negative moisture points in the lowest layer set to
+zero. </ul><h3>
+<a name="RTFToC17">Sampling
+Frequency
+</a></h3>
+For the AMIP simulation, the history of prognostic atmospheric variables is
+produced every 6 hours at 18 pressure levels, while surface and vertically
+integrated diagnostics are generated every 3 hours.
+<h2>
+<a name="RTFToC18">Dynamical/Physical
+Properties
+</a></h2>
+<h3>
+<a name="RTFToC19">Atmospheric
+Dynamics
+</a></h3>
+Primitive-equation dynamics are expressed in terms of u-v winds, potential
+temperature, specific humidity, and surface pressure. The momentum equations
+are written in "vector-invariant" form (cf. Sadourny 1975b
+<a href="21gsfc_fn.html#fn14">[15]</a> and Arakawa and Lamb 1981
+<a href="21gsfc_fn.html#fn15">[16]</a>), while the thermodynamic and moisture
+equations are rendered in flux form to facilitate conservation of potential
+temperature and specific humidity.
+<h3>
+<a name="RTFToC20">Diffusion</a></h3>
+<ul>
+<li>	Horizontal diffusion is not modeled.
+<p>
+<li>	Above the surface layer (see <a href="21gsfc.html#RTFToC34">Surface Fluxes</a>), turbulent fluxes of
+momentum, heat, and moisture are calculated by the level-2.5 closure scheme of
+Helfand and Labraga (1988)
+<a href="21gsfc_fn.html#fn8">[9]</a>, which predicts turbulence kinetic energy (TKE) and
+determines the eddy transfer coefficients used for a bulk formulation. </ul><h3>
+<a name="RTFToC21">Gravity-wave
+Drag
+</a></h3>
+Gravity-wave drag is not modeled.
+<h3>
+<a name="RTFToC22">Solar
+Constant/Cycles
+</a></h3>
+The solar constant is the AMIP-prescribed value of 1365 W/(m^2). Both
+seasonal and diurnal cycles in solar forcing are simulated.
+<h3>
+<a name="RTFToC23">Chemistry</a></h3>
+The carbon dioxide concentration is the AMIP-prescribed value of 345 ppm.
+Monthly zonal profiles of ozone concentrations are specified from data of
+Rosenfield et al. (1987)
+<a href="21gsfc_fn.html#fn16">[17]</a>, with linear
+interpolation for intermediate time steps. Radiative effects of water vapor,
+but not those of aerosols, are also included (see <a href="21gsfc.html#RTFToC24">Radiation</a>). 
+<h3>
+<a name="RTFToC24">Radiation</a></h3>
+<ul>
+<li>	Atmospheric radiation is simulated by the scheme of Harshvardhan et al. (1987)
+<a href="21gsfc_fn.html#fn5">[6]</a>. The shortwave parameterization after Davies (1982)
+<a href="21gsfc_fn.html#fn17">[18]</a> follows the approach of Lacis and Hansen (1974)
+<a href="21gsfc_fn.html#fn18">[19]</a>. Absorption by water vapor in
+near-infrared (0.70 to 4.0 microns) spectral ranges, and by ozone in the
+visible (0.45 to 0.75 micron) and ultraviolet (0.24 to 0.36 micron) is treated.
+<p>
+<li>	The parameterization of longwave radiation employs a wide-band model, with
+four broad-band transmissions. Water vapor absorption in two bands centered at
+9.6 and 15 microns is calculated after the method of Chou (1984)
+<a href="21gsfc_fn.html#fn19">[20]</a>, based on both line-type and e-type
+approximations. Absorption by carbon dioxide follows the scheme of Chou and Peng (1983)
+<a href="21gsfc_fn.html#fn20">[21]</a>, which separates the
+band-wing and band-center scaled paths. Absorption by ozone applies the
+Rosenfield et al. (1987)
+<a href="21gsfc_fn.html#fn16">[17]</a> modifications of the Rodgers (1968)
+<a href="21gsfc_fn.html#fn21">[22]</a> line width.
+<p>
+<li>	Shortwave scattering by clouds (as a function of solar zenith angle) is
+treated by the Meador and Weaver (1980)
+<a href="21gsfc_fn.html#fn22">[23]</a>
+modified delta-Eddington approximation; cloud albedo and transmissivity are
+obtained from specified single-scattering albedo and optical thickness.
+Cloud-water absorption is determined from a multiple-scattering computation
+with k-distribution functions. In the longwave, all clouds act as blackbodies
+(emissivity = 1.0). The cloud fractions produced by moist convective processes
+(see <a href="21gsfc.html#RTFToC25">Convection</a>) are used to evaluate clear line-of-site probabilities and
+effective optical thicknesses. For purposes of the radiation calculations, deep
+convective cloud is fully overlapped in the vertical, while shallow convective
+and nonconvective clouds are randomly overlapped. See also <a href="21gsfc.html#RTFToC26">Cloud Formation</a>.</ul><h3>
+<a name="RTFToC25">Convection</a></h3>
+<ul>
+<li>	Penetrative and shallow cumulus convection are simulated by the Relaxed
+Arakawa-Schubert (RAS) scheme of Moorthi and Suarez (1992)
+<a href="21gsfc_fn.html#fn6">[7]</a>, a modification of
+the Arakawa and Schubert (1974)
+<a href="21gsfc_fn.html#fn23">[24]</a>
+parameterization. The RAS scheme predicts mass fluxes from convective cloud
+types that have different entrainment rates and levels of neutral buoyancy. The
+predicted convective mass fluxes are used to solve budget equations that
+determine the impact of convection on the grid-scale fields of temperature
+(through latent heating and compensating subsidence) and moisture (through
+precipitation and detrainment).
+<p>
+<li>	The mass flux for each cloud type in RAS is predicted from an equation for
+the cloud work function, defined as the tendency of cumulus kinetic energy
+(CKE). The equation is solved by assuming that the rate of generation of CKE by
+the large-scale environment is balanced by dissipation at the scale of the
+cumulus subensemble (that is, a quasi-equilibrium condition). To approximate
+full interaction between the different cloud types, many clouds are simulated
+frequently; each modifies the environment by some fraction of the total
+adjustment, with a relaxation towards neutrality. See also <a href="21gsfc.html#RTFToC26">Cloud Formation</a> and <a href="21gsfc.html#RTFToC27">Precipitation</a>. </ul><h3>
+<a name="RTFToC26">Cloud
+Formation
+</a></h3>
+<ul>
+<li>	Convective cloud is determined diagnostically as part of the RAS scheme
+(see <a href="21gsfc.html#RTFToC25">Convection</a>). The lowest two model layers are regarded as a single
+subcloud layer (nominally 50 hPa thick); then, if detrainment occurs in the
+next two higher layers when the RAS scheme is invoked (every 10 minutes of the
+integration), the convection is defined as shallow with randomly overlapped
+cloud, and a fractional cloudiness of 0.5 is assigned at the detrainment level.
+In addition, 10 other cloud-top levels are randomly chosen between cloud base
+and the top layer; if deep convection with a cloud-top pressure &lt;400 hPa
+occurs, the associated cloud is treated as fully overlapped with a fractional
+cloudiness of unity at the detrainment level.
+<p>
+<li>	Large-scale randomly overlapped cloud is prescribed when grid-scale
+supersaturation occurs in the absence of deep convective cloud (to ensure that
+total cloud fraction does not exceed unity). Under such conditions, the grid
+box is assumed to be instantaneously covered with the large-scale cloud
+(cloudiness fraction of 1). See also <a href="21gsfc.html#RTFToC24">Radiation</a> for cloud-radiative
+interactions.</ul><h3>
+<a name="RTFToC27">Precipitation</a></h3>
+<ul>
+<li>	Convective precipitation results from operation of the cumulus convection
+scheme (see <a href="21gsfc.html#RTFToC25">Convection</a>). Large-scale precipitation forms under
+supersaturated conditions (see <a href="21gsfc.html#RTFToC26">Cloud Formation</a>).
+<p>
+<li>	Both large-scale and convective precipitation may evaporate in falling to
+the surface (cf. Sud and Molod 1988)
+<a href="21gsfc_fn.html#fn7">[8]</a>. The evaporation parameterization takes
+into account rainfall intensity, drop size distribution, and the temperature,
+pressure, and relative humidity of the ambient air; the moisture deficit of a
+layer is treated as a free parameter.</ul><h3>
+<a name="RTFToC28">Planetary
+Boundary Layer
+</a></h3>
+The PBL height is diagnosed as the level at which TKE is reduced to 10 percent
+of its surface value (see <a href="21gsfc.html#RTFToC20">Diffusion</a>), typically within the first 2 to 4
+levels above the surface (sigma = 0.994 to 0.875). See also <a href="21gsfc.html#RTFToC33">Surface Characteristics</a> and <a href="21gsfc.html#RTFToC34">Surface Fluxes</a>. 
+<h3>
+<a name="RTFToC29">Orography</a></h3>
+Surface orography is determined from area-averaging the U.S. Navy topographic
+height data with 10-minute arc resolution (cf. Joseph 1980)
+<a href="21gsfc_fn.html#fn24">[25]</a> over the model's 4 x 5-degree grid. The
+resulting heights are passed through a Lanczos (1966)
+<a href="21gsfc_fn.html#fn25">[26]</a> filter to remove the smallest scales, and
+negative values are refilled.
+<h3>
+<a name="RTFToC30">Ocean</a></h3>
+AMIP monthly sea surface temperature fields are prescribed, with linear
+interpolation to intermediate time steps (see <a href="21gsfc.html#RTFToC15">Time Integration Scheme(s)</a>). 
+<h3>
+<a name="RTFToC31">Sea
+Ice
+</a></h3>
+AMIP monthly sea ice extents are prescribed and linearly interpolated to
+intermediate time steps. The ice is assumed to have a uniform thickness of 3 m,
+and the heat conduction through it is accounted for as part of the surface
+energy budget (see <a href="21gsfc.html#RTFToC34">Surface Fluxes</a>), with the surface temperature over
+ice determined prognostically. Snow is not present on sea ice (see <a href="21gsfc.html#RTFToC32">Snow Cover</a>). 
+<h3>
+<a name="RTFToC32">Snow
+Cover
+</a></h3>
+Snow mass is not a prognostic variable. Monthly snow cover over land is
+prescribed from satellite-derived surface albedo estimates of Matson (1978)
+<a href="21gsfc_fn.html#fn26">[27]</a>: wherever the albedo of a grid box exceeds
+0.40, that area is defined as snow-covered. (In the Southern Hemisphere, snow
+cover is only specified for Antarctica). If precipitation falls when the ground
+temperature is &lt;0 degrees C, some thermodynamic effects of snow cover are
+also included. See also <a href="21gsfc.html#RTFToC33">Surface Characteristics</a> and <a href="21gsfc.html#RTFToC35">Land Surface Processes.</a></ul>
+<h3>
+<a name="RTFToC33">Surface Characteristics
+</a></h3>
+<ul>
+<li>	Over land, monthly varying roughness lengths are specified from the data
+of Dorman and Sellers (1989)
+<a href="21gsfc_fn.html#fn27">[28]</a>. A uniform
+roughness of 1 x 10^-4 m is prescribed for ice surfaces. Over the
+oceans, the roughness is computed as an interpolation between the functions of
+Large and Pond (1981)
+<a href="21gsfc_fn.html#fn28">[29]</a> for high surface
+winds and of Kondo (1975)
+<a href="21gsfc_fn.html#fn29">[30]</a> for weak winds.
+<p>
+<li>	The surface albedo is specified as a uniform 0.80 over ice surfaces, but over the oceans it is a function of solar zenith angle. Monthly varying surface albedos of snowfree land are specified following modified Posey and Clapp (1964)
+<a href="21gsfc_fn.html#fn30">[31]</a> data. The albedos of snow-covered
+land (see <a href="21gsfc.html#RTFToC32">Snow Cover</a>) are specified from monthly satellite-derived
+estimates of Matson (1978)
+<a href="21gsfc_fn.html#fn26">[27]</a>, and depend on the surface type (with seven types distinguished), but not spectral interval. Monthly albedos are linearly interpolated to intermediate time steps. Cf. Kitzmiller (1979)
+<a href="21gsfc_fn.html#fn31">[32]</a> for further details.
+<p>
+<li>	Longwave emissivity is assumed to be unity (blackbody emission) for all
+surfaces.</ul><h3>
+<a name="RTFToC34">Surface Fluxes
+</a></h3>
+<ul>
+<li>	Surface solar absorption is determined from albedos, and longwave emission
+from the Planck equation with prescribed emissivity of 1.0 (see <a href="21gsfc.html#RTFToC33">Surface Characteristics</a>).
+<p>
+<li>	Turbulent eddy fluxes of momentum, heat, and moisture in the extended
+surface layer are calculated from stability-dependent bulk formulae based on
+Monin-Obukhov similarity functions. For an unstable surface layer, the chosen
+stability functions are the KEYPS function for the momentum flux (cf. Panofsky 1973)
+<a href="21gsfc_fn.html#fn32">[33]</a> and its generalization for heat and
+moisture (which assures nonvanishing fluxes as the surface wind speed
+approaches zero). For a stable surface layer, the stability functions are those
+of Clarke (1970)<a href="21gsfc_fn.html#fn33">[34]</a>, but they are slightly
+modified for the momentum flux. The vertical gradients in temperature and
+moisture are based on the relation of Yaglom and Kader (1974)
+<a href="21gsfc_fn.html#fn34">[35]</a>. The surface moisture flux also depends on
+the evapotranspiration efficiency beta, which is specified as unity over
+oceans, but which over land is given by the locally prescribed monthly soil
+wetness fraction (see <a href="21gsfc.html#RTFToC35">Land Surface Processes</a>).
+Cf. Helfand (1985)
+<a href="21gsfc_fn.html#fn35">[36]</a> and Helfand et al. (1991)
+<a href="21gsfc_fn.html#fn3">[4]</a> for further details. See also <a href="21gsfc.html#RTFToC20">Diffusion</a>.</ul>
+<h3>
+<a name="RTFToC35">Land
+Surface Processes
+</a></h3>
+<ul>
+<li>	Soil temperature is determined from a surface energy balance (see
+<a href="21gsfc.html#RTFToC34">Surface Fluxes</a>), excluding provision for subsurface heat storage. When
+precipitation falls on ground with temperature &lt;0 degrees C, the conductance
+of the soil is modified to partially account for the thermodynamic effects of
+snow (see <a href="21gsfc.html#RTFToC32">Snow Cover</a>).
+<p>
+<li>	The spatially variable soil wetness fraction (ratio of local soil moisture
+content to a uniform field capacity of 0.15 m of water) is prescribed from
+monthly estimates of Schemm et al. (1992)
+<a href="21gsfc_fn.html#fn11">[12]</a>. These are based on the procedure
+developed by Mintz and Serafini (1984)
+<a href="21gsfc_fn.html#fn36">[37]</a> using a single-layer "bucket" model in
+conjunction with monthly observed surface air temperature and precipitation for the AMIP period 1979 to 1988. </ul>
+
+<p><h4><p><A HREF="21gsfc_fn.html"><IMG SRC="gifs/Button_blue.gif">	Go to GSFC References</a></h4>
+
+<p><h4><p><A HREF="21gsfc_ToC.html"><IMG SRC="gifs/Button_blue.gif">	Return to GSFC Table of Contents</a></h4>
+
+<h4><A HREF="01toc.html"><IMG SRC="gifs/Button_blue.gif">	Return to Main Document Directory</a></h4>
+
+<P><HR>
+
+Last update December 12, 1996.  For further information, contact: Tom Phillips (<a href="mailto: phillips@tworks.llnl.gov">phillips@tworks.llnl.gov </a>)<P>
+<A HREF="http://www.llnl.gov/disclaimer.html">LLNL Disclaimers</A><p>
+UCRL-ID-116384<p>
+</body>
+<!-- Mirrored from www-pcmdi.llnl.gov/modeldoc/amip1/21gsfc.html by HTTrack Website Copier/3.x [XR&CO'2004], Fri, 09 Jul 2004 21:04:18 GMT -->
+
+<!-- Mirrored from www-pcmdi.llnl.gov/projects/modeldoc/amip1/21gsfc.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 20 Jun 2016 20:11:32 GMT -->
+</html>

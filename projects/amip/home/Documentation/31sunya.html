@@ -1,0 +1,379 @@
+---
+layout: AMIP
+---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+
+<!-- Mirrored from www-pcmdi.llnl.gov/modeldoc/amip1/31sunya.html by HTTrack Website Copier/3.x [XR&CO'2004], Fri, 09 Jul 2004 21:04:18 GMT -->
+
+<!-- Mirrored from www-pcmdi.llnl.gov/projects/modeldoc/amip1/31sunya.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 20 Jun 2016 20:11:32 GMT -->
+<HEAD>
+   <TITLE>State University of New York at Albany: Model SUNYA CCM1-TG (R15 L12) 1990</TITLE>
+   <META NAME="GENERATOR" CONTENT="Mozilla/3.04Gold (X11; U; SunOS 4.1.3 sun4m) [Netscape]">
+</HEAD>
+<BODY BACKGROUND="bg9.gif">
+
+<H2>State University of New York at Albany: Model SUNYA CCM1-TG (R15 L12)
+1990</H2>
+
+<P>
+<HR></P>
+
+<H3><A NAME="RTFToC2"></A>AMIP Representative(s) </H3>
+
+<P>Dr. Wei-Chyung Wang and Dr. Xin-Zhong Liang, Atmospheric Sciences Research
+Center, State University of New York at Albany, 100 Fuller Road, Albany,
+NewYork 12205; Phone: +1-518-442-3816; Fax: +1-518-442-3360; e-mail: wang@climate.asrc.albany.edu
+(Wang) and liang@climate.asrc.albany.edu (Liang); World Wide Web URL: <A HREF="http://www.atmos.albany.edu/das.html">http://www.atmos.albany.edu/das.html</A></P>
+
+<H3> <A NAME="RTFToC3"></A>Model Designation </H3>
+
+<P>SUNYA CCM1-TG (R15 L12) 1990 </P>
+
+<H3><A NAME="RTFToC4"></A>Model Lineage </H3>
+
+<P>The SUNYA model is identical to the standard version 1 of the NCAR Community
+Climate Model (CCM1), except for the addition of radiatively active trace
+gases other than carbon dioxide. The resulting modified CCM1 is designated
+as CCM1-TG (see <A HREF="../amip/31sunya.html#RTFToC3">Model
+Designation</A>). </P>
+
+<H3><A NAME="RTFToC5"></A>Model Documentation </H3>
+
+<P>Key documents for the standard CCM1 model are Williamson et al. (1987)<A HREF="../amip/31sunya_fn.html#fn0">
+[1]</A>, Kiehl et al. (1987)<A HREF="../amip/31sunya_fn.html#fn1">
+[2]</A>, and Bath et al. (1987a<A HREF="../amip/31sunya_fn.html#fn2">
+[3]</A>, b<A HREF="../amip/31sunya_fn.html#fn3">
+[4]</A>) Wang et al. (1991a<A HREF="../amip/31sunya_fn.html#fn4">
+[5]</A>, b<A HREF="../amip/31sunya_fn.html#fn5">
+[6]</A>) describe the treatment of radiative effects of trace gases that
+are added to CCM1. </P>
+
+<H2><A NAME="RTFToC6"></A>Numerical/Computational Properties </H2>
+
+<H3><A NAME="RTFToC7"></A>Horizontal Representation </H3>
+
+<P>Spectral (spherical harmonic basis functions) with transformation to
+a Gaussian grid for calculation of nonlinear quantities and some physics.
+</P>
+
+<H3><A NAME="RTFToC8"></A>Horizontal Resolution </H3>
+
+<P>Spectral rhomboidal 15 (R15), roughly equivalent to 4.5 x 7.5 degrees
+latitude-longitude. </P>
+
+<H3><A NAME="RTFToC9"></A>Vertical Domain </H3>
+
+<P>Surface to 9 hPa; for a surface pressure of 1000 hPa, the lowest atmospheric
+level is at 991 hPa. </P>
+
+<H3><A NAME="RTFToC10"></A>Vertical Representation </H3>
+
+<P>Sigma coordinates, with energy-conserving vertical finite-difference
+approximations (cf. Williamson 1983<A HREF="../amip/31sunya_fn.html#fn7">
+[8]</A>, 1988<A HREF="../amip/31sunya_fn.html#fn8">
+[9]</A>). </P>
+
+<H3><A NAME="RTFToC11"></A>Vertical Resolution </H3>
+
+<P>There are 12 unevenly spaced sigma levels. For a surface pressure of
+1000 hPa, 3 levels are below 800 hPa and 5 levels are above 200 hPa. </P>
+
+<H3><A NAME="RTFToC12"></A>Computer/Operating System </H3>
+
+<P>The AMIP simulation was run on a Cray 2 computer using a single processor
+in a UNICOS environment. </P>
+
+<H3><A NAME="RTFToC13"></A>Computational Performance </H3>
+
+<P>For the AMIP experiment, about 1.2 minutes Cray 2 computer time per
+simulated day. </P>
+
+<H3><A NAME="RTFToC14"></A>Initialization</H3>
+
+<P>For the AMIP experiment, initial conditions for the atmospheric state,
+soil moisture, and snow cover/depth were specified from the NCAR CCM1 model's
+standard January initial dataset (cf. Bath et al. 1987a<A HREF="../amip/31sunya_fn.html#fn2">
+[3]</A>). The model then was &quot;spun up&quot; for 210 days in a perpetual
+January mode. The resulting climate state was then taken as the 1 January
+1979 starting point for the AMIP simulation. </P>
+
+<H3><A NAME="RTFToC15"></A>Time Integration Scheme(s) </H3>
+
+<P>Time integration is by a semi-implicit Hoskins and Simmons (1975)<A HREF="../amip/31sunya_fn.html#fn26">
+[27]</A> scheme with an Asselin (1972)<A HREF="../amip/31sunya_fn.html#fn6">
+[7]</A> frequency filter. The time step is 30 minutes for dynamics and
+physics, except for full (at all Gaussian grid points and vertical levels)
+radiation calculations which are done once every 12 hours (see <A HREF="../amip/31sunya.html#RTFToC22">Solar
+Constant/Cycles</A>. </P>
+
+<H3><A NAME="RTFToC16"></A>Smoothing/Filling</H3>
+
+<P>Orography is smoothed (see <A HREF="../amip/31sunya.html#RTFToC29">Orography</A>).
+Negative values of atmospheric specific humidity (which arise because of
+numerical truncation errors in the discretized moisture equation) are filled
+by horizontal borrowing of moisture in a globally conserving manner. See
+also <A HREF="../amip/31sunya.html#RTFToC25">Convection</A>.
+</P>
+
+<H3><A NAME="RTFToC17"></A>Sampling Frequency </H3>
+
+<P>For the AMIP simulation, the model history is written once every 12
+hours. </P>
+
+<H2><A NAME="RTFToC18"></A>Dynamical/Physical Properties </H2>
+
+<H3><A NAME="RTFToC19"></A>Atmospheric Dynamics </H3>
+
+<P>Primitive-equation dynamics are expressed in terms of vorticity, divergence,
+potential temperature, specific humidity, and surface pressure. </P>
+
+<H3><A NAME="RTFToC20"></A>Diffusion</H3>
+
+<UL>
+<LI>Fourth-order (del^4) horizontal diffusion of vorticity, divergence,
+temperature, and specific humidity is computed locally on (approximately)
+constant pressure surfaces in grid-point space, except at stratospheric
+levels, where second-order (del^2) horizontal diffusion is applied (cf.
+Boville 1984<A HREF="../amip/31sunya_fn.html#fn9">
+[10]</A>). </LI>
+
+<LI>Stability-dependent vertical diffusion is computed locally in grid-point
+space at all levels. Cf. Williamson et al. (1987)<A HREF="../amip/31sunya_fn.html#fn0">
+[1]</A> for further details. </LI>
+</UL>
+
+<H3><A NAME="RTFToC21"></A>Gravity-wave Drag </H3>
+
+<P>Gravity-wave drag is not modeled. </P>
+
+<H3><A NAME="RTFToC22"></A>Solar Constant/Cycles </H3>
+
+<P>The solar constant is the AMIP-prescribed value of 1365 W/(m^2). A seasonal,
+but not a diurnal cycle, in solar forcing is simulated. </P>
+
+<H3><A NAME="RTFToC23"></A>Chemistry</H3>
+
+<P>The carbon dioxide concentration is the AMIP-prescribed value of 345
+ppm. The vertical distribution of zonal-mean mixing ratios of ozone is
+specified from monthly data of D&uuml;tsch (1978)<A HREF="../amip/31sunya_fn.html#fn10">
+[11]</A>, updated by linear interpolation every 12 hours. The radiative
+effects of water vapor and oxygen, as well as methane, nitrous oxide, and
+chlorofluorocarbon compounds CFC-11 and CFC-12 also are included, but not
+those associated with aerosols (see <A HREF="../amip/31sunya.html#RTFToC24">Radiation</A>).
+</P>
+
+<H3><A NAME="RTFToC24"></A>Radiation</H3>
+
+<UL>
+<LI>Shortwave radiation is treated in two spectral intervals--ultraviolet/visible
+(0.0 to 0.9 micron) and near-infrared (0.9 to 4.0 microns). Shortwave absorption
+by ozone, water vapor, carbon dioxide, and oxygen is modeled. Direct-beam
+absorption by water vapor is after the method of Kratz and Cess (1985)<A HREF="../amip/31sunya_fn.html#fn11">
+[12]</A>; the reflected-beam absorption (as well as Rayleigh scattering
+by gases) follows Lacis and Hansen (1974)<A HREF="../amip/31sunya_fn.html#fn12">
+[13]</A>. Oxygen absorption is treated as in Kiehl and Yamanouchi (1985)<A HREF="../amip/31sunya_fn.html#fn13">
+[14]</A>, and near-infrared absorption by carbon dioxide is after Sasamori
+et al. (1972)<A HREF="../amip/31sunya_fn.html#fn14">
+[15]</A>. Gaseous absorption within clouds is included. Cloud albedo depends
+on optical depth and solar zenith angle, with multiple scattering effects
+included. </LI>
+
+<LI>Longwave radiation is calculated in 5 spectral intervals (with wavenumber
+boundaries at 0.0, 5.0 x 10^4, 8.0 x 10^4, 1.0x10^5, 1.2 x 10^5, and 2.2
+x 10^5 m^-1). Absorption/emission by water vapor (cf. Ramanathan and Downey
+1986<A HREF="../amip/31sunya_fn.html#fn15">
+[16]</A>), carbon dioxide (cf. Kiehl and Briegleb 1991<A HREF="../amip/31sunya_fn.html#fn16">
+[17]</A>), and ozone (cf. Ramanathan and Dickinson 1979<A HREF="../amip/31sunya_fn.html#fn17">
+[18]</A>) is treated; the standard CCM1 radiation code is modified to include
+absorption/emission by methane, nitrous oxide, and chlorofluorocarbon compounds
+CFC-11 and CFC-12 (cf. Wang et al. 1991a<A HREF="../amip/31sunya_fn.html#fn4">
+[5]</A>, b<A HREF="../amip/31sunya_fn.html#fn5">
+[6]</A>). The emissivity of nonconvective cloud is a function of diagnostic
+liquid water content. For purposes of the radiation calculations, cloud
+is treated as randomly overlapped in the vertical. Cf. Kiehl et al. (1987)<A HREF="../amip/31sunya_fn.html#fn1">
+[2]</A> and Wang et al. (1991a<A HREF="../amip/31sunya_fn.html#fn4">
+[5]</A>, b<A HREF="../amip/31sunya_fn.html#fn5">
+[6]</A>) for further details. See also <A HREF="../amip/31sunya.html#RTFToC26">Cloud
+Formation</A>.</LI>
+</UL>
+
+<H3><A NAME="RTFToC25"></A>Convection</H3>
+
+<P>Moist convective adjustment after the method of Manabe et al. (1965)<A HREF="../amip/31sunya_fn.html#fn18">
+[19]</A> performs several functions: removal of negative atmospheric moisture
+values (operating with a scheme for horizontal borrowing of moisture--see
+<A HREF="../amip/31sunya.html#RTFToC16">Smoothing/Filling</A>);
+dry convective adjustment of unsaturated, unstable layers in the model
+stratosphere, with vertical mixing of moisture; and moist static adjustment
+of saturated unstable layers and of supersaturated stable layers. </P>
+
+<H3><A NAME="RTFToC26"></A>Cloud Formation </H3>
+
+<P>Cloud forms in layers where the relative humidity exceeds 100 percent.
+If the vertical lapse rate of the layer also exceeds the moist adiabatic
+value, convective cloud forms (see <A HREF="../amip/31sunya.html#RTFToC25">Convection</A>);
+otherwise, the cloud is nonconvective, and the fractional cloud cover is
+set to 0.95 in the layer. Convective cloud cover depends on the depth of
+the vertical instability, with the cloud amount in each layer adjusted
+so that the total fractional area is at most 0.30. If there is no associated
+precipitation (see <A HREF="../amip/31sunya.html#RTFToC27">Precipitation</A>),
+a minimum convective cloud fraction of 0.01 is specified in each layer.
+Cloud is not allowed to form in the lowest model layer or in the top 3
+layers, but clouds form together in the second and third layers above the
+surface if either of these layers is supersaturated. Cf. Kiehl et al. 1987<A HREF="../amip/31sunya_fn.html#fn1">
+[2]</A> for further details. See also <A HREF="../amip/31sunya.html#RTFToC24">Radiation</A>
+for treatment of cloud-radiative interactions. </P>
+
+<H3><A NAME="RTFToC27"></A>Precipitation</H3>
+
+<P>Precipitation results from application of convective adjustment (see
+<A HREF="../amip/31sunya.html#RTFToC25">Convection</A>),
+if the vertical column is supersaturated with a lapse rate exceeding moist
+adiabatic. Precipitation also results if the column is supersaturated but
+with a stable lapse rate. There is no subsequent evaporation of precipitation
+before it falls to the surface. </P>
+
+<H3><A NAME="RTFToC28"></A>Planetary Boundary Layer </H3>
+
+<P>The height of the PBL top is assumed to be that of the first level above
+the surface (sigma = 0.991), except for the calculation of a bulk Richardson
+number (see <A HREF="../amip/31sunya.html#RTFToC34">Surface
+Fluxes</A>). In that case, the PBL top is computed from the temperature
+at the first sigma level but is constrained to be at least 500 m. </P>
+
+<H3><A NAME="RTFToC29"></A>Orography</H3>
+
+<P>After interpolation of 1 x 1-degree Scripps Institution surface height
+data (cf. Gates and Nelson 1975<A HREF="../amip/31sunya_fn.html#fn19">
+[20]</A>) to the model grid, the data are smoothed using a Gaussian filter
+with 1.5-degree radius. The resulting heights are transformed into spectral
+space and truncated at the R15 model resolution. Cf. Pitcher et al. (1983)<A HREF="../amip/31sunya_fn.html#fn20">
+[21]</A> for further details. </P>
+
+<H3><A NAME="RTFToC30"></A>Ocean</H3>
+
+<P>AMIP monthly sea surface temperature fields are prescribed, with daily
+values determined by linear interpolation. </P>
+
+<H3><A NAME="RTFToC31"></A>Sea Ice </H3>
+
+<P>Monthly AMIP sea ice extents are prescribed. The ice thickness is assumed
+to be a uniform 2 m, and the sub-ice ocean temperature is specified as
+a fixed 271.2 K. The surface temperature of the sea ice is computed prognostically
+by determining heat conduction from the underlying ocean through the ice,
+following the method of Holloway and Manabe (1971)<A HREF="../amip/31sunya_fn.html#fn21">
+[22]</A>. Sea-ice surface temperature is constrained to be always &lt;
+0 degrees C (ice melting is not treated), and snow is not allowed to accumulate
+on the ice (see <A HREF="../amip/31sunya.html#RTFToC32">Snow
+Cover</A>). </P>
+
+<H3><A NAME="RTFToC32"></A>Snow Cover </H3>
+
+<P>Precipitation falls as snow if the temperatures of the surface and the
+first two atmospheric levels above it are all &lt; 0 degrees C. Snow cover
+is determined from a combination of a monthly latitude-dependent climatology
+(cf. Bath et al. 1987a<A HREF="../amip/31sunya_fn.html#fn2">
+[3]</A>) and prognostic snow accumulation (on land only) that is determined
+from a budget equation. A surface temperature &gt; 0 degrees C triggers
+snowmelt, which augments soil moisture (see <A HREF="../amip/31sunya.html#RTFToC35">Land
+Surface Processes</A>). Snow cover is also depleted by sublimation, which
+is calculated as part of the surface evaporative flux (see <A HREF="../amip/31sunya.html#RTFToC34">Surface
+Fluxes</A>). </P>
+
+<H3><A NAME="RTFToC33"></A>Surface Characteristics </H3>
+
+<UL>
+<LI>The surface roughness length is specified as a uniform 0.25 m over
+land, sea ice, and snow cover, and as 1.0 x 10^-3 m over ocean. </LI>
+
+<LI>Surface albedos for land surfaces are derived from the Matthews (1983)<A HREF="../amip/31sunya_fn.html#fn22">
+[23]</A> 1 x 1-degree soil/vegetation dataset, but with distinguished vegetation
+types reduced to 10 and aggregated to the model resolution (see <A HREF="../amip/31sunya.html#RTFToC8">Horizontal
+Resolution</A>). Land albedo also depends on solar zenith angle and spectral
+interval (ultraviolet/visible vs near-infrared--see <A HREF="../amip/31sunya.html#RTFToC24">Radiation</A>).
+Snow cover alters the land albedo; the composite value is determined from
+equally weighted combinations of the local background albedo and that of
+the snow (which depends on surface temperature for the diffuse beam and
+on solar zenith angle for the direct beam). Over the ocean, surface albedos
+are prescribed to be 0.0244 for the direct-beam (with sun overhead) and
+0.06 for the diffuse-beam component of radiation; the direct-beam albedo
+varies with solar zenith angle. The albedo of ice is a function of surface
+temperature. Cf. Briegleb et al. (1986)<A HREF="../amip/31sunya_fn.html#fn23">
+[24]</A> for further details. </LI>
+
+<LI>Longwave emissivities are set to unity (blackbody emission) for all
+surface types. </LI>
+</UL>
+
+<H3><A NAME="RTFToC34"></A>Surface Fluxes </H3>
+
+<UL>
+<LI>Surface solar absorption is determined from the albedos, and longwave
+emission from the Planck equation with prescribed surface emissivity of
+1.0 (see <A HREF="../amip/31sunya.html#RTFToC33">Surface
+Characteristics</A>). </LI>
+
+<LI>Surface fluxes of momentum, sensible heat and moisture are determined
+from bulk aerodynamic formulae, following the formulation of Deardorff
+(1972)<A HREF="../amip/31sunya_fn.html#fn24">
+[25]</A>. Surface drag/exchange coefficients are a function of roughness
+lengths (see <A HREF="../amip/31sunya.html#RTFToC33">Surface
+Characteristics</A>) and bulk Richardson number (see <A HREF="../amip/31sunya.html#RTFToC28">Planetary
+Boundary Layer</A>). For computing these fluxes, the surface wind speed
+is constrained to be at least 1 m/s. </LI>
+
+<LI>The surface moisture flux also depends on the evapotranspiration efficiency
+beta, which is unity over ocean, snow, and sea ice, but which over land
+is a function of soil moisture (see <A HREF="../amip/31sunya.html#RTFToC35">Land
+Surface Processes</A>).</LI>
+</UL>
+
+<H3><A NAME="RTFToC35"></A>Land Surface Processes </H3>
+
+<UL>
+<LI>Land surface temperature is determined from the balance of surface
+energy fluxes (see <A HREF="../amip/31sunya.html#RTFToC34">Surface
+Fluxes</A>) by the diagnostic method of Holloway and Manabe (1971)<A HREF="../amip/31sunya_fn.html#fn21">
+[22]</A>. (That is, there is no heat diffusion/ storage within the soil.)
+</LI>
+
+<LI>Soil moisture is represented by the single-layer &quot;bucket&quot;
+model of Budyko (1956)<A HREF="../amip/31sunya_fn.html#fn25">
+[26]</A> and Manabe (1969)<A HREF="../amip/31sunya_fn.html#fn18">
+[19]</A>, with field capacity a uniform 0.15 m of water. Soil moisture
+is increased by both precipitation and snowmelt. It is decreased by surface
+evaporation, which is determined from the product of the evapotranspiration
+efficiency beta and the potential evaporation from a surface saturated
+at the local surface temperature/pressure (see <A HREF="../amip/31sunya.html#RTFToC34">Surface
+Fluxes</A>). Over land, beta is given by the ratio of local soil moisture
+to the field capacity, with runoff occurring implicitly if this ratio exceeds
+unity. </LI>
+</UL>
+
+<H4><A HREF="../amip/31sunya_fn.html"><IMG SRC="gifs/Button_blue.gif" HEIGHT=25 WIDTH=25></A><A HREF="../amip/31sunya_fn.html">
+Go to SUNYA References</A></H4>
+
+<H4><A HREF="../amip/31sunya_ToC.html"><IMG SRC="gifs/Button_blue.gif" HEIGHT=25 WIDTH=25></A><A HREF="../amip/31sunya_ToC.html">
+Return to SUNYA Table of Contents</A></H4>
+
+<H4><A HREF="../amip/01toc.html"><IMG SRC="gifs/Button_blue.gif" HEIGHT=25 WIDTH=25></A><A HREF="../amip/01toc.html">
+Return to Main Document Directory</A></H4>
+
+<P>
+<HR>Last update January 30, 1998.For further information, contact: Tom
+Phillips( <A HREF="mailto: phillips@tworks.llnl.gov">phillips@tworks.llnl.gov</A>)</P>
+
+<P> <A HREF="http://www.llnl.gov/disclaimer.html">LLNL Disclaimers</A>
+</P>
+
+<P>UCRL-ID-116384</P>
+
+<P> </P>
+
+</BODY>
+
+<!-- Mirrored from www-pcmdi.llnl.gov/modeldoc/amip1/31sunya.html by HTTrack Website Copier/3.x [XR&CO'2004], Fri, 09 Jul 2004 21:04:18 GMT -->
+
+<!-- Mirrored from www-pcmdi.llnl.gov/projects/modeldoc/amip1/31sunya.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 20 Jun 2016 20:11:32 GMT -->
+</HTML>

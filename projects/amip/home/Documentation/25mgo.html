@@ -1,0 +1,390 @@
+---
+layout: AMIP
+---
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN//2.0">
+<HTML>
+<!-- Mirrored from www-pcmdi.llnl.gov/modeldoc/amip1/25mgo.html by HTTrack Website Copier/3.x [XR&CO'2004], Fri, 09 Jul 2004 21:01:49 GMT -->
+
+<!-- Mirrored from www-pcmdi.llnl.gov/projects/modeldoc/amip1/25mgo.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 20 Jun 2016 19:41:27 GMT -->
+<HEAD>
+<TITLE>Main Geophysical Observatory: Model MGO AMIP92 (T30 L14) 1992</TITLE>
+</HEAD>
+<BODY BACKGROUND="gifs/bg9.gif">
+<BODY>
+
+<h2>
+<a name="RTFToC1">Main Geophysical Observatory: Model MGO AMIP92 (T30 L14) 1992</a></h2>
+<hr>
+<h3>
+<a name="RTFToC2">AMIP
+Representative(s)
+</a></h3>
+Dr. Valentin Meleshko, Voeikov Main Geophysical Observatory, 7 Karbyshev Str., 194018 St. Petersburg, Russia; Phone: +7-812-247-01-03; Fax: +7-812-247-01-03; e-mail: vmeleshk@mgo.spb.su<h3>
+<a name="RTFToC3">Model
+Designation
+</a></h3>
+MGO AMIP92 (T30 L14) 1992<h3>
+<a name="RTFToC4">Model Lineage
+</a></h3>
+The MGO model was first employed in research in 1983 (cf. Meleshko et al. 1980
+<a href="25mgo_fn.html#fn0">[1]</a> and Sokolov 1986
+<a href="25mgo_fn.html#fn1">[2]</a>). The current third generation model includes
+enhancements in the simulation of radiative transfer; vertical turbulent
+exchange of heat, moisture, and momentum between the surface and the
+atmosphere; and heat and moisture exchange in the soil.
+<h3>
+<a name="RTFToC5">Model
+Documentation
+</a></h3>
+Key documentation of the model is provided by Meleshko et al. (1991)
+<a href="25mgo_fn.html#fn2">[3]</a>.
+<h2>
+<a name="RTFToC6">Numerical/Computational
+Properties
+</a></h2>
+<h3>
+<a name="RTFToC7">Horizontal
+Representation
+</a></h3>
+Spectral (spherical harmonic basis functions) with transformation to a Gaussian
+grid for calculation of nonlinear quantities and some physics.
+<h3>
+<a name="RTFToC8">Horizontal
+Resolution
+</a></h3>
+The spectral triangular truncation is at total wave number 30 (T30), roughly
+equivalent to a 3.75 x 3.75-degree 1atitude-longitude grid.
+<h3>
+<a name="RTFToC9">Vertical
+Domain
+</a></h3>
+Surface to 12.5 hPa. For a surface pressure of 1000 hPa, the lowest atmospheric
+level is at 992 hPa.
+<h3>
+<a name="RTFToC10">Vertical
+Representation
+</a></h3>
+Thermodynamically consistent finite difference formulation in sigma coordinates
+with momentum conservation (cf. Sheinin 1987
+<a href="25mgo_fn.html#fn3">[4]</a> and Magazenkov and Sheinin 1988
+<a href="25mgo_fn.html#fn4">[5]</a>).
+<h3>
+<a name="RTFToC11">Vertical
+Resolution
+</a></h3>
+There are 14 irregularly spaced sigma levels. For a surface pressure of 1000
+hPa, 5 levels are below 800 hPa and 4 levels are above 200 hPa.
+<h3>
+<a name="RTFToC12">Computer/Operating
+System
+</a></h3>
+The AMIP simulation was run on a Cray 2 computer using a single processor in a
+UNICOS environment.
+<h3>
+<a name="RTFToC13">Computational
+Performance
+</a></h3>
+For the AMIP experiment, about 6 minutes of Cray 2 computation time per
+simulated day.
+<h3>
+<a name="RTFToC14">Initialization</a></h3>
+For the AMIP simulation, the model atmosphere is initialized for 1 January 1979
+from ECMWF analyses. Initial conditions for soil moisture and snow cover/mass
+are taken from mean-January ECMWF climatologies.
+<h3>
+<a name="RTFToC15">Time
+Integration Scheme(s)
+</a></h3>
+The main time integration is done by a two-step semi-implicit method (cf.
+Sheinin 1983)
+<a href="25mgo_fn.html#fn5">[6]</a>, but an Euler-backward scheme
+is used for the vertical transport of momentum, heat, and moisture, which are
+split from other physical processes (see <a href="25mgo.html#RTFToC34">Surface Fluxes</a>). The time step
+length is 30 minutes for dynamics and physics, except for full radiation
+calculations which are done once every 12 hours.
+<h3>
+<a name="RTFToC16">Smoothing/Filling</a></h3>
+High-resolution topography is adjusted to the model's resolution by means of a
+special filter (see <a href="25mgo.html#RTFToC29">Orography</a>). Negative values of moisture are filled
+by a horizontal and vertical borrowing procedure.
+<h3>
+<a name="RTFToC17">Sampling
+Frequency
+</a></h3>
+For the AMIP simulation, the model history is written once every 24 hours.
+<h2>
+<a name="RTFToC18">Dynamical/Physical
+Properties
+</a></h2>
+<h3>
+<a name="RTFToC19">Atmospheric
+Dynamics
+</a></h3>
+Primitive-equation dynamics are expressed in terms of vorticity, divergence,
+virtual temperature, specific humidity, and surface pressure.
+<h3>
+<a name="RTFToC20">Diffusion</a></h3>
+<ul>
+<li>	There is second-order horizontal diffusion of vorticity, divergence,
+temperature, and specific humidity on sigma surfaces for total spectral wave
+numbers &gt;23 (cf. Laursen and Eliasen 1989)
+<a href="25mgo_fn.html#fn6">[7]</a>.
+<p>
+<li>	Stability-dependent vertical diffusion of atmospheric momentum,
+temperature, and specific humidity is modeled (cf. Louis 1979)
+<a href="25mgo_fn.html#fn7">[8]</a>.</ul><h3>
+<a name="RTFToC21">Gravity-wave
+Drag
+</a></h3>
+The formulation of gravity-wave drag follows McFarlane (1987)
+<a href="25mgo_fn.html#fn8">[9]</a>. Deceleration of the resolved flow by
+dissipation of orographically excited gravity waves is a function of the rate
+at which the parameterized vertical component of the gravity-wave momentum flux
+decreases in magnitude with height. This momentum-flux term is the product of
+local air density, the component of the local wind in the direction of that at
+the near-surface reference level, and a displacement amplitude. At the surface,
+this amplitude is specified in terms of the subgrid-scale orographic variance,
+and in the free atmosphere by linear theory, but it is bounded everywhere by
+wave saturation values. See also <a href="25mgo.html#RTFToC29">Orography</a>.
+<h3>
+<a name="RTFToC22">Solar
+Constant/Cycles
+</a></h3>
+The solar constant is the AMIP-prescribed value of 1365 W/(m^2). A
+seasonal, but not a diurnal cycle in solar forcing, is simulated.
+<h3>
+<a name="RTFToC23">Chemistry</a></h3>
+The carbon dioxide concentration is the AMIP-prescribed value of 345 ppm. The
+ozone concentration is prescribed as a function of latitude and season from
+Nimbus 7 data (cf. McPeters et al. 1984)
+<a href="25mgo_fn.html#fn9">[10]</a>.
+Radiative effects of water vapor and trace gases (methane, nitrous oxide, and
+chlorofluorocarbon compounds CFC-11 and CFC-12) are also included, but not
+those of aerosols (see <a href="25mgo.html#RTFToC24">Radiation</a>). Global vertical profiles for the
+trace gases are specified from the U.S. Standard Model Atmosphere Profiles.
+<h3>
+<a name="RTFToC24">Radiation</a></h3>
+<ul>
+<li>	The shortwave fluxes are computed in three subranges: ultraviolet (0.2 to
+0.31 micron), visible (0.31 to 0.75 micron), and near-infrared (0.75 to 4.0
+microns). Fluxes in the ultraviolet and visible subranges are computed
+following Karol (1986)
+<a href="25mgo_fn.html#fn10">[11]</a>. In the ultraviolet
+subrange, only ozone absorption is considered, and the effects of scattering
+are neglected. Within the visible subrange, absorption by ozone and Rayleigh
+scattering are accounted for using the delta-Eddington approximation. In the
+near-infrared sub-range, absorption by water vapor in 12 spectral bands and by
+carbon dioxide in 6 bands is determined using a Goody statistical band model
+(cf. Rozanov and Frolkis 1988)
+<a href="25mgo_fn.html#fn11">[12]</a>.
+<p>
+<li>	The longwave fluxes are computed in 9 spectral intervals over the range 0
+to 2.2 x 10^5 m^-1, accounting for absorption by water vapor,
+carbon dioxide, ozone, and trace gases (see <a href="25mgo.html#RTFToC23">Chemistry</a>). The flux
+computation is based on the Goody statistical band model, and its parameters
+depend on temperature (cf. Karol 1986). Water vapor continuum absorption is by
+the method of Roberts et al. (1976)
+<a href="25mgo_fn.html#fn12">[13]</a>.
+<p>
+<li>	The optical properties of clouds are prescribed (cf. Gordon et al. 1984)
+<a href="25mgo_fn.html#fn13">[14]</a>, with cloud albedo depending on solar zenith
+angle. Convective cloud is assigned the same optical characteristics as the
+lower stratiform cloud. The longwave emissivity of high stratiform cloud
+depends on cloud temperature; it ranges linearly between 0.5 and 1.0 for
+temperatures from -30 degrees C to -20 degrees C, and is fixed for temperatures
+beyond this range. All other clouds emit as blackbodies (emissivity of 1.0).
+For purposes of the radiation calculations, stratiform clouds of different
+types are assumed to be randomly overlapped in the vertical, and convective
+clouds to be fully overlapped. See also <a href="25mgo.html#RTFToC26">Cloud Formation</a>.</ul><h3>
+<a name="RTFToC25">Convection</a></h3>
+<ul>
+<li>	A Kuo (1974)
+<a href="25mgo_fn.html#fn14">[15]</a> scheme is used for
+simulation of deep convection (cf. also Louis 1984)
+<a href="25mgo_fn.html#fn15">[16]</a>. Convection is assumed to occur only in the
+presence of conditionally unstable layers in the vertical and large-scale net
+moisture convergence in the horizontal. The associated convective cloud formed
+at the lifting condensation level is assumed to dissolve instantaneously
+through lateral mixing, thereby imparting heat and moisture to the environment.
+In a vertical column, the total moisture available from convergence is divided
+between a fraction b that moistens the environment and the remainder (1 - b)
+that contributes to the latent heating (rainfall) rate. The value of (1 - b) is
+taken to be the ratio of the integral moisture content in a convective layer to
+the integral saturation moisture content of this layer (cf. Meleshko et al.
+1991)
+<a href="25mgo_fn.html#fn2">[3]</a>.
+<p>
+<li>	Shallow convection is formulated as a convective adjustment process for
+moisture only.</ul><h3>
+<a name="RTFToC26">Cloud
+Formation
+</a></h3>
+<ul>
+<li>	Cloud formation follows the diagnostic technique of Slingo (1987)
+<a href="25mgo_fn.html#fn16">[17]</a>. There are three types of layer clouds (low,
+middle, and high) that are associated with large-scale disturbances. These
+clouds are present only when the relative humidity exceeds threshold values of
+90, 93, and 98 percent for high, middle, and low layers, respectively. The
+layer cloud amount is a quadratic function of this humidity excess.
+<p>
+<li>	The vertical depth of convective cloud is determined from the thickness of
+the unstable layers, and the areal extent from the logarithm of the convective
+precipitation rate (cf. Slingo 1987)
+<a href="25mgo_fn.html#fn16">[17]</a>. Of the total cloud amount, 25 percent is
+assigned to the convective column clouds in the unstable layers, while 75
+percent is assigned to the lowest unstable layer. Convective anvil cloud forms
+when the instability extends above the 400 hPa level and the convective cloud
+fraction exceeds 0.20; the anvil cloud fraction cannot exceed 0.80. See also
+<a href="25mgo.html#RTFToC24">Radiation</a> for treatment of cloud-radiative interactions.</ul><h3>
+<a name="RTFToC27">Precipitation</a></h3>
+Large-scale precipitation forms when the local relative humidity exceeds 100
+percent. Convective precipitation is determined from the complement of the
+moistening parameter b in the Kuo scheme (see <a href="25mgo.html#RTFToC25">Convection</a>). Subsequent
+evaporation of precipitation is not simulated. See also <a href="25mgo.html#RTFToC32">Snow Cover</a>. 
+<h3>
+<a name="RTFToC28">Planetary
+Boundary Layer
+</a></h3>
+The top of the boundary layer is assumed to coincide with the middle of the
+lowest atmospheric layer (sigma = 0.992). In computing surface fluxes of
+momentum, heat, and moisture from bulk formulae (see <a href="25mgo.html#RTFToC34">Surface Fluxes</a>),
+the surface wind is assigned the same value as at this lowest model level. The
+surface air temperature and specific humidity are determined from a surface
+heat balance equation and from surface wetness and soil moisture. See also
+<a href="25mgo.html#RTFToC20">Diffusion</a>,
+<a href="25mgo.html#RTFToC33">Surface Characteristics</a>, and
+<a href="25mgo.html#RTFToC35">Land Surface Processes</a>.
+</ul>
+<h3>
+<a name="RTFToC29">Orography</a></h3>
+1 x 1-degree topography of Gates and Nelson (1975)
+<a href="25mgo_fn.html#fn17">[18]</a> is smoothed with a special filter (cf.
+Hoskins 1980)
+<a href="25mgo_fn.html#fn18">[19]</a> and truncated at the model's
+spectral T30 resolution (see <a href="25mgo.html#RTFToC8">Horizontal Resolution</a>). High-resolution (6 x 6 minutes arc) topographic data are used for computation of orographic
+variances that are required for the gravity-wave drag parameterization (see
+<a href="25mgo.html#RTFToC21">Gravity-wave Drag</a>).
+<h3>
+<a name="RTFToC30">Ocean</a></h3>
+AMIP monthly sea surface temperatures are prescribed, with daily values
+determined by linear interpolation.
+<h3>
+<a name="RTFToC31">Sea
+Ice
+</a></h3>
+AMIP monthly sea ice extents are prescribed. Ice thickness is specified from
+the climatology of Bourke and Garrett (1987)
+<a href="25mgo_fn.html#fn19">[20]</a> and Jacka (1983)
+<a href="25mgo_fn.html#fn20">[21]</a>, and snow is allowed to accumulate on sea
+ice (see <a href="25mgo.html#RTFToC32">Snow Cover</a>). A two-layer scheme is used for predicting the
+temperatures of sea ice/snow layers from the surface energy balance (see
+<a href="25mgo.html#RTFToC34">Surface Fluxes</a>) with the inclusion of a heat flux from the ocean below.
+<h3>
+<a name="RTFToC32">Snow Cover
+</a></h3>
+Precipitation falls as snow if the surface air temperature is &lt;273 K. Snow
+thickness is determined from the prognostic value of snow mass and density,
+assumed to be 200 kg/(m^3); fractional coverage of a grid box by snow
+is not allowed. Snow cover affects the surface albedo of land and of sea ice
+(see <a href="25mgo.html#RTFToC33">Surface Characteristics</a>), as well as the soil heat conductivity (see <a href="25mgo.html#RTFToC35">Land Surface Processes</a>). Snowmelt contributes to soil moisture (see 
+<a href="25mgo.html#RTFToC35">Land Surface Processes</a>), and sublimation of snow is included in the surface evaporative flux (see 
+<a href="25mgo.html#RTFToC34">Surface Fluxes</a>).
+<h3>
+<a name="RTFToC33">Surface Characteristics</a>
+</h3>
+<ul>
+<li>	Different surface types (land/ocean/ice) may coexist in a grid box, and
+composite averages of surface quantities are computed in these cases (see
+<a href="25mgo.html#RTFToC34">Surface Fluxes</a> and 
+<a href="25mgo.html#RTFToC35">Land Surface Processes</a>).
+<p>
+<li>	The roughness length over land is a prescribed function of orography and vegetation type (cf. Louis 1984)
+<a href="25mgo_fn.html#fn15">[16]</a>. Over ice surfaces, the roughness length is
+uniformly specified as 0.01 m. Over the oceans, the dependence of roughness
+length on surface wind stress follows Charnock (1955)
+<a href="25mgo_fn.html#fn21">[22]</a>, with a dimensionless factor of 0.018 (cf. Ariel and Murashova 1981)
+<a href="25mgo_fn.html#fn22">[23]</a>. For a surface
+wind speed &lt;1 m/s, a minimum ocean roughness is determined from an asymptotic relationship (cf. Zilitinkevich 1970)
+<a href="25mgo_fn.html#fn23">[24]</a>.
+<p>
+<li>	Annual mean surface albedos are prescribed for bare soil and vegetation after data of Wilson and Henderson-Sellers (1985)
+<a href="25mgo_fn.html#fn24">[25]</a>. The ocean surface albedo is 0.06,
+independent of solar zenith angle. The albedo of glacial ice on Greenland and
+Antarctica is 0.80, while the albedo of sea ice is a function of surface
+temperature (cf. Wilson and Mitchell 1987)
+<a href="25mgo_fn.html#fn25">[26]</a>. The albedo of snow-covered land depends on the annual mean background albedo, the liquid snow equivalent, and the maximum snow albedo.
+<p>
+<li>	Longwave emissivity is prescribed as unity (blackbody emission) for all
+surfaces.</ul>
+<h3>
+<a name="RTFToC34">Surface Fluxes</a>
+</h3>
+<ul>
+<li>	Shortwave absorption is determined from surface albedos, and long wave emission from the Planck equation with emissivity of 1.0 (see <a href="25mgo.html#RTFToC33">Surface Characteristics</a>).
+<p>
+<li>	Simulation of the vertical turbulent exchange of heat, moisture, and
+momentum is based on Monin-Obukhov similarity theory. The values of the
+momentum, heat, and moisture fluxes over an inhomogenous surface are
+area-weighted averages of the flux from each surface type in the grid box (see
+<a href="25mgo.html#RTFToC33">Surface Characteristics</a>), and the surface drag and transfer coefficients
+depend on roughness length and vertical stability (cf. Louis 1979)
+<a href="25mgo_fn.html#fn7">[8]</a>. The surface
+moisture flux includes sublimation from snow-covered surfaces; it also depends
+on the evapotranspiration efficiency beta, which is prescribed as unity over
+ocean, snow, and ice surfaces, but which over land is a function of soil
+moisture (see <a href="25mgo.html#RTFToC35">Land Surface Processes</a>).
+<p>
+<li>	Time integration of the vertical turbulence equations is performed using the Euler-backward scheme with splitting (see <a href="25mgo.html#RTFToC15">Time Integration Scheme(s)</a>).
+</ul>
+<h3>
+<a name="RTFToC35">Land
+Surface Processes
+</a>
+</h3>
+<ul>
+<li>	Soil temperature is computed by a three-layer model with thicknesses 0.1, 0.9, and 2.0 m, from top to bottom. The thickness of the top soil layer (0.1 m) is increased when snow accumulates (see <a href="25mgo.html#RTFToC32">Snow Cover</a>). The thermodynamic
+properties of this layer are calculated as thickness-weighted averages of those
+of the two media; otherwise, the properties of the soil are assumed to be
+spatially uniform. When snow melts, the surface temperature remains constant
+(273 K) until all the snow disappears. Heating of the soil is computed from an
+energy-balance equation with the net surface heat fluxes (see <a href="25mgo.html#RTFToC34">Surface Fluxes</a>) as the upper boundary condition and with zero heat flux assumed at
+the lower boundary of the bottom soil layer (at 3 m depth).
+<p>
+<li>	Soil moisture is prognostically determined in two layers, with thicknesses
+the same as those of the two upper layers of the soil heat model (0.1 and 0.9
+m). Moisture from precipitation and snowmelt can accumulate in either layer,
+and can diffuse upward from the bottom layer (with constant diffusion
+coefficient 2.5 x 10^6 m^2/s). The hydraulic conductivity is
+computed by the method of Milly and Eagleson (1982)
+<a href="25mgo_fn.html#fn26">[27]</a>. The field capacity for moisture in the
+upper layer is a function of soil and vegetation types (cf. Wilson and
+Henderson-Sellers 1985
+<a href="25mgo_fn.html#fn24">[25]</a>), and soil moisture is depleted by evapotranspiration
+and runoff. The evapotranspiration efficiency beta (see <a href="25mgo.html#RTFToC34">Surface Fluxes</a>)
+depends on the ratio of soil moisture to the spatially uniform field capacity.
+Following Warrilow et al. (1986)
+<a href="25mgo_fn.html#fn27">[28]</a>, the
+surface runoff from the upper layer is a function of the precipitation type
+(large-scale or convective), while runoff from the lower layer is computed
+assuming that its moisture holding capacity cannot exceed the field capacity
+(cf. Meleshko et al. 1991)
+<a href="25mgo_fn.html#fn2">[3]</a>.</ul>
+
+<p><h4><p><A HREF="25mgo_fn.html"><IMG SRC="gifs/Button_blue.gif">	Go to MGO References</a></h4>
+
+<p><h4><p><A HREF="25mgo_ToC.html"><IMG SRC="gifs/Button_blue.gif">	Return to MGO Table of Contents</a></h4>
+
+<h4><A HREF="01toc.html"><IMG SRC="gifs/Button_blue.gif">	Return to Main Document Directory</a></h4>
+
+<P><HR>
+
+Last update April 19, 1996.  For further information, contact: Tom Phillips (<a href="mailto: phillips@tworks.llnl.gov">
+phillips@tworks.llnl.gov </a>)<P>
+<A HREF="http://www.llnl.gov/disclaimer.html">LLNL Disclaimers</A>
+<p>
+UCRL-ID-116384<p>
+</body>
+<!-- Mirrored from www-pcmdi.llnl.gov/modeldoc/amip1/25mgo.html by HTTrack Website Copier/3.x [XR&CO'2004], Fri, 09 Jul 2004 21:01:49 GMT -->
+
+<!-- Mirrored from www-pcmdi.llnl.gov/projects/modeldoc/amip1/25mgo.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 20 Jun 2016 19:41:27 GMT -->
+</html>

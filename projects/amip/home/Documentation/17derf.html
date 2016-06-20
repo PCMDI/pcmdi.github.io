@@ -1,0 +1,240 @@
+---
+layout: AMIP
+---
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN//2.0"><title>Dynamical Extended-Range Forecasting (at Geophysical Fluid Dynamics Laboratory): Model DERF GFDLSM392.2 (T42 L18) 1993</title></head>
+
+<!-- Mirrored from www-pcmdi.llnl.gov/projects/modeldoc/amip1/17derf.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 20 Jun 2016 20:11:32 GMT -->
+<BODY BACKGROUND="gifs/bg9.gif">
+<body>
+
+<h2><a name="RTFToC1">Dynamical Extended-Range Forecasting (at Geophysical Fluid Dynamics Laboratory): Model DERF GFDLSM392.2 (T42 L18) 1993</a></h2><hr>
+<h3><a name="RTFToC2">AMIP
+Representative(s)</a></h3>
+
+Mr. William Stern, Dynamical Extended-Range Forecasting, Geophysical Fluid Dynamics Laboratory/NOAA, Princeton University, P.O. Box 308, Princeton, New Jersey 08540; Phone: +1-609-452-6545; Fax: +1-609-987-5063; e-mail: wfs@GFDL.GOV; World Wide Web URL (for GFDL):  <a href="http://www.gfdl.gov/">http://www.gfdl.gov/</a>
+
+
+<h3><a name="RTFToC3">Model Designation</a></h3>
+
+DERF GFDLSM392.2 (T42 L18) 1993
+
+<h3><a name="RTFToC4">Model Lineage </a></h3>
+
+One of several versions of global spectral models in use at the Geophysical Fluid Dynamics Laboratory (GFDL), the DERF model is applied to dynamical extended- range forecast studies. The DERF model is similar in some respects to the <a href="20gfdl_ToC.html">GFDL climate model</a> (e.g., as documented by Manabe and Hahn (1981)<a href="17derf_fn.html#fn0">
+[1]</a>, but also displays a number of significant differences (e.g., use of triangular rather than rhomboidal spectral truncation and differences in horizontal/vertical resolution and in some physics schemes).
+
+<h3> <a name="RTFToC5">Model Documentation</a></h3>
+
+Key documentation of model features is given by Gordon and Stern (1982)<a href="17derf_fn.html#fn1">
+[2]</a>, Gordon (1986<a href="17derf_fn.html#fn2">
+[3]</a>, 1992<a href="17derf_fn.html#fn3">
+[4]</a>), and Gordon and Hovanec (1985)<a href="17derf_fn.html#fn4">
+[5]</a>, with additional details on the physics schemes provided by Miyakoda and Sirutis (1977
+<a href="17derf_fn.html#fn11">[12]</a>, 1986
+<a href="17derf_fn.html#fn5">
+[6]</a>). Extended-range forecasting results are summarized by Miyakoda et al. (1979
+<a href="17derf_fn.html#fn6">[7]</a>, 1986
+<a href="17derf_fn.html#fn7">[8]</a>), and by Stern and Miyakoda(1995)<a href="17derf_fn.html#fn32">[33]</a>.
+<h2> <a name="RTFToC6">Numerical/Computational Properties </a></h2>
+
+<h3> <a name="RTFToC7">Horizontal Representation </a></h3>
+
+Spectral (spherical harmonic basis functions) with transformation to a Gaussian grid for calculation of nonlinear quantities and some physics.
+
+<h3> <a name="RTFToC8">Horizontal Resolution
+</a></h3>
+
+Spectral triangular 42 (T42), roughly equivalent to 2.8 x 2.8 degrees latitude- longitude.
+
+<h3> <a name="RTFToC9">Vertical
+Domain </a></h3>
+
+Surface to 2.2 hPa. For a surface pressure of 1000 hPa, the lowest atmospheric level is at a pressure of about 998 hPa.
+
+<h3> <a name="RTFToC10">Vertical Representation </a></h3>
+
+Finite-difference sigma coordinates.
+
+<h3> <a name="RTFToC11">Vertical Resolution </a></h3>
+
+There are 18 unevenly spaced sigma levels. For a surface pressure of 1000 hPa, 5 levels are below 800 hPa and 5 levels are above 200 hPa. 
+
+<h3> <a name="RTFToC12">Computer/Operating System </a></h3>
+
+The AMIP simulation was run on a Cray Y/MP computer using a single processor in a UNICOS operating environment. 
+
+<h3> <a name="RTFToC13">Computational Performance </a></h3>
+
+For the AMIP experiment, about 5.5 minutes Cray Y/MP computation time per simulated day.
+
+<h3> <a name="RTFToC14">Initialization</a></h3>
+
+For the AMIP simultation, the model atmosphere is initialized for 1 January 1979 from NMC analyses for 22 December 1978, and soil moisture and snow cover/depth are initialized from ECMWF analyses.
+
+<h3> <a name="RTFToC15">Time Integration Scheme(s) </a></h3>
+
+A leapfrog semi-implicit scheme similar to that of Bourke (1974)<a href="17derf_fn.html#fn8">
+[9]</a> with Asselin (1972)<a href="17derf_fn.html#fn9">
+[10]</a> frequency filter is used for time integration. The time step is 15 minutes for dynamics and physics, except for full calculation of all radiative fluxes every 12 hours.<p>
+
+
+<h3> <a name="RTFToC16">Smoothing/Filling</a></h3>
+After condensation, filling of negative moisture values (that arise because of spectral truncation) is implemented by borrowing moisture from nearest east-west neighbors, but only if this is sufficient to make up the deficit (cf. Gordon and Stern 1982)
+<a href="17derf_fn.html#fn1">[2]</a>.
+
+<h3> <a name="RTFToC17">Sampling Frequency </a></h3>
+
+For the AMIP simulation, the model history is written every 6 hours.
+<h2> <a name="RTFToC18">Dynamical/Physical Properties </a></h2>
+
+<h3> <a name="RTFToC19">Atmospheric
+Dynamics </a></h3>
+Primitive-equation dynamics are expressed in terms of vorticity, divergence, surface pressure, specific humidity, and temperature (with a linearized correction for virtual temperature in diagnostic quantities, where applicable).
+
+<h3> <a name="RTFToC20">Diffusion</a></h3>
+<ul> <li>	Linear fourth-order (del^4) horizontal diffusion is applied to vorticity, divergence, temperature, and specific humidity on constant sigma surfaces. <p>
+
+<li>	Stability-dependent vertical diffusion with Mellor and Yamada (1982)<a href="17derf_fn.html#fn10">
+[11]</a> level-2.5 turbulence closure is applied in the planetary boundary layer and free atmosphere. To obtain the eddy diffusion coefficients, a prognostic equation is solved for the turbulence kinetic energy (TKE), with other second-order moments being calculated diagnostically (cf. also Miyakoda and Sirutis 1977<a href="17derf_fn.html#fn11">
+[12]</a>).</ul>
+
+<h3> <a name="RTFToC21">Gravity-wave Drag </a></h3>
+
+Gravity-wave drag is simulated after the method of Stern and Pierrehumbert (1988)<a href="17derf_fn.html#fn12">
+[13]</a>, with wave breaking determining the vertical distribution of momentum flux absorption. Wave breaking occurs when the vertically propagating momentum flux exceeds a saturation flux profile, which is based on criteria for convective overturning.
+
+<h3> <a name="RTFToC22">Solar Constant/Cycles </a></h3>
+
+The solar constant is the AMIP-prescribed value of 1365 W/(m^2). A seasonal, but not a diurnal cycle in solar forcing, is simulated.
+
+<h3> <a name="RTFToC23">Chemistry</a></h3>
+
+The carbon dioxide concentration is the AMIP-prescribed value of 345 ppm. Zonally averaged seasonal mean ozone distributions are specified from a dataset derived from 1970s balloon-borne ozone-sonde measurements and (above 10 hPa) on limited satellite and rocket observations. These data are linearly interpolated for intermediate times. Radiative effects of water vapor, but not of aerosols, also are included (see <a href="17derf.html#RTFToC24">Radiation</a>).
+
+<h3> <a name="RTFToC24">Radiation</a></h3>
+
+<ul> <li>	Shortwave Rayleigh scattering, and absorption in ultraviolet (wavelengths less than 0.35 micron) and visible (0.5-0.7 micron) spectral bands by ozone, and in the near- infrared (0.7-4.0 microns) by water vapor follows the method of Lacis and Hansen (1974)<a href="17derf_fn.html#fn13">
+[14]</a>. Pressure corrections and multiple reflections between clouds and the surface are treated. Radiative effects of aerosols are not included.<p>
+
+<li>	Longwave radiation follows the simplified exchange method of Fels and Schwarzkopf (1975)<a href="17derf_fn.html#fn14">
+[15]</a> and Schwarzkopf and Fels (1991)<a href="17derf_fn.html#fn15">
+[16]</a>, with calculation over spectral bands associated with carbon dioxide, water vapor, and ozone. Included also are Schwarzkopf and Fels (1985)<a href="17derf_fn.html#fn16">
+[17]</a> transmission coefficients for carbon dioxide, a Roberts et al. (1976)<a href="17derf_fn.html#fn17">
+[18]</a> treatment of the water vapor continuum, as well as the overlap effects of water vapor and carbon dioxide, and of a Voigt line-shape correction.<p>
+
+<li>	Interaction of radiation with clouds follows the delta-Eddington approach (cf. Joseph et al. 1976<a href="17derf_fn.html#fn18">
+[19]</a>). Cloud shortwave optical depth is specified for convective cloud and for warm low, middle, and high stratiform clouds and precipitating high clouds, including anvil cirrus, but shortwave optical depth depends on temperature for other subfreezing clouds following Harshvardhan et al. (1989)<a href="17derf_fn.html#fn19">
+[20]</a>. Both shortwave and longwave cloud optical properties (e.g., shortwave reflectivities and absorptivities and longwave emissivities) are linked to the cloud shortwave optical depth and to liquid/ice water path following parameterizations of Stephens (1978)
+<a href="17derf_fn.html#fn20">[21]</a> and Ramaswamy and Ramanathan (1989)
+<a href="17derf_fn.html#fn21">[22]</a>. For purposes of the radiation calculations, all clouds are assumed to be randomly overlapped in the vertical. See also 
+<a href="17derf.html#RTFToC26">Cloud Formation</a>.</ul>
+
+<h3> <a name="RTFToC25">Convection</a></h3>
+
+A convective scheme after Manabe et al. (1965)<a href="17derf_fn.html#fn22">
+[23]</a> performs moist static adjustment of saturated, unstable layers and of supersaturated stable layers. With use of the Mellor and Yamada (1982)
+<a href="17derf_fn.html#fn10">
+[11]</a> turbulence closure scheme (see 
+<a href="17derf.html#RTFToC20">Diffusion</a>), dry convective adjustment is not explicitly performed (however, a radiative cooling adjustment for clouds at least 2 layers thick does not permit the lapse rate to exceed dry adiabatic). Simulation of shallow convection is parameterized in terms of the vertical diffusion, using a method similar to that of Tiedtke (1983)<a href="17derf_fn.html#fn23">
+[24]</a>. 
+
+<h3> <a name="RTFToC26">Cloud Formation </a></h3>
+
+<ul> <li>	Stratiform and convective clouds form according to a modified form of the empirical diagnostic method of Slingo (1987)<a href="17derf_fn.html#fn24">
+[25]</a>. Some departures from the Slingo scheme include a reduction (from 80 to 70 percent) of the relative-humidity threshold for the formation of stratiform layer cloud and the linear (rather than quadratic) dependence of this cloud amount on the relative humidity above the threshold value (cf. Gordon 1992
+<a href="17derf_fn.html#fn3">[4]</a> for details).<p>
+
+<li>	Clouds are of four types: shallow convective cloud; deep convective cloud; stratiform cloud associated with tropical and extratropical disturbances that forms in low, middle, or high vertical layers; and boundary-layer stratus cloud that is associated with strong temperature inversions. The boundaries for low, middle, and high clouds vary with latitude and season according to climatology (cf. Gordon and Hovanec 1985)
+<a href="17derf_fn.html#fn4">[5]</a>.<p>
+
+<li>	Convective cloud amount depends on the convective precipitation rate. Nonprecipitating shallow convective cloud amount is determined from a scaled form of the relative-humidity criterion for low layer cloud (see below), and is confined to layers below 750 hPa in regions where a conditionally unstable lapse rate and descent, or weak vertical ascent, are present.<p>
+
+<li>	Low, middle, and high layer cloud is present only when the relative humidity is &gt; 70 percent, the amount being a linear function of this humidity excess. Low layer cloud forms below 750 hPa only in regions of upward vertical motion. The amount of low and middle layer cloud is reduced in dry downdrafts around subgrid-scale convective clouds. Boundary-layer stratus cloud associated with strong temperature inversions may also form below 750 hPa if the relative humidity is &gt; 60 percent, the amount depending on this humidity excess and the inversion strength. </ul>
+
+<h3> <a name="RTFToC27">Precipitation</a></h3>
+
+Precipitation from large-scale condensation and from the moist convective adjustment process (see <a href="17derf.html#RTFToC25">Convection</a>) forms under supersaturated conditions. Subsequent evaporation of falling precipitation is not simulated. 
+
+<h3> <a name="RTFToC28">Planetary Boundary Layer </a></h3>
+
+Conditions within the PBL are typically represented by the first 5 sigma levels above the surface (at sigma = 0.998, 0.980, 0.948, 0.901, and 0.844). See also
+<a href="17derf.html#RTFToC20">Diffusion</a> and
+<a href="17derf.html#RTFToC34">Surface Fluxes</a>.
+
+<h3> <a name="RTFToC29">Orography</a></h3>
+
+Orography obtained from a 1 x 1-degree Scripps dataset (Gates and Nelson 1975<a href="17derf_fn.html#fn25">
+[26]</a>) is interpolated to the model's Gaussian grid (see <a href="17derf.html#RTFToC8">Horizontal Resolution</a>). The heights are then transformed to spectral space and are truncated at T42 resolution. 
+
+<h3> <a name="RTFToC30">Ocean</a></h3>
+
+AMIP monthly sea surface temperature fields are prescribed, with daily values determined by linear interpolation.
+
+<h3> <a name="RTFToC31">Sea Ice </a></h3>
+<UL>
+<LI>
+
+
+AMIP monthly sea ice extents are prescribed. Snow may accumulate on sea ice, but does not alter its thermodynamic properties. The surface temperature of sea ice is prognostically determined after Deardorff (1978)<a href="17derf_fn.html#fn26">
+[27]</a> from a surface energy balance (see <a href="17derf.html#RTFToC34">Surface Fluxes</a>) that includes a conduction heat flux from the ocean below. The conduction flux is proportional to the difference between the surface temperature of the ice and the subsurface ocean temperature (assumed to be at the melting temperature of sea ice, or 271.2 K), and the flux is inversely proportional to the constant ice thickness (2 m). The heat conductivity is assumed to be a constant equal to the value for pure ice, and there is no heat storage within the ice.
+<P> 
+<LI>Southern Hemisphere sea-ice leads are crudely parameterized after Stern and Miyakoda (1988)[<A HREF="17derf_fn.html#fn40">41</A>] by imposing a fractional coverage for the Antarctic pack ice varying from 0.5 just poleward of the approximate sea ice boundary at latitude 60 S to 1.0 poleward of 70 S, where no breaks in sea ice are assumed to exist.The effects of Southern Hemisphere sea-ice leads on roughness lengths and surface fluxes also are simply accounted for. See also <a href="17derf.html#RTFToC32">Snow Cover</a>, <a href="17derf.html#RTFToC33">Surface Characteristics</a>, and <a href="17derf.html#RTFToC34">Surface Fluxes</a>.
+</UL>
+
+
+<h3> <a name="RTFToC32">Snow Cover </a></h3>
+
+Precipitation falls as snow if a linear combination of the air temperature on the lowest atmospheric level at sigma = 0.998 (weighted 0.35) and the temperature on the next higher level at sigma = 0.980 (weighted 0.65) is &lt; 0 degrees C. Snow accumulates on both land and sea ice, and snow mass is determined prognostically from a budget equation that accounts for accumulation and melting. Snow cover affects the surface albedo and the heat transfer/capacity of soil. Sublimation of snow is calculated as part of the surface evaporative flux, and snowmelt contributes to soil moisture. See also <a href="17derf.html#RTFToC33">Surface Characteristics</a>, <a href="17derf.html#RTFToC34">Surface Fluxes</a>, and <a href="17derf.html#RTFToC35">Land Surface Processes</a></i>.
+
+<h3> <a name="RTFToC33">Surface Characteristics </a></h3>
+
+<ul> <li>	Roughness lengths over oceans are determined from the surface wind stress after the method of Charnock (1955)<a href="17derf_fn.html#fn27">
+[28]</a>. Roughness lengths are prescribed uniform constants for land (0.1682 m) and sea ice (1 x 10^-4 m).  However, the effect of leads on the roughness length over Southern Hemisphere sea ice is included by computing a weighted sum of  the lead fraction <B>f</B>  times the roughness length for ocean, and the fraction (1-<B>f</B>) times the roughness length for sea ice (see <A HREF="#RTFToC31">Sea Ice</A>). Cf. Stern and Miyakoda (1988)[<A HREF="17derf_fn.html#fn40">41</A>] for further details.  <p>
+
+<li>	Over oceans the surface albedo depends on solar zenith angle (cf. Payne 1972<a href="17derf_fn.html#fn28">
+[29]</a>), while the albedo of snow-free sea ice is a constant 0.50. Albedos for snow-free land are obtained from the data of Posey and Clapp (1964)<a href="17derf_fn.html#fn29">
+[30]</a>, and do not depend on solar zenith angle or spectral interval.<p>
+
+<li>	Snow cover modifies the local surface background albedo as follows. Poleward of 70 degrees latitude, permanent snow with albedo 0.75 is assumed. Equatorward of 70 degrees, the snow albedo is set to 0.60 if the water-equivalent snow depth is at least a critical value of 0.01 m; otherwise, the albedo is a linear combination of the background and snow albedos weighted by the ratio of snow depth to this critical value.<p>
+
+<li>	Longwave emissivity is prescribed to be unity (blackbody emission) for all surfaces.</ul>
+
+<h3> <a name="RTFToC34">Surface Fluxes </a></h3>
+
+<ul><li>	Surface solar absorption is determined from the surface albedos, and longwave emission from the Planck equation, assuming blackbody emissivity (see <a href="17derf.html#RTFToC33">Surface Characteristics</a>).<p>
+
+<li>	Surface turbulent eddy fluxes follow Monin-Obukhov similarity theory, as formulated by Delsol et al. (1971)<a href="17derf_fn.html#fn30">
+[31]</a>. The momentum flux is proportional to the product of a drag coefficient, the wind speed, and the wind velocity vector at the lowest atmospheric level. The surface sensible heat flux is proportional to the product of a transfer coefficient, the wind speed at the lowest atmospheric level, and the vertical difference between the temperature at the surface and that of the lowest level. The drag and transfer coefficients are functions of stability (bulk Richardson number) and surface roughness length (see <a href="17derf.html#RTFToC33">Surface Characteristics</a>). <p>
+
+<li>	The surface moisture flux is the product of potential evaporation and the evapotranspiration efficiency beta. Potential evaporation is proportional to the product of the same transfer coefficient as for the sensible heat flux, the wind speed at the lowest atmospheric level, and the difference between the specific humidity at the lowest level and the saturated specific humidity for the local surface temperature and pressure. The evapotranspiration efficiency beta is prescribed to be unity over oceans, snow, and ice surfaces. Over land, beta is a function of the ratio of soil moisture to the constant field capacity (see <a href="17derf.html#RTFToC35">Land Surface Processes</a>).<p>
+
+<LI>Near Antarctica, surface fluxes of heat and moisture are modified to account for the effects of leads in sea ice (see <A HREF="#RTFToC31">Sea Ice</A>).  For all such mixed ice-water points, separate drag coefficients and fluxes (heat and moisture being distinguished) are calculated for ice and water.  At each point, a composite value is determined by a weighted sum, where the weights are the lead fraction <B>f</B> and (1-<B>f</B>). Cf. Stern and Miyakoda (1988)[<A HREF="17derf_fn.html#fn40">41</A>] for further details.
+<P>
+<li>	Above the constant-flux surface layer, stability-dependent vertical diffusion of momentum, heat, and moisture follows the Mellor and Yamada (1982)
+<a href="17derf_fn.html#fn10">[11]</a> level-2.5 turbulence closure scheme (see <a href="17derf.html#RTFToC20">Diffusion</a>).</ul><h3> <a name="RTFToC35">Land Surface Processes </a></h3>
+
+<ul> <li>	Soil temperature is computed after the force-restore method of Deardorff (1978)
+<a href="17derf_fn.html#fn26">[27]</a> in three layers with thicknesses of 0.05, 0.45, and 4.5 meters. Soil heat capacity/conductivity is affected by snow cover through its influence on soil moisture availability in the force-restore formulation (i.e., evapotranspiration efficiency beta = 1 for snow-covered surfaces--see <a href="17derf.html#RTFToC34">Surface Fluxes</a>).<p>
+
+<li>	Soil moisture is represented by the single-layer "bucket" model of Manabe (1969)<a href="17derf_fn.html#fn31">
+[32]</a>, with field capacity everywhere 0.15 m. Soil moisture is increased by precipitation and snowmelt, and is decreased by surface evaporation, which is determined from a product of the evapotranspiration efficiency beta and the potential evaporation from a surface saturated at the local surface temperature and pressure (see <a href="17derf.html#RTFToC34">Surface Fluxes</a>). Over land, beta is a function of the ratio of local soil moisture to the constant field capacity (0.15 m), with runoff occurring implicitly if this ratio exceeds unity. </ul>
+
+<p><h4><p><A HREF="17derf_fn.html"><IMG SRC="gifs/Button_blue.gif">	Go to DERF References</a></h4>
+
+<p><h4><p><A HREF="17derf_ToC.html"><IMG SRC="gifs/Button_blue.gif">	Return to Model Table of Contents</a></h4>
+
+<h4><A HREF="01toc.html"><IMG SRC="gifs/Button_blue.gif">	Return to Main Document Directory</a></h4>
+
+<P><HR>
+
+Last update August 9, 1996.  For further information, contact: Tom Phillips (<a href="mailto: phillips@tworks.llnl.gov">phillips@tworks.llnl.gov </a>)<P>
+
+<A HREF="http://www.llnl.gov/disclaimer.html">LLNL Disclaimers</A>
+<p>
+ UCRL-ID-116384
+
+</body>
+<!-- Mirrored from www-pcmdi.llnl.gov/modeldoc/amip1/17derf.html by HTTrack Website Copier/3.x [XR&CO'2004], Fri, 09 Jul 2004 21:04:18 GMT -->
+
+<!-- Mirrored from www-pcmdi.llnl.gov/projects/modeldoc/amip1/17derf.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 20 Jun 2016 20:11:32 GMT -->
+</html>

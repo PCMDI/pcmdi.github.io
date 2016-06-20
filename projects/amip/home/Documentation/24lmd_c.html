@@ -1,0 +1,179 @@
+---
+layout: AMIP
+---
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN//2.0">
+<HTML>
+<!-- Mirrored from www-pcmdi.llnl.gov/modeldoc/amip1/24lmd_c.html by HTTrack Website Copier/3.x [XR&CO'2004], Fri, 09 Jul 2004 21:04:18 GMT -->
+
+<!-- Mirrored from www-pcmdi.llnl.gov/projects/modeldoc/amip1/24lmd_c.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 20 Jun 2016 20:11:32 GMT -->
+<HEAD>
+<TITLE>Laboratoire de M&eacute;t&eacute;orologie Dynamique: Model LMD LMD6b (3.6x5.6 L11) 1995</TITLE>
+</HEAD>
+<BODY BACKGROUND="gifs/bg9.gif">
+<BODY>
+
+<h2>
+<a name="RTFToC1">Laboratoire de M&eacute;t&eacute;orologie Dynamique: Model LMD LMD6s (3.6x5.6 L11) 1995</a></h2><hr>
+
+<P>
+<h3><a name="RTFToC3">Model Designation</A></h3>
+LMD LMD6s (3.6x5.6 L11) 1995
+<P>
+
+<P>
+<h3><a name="RTFToC4">Model Lineage</A></h3>
+<P>
+Model LMD LMD6s (3.6x5.6 L11) 1995 developed from modifications of the AMIP baseline model <A HREF="24lmd_ToC.html">LMD LMD5 (3.6x5.6 L11) 1991</A>.  Differences include: 
+<UL>
+
+<P><LI>Use of the <A HREF="#SECHIBA">SECHIBA</A> land-surface model for treating evaporation and soil hydrology (the only difference from companion model <A HREF="24lmd_ToC_b.html">LMD LMD6b (3.6x5.6 L11) 1995</A>).
+<P>
+
+<LI> Introduction of a <A HREF="#RTFToC22">diurnal cycle</A> (in addition to the seasonal cycle) in solar radiation.  This also requires  <A HREF="#RTFToC15">higher-frequency calculation</A> of radiative fluxes, provision for diurnal sun-angle dependence in <A HREF="#RTFToC33">ocean albedo</A>, and a somewhat different <A HREF="#RTFToC17">sampling (storage) procedure</A> for surface variables.
+<P>
+<LI> Inclusion of a <A HREF="#RTFToC35">multilayer soil heat transfer model</A>.  
+
+
+<P>
+<LI> A formulation of <A HREF="#RTFToC19">vertical advection of momentum</A> that ensures angular momentum conservation.
+<P>
+<LI> Changes in the numerics of <A HREF="#RTFToC7">horizontal advection of moisture</A>.
+<P>
+<LI> Modifications of the prognostic <A HREF="#RTFToC27">precipitation</A> scheme, which also affects <A HREF="#RTFToC26">cloud-formation</A>. 
+<P>
+<LI> Changes in the optical properties of clouds which impact their interaction with <A HREF="#RTFToC24">radiation</A>.
+</UL>
+In addition, the <A HREF="#RTFToC14">initial conditions</A> and <A HREF="#RTFToC12">computational environment</A> of the repeated AMIP integration are different from those of the <A HREF="24lmd.html#RTFToC12" >baseline model</A>. 
+
+<P>
+<h3><a name="RTFToC5">Model Documentation</A></h3>
+<P>
+In addition to documents that are also relevant for the <A HREF="24lmd_b.html#RTFToC5">companion model</A>, cf.  Ducoudre et al. (1993)<A HREF="24lmd_fn.html#fn38">[39]</A>) for a detailed description of the <A HREF="#SECHIBA">SECHIBA</A> land-surface model.
+<P>
+<h2><a name="RTFToC6">Numerical/Computational Properties</a></h2>
+<P>
+<h3><a name="RTFToC7">Horizontal Representation</A></h3>
+<P>
+The semi-upstream horizontal advection scheme for moisture in the <A HREF="24lmd.html#RTFToC7">baseline model</A> is replaced by a simple upstream scheme in order to avoid unrealistic simulation of clouds and precipitation associated with the former scheme.
+<P>
+<h3><a name="RTFToC12">Computer/Operating System</A></h3>
+<P>
+In contrast to the <A HREF="24lmd.html#RTFToC12">baseline model</A>, simulations are performed on an 8-processor Cray C90 (but only using a single processor) in a UNICOS operating environment. 
+<P>
+<h3><a name="RTFToC13">Computational Performance</A></h3>
+<P>
+Use of a more powerful computer than for the <A HREF="24lmd.html#RTFToC12">baseline integration</A> yields a <A HREF="24lmd.html#RTFToC13">performance improvement > 200%</A>: about 0.8 minutes of C90 computation time per simulated day.  (Inclusion of the <A HREF="#SECHIBA">SECHIBA</A> land-surface model decreases efficiency only about 1% from that of the <A HREF="24lmd_b.html#RTFToC5">companion model</A>.)
+
+<P>
+<h3><a name="RTFToC14">Initialization</A></h3>
+<P>
+The conditions of atmospheric state, soil temperature/moisture, and snow mass/cover for the start of the repeated AMIP integration on January 1, 1979 are obtained by integrating the model for one year following its initialization</A> for 1 January 1978, where the latter initial conditions are obtained from a previous extended run of the model.
+
+<P>
+<h3><a name="RTFToC15">Time Integration Scheme(s)</h3>
+<P>
+Because of the introduction of a <A HREF="#RTFToC22">diurnal cycle</A>, shortwave and longwave radiative fluxes are recalculated more frequently (every two hours) than in the <A HREF="24lmd.html#RTFToC15">baseline model</A>.  Fluxes in cloudy regions are computed with cloud optical properties that are updated at each 30-minute physics time step.
+<P>
+<h3><a name="RTFToC17">Sampling Frequency</h3>
+<P>
+For the repeated AMIP experiment, daily mean values of model variables are saved once per 24 hours, as in the <A HREF="24lmd.html#RTFToC17">baseline model</A>.  However, the daily maxima and minima of <I>surface</I> variables with large intradiurnal fluctuations (e.g., temperature, precipitation, evaporation) also are saved, together with the times of their maxima.
+<P>
+<h2><a name="RTFToC18">Dynamical/Physical Properties</a></h2>
+<P>
+
+<P>
+<h3><a name="RTFToC19">Atmospheric Dynamics</a></h3>
+<P>
+In addition to the dynamical framework of the <A HREF="24lmd.html#RTFToC19">baseline model</A>, vertical advection is formulated so as to ensure conservation of angular momentum (cf. Hourdin 1992<A HREF="24lmd_fn.html#fn33">[34]</A>).
+<P>
+<h3><a name="RTFToC22">Solar Constant/Cycles
+</a></h3>
+<P>
+
+In contrast to the <A HREF="24lmd.html#RTFToC22">baseline model</A>, a diurnal cycle in solar forcing  is simulated in addition to a seasonal cycle.
+
+<P>
+<h3><a name="RTFToC24">Radiation</a></h3>
+<P>
+<UL>
+<LI>
+As in the <A HREF="24lmd.html#RTFToC24">baseline model</A>, cloud optical thickness and emissivity are determined from the cloud liquid water path <B>W</B> (in kg/m^2), the effective radius <B>r</B> of cloud droplets (in m), and the absorption coefficient <B>k</B> (in m^2/kg); however, the  prognostic cloud liquid water content (LWC)  (and therefore <B>W</B>) as well as <B>r</B> and <B>k</B> are determined differently. 
+</LI>
+<P>
+<LI>
+The LWC changes because of the introduction of a different parameterization of <A HREF="#RTFToC27">precipitation</A>.  The effective radius of cloud droplets <B>r</B> is prescribed as 10 x 10^-6 m for warm clouds (with cloud-top temperatures > -10 deg C) and as 30 x 10^-6 m for cold clouds (with cloud-top temperatures < -10 deg C), instead of <B>r</B> being a linear function of cloud liquid water density as in the <A HREF="24lmd.html#RTFToC24">baseline model</A>.  The absorption constant <B>k</B> is also different for warm and cold clouds: 130 m^2/kg and 70 70 m^2/kg, respectively, rather than a constant 130 m^2/kg, as for all clouds in the baseline model.</LI>
+<P>
+<LI>
+These changes in cloud optical properties result in a general improvement of the simulation of long-wave cloud radiative forcing as compared with Earth Radiation Budget Experiment (<a href="http://asd-www.larc.nasa.gov/erbe/ASDerbe.html">ERBE</a>) satellite data.  Cf. Le Treut et al. (1994)<A HREF="24lmd_fn.html#fn35">[36]</A> for further details.  See also <A HREF="#RTFToC26">Cloud Formation</A> and <A HREF="#RTFToC27">Precipitation</A>. 
+</UL>
+
+<P>
+<h3><a name="RTFToC26">Cloud Formation</a></h3>
+<P>
+The scheme for prognostic cloud formation as a function of liquid water content (LWC) is the same as in the <A HREF="24lmd.html#RTFToC26">baseline model</A>. However, changes in cloud formation result from a different parameterization of <A HREF="#RTFToC27">precipitation</A>.
+<P>
+<h3><a name="RTFToC27">Precipitation</a></h3>
+<P>
+Instead of specifying a sharp distinction between warm and cold clouds for the prediction of precipitation as in the <A HREF="24lmd.html#RTFToC27">baseline model</A>, functions that provide for a smoother transition between warm and cold regimes are used.  
+<P>
+<UL>
+<LI>
+For warm clouds (with cloud-top temperatures > -10 C) the precipitation rate is parameterized after Sundqvist (1981)<A HREF="24lmd_fn.html#fn36">[37]</A> as the product of a characteristic precipitation time scale <B>T</B> (value = 5.5 x 10^-4 s^-1), the prognostic cloud liquid water mixing ratio <B>m</B>, and an exponential function of (<B>m</B>/<B>C</B>)^2, where <B>C</B> is a prescribed precipitation threshold value = 2 x 10^-4 kg/kg.  
+<P>
+<LI>
+For cold clouds (with cloud-top temperatures < -10 deg C), the precipitation rate is determined by the ratio of <B>m</B> to a different timescale <B>t</B> = <B>z</B>/<B>v</B>, where  <B>z</B> is the depth  of the vertical layer and <B>v</B> is the terminal velocity  of the water droplets, which is determined as an empirical function of <B>m</B> after Heymsfield and Donner (1990)<A HREF="24lmd_fn.html#fn37">[38]</A>.
+
+<P>
+<LI>
+Because precipitation is the main sink term in the budget of cloud liquid water, these parameterization changes also affect <A HREF="#RTFToC26">cloud formation</A> and <A HREF="#RTFToC24">cloud-radiative interactions</A>, both of which depend on cloud liquid water content (LWC).
+
+
+</UL>
+<P>
+<h3><a name="RTFToC33">Surface Characteristics</a></h3>
+<P>
+Surface characteristics are identical to those of the <A HREF="24lmd_b.html#RTFToC33">companion model</A>, but differ in the following respects from those of the  <A HREF="24lmd.html#RTFToC33">baseline model</A>: 
+<P>
+<UL>
+<LI> The ocean albedo is dependent on the diurnally and seasonally varying sun angle, which is recalculated at each 30-minute physics time step.  The albedo is prescribed so that at each latitude the integral over a 24-hour day  yields the same value as in the baseline model (with no diurnal cycle).
+<P>
+<LI> The seasonal variation of the vegetation (affecting the seasonal land-surface albedo and roughness length) depends on the prognostic <A HREF="#RTFToC35">soil temperature</A>, rather than being prescribed as in the <A HREF="24lmd.html#RTFToC33">baseline model</A>. (However, when vegetation and snow cover are present, the land-surface albedo is computed in the same manner as in the  baseline model.) Cf. Polcher (1994)<A HREF="24lmd_fn.html#fn34">[35]</A> for details.
+</UL> 
+
+<P>
+<h3><a name="RTFToC34">Surface Fluxes</a></h3>
+<UL>
+<LI>As in the <A HREF="24lmd.html#RTFToC34">baseline</A> model, the bare soil and vegetation in each grid box are treated as a single medium for calculations of the surface radiative budget and the sensible heat flux. The parameterization of evaporation from the oceans is also unchanged, but the evaporation from  land surfaces is determined by the <A HREF="#SECHIBA">SECHIBA</A> model rather than by the <A HREF="24lmd.html#RTFToC35">"bucket" scheme</A>, as in the baseline and companion models.  
+<P>
+<LI>In <A HREF="#SECHIBA">SECHIBA</A>, the evaporative flux is calculated separately for each of the 8 coexisting surface types (bare ground plus 7 vegetation classes with fractional areas specified according to grid box) that are also present in the <A HREF="24lmd.html#RTFToC33">baseline</A> (and companion) model.  The total evaporative flux in each grid box then is computed as an area-weighted average of the individual fluxes.   The total flux includes sublimation from snow, evaporation from bare soil and from moisture intercepted by the canopy of each <A HREF="#canopy">vegetation class</A>, and transpiration from the dry foliage of each class.  Sublimation and evaporation from intercepted canopy moisture  occur at the potential rate, while canopy transpiration and evaporation from bare soil  depend on the surface relative humidity which is parameterized in terms of <A HREF="#SECHIBA">soil moisture</A>.  Evaporation from sub-canopy soil is neglected.  
+<P>
+<LI>In <A HREF="#SECHIBA">SECHIBA</A>, the surface moisture flux is computed by a bulk method that depends on the moisture gradient between the surface and the overlying air and on  resistances of different kinds (aerodynamic, soil, architectural, and canopy) that vary according to surface type and/or the nature of the moisture flux (sublimation, evaporation, transpiration).    Cf. Ducoudre et al. (1993)<A HREF="24lmd_fn.html#fn38">[39]</A> for further details.  See also <A HREF="#RTFToC33">Surface Characteristics</A> and <A HREF="#RTFToC35">Land Surface Processes</A>. </UL>
+<P>
+<h3><a name="RTFToC35">Land Surface Processes</a></h3>
+<UL>
+<LI>
+In contrast to the <A HREF="24lmd.html#RTFToC35">baseline model</A>, soil thermodynamics is determined by a 7-layer heat transfer model.   The 7 layers are of uneven depths and are spaced between 0.02 m and 3.0 m below the surface, providing for resolution of thermal forcing at periods from 0.5 hour to 2 years.  A zero-flux condition is imposed at the model's lower boundary, and the thermal insulation of snow is accounted for at its upper boundary. Introduction of the 7-layer model impacts ground temperature, snow mass/melt, and the <A HREF="#RTFToC33">seasonal change</A> in prescribed <A HREF="24lmd.html#RTFToC33">vegetation</A> that is tied to the soil temperature at a depth of 0.4 m. In turn, changes in snow cover and vegetation affect <A HREF="#RTFToC33">the albedo and roughness length</A> over land.  Cf. Polcher (1994)<A HREF="24lmd_fn.html#fn34">[35]</A> for further details.
+<P>
+<A NAME="SECHIBA"></A>
+<LI> In contrast to both the <A HREF="24lmd.html#RTFToC35">baseline</A> and <A HREF="24lmd_b.html#RTFToC35">companion models</A>, soil hydrology is simulated using the land-surface scheme SECHIBA (Sch&eacute;matisation des Echanges Hydriques &#224; l' Interface entre la Biosph&#232;re et l'Atmosph&#232;re)
+of Ducoudre et al. 1993<A HREF="24lmd_fn.html#fn38">[39]</A>.   The total depth of the soil column (corresponding to the vegetation root zone) is a constant 1.0 m.  Soil moisture is computed in two layers, the upper layer being the most reactive:  when precipitation exceeds <A HREF="#RTFToC34">evapotranspiration</A>, the upper layer fills first; when the reverse is true, it empties first.   Runoff occurs whenever the soil column is completely saturated (water depth 0.15 m).   The remaining prescribed parameters for bare soil are a constant evaporative resistance and an empirical constant used to compute surface relative humidity for calculation of <A HREF="#RTFToC34">evaporation</A>.    
+<P>
+<A NAME="canopy"></A>
+<LI>In SECHIBA, each of the 7 prescribed <A HREF="24lmd.html#RTFToC33">vegetation classes</A> interact individually with the soil hydrology and contribute individually to the <A HREF="#RTFToC34">surface moisture flux</A>.  All the vegetation is assumed to have a single-story canopy that transpires or intercepts <A HREF="#RTFToC27">precipitation</A>, but the canopy moisture capacity varies with the leaf area index, which is prescribed differently for each vegetation class.  Different architectural and canopy resistances for evaporation/transpiration also are prescribed for each vegetation class.  Cf Ducoudre et al. 1993<A HREF="24lmd_fn.html#fn38">[39]</A> for further details.  See also <A HREF="#RTFToC33">Surface Characteristics</A> and <A HREF="#RTFToC34">Surface Fluxes</A>. 
+
+</UL>
+	
+</ul>
+
+<p><br><h4><p><A HREF="24lmd_fn.html"><IMG SRC="gifs/Button_blue.gif"> Go to LMD References</a></h4><p><h4><p><A HREF="24lmd_ToC_c.html"><IMG SRC="gifs/Button_blue.gif">Return to Model Table of Contents</a></h4><h4><A HREF="01toc.html"><IMG SRC="gifs/Button_blue.gif">	Return to Main Document Directory</a></h4>
+
+<P><HR>Last update May 23, 1996. For further information, contact: Tom Phillips (<a href="mailto: phillips@tworks.llnl.gov">
+phillips@tworks.llnl.gov</a>)<P>
+
+<A HREF="http://www.llnl.gov/disclaimer.html">LLNL Disclaimers</A><p>
+UCRL-ID-116384<p>
+</body>
+<!-- Mirrored from www-pcmdi.llnl.gov/modeldoc/amip1/24lmd_c.html by HTTrack Website Copier/3.x [XR&CO'2004], Fri, 09 Jul 2004 21:04:18 GMT -->
+
+<!-- Mirrored from www-pcmdi.llnl.gov/projects/modeldoc/amip1/24lmd_c.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 20 Jun 2016 20:11:32 GMT -->
+</html>

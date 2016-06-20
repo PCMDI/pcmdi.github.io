@@ -1,0 +1,436 @@
+---
+layout: AMIP
+---
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN//2.0">
+<HTML>
+<!-- Mirrored from www-pcmdi.llnl.gov/modeldoc/amip1/22iap.html by HTTrack Website Copier/3.x [XR&CO'2004], Fri, 09 Jul 2004 21:04:18 GMT -->
+
+<!-- Mirrored from www-pcmdi.llnl.gov/projects/modeldoc/amip1/22iap.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 20 Jun 2016 20:11:32 GMT -->
+<HEAD><TITLE>Institute of Atmospheric Physics (of the Chinese Academy of Sciences): Model IAP IAP-2L (4x5 L2) 1993</TITLE>
+</HEAD>
+<BODY BACKGROUND="gifs/bg9.gif">
+<BODY>
+
+<h2>
+<a name="RTFToC1">Institute of Atmospheric Physics (of the Chinese Academy of Sciences): Model IAP IAP-2L (4x5 L2) 1993</a>
+</h2>
+<hr>
+<h3>
+<a name="RTFToC2">AMIP
+Representative(s)
+</a></h3>
+Dr. Qing-cun Zeng, Laboratory of Numerical Modelling for Atmospheric Sciences and Geophysical Fluid Dynamics, Institute of Atmospheric Physics, Chinese Academy of Sciences, P.O. Box 2718, Beijing 100080, China; Phone: +86-1-2562347; Fax: +86-1-2562347
+<h3>
+<a name="RTFToC3">Model Designation
+</a></h3>IAP IAP-2L (4x5 L2) 1993<h3>
+<a name="RTFToC4">Model
+Lineage
+</a></h3>
+The IAP model consists of a special dynamical framework developed by Zeng and
+Zhang (1987)
+<a href="22iap_fn.html#fn0">[1]</a> and Zeng et al. (1987)
+<a href="22iap_fn.html#fn1">[2]</a> combined with physics similar to that of the
+Oregon State University model described by Ghan et al. (1982)
+<a href="22iap_fn.html#fn2">[3]</a>. 
+<h3>
+<a name="RTFToC5">Model
+Documentation
+</a></h3>
+The principal documentation of the IAP model is provided by Zeng et al.
+(1989)
+<a href="22iap_fn.html#fn3">[4]</a>.
+<h2>
+<a name="RTFToC6">Numerical/Computational
+Properties
+</a></h2>
+<h3>
+<a name="RTFToC7">Horizontal
+Representation
+</a></h3>
+The available-energy conserving, finite-difference scheme of Zeng and Zhang
+(1982)
+<a href="22iap_fn.html#fn4">[5]</a> and Zeng et al. (1987)
+<a href="22iap_fn.html#fn1">[2]</a> is applied on
+a staggered C-grid (cf. Arakawa and Lamb 1977)
+<a href="22iap_fn.html#fn5">[6]</a>.
+<h3>
+<a name="RTFToC8">Horizontal
+Resolution
+</a></h3>
+4 x 5-degree latitude-longitude grid.
+<h3>
+<a name="RTFToC9">Vertical
+Domain
+</a></h3>
+Surface to 200 hPa for dynamics (with the highest prognostic level at 400 hPa).
+For a surface pressure of 1000 hPa, the first atmospheric level is at 800 hPa.
+See also <a href="22iap.html#RTFToC10">Vertical Representation</a> and <a href="22iap.html#RTFToC11">Vertical Resolution</a>.
+<h3>
+<a name="RTFToC10">Vertical
+Representation
+</a></h3>
+Finite differences in modified sigma coordinates: sigma = (P - PT)/(PS - PT),
+where P is atmospheric pressure, PT is 200 hPa (the dynamical top of the
+model), and PS is the surface pressure. 
+<h3>
+<a name="RTFToC11">Vertical
+Resolution
+</a></h3>
+There are two equally spaced, modified sigma levels (see <a href="22iap.html#RTFToC10">Vertical Representation</a>). For a surface pressure of 1000 hPa, these are at 800 hPa
+and 400 hPa (with the dynamical top at 200 hPa).
+<h3>
+<a name="RTFToC12">Computer/Operating
+System
+</a></h3>
+The AMIP simulation was run on a Convex-C120 computer using a single processor.
+<h3>
+<a name="RTFToC13">Computational
+Performance
+</a></h3>
+For the AMIP experiment, about 5 minutes of Convex-C120 time per simulated day.
+<h3>
+<a name="RTFToC14">Initialization</a></h3>
+For the AMIP experiment, the initial conditions for the atmosphere, soil
+moisture, and snow cover/depth are obtained from a model simulation of
+perpetual January using the AMIP-prescribed ocean temperatures and sea ice
+extents for 1 January 1979. See also <a href="22iap.html#RTFToC30">Ocean</a> and <a href="22iap.html#RTFToC31">Sea Ice</a>. 
+<h3>
+<a name="RTFToC15">Time
+Integration Scheme(s)
+</a></h3>
+The model uses a leapfrog scheme, followed by time filtering to damp the
+computational mode (cf. Robert 1966)
+<a href="22iap_fn.html#fn6">[7]</a>. The
+pressure gradient force terms are also smoothed (cf. Schuman 1971)
+<a href="22iap_fn.html#fn7">[8]</a> to permit use of a longer time step, which is
+6 minutes for dynamics, 30 minutes for diffusion, and 1 hour for physics
+(including radiation). The vertical flux of atmospheric moisture is also
+computed hourly, and it is recomputed if conditional instability of a
+computational kind occurs (cf. Arakawa 1972)
+<a href="22iap_fn.html#fn8">[9]</a>, as evidenced by relative humidities in excess
+of 100 percent.
+<h3>
+<a name="RTFToC16">Smoothing/Filling</a></h3>
+<ul>
+<li>	Orography is smoothed (see
+<a href="22iap.html#RTFToC29">Orography</a>). Poleward of 70 degrees
+latitude, the wave-selected damping technique of Arakawa and Lamb (1977)
+<a href="22iap_fn.html#fn5">[6]</a> and the Fast Fourier Transform algorithm of Lu (1986)
+<a href="22iap_fn.html#fn9">[10]</a> are applied; from 38 to 70 degrees latitude,
+the recursive operator of Fjortoft (1953)
+<a href="22iap_fn.html#fn10">[11]</a>
+is also used. In addition, a Shapiro (1970)
+<a href="22iap_fn.html#fn11">[12]</a> smoothing operator is applied to
+perturbation values of surface pressure, temperature, and water vapor mixing
+ratio, and zonally on the wind field once per hour (cf. Liang 1986)
+<a href="22iap_fn.html#fn12">[13]</a>. A 9-point horizontal areal smoothing of the
+lapse rate and a three dimensional smoothing of the diabatic heating are also
+performed. See also <a href="22iap.html#RTFToC15">Time Integration Scheme(s)</a>.
+<p>
+<li>	Filling of spurious negative values of moisture is accomplished by
+application of the numerical scheme of Liang (1986)
+<a href="22iap_fn.html#fn12">[13]</a> to the advection of
+atmospheric water vapor.</ul><h3>
+<a name="RTFToC17">Sampling
+Frequency
+</a></h3>
+For the AMIP simulation, the model history is written every 6 hours. 
+<h2>
+<a name="RTFToC18">Dynamical/Physical
+Properties
+</a></h2>
+<h3>
+<a name="RTFToC19">Atmospheric
+Dynamics
+</a></h3>
+Primitive-equations dynamics are expressed in terms of wind velocity,
+temperature, specific humidity, and a pressure parameter (PS-PT), where PS is
+the surface pressure and PT is 200 hPa, the pressure of the dynamical top of
+the model (see <a href="22iap.html#RTFToC10">Vertical Representation</a>). The dynamical framework
+utilizes perturbations from the temperature, geopotential, and surface pressure
+of the model's standard atmosphere (cf. Zeng 1979 <a href="22iap_fn.html#fn13">[14]</a>, Zeng et al. 1987
+<a href="22iap_fn.html#fn1">[2]</a>, and Zeng et al. 1989
+<a href="22iap_fn.html#fn3">[4]</a>).
+<h3>
+<a name="RTFToC20">Diffusion</a></h3>
+<ul>
+<li>	Nonlinear horizontal diffusion of heat, momentum, and moisture following
+Smagorinsky (1963)
+<a href="22iap_fn.html#fn14">[15]</a> and Washington and
+Williamson (1977)
+<a href="22iap_fn.html#fn15">[16]</a> is applied on the
+modified sigma surfaces (see <a href="22iap.html#RTFToC10">Vertical Representation</a>).
+<p>
+<li>	There is no vertical diffusion as such, but momentum may be redistributed
+between the two atmospheric layers (see <a href="22iap.html#RTFToC11">Vertical Resolution</a>) by either
+eddy viscosity or convective friction. When the latter dominates, the friction
+coefficient depends on whether midlevel or penetrative convection occurs (see
+<a href="22iap.html#RTFToC25">Convection</a>). Cf. Zeng et al. (1989)
+<a href="22iap_fn.html#fn3">[4]</a> for further details.</ul>
+<h3>
+<a name="RTFToC21">Gravity-wave
+Drag
+</a></h3>
+	Gravity-wave drag is not modeled.
+<h3>
+<a name="RTFToC22">Solar
+Constant/Cycles
+</a></h3>
+The solar constant is the AMIP-prescribed value of 1365 W/(m^2). Both
+seasonal and diurnal cycles in solar forcing are simulated.
+<h3>
+<a name="RTFToC23">Chemistry</a></h3>
+The carbon dioxide concentration is the AMIP-prescribed value of 345 ppm. Above
+200 hPa (the model dynamical top), a vertically integrated zonal ozone profile
+is specified from data of D&uuml;tsch (1971)
+<a href="22iap_fn.html#fn16">[17]</a>,
+and is updated daily by linear interpolation between the 15th day of
+consecutive months. The radiative effects of water vapor, but not of aerosols,
+are also included (see <a href="22iap.html#RTFToC24">Radiation</a>). 
+<h3>
+<a name="RTFToC24">Radiation</a></h3>
+<ul>
+<li>	Shortwave radiation is calculated in ultraviolet (wavelengths &lt;0.5
+micron) and visible (wavelengths 0.5-0.9 micron) spectral intervals, employing
+a delta-Eddington approximation (cf. Cess 1985 <a
+href="22iap_fn.html#fn17">[18]</a> and Cess et al. 1985
+<a href="22iap_fn.html#fn18">[19]</a>). The shortwave calculations include
+treatment of Rayleigh scattering, absorption by water vapor using the
+exponential sum-fit method of Somerville et al. (1974)
+<a href="22iap_fn.html#fn19">[20]</a>, absorption by ozone following Cess and
+Potter (1987)
+<a href="22iap_fn.html#fn20">[21]</a> and Lacis and Hansen
+(1974),
+<a href="22iap_fn.html#fn21">[22]</a> and scattering/absorption by cloud
+droplets. The optical properties (single-scattering albedo, asymmetry factor,
+and optical depth) of these droplets depend on cloud type (see 
+<a href="22iap.html#RTFToC26">Cloud Formation</a>).
+<p>
+<li>	Longwave absorption by carbon dioxide and water vapor, with empirical
+transmission functions after Katayama (1972)
+<a href="22iap_fn.html#fn22">[23]</a>, is calculated for five spectral intervals
+with wavelengths &gt;0.9 micron. Cirrus clouds or cirrus anvils on convective
+clouds (see <a href="22iap.html#RTFToC26">Cloud Formation</a>) are treated as graybodies (emissivity of
+0.5, expressed as a modified fractional cloudiness), and other clouds as
+blackbodies (emissivity of 1.0). For purposes of the radiation calculations,
+blackbody clouds overlap fully in the vertical, but graybody clouds only
+partially. Cf. Zeng et al. (1989)
+<a href="22iap_fn.html#fn3">[4]</a> for further details.</ul>
+<h3>
+<a name="RTFToC25">Convection</a></h3>
+<ul>
+<li>	The parameterization of convection after Arakawa et al. (1969)
+<a href="22iap_fn.html#fn23">[24]</a> includes these elements: dry convective
+adjustment; shallow, midlevel, and penetrative convection; determination of the
+cumulus mass flux; and modification of the planetary boundary layer (PBL). If
+either atmospheric layer (see <a href="22iap.html#RTFToC11">Vertical Resolution</a>) is dry adiabatically
+unstable, the potential temperatures are adjusted to a common value, such that
+dry static energy is conserved. The layers that display evidence of moist
+convective instability determine whether (mutually exclusive) shallow,
+midlevel, or penetrative convection occur. Precipitation is associated with
+midlevel and penetrative convection (see 
+<a href="22iap.html#RTFToC27">Precipitation</a>), and changes in
+PBL temperature and humidity are associated with shallow and penetrative
+convection (see <a href="22iap.html#RTFToC28">Planetary Boundary Layer).</a> Convective clouds are assumed
+to form a steady-state ensemble, with cloud air being saturated; the vertical
+profile of cloud temperature is computed assuming that moist static energy is
+conserved.
+<p>
+<li>	Cumulus mass flux is computed (differently) for midlevel and penetrative
+convection, assuming that the convective instability is removed with an
+e-folding time of 1 hour. (Cumulus mass flux is not associated with shallow
+convection in the model.) The mass flux from the PBL and that entrained from
+the free atmosphere are mixed in the lower part of the convective cloud, with
+detrainment of this mixture at the level of nonbuoyancy. The magnitude of the
+mass flux determines the amount of cumulus friction (with different
+coefficients for midlevel and penetrative convection), which brings about
+momentum transfer between the two atmospheric layers (see <a href="22iap.html#RTFToC20">Diffusion</a>).
+Cf. Zeng et al. (1989)
+<a href="22iap_fn.html#fn3">[4]</a> for further details.</ul>
+<h3>
+<a name="RTFToC26">Cloud
+Formation
+</a></h3>
+<ul>
+<li>	Clouds may result either from large-scale condensation or from convection
+(see <a href="22iap.html#RTFToC25">Convection</a>). Large-scale clouds form when the relative humidity
+exceeds 90 percent in the lower vertical layer or 100 percent in the upper
+layer (see <a href="22iap.html#RTFToC11">Vertical Resolution</a>). Clouds are assumed to fill a grid box
+(cloud fraction = 1). (For purposes of longwave radiation calculations,
+however, graybody cirrus and cirrus anvil cloud fractions are 0.5.)
+<p>
+<li>	Four basic cloud types are modeled. Type 1 is formed by either midlevel or
+penetrative convection, type 2 when the relative humidity of the lower vertical
+layer exceeds 90 percent, type 3 as a result of shallow convection, and type 4
+when large-scale precipitation occurs in the upper vertical layer (see
+<a href="22iap.html#RTFToC27">Precipitation</a>). (Precipitation is limited to cloud types 1, 2, and 4.)
+Types 2, 3, or 4 are defined as graybody cirrus clouds if they are
+nonprecipitating or if the average of their base and top temperatures is
+&lt;-40 degrees C; convective cloud type 1 is also capped by a graybody cirrus
+anvil if it satisfies this temperature criterion.
+<p>
+<li>	In addition, a cloud type 5 is formed by the coexistence of types 2 and 4,
+and a cloud type 6 by the coexistence of types 3 and 4. (Types 1 and 3 cannot
+coexist; type 1 also overrides the formation of types 2 and 4, while type 2
+overrides type 3.) Both types 5 and 6 are treated as low-level clouds for
+radiation purposes. Cf. Zeng et al. (1989)
+<a href="22iap_fn.html#fn3">[4]</a> for further details. See also
+<a href="22iap.html#RTFToC24">Radiation</a>.</ul>
+<h3>
+<a name="RTFToC27">Precipitation</a></h3>
+<ul>
+<li>	Precipitation may result from midlevel or penetrative convection (see
+<a href="22iap.html#RTFToC25">Convection</a>). The amount of precipitation is equal to the net water vapor
+entrained from the environment, and falls at a rate that is a function of the
+cumulus mass flux. There is no subsequent evaporation of convective
+precipitation.
+<p>
+<li>	Precipitation also results from large-scale condensation. When the upper
+atmospheric layer becomes supersaturated, the resulting precipitation is
+assumed to evaporate completely in passing through the lower layer, thereby
+cooling and moistening the environment in proportion to the amount of
+evaporation (cf. Lowe and Ficke 1974)
+<a href="22iap_fn.html#fn24">[25]</a>. If
+the lower layer then becomes supersaturated, the resulting precipitation falls
+to the surface.</ul><h3>
+<a name="RTFToC28">Planetary
+Boundary Layer
+</a></h3>
+The PBL is parameterized as a constant flux surface layer of indefinite
+thickness (see <a href="22iap.html#RTFToC34">Surface Fluxes</a>). Its temperature and humidity are
+modified by shallow and penetrative convection (see 
+<a href="22iap.html#RTFToC25">Convection</a>), with
+new values computed assuming conservation of moist static energy in the
+vertical.
+<h3>
+<a name="RTFToC29">Orography</a></h3>
+The model's orography is determined by area-averaging the 1 x 1-degree
+topographic data of Gates and Nelson (1975)
+<a href="22iap_fn.html#fn25">[26]</a> within each 4 x 5-degree grid box. A 9-point
+smoothing of orography on neighboring model grid squares is also performed.
+<h3>
+<a name="RTFToC30">Ocean</a></h3>
+AMIP monthly sea surface temperatures are prescribed, with intermediate daily
+values determined by linear interpolation.
+<h3>
+<a name="RTFToC31">Sea Ice
+</a></h3>
+AMIP monthly sea ice extents are prescribed. The surface temperature of the ice
+is determined from a budget equation that includes the surface heat fluxes (see
+<a href="22iap.html#RTFToC34">Surface Fluxes</a>) plus conduction heating from the ocean below the ice.
+This subsurface flux is a function of the heat conductivity and thickness (a
+constant 3 m) of the ice, and of the difference between the predicted ice
+temperature and that prescribed (271.5 K) for the ocean below. Snow is allowed
+to accumulate on sea ice (see <a href="22iap.html#RTFToC32">Snow Cover</a>), and melts if the ice surface
+temperature is &gt;0 degrees C. 
+<h3>
+<a name="RTFToC32">Snow Cover
+</a></h3>
+Precipitation falls as snow if the surface air temperature is &lt;0 degrees C.
+The snow mass is determined from a budget equation that includes the rates of
+snow accumulation, melting, and sublimation. Snowmelt (which contributes to
+soil moisture--see <a href="22iap.html#RTFToC35">Land Surface Processes</a>) is computed from the
+difference between the downward heat fluxes at the surface and the upward heat
+fluxes that would occur for a surface temperature equal to the melting
+temperature of ice (0 degrees C). (For snow on sea ice, the conduction heat
+flux from the ocean below also contributes to snowmelt--see <a href="22iap.html#RTFToC31">Sea Ice</a>.)
+The sublimation rate is set equal to the surface evaporative flux (see
+<a href="22iap.html#RTFToC34">Surface Fluxes</a>) unless all the snow mass is removed in less than one
+hour; in this case, sublimation is equated to the rate of snow mass removal.
+Cf. Zeng et al. (1989) for further details.
+<h3>
+<a name="RTFToC33">Surface Characteristics
+</a></h3>
+<ul>
+<li>	Roughness lengths are not specified, since these are not required for the
+calculation of turbulent fluxes (see <a href="22iap.html#RTFToC34">Surface Fluxes</a>).
+<p>
+<li>	The surface albedo is prescribed for water, land ice, sea ice, and for six
+land surface types. Following Manabe and Holloway (1975)
+<a href="22iap_fn.html#fn26">[27]</a>, the albedo of snow-covered surfaces varies
+as the square root of snow mass up to a maximum value that is assigned for a
+critical snow mass of 10 kg/(m^2) (see <a href="22iap.html#RTFToC32">Snow Cover</a>). Albedos for
+the land surfaces (with and without snow cover) are assigned from data of Posey
+and Clapp (1964)
+<a href="22iap_fn.html#fn27">[28]</a>. Over water, the albedo
+for diffuse solar flux is taken as 0.07, and that for the direct beam is a
+function of solar zenith angle (cf. Zeng et al. 1989)
+<a href="22iap_fn.html#fn3">[4]</a>.
+<p>
+<li>	Longwave emissivity is prescribed as unity (blackbody emission) for all
+surface types. </ul>
+<h3>
+<a name="RTFToC34">Surface Fluxes
+</a></h3>
+<ul>
+<li>	The absorbed surface solar flux is determined from the surface albedo, and
+surface longwave emission from the Planck function with constant surface
+emissivity of 1.0 (see <a href="22iap.html#RTFToC33">Surface Characteristics).</a>
+<p>
+<li>	Turbulent surface fluxes of momentum, heat, and moisture are calculated
+from bulk aerodynamic formulae. The momentum flux is proportional to the
+product of a drag coefficient and the effective surface wind, which is
+determined by extrapolating the wind at the two vertical levels and multiplying
+by a factor of 0.7 (but constrained to be at least 2 m/s in
+magnitude). The drag coefficient is not a function of vertical stability but it
+does depend on surface elevation. Over the oceans, the drag coefficient is a
+function of the surface wind speed, but it is constrained to be at most 2.5 x
+10^-3.
+<p>
+<li>	The surface heat and moisture fluxes also depend on a product of the same
+drag coefficient and effective surface wind speed, as well as on the difference
+between the ground and surface atmospheric temperatures (for heat fluxes) or
+specific humidities (for moisture fluxes). These surface values of atmospheric
+temperature and humidity are determined by equating, respectively, the surface
+sensible heat and evaporative flux to corresponding fluxes at the top of the
+constant-flux surface layer. The latter are parameterized following K-theory
+(cf. Arakawa 1972)
+<a href="22iap_fn.html#fn8">[9]</a>, where the eddy diffusivity depends on vertical stability
+but is constrained to be &lt; 15 m^2/s over water surfaces, and to be
+&lt;100 m^2/s elsewhere. The surface moisture flux also depends on an
+evapotranspiration efficiency factor beta, which is taken as unity over snow, ice,
+and water, and in areas of dew formation. Over land, beta is a function of soil
+moisture. Cf. Zeng et al. (1989)
+<a href="22iap_fn.html#fn3">[4]</a> for further details. See also <a href="22iap.html#RTFToC20">Diffusion</a>,
+<a href="22iap.html#RTFToC28">Planetary Boundary Layer</a>, and <a href="22iap.html#RTFToC35">Land Surface Processes</a>.</ul>
+<h3>
+<a name="RTFToC35">Land
+Surface Processes
+</a></h3>
+<ul>
+<li>	Following Priestly (1959)
+<a href="22iap_fn.html#fn28">[29]</a> and
+Bhumralkar (1975)
+<a href="22iap_fn.html#fn29">[30]</a> the average ground
+temperature at the diurnal skin depth is computed from the net surface energy
+fluxes (see <a href="22iap.html#RTFToC34">Surface Fluxes</a>), taking account of the thermal conductivity,
+and the volumetric and bulk heat capacities of snow, ice, and soil.
+<p>
+<li>	Soil moisture is predicted as a fraction of a uniform field capacity of
+0.15 m in a single layer (i.e., a "bucket" model). Fractional soil moisture is
+determined from a budget that includes the rates of precipitation, snowmelt,
+surface evaporation, and runoff. The evapotranspiration efficiency beta over land
+(see <a href="22iap.html#RTFToC34">Surface Fluxes</a>) is specified as the lesser of twice the fractional
+soil moisture or unity. Runoff is given by the product of the fractional soil
+moisture and the sum of precipitation and snowmelt rates. If the predicted
+fractional soil moisture is in excess of unity, the excess is taken as
+additional runoff. Cf. Zeng et al. (1989)
+<a href="22iap_fn.html#fn3">[4]</a> for further details.</ul>
+
+<p><h4><p><A HREF="22iap_fn.html"><IMG SRC="gifs/Button_blue.gif">	Go to IAP References</a></h4>
+
+<p><h4><p><A HREF="22iap_ToC.html"><IMG SRC="gifs/Button_blue.gif">	Return to IAP Table of Contents</a></h4>
+
+<h4><A HREF="01toc.html"><IMG SRC="gifs/Button_blue.gif">	Return to Main Document Directory</a></h4>
+
+<P><HR>
+
+Last update April 19, 1996.  For further information, contact: Tom Phillips (<a href="mailto: phillips@tworks.llnl.gov">
+phillips@tworks.llnl.gov </a>)<P>
+<A HREF="http://www.llnl.gov/disclaimer.html">LLNL Disclaimers</A><p>
+UCRL-ID-116384<p>
+</body>
+<!-- Mirrored from www-pcmdi.llnl.gov/modeldoc/amip1/22iap.html by HTTrack Website Copier/3.x [XR&CO'2004], Fri, 09 Jul 2004 21:04:18 GMT -->
+
+<!-- Mirrored from www-pcmdi.llnl.gov/projects/modeldoc/amip1/22iap.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 20 Jun 2016 20:11:32 GMT -->
+</html>

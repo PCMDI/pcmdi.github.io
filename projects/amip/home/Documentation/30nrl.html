@@ -1,0 +1,237 @@
+---
+layout: AMIP
+---
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN//2.0">
+<HTML>
+<!-- Mirrored from www-pcmdi.llnl.gov/modeldoc/amip1/30nrl.html by HTTrack Website Copier/3.x [XR&CO'2004], Fri, 09 Jul 2004 21:04:18 GMT -->
+
+<!-- Mirrored from www-pcmdi.llnl.gov/projects/modeldoc/amip1/30nrl.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 20 Jun 2016 20:11:32 GMT -->
+<HEAD>
+<TITLE>Naval Research Laboratory: Model NRL NOGAPS3.2 (T47 L18) 1993</TITLE>
+</HEAD>
+<BODY BACKGROUND="gifs/bg9.gif">
+<BODY> <h2>
+
+<a name="RTFToC1">Naval Research Laboratory: Model NRL NOGAPS3.2 (T47 L18) 1993</a>
+</h2>
+<hr> 
+
+<h3> <a name="RTFToC2">AMIP Representative(s)  </a></h3>
+
+ Dr. Thomas Rosmond and Dr. Timothy Hogan, Prediction Systems, Naval Research Laboratory, Monterey, California, 93943-5006; Phone: +1-408-647-4736; Fax:  +1-408-656-4769; e-mail: rosmond@helium.nrlmry.navy.mil; World Wide Web URL: <a href="http://www.nrlmry.navy.mil/"> http://www.nrlmry.navy.mil/</a>
+ <h3> <a name="RTFToC3">Model Designation </a></h3>
+
+ NRL NOGAPS3.2 (T47 L18) 1993 
+
+<h3> <a name="RTFToC4">Model Lineage </a></h3>
+
+ The NRL model used for the AMIP experiment is version 3.2 of the Naval Operational Global Atmospheric Prediction System (NOGAPS) spectral model, which was first developed in 1988. 
+
+<h3> <a name="RTFToC5">Model Documentation </a></h3>
+
+ Key documentation for the model is provided by Hogan and Rosmond (1991)<a href="30nrl_fn.html#fn0">
+[1]</a>. <h2> <a name="RTFToC6">Numerical/Computational Properties </a></h2> 
+
+<h3> <a name="RTFToC7">Horizontal Representation </a></h3>
+
+ Spectral (spherical harmonic basis functions) with transformation to a Guassian grid for calculation of nonlinear quantities and some physics. 
+
+<h3> <a name="RTFToC8">Horizontal Resolution </a></h3>
+
+ Spectral triangular 47 (T47), roughly equivalent to 2.5 x 2.5-degrees latitude-longitude. 
+
+<h3> <a name="RTFToC9">Vertical Domain </a></h3>
+
+ Surface to 1 hPa. For a surface pressure of 1000 hPa, the lowest atmospheric level is at a pressure of about 995 hPa. 
+
+<h3> <a name="RTFToC10">Vertical Representation </a></h3>
+
+ Modified hybrid sigma-pressure coordinates after Simmons and Str&uuml;fing (1981)<a href="30nrl_fn.html#fn1">
+[2]</a>, utilizing energy-conserving vertical differencing and averaging. 
+
+<h3> <a name="RTFToC11">Vertical Resolution </a></h3>
+
+ There are 18 unevenly spaced hybrid levels. For a surface pressure of 1000 hPa, five levels are below 800 hPa and five levels are above 200 hPa. 
+
+<h3> <a name="RTFToC12">Computer/Operating System </a></h3>
+
+ The AMIP simulation was run on a Cray Y/MP computer using four processors in the UNICOS environment. 
+
+<h3> <a name="RTFToC13">Computational Performance </a></h3>
+
+ For the AMIP experiment, about 10 minutes of Cray Y/MP computation time per simulated day. 
+
+<h3> <a name="RTFToC14">Initialization</a></h3>
+
+ For the AMIP simulation, the model atmosphere is initialized from the ECMWF FGGE III-B analysis fields for 00Z on 1 January 1979, with nonlinear normal-mode initialization applied. Snow cover/depth is set initially to zero everywhere. Ground wetness values (see <a href="30nrl.html#RTFToC35">Land Surface Processes</a>) are specified from the Fleet Naval Oceanographic Center (FNOC) climatological data for January (cf. FNOC 1986)
+<a href="30nrl_fn.html#fn26">[27]</a>.
+
+<h3> <a name="RTFToC15">Time Integration Scheme(s) </a></h3>
+
+ A semi-implicit time integration scheme with a spectral filter (cf. Robert et al. 1972)<a href="30nrl_fn.html#fn2">
+[3]</a> is used for most quantities, but the zonal advection of the vorticity and the moisture function are calculated by a fully implicit method (cf. Simmons and Jarraud 1983)
+<a href="30nrl_fn.html#fn3">[4]</a>. Turbulent surface fluxes and vertical diffusion (see <a href="30nrl.html#RTFToC34">Surface Fluxes</a> and <a href="30nrl.html#RTFToC20">Diffusion</a>) are also computed by implicit methods. The time step is 20 minutes for dynamics and physics, except for full calculation of radiative fluxes every 1.5 hours.  
+
+<h3> <a name="RTFToC16">Smoothing/Filling</a></h3>
+
+ Orography is smoothed (see <a href="30nrl.html#RTFToC29">Orography</a>). Negative moisture values arising from the spectral truncation are filled by "borrowing" from positive-valued points at vertical levels below, with an artificial moisture flux provided from the ground if necessary. 
+
+<h3> <a name="RTFToC17">Sampling Frequency </a></h3>
+
+ For the AMIP simulation, the model history is written every 6 hours. <h2> <a name="RTFToC18"> Dynamical/Physical Properties </a></h2> 
+
+<h3> <a name="RTFToC19">Atmospheric Dynamics </a></h3>
+
+ Primitive-equation dynamics are expressed in terms of vorticity, divergence, virtual potential temperature, surface pressure, and the inverse of the natural logarithm of specific humidity. 
+
+<h3> <a name="RTFToC20">Diffusion</a></h3>
+
+ <ul><li>	Fourth-order horizontal diffusion is applied in spectral space on hybrid vertical levels to vorticity and divergence, and to departures of specific humidity and virtual potential temperature from reference states. Horizontal diffusion is increased and spectral tendencies are truncated at the upper three vertical levels when the wind speed at the top level exceeds 120 m/s.<p>
+
+
+
+<li>	Vertical diffusion of momentum, heat, moisture, and buoyancy (virtual potential temperature) is parameterized by K-theory, with the mixing length a function of stability (bulk Richardson number) following the formulation of Louis et al. (1981)<a href="30nrl_fn.html#fn4">
+[5]</a>.</ul>
+
+<h3> <a name="RTFToC21">Gravity-wave Drag </a></h3>
+
+ <ul><li>	Momentum transports associated with gravity waves are simulated by a modified Palmer et al. (1986)<a href="30nrl_fn.html#fn5">
+[6]</a> method, using directionally dependent subgrid-scale orographic variances (see <a href="30nrl.html#RTFToC29">Orography</a>). Surface stress due to gravity waves excited by stably stratified flow over irregular terrain is calculated from linear theory and dimensional considerations. Gravity-wave stress is a function of atmospheric density, low-level wind, and the Brunt-Vaisalla frequency. The vertical structure of the momentum flux induced by gravity waves is calculated from a local wave Richardson number, which describes the onset of turbulence due to convective instability and the turbulent breakdown approaching a critical level. <p>
+
+
+
+<li>	To allow more gravity-wave drag in the model's upper atmosphere, the Palmer et al. wave breakdown criteria are modified as follows. Below 450 hPa, the decrease in wave stress cannot exceed 50 percent of the stress in the layer below; above 450 hPa, the stress can be completely absorbed in any layer. However, if the projection of the orographically induced surface stress onto the wind velocity of a layer is zero, then the gravity-wave stress is set to zero in all layers above this critical layer.</ul>
+
+<h3> <a name="RTFToC22">Solar Constant/Cycles </a></h3>
+
+ The solar constant is the AMIP-prescribed value of 1365 W/(m^2). Both seasonal and diurnal cycles in solar forcing are simulated.  
+
+<h3> <a name="RTFToC23">Chemistry</a></h3>
+
+ The carbon dioxide concentration is the AMIP-prescribed value of 345 ppm. Seasonal zonal profiles of ozone are prescribed from the data of Dopplick (1974) <a href="30nrl_fn.html#fn6">
+[7]</a>, with daily values determined via a two-coefficient Fourier interpolation of the seasonal data. Radiative effects of water vapor are also included, but not those of aerosols (see <a href="30nrl.html#RTFToC24">Radiation</a>). 
+
+<h3> <a name="RTFToC24">Radiation</a></h3>
+
+ <ul><li>	Shortwave radiation calculations follow Davies (1982)
+<a href="30nrl_fn.html#fn7">[8]</a> and Lacis and Hansen (1974)
+<a href="30nrl_fn.html#fn9">[10]</a>. Absorption by ozone and water vapor is calculated in two spectral bands: for wavelengths less than 0.9 micron (where ozone absorption is especially significant), and for wavelengths greater than 0.9 micron (only for water vapor). At wavelengths less than 0.9 micron, absorption calculations follow the Coakley and Chylek (1975)
+<a href="30nrl_fn.html#fn8">
+[9]</a> two-stream solution for diffuse radiation at several Rayleigh optical depths of both ozone and water vapor. For wavelengths greater than 0.9 micron, clear-sky absorption is treated by the approach of Lacis and Hansen (1974)<a href="30nrl_fn.html#fn9">
+[10]</a>; the reflected and transmitted diffuse fluxes in cloudy skies are computed at each level for four different absorptions using both the Coakley and Chylek (1975)
+<a href="30nrl_fn.html#fn8">[9]</a> and the Sagan and Pollack (1967)<a href="30nrl_fn.html#fn10">
+[11]</a> two-stream solutions. Total fluxes and absorptions are obtained by combining diffuse fluxes at each level using the adding method of Liou (1980)<a href="30nrl_fn.html#fn11">
+[12]</a>. Shortwave cloud parameters include an optical thickness that is a function of the temperature of the layer and the total cloud fraction (see <a href="30nrl.html#RTFToC26">Cloud Formation</a>), and a single-scattering albedo that depends on the optical thickness as well as on the effective water-vapor content of the cloud. <p>
+
+<li>	Longwave radiation is after Harshvardhan et al. (1987)<a href="30nrl_fn.html#fn12">
+[13]</a>. Absorption calculations in 5 spectral intervals (wavenumbers between 0 and 3 x 10^6 m^-1) follow the broadband transmission approach of Chou (1984)<a href="30nrl_fn.html#fn13">
+[14]</a> for water vapor, that of Chou and Peng (1983)<a href="30nrl_fn.html#fn14">
+[15]</a> for carbon dioxide, and that of Rodgers (1968)<a href="30nrl_fn.html#fn15">
+[16]</a> for ozone. Continuum absorption by water vapor is treated following Roberts et al. (1976)<a href="30nrl_fn.html#fn16">
+[17]</a>. Cloud longwave emissivity varies linearly with temperature between a value of 0.50 for ice clouds (temperature &lt;233 K) and a value of 1.0 for water clouds (temperature &gt;273 K). For purposes of the radiation calculations, clouds are assumed to be a composite of both maximally overlapped and randomly overlapped elements. Cf. Hogan and Rosmond (1991)
+<a href="30nrl_fn.html#fn0">[1]</a> for further details.</ul>
+
+<h3> <a name="RTFToC25">Convection</a></h3>
+
+ <ul><li>	Penetrative convection is simulated by the method of Arakawa and Schubert (1974)<a href="30nrl_fn.html#fn17">
+[18]</a>. The scheme predicts mass fluxes from mutually interacting cumulus subensembles having different entrainment rates and levels of neutral buoyancy that define the tops of the clouds and their associated convective updrafts. In turn, the predicted convective mass fluxes feed back on the large-scale fields of temperature (through latent heating and compensating subsidence), and moisture (through precipitation and detrainment). The implementation follows Lord et al. (1982)<a href="30nrl_fn.html#fn18">
+[19]</a>, but with the following modifications: a simplified ice parameterization is used; 20 percent of the convective precipitation produced in a layer is allowed to evaporate as it falls; moist and evaporative downdraft terms are included in the cloud budget equations; and the latent heat of condensation is made a function of temperature.<p>
+
+<li>	The cumulus mass flux for each subensemble is predicted from an integral equation involving a positive-definite work function and a negative-definite kernel which expresses the effects of other subensembles on this work function. The mass fluxes are positive-definite optimal solutions of this integral equation under the constraint that the rate of generation of conditional convective instability by the large-scale environment is balanced by the rate at which the cumulus subensembles suppress this instability via large-scale feedbacks. A numerically efficient variational method (convergence usually within three iterations) is used to solve the integral equation. <p>
+
+<li>	Shallow (stratocumulus) convection is parameterized as an extension of the model's vertical diffusion scheme (see <a href="30nrl.html#RTFToC20">Diffusion</a>) after Tiedtke (1983)<a href="30nrl_fn.html#fn19">
+[20]</a>. The scheme accounts for vertical mixing of virtual potential temperature and specific humidity, but not of momentum.  For shallow convection, the following conditions must be met: the relative humidity of the lowest layer is at least 70 percent; the ground temperature exceeds the surface air temperature; the lifted condensation level is within 175 hPa of the surface, and there is moist adiabatic instability within this layer. The shallow convection layer extends from the surface to the top of the moist instability, with a maximum depth of 175 hPa. Cf. Hogan and Rosmond (1991)
+<a href="30nrl_fn.html#fn0">[1]</a> for further details. See also 
+<a href="30nrl.html#RTFToC26">Cloud Formation</a> and 
+<a href="30nrl.html#RTFToC27">Precipitation</a>.</ul>
+
+<h3> <a name="RTFToC26">Cloud Formation </a></h3>
+
+ <ul><li>	The amount of stratiform cloud is diagnosed following Slingo and Ritter (1985)<a href="30nrl_fn.html#fn20">
+[21]</a>: at each vertical level, the cloud fraction is a quadratic function of the difference between the average relative humidity and a threshold value that depends on the sigma level. <p>
+
+<li>	Cumulus (convective) cloud extends from the lifted condensation level to the highest cloud-top level predicted by the convective scheme (see <a href="30nrl.html#RTFToC25">Convection</a>). The cloud fraction is a logarithmic function of the convective rainfall rate after Slingo (1987)<a href="30nrl_fn.html#fn21">
+[22]</a>. It is taken to be a constant (maximum fraction 0.8) up to the level where anvil cloud is diagnosed (temperature = 233 K). If the cloud-top temperature is &lt;233 K, the cumulus cloud fraction is increased by 0.20 to account for the presence of ice anvils. See also <a href="30nrl.html#RTFToC24">Radiation</a> for treatment of cloud-radiative interactions.</ul>
+
+<h3> <a name="RTFToC27">Precipitation</a></h3>
+
+ <ul><li>	The convective scheme produces precipitation, which may subsequently evaporate as it falls (see <a href="30nrl.html#RTFToC25">Convection</a>). <p>
+
+
+
+<li>	Any remaining supersaturation of a layer is removed in the formation of large-scale precipitation by the saturation adjustment of Haltiner and Williams (1980)<a href="30nrl_fn.html#fn22">
+[23]</a>. Working downward from the top layer, the adjustment is made with respect to water vapor for temperatures above 0 degrees C, and with respect to ice for temperatures below -40 degrees C; for intermediate temperatures, a linear combination of these adjustments is applied. The associated latent heat release is also determined from a temperature-dependent linear combination of the heats of condensation and fusion. This large-scale precipitation may evaporate as it falls, producing supersaturation in lower layers. In that event, the adjustment is repeated downward to the bottom layer, where no evaporation of precipitation is allowed. The remaining precipitation falls to the surface as rain or snow. See also <a href="30nrl.html#RTFToC26">Cloud Formation</a> and <a href="30nrl.html#RTFToC32">Snow Cover</a>.</ul>
+
+<h3> <a name="RTFToC28">Planetary Boundary Layer </a></h3>
+
+ The PBL is typically represented by the first five levels above the surface, but its depth is not explicitly determined. See also <a href="30nrl.html#RTFToC20">Diffusion</a>, <a href="30nrl.html#RTFToC33">Surface Characteristics</a>, and <a href="30nrl.html#RTFToC34">Surface Fluxes</a>.  
+
+<h3> <a name="RTFToC29">Orography</a></h3>
+
+ Model orography is derived from the U.S. Navy 10-minute resolution global terrain dataset (cf. Joseph 1980)<a href="30nrl_fn.html#fn23">
+[24]</a>. The terrain heights are enhanced by the silhouette method, and then are transformed to the spectral representation and truncated at T47 resolution (see <a href="30nrl.html#RTFToC8">Horizontal Resolution</a>). Spectral smoothing with a Lanczos (1956)<a href="30nrl_fn.html#fn24">
+[25]</a> filter is also applied to lessen the effects of negative terrain heights resulting from the spectral truncation. Orographic variances required by the gravity-wave drag parameterization (see <a href="30nrl.html#RTFToC21">Gravity-wave Drag</a>) are obtained from the same dataset. 
+
+<h3> <a name="RTFToC30">Ocean</a></h3>
+
+ AMIP monthly sea surface temperature fields are prescribed, with values determined at every time step by linear interpolation. 
+
+<h3> <a name="RTFToC31">Sea Ice </a></h3>
+
+ AMIP monthly sea ice extents are prescribed. The temperature of the ice is predicted in a manner similar to that for soil (see <a href="30nrl.html#RTFToC35">Land Surface Processes</a>) from a net energy balance, with relaxation to a climatological temperature of 272.2 K (the relaxation time constant is derived assuming a uniform ice thickness of 2 m). Snow does not accumulate on sea ice. 
+
+<h3> <a name="RTFToC32">Snow Cover </a></h3>
+
+ If the ground temperature is &lt;0 degrees C, precipitation falls as snow (see <a href="30nrl.html#RTFToC27">Precipitation</a>). Snow is allowed to accumulate on land only to a maximum water-equivalent depth of 0.1m. Snow cover alters the surface albedo (see <a href="30nrl.html#RTFToC33">Surface Characteristics</a>) and thermodynamic properties of the surface (see <a href="30nrl.html#RTFToC35">Land Surface Processes</a>), and sublimation of snow contributes to surface evaporation (see <a href="30nrl.html#RTFToC34">Surface Fluxes</a>). If the ground temperature increases above freezing when snow is present, the amount of heat necessary to lower the ground temperature again to 0 degrees C is used to melt snow. This snowmelt does not contribute to soil moisture, however (see <a href="30nrl.html#RTFToC35">Land Surface Processes</a>).  
+
+<h3> <a name="RTFToC33">Surface Characteristics </a></h3>
+
+<ul><li>	The surface roughness length for ocean points is updated from the surface wind stress at each time step following the Charnock (1955)<a href="30nrl_fn.html#fn25">
+[26]</a> relation. For land and ice surfaces, the roughness lengths are specified from the FNOC (1986)
+<a href="30nrl_fn.html#fn26">[27]</a> monthly climatologies. <p>
+
+<li>	Surface albedos, also specified from the FNOC (1986)<a href="30nrl_fn.html#fn26">
+[27]</a> climatologies, are a function of solar zenith angle, but not spectral interval. The albedo of snow-covered land varies linearly from its bare-ground value to a maximum of 0.84 when the snow depth within a grid box exceeds 0.01 m water equivalent. <p>
+
+<li>	Longwave emissivity is prescribed as unity (blackbody emission) for all surfaces.</ul>
+
+<h3> <a name="RTFToC34">Surface Fluxes </a></h3>
+
+ <ul><li>	Surface solar absorption is determined from the surface albedos, and longwave emission from the Planck equation with emissivity of 1.0 (see <a href="30nrl.html#RTFToC33">Surface Characteristics</a>).<p>
+
+<li>	The surface fluxes of momentum, sensible heat, buoyancy (virtual potential temperature), and moisture are computed implicitly (see <a href="30nrl.html#RTFToC15">Time Integration Scheme(s)</a>) from bulk formulae with drag and transfer coefficients that are functions of static stability (bulk Richardson number) and roughness length, following Louis et al. (1981)
+<a href="30nrl_fn.html#fn4">[5]</a>. The surface winds, temperatures, and humidities required for these bulk formulae are those at the lowest atmospheric level (at about 995 hPa for a surface pressure of 1000 hPa). The surface fluxes also depend on the ground temperatures of ocean, sea ice, and land (see <a href="30nrl.html#RTFToC30">Ocean</a>, <a href="30nrl.html#RTFToC31">Sea Ice</a>, and <a href="30nrl.html#RTFToC35">Land Surface Processes</a>). <p>
+
+
+
+<li>	In addition, surface buoyancy and moisture fluxes depend on ground specific humidity, which is defined as a weighted linear combination of the humidity at the lowest atmospheric level and the saturated humidity at the ground temperature. The weights are determined from the ground wetness, which is set to unity over ocean, snow, and ice surfaces, but which over land is prescribed from monthly FNOC (1986)
+<a href="30nrl_fn.html#fn26">[27]</a> climatological estimates of soil moisture (see <a href="30nrl.html#RTFToC35">Land Surface Processes</a>). Cf. Hogan and Rosmond (1991)
+<a href="30nrl_fn.html#fn0">[1]</a> for further details. </ul>
+
+<h3> <a name="RTFToC35">Land Surface Processes </a></h3>
+
+ <ul><li>	Soil temperatures are computed from a surface energy balance that includes snowmelt (see <a href="30nrl.html#RTFToC34">Surface Fluxes</a> and <a href="30nrl.html#RTFToC32">Snow Cover</a>) as well as relaxation (with 100-hour time constant) to FNOC (1986)
+<a href="30nrl_fn.html#fn26">[27]</a> monthly climatological deep-ground temperatures. These deep temperatures are derived from observed surface atmospheric temperatures that are lagged by one month, with annual cycle reduced by 30 percent. The heat capacity specified for soil is also a nonlinear function of the ground wetness, and the thermal conductivity of snow-covered ground is set to about twice that of bare ground.<p>
+
+<li>	Spatially varying ground wetness is prescribed from FNOC (1986)
+<a href="30nrl_fn.html#fn26">[27]</a> monthly climatological estimates of fractional soil moisture (ratio of soil moisture to a saturated value). Cf. Hogan and Rosmond (1991)
+<a href="30nrl_fn.html#fn0">[1]</a> for further details.</ul> <p>
+
+<h4><A HREF="30nrl_fn.html"><IMG SRC="gifs/Button_blue.gif">	Go to NRL References</a></h4>
+<h4><A HREF="30nrl_ToC.html"><IMG SRC="gifs/Button_blue.gif">	Return to Model Table of Contents</a></h4>
+
+<h4><A HREF="01toc.html"><IMG SRC="gifs/Button_blue.gif">	Return to Main Document Directory</a></h4>
+
+
+
+<HR>Last update April 19, 1996.  For further information, contact: Tom Phillips (<a href="mailto: phillips@tworks.llnl.gov"> phillips@tworks.llnl.gov </a>)<p>
+
+<A HREF="http://www.llnl.gov/disclaimer.html">LLNL Disclaimers</A><p>
+
+ UCRL-ID-116384<p>
+
+</body>
+<!-- Mirrored from www-pcmdi.llnl.gov/modeldoc/amip1/30nrl.html by HTTrack Website Copier/3.x [XR&CO'2004], Fri, 09 Jul 2004 21:04:18 GMT -->
+
+<!-- Mirrored from www-pcmdi.llnl.gov/projects/modeldoc/amip1/30nrl.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 20 Jun 2016 20:11:32 GMT -->
+</html> 

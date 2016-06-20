@@ -1,0 +1,65 @@
+---
+layout: AMIP
+---
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN//2.0"><HTML>
+
+<!-- Mirrored from www-pcmdi.llnl.gov/modeldoc/amip1/32sunya_ncar_b.html by HTTrack Website Copier/3.x [XR&CO'2004], Fri, 09 Jul 2004 21:04:18 GMT -->
+
+<!-- Mirrored from www-pcmdi.llnl.gov/projects/modeldoc/amip1/32sunya_ncar_b.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 20 Jun 2016 20:11:32 GMT -->
+<HEAD><TITLE>State University of New York at Albany/National Center for Atmospheric Research: Model SUNYA/NCAR GENESIS1.5A (T31 L18) 1995</TITLE> </HEAD>
+<BODY BACKGROUND="gifs/bg9.gif">
+<BODY>
+<A NAME=RTFToC1></A>
+<h2>State University of New York at Albany/National Center for Atmospheric Research: Model SUNYA/NCAR GENESIS1.5A (T31 L18) 1995</h2>
+<hr> 
+<h3> <a name="RTFToC3">Model Designation</a></h3>
+ SUNYA/NCAR GENESIS1.5A (T31 L18) 1995
+
+<h3> <a name="RTFToC4">Model Lineage</a></h3>
+The present model resulted from changes made in the parameterizations of cloud-radiative interactions and cloud formation in AMIP baseline model <A HREF="32sunya_ncar_ToC.html">SUNYA/NCAR GENESIS1.5 (T31 L18) 1994</A>.  These changes produce better agreement with ERBE  satellite observations of cloud-radiative forcing.
+<h3> <a name="RTFToC5">Model Documentation</a></h3>
+The changes in the parameterizations of cloud-radiative interactions and cloud formation are discussed by Liang and Wang (1995)<A HREF="32sunya_ncar_fn.html#fn44">[45]</A>.
+<h2> <a name="RTFToC18">Dynamical/Physical Properties </a></h2>
+<h3> <a name="RTFToC24">Radiation</a></h3>
+	 
+The model treats cloud-radiative interactions somewhat differently than the <A HREF="32sunya_ncar.html#RTFToC24">baseline model</A>:  
+<UL>
+<LI>
+A delta-Eddington approximation still is used to calculate cloud optical properties as functions of cloud liquid water, but the liquid water path (LWP in g/[m^2]) is evaluated following Hack et al. (1993)<A HREF="32sunya_ncar_fn.html#fn45">[46]</A>. In each sigma layer, LWP is expressed as a product of a latitude-dependent local liquid water scale height (SLW) and the difference of exponential functions that depend on SLW and the heights of the lower and upper interfaces of the sigma layer.  
+<P>
+<LI>
+Cloud emissivity is an exponential function of LWP.  Cloud optical thickness is proportional to LWP and is inversely proportional to the effective radius of the cloud drop size distribution, which is a linear function of SLW.  Additional parameters required for the delta-Eddington approximation are the asymmetry factor, now  prescribed as 0.85 for both visible and near-infrared bands, and the single-scattering albedo which is set to 0.9998 for the visible and 0.9800 for the near-infrared.   As in the <A HREF="32sunya_ncar.html#RTFToC24">baseline model</A>, clouds are assumed to be randomly overlapped in the vertical for purposes of calculating radiative fluxes.  
+<P>
+<LI>
+Together with changes in the <a href="32sunya_ncar_b.html#RTFToC26">cloud formation scheme</a>, these adjustments in optical properties yield closer agreement with observed shortwave/longwave cloud radiative forcing. Cf. the appendix of Liang and Wang (1995)<A HREF="32sunya_ncar_fn.html#fn44">[45]</A> for further details.  
+</UL>
+
+<h3> <a name="RTFToC26">Cloud Formation </a></h3>
+Refinements in cloud formation improve the model's agreement with the observed vertical distribution of cloud as well as the latitudinal/seasonal variation of observed total cloud cover. 
+<ul>
+<LI> 
+Convective cloud amount is calculated as a logarithmic function of the instantaneous precipitation rate after the formulation of Hack et al. (1993)<A HREF="32sunya_ncar_fn.html#fn45">[46]</A>.  As in the <A HREF="32sunya_ncar.html#RTFToC26">baseline model</A>, each convectively active layer is assigned a cloud fraction consistent with the assumption of random overlap in the vertical (see <a href="#RTFToC24">Radiation</a>). If convective cloud of fractional area > 0.1 penetrates to sigma levels < 0.65, anvil cirrus also forms; it may cover up to 95% of a grid box.
+<P>
+<li>	
+Stratiform cloud formation follows an extension of the Slingo and Slingo (1991)<a href="32sunya_ncar_fn.html#fn22">[23]</a> scheme used in the <A HREF="32sunya_ncar.html#RTFToC26">baseline model</A>, in that an additional cloud type is included: stratus cloud associated with inversions forms in the most stable layer below sigma = 0.75, provided that the vertical motion is downward and the relative humidity at the cloud base is > 60%.  The inversion cloud fraction is a linear function of the local static stability.  Otherwise, stratiform cloud forms if an adjusted value of relative humidity <B>RH' </B> (obtained by reducing the local relative humidity by an amount dependent on the convective and anvil cloud fractions) exceeds a prescribed threshold value RHC that depends on the sigma level.  The stratiform cloud fraction varies linearly as <B>RH - RHC</B>, but varies inversely as the square of (<B>1 - RHC</B>).  
+<P>
+<LI>
+As in the <A HREF="32sunya_ncar.html#RTFToC26">baseline model</A>, stratiform cloud in winter polar regions is reduced, following the formulation of Curry and Herman (1985)<a href="32sunya_ncar_fn.html#fn30">
+[31]</a>.  In addition, no cloud is allowed to form either in near-surface layers (sigma > 0.975) or above a latitude-dependent tropopause level.  Total cloud fraction in any layer also is not allowed to exceed 0.99.  Cf. the appendix of Liang and Wang (1995)<A HREF="32sunya_ncar_fn.html#fn44">[45]</A> for further details.
+
+</ul>
+
+<P><BR>
+<h4><A HREF="32sunya_ncar_fn.html"><IMG SRC="gifs/Button_blue.gif">	Go to SUNYA/NCAR References</a></h4>  <p> 
+
+<h4><A HREF="32sunya_ncar_ToC_b.html"><IMG SRC="gifs/Button_blue.gif">	Return to Model Table of Contents</a></h4>  
+
+<h4><A HREF="01toc.html"><IMG SRC="gifs/Button_blue.gif"> Return to Main Document Directory</a></h4><hR>
+
+Last update May 2, 1996. For further information, contact:<BR>
+Tom Phillips (<a href="mailto: phillips@tworks.llnl.gov"> phillips@tworks.llnl.gov </a>)<p>  
+<A HREF="http://www.llnl.gov/disclaimer.html">LLNL Disclaimers</A><p>   UCRL-ID-116384<p>   </body>
+<!-- Mirrored from www-pcmdi.llnl.gov/modeldoc/amip1/32sunya_ncar_b.html by HTTrack Website Copier/3.x [XR&CO'2004], Fri, 09 Jul 2004 21:04:18 GMT -->
+
+<!-- Mirrored from www-pcmdi.llnl.gov/projects/modeldoc/amip1/32sunya_ncar_b.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 20 Jun 2016 20:11:32 GMT -->
+</html>    

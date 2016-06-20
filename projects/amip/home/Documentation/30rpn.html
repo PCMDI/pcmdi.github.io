@@ -1,0 +1,354 @@
+---
+layout: AMIP
+---
+<!doctype HTML public "-//IETF//DTD HTML//EN//2.0">
+<HTML>
+<!-- Mirrored from www-pcmdi.llnl.gov/modeldoc/amip1/30rpn.html by HTTrack Website Copier/3.x [XR&CO'2004], Fri, 09 Jul 2004 21:01:49 GMT -->
+
+<!-- Mirrored from www-pcmdi.llnl.gov/projects/modeldoc/amip1/30rpn.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 20 Jun 2016 19:41:29 GMT -->
+<HEAD>
+<TITLE>Recherche en Pr&eacute;vision Num&eacute;rique: Model RPN NWP-D40P29 (T63 L23) 1993</TITLE>
+</HEAD>
+<BODY BACKGROUND="gifs/bg9.gif">
+<BODY>
+
+<h2><a name="RTFToC1">Recherche en Pr&eacute;vision Num&eacute;rique: Model RPN NWP-D40P29 (T63 L23) 1993</a>
+<hr>
+</h2>
+<h3>
+<a name="RTFToC2">AMIP
+Representative(s)
+</a>
+</h3>
+Dr. Harold Ritchie, Recherche en Pr&eacute;vision Num&eacute;rique, 2121 Trans-Canada Highway, Room 500, Dorval, Quebec, Canada H9P 1J3; Phone: +1-514-421-4739; Fax: +1-514-421-2106; e-mail: hritchie@rpn.aes.doe.ca
+<h3>
+<a name="RTFToC3">Model Designation
+</a></h3>
+RPN NWP-D40P29 (T63 L23) 1993
+<h3>
+<a name="RTFToC4">Model Lineage
+</a></h3>
+The RPN model derives from research on application of the semi-Lagrangian
+method (cf. Ritchie 1985
+<a href="30rpn_fn.html#fn0">[1]</a>, 1986
+<a href="30rpn_fn.html#fn1">[2]</a>, 1987
+<a href="30rpn_fn.html#fn2">[3]</a>, 1988
+<a href="30rpn_fn.html#fn3">[4]</a>, 1991
+<a href="30rpn_fn.html#fn4">[5]</a>), and from physical parameterizations in use in other models at this institution.
+<h3>
+<a name="RTFToC5">Model Documentation
+</a></h3>
+The semi-Lagrangian numerics are described by Ritchie (1991)
+<a href="30rpn_fn.html#fn0">[1]</a>, and the finite
+element discretization by Beland and Beaudoin (1985)
+<a href="30rpn_fn.html#fn5">[6]</a>. Descriptions of some physical
+parameterizations are provided by Benoit et al. (1989)
+<a href="30rpn_fn.html#fn6">[7]</a>.
+<h2>
+<a name="RTFToC6">Numerical/Computational
+Properties
+</a></h2>
+<h3>
+<a name="RTFToC7">Horizontal Representation
+</a></h3>
+Semi-Lagrangian spectral (spherical harmonic basis functions) with
+transformation to a Gaussian grid for calculation of nonlinear quantities and
+some physics.
+<h3>
+<a name="RTFToC8">Horizontal Resolution
+</a></h3>
+Spectral triangular 63 (T63), roughly equivalent to 1.9 x 1.9 degrees
+latitude-longitude.
+<h3>
+<a name="RTFToC9">Vertical Domain
+</a></h3>
+Surface to about 10 hPa. For a surface pressure of 1000 hPa, the lowest
+atmospheric level is at 1000 hPa (using a nonstaggered vertical grid).
+<h3>
+<a name="RTFToC10">Vertical Representation
+</a></h3>
+Finite-element sigma coordinates. (Some changes in the form of the vertical
+discretization of the model equations are required to produce a formulation
+appropriate for use of the semi-Lagrangian method--cf. Ritchie 1991
+<a href="30rpn_fn.html#fn0">[1]</a>.)
+<h3>
+<a name="RTFToC11">Vertical Resolution
+</a></h3>
+There are 23 unevenly spaced sigma levels. For a surface pressure of 1000 hPa,
+7 levels are below 800 hPa and 7 levels are above 200 hPa.
+<h3>
+<a name="RTFToC12">Computer/Operating System
+</a></h3>
+The AMIP simulation was run on a NEC SX-3 computer using a single processor in a UNIX operating environment.
+<h3>
+<a name="RTFToC13">Computational Performance
+</a></h3>
+For the AMIP experiment, about 4 minutes computation time per simulated day.
+<h3>
+<a name="RTFToC14">Initialization</a>
+</h3>
+For the AMIP simulation, the model atmosphere, soil moisture, and snow
+cover/depth are initialized for 1 December 1978 from FGGE analyses and
+climatological datasets. An adiabatic nonlinear normal mode initialization
+after Machenauer (1977)
+<a href="30rpn_fn.html#fn7">[8]</a> is also applied. The
+model is then integrated forward to the nominal AMIP start date of 1 January
+1979.
+<h3>
+<a name="RTFToC15">Time Integration Scheme(s)
+</a></h3>
+A semi-implicit, semi-Lagrangian time integration scheme with an Asselin
+(1972)
+<a href="30rpn_fn.html#fn8">[9]</a> frequency filter is used (cf. Ritchie
+1991)
+<a href="30rpn_fn.html#fn0">[1]</a>. Vertical diffusion and surface temperatures and fluxes are computed
+implicitly (cf. Benoit et al. 1989)
+<a href="30rpn_fn.html#fn6">[7]</a>. The time step is 30 minutes for dynamics
+and physics, except for full calculations of shortwave and longwave radiative
+fluxes, which are done every 3 hours. 
+<h3>
+<a name="RTFToC16">Smoothing/Filling</a></h3>
+Orography is smoothed (see <a href="30rpn.html#RTFToC29">Orography</a>). Negative values of atmospheric
+specific humidity are temporarily zeroed for use in physical parameterizations,
+but are not permanently filled. The solution in spectral space imposes an
+approximate conservation of total mass of the atmosphere.
+<h3>
+<a name="RTFToC17">Sampling Frequency
+</a></h3>
+For the AMIP simulation, the model history is written every 12 hours.
+<h2>
+<a name="RTFToC18">Dynamical/Physical Properties
+</a></h2>
+<h3>
+<a name="RTFToC19">Atmospheric Dynamics
+</a></h3>
+Primitive-equation dynamics expressed in terms of the horizontal vector wind,
+surface pressure, specific humidity, and temperature are formulated in a
+semi-Lagrangian framework (cf. Ritchie 1991)
+<a href="30rpn_fn.html#fn0">[1]</a>. 
+<h3>
+<a name="RTFToC20">Diffusion</a></h3>
+<ul>
+<li>	Second-order (del^2) horizontal diffusion is applied to spectral
+vorticity, divergence, temperature, and specific humidity on constant-sigma
+surfaces. All diffusivity coefficients are 10^5 m^2/s.
+<p>
+<li>	Vertical diffusion is represented by the turbulence kinetic energy (TKE)
+closure scheme described by Benoit et al. (1989)
+<a href="30rpn_fn.html#fn6">[7]</a> and Mailhot and Benoit
+(1982)
+<a href="30rpn_fn.html#fn9">[10]</a>. Prognostically determined TKE is
+produced by shear and buoyancy, and is depleted by viscous dissipation.
+Vertical (but not horizontal) transport of TKE is also modeled, and a minimum background TKE (10^-4 m^2/s^2) is always present. Diffusion coefficients for momentum and heat/moisture are determined from the current value of TKE and from a locally defined stability-dependent turbulence mixing length. See also
+<a href="30rpn.html#RTFToC28">Planetary Boundary Layer</a> and <a href="30rpn.html#RTFToC34">Surface Fluxes</a>. </ul><h3>
+<a name="RTFToC21">Gravity-wave Drag
+</a></h3>
+Subgrid-scale parameterization of gravity-wave drag follows the method of
+McFarlane (1987)
+<a href="30rpn_fn.html#fn10">[11]</a>. Deceleration of resolved
+flow by breaking/dissipation of orographically excited gravity waves is a
+function of atmospheric density and the vertical shear of the product of three
+terms: the Brunt-Vaisalla frequency, the component of local wind in the
+direction of a near-surface reference level, and a displacement amplitude that
+is bound by the lesser of the subgrid-scale orographic variance (see
+<a href="30rpn.html#RTFToC29">Orography</a>) or a wave-saturation value.
+<h3>
+<a name="RTFToC22">Solar Constant/Cycles
+</a></h3>
+The solar constant is the AMIP-prescribed value of 1365 W/(m^2). Both seasonal and diurnal cycles in solar forcing are simulated.
+<h3>
+<a name="RTFToC23">Chemistry</a></h3>
+The carbon dioxide concentration is the AMIP-prescribed value of 345 ppm.
+Monthly climatological zonal profiles of ozone are prescribed after data of
+Kita and Sumi (1986)
+<a href="30rpn_fn.html#fn11">[12]</a>. Radiative effects of
+water vapor are also included, but not those of other greenhouse gases or of
+aerosols (see <a href="30rpn.html#RTFToC24">Radiation</a>).
+<h3>
+<a name="RTFToC24">Radiation</a></h3>
+<ul>
+<li>	The outputs of the shortwave and longwave radiation schemes are the fluxes
+at each level and the heating rates in each layer. Fluxes also interact with
+the model at the surface, where the energy balance determines the surface
+temperature (see <a href="30rpn.html#RTFToC34">Surface Fluxes</a> and <a href="30rpn.html#RTFToC35">Land Surface Processes</a>). 
+<p>
+<li>	The shortwave parameterization after Fouquart and Bonnel (1980)
+<a href="30rpn_fn.html#fn12">[13]</a> considers the effects of carbon dioxide and
+ozone (see <a href="30rpn.html#RTFToC23">Chemistry</a>), water vapor, clouds, and liquid water. When
+clouds are present, liquid water is diagnosed from atmospheric temperature: a
+fraction of the maximum theoretical liquid water concentration on a wet adiabat
+is assumed, following Betts and Harshvardhan (1987)
+<a href="30rpn_fn.html#fn13">[14]</a>. The entire visible spectrum is treated as a single interval.
+<p>
+<li>	The longwave parameterizations after Garand (1983)
+<a href="30rpn_fn.html#fn14">[15]</a> and Garand and Mailhot (1990)
+<a href="30rpn_fn.html#fn15">[16]</a> include the same constituents as in the
+shortwave scheme, except that liquid water is not interactive. The frequency
+integration is carried out over 4 spectral intervals: the carbon dioxide
+15-micron band divided into center and wing components, the 9.3-micron ozone
+band, and the rest of the infrared spectrum, including absorption bands for
+water vapor and continuum absorption. (The frequency integration is precomputed
+for different temperatures and absorber amounts, with the results stored in
+look-up tables.) All clouds are assumed to behave as blackbodies (emissivity of
+1.0) and to be fully overlapped in the vertical. See also <a href="30rpn.html#RTFToC26">Cloud Formation</a>.</ul><h3>
+<a name="RTFToC25">Convection</a></h3>
+<ul>
+<li>	A modified Kuo (1974)
+<a href="30rpn_fn.html#fn16">[17]</a> scheme is used
+to parameterize the effects of deep precipitation-forming convection. When the
+large-scale vertical motion at the top of the planetary boundary layer (PBL) is
+upward and the free atmosphere above the PBL top (at about 900 hPa) is
+conditionally unstable, the assumed convective activity depends on the net
+moisture accession in the atmospheric column that is provided by both surface evaporation and large-scale moisture convergence. This moisture is partitioned between a fraction b which moistens the environment, and the remainder (1 - b) which contributes to the latent heating (precipitation) rate. Following Anthes (1977)
+<a href="30rpn_fn.html#fn17">[18]</a>, the moistening parameter b is
+determined as a cubic function of the ratio of the mean relative humidity of
+the cloud layer to a prescribed critical relative humidity threshold value; if
+the cloud relative humidity is less than the threshold, b is set to unity (no
+heating of the environment). The vertical distribution of the heating or
+moistening is according to differences between mean-cloud and large-scale
+profiles of temperature and moisture. The mean-cloud profiles are computed from
+the parcel method slightly modified by an entrainment height of 20 km.
+<p>
+<li>	Shallow convection is parameterized by a generalization of the PBL
+turbulence formulation (see <a href="30rpn.html#RTFToC20">Diffusion</a>) to include the case of partially
+saturated air in the conditionally unstable layer above an unstable boundary
+layer. First, a convective cloud fraction is diagnosed from a relation based on
+the Bjerknes slice method; then the buoyancy and all the turbulent fluxes are
+calculated, assuming condensation occurs in that layer fraction. The main
+effect of the parameterization is to enhance the vertical moisture transport in
+the absence of large-scale moisture convergence. See also <a href="30rpn.html#RTFToC28">Planetary Boundary Layer</a>.</ul><h3>
+<a name="RTFToC26">Cloud Formation
+</a></h3>
+Convective and stable cloud fractions are diagnosed separately and then
+combined to interact with the radiative fluxes (see <a href="30rpn.html#RTFToC24">Radiation</a>). In
+supersaturated, absolutely stable layers, a stable cloud fraction of unity is
+assigned. In layers where shallow or deep convection is diagnosed, the cloud
+fraction is determined from the pertinent portion of the convective scheme (see
+<a href="30rpn.html#RTFToC25">Convection</a>).
+<h3>
+<a name="RTFToC27">Precipitation</a></h3>
+Large-scale precipitation forms as a result of condensation in supersaturated
+layers that are absolutely stable, and shallow convective precipitation in
+conditionally unstable layers. Deep convective precipitation also forms in
+association with latent heating in the Kuo (1974)
+<a href="30rpn_fn.html#fn16">[17]</a> scheme (see <a href="30rpn.html#RTFToC25">Convection</a>). There is subsequent evaporation of large-scale
+precipitation only.
+<h3>
+<a name="RTFToC28">Planetary Boundary Layer
+</a></h3>
+The depth of the unstable PBL is determined from the profile of static
+stability. The depth of the stable PBL is diagnosed using the Monin-Obukhov
+length. See also <a href="30rpn.html#RTFToC20">Diffusion</a> and <a href="30rpn.html#RTFToC34">Surface Fluxes</a>.
+<h3>
+<a name="RTFToC29">Orography</a></h3>
+The raw topography are from the U.S. Navy data with 10-minutes arc resolution (cf. Josseph 1980)
+<a href="30rpn_fn.html#fn18">[19]</a> obtained from the
+European Centre for Medium-Range Weather Forecasts (ECMWF). These heights are
+spectrally filtered and truncated at the T63 model resolution. The orographic
+variances required for the gravity-wave drag parameterization (see
+<a href="30rpn.html#RTFToC21">Gravity-wave Drag</a>) are also determined from the same dataset. Cf. Pellerin and Benoit (1987)
+<a href="30rpn_fn.html#fn19">[20]</a> for further details.
+<h3>
+<a name="RTFToC30">Ocean</a></h3>
+AMIP monthly sea surface temperature fields are prescribed, with daily values
+determined by linear interpolation.
+<h3>
+<a name="RTFToC31">Sea Ice
+</a></h3>
+AMIP monthly sea ice extents are prescribed. The surface temperature of sea ice
+is predicted by the force-restore method of Deardorff (1978)
+<a href="30rpn_fn.html#fn20">[21]</a> in the same way as for land points (see
+<a href="30rpn.html#RTFToC35">Land Surface Processes</a>), without consideration of subsurface heat
+conduction through the ice. Snow cover is not accounted for on sea ice (see
+<a href="30rpn.html#RTFToC32">Snow Cover</a>). Cf. Benoit et al. (1989)
+<a href="30rpn_fn.html#fn6">[7]</a> for further details.
+<h3>
+<a name="RTFToC32">Snow Cover
+</a></h3>
+Snow mass is not a prognostic variable, and a snow budget is therefore not
+included. Snow cover over land is prescribed from the monthly climatology of Louis (1984)
+<a href="30rpn_fn.html#fn21">[22]</a>, but snow is not specified on
+sea ice (see <a href="30rpn.html#RTFToC31">Sea Ice</a>). Snow cover alters the albedo (see <a href="30rpn.html#RTFToC33">Surface Characteristics</a>), but not the heat capacity/conductivity of the surface.
+Sublimation of snow contributes to surface evaporation (see <a href="30rpn.html#RTFToC34">Surface Fluxes</a>), but soil moisture is not affected by snowmelt (see <a href="30rpn.html#RTFToC35">Land Surface Processes</a>). Cf. Benoit et al. (1989)
+<a href="30rpn_fn.html#fn6">[7]</a> for further details.
+<h3>
+<a name="RTFToC33">Surface Characteristics
+</a></h3>
+<ul>
+<li>	Over land, surface roughness lengths that are functions of orography and
+vegetation are specified after Louis (1984)
+<a href="30rpn_fn.html#fn21">[22]</a>. Over sea ice, the prescribed
+roughness length ranges between 1.5 x 10^-5 and 5 x 10^-3 m. Over ocean, the
+roughness length is treated as a function of the surface wind stress after the
+method of Charnock (1955)
+<a href="30rpn_fn.html#fn22">[23]</a>.
+<p>
+<li>	Surface albedos do not depend on solar zenith angle or spectral interval.
+On land, the surface albedo is specified from annual background values
+(provided by the Canadian Climate Centre) modulated with the monthly ice
+(albedo 0.70) and snow (albedo 0.80) climatology (see <a href="30rpn.html#RTFToC32">Snow Cover</a>). The
+albedo of ocean points is specified to be a uniform 0.07.
+<p>
+<li>	The surface longwave emissivity is prescribed as 0.95 over land and sea
+ice and as 1.0 (blackbody emission) over ocean.</ul><h3>
+<a name="RTFToC34">Surface Fluxes </a>
+</h3>
+<ul>
+<li>	The surface solar absorption is determined from surface albedos, and
+longwave emission from the Planck equation with prescribed surface
+emissivities (see <a href="30rpn.html#RTFToC33">Surface Characteristics</a>).
+<p>
+<li>	Following Monin-Obukhov similarity theory, the surface turbulent momentum,
+sensible heat, and moisture fluxes are expressed as bulk formulae, with drag
+and transfer coefficients that are functions of surface roughness length (see
+<a href="30rpn.html#RTFToC33">Surface Characteristics</a>) and of stability (expressed as a bulk
+Richardson number computed between level sigma = 0.99 and the surface). The
+same transfer coefficient is used for the heat and moisture fluxes.
+<p>
+<li>	The flux of surface moisture also depends on an evapotranspiration
+efficiency factor b that is unity over oceans, sea ice, and snow, but that is
+prescribed as a monthly wetness fraction over land (see <a href="30rpn.html#RTFToC35">Land Surface Processes</a>).
+<p>
+<li>	Above the surface layer, the turbulence closure scheme after Mailhot and
+Benoit (1982)
+<a href="30rpn_fn.html#fn9">[10]</a> and Benoit et al. (1989)
+<a href="30rpn_fn.html#fn6">[7]</a> is used to determine momentum, heat, and
+moisture fluxes. See also <a href="30rpn.html#RTFToC20">Diffusion</a> and <a href="30rpn.html#RTFToC28">Planetary Boundary Layer</a>.
+</ul><h3>
+<a name="RTFToC35">Land Surface Processes
+</a></h3>
+<ul>
+<li>	The surface temperature of soil (and of sea ice) is computed by the
+force-restore method of Deardorff (1978)
+<a href="30rpn_fn.html#fn20">[21]</a>. The upper boundary condition is a net
+balance of surface energy fluxes (see <a href="30rpn.html#RTFToC34">Surface Fluxes</a>), and monthly deep
+temperatures are prescribed as a lower boundary condition. The thermodynamic
+properties are those characteristic of clay soil, and the depth of the soil
+layer is taken to be that of the penetration of the diurnal heat wave. The same
+properties are also used for predicting the temperature of sea ice (see <a href="30rpn.html#RTFToC31">Sea Ice</a>). 
+<p>
+<li>	Soil moisture (expressed as a wetness fraction) is prescribed from monthly
+climatologies of Louis (1981)
+<a href="30rpn_fn.html#fn23">[24]</a>.
+Precipitation and snowmelt therefore do not influence soil moisture, and runoff
+is not accounted for; however, the prescribed wetness fraction does affect
+surface evaporation (see <a href="30rpn.html#RTFToC34">Surface Fluxes</a>). Cf. Benoit et al. (1989)
+<a href="30rpn_fn.html#fn6">[7]</a> for further details.</ul>
+
+<p><h4><p><A HREF="30rpn_fn.html"><IMG SRC="gifs/Button_blue.gif">	Go to RPN References</a></h4>
+
+<p><h4><p><A HREF="30rpn_ToC.html"><IMG SRC="gifs/Button_blue.gif">	Return to RPN Table of Contents</a></h4>
+
+<h4><A HREF="01toc.html"><IMG SRC="gifs/Button_blue.gif">	Return to Main Document Directory</a></h4>
+
+<P><HR>
+
+Last update April 19, 1996.  For further information, contact: Tom Phillips (<a href="mailto: phillips@tworks.llnl.gov">
+phillips@tworks.llnl.gov </a>)<P><A HREF="http://www.llnl.gov/disclaimer.html">LLNL Disclaimers</A>
+<p>
+ UCRL-ID-116384<p>
+</body>
+<!-- Mirrored from www-pcmdi.llnl.gov/modeldoc/amip1/30rpn.html by HTTrack Website Copier/3.x [XR&CO'2004], Fri, 09 Jul 2004 21:01:49 GMT -->
+
+<!-- Mirrored from www-pcmdi.llnl.gov/projects/modeldoc/amip1/30rpn.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 20 Jun 2016 19:41:29 GMT -->
+</html>

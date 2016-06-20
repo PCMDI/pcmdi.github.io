@@ -1,0 +1,172 @@
+---
+layout: AMIP
+---
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN//2.0">
+<HTML>
+<!-- Mirrored from www-pcmdi.llnl.gov/modeldoc/amip1/30ntu.html by HTTrack Website Copier/3.x [XR&CO'2004], Fri, 09 Jul 2004 21:01:49 GMT -->
+
+<!-- Mirrored from www-pcmdi.llnl.gov/projects/modeldoc/amip1/30ntu.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 20 Jun 2016 19:41:28 GMT -->
+<HEAD>
+<TITLE>National Taiwan University: Model NTU GCM (T42 L13) 1995</TITLE>
+</HEAD>
+<BODY BACKGROUND="gifs/bg9.gif">
+<BODY>
+
+
+<h2><a name="RTFToC1">National Taiwan University: Model NTU GCM (T42 L13) 1995</a></h2><hr>
+
+<h3><a name="RTFToC2">AMIP Representative(s)</a></h3>
+Prof. Wen-Shung Kau, Department of Atmospheric Sciences, National Taiwan University, 61, Ln144, Sec 4 Keelung Road, 10772, Taipei, Taiwan; Phone:+886-2-363-4705, Fax: +886-2- 363-3642; email: wen@asalpha1.as.ntu.edu.tw; World Wide Web URL: <A HREF="http://www.as.ntu.edu.tw//">http://www.as.ntu.edu.tw/</A> (in Chinese)
+
+<h3><a name="RTFToC3">Model Designation</a></h3>
+NTU GCM (T42 L13) 1995
+
+<h3><a name="RTFToC4">Model Lineage</a></h3>
+The present NTU model, designed especially for simulation of the Asian monsoon, is based on the early NMC global spectral model described by Sela (1980)<A HREF="30ntu_fn.html#fn0">[1]</A>. Subsequent changes include the substitution of a triangular truncation scheme for the model's original rhomboidal representation as well as significant modifications of virtually all the physical parameterizations.  
+
+<h3><a name="RTFToC5">Model Documentation</a></h3>
+Key documentation of the model is provided by Kau et al. (l995)<A HREF="30ntu_fn.html#fn1">[2]</A>. 
+
+<h2> <a name="RTFToC6">Numerical/Computational Properties </a></h2>
+
+<h3><a name="RTFToC7">Horizontal Representation</a></h3>
+Spectral with transformation to a Gaussian grid for calculation of nonlinear quantities and physical processes.
+
+<h3><a name="RTFToC8">Horizontal Resolution</a></h3>
+Spectral triangular 42 (T42), roughly equivalent in to a grid spacing of 2.8 x 2.8-degrees. 
+
+<H3><A NAME="RTFToC9">Vertical Domain</A></H3>
+Surface to 1 hPa.  For a surface pressure of 1000 hPa, the lowest atmospheric level is at 962 hPa.
+
+<h3><a name="RTFToC10">Vertical Representation</a></h3>
+Finite-difference sigma vertical coordinates with specification of layer locations after Brown(1974)<A HREF="30ntu_fn.html#fn2">[3]</A> and Phillips(1975)<A HREF="30ntu_fn.html#fn3">[4]</A>. Quadratically conserving vertical finite-difference approximations of Arakawa and Mintz (1974)<A HREF="30ntu_fn.html#fn4">[5]</A> are utilized.
+
+<h3><a name="RTFToC11">Vertical Resolution</a></h3>
+There are 13 irregularly spaced sigma levels. For a surface pressure of 1000 hPa, 3 levels are below 800 hPa and 4 levels are above 200 hPa.
+
+<h3><a name="RTFToC12">Computer/Operating System</a></h3>
+The AMIP experiment was run on a DEC-3000/600 computer using a single processor in a UNIX environment.
+
+<h3><a name="RTFToC13">Computational Performance</a></h3>
+For the AMIP simulation, about 7 minutes DEC-3000/600 computer time per simulated day.
+
+
+<h3><a name="RTFToC14">Initialization</a></h3> 
+The model atmospheric state, soil moisture, and snow/cover depth were initialized for 31 Dec. 1978 from FGGE Level III -B data sets.
+
+<h3><a name="RTFToC15">Time Integration Scheme(s)</a></h3>
+A semi-implicit scheme by Robert(1969)<A HREF="30ntu_fn.html#fn5">[6]</A> with a moderate time filter is used for time integration. The time step is 20 minutes for dynamics and physics, while the radiation/cloud calculations are done once every 3 hours.
+
+
+<h3><a name="RTFToC16">Smoothing/Filling</a></h3> 
+The orography is smoothed (see <A HREF="#RTFToC29">Orography</A>).  Spurious negative values of atmospheric specific humidity are set to zero at each time step.
+
+<h3><a name="RTFToC17">Sampling Frequency</a></h3>
+For the AMIP simulation, daily averages of model variables are saved once every 24 hours.
+
+
+<h2><a name="RTFToC18">Dynamical/Physical Properties</a></h2>
+
+<h3><a name="RTFToC19">Atmospheric Dynamics</a></h3>
+Primitive-equation dynamics are expressed in terms of vorticity, divergence, temperature, specific humidity, and the logarithm of surface pressure.
+
+
+<h3><a name="RTFToC20">Diffusion</a></h3> 
+<UL>
+<LI>Horizontal diffusion is applied to the temperature, vorticity, divergence, and moisture fields. The diffusion is represented in a simplified spectral form based on Laursen and Eliasen(1989)<A HREF="30ntu_fn.html#fn6">[7]</A>, where the diffusion coefficient varies for different variables and levels.
+<P>
+<LI>Stability-dependent vertical diffusion operates only in the model's <A HREF="#RTFToC28">planetary boundary layer</A> (see also <A HREF="#RTFToC34">Surface Fluxes</A>).</I>
+
+</UL>
+<h3> <a name="RTFToC21">Gravity-wave Drag</a></h3>
+The momentum transports due to sub-grid scale gravity waves excited by stably stratified flow over irregular terrain are parameterized after Chouinard et al.(1986)<A HREF="30ntu_fn.html#fn7">[8]</A>.   The drag at the surface is dependent on sub-gridscale orographic variance (see <a href="#RTFToC29">Orography</a>), and it is parameterized by means of a reference height which is defined to be twice the local standard deviation of the surface heights. At a particular sigma level the frictional drag on the atmosphere from breaking gravity waves depends on the projection of the wind on the surface wind and on the Froude number, which in turn is a function of the reference height, the atmospheric density, the Brunt-Vaisalla frequency, and the wind shear. Gravity-wave drag is assumed to be zero above a critical level, which is taken to be the top sigma level of the model (see <a href="#RTFToC9">Vertical Domain</a>).
+
+<h3><a name="RTFToC22">Solar Constant/Cycles</a></h3>
+The solar constant is the AMIP-prescribed value of 1365 W/m^2. Both seasonal and diurnal cycles in solar forcing are simulated.
+
+<h3><a name="RTFToC23">Chemistry</a></h3> 
+The carbon dioxide concentration is the AMIP-prescribed value of 345 ppm. Monthly mean zonally averaged climatological ozone mixing ratios are specified as a function of latitude and height from data of Rosenfield et al.(1987)<A HREF="30ntu_fn.html#fn8">[9]</A>, and are are linearly interpolated in time.  Radiative effects of water vapor also are treated (see <A HREF="#RTFToC24">Radiation</A>).
+
+<h3><a name="RTFToC24">Radiation</a></h3> 
+<UL>
+<LI>The radiative transfer parameterization scheme is based on the broadband methods developed by Ou and Liou(1988)<A HREF="30ntu_fn.html#fn9">[10]</A> which calculates the transfer of longwave and shortwave fluxes in both clear and cloudy regions. In a clear atmosphere, the entire longwave spectrum is divided into five bands: three for water vapor, one for carbon dioxide, and one for ozone absorption. The parameterizations of these broadband longwave emissivities follow Liou and Ou(1981)<A HREF="30ntu_fn.html#fn10">[11]</A> and Ou and Liou(1988)<A HREF="30ntu_fn.html#fn9">[10]</A>. The shortwave spectrum consists of 25 bands--six for water vapor, one for carbon dioxide (which overlaps the 2.7 micron band for water vapor), and 18 for ozone. Parameterization of the corresponding broadband shortwave absorptivities is documented by Liou et al.(1984)<A HREF="30ntu_fn.html#fn11">[12]</A>.
+<P>
+<LI>In a cloudy atmosphere, low and middle clouds are treated as blackbodies in the longwave radiative transfer calclulation. The broadband longwave emissivity, reflectivity, and transmissivity for high clouds as well as the broadband shortwave absorption, reflection, and transmission for various cloud types are computed based on a prescribed vertical liquid water content. Cloud radiative properties are calculated based on the parameterizations developed by Liou and Wittman(1979)<A HREF="30ntu_fn.html#fn12">[13]</A> as functions of cloud type/height and liquid water/ice content.  For purposes of the radiation calculations, clouds are assumed to be randomly overlapped in the vertical.   Cf. Kau et al. (1995)<A HREF="30ntu_fn.html#fn1">[2]</A> for further details. See also <A HREF="#RTFToC26">Cloud Formation</A>.
+</UL>
+
+<h3> <a name="RTFToC25">Convection</a></h3>
+<UL>
+<LI>The parameterization of convection follows the approach of Kuo (1965)<A HREF="30ntu_fn.html#fn13">[14]</A> as an adaption of Phillips (1979)<A HREF="30ntu_fn.html#fn14">[15]</A>. Cf. Sela (1980)<A HREF="30ntu_fn.html#fn0">[1]</A> for a detailed description.  
+<P>
+<LI>Penetrative convection occurs in the presence of large moisture convergence accompanied by a moist unstable lapse rate under conditions of moderately high relative humidity. The convective cloud is assumed to dissolve instantaneously through lateral mixing, thereby imparting heat and moisture to the environment.  In a vertical column, the total moisture available from convergence is divided between a fraction <B>b</B> that moistens the environment and the remainder (1 - <B>b</B>) that contributes to the latent heating (precipitation) rate.  
+<P>
+<LI>The moistening parameter <B>b</B> is prescribed as a function of sea surface temperature (SST).  That is, <B>b</B> decreases linearly toward zero in the range from SST = 296 K to 299 K, and is set to zero when  SST  >= 299 K. Cf. Kau et al. (1995)<A HREF="30ntu_fn.html#fn1">[2]</A> for further details. 
+</UL>
+
+<h3> <a name="RTFToC26">Cloud Formation</a></h3>
+<UL>
+<LI>
+Cloud cover and liquid water content required for the <A HREF="#RTFToC24">radiation</A> calculations are determined diagnostically following Gelyn(1981))<A HREF="30ntu_fn.html#fn15">[16]</A>, Liou and Zheng(1984))<A HREF="30ntu_fn.html#fn16">[17]</A>, and Slingo & Ritter(1985)<A HREF="30ntu_fn.html#fn17">[18]</A>. Cloud amount is a quadratic function of a humidity excess above prescribed threshold values.
+<P>
+<LI>The model allows partial or total cloud cover in seven vertical sigma layers (layers 3 to 9), while the top two layers and the bottom three layers are specified as being cloudless. The model-generated multilayer cloudiness then is strapped into high, middle, and low cloud decks.  Cf. Kau et al. (1995)<A HREF="30ntu_fn.html#fn1">[2]</A> for further details.
+</UL>
+
+<h3> <a name="RTFToC27">Precipitation</a></h3> 
+Precipitation can result either from convection or from large-scale condensation, when the local specific humidity exceeds the saturated humidity at the environmental temperature/pressure. Evaporation of convective precipitation is parameterized as a function of convective rain intensity and saturation deficit.  Before falling to the surface, large-scale precipitation must saturate all layers below the condensation level by evaporation. Cf. Kau et al. (1995)<A HREF="30ntu_fn.html#fn1">[2]</A> for further details. See also <A HREF="#RTFToC25">Convection</A> and <A HREF="#RTFToC32">Snow Cover</A>.<P> 
+
+<h3> <a name="RTFToC28">Planetary Boundary Layer</a></h3>
+The PBL top, defined as the lifting condensation level, is assumed to be situated at the lowest vertical level (sigma = 0.962). See also <A HREF="#RTFToC20">Diffusion</A> and <A HREF="#RTFToC34">Surface Fluxes</A>.
+
+<h3><a name="RTFToC29">Orography</a></h3> 
+Surface orographic heights are determined by averaging the U.S. Navy 10 x 10 minute data (cf. Joseph 1980<A HREF="30ntu_fn.html#fn18">[19]</A>) over each model grid box. The mean orography then is passed through a Lanczos (1966)<A HREF="30ntu_fn.html#fn19">[20]</A> filter in two dimensions, thereby removing the smallest scales and inhibiting Gibbs phenomena. Negative values in the orography that result from the filtering procedure are not filled.  The orographic variances required by the <A HREF="#RTFToC21">gravity-wave drag</a> scheme also are obtained from the same dataset.
+
+
+<h3><a name="RTFToC30">Ocean</a></h3>
+AMIP monthly sea surface temperature fields are prescribed, with daily values determined by linear interpolation.
+
+<h3><a name="RTFToC31">Sea Ice</a></h3>
+AMIP monthly sea ice extents are prescribed, and are linearly interpolated for intermediate times.  Sea ice is assumed to be everywhere 3 m thick, and is unaffected by snow accumulation. The surface temperature of the ice is predicted from a surface energy balance that takes account of conduction heating from the ocean below.<P>
+
+<h3><a name="RTFToC32">Snow Cover</a></h3>
+Snow accumulates when the temperature of the surface is less than the freezing point 273.15 K in conjuncton with a climatological albedo > 0.4.  However, the prognostic snow cover does not affect the albedo or any other <A HREF="#RTFToC33">surface characteristics</A>, and sublimation of snow is not included in the surface evaporation (see <A HREF="#RTFToC34">Surface Fluxes</A>).  Snow melt also does not contribute to soil moisture because the latter is prescribed (see <A HREF="#RTFToC35">Land Surface Processes</A>).
+
+<h3><a name="RTFToC33">Surface Characteristics</a></h3>
+<UL>
+<LI> The surface type is determined from the 10' x 10' U.S. Navy dataset (cf. Joseph 1980<A HREF="30ntu_fn.html#fn18">[19]</A>), which includes the percentage of water-cover at any point.  After averaging these data over the model's grid (see <A HREF="#RTFToC8">Horizontal Resolution</A>), grid boxes with values of water cover >= 60% are designated as water surfaces.
+<P>
+<LI>The surface roughness length over ice surfaces is constant, and over the oceans is calculated as a function of frictional wind speed. The spatially variable roughness over vegetated land is precribed by datasets obtained from the National Center for Environmental Prediction (NCEP) (formerly the National Meteorological Center, NMC).
+<P>
+<LI>The surface albedo is prescribed by climate data obtained from the Central Weather Bureau of Taiwan. Over oceans, the albedo is specified as a constant 0.09, and over ice surfaces as a constant 0.60.  The albedo is spatially variable over land, and monthly mean values are interpolated to intermediate time points.  Albedos do not depend on sun angle or spetral intervals, nor are they affected by prognostic <A HREF="#RTFToC32">snow cover</A>.
+<P>
+<LI>Longwave emissivities of ocean and ice surface are unity (blackbody emission) everywhere.
+</UL>
+
+<h3> <a name="RTFToC34">Surface Fluxes</a></h3>
+<UL>
+<LI>Surface shortwave absorption is determined from the albedo, and longwave emission from the Planck equation with prescribed surface emissivities (see <A HREF="#RTFToC33">Surface Characteristics</A>).  Cf. Ou and Liou (1988)<A HREF="30ntu_fn.html#fn9">[10]</A> for further details. 
+<P>
+<LI>Turbulent vertical eddy fluxes of momentum, heat,and moisture are expressed as bulk formulae, following Monin-Obukhov similarity theory. The values of wind, temperature, and humidity required for the bulk formula are taken to be those at the lowest atmosphere level (sigma=0.962), which is assumed to be within a constant-flux surface layer. The bulk transfer coefficients are functions of roughness length and stability (bulk Richardson number), following Businger et al.(l971)<A HREF="30ntu_fn.html#fn20">[21]</A>. The neutral values of the transfer coefficients (which are the same for momentum, heat, and moisture fluxes) vary from a minimum of 0.0013 over open ocean to a maximum of 0.009 over the Himalayas.  These coefficients allow the transfer process to be highly wind-speed selective (cf. Sela (1980)<A HREF="30ntu_fn.html#fn0">[1]</A>).
+<P>
+<LI>Over ocean, snow, and ice surfaces, the surface specific humidity is taken to be the saturated value at the given surface temperature and pressure. Over land, the moisture flux is a fraction <B>beta</B> of the potential rate for a saturated surface, where <B>beta</B> is a function of the <I>prescribed</I> <A HREF="#moisture">soil moisture</A>, following Manabe et al. (1969)[<A HREF="30ntu_fn.html#fn21">22</A>].  Cf. Kau et al. (1995)<A HREF="30ntu_fn.html#fn1">[2]</A> for further details. 
+</UL>
+
+<h3> <a name="RTFToC35">Land Surface Processes</a></h3>
+<UL>
+<LI>Soil temperature is predicted from the surface energy balance (see <A HREF="#RTFToC34">Surface Fluxes</A>) assuming zero heat storage.   
+<P>
+<A NAME="moisture"></A><LI>The monthly soil moisture is prescribed from the climatological estimates of Mintz and Serafini (1984)[<A HREF="30ntu_fn.html#fn22">23</A>].  
+</UL>
+
+<P><BR>
+<h4><A HREF="30ntu_fn.html"><IMG SRC="gifs/Button_blue.gif">	Go to NTU References</a></h4> <p>  <h4><A HREF="30ntu_ToC.html"><IMG SRC="gifs/Button_blue.gif">	Return to NTU Table of Contents</a></h4>  <h4><A HREF="01toc.html"><IMG SRC="gifs/Button_blue.gif">	Return to Main Document Directory</a></h4>
+<HR>
+
+Last update October 1, 1996.  For further information, contact: Tom Phillips (<a href="mailto: phillips@tworks.llnl.gov"> phillips@tworks.llnl.gov </a>)<p> <A HREF="http://www.llnl.gov/disclaimer.html">LLNL Disclaimers</A>
+<p>
+ UCRL-ID-116384
+<p>
+</body>
+<!-- Mirrored from www-pcmdi.llnl.gov/modeldoc/amip1/30ntu.html by HTTrack Website Copier/3.x [XR&CO'2004], Fri, 09 Jul 2004 21:01:49 GMT -->
+
+<!-- Mirrored from www-pcmdi.llnl.gov/projects/modeldoc/amip1/30ntu.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 20 Jun 2016 19:41:28 GMT -->
+</html>

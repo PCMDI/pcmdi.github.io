@@ -1,0 +1,87 @@
+---
+layout: AMIP
+---
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN//2.0"><title>Dynamical Extended-Range Forecasting (at Geophysical Fluid Dynamics Laboratory): Model DERF GFDLSM195 (T42 L18) 1995</title></head>
+
+<!-- Mirrored from www-pcmdi.llnl.gov/projects/modeldoc/amip1/17derf_b.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 20 Jun 2016 20:11:32 GMT -->
+<BODY BACKGROUND="gifs/bg9.gif">
+<body>
+
+<h2><a name="RTFToC1">Dynamical Extended-Range Forecasting (at Geophysical Fluid Dynamics Laboratory): Model DERF GFDLSM195 (T42 L18) 1995</a></h2><hr>
+
+<h3><a name="RTFToC3">Model Designation</a></h3>
+<P>
+DERF GFDLSM195 (T42 L18) 1995
+
+<h3><a name="RTFToC4">Model Lineage </a></h3>
+<P>
+The model is similar to AMIP baseline model <A HREF="17derf_ToC.html">DERF GFDLSM392.2 (T42 L18) 1993</A> in many respects, but includes smoothed <A HREF="#RTFToC29">orography</A> and some different <A HREF="#RTFToC33">surface characteristics</A>, a new <A HREF="#RTFToC35">soil hydrology scheme</A>, and modified formulations of <A HREF="#RTFToC26">cloud formation</A> and <A HREF="#RTFToC34">surface fluxes</A>.  The 
+<A HREF="#RTFToC12">computational environment</A> and <A HREF="#RTFToC13">performance</A> of the model used for the repeated AMIP experiment also are different.
+
+<h3> <a name="RTFToC5">Model Documentation</a></h3>
+<P>
+Besides the <A HREF="17derf.html#RTFToC5">baseline model's documentation</A> that is still relevant,  the smoothing procedure for orography is discussed by Navarra et al. (1994)<A HREF="17derf_fn.html#fn33">[34]</A> and modifications of the roughness length over the ocean by Godfrey and Beljaars (1991)<A HREF="17derf_fn.html#fn34">[35]</A>.
+
+<h2> <a name="RTFToC6">Numerical/Computational Properties</a></h2>
+
+<P>
+<h3> <a name="RTFToC12">Computer/Operating System </a></h3>
+In contrast to the <A HREF="17derf.html#RTFToC12">original integration</A>, the repeated AMIP simulation was run on a Cray C90 computer using a single processor in the UNICOS environment. <P>
+<h3> <a name="RTFToC13">Computational Performance</a></h3>
+<P>
+The repeated AMIP integration required 3.8 minutes of Cray C90 computation time per simulated day, an increase in efficiency of about 30% over that of the <A HREF="17derf.html#RTFToC13">baseline model's integration</A> (on a different computer).
+
+<h3> <a name="RTFToC14">Initialization</a></h3>
+The model was initialized in the same way as in the <A HREF="17derf.html#RTFToC14">baseline model</A>, except that the initial snowmass was reduced everywhere by a factor of 10 to correct erroneously large values used in the baseline integration.  The impact of this change on the model's climate was minimal, except in the Himalayan region where the summer surface temperature increased by a few degrees (but without a perceptible effect on the Asian monsoon circulation). 
+
+<h3> <a name="RTFToC16">Smoothing/Filling</a></h3>
+The <A HREF="17derf.html#RTFToC16">baseline model's</A> procedure for filling negative values of atmospheric moisture is still used.  In addition, the <A HREF="#RTFToC29">orography</A> is now smoothed. 
+<P>
+<h2><a name="RTFToC18">Dynamical/Physical Properties </a></h2>
+
+<P>
+<h3> <a name="RTFToC26">Cloud Formation </a></h3>
+A linear-regression scheme is utilized for better representation of marine stratocumulus cloud associated with temperature inversions in the boundary layer; the cloud formation scheme is otherwise the same as that used the <A HREF="17derf.html#RTFToC26">baseline model</A>.
+<P>
+<h3> <a name="RTFToC29">Orography</a></h3>
+In contrast to the procedure of the <A HREF="17derf.html#RTFToC29">baseline model</A>, the orography is first smoothed by application of the two-dimensional isotropic filter of Navarra et al. (1994)<A HREF="17derf_fn.html#fn33">[34]</A> before transforming to spectral space and truncating at T42 resolution.
+<P>
+<H3><A NAME="RTFToC31">Sea Ice</A></H3>
+In contrast to the <A HREF="17derf.html#RTFToC31">baseline model</A>, Southern Hemisphere sea-ice leads are not represented.
+<h3> <a name="RTFToC33">Surface Characteristics </a></h3>
+<UL>
+<LI>The <A HREF="17derf.html#RTFToC33">baseline model's</A> use of the Charnock (1955) relation for computing roughness lengths over oceans is modified in conditions of low wind speeds, following Godfrey and Beljaars (1991)<A HREF="17derf_fn.html#fn34">[35]</A>.  The baseline model's constant roughness over land is replaced by Dorman and Sellers' (1989)<A HREF="17derf_fn.html#fn35">[36]</A> monthly varying roughness fields that depend on vegetation type.  The effect of Southern Hemisphere sea-ice leads on roughness length also is omitted.
+<P>
+<LI>Seasonally varying snow-free albedos by Matthews (1984)<A HREF="17derf_fn.html#fn36">[37]</A> replace those used over land in the <A HREF="17derf.html#RTFToC33">baseline model</A>.  Albedoes of snow-covered surfaces are obtained from CLIMAP (1981)<A HREF="17derf_fn.html#fn37">[38]</A> data rather than by the algorithm of the baseline model.  
+</UL>
+
+<P>
+<h3> <a name="RTFToC34">Surface Fluxes </a></h3>
+The <A HREF="17derf.html#RTFToC34">baseline model's</A> special treatment of surface fluxes to account for the effects of Southern Hemisphere sea-ice leads is omitted owing to the absence of these leads (see <A HREF="#RTFToC31">Sea Ice</A>).
+<P>
+<h3> <a name="RTFToC35">Land Surface Processes</a></h3>
+<UL>
+<LI>Soil temperature is predicted as in the <A HREF="17derf.html#RTFToC35">baseline model</A>, but the bucket model representation of soil moisture is replaced by a three-layer model similar to that described by ECMWF Research Department (1991)<A HREF="17derf_fn.html#fn38">[39]</A>.  Soil moisture in the two top layers obeys a simple diffusion equation modified by gravitational effects (Darcy's law), but  the moisture of the deepest layer is prescribed according to climatological estimates of Mintz and Serafini (1981)<A HREF="17derf_fn.html#fn39">[40]</A>.
+<P>
+<LI>In addition, soil moisture is affected by surface evaporation, but evapotranspiration and precipitation interception by a vegetation canopy are omitted.  Surface runoff occurs if the moisture capacity of the top soil layer (0.02 m) is exceeded, and there is simulation of runoff by gravitational drainage when the predicted moisture of the middle layer is > 0.12 m.
+</UL>
+
+<P><BR><h4><p><A HREF="17derf_fn.html"><IMG SRC="gifs/Button_blue.gif">	Go to DERF References</a></h4>
+
+<p><h4><p><A HREF="17derf_ToC_b.html"><IMG SRC="gifs/Button_blue.gif">	Return to Model Table of Contents</a></h4>
+
+<h4><A HREF="01toc.html"><IMG SRC="gifs/Button_blue.gif">	Return to Main Document Directory</a></h4>
+
+<P><HR>
+
+Last update November 12, 1996.  For further information, contact: Tom Phillips (<a href="mailto: phillips@tworks.llnl.gov">phillips@tworks.llnl.gov </a>)<P>
+
+<A HREF="http://www.llnl.gov/disclaimer.html">LLNL Disclaimers</A>
+<p>
+ UCRL-ID-116384
+
+</body>
+<!-- Mirrored from www-pcmdi.llnl.gov/modeldoc/amip1/17derf_b.html by HTTrack Website Copier/3.x [XR&CO'2004], Fri, 09 Jul 2004 21:04:18 GMT -->
+
+<!-- Mirrored from www-pcmdi.llnl.gov/projects/modeldoc/amip1/17derf_b.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 20 Jun 2016 20:11:32 GMT -->
+</html>

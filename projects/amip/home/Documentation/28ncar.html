@@ -1,0 +1,246 @@
+---
+layout: AMIP
+---
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN//2.0">
+<HTML>
+<!-- Mirrored from www-pcmdi.llnl.gov/modeldoc/amip1/28ncar.html by HTTrack Website Copier/3.x [XR&CO'2004], Fri, 09 Jul 2004 21:01:46 GMT -->
+
+<!-- Mirrored from www-pcmdi.llnl.gov/projects/modeldoc/amip1/28ncar.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 20 Jun 2016 20:00:06 GMT -->
+<HEAD>
+<TITLE>National Center for Atmospheric Research: Model NCAR CCM2 (T42 L18) 1992</TITLE>
+</HEAD>
+<BODY BACKGROUND="gifs/bg9.gif">
+<BODY>
+
+
+<h2><a name="RTFToC1">National Center for Atmospheric Research: Model NCAR CCM2 (T42 L18) 1992</a></h2><HR> 
+
+<h3> <a name="RTFToC2">AMIP Representative(s) </a></h3>
+
+ Dr. David Williamson, National Center for Atmospheric Research, P.O. Box 3000, Boulder, Colorado 80307; Phone: +1-303-497-1372; Fax: +1-303-497-1324; e-mail: wmson@ncar.ucar.EDU; World Wide Web URL:  <a href="http://www.ncar.ucar.edu/">http://www.ncar.ucar.edu/</a>. 
+
+<h3> <a name="RTFToC3">Model Designation </a></h3>
+
+ NCAR CCM2 (T42 L18) 1992<h3> <a name="RTFToC4">Model Lineage </a></h3>
+
+ The NCAR Community Climate Model 2 (CCM2) is the historical descendant of the CCM1 model (cf. Williamson et al. 1987<a href="28ncar_fn.html#fn0">
+[1]</a> and Hack et al. 1989<a href="28ncar_fn.html#fn1">
+[2]</a>), but with most dynamical and physical parameterizations qualitatively changed. The NCAR CCM2 model is also substantially different from the <a href="32sunya_ncar_ToC.html">NCAR GENESIS</a> model.
+
+<h3> <a name="RTFToC5">Model Documentation </a></h3><ul><li>
+
+Key documents are the NCAR CCM2 model description by Hack et al. (1993)<a href="28ncar_fn.html#fn2">
+[3]</a> and the user's guide by Bath et al. (1992)<a href="28ncar_fn.html#fn3">
+[4]</a>. Other papers that provide details on particular model features include Briegleb (1992)<a href="28ncar_fn.html#fn4">
+[5]</a>, Briegleb et al. (1986)<a href="28ncar_fn.html#fn5">
+[6]</a>, and Kiehl and Briegleb (1991)<a href="28ncar_fn.html#fn6">
+[7]</a> on the radiation parameterizations, Hack (1994)<a href="28ncar_fn.html#fn7">
+[8]</a> on the convection scheme, Holtslag and Boville (1993)<a href="28ncar_fn.html#fn8">
+[9]</a> on the simulation of boundary-layer diffusion, and Williamson and Rasch (1994)<a href="28ncar_fn.html#fn9">
+[10]</a> on the semi-Lagrangian transport scheme. Various aspects of the simulated climate with prescribed climatological sea surface temperatures are described by Kiehl et al. (1994)<a href="28ncar_fn.html#fn10">
+[11]</a> and Hack et al. (1994)<a href="28ncar_fn.html#fn11">
+[12]</a>. Model datasets available for analysis at NCAR (including those from the AMIP simulation) are summarized by Williamson (1993)<a href="28ncar_fn.html#fn12">
+[13]</a>. <p>
+<li>The complete set of NCAR Technical Notes providing documentation on the CCM2 model and the CCM processor are available at the NCAR Technical Notes Catalog: <a href="http://www.ucar.edu/communications/technotes/technotes001-100.shtml">http://www.ucar.edu/communications/technotes/technotes001-100.shtml</a>.WWW summaries of various CCM2 experiments are also available at URL <A HREF="http://www.cgd.ucar.edu/cms/ccm2/391/index.html">http://www.cgd.ucar.edu/cms/ccm2/391/index.html</A>.  In addition, the model source (FORTRAN) code for an improved version of the CCM2 model (designated as CCM2.1, but with algorithms identical to those of the CCM2 model used in the AMIP experiment) can be downloaded by anonymous ftp at <A HREF="ftp://ftp.ucar.edu/pub/ccm/">ftp.ucar.edu/pub/ccm</A>.
+</ul>
+
+<h2> <a name="RTFToC6">Numerical/Computational Properties </a></h2> 
+
+<h3> <a name="RTFToC7">Horizontal Representation </a></h3>
+
+ Spectral (spherical harmonic basis functions) with transformation to a Gaussian grid for calculation of nonlinear quantities and most of the physics. Advection of water vapor is via shape-preserving semi-Lagrangian transport (SLT) on the Gaussian grid (cf. Williamson and Rasch 1994). 
+
+<h3> <a name="RTFToC8">Horizontal Resolution </a></h3>
+
+ Spectral triangular 42 (T42), roughly equivalent to 2.8 x 2.8 degrees latitude-longitude. 
+
+<h3> <a name="RTFToC9">Vertical Domain </a></h3>
+
+ Surface to 2.917 hPa. For a surface pressure of 1000 hPa, the lowest atmospheric level is at a pressure of about 992 hPa. 
+
+<h3> <a name="RTFToC10">Vertical Representation </a></h3>
+
+ Finite differences in hybrid sigma-pressure coordinates after Simmons and Striifing (1981)<a href="28ncar_fn.html#fn13">
+[14]</a>, but modified to allow an upper boundary at nonzero (2.917 hPa) pressure. The vertical-differencing formulation conserves global total energy in the absence of sources and sinks. See also <a href="28ncar.html#RTFToC9">Vertical Domain</a> and <a href="28ncar.html#RTFToC11">Vertical Resolution</a>. 
+
+<h3> <a name="RTFToC11">Vertical Resolution </a></h3>
+
+ There are 18 unevenly spaced hybrid sigma-pressure levels. For a surface pressure of 1000 hPa, 4 levels are below 800 hPa and 7 levels are above 200 hPa. 
+
+<h3> <a name="RTFToC12">Computer/Operating System </a></h3>
+
+ The AMIP simulation was run on Cray 2 computers using multiple processors in the UNICOS environment. 
+
+<h3> <a name="RTFToC13">Computational Performance </a></h3>
+
+ For the AMIP experiment, about 7 minutes on a single processor of the Cray 2 computer per simulated day. 
+
+<h3> <a name="RTFToC14">Initialization</a></h3>
+
+ For the AMIP simulation, the model atmosphere is initialized from a previous model solution for 10 December 1978, and is then "spun up" to a simulated 1 January 1979 state. Snow cover/depth are prescribed from a mean January climatology only as a function of latitude (see <a href="28ncar.html#RTFToC32">Snow Cover</a>). Annual-average ground wetness is prescribed for 10 surface types in place of specifying soil moisture (see <a href="28ncar.html#RTFToC33">Surface Characteristics</a> and <a href="28ncar.html#RTFToC35">Land Surface Processes</a>). 
+
+<h3> <a name="RTFToC15">Time Integration Scheme(s) </a></h3>
+
+ A centered semi-implicit time integration scheme (cf. Simmons et al. 1978
+<a href="28ncar_fn.html#fn14">[15]
+</a>) with an Asselin (1972)<a href="28ncar_fn.html#fn15">[16]
+</a> frequency filter is used for many calculations, but horizontal and vertical diffusion (see <a href="28ncar.html#RTFToC20">Diffusion</a>), the advection of water vapor by the SLT scheme (see <a href="28ncar.html#RTFToC7">Horizontal Representation</a>), and adjustments associated with convection and large-scale condensation (see <a href="28ncar.html#RTFToC25">Convection</a> and <a href="28ncar.html#RTFToC26">Cloud Formation</a>) are computed implicitly by a time-splitting procedure. The overall time step is 20 minutes for dynamics and physics, except for shortwave and longwave radiative fluxes and heating rates, which are calculated hourly (with longwave absorptivities and emissivities updated every 12 hours--see <a href="28ncar.html#RTFToC24">Radiation</a>). Cf. Hack et al. (1993)
+<a href="28ncar_fn.html#fn2">[3]</a> for further details. 
+
+<h3> <a name="RTFToC16">Smoothing/Filling</a></h3>
+
+ Orography is smoothed (see <a href="28ncar.html#RTFToC29">Orography</a>). Because advection of moisture is treated by the SLT scheme (see <a href="28ncar.html#RTFToC7">Horizontal Representation</a>) negative specific humidity values are avoided. In cases where negative mixing ratios would result from application of the countergradient term in the parameterization of nonlocal vertical diffusion of moisture in the planetary boundary layer (PBL) (see <a href="28ncar.html#RTFToC20">Diffusion</a>, <a href="28ncar.html#RTFToC28">Planetary Boundary Layer</a>, and <a href="28ncar.html#RTFToC34">Surface Fluxes</a>), the countergradient term is not calculated. In addition, at each 20-minute time step a "fixer" is applied to the surface pressure and water vapor so that the global average mass and moisture are conserved (cf. Williamson and Rasch 1994)
+<a href="28ncar_fn.html#fn9">[10]</a>.
+
+<h3> <a name="RTFToC17">Sampling Frequency </a></h3>
+
+ For the AMIP simulation, the model history is written every 6 hours. 
+
+<h2> <a name="RTFToC18">Dynamical/Physical Properties </a></h2> 
+
+<h3> <a name="RTFToC19">Atmospheric Dynamics </a></h3>
+
+ Primitive-equation dynamics are expressed in terms of vorticity, divergence, temperature, specific humidity, and the logarithm of surface pressure. Virtual temperature is used where applicable, and frictional/diffusive heating is included in the thermodynamic equation.  
+
+<h3> <a name="RTFToC20">Diffusion</a></h3>
+
+<ul><li>	In the troposphere, linear biharmonic (del^4) horizontal diffusion (with coefficient 1 x 10^16 m^4/s) is applied to divergence and vorticity on hybrid sigma-pressure surfaces, and to temperature on first-order constant pressure surfaces (requiring that biharmonic diffusion of surface pressure also be calculated on the Gaussian grid). In the stratosphere linear second-order (del^2) diffusion is applied to the same variables at the top three levels (with diffusivities increasing with height from 2.5 x 10^5 to 7.5 x 10^5 m^2 /s). In the top model layer, diffusion is enhanced by a factor of 10^3 on all spectral wave numbers that violate the Courant-Friedrichs-Lewy (CFL) numerical stability criterion, based on the maximum wind speed. <p>
+<li>	Above the PBL (see <a href="28ncar.html#RTFToC28">Planetary Boundary Layer</a>) a second-order, stability-dependent local formulation of the vertical diffusion of momentum, heat, and moisture is adopted (cf. Smagorinsky et al. 1965<a href="28ncar_fn.html#fn16">
+[17]</a>). The mixing length is taken to be a constant 30 m, and the diffusivity is as given by Williamson et al. (1987)
+<a href="28ncar_fn.html#fn0">[1]</a> for unstable and neutral conditions and by Holtslag and Beljaars (1989)
+<a href="28ncar_fn.html#fn32">[33]</a> for stable conditions. Above the surface layer, but within the PBL under unstable conditions, mixing of heat and moisture (but not of momentum) is formulated as nonlocal diffusion, following Holtslag and Boville (1993)
+<a href="28ncar_fn.html#fn8">[9]</a>--see 
+<a href="28ncar.html#RTFToC34">Surface Fluxes</a>.
+<p>
+<li>	Horizontal and vertical diffusion are calculated implicitly via time splitting apart from the solution of the semi-implicit dynamical equations (see <a href="28ncar.html#RTFToC15">Time Integration Scheme(s)</a>).</ul>
+
+<h3> <a name="RTFToC21">Gravity-wave Drag </a></h3>
+
+ Orographic gravity-wave drag is parameterized after McFarlane (1987)<a href="28ncar_fn.html#fn17">
+[18]</a>. The momentum drag is given by the vertical divergence of the wave stress, which is proportional to the product of the local squared amplitude of the gravity wave, the Brunt-Vaisalla frequency, and the component of the local wind that is parallel to the flow at a near-surface reference level. At this reference level, the wave amplitude is bound by the lesser of the subgrid-scale orographic variance (see <a href="28ncar.html#RTFToC29">Orography</a>) or a wave-saturation value defined by the reference Froude number. Above this level, the gravity-wave stress is assumed to be constant with height (zero vertical divergence), except in regions of wave saturation, where the amplitude is obtained from the local Froude number.  
+
+<h3> <a name="RTFToC22">Solar Constant/Cycles </a></h3>
+
+ The solar constant is the AMIP-prescribed value of 1365 W/(m^2). Both seasonal and diurnal cycles in solar forcing are simulated over a repeatable solar year of exactly 365 days (i.e., leap years are not included). 
+
+<h3> <a name="RTFToC23">Chemistry</a></h3>
+
+ The carbon dioxide concentration is the AMIP-prescribed value of 345 ppm. Monthly ozone volume mixing ratios derived by Chervin (1986)
+<a href="28ncar_fn.html#fn18">[19]</a> from analyses of D&uuml;tsch (1978)
+<a href="28ncar_fn.html#fn37">[38]</a> are linearly interpolated to obtain intermediate values every 12 hours. Radiative effects of oxygen and of water vapor, but not of aerosols, are also included (see <a href="28ncar.html#RTFToC24">Radiation</a>). 
+
+<h3> <a name="RTFToC24">Radiation</a></h3>
+
+<ul><li>	Shortwave scattering/absorption is parameterized by the delta-Eddington approximation of Joseph et al. (1976)
+<a href="28ncar_fn.html#fn19">[20]</a> and Coakley et al. (1983)
+<a href="28ncar_fn.html#fn20">[21]</a> applied in 18 spectral intervals, as described by Briegleb (1992)
+<a href="28ncar_fn.html#fn4">[5]</a>. (These include 7 intervals between 0.20 and 0.35 micron to capture ozone Hartley-Huggins band absorption and Rayleigh scattering; 1 interval between 0.35 to 0.70 micron to capture Rayleigh scattering and ozone Chappius-band and oxygen B-band absorption; 7 intervals between 0.70 and 5.0 microns to capture oxygen A-band and water vapor/liquid absorption; and 3 intervals between 2.7 and 4.3 microns to capture carbon dioxide absorption.) Following Slingo (1989)<a href="28ncar_fn.html#fn21">
+[22]</a>, the shortwave optical properties of clouds for the delta-Eddington approximation (optical depth, single-scattering albedo, asymmetry factor) are specified for 4 spectral ranges (with boundaries at 0.25, 0.69, 1.19, 2.38, and 4.0 microns). These properties depend on the specified effective droplet radius (10 microns) and the liquid water path (LWP), which is a prescribed nonlinear function of latitude and height (cf. Kiehl et al. 1994)
+<a href="28ncar_fn.html#fn10">[11]</a>. <p>
+<li>	Longwave absorption by ozone and carbon dioxide is treated by a broad-band absorptance technique, following Ramanathan and Dickinson (1979)<a href="28ncar_fn.html#fn22">
+[23]</a> and Kiehl and Briegleb (1991)<a href="28ncar_fn.html#fn6">
+[7]</a>. A Voigt line profile (temperature) dependence is added to the pressure broadening of the absorption lines. Absorption by water vapor (and its overlap with that of ozone and carbon dioxide) are modeled as in Ramanathan and Downey (1986)<a href="28ncar_fn.html#fn23">
+[24]</a>. Longwave broad-band emissivity of clouds is a negative exponential function of LWP, with all clouds assumed to be randomly overlapped in the vertical. Cf. Hack et al. (1993)
+<a href="28ncar_fn.html#fn2">[3]</a> for further details. See also <a href="28ncar.html#RTFToC26">Cloud Formation</a>.</ul>
+
+<h3> <a name="RTFToC25">Convection</a></h3>
+
+<ul><li>	If the atmosphere is moist adiabatically unstable, temperature/moisture column profiles are adjusted by a mass-flux convective parameterization (cf. Hack 1994)
+<a href="28ncar_fn.html#fn7">[8]</a>. The scheme utilizes a three-layer model that provides for convergence and entrainment in the lowest subcloud layer, cloud condensation and rainout in the middle layer, and limited detrainment in the top layer. This scheme is applied by working upward from the surface on three contiguous layers, and shifting up successively one layer at a time until the whole column is stabilized. <p>
+<li>	The parameterization is based on simplified equations for the three-layer moist static energy that include (among other terms) the convective mass flux, a "penetration parameter" beta (ranging between 0 and 1) that regulates the detrainment of liquid water, and temperature and moisture perturbations furnished by the PBL parameterization (see <a href="28ncar.html#RTFToC28">Planetary Boundary Layer</a>, <a href="28ncar.html#RTFToC20">Diffusion</a>, and <a href="28ncar.html#RTFToC34">Surface Fluxes</a>). Other free parameters in the scheme include minimum values for beta, for the vertical gradient of moist static energy, and for the depth of precipitating convection; a characteristic convective adjustment time scale; and a cloud-water to rain-water autoconversion coefficient. The parameter beta is determined by iteration, subject to constraints that it and the vertical gradient of moist static energy be at least their minimum values, that the convective mass flux be positive, and that the detrainment layer not be supersaturated. The profiles of convective mass flux, temperature, and moisture are then obtained, and the total convective precipitation rate is calculated by vertical integration of the convective-scale liquid water sink. <p>
+<li>	If a layer in the stratosphere (i.e., at the top three vertical levels) is dry adiabatically unstable, the temperature is adjusted so that stability is restored under the constraint that sensible heat be conserved. Whenever two layers undergo this dry adjustment, the moisture is also mixed in a conserving manner. (In the model troposphere, vertical diffusion provides stabilizing mixing, and momentum is mixed as well--see <a href="28ncar.html#RTFToC20">Diffusion</a>). If a layer is supersaturated but stable, nonconvective condensation and precipitation result (see <a href="28ncar.html#RTFToC27">Precipitation</a>).</ul>
+
+<h3> <a name="RTFToC26">Cloud Formation </a></h3>
+
+<ul><li>	The cloud prediction formulation is as described by Kiehl et al. (1994)
+<a href="28ncar_fn.html#fn10">[11]</a>. Cloud amount is diagnostically determined from relative humidity, vertical velocity, atmospheric stability, and the convective precipitation rate, following a modified Slingo (1987)
+<a href="28ncar_fn.html#fn24">[25]</a> approach. Convective cloud, layer cloud, and low-level marine stratus/stratocumulus cloud associated with temperature inversions are treated. Clouds may form everywhere except in the surface layer (centered at sigma = 0.992). Nonconvective cloud below 700 hPa is classified as low-level cloud, that between 400 and 700 hPa as midlevel cloud, and that above 400 hPa as high-level cloud.<p>
+<li>	Convective cloud base and top are determined by the vertical extent of moist instability (see <a href="28ncar.html#RTFToC25">Convection</a>). In each vertical column, the total fractional cloud amount is a logarithmic function of the convective precipitation rate, but is constrained to be between 0.2 and 0.8. The convective cloud fraction in each layer is determined assuming the cloud is distributed randomly in the vertical. For subsequent diagnosis of the fractional amount of nonconvective cloud (see below), the layer relative humidity is reduced proportional to the fraction of convective cloud present. <p>
+<li>	In regions of upward vertical motion, the fraction of low-level layer cloud is a quadratic function of the difference between the reduced relative humidity (see above) and a constant threshold value (90 percent). The fraction of midlevel and high-level layer cloud is a quadratic function of the difference between the reduced relative humidity and a threshold value that is a linear function of the squared Brunt-Vaisalla frequency (i.e., it is proportional to the vertical stability).<p>
+<li>	The fraction of marine stratus/stratocumulus is a function of the strength of the associated low-level inversion and the reduced relative humidity. Cf. Hack et al. (1993)
+<a href="28ncar_fn.html#fn2">[3]</a> for further details. See also <a href="28ncar.html#RTFToC24">Radiation</a>.</ul>
+
+<h3> <a name="RTFToC27">Precipitation</a></h3>
+
+ Subgrid-scale precipitation is generated in unstable conditions by the moist convective scheme (see <a href="28ncar.html#RTFToC25">Convection</a>). Grid-scale precipitation forms as a result of supersaturation under stable conditions. In this case, the moisture is adjusted so that the layer is just saturated, with the excess condensing as precipitation; the layer temperature is adjusted according to the associated latent heat release. (Moisture and temperature are mutually adjusted in two iterations.) Subsequent evaporation of falling precipitation is not simulated. Cf. Hack et al. (1993)
+<a href="28ncar_fn.html#fn2">[3]</a> for details. 
+
+<h3> <a name="RTFToC28">Planetary Boundary Layer </a></h3>
+
+ The PBL height is determined by iteration at each 20-minute time step following the formulation of Troen and Mahrt (1986)<a href="28ncar_fn.html#fn25">
+[26]</a>; the height is a function of the critical bulk Richardson number for the PBL, u-v winds and virtual temperature at the PBL top, and the 10-meter virtual temperature, which is calculated from the temperature and moisture of the surface and of the lowest atmospheric level (at sigma = 0.992) following Geleyn (1988)<a href="28ncar_fn.html#fn26">
+[27]</a>. Within the PBL, there is nonlocal diffusion of heat and moisture after Holtslag and Boville (1993)
+<a href="28ncar_fn.html#fn8">[9]</a>; otherwise (and under all conditions for momentum), properties are mixed by the stability-dependent local diffusion that applies in the model's free atmosphere. See also <a href="28ncar.html#RTFToC20">Diffusion</a> and <a href="28ncar.html#RTFToC34">Surface Fluxes</a>. 
+
+<h3> <a name="RTFToC29">Orography</a></h3>
+
+<ul><li>	Raw orography is obtained from the U.S. Navy dataset with resolution of 10 minutes arc on a latitude/longitude grid (cf. Joseph 1980<a href="28ncar_fn.html#fn27">
+[28]</a>). These data are area-averaged to a 1 x 1-degree grid, interpolated to a T119 Gaussian grid, spectrally truncated to the model's T42 Gaussian grid, and then spectrally filtered to reduce the amplitude of the smallest scales. <p>
+<li>	The subgrid-scale orographic variances required for the gravity-wave drag parameterization (see <a href="28ncar.html#RTFToC21">Gravity-wave Drag</a>) are also obtained from the U.S. Navy dataset. For the spectral T42 model resolution, the variances are first evaluated on a 2 x 2-degree grid, assuming they are isotropic. Then the variances are binned to the T42 Gaussian grid (i.e., all values whose latitude and longitude centers fall within each Gaussian grid box are averaged together), and are smoothed twice with a 1-2-1 spatial filter. Values over ocean are set to zero. </ul>
+
+<h3> <a name="RTFToC30">Ocean</a></h3>
+
+ AMIP monthly sea surface temperature fields are prescribed, with intermediate values determined at every 20-minute time step by linear interpolation. 
+
+<h3> <a name="RTFToC31">Sea Ice </a></h3>
+
+ AMIP monthly sea ice extents are prescribed, with intermediate values determined at every 20-minute time step by linear interpolation. The temperature of the ice is predicted by the same four-layer scheme as used for soil temperature (see <a href="28ncar.html#RTFToC35">Land Surface Processes</a>), but with a fixed temperature (-2 degrees C) of the underlying ocean rather than a zero-flux condition, as the lower boundary condition. The four layer thicknesses are all 0.5 m, and the ice density, heat capacity, and conductivity are specified uniform constants; however, daily snow cover that is prescribed from climatology (see <a href="28ncar.html#RTFToC32">Snow Cover</a>) alters the thermodynamic properties and thickness of the top layer in proportion to the relative mass of snow and ice. Cf. Hack et al. (1993)
+<a href="28ncar_fn.html#fn2">[3]</a> for further details.  
+
+<h3> <a name="RTFToC32">Snow Cover </a></h3>
+
+ Snow cover (expressed as an equivalent depth of water) is prescribed as a function of latitude and longitude from the mean January and July data of Forderhase et al. (1980)<a href="28ncar_fn.html#fn28">
+[29]</a> that are bilinearly interpolated to the T42 Gaussian grid. Intermediate daily values are obtained by assuming a single-harmonic annual variation. Snow cover is prescribed on sea ice as well as land, and affects the albedo, the roughness and wetness, and the thermodynamics of the surface (see <a href="28ncar.html#RTFToC33">Surface Characteristics</a>). In addition, sublimation of snow contributes to the surface evaporative flux (see <a href="28ncar.html#RTFToC34">Surface Fluxes</a>); however, because ground wetness is prescribed, snowmelt does not affect soil hydrology. See also <a href="28ncar.html#RTFToC31">Sea Ice</a> and <a href="28ncar.html#RTFToC35">Land Surface Processes</a>. 
+
+<h3> <a name="RTFToC33">Surface Characteristics </a></h3>
+
+<ul><li>	Over land, surface wetness fractions, roughness lengths, and albedos are derived from the Matthews (1983)<a href="28ncar_fn.html#fn29">
+[30]</a> 1 x 1-degree, 32-type vegetation data set. These values are aggregated to the 10 surface types (including land ice) distinguished by the model and are averaged over the T42 Gaussian grid boxes. <p>
+<li>	The prescribed annual-average wetness fractions for the 10 surface types range between 0.01 for deserts to 1.0 for open water and ice- and snow-covered surfaces. On land, the surface wetness is weighted by the local fractional area of snow, which depends both on snow depth and the surface roughness length (to account for uneven coverage of vegetation). The heat capacity and conductivity of six distinguished land-surface thermal types also depend on surface wetness. See also <a href="28ncar.html#RTFToC31">Sea Ice</a> and <a href="28ncar.html#RTFToC35">Land Surface Processes</a><p>
+<li>	Over land, the surface roughness length ranges from 0.04 m for tundra to 1.0 m for evergreen forest. The roughness is a uniform 1 x 10^-4 m over ocean, and 0.04 m over ice surfaces (cf. Hack et al. 1993
+<a href="28ncar_fn.html#fn2">[3]</a> for further details).<p>
+<li>	The snow-free land albedos are constants (independent of time or moisture conditions) for the 10 distinguished surfaces. These are composed of five quantities: the fraction of strong zenith-angle dependence and four surface albedos (for two zenith angles and spectral intervals 0.2 to 0.7 micron and 0.7 to 4.0 microns). The land albedo is altered by snow cover: it is an average of the background albedo and the snow albedo (which depends on surface temperature for the diffuse beam and on solar zenith angle for the direct beam) that is weighted by the fractional snow cover (see above). Over the oceans, surface albedos are prescribed to be 0.025 for the direct-beam (with sun overhead) and 0.06 for the diffuse-beam component of radiation; the direct-beam albedo varies with solar zenith angle. The albedo of ice surfaces is a function of surface temperature. Cf. Briegleb et al. (1986)
+<a href="28ncar_fn.html#fn5">[6]</a>, Briegleb (1992)
+<a href="28ncar_fn.html#fn4">[5]</a> and Dickinson et al. (1986)
+<a href="28ncar_fn.html#fn30">
+[31]</a> for further details. <p>
+<li>	The longwave emissivity is set to unity (blackbody emission) for all surfaces.</ul>
+
+<h3> <a name="RTFToC34">Surface Fluxes </a></h3>
+
+<ul><li>	Surface solar absorption is determined from surface albedo, and longwave emission from the Planck equation with prescribed surface emissivity of 1.0 (see <a href="28ncar.html#RTFToC33">Surface Characteristics</a>). <p>
+<li>	Turbulent vertical eddy fluxes of momentum, heat, and moisture are expressed as bulk formulae, following Monin-Obukhov similarity theory. The values of wind, temperature, and humidity required for the bulk formulae are taken to be those at the lowest atmospheric level (sigma = 0.992), which is assumed to be within a constant-flux surface layer. The drag and transfer coefficients in the bulk formulae are functions of roughness length (see <a href="28ncar.html#RTFToC33">Surface Characteristics</a>) and stability (bulk Richardson number), following the method of Louis et al. (1981)<a href="28ncar_fn.html#fn31">
+[32]</a> for neutral and unstable conditions, and Holtslag and Beljaars (1989)<a href="28ncar_fn.html#fn32">
+[33]</a> for stable conditions. The bulk formula for the surface moisture flux also includes a prescribed surface wetness fraction (see <a href="28ncar.html#RTFToC33">Surface Characteristics</a> and <a href="28ncar.html#RTFToC35">Land Surface Processes</a>) that determines the evaporation realized as a fraction of potential evaporation from a saturated surface. <p>
+<li>	Above the surface layer, but within the PBL (see <a href="28ncar.html#RTFToC28">Planetary Boundary Layer</a>) under unstable conditions, mixing of heat and moisture (but not of momentum) is formulated as nonlocal vertical diffusion by eddies with length scales of the order of the PBL depth (cf. Deardorff 1972<a href="28ncar_fn.html#fn33">
+[34]</a>). Under these conditions, a countergradient term that depends on the surface flux, a convective vertical velocity scale, and the PBL height is added to the eddy diffusivity coefficient of heat and moisture. Within the stable and neutral PBL (and under all conditions for momentum), the same stability-dependent local vertical diffusion as is utilized in the model's free atmosphere applies (see <a href="28ncar.html#RTFToC20">Diffusion</a>). Cf. Holtslag and Boville (1993)
+<a href="28ncar_fn.html#fn8">[9]</a> for further details.</ul>
+
+<h3> <a name="RTFToC35">Land Surface Processes </a></h3>
+
+<ul><li>	Soil temperature is determined from heat conduction in a four-layer model. Layer thicknesses vary spatially, depending on the penetration depth of solar forcing, which is a function of forcing period and of the heat capacity and conductivity specified for each of the 10 distinguished surface types (see <a href="28ncar.html#RTFToC33">Surface Characteristics</a>). The thicknesses of the bottom three soil layers are specified according to the local penetration depth of solar forcing with periods of 1 day, 2 weeks, and 1 year respectively. The thickness of the top soil layer is specified so that the diurnal range and phase of the surface temperature compares well with observations cited by Bhumralkar (1975)<a href="28ncar_fn.html#fn34">
+[35]</a>. The top layer's thickness and heat capacity/conductivity are altered by snow (see <a href="28ncar.html#RTFToC32">Snow Cover</a>) in proportion to the relative masses of snow and soil; these thermodynamic properties are also a linear function of ground wetness fraction (see below). The heat conduction equation is solved by a backward implicit Crank-Nicholson numerical scheme (cf. Smith 1965<a href="28ncar_fn.html#fn35">
+[36]</a> and Washington and Verplank 1986<a href="28ncar_fn.html#fn36">
+[37]</a>), with the net surface energy balance being the upper boundary condition (see <a href="28ncar.html#RTFToC34">Surface Fluxes</a>), and with zero heat flux specified at the lower boundary. <p>
+<li>	Soil moisture is not predicted, and precipitation and snowmelt therefore do not affect the land surface hydrology. Instead, constant wetness fractions are specified for the 10 distinguished land-surface types (see <a href="28ncar.html#RTFToC33">Surface Characteristics</a>). These wetness fractions affect the heat capacity and conductivity of the soil (see above), and they constrain the magnitude of the surface evaporative flux (see <a href="28ncar.html#RTFToC34">Surface Fluxes</a>). Cf. Hack et al. (1993)
+<a href="28ncar_fn.html#fn2">[3]</a> for further details.</ul> <p>
+
+<h4><p>
+
+<A HREF="28ncar_fn.html"><IMG SRC="gifs/Button_blue.gif">	Go to NCAR References</a></h4>  <p>
+
+<h4><p>
+
+<A HREF="28ncar_ToC.html"><IMG SRC="gifs/Button_blue.gif">	Return to NCAR Table of Contents</a></h4> <h4><A HREF="01toc.html"><IMG SRC="gifs/Button_blue.gif">	Return to Main Document Directory</a></h4> <P><HR>
+
+Last update September 18, 1996.  For further information, contact: Tom Phillips (<a href="mailto: phillips@tworks.llnl.gov"> phillips@tworks.llnl.gov </a>) <p>
+
+<A HREF="http://www.llnl.gov/disclaimer.html">LLNL Disclaimers</A><p>
+
+ UCRL-ID-116384<p>
+
+</body>
+<!-- Mirrored from www-pcmdi.llnl.gov/modeldoc/amip1/28ncar.html by HTTrack Website Copier/3.x [XR&CO'2004], Fri, 09 Jul 2004 21:01:46 GMT -->
+
+<!-- Mirrored from www-pcmdi.llnl.gov/projects/modeldoc/amip1/28ncar.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 20 Jun 2016 20:00:06 GMT -->
+</html> 

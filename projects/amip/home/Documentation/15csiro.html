@@ -1,0 +1,224 @@
+---
+layout: AMIP
+---
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN//2.0">
+<HTML>
+<!-- Mirrored from www-pcmdi.llnl.gov/modeldoc/amip1/15csiro.html by HTTrack Website Copier/3.x [XR&CO'2004], Fri, 09 Jul 2004 21:01:46 GMT -->
+
+<!-- Mirrored from www-pcmdi.llnl.gov/projects/modeldoc/amip1/15csiro.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 20 Jun 2016 20:11:32 GMT -->
+<HEAD>
+<TITLE>Commonwealth Scientific and Industrial Research Organization: Model CSIRO9 Mark 1 (R21 L9) 1992 </TITLE>
+</HEAD>
+<BODY BACKGROUND="gifs/bg9.gif">
+<BODY>
+
+<h2> <a name="RTFToC1">Commonwealth Scientific and Industrial Research Organization: Model CSIRO9 Mark 1 (R21 L9) 1992</a></h2><hr>
+
+<h3> <a name="RTFToC2">AMIP Representative(s) </a></h3>
+
+Dr. Barrie Hunt, CSIRO Division of Atmospheric Research, PMB1, Mordialloc, Victoria 3195, Australia; Phone: +61-3-586-7680; Fax: +61-3-586-7600; e-mail: bgh@dar.csiro.au; WWW URL: 
+<a href="http://www.dar.csiro.au/">http://www.dar.csiro.au/
+</a>
+<h3> <a name="RTFToC3">Model Designation </a></h3>
+
+ CSIRO CSIRO9 Mark 1 (R21 L9) 1992<h3> <a name="RTFToC4">Model Lineage </a></h3>
+
+The CSIRO model is derived from earlier two-level and four-level spectral models based on the primitive equations expressed in conservative flux form (cf. Gordon 1981<a href="15csiro_fn.html#fn0">
+[1]</a>,1993<a href="15csiro_fn.html#fn1">
+[2]</a>).
+
+<h3> <a name="RTFToC5">Model Documentation </a></h3>
+
+Documentation of the present version of the CSIRO model is provided by McGregor et al. (1993)<a href="15csiro_fn.html#fn2">
+[3]</a>.  <h2> <a name="RTFToC6">Numerical/Computational Properties </a></h2>
+
+<h3> <a name="RTFToC7">Horizontal Representation </a></h3>
+
+Spectral (spherical harmonic basis functions) with transformation to a Gaussian grid for calculation of nonlinear quantities and some physics. The atmospheric moisture field is represented only in gridded form. 
+
+<h3> <a name="RTFToC8">Horizontal Resolution </a></h3>
+
+Spectral rhomboidal 21 (R21), roughly equivalent to 3.2 x 5.6 degrees latitude-longitude.
+
+<h3> <a name="RTFToC9">Vertical Domain </a></h3>
+
+Surface to about 21 hPa. For a surface pressure of 1000 hPa, the lowest atmospheric level is at about 979 hPa.
+
+<h3> <a name="RTFToC10">Vertical Representation </a></h3>
+
+Finite-difference sigma coordinates.
+
+<h3> <a name="RTFToC11">Vertical Resolution </a></h3>
+
+There are 9 unevenly spaced sigma levels. For a surface pressure of 1000 hPa, 3 levels are below 800 hPa and 3 levels are above 200 hPa.
+
+<h3> <a name="RTFToC12">Computer/Operating System </a></h3>
+
+The AMIP simulation was run on a Cray Y/MP computer using one processor in the UNICOS environment.
+
+<h3> <a name="RTFToC13">Computational Performance </a></h3>
+
+For the AMIP experiment, about 35 seconds Cray Y/MP computation time per simulated day.
+
+<h3> <a name="RTFToC14">Initialization</a></h3>
+
+For the AMIP simulation, initialization of the atmosphere, soil moisture, and snow cover/depth for 1 January 1979 is from an earlier model simulation with climatological sea surface temperatures. 
+
+<h3> <a name="RTFToC15">Time Integration Scheme(s) </a></h3>
+
+A semi-implicit leapfrog time scheme with an Asselin (1972)
+<a href="15csiro_fn.html#fn3">
+[4]</a> frequency filter is used for most calculations, with the momentum surface flux and vertical diffusion above the surface computed by split backward implicit integration. A time step of 30 minutes is used for dynamics and physics, except for full calculations of all radiative fluxes and heating rates, which are done every 2 hours.
+
+<h3> <a name="RTFToC16">Smoothing/Filling</a></h3>
+
+Orography is truncated at the R21 resolution of the model (see <a href="15csiro.html#RTFToC29">Orography</a>). To counter the negative values of atmospheric moisture that may otherwise develop, vertical transport of moisture is inhibited if the local water vapor mixing ratio drops below 2 x 10^-6 kg (water) per kg (air). In addition, negative moisture values are removed by a proportional adjustment method while conserving the global mean (cf. Royer 1986
+<a href="15csiro_fn.html#fn4">[5]</a>). Cf. McGregor et al. 1993
+<a href="15csiro_fn.html#fn2">[3]</a> for further details.
+
+<h3> <a name="RTFToC17">Sampling Frequency </a></h3>
+
+For the AMIP simulation, the model history is written every 6 hours. 
+
+<h2> <a name="RTFToC18">Dynamical/Physical Properties </a></h2>
+
+<h3> <a name="RTFToC19">Atmospheric Dynamics </a></h3>
+
+Primitive-equation dynamics are expressed in conservative flux form (i.e., weighting vorticity, divergence, temperature, and specific humidity by the prognostic surface pressure) as described by Gordon (1981)
+<a href="15csiro_fn.html#fn0">[1]</a>. Effects of frictional heating are included in the temperature tendency equation, and virtual temperature is used to compute geopotential height.
+
+<h3> <a name="RTFToC20">Diffusion</a></h3>
+
+<ul> <li>	Linear second-order (del^2) horizontal diffusion of the temperature, vorticity, divergence, and moisture fields is computed via a split implicit time integration. Diffusion (with coefficient 10^6 m^2/s) is applied to the upper-half of the rhomboid for the spectral temperature, vorticity, and divergence. Diffusion of the gridded moisture is calculated from a temporary spectral representation of the moisture field without surface pressure weighting, and is applied to the entire rhomboid with the diffusion coefficient halved. Diffusion for temperature and moisture contains a first-order correction to constant pressure surfaces.  <p>
+
+<li>	Vertical diffusion of momentum, heat, and moisture is parameterized in terms of stability-dependent K-theory following Blackadar (1962)<a href="15csiro_fn.html#fn5">
+[6]</a>, with the choice of asymptotic mixing length after Louis (1979)<a href="15csiro_fn.html#fn6">
+[7]</a>. The calculation of vertical momentum diffusion is via backward implicit time differencing (see <a href="15csiro.html#RTFToC15">Time Integration Scheme(s)</a>).</ul>
+
+<h3> <a name="RTFToC21">Gravity-wave Drag </a></h3>
+
+Under conditions of vertical stability, orographic gravity-wave drag is simulated after the method of Chouinard et al. (1986)<a href="15csiro_fn.html#fn7">
+[8]</a>. The drag at the surface is dependent on sub-gridscale orographic variance (see <a href="15csiro.html#RTFToC29">Orography</a>), and it is parameterized by means of a "launching" height which is defined to be twice the local standard deviation of the surface heights. Following Palmer et al. (1986)<a href="15csiro_fn.html#fn8">
+[9]</a>, the maximum launching height is limited to 800 m in order to prevent two-grid noise near steep mountains. At a particular sigma level the frictional drag on the atmosphere from breaking gravity waves depends on the projection of the wind on the surface wind and on the Froude number, which in turn is a function of the launching height, the atmospheric density, the Brunt-Vaisalla frequency, and the wind shear. Gravity-wave drag is assumed to be zero above a critical level, which is taken to be the top sigma level of the model (see <a href="15csiro.html#RTFToC9">Vertical Domain</a>).
+
+<h3> <a name="RTFToC22">Solar Constant/Cycles </a></h3>
+
+The solar constant is the AMIP-prescribed value of 1365 W/(m^2). Both seasonal and diurnal cycles in solar forcing are simulated.
+
+<h3> <a name="RTFToC23">Chemistry</a></h3>
+
+The carbon dioxide concentration is the AMIP-prescribed value of 345 ppm. Ozone concentrations, specified as a function of latitude and pressure, are interpolated from the Dopplick (1974)<a href="15csiro_fn.html#fn9">
+[10]</a> seasonal climatology. Radiative effects of water vapor, but not of aerosols, also are included (see <a href="15csiro.html#RTFToC24">Radiation</a>). 
+
+<h3> <a name="RTFToC24">Radiation</a></h3>
+
+<ul> <li>	The radiation code is after Fels (1985)<a href="15csiro_fn.html#fn10">
+[11]</a>, Fels and Schwarzkopf (1975<a href="15csiro_fn.html#fn11">
+[12]</a>, 1981<a href="15csiro_fn.html#fn12">
+[13]</a>), and Schwarzkopf and Fels (1991)<a href="15csiro_fn.html#fn13">
+[14]</a>. The shortwave calculations are based on a modified Lacis and Hansen (1974)<a href="15csiro_fn.html#fn14">
+[15]</a> approach. The shortwave spectrum is divided into 9 bands, the first band covering the ultraviolet (wavelengths 0.1 to 0.4 micron) and visible (0.4 to 0.7 micron) spectral intervals, while the other 8 bands are in the near-infrared (0.7 to 4.0 microns). Rayleigh scattering by air molecules and absorption by ozone and water vapor are treated in the first band. In the 8 near-infrared bands, variable absorption by water vapor is included, and carbon dioxide absorption is calculated after a modified Sasamori et al. (1972)<a href="15csiro_fn.html#fn15">
+[16]</a> method. Pressure corrections and multiple reflections between clouds and the surface are treated, but not the radiative effects of aerosols. <p>
+
+<li>	Longwave calculations follow the simplified exchange method of Fels and Schwarzkopf (1975)
+<a href="15csiro_fn.html#fn11">[12]</a> and Schwarzkopf and Fels (1991)
+<a href="15csiro_fn.html#fn13">[14]</a> applied over seven spectral bands (with wavenumber boundaries at 0, 4.0 x 10^4, 5.6 x 10^4, 8.0 x 10^4, 9.9 x 10^4, 1.07 x 10^5, 1.20 x 10^5, and 2.20 x 10^5 m^-1). Absorption by the vibrational and rotational lines of water vapor, carbon dioxide, and ozone, as well as continuum absorption by water vapor are treated, but some weak absorption bands of ozone and carbon dioxide are neglected. Carbon dioxide transmission coefficients are calculated for the actual temperature and pressure profile of each vertical column after the interpolation method of Fels and Schwarzkopf (1981)
+<a href="15csiro_fn.html#fn12">[13]</a>. Longwave ozone and water vapor absorption (including temperature effects) are computed by a random-band model.  <p>
+
+<li>	Cloud optical properties are prescribed. In the visible, cloud absorptivity is assumed to be zero; infrared absorptivity depends on cloud height, as do the visible and infrared cloud reflectivities. The absorptivity and reflectivity of clouds are also proportional to cloud amount. Longwave emissivity is prescribed as unity (blackbody emission) for all clouds. For purposes of calculating radiation and top-of-atmosphere cloud cover, clouds in different vertical layers are assumed to be randomly overlapped. Cf. McGregor et al. (1993)
+<a href="15csiro_fn.html#fn2">[3]</a> for further details. See also <a href="15csiro.html#RTFToC26">Cloud Formation</a>.</ul>
+
+<h3> <a name="RTFToC25">Convection</a></h3>
+
+<ul> <li>	After checking for supersaturation and attendant release of precipitation (see <a href="15csiro.html#RTFToC27">Precipitation</a>) and performing a dry convective adjustment if needed, a modified Arakawa (1972)<a href="15csiro_fn.html#fn16">
+[17]</a> "soft" moist adjustment scheme predicts any subsequent precipitation release and the redistribution of moisture and momentum that may occur within sub-gridscale cumulus towers. These form when a layer (other than the lowest layer) is moist unstable with respect to at least one layer above, and when the relative humidity in the lowest unstable layer is &gt; 75 percent. It is assumed that a constant convective mass flux effects a vertical redistribution of heat within the cumulus tower, such that the moist instability at each level (the difference between the moist static energy at cloud base and the saturation value at each level) decays with an e-folding time of one hour. (The heating at cloud base is assumed to be zero to ensure closure for the convective scheme.)  <p>
+
+<li>	The attendant moisture redistribution and removal (see <a href="15csiro.html#RTFToC27">Precipitation</a>) results in drying of the environment if the ambient relative humidity is at least 60 percent. The convective mass flux also transfers momentum upward through the cumulus tower, and downward via the surrounding large-scale descent.  <p>
+
+<li>	Shallow cumulus convection is parameterized by a modified Geleyn (1987)<a href="15csiro_fn.html#fn17">
+[18]</a> scheme that operates as an extension of the vertical diffusion of heat and momentum. The stability dependence of this diffusion is defined by a modified moist bulk Richardson number. Cf. McGregor et al. (1993)
+<a href="15csiro_fn.html#fn2">[3]</a> for further details.</ul>
+
+<h3> <a name="RTFToC26">Cloud Formation </a></h3>
+
+<ul> <li>	If convective activity occurs in the previous timestep (see <a href="15csiro.html#RTFToC25">Convection</a>), fixed convective cloud fractions are set according to height (0.55 for low cloud, 0.42 for middle cloud, and 0.25 for high cloud). For each height class, convective cloud is confined to single layers.  <p>
+
+<li>	Large-scale cloud amounts are determined from a modified form of the Rikus (1991)<a href="15csiro_fn.html#fn18">
+[19]</a> diagnostic, which is a quadratic function of the difference between the relative humidity of a layer and critical humidities that depend on cloud height (low, middle, and high cloud). Following Saito and Baba (1988)<a href="15csiro_fn.html#fn19">
+[20]</a>, maximum cloud fractions are also specified for each cloud type (0.70 for low cloud, 0.53 for middle cloud, and 0.50 for high cloud). Middle and high clouds are restricted to single layers, while low clouds can occupy two layers.  <p>
+
+<li>	Stability-dependent low cloud associated with temperature inversions also may form if the relative humidity at cloud base is at least 60 percent. The cloud fraction is a function of the intensity of the temperature inversion, following Slingo (1987)<a href="15csiro_fn.html#fn20">
+[21]</a>. The overall fraction of low cloud is then set to the largest value predicted by either this stability-dependent diagnostic or by another operative mechanism (0.55 in the case of convective activity, or 0.70 for large-scale condensation). </ul>
+
+<h3> <a name="RTFToC27">Precipitation</a></h3>
+
+Precipitation forms as a result of supersaturation and/or the moist convective adjustment process (see <a href="15csiro.html#RTFToC25">Convection</a>). There is no subsequent evaporation of precipitation. 
+
+<h3> <a name="RTFToC28">Planetary Boundary Layer </a></h3>
+
+There are typically two atmospheric levels in the model PBL (whose top is not explicitly determined, however). In order to validate the simulation of surface atmospheric temperature against observations, a 2-meter (screen height) temperature is calculated from the bulk Richardson number determined for the lowest model layer (by applying the Monin-Obukhov assumption of constant momentum and heat fluxes in the surface layer). For unstable conditions, this requires an iterative solution. For purposes of computing surface fluxes, however, atmospheric winds, temperatures, and humidities at the first full atmospheric level above the surface (at sigma = 0.979) are used (see <a href="15csiro.html#RTFToC34">Surface Fluxes</a>). Cf. McGregor et al. (1993)
+<a href="15csiro_fn.html#fn2">[3]</a>.
+
+<h3> <a name="RTFToC29">Orography</a></h3>
+
+Orography from the 1 x 1-degree data of Gates and Nelson (1975)<a href="15csiro_fn.html#fn21">
+[22]</a> is transformed to spectral coefficients and truncated at the R21 resolution of the model. Orographic variance data (supplied by the United Kingdom Meteorological Office) are also used for the parameterization of gravity-wave drag (see <a href="15csiro.html#RTFToC21">Gravity-wave Drag</a>).
+
+<h3> <a name="RTFToC30">Ocean</a></h3>
+
+AMIP monthly sea surface temperature fields are prescribed, with daily values determined by linear interpolation.
+
+<h3> <a name="RTFToC31">Sea Ice </a></h3>
+
+Monthly AMIP sea ice extents are prescribed, with thicknesses specified to be a uniform 2 m. The ice surface temperature is predicted from the net flux of energy into the surface layer (see <a href="15csiro.html#RTFToC34">Surface Fluxes</a>), which includes conduction heating that is proportional to the difference between the ice surface temperature and that prescribed (271.5 K) for the ocean below. A flux of 2 W/(m^2) is also directed into the ice from below to represent the lateral convergence of heat transport by the underlying ocean. Snow may accumulate on sea ice, and sublimation and melting may reduce this snow cover (see <a href="15csiro.html#RTFToC32">Snow Cover</a>).
+
+<h3> <a name="RTFToC32">Snow Cover </a></h3>
+
+Precipitation falls to the surface as snow if the temperature of the second atmospheric vertical level above the surface (at sigma = 0.914) is below 0 degrees C. The latent heat is incorporated into the surface temperature prognostic for non-ocean surfaces (see <a href="15csiro.html#RTFToC31">Sea Ice</a> and <a href="15csiro.html#RTFToC35">Land Surface Processes</a>). Prognostic snow mass, with accumulation and melting over both land and sea ice, is included, but the allowable snow depth is limited to 4 m. Snow cover affects the heat capacity and conductivity of the land surface (see <a href="15csiro.html#RTFToC35">Land Surface Processes</a>), and sublimation of snow contributes to the surface evaporative flux (see <a href="15csiro.html#RTFToC34">Surface Fluxes</a>). Melting of snow, which contributes to soil moisture, occurs when the surface (top soil layer or sea ice) temperature is &gt; 0 degrees C. Snow cover affects the albedo of the surface, but with less impact if the snow is melting (see <a href="15csiro.html#RTFToC33">Surface Characteristics</a>). 
+
+<h3> <a name="RTFToC33">Surface Characteristics </a></h3>
+
+<ul> <li>	The roughness length over land is everywhere prescribed to be 0.17 m for calculation of surface momentum fluxes, and 0.023 m for surface heat and moisture fluxes (see <a href="15csiro.html#RTFToC34">Surface Fluxes</a>). However, the roughness length for other surface types is the same for heat and momentum fluxes: over ice, the roughness is a uniform 0.001 m, while over the ocean it is a function of surface wind stress, following Charnock (1955)<a href="15csiro_fn.html#fn22">
+[23]</a>.  <p>
+
+<li>	The albedo of sea ice is a constant 0.65. Over oceans, zenith-angle dependent surface albedos (minimum 0.04, maximum 0.33) are computed after the method of Washington and Meehl (1984)<a href="15csiro_fn.html#fn23">
+[24]</a> for a single spectral interval. Over land, the mean annual background albedos of Posey and Clapp (1964)<a href="15csiro_fn.html#fn24">
+[25]</a> are modified by snow cover: an albedo of 0.80 is assumed for snow &gt; 0.10 m in depth, but is set to 0.50 for melting snow. For snow depths &lt; 0.10 m, the albedo is interpolated between snow-free and snow-covered values as a nonlinear function of the snow depth.  <p>
+
+<li>	Longwave emissivity is set to unity (blackbody emission) for all surface types. Cf. McGregor et al. (1993)
+<a href="15csiro_fn.html#fn2">[3]</a> for further details. </ul>
+
+<h3> <a name="RTFToC34">Surface Fluxes </a></h3>
+
+<ul> <li>	Surface solar absorption is determined from surface albedos, and surface longwave emission from the Planck equation with prescribed emissivity of 1.0 (see <a href="15csiro.html#RTFToC33">Surface Characteristics</a>).  <p>
+
+<li>	Following Monin-Obukhov similarity theory applicable to a constant-flux layer, surface turbulent eddy fluxes are expressed as bulk formulae. The requisite atmospheric surface winds, potential temperatures, and specific humidities are taken to be those at the first vertical level above the surface (at sigma = 0.979). The effective ground value of specific humidity needed for determination of the surface moisture flux from the bulk formula is obtained as a fraction alpha of the saturated humidity at the ground temperature, where alpha is a function of soil moisture (see <a href="15csiro.html#RTFToC35">Land Surface Processes</a>) or is prescribed to be 1 over oceans and ice.  <p>
+
+<li>	The bulk drag and transfer coefficients are functions of roughness length (see <a href="15csiro.html#RTFToC33">Surface Characteristics</a>) and vertical stability (bulk Richardson number) following Louis (1979)
+<a href="15csiro_fn.html#fn6">[7]</a>, with the same transfer coefficient used for the heat and moisture fluxes. Over the oceans, the neutral transfer coefficient for surface heat and moisture fluxes is a constant 8.5 x 10^-4. </ul>
+
+<h3> <a name="RTFToC35">Land Surface Processes </a></h3>
+
+<ul> <li>	Soil temperature is computed by modeling heat diffusion in three layers, with thicknesses (0.03, 0.26 and 2.5 m) chosen to represent both diurnal and seasonal temperature fluctuations. In the case of snow cover (see <a href="15csiro.html#RTFToC32">Snow Cover</a>), the thickness of the top layer is 0.23 m, and values of density, specific heat, and thermal diffusivity are modified. The lower boundary condition is zero net heat flux, while the upper boundary condition is a net balance of all the surface heat fluxes (see <a href="15csiro.html#RTFToC34">Surface Fluxes</a>).  <p>
+
+<li>	Soil moisture is modeled by the force-restore method of Deardorff (1977)
+<a href="15csiro_fn.html#fn25"> [26]</a>, with a time constant of 1 day. There is no explicit modeling of the effects of vegetation. Soil moisture is computed in two layers: a thin surface layer 0.005 m thick to capture diurnal variations, and an underlying reservoir 0.50 m thick for longer-term variations. Saturation values of soil moisture are 0.16 m (the field capacity) in the lower layer and 0.0018 m in the upper layer. For snow-covered surfaces, the soil moisture in the upper layer is a fraction of the saturated value that is given by an empirical function of the snow temperature. Both precipitation and snowmelt contribute to soil moisture, while evaporation depletes it. The fraction a of ground saturation humidity that is available for evaporation (see <a href="15csiro.html#RTFToC34">Surface Fluxes</a>) is given by the ratio of soil moisture in the upper layer to its saturation value. Runoff occurs if soil moisture exceeds field capacity (0.16 m) or if the precipitation rate at any timestep is greater than an equivalent rate of 0.015 m/day. Cf. McGregor et al. (1993)
+<a href="15csiro_fn.html#fn2">[3]</a> for further details.</ul>
+<p><h4><p><A HREF="15csiro_fn.html"><IMG SRC="gifs/Button_blue.gif">	Go to CSIRO References</a></h4>
+
+<p><h4><p><A HREF="15csiro_ToC.html"><IMG SRC="gifs/Button_blue.gif">	Return to CSIRO Table of Contents</a></h4>
+
+<h4><A HREF="01toc.html"><IMG SRC="gifs/Button_blue.gif">	Return to Main Document Directory</a></h4>
+
+<P><HR>
+
+Last update April 19, 1996. For further information, contact: Tom Phillips (<a href="mailto: phillips@tworks.llnl.gov">phillips@tworks.llnl.gov</a>)<P>
+<A HREF="http://www.llnl.gov/disclaimer.html">LLNL Disclaimers</A>
+<p>
+ UCRL-ID-116384
+<p>
+</body>
+<!-- Mirrored from www-pcmdi.llnl.gov/modeldoc/amip1/15csiro.html by HTTrack Website Copier/3.x [XR&CO'2004], Fri, 09 Jul 2004 21:01:46 GMT -->
+
+<!-- Mirrored from www-pcmdi.llnl.gov/projects/modeldoc/amip1/15csiro.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 20 Jun 2016 20:11:32 GMT -->
+</html>

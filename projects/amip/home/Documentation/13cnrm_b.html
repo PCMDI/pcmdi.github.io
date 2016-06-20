@@ -1,0 +1,290 @@
+---
+layout: AMIP
+---
+<HTML>
+
+<!-- Mirrored from www-pcmdi.llnl.gov/modeldoc/amip1/13cnrm_b.html by HTTrack Website Copier/3.x [XR&CO'2004], Fri, 09 Jul 2004 21:01:48 GMT -->
+
+<!-- Mirrored from www-pcmdi.llnl.gov/projects/modeldoc/amip1/13cnrm_b.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 20 Jun 2016 18:43:03 GMT -->
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.05 [en] (X11; I; Linux 2.0.35 i686) [Netscape]">
+   <TITLE>Centre National de Recherches M&eacute;t&eacute;orologiques:   Model CNRM ARPEGE Cy11 (T42 L30) 1995</TITLE>
+</HEAD>
+<BODY BACKGROUND="gifs/bg9.gif">
+
+<H2>
+<A NAME="RTFToC1"></A>Centre National de Recherches M&eacute;t&eacute;orologiques:
+Model CNRM ARPEGE Cy11 (T42 L30) 1995</H2>
+
+<HR>
+<H3>
+<A NAME="RTFToC3"></A>Model Designation</H3>
+CNRM ARPEGE Cy11 (T42 L30) 1995
+<H3>
+<A NAME="RTFToC4"></A>Model Lineage</H3>
+The model is a version (Cycle 11) of the ARPEGE climate model, which is
+designed for use by the French climate community. (ARPEGE is the acronym
+for Action de Recherche Petite Echelle Grande Echelle: Research Project
+on Small and Large Scales.) ARPEGE is the successor to the <A HREF="13cnrm_ToC.html">EMERAUDE
+baseline model</A>, and differs substantially in its numerics (especially
+the <A HREF="#RTFToC7">horizontal representation</A>), as well as in the
+formulation of <A HREF="#RTFToC20">horizontal diffusion</A>, <A HREF="#RTFToC21">gravity-wave
+drag</A>, <A HREF="#RTFToC26">cloud formation</A>, and <A HREF="#RTFToC35">land
+surface</A> schemes.
+<H3>
+<A NAME="RTFToC5"></A>Model Documentation</H3>
+The ARPEGE Cycle 11 model is described by Deque and Piedelievre (1995)<A HREF="13cnrm_fn.html#fn34">[35]</A>,
+with reference to documentation of an earlier version of the model by Deque
+et al. (1994)<A HREF="13cnrm_fn.html#fn32">[33]</A>. The model's <A HREF="#RTFToC7">horizontal
+representation</A> is discussed by Hortal and Simmons (1991)<A HREF="13cnrm_fn.html#fn35">[36]</A>
+and by Courtier and Geleyn (1988)<A HREF="13cnrm_fn.html#fn33">[34]</A>.
+<A HREF="#RTFToC35">Land surface processes</A> are represented by the scheme
+of Noihlan and Planton (1989)<A HREF="13cnrm_fn.html#fn36">[37]</A> which
+was implemented in the ARPEGE model by Mahfouf et al. (1995)<A HREF="13cnrm_fn.html#fn37">[38]</A>.
+<H2>
+<A NAME="RTFToC6"></A>Numerical/Computational Properties</H2>
+
+<H3>
+<A NAME="RTFToC7"></A>Horizontal Representation</H3>
+As in the <A HREF="13cnrm.html#RTFToC7">baseline model</A>, the horizontal
+representation is spectral (spherical harmonic basis functions) with transformation
+to a Gaussian grid for calculation of nonlinear quantities and some physics.
+However, in the repeated AMIP integration with the ARPEGE Cy11 model, the
+Gaussian grid is reduced longitudinally near the poles so that its <A HREF="#RTFToC8">horizontal
+resolution</A> is everywhere approximately the same (cf. Hortal and Simmons
+(1991)<A HREF="13cnrm_fn.html#fn35">[36]</A>). (The ARPEGE Cy11 model is
+coded so that the spectral basis functions may be mapped conformally from
+the geographical sphere to a transformed sphere with a different pole,
+while preserving local horizontal derivatives to within a latitude-dependent
+mapping factor <B>m</B>. That is, the effective resolution of the model
+may be varied, and the center of highest resolution may be located at any
+geographical point--cf. Courtier and Geleyn 1988<A HREF="13cnrm_fn.html#fn33">[34]</A>.
+<I>However, the option of using these stretched and rotated coordinates
+was not exercised in the repeated AMIP integration</I>.)
+<H3>
+<A NAME="RTFToC8"></A>Horizontal Resolution</H3>
+Spectral triangular 42 (T42), but with transformation to a reduced Gaussian
+grid such that its resolution is everywhere approximately 300 km (cf. Hortal
+and Simmons (1991)<A HREF="13cnrm_fn.html#fn35">[36]</A>). The reduced
+grid resulted in a savings of about 20 percent in <A HREF="#RTFToC13">computation
+time</A>.
+<H3>
+<A NAME="RTFToC12"></A>Computer/Operating System</H3>
+The repeated AMIP simulation was run on a Cray 2 computer using 4 processors
+in a UNICOS environment.
+<H3>
+<A NAME="RTFToC13"></A>Computational Performance</H3>
+For the repeated AMIP experiment, approximately 12 minutes Cray 2 computation
+time per simulated day.
+<H3>
+<A NAME="RTFToC14"></A>Initialization</H3>
+For the repeated AMIP simulation, the model was initialized for 1 January
+1979 from the climate state obtained after a one-year integration with
+climatological sea surface temperatures. The initial conditions for this
+precursor integration were obtained from a December 1988 ECMWF analysis
+that was interpolated to the model grid.
+<H3>
+<A NAME="RTFToC16"></A>Smoothing/Filling</H3>
+The <A HREF="#RTFToC7">horizontal representation</A> of the ARPEGE model
+necessitates use of a vertical moisture borrowing scheme to correct spurious
+negative humidities, rather than the horizontal borrowing scheme employed
+in the <A HREF="13cnrm.html#RTFToC16">baseline model</A>.
+<H3>
+<A NAME="RTFToC17"></A>Sampling Frequency</H3>
+For the repeated AMIP simulation, the history of selected variables is
+written every 6 hours, with a full model history saved at 5-day intervals.
+<H2>
+<A NAME="RTFToC18"></A>Dynamical/Physical Properties</H2>
+
+<H3>
+<A NAME="RTFToC19"></A>Atmospheric Dynamics</H3>
+As in the <A HREF="13cnrm.html#RTFToC19">baseline model</A>, primitive-equation
+dynamics are expressed in terms of vorticity and divergence, temperature,
+and specific humidity, and the natural logarithm of surface pressure (or,
+on option, the surface pressure itself). Also as in the <A HREF="13cnrm.html#RTFToC23">baseline
+model</A>, ozone is treated as a prognostic variable. In addition, however,
+the nonconservation of atmospheric mass due to moisture sources/sinks (i.e.,
+evaporation/precipitation) is accounted for in the ARPEGE model's continuity
+equation; inclusion of this effect results in increased tropical rainfall
+(cf. Deque and Piedelievre (1995)<A HREF="13cnrm_fn.html#fn34">[35]</A>).
+<H3>
+<A NAME="RTFToC20"></A>Diffusion</H3>
+A linear del^6 formulation of horizontal diffusion of vorticity, divergence,
+temperature, specific humidity, and ozone mixing ratio on constant hybrid
+sigma-pressure vertical surfaces replaces the del^4 scheme of the <A HREF="13cnrm.html#RTFToC20">baseline
+model</A>. Below 100 hPa, the diffusivity <B>K</B> increases as (<B>n/N</B>)^6,
+where <B>n </B>and <B>N</B> are the meridional and truncation wavenumbers,
+respectively (i.e., <B>n</B>&lt;=<B>N</B>=42 at T42 resolution). Above
+100 hPa, <B>K</B> increases as the inverse of the pressure, yielding very
+strong diffusion in the model stratosphere. In addition, a mesospheric
+drag is applied to the model winds and temperatures above 1 hPa: the winds
+are relaxed toward zero and temperatures toward those of a standard atmosphere
+at these levels. Cf. Deque et al. (1994)<A HREF="13cnrm_fn.html#fn32">[33]</A>
+for further details.
+<H3>
+<A NAME="RTFToC21"></A>Gravity-wave Drag</H3>
+The parameterization of gravity-wave drag is different from that of the
+<A HREF="13cnrm.html#RTFToC21">baseline model</A>.
+<UL>
+<LI>
+The gravity-wave stress is assumed to be maximum at the surface, and in
+a direction that depends on the (2 x 2) covariance matrix of the unresolved
+oragraphy (a measure of the anisotropy of the mountains) as well as on
+the mean wind in the planetary boundary layer. The magnitude of the surface
+stress is proportional to the product of the air density, the Brunt-Vaisalla
+frequency at the surface, the wind speed at the lowest vertical level,
+and the root-mean square of the unresolved orography in the direction of
+this wind (calculated from the subgrid-scale orographic variance).</LI>
+
+<LI>
+At levels above the surface, the gravity-wave stress is assumed to be in
+the same direction as the surface stress. The vertically propagating gravity
+waves do not interact with the mean flow below a critical level of resonance.
+Above this level, their resonant amplification follows the experimental
+results of Clark and Peltier (1984)<A HREF="13cnrm_fn.html#fn38">[39]</A>,
+while dissipation proportional to the square of the Froude number also
+operates. The gravity waves are trapped and reflected with dissipation
+at the vertical level where the Brunt-Vaisalla frequency becomes zero.
+Cf. Deque et al. (1994))<A HREF="13cnrm_fn.html#fn32">[33]</A> for further
+details.</LI>
+</UL>
+
+<H3>
+<A NAME="RTFToC26"></A>Cloud Formation</H3>
+Cloud formation is by the same diagnostic method as is used in the <A HREF="13cnrm.html#RTFToC26">baseline
+model</A>, but a different critical humidity profile (humidities above
+which cloud forms at different pressure levels) is specified. The 2 empirical
+coefficients of the critical profile are tuned to accomplish several objectives:
+
+<P>
+<UL>
+<LI>
+to produce generally larger cloud fractions than in the baseline model;</LI>
+
+<LI>
+to yield a planetary albedo of about 0.30;</LI>
+
+<LI>
+to result in approximate balance of global annual-mean radiation at the
+top of the atmosphere.</LI>
+</UL>
+Cf. Deque and Piedelievre (1995)<A HREF="13cnrm_fn.html#fn34">[35]</A>
+and Deque et al. (1994)<A HREF="13cnrm_fn.html#fn32">[33]</A> for further
+details.
+<H3>
+<A NAME="RTFToC33"></A>Surface Characteristics</H3>
+Surface characteristics of land are different from those of the <A HREF="13cnrm.html#RTFToC33">baseline
+model</A> (cf. Mahfouf et al. (1995)<A HREF="13cnrm_fn.html#fn37">[38]</A>).
+<UL>
+<LI>
+Primary and secondary vegetation cover and type specified in each grid
+box from 13 classes determined by the Manzi and Planton (1994)<A HREF="13cnrm_fn.html#fn39">[40]</A>
+simplification of the Wilson and Henderson-Sellers (1985)<A HREF="13cnrm_fn.html#fn40">[41]</A>
+dataset. Roughness length, leaf area index (LAI), and minimum stomatal
+resistance required by the <A HREF="#RTFToC35">land surface scheme</A>
+are specified according to the vegetation class and soil characteristics
+of the grid box by blending values associated with the primary and secondary
+vegetation weighted in a 3 to 1 ratio, respectively. The coverage and roughness
+length of deciduous and cultivated vegetation also undergo a seasonal cycle.
+The roughness length includes a contribution from local subgrid-scale orography
+as well.</LI>
+
+<LI>
+Soil color, column depth (derived from drainage data of Wilson and Henderson-Sellers
+(1985)<A HREF="13cnrm_fn.html#fn40">[41]</A>), and texture (fraction of
+sand and clay required by the land <A HREF="#RTFToC35">land surface scheme</A>
+obtained from Webb et al. (1991)<A HREF="13cnrm_fn.html#fn41">[42]</A>
+data) also are specified for each grid box. The depth of the <I>active</I>
+soil layer required by the land surface scheme is assigned according to
+the larger of the vegetation root depth vs the bare-soil depth.</LI>
+
+<LI>
+As in the <A HREF="13cnrm.html#RTFToC33">baseline model</A>, surface albedos
+are a function of solar zenith angle, but their values are assigned differently.
+Albedos over land are prescribed according to vegetation cover (blended
+as described above for primary and secondary vegetation types) and soil
+color. The chosen albedo values are validated against Earth Radiation Budget
+Experiment (ERBE) clear-sky data and METEOSAT data provided by Arino et
+al. (1991)<A HREF="13cnrm_fn.html#fn42">[43]</A>. Surface longwave emissivities
+are prescribed in the same manner as in the baseline model.</LI>
+</UL>
+
+<H3>
+<A NAME="RTFToC34"></A>Surface Fluxes</H3>
+
+<UL>
+<LI>
+The model follows the Louis et al. (1981)<A HREF="13cnrm_fn.html#fn16">[17]</A>
+formulation of turbulent surface fluxes, as in the <A HREF="13cnrm.html#RTFToC34">baseline
+model</A>, but with roughness lengths for calculation of the momentum flux
+over land set 10 times larger than those for the heat flux.</LI>
+
+<LI>
+Over land, the surface moisture flux is made up of evaporation from bare
+ground and from moisture intercepted by the vegetation canopy, as well
+as from transpiration by the foliage according to formulations of the <A HREF="#RTFToC35">land
+surface scheme</A>.</LI>
+</UL>
+
+<H3>
+<A NAME="RTFToC35"></A>Land Surface Processes</H3>
+Land surface processes are simulated by the Interactions between Soil-Biosphere-Atmosphere
+(ISBA) scheme of Noilhan and Planton (1989)<A HREF="13cnrm_fn.html#fn36">[37]</A>
+as implemented in the ARPEGE model by Mahfouf et al. (1995)<A HREF="13cnrm_fn.html#fn37">[38]</A>.
+(Use of ISBA results in less extreme ground temperatures over the summer
+continents than in the <A HREF="13cnrm.html#RTFToC35">baseline model</A>.)
+<UL>
+<LI>
+The ISBA scheme includes 5 prognostic variables: surface temperature, mean
+surface temperature, surface volumetric water content, mean volumetric
+water content, and the water amount intercepted by the vegetation canopy.
+The time dependence of the prognostic variables are formulated as force-restore
+equations after Deardorff (1978)<A HREF="13cnrm_fn.html#fn12">[13]</A>.</LI>
+
+<LI>
+ISBA also requires 7 parameters that are prescribed or derived from other
+surface characteristics: the vegetation cover, leaf area index (LAI), minimum
+stomatal resistance, surface shortwave albedo, longwave emissivity, active
+soil depth, and surface roughness length (see <A HREF="#RTFToC33">Surface
+Characteristics</A>). In addition, climatoligical/equilibrium temperatures
+and volumetric water contents, the maximum moisture capacity of the vegetation
+canopy, as well as transfer coefficients and restoring time constants are
+specified in the prognostic equations.</LI>
+
+<LI>
+The turbulent flux of moisture from the surface to the atmosphere includes
+direct evaporation from the vegetation canopy and from bare soil, as well
+as transpiration by the foliage (see <A HREF="#RTFToC34">Surface Fluxes</A>).</LI>
+
+<LI>
+Transpiration ceases when the soil moisture reaches a specified wilting
+point corresponding to a water potential of -15 bar; evaporation occurs
+at the potential rate when soil moisture is intermediate between its field
+capacity (corresponding to a hydraulic conductivity of 1x10^-4 m/day) and
+a saturation value that depends on the soil texture (see <A HREF="#RTFToC33">Surface
+Characteristics</A>). Surface runoff occurs when the saturation value of
+soil moisture is exceeded.</LI>
+</UL>
+&nbsp;
+<H4>
+<A HREF="13cnrm_fn.html"><IMG SRC="gifs/Button_blue.gif" ></A><A HREF="13cnrm_fn.html">
+Go to CNRM References</A></H4>
+<A HREF="13cnrm_ToC_b.html"><IMG SRC="gifs/Button_blue.gif" ></A><A HREF="13cnrm_ToC_b.html">
+Return to Model Table of Contents</A>
+<H4>
+<A HREF="01toc.html"><IMG SRC="gifs/Button_blue.gif" ></A><A HREF="01toc.html">
+Return to Main Document Directory</A></H4>
+
+<HR>Last update July 2, 1996. For further information, contact: Tom Phillips
+(<A HREF="mailto: phillips@tworks.llnl.gov"> phillips@tworks.llnl.gov </A>)
+
+<P>&nbsp;<A HREF="http://www.llnl.gov/disclaimer.html">LLNL Disclaimers</A>
+
+<P>UCRL-ID-116384
+</BODY>
+
+<!-- Mirrored from www-pcmdi.llnl.gov/modeldoc/amip1/13cnrm_b.html by HTTrack Website Copier/3.x [XR&CO'2004], Fri, 09 Jul 2004 21:01:48 GMT -->
+
+<!-- Mirrored from www-pcmdi.llnl.gov/projects/modeldoc/amip1/13cnrm_b.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 20 Jun 2016 18:43:03 GMT -->
+</HTML>

@@ -1,0 +1,100 @@
+---
+layout: AMIP
+---
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN//2.0">
+<HTML>
+<!-- Mirrored from www-pcmdi.llnl.gov/modeldoc/amip1/18dnm_b.html by HTTrack Website Copier/3.x [XR&CO'2004], Fri, 09 Jul 2004 21:04:18 GMT -->
+
+<!-- Mirrored from www-pcmdi.llnl.gov/projects/modeldoc/amip1/18dnm_b.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 20 Jun 2016 20:11:32 GMT -->
+<HEAD>
+<TITLE>Department of Numerical Mathematics (of the Russian Academy of Sciences): Model DNM A5407.V2 (4x5 L7) 1995</TITLE></HEAD>
+<BODY BACKGROUND="gifs/bg9.gif">
+<BODY>
+<h2>Department of Numerical Mathematics (of the Russian Academy of Sciences): Model DNM A5407.V2 (4x5 L7) 1995</a></h2><hr>
+
+<h3>
+<a name="RTFToC3">Model Designation
+</a></h3>
+DNM A5407.V2 (4x5 L7) 1995
+<h3>
+<a name="RTFToC4">Model Lineage
+</a></h3>In AMIP baseline model <A HREF="18dnm_ToC.html">DNM A5407.V1 (4x5 L7) 1991</A>, a numerical error in implementing the Matsuno time integration scheme resulted in unrealistic simulation of the state variables (cf. Galin et al. (1995)<A HREF="18dnm_fn.html#fn25">[26]</A>).  In the present model, a different <A HREF="#RTFToC15">time integration scheme</A> is used.  In addition,  <A HREF="#RTFToC20">horizontal diffusion</A>, <A HREF="#RTFToC25">penetrative convection</A>, the <A HREF="#RTFToC33">surface characteristics</A> and <A HREF="#RTFToC34">moisture flux</A>, and <A HREF="#RTFToC35">land surface processes</A> are parameterized differently than in the baseline model.  
+
+<h3>
+<a name="RTFToC5">Model Documentation
+</a></h3>Galin et al. (1995)<A HREF="18dnm_fn.html#fn25">[26]</A> discuss the nature of the numerical error in the <A HREF="18dnm_ToC.html">baseline model</A> and its impact on the first AMIP simulation.  They also demonstrate the improved simulation of several AMIP standard output variables by the present model.
+
+
+<h2>
+<a name="RTFToC6">Numerical/Computational Properties
+</a></h2>
+<h3>
+
+<a name="RTFToC12">Computer/Operating System
+</a></h3>In contrast to the <A HREF="18dnm.html#RTFToC12">baseline model</A>, the repeated AMIP simulation was run on an IBM RISC computer using a single processor in a UNIX environment.
+
+
+<h3>
+<a name="RTFToC13">Computational Performance
+</a></h3>For the repeated AMIP experiment, about 4 minutes of IBM RISC computer time per simulated day.
+
+
+<h3>
+<a name="RTFToC15">Time Integration Scheme(s)
+</a></h3>Instead of the  <A HREF="18dnm.html#RTFToC15">baseline model's</A> Matsuno scheme, time integration is by a semi-implicit leapfrog method with time step of 20 minutes for dynamics, 3 hours for radiation, and 1 hour for all other model physics.  
+
+<h3>
+<a name="RTFToC16">Smoothing/Filling</a></h3>Atmospheric temperature, specific humidity, and u-v winds are filtered at latitudes poleward of 69 degrees, at somewhat higher latitudes than in the <A HREF="18dnm.html#RTFToC16">baseline model</A>.  
+
+<h2>
+<a name="RTFToC18">Dynamical/Physical Properties
+</a></h2>
+
+<h3><a name="RTFToC20">Diffusion</a></h3>
+As in the <A HREF="18dnm.html#RTFToC20">baseline model</A>, horizontal diffusion of winds, temperature, and specific humidity on constant-sigma surfaces is accounted for, but the second-order nonlinear formulation of diffusion is replaced by a fourth-order linear scheme.    
+
+<h3>
+<a name="RTFToC25">Convection</a></h3>A dry and moist convective adjustment scheme is used in place of the Kuo (1974)<A HREF="18dnm_fn.html#fn12">[13]</A> parameterization in the <A HREF="18dnm.html#RTFToC25">baseline model</A>.  
+If the vertical lapse rate exceeds dry adiabatic, the lapse rate is restored to dry adiabatic while conserving dry static energy in the vertical column.  A moist convective adjustment is applied if the lapse rate exceeds a critical value that is a linear function of relative humidity. (The critical value is equal to a dry adiabatic lapse rate if the relative humidity is 70 percent, and is equal to a moist adiabatic lapse rate if the relative humidity is 100 percent). The moist adjustment restores the lapse rate to the critical value while conserving the total moist energy of the vertical column.  After application of the moist adjustment, the relative humidity of the column is set at 70 percent.
+  
+<h3>
+<a name="RTFToC33">Surface Characteristics
+</a></h3>In addition to the surface characteristics of the <A HREF="18dnm.html#RTFToC33">baseline model</A>, the fractional area of vegetation (undistinguished by type) is specified for each grid square from 1x1-degree data of Matthews (1983)<A HREF="18dnm_fn.html#fn26">[27]</A>, as modified by Wilson and Henderson-Sellers (1985)<A HREF="18dnm_fn.html#fn26">[28]</A>. The vegetation canopy affects both the <a href="#RTFToC34">surface moisture flux</A> and the <a href="#RTFToC35">land surface hydrology</A>. 
+
+<h3>
+<a name="RTFToC34">Surface Fluxes
+</a></h3>
+<UL>
+<LI>
+The <A HREF="18dnm.html#RTFToC34">baseline model's</A> formulation of the surface moisture flux from land grid boxes is modified to include the effects of a vegetation canopy.  The total surface evaporative flux in a grid box therefore includes contributions from snow cover, bare soil, the moisture intercepted by the vegetation canopy, and the transpiration through the dry foliage.  See also <A HREF="#RTFToC33">Surface Characteristics</A> and <A HREF="#RTFToC35">Land Surface Processes</A>).  
+<P>
+<LI>
+Over oceans, the surface heat and moisture fluxes are no longer augmented by the evaporaton of sea spray in stormy conditions, as in the <A HREF="18dnm.html#RTFToC34">baseline model</A>.
+</UL>
+<P>
+
+<h3>
+<a name="RTFToC35">Land Surface Processes
+</a></h3>The representation of land surface hydrology is modified to include the effects of a vegetation canopy (see <A HREF="#RTFToC33">Surface Characteristics</A> and <A HREF="#RTFToC34">Surface Fluxes</A>).  That part of the precipitation not intercepted by the canopy (whose capacity varies from 2 x 10^-3 to 8 x 10^-3 m, depending on location) is assumed to infiltrate the soil.  Variations in soil moisture are simulated by the same modified "bucket" scheme as in the <A HREF="18dnm.html#RTFToC35">baseline model</A>, but runoff is partitioned into fast (surface) vs slow (deep) components.  
+
+</ul>
+
+<p><BR><h4><p><A HREF="18dnm_fn.html"><IMG SRC="gifs/Button_blue.gif">	Go to DNM References</a></h4>
+
+<p>
+<h4><p><A HREF="18dnm_ToC_b.html"><IMG SRC="gifs/Button_blue.gif">
+	Return to Model Table of Contents</a></h4>
+
+<h4><A HREF="01toc.html"><IMG SRC="gifs/Button_blue.gif">	Return to Main Document Directory</a></h4>
+
+<P>
+<HR>
+
+Last update May 28, 1996.  For further information, contact: Tom Phillips (<a href="mailto: phillips@tworks.llnl.gov">phillips@tworks.llnl.gov </a>)<P>
+<A HREF="http://www.llnl.gov/disclaimer.html">LLNL Disclaimers</A><p>
+UCRL-ID-116384<p>
+</body>
+<!-- Mirrored from www-pcmdi.llnl.gov/modeldoc/amip1/18dnm_b.html by HTTrack Website Copier/3.x [XR&CO'2004], Fri, 09 Jul 2004 21:04:18 GMT -->
+
+<!-- Mirrored from www-pcmdi.llnl.gov/projects/modeldoc/amip1/18dnm_b.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 20 Jun 2016 20:11:32 GMT -->
+</html>

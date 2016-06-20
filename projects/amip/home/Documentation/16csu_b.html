@@ -1,0 +1,133 @@
+---
+layout: AMIP
+---
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN//2.0">
+<HTML>
+<!-- Mirrored from www-pcmdi.llnl.gov/modeldoc/amip1/16csu_b.html by HTTrack Website Copier/3.x [XR&CO'2004], Fri, 09 Jul 2004 21:04:18 GMT -->
+
+<!-- Mirrored from www-pcmdi.llnl.gov/projects/modeldoc/amip1/16csu_b.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 20 Jun 2016 20:11:32 GMT -->
+<HEAD>
+<TITLE>Colorado State University: Model CSU CSU95 (4x5 L17) 1995</TITLE>
+</HEAD>
+<BODY BACKGROUND="gifs/bg9.gif">
+<BODY>
+<h2> <a name="RTFToC1">Colorado State University: Model CSU CSU95 (4x5 L17) 1995</a></h2> <hr>
+
+<h3> <a name="RTFToC3">Model Designation </a></h3>
+
+CSU CSU95 (4x 5 L17) 1995
+
+<h3> <a name="RTFToC4">Model Lineage </a></h3>Model CSU CSU95 (4x5 L17) 1995 is an updated version of <A HREF="16csu_ToC.html">baseline model CSU CSU91 (4x5 L17) 1991</A>.  The basic dynamical formulation and numerical methods have not been changed, but major modifications have been made to the parameterizations of <A HREF="#RTFToC25">convection</A>, <A HREF="#RTFToC26">stratiform cloudiness</A>,  the <A HREF="#RTFToC28">planetary boundary layer (PBL)</A>, and the <A HREF="#RTFToC35">land surface</A>.
+
+<h3> <a name="RTFToC5">Model Documentation </a></h3>
+Much of the documentation of the <A HREF="16csu.html#RTFToC5">baseline model</A> remains relevant.  The new <A HREF="#RTFToC25">convection</A> parameterization is described by Randall and Pan (1993)[<A HREF="16csu_fn.html#fn28">29</A>]. The <A HREF="#RTFToC26">stratiform cloud microphysics</A> parameterization is documented by Fowler et al. (1996)[<A HREF="16csu_fn.html#fn29">30</A>] and Fowler and Randall (1996a, b)[<A HREF="16csu_fn.html#fn30">31, 32</A>].  The new <A HREF="#RTFToC35">land surface</A> parameterization is described by Sellers et al. (1996a, b)[<A HREF="16csu_fn.html#fn32">33, 34</A>] and Randall et al. (1996)[<A HREF="16csu_fn.html#fn34">35</A>].  The modifications of the planetary boundary layer parameterization have not yet been published, but are <A HREF="#RTFToC28">summarized  below</A>. 
+
+
+<h2> <a name="RTFToC6">Numerical/Computational Properties </a></h2>
+
+
+<h3> <a name="RTFToC12">Computer/Operating System </a></h3>In contrast to the <A HREF="16csu.html#RTFToC12">baseline experiment</A>, the CSU95 AMIP simulation was run on a Silicon Graphics Incorporated (SGI) Power Challenge computer using a single processor in an IRIX environment.
+
+<h3> <a name="RTFToC13">Computational Performance </a></h3>The model used about 35 minutes of SGI computation time per simulated day.
+
+<h3> <a name="RTFToC14">Initialization</a></h3>
+In contrast to the <A HREf="16csu.html#RTFToC14">baseline experiment</A>, all variables for the CSU95 AMIP simulation were initialized using December 1 conditions from a previous model run.  The model then was integrated through this initial December with sea surface temperatures and sea ice extents interpolated between climatological December conditions and the AMIP conditions for January, 1979.
+
+
+
+
+<h2> <a name="RTFToC18">Dynamical/Physical Properties </a></h2>
+
+
+
+<h3> <a name="RTFToC19">Atmospheric Dynamics </a></h3>The primitive-equation dynamics are formulated in the same way as in the <A HREF="16csu.html#RTFToC19">baseline model</A>.  The depth and turbulence kinetic energy (TKE) also remain as prognostic variables, although the <A HREF="#RTFToC28">PBL scheme</A> has been refashioned.  In addition, new prognostic variables include cloud water, cloud ice, rain, snow, and the cumulus kinetic energies associated with each of 14 subensembles of convective cumulus clouds (see <A HREF="#RTFToC26">Cloud Formation</A> and <A HREF="#RTFToC25">Convection</A>).
+
+
+
+
+<h3> <a name="RTFToC24">Radiation</a></h3>	
+The radiation parameterization is the same as in the <A HREF="16csu.html#RTFToC24">baseline model</A>, except that cloud optical properties are no longer formulated in terms of cloud temperature.  Rather, the shortwave optical thickness and longwave emissivity of large-scale stratiform clouds depend on the prognostic cloud water, cloud ice, and snow paths of each layer, as described by Fowler and Randall (1996a)[<A HREF="16csu_fn.html#fn30">31</A>].See also <a href="#RTFToC26">Cloud Formation</a>. 
+
+
+
+<h3> <a name="RTFToC25">Convection</a></h3>
+<UL>
+<LI>The Arakawa-Schubert convection scheme of the <A HREF="16csu.html#RTFToC25">baseline model</A> is still used, but with the prognostic closure of Randall and Pan (1993)[<A HREF="16csu_fn.html#fn28">29</A>] replacing the quasiequilibrium closure.  
+<P>
+<LI>The new prognostics are cumulus kinetic energies of 14 mutually interacting cumulus subensembles (cloud types) with different entrainment rates and levels of neutral buoyancy that define the tops of the clouds and their associated convective updrafts.  For each cloud type, the convective mass flux is assumed to be proportional to the square root of the cumulus kinetic energy.
+<P>
+<LI>As in  <A HREF="16csu.html#RTFToC25">baseline model</A>, midlevel convection is simulated by a convective adjustment process.  See also <a href="#RTFToC28">Planetary Boundary Layer</a>.
+</UL>
+ 
+
+
+
+<h3> <a name="RTFToC26">Cloud Formation </a></h3>
+<UL>
+<LI>Radiatively active clouds of two types form below 100 hPa in the model:  stratiform liquid, ice, or mixed-phase clouds and PBL stratocumulus clouds.  The PBL cloud is treated as in the <A HREF="16csu.html#RTFToC26">baseline model</A>, but the stratiform cloud is prognostically determined following Fowler et al. (1996)[<A HREF="16csu_fn.html#fn29">30</A>].  Stratiform cloud water, cloud ice, as well as associated rain and snow mixing ratios are predicted, and <A HREF="#RTFToC25">convective cumulus</A> detrainment of liquid water and ice act as sources for stratiform water and ice, respectively.  
+<P>
+<LI>Cloud water forms by condensation in the presence of supersaturated air whose temperature is >= 0 deg C.  Cloud ice forms by deposition of water vapor when the air is supersaturated with respect to ice and the temperature is <= -20 deg C.  Supercooled cloud water and ice coexist in the temperature range -20 to 0 deg C, and the Bergeron-Findeisen process is simulated.  Evaporation, sublimation, melting and freezing processes also are included. See also <A HREF="#RTFToC24">Radiation</A> and <A HREF="#RTFToC27">Precipitation</A>, and cf. Fowler and Randall (1996b)[<A HREF="16csu_fn.html#fn31">32</A>] for sensitivity studies.
+</UL>
+
+
+
+<h3> <a name="RTFToC27">Precipitation</a></h3>
+<UL>
+<LI>In addition to convective precipitation and large-scale precipitation in the boundary layer that are determined as in the <A HREF="16csu.html#RTFToC27">baseline model</A>, rain and snow from stratiform clouds are reformulated as  prognostically determined variables resulting from the autoconversion and collection of cloud water and ice after Fowler et al. (1996)[<A HREF="16csu_fn.html#fn29">30</A>]. 
+<P>
+<LI>In constrast to the <A HREF="16csu.html#RTFToC27">baseline model</A>, water and ice detrained at the top of convective cloud is not assumed to evaporate instantaneously, but acts instead as a source of stratiform cloud water and ice (see <A HREF="#RTFToC26">Cloud Formation</A>).  Falling rain and snow can collect cloud water/ice (represented by a continuous collecton equation), and evaporation of cloud water/ice, rain and snow also occurs in subsaturated layers.   Cf. also Fowler and Randall (1996b)[<A HREF="16csu_fn.html#fn31">32</A>] for sensitivity studies.
+<P><LI>For purposes of the <A HREF="#RTFToC35">land surface scheme</A>,  convective precipitation is distributed nonuniformly when falling within a land grid-box. 
+</UL>
+
+<h3> <a name="RTFToC28">Planetary Boundary Layer</a></h3>
+<UL>
+<LI>
+The formulation of the PBL is the same as in the <A HREF="16csu.html#RTFToC28">baseline model</A>, except that the entrainment rate is assumed to be proportional to the square root of the predicted turbulence kinetic energy (TKE).  The proportionality factor decreases as the Richardson number <B>Ri</B> increases, where <B>Ri</B> is based on the virtual temperature jump at the PBL top, as well as on the predicted TKE and PBL depth.  
+<P>
+<LI>
+The presence of PBL stratocumulus cloud (see <A HREF="#RTFToC26">Cloud Formation</A>) affects the rate of generation of the TKE by the buoyancy force (through enhanced cloud-top radiative cooling and latent heating), but does not directly impact the entrainment rate as in the <A HREF="16csu.html#RTFToC28">baseline model</A>.
+</UL>
+
+
+<h3> <a name="RTFToC32">Snow Cover</a></h3>
+
+The criterion for snow accumulation is the same as in the  <A HREF="16csu.html#RTFToC32">baseline model</A>, but the effects of a snow pack on the albedo, temperature, heat capacity, moisture permeability, and roughness of the underlying surface depend on  the Sellers et al. (1996a)[<A HREF="16csu_fn.html#fn32">33</A>] treatment of fractional snow cover.  The snow cover fraction is a linear function of snow water equivalent depth <B>d</B>, becoming unity for <B>d</B> > 0.076 m.  The effects of phase changes of the fractional snow pack are incorporated in the surface balance calculations, and these computations also ensure that the surface characteristics do not undergo abrupt changes with snow accumulation or melting. See also <a href="#RTFToC35">Land Surface Processes</a>.
+
+<h3> <a name="RTFToC33">Surface Characteristics</a></h3>
+Surface characteristics are the same as for the <A HREF="16csu.html#RTFToC33">baseline model</A>, except that the number of distinguished vegetation types is reduced from 12 to 9 (cf. Sellers et al. 1996a)[<A HREF="16csu_fn.html#fn32">33</A>]).  Roughness lengths and albedos of vegetated surfaces are modified accordingly.  See also <A HREF="#RTFToC35">Land Surface Processes</A>.
+
+<h3> <a name="RTFToC34">Surface Fluxes </a></h3>
+Surface turbulent fluxes are formulated as in the <A HREF="16csu.html#RTFToC34">baseline model</A>, except that in determining the surface moisture flux over land, the effects of stomatal resistance are included (see <a href="#RTFToC35">Land Surface Processes</a>).
+
+
+
+<h3> <a name="RTFToC35">Land Surface Processes</a></h3>
+<ul>
+<LI>In contrast to the <A HREF="16csu.html#RTFToC35">baseline model</A>, land surface processes are simulated by the SiB2 model of 
+Sellers et al. (1996a)[<A HREF="16csu_fn.html#fn32">33</A>], a significant enhancement of the SiB1 scheme of Sellers et al. (1986)[ <A HREF="16csu_fn.html#fn36">37</A>].
+<P>
+<LI>Surface and deep soil temperature are predicted using a Deardorff (1978)[<A HREF="16csu_fn.html#fn37">38</A>] force-restore method.  The heat capacity of the soil depends  on soil type and soil moisture, as well as on <A HREF="#RTFToC32">snow cover</A>.
+<p>
+<LI>Soil moisture is predicted by the vertical exchanges of water among a thin surface soil layer, a root zone whose depth depends on <A HREF="#veg">vegetation type </A>, and a deep moisture store.  Soil hydrological parameteres are prescribed according to soil type, with the effects of freezing on hydraulic conductivity also included.  Precipitation and snowmelt (excluding <A HREF="#runoff">surface runoff</A>)  contribute to soil moisture, while surface evaporation depletes it.  The latter includes a contribution from bare soil as well as evapotranspiration from plants that depends on stomatal resistance determined from a simple model of photosynthesis-conductance. (The carbon assimilation rate is determined as a byproduct of this calculation.)  
+
+<p><A NAME="veg"></A>
+<li>The phenological characteristics of the distinguished <A HREF="#RTFToC33">vegetation types</A>  are estimated from satellite data (cf. Sellers et al. (1996b)[<A HREF="16csu_fn.html#fn33">34</A>]).  The single-story canopy intercepts a fraction of the total precipitation, where the convective portion is distributed exponentially across the grid box.  Storage and reevaporation of the intercepted moisture are predicted as a function of vegetation type; a ground-level "puddle" storage also collects precipitation throughfall.
+<A NAME="runoff"></A> Surface runoff occurs whenever the residual precipitation rate exceeds the local soil hydraulic conductivity. Deep runoff due to gravitational drainage is also included.  Cf. Randall et al. (1996)[<A HREF="16csu_fn.html#fn34">35</A>], and Sellers et al. (1996c)[<A HREF="16csu_fn.html#fn35">36</A>] for sensitivity studies.
+</ul>
+<P><BR>
+<h4><p><A HREF="16csu_fn.html"><IMG SRC="gifs/Button_blue.gif">	Go to Model References</a></h4>
+
+<p><h4><p><A HREF="16csu_ToC_b.html"><IMG SRC="gifs/Button_blue.gif">	Return to Model  Table of Contents</a></h4>
+
+<h4><A HREF="01toc.html"><IMG SRC="gifs/Button_blue.gif">	Return to Main Document Directory</a></h4>
+
+<P><HR>
+
+Last update October 8, 1996.  For further information, contact: Tom Phillips (<a href="mailto: phillips@tworks.llnl.gov">phillips@tworks.llnl.gov </a>)<P>
+<A HREF="http://www.llnl.gov/disclaimer.html">LLNL Disclaimers</A><p>
+ UCRL-ID-116384<p>
+</body>
+<!-- Mirrored from www-pcmdi.llnl.gov/modeldoc/amip1/16csu_b.html by HTTrack Website Copier/3.x [XR&CO'2004], Fri, 09 Jul 2004 21:04:18 GMT -->
+
+<!-- Mirrored from www-pcmdi.llnl.gov/projects/modeldoc/amip1/16csu_b.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 20 Jun 2016 20:11:32 GMT -->
+</html>

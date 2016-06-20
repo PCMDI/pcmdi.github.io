@@ -1,0 +1,445 @@
+---
+layout: AMIP
+---
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN//2.0">
+<HTML>
+<!-- Mirrored from www-pcmdi.llnl.gov/modeldoc/amip1/27mri.html by HTTrack Website Copier/3.x [XR&CO'2004], Fri, 09 Jul 2004 21:04:18 GMT -->
+
+<!-- Mirrored from www-pcmdi.llnl.gov/projects/modeldoc/amip1/27mri.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 20 Jun 2016 20:11:32 GMT -->
+<HEAD>
+<TITLE>Meteorological Research Institute: Model MRI GCM-II (4x5 L15) 1993</TITLE>
+</HEAD>
+<BODY BACKGROUND="gifs/bg9.gif">
+<BODY>
+
+<h2>
+<a name="RTFToC1">Meteorological Research Institute: Model MRI GCM-II (4x5 L15) 1993</a></h2>
+<hr>
+
+<h3>
+<a name="RTFToC2">AMIP Representative(s)
+</a></h3>
+Dr. Akio Kitoh, Meteorological Research Institute, 1-1, Nagamine, Tsukuba-shi, Ibaraki-ken, 305 Japan; Phone: +81-298-53-8594; Fax: +81-298-55-2552; e-mail: kitoh@mri-jma.go.jp; World Wide Web URL: <a href="http://www.mri-jma.go.jp/Welcome.html">http://www.mri-jma.go.jp/Welcome.html
+</a>
+<h3>
+<a name="RTFToC3">Model Designation
+</a></h3>
+MRI GCM-II (4x5 L15) 1993
+<h3>
+<a name="RTFToC4">Model Lineage
+</a></h3>
+The MRI model is derived from an earlier version of the University of
+California at Los Angeles (UCLA) model (cf. Arakawa and Mintz 1974
+<a href="27mri_fn.html#fn0">[1]</a> and Arakawa and Lamb 1977
+<a href="27mri_fn.html#fn1">[2]</a>). Subsequent modifications include increases in
+vertical resolution, and changes in parameterizations of gravity-wave drag,
+atmospheric radiation, convection, surface characteristics, and land surface
+processes.
+<h3>
+<a name="RTFToC5">Model Documentation
+</a></h3>
+Documentation for an earlier five-level version of the MRI model is provided by
+Tokioka et al. (1984)
+<a href="27mri_fn.html#fn2">[3]</a>. Descriptions of
+subsequent modifications are given by Yagai and Tokioka (1987)
+<a href="27mri_fn.html#fn3">[4]</a>, Yagai and Yamazaki (1988)
+<a href="27mri_fn.html#fn4">[5]</a>, Kitoh et al. (1988)
+<a href="27mri_fn.html#fn5">[6]</a>, Tokioka et al. (1988)
+<a href="27mri_fn.html#fn6">[7]</a>, Noda and Tokioka (1989)
+<a href="27mri_fn.html#fn7">[8]</a>, and Shibata and Aoki (1989)
+<a href="27mri_fn.html#fn8">[9]</a>. Results from the AMIP simulation by the
+current MRI model are discussed by Kitoh et al. (1995)
+<a href="27mri_fn.html#fn9">[10]</a>.
+<h2>
+<a name="RTFToC6">Numerical/Computational
+Properties
+</a></h2>
+<h3>
+<a name="RTFToC7">Horizontal Representation
+</a></h3>
+Finite differences on a C-grid with conservation of mass, momentum, energy, and potential enstrophy (cf. Arakawa and Lamb 1977)
+<a href="27mri_fn.html#fn1">[2]</a>.
+<h3>
+<a name="RTFToC8">Horizontal Resolution
+</a></h3>
+4 x 5-degree latitude-longitude grid.
+<h3>
+<a name="RTFToC9">Vertical Domain
+</a></h3>
+Surface to 1 hPa (with the highest prognostic level at 1.39 hPa). For a surface
+pressure of 1000 hPa, the lowest atmospheric level is at a pressure of about
+912 hPa. In addition, the depth of the boundary layer is a prognostic
+variable--see <a href="27mri.html#RTFToC28">Planetary Boundary Layer</a>.
+<h3>
+<a name="RTFToC10">Vertical Representation
+</a></h3>
+Finite differences in hybrid coordinates. Above 100 hPa log-pressure
+coordinates are used, and below 100 hPa modified sigma coordinates: sigma = (P
+- PI)/(PS - PI), where P and PS are atmospheric and surface pressure,
+respectively, and PI is a constant 100 hPa. The vertical differencing scheme is
+after Tokioka (1978)
+<a href="27mri_fn.html#fn10">[11]</a>.
+<h3>
+<a name="RTFToC11">Vertical Resolution
+</a></h3>
+15 hybrid levels. For a surface pressure of 1000 hPa, 1 level is below 800 hPa
+and 9 levels are above 200 hPa. See also <a href="27mri.html#RTFToC10">Vertical Representation</a>.
+<h3>
+<a name="RTFToC12">Computer/Operating
+System
+</a></h3>
+The AMIP simulation was run on a HITAC S-810/10 using a single processor in the VOS3 environment.
+<h3>
+<a name="RTFToC13">Computational Performance
+</a></h3>
+For the AMIP experiment, about 6 minutes of HITAC S-810/10 computation time per simulated day.
+<h3>
+<a name="RTFToC14">Initialization</a>
+</h3>
+For the AMIP simulation, a one-month "warm-up" period precedes the formal start on 1 January 1979. The model atmosphere, soil moisture, and snow cover/depth are initialized from a previous model solution for 1 December; then the model is integrated to a simulated 1 January state.
+<h3>
+<a name="RTFToC15">Time Integration Scheme(s)
+</a>
+</h3>
+The model is integrated by the leapfrog scheme with a time step of 6 minutes,
+and with a Matsuno step (an Euler forward integration followed by a backward
+integration) inserted hourly. At the forward stage of the Matsuno step,
+diabatic and dissipative terms, sources and sinks in atmospheric water vapor,
+and the change in the depth of the prognostic planetary boundary layer (PBL)
+are calculated. The PBL entrainment rate and the turbulent fluxes at the PBL
+top and at the surface are solved iteratively by backward implicit differencing
+(see <a href="27mri.html#RTFToC28">Planetary Boundary Layer</a> and <a href="27mri.html#RTFToC34">Surface Fluxes</a>). Shortwave and
+longwave radiation are computed hourly, but with transmission functions for
+longwave fluxes calculated every 3 hours.
+<h3>
+<a name="RTFToC16">Smoothing/Filling</a></h3>
+Orography is area-averaged (see <a href="27mri.html#RTFToC29">Orography</a>). A longitudinal smoothing of
+the zonal pressure gradient and of the zonal and meridional mass flux is also
+performed in high latitudes (cf. Tokioka et al. 1984)
+<a href="27mri_fn.html#fn2">[3]</a>. A precise determination
+of the horizontal flux of atmosphere moisture and use of vertical interpolation
+at half-levels prevents the occurrence of negative humidity values (cf. Tokioka
+et al. 1984)
+<a href="27mri_fn.html#fn2">[3]</a>, thereby avoiding the need for moisture filling.
+<h3>
+<a name="RTFToC17">Sampling
+Frequency
+</a></h3>
+For the AMIP simulation, the model history is written every 6 hours.
+<h2>
+<a name="RTFToC18">Dynamical/Physical Properties
+</a></h2>
+<h3>
+<a name="RTFToC19">Atmospheric
+Dynamics
+</a></h3>
+Primitive-equation dynamics are expressed in flux form in terms of u and v
+winds, temperature, specific humidity, and surface pressure.
+<h3>
+<a name="RTFToC20">Diffusion</a></h3>
+<ul>
+<p>
+<li>	Nonlinear horizontal diffusion is applied only to momentum (cf. Holloway and Manabe 1971)
+<a href="27mri_fn.html#fn11">[12]</a>.
+<p>
+<li>	Vertical diffusion is not applied above the well-mixed PBL (see
+<a href="27mri.html#RTFToC28">Planetary Boundary Layer</a>). However, momentum is redistributed vertically by cumulus convection (see <a href="27mri.html#RTFToC25">Convection</a>). </ul>
+<h3>
+<a name="RTFToC21">Gravity-wave Drag
+</a></h3>
+Orographic gravity-wave drag is simulated following Palmer et al. (1986)
+<a href="27mri_fn.html#fn12">[13]</a> with quantitative adjustments described by
+Yagai and Yamazaki (1988)
+<a href="27mri_fn.html#fn3">[4]</a>. The dependence of the surface momentum flux on the
+surface wind direction is considered (see <a href="27mri.html#RTFToC29">Orography</a> on the computation
+of the required subgrid-scale orographic covariances). Surface stress due to
+gravity waves excited by stably stratified flow over irregular terrain is
+calculated from linear theory and dimensional considerations. The gravity-wave
+stress is a function of atmospheric density, low-level wind, and the
+Brunt-Vaisalla frequency. The vertical structure of the momentum flux induced
+by gravity waves is calculated from a local wave Richardson number, which
+describes the onset of turbulence due to convective instability and the
+turbulent breakdown approaching a critical level. The gravity-wave generation factor kappa is set to 6.0 x 10^-6 m^-1. <h3>
+<a name="RTFToC22">Solar Constant/Cycles
+</a></h3>
+The solar constant is the AMIP-prescribed value of 1365 W/(m^2). Both seasonal
+and diurnal cycles in solar forcing are simulated.
+<h3>
+<a name="RTFToC23">Chemistry</a></h3>
+The carbon dioxide concentration is the AMIP-prescribed value of 345 ppm. Zonal
+profiles of ozone concentration are prescribed monthly from data of McPeters et
+al. (1984)
+<a href="27mri_fn.html#fn13">[14]</a>. The radiative effects of water
+vapor are also treated, but not those of aerosols (see <a href="27mri.html#RTFToC24">Radiation</a>).
+<h3>
+<a name="RTFToC24">Radiation</a></h3>
+<ul>
+<li>	Shortwave Rayleigh scattering and absorption in ultraviolet (wavelengths
+less than 0.35 micron) and visible (wavelengths 0.5 to 0.7 micron) spectral
+bands by ozone, and in the near-infrared (wavelengths 0.7 to 4.0 microns) by
+water vapor and carbon dioxide, follows the method of Lacis and Hansen (1974)
+<a href="27mri_fn.html#fn14">[15]</a>. Pressure corrections and multiple
+reflections between randomly overlapped partial clouds and the surface are
+treated. 
+<p>
+<li>	Longwave calculations are based on the multiparameter random model of
+Shibata and Aoki (1989)
+<a href="27mri_fn.html#fn8">[9]</a> applied in four spectral regions (with boundaries at
+2.0 x 10^3, 5.5 x 10^4, 8.0 x 10^4, 1.2 x 10^5, and 2.2 x 10^5 m^-1).
+Absorption bands of carbon dioxide, ozone, and water vapor are included.
+Continuum absorption of water vapor is treated after the method of Clough et al. (1980)
+<a href="27mri_fn.html#fn15">[16]</a>, but with the temperature
+dependency used by Roberts et al. (1976)
+<a href="27mri_fn.html#fn16">[17]</a>.
+Mean diffuse transmittances in each region are determined from line-by-line
+calculations approximated by an exponential function including 10 or 12
+parameters. Transmittances through inhomogeneous atmospheres are computed by a modified Godson (1953)
+<a href="27mri_fn.html#fn17">[18]</a> method.
+<p>
+<li>	In the shortwave, clouds are treated by a delta Eddington approximation
+with prescribed single-scattering albedo and asymmetry factor, and with cloud
+optical depth a function of height. In the longwave, clouds behave as
+blackbodies, except for high (above 400 hPa) clouds, whose emissivity is
+related to shortwave optical depth. For purposes of the radiation calculations,
+all clouds are assumed to be randomly overlapped in the vertical. See also
+<a href="27mri.html#RTFToC26">Cloud Formation</a>.</ul><h3>
+<a name="RTFToC25">Convection</a></h3>
+<ul>
+<li>	Simulation of cumulus convection is by a modified Arakawa and Schubert (1974)
+<a href="27mri_fn.html#fn18">[19]</a> scheme, as implemented by Lord
+(1978)
+<a href="27mri_fn.html#fn19">[20]</a>, Lord and Arakawa (1980)
+<a href="27mri_fn.html#fn20">[21]</a>, and Lord et al. (1982)
+<a href="27mri_fn.html#fn21">[22]</a>. Convective mass fluxes are assumed to
+originate in the PBL (see <a href="27mri.html#RTFToC28">Planetary Boundary Layer</a>); these are predicted
+from mutually interacting cumulus subensembles, which have different
+entrainment rates and levels of neutral buoyancy that define the tops of the
+clouds and their associated convective updrafts. In turn, the convective mass
+fluxes feed back on the large-scale fields of temperature (through latent
+heating and compensating subsidence), moisture (through precipitation and
+detrainment), and momentum (through cumulus friction). The effects on cloud
+buoyancy of phase changes from water to ice and the drying and cooling effects
+of convective-scale downdrafts on the environment are not included explicitly.
+The Arakawa-Schubert scheme is modified to impose an additional constraint
+between the minimum entrainment rate and the prognostic depth of the PBL (cf.
+Tokioka et al. 1988)
+<a href="27mri_fn.html#fn6">[7]</a>.
+<p>
+<li>	The mass flux for each cumulus subensemble is predicted from an integral
+equation that includes a positive-definite work function (defined by the
+tendency of cumulus kinetic energy for the subensemble) and a negative-definite
+kernel which expresses the effects of other subensembles on this work function.
+The predicted mass fluxes are optimal solutions of this integral equation under
+the constraint that the rate of generation of conditional convective
+instability by the large-scale environment is balanced by the rate at which the
+cumulus subensembles suppress this instability via large-scale feedbacks (cf.
+Lord et al. 1982)
+<a href="27mri_fn.html#fn21">[22]</a>. The mass fluxes are computed by the "exact direct method,"
+which guarantees an exact solution within roundoff errors.
+<p>
+<li>	If the lapse rate becomes dry convectively unstable at any level, moisture
+and enthalpy are redistributed vertically. In addition, a moist convective
+adjustment simulates midlevel convection originating above the PBL. When the
+lapse rate exceeds moist adiabatic under supersaturated conditions, mass is
+mixed such that either the lapse rate is restored to moist adiabatic, or the
+supersaturation is eliminated by formation of convective precipitation. Cf.
+Tokioka et al. (1984)
+<a href="27mri_fn.html#fn2">[3]</a> for further details.</ul><h3>
+<a name="RTFToC26">Cloud Formation
+</a></h3>
+<ul>
+<li>	Five types of cloud are simulated: penetrative and midlevel convective
+cloud, cirrus anvil cloud, large-scale condensation cloud, and PBL stratus
+cloud. The PBL stratus is the only cloud type that does not interact with
+radiation.
+<p>
+<li>	The penetrative and midlevel convective cloud are associated,
+respectively, with the cumulus convection and moist convective adjustment
+schemes (see <a href="27mri.html#RTFToC25">Convection</a>). Convective clouds in a vertical column are
+assumed to overlap randomly, with a total cloud fraction of 0.3. Cirrus anvil
+cloud forms if cumulus convection penetrates to levels above 400 hPa, and
+large-scale condensation cloud is present if the local relative humidity of a
+layer is at least 100 percent. The latter two cloud types cover the grid box
+(cloud fraction = 1).
+<p>
+<li>	Stratus cloud capping the PBL forms if the specific humidity at the PBL
+top is greater than saturation (see <a href="27mri.html#RTFToC28">Planetary Boundary Layer</a>). The base
+of the cloud is determined from the vertical distribution of temperature and
+specific humidity in the PBL. See also <a href="27mri.html#RTFToC24">Radiation</a> for treatment of
+cloud-radiative interactions.</ul><h3>
+<a name="RTFToC27">Precipitation</a></h3>
+Large-scale precipitation results from condensation under supersaturated
+conditions. Precipitation from cumulus convection originating in the PBL is
+simulated by the Arakawa-Schubert (1974)
+<a href="27mri_fn.html#fn18">[19]</a> scheme, and precipitation from
+midlevel convection by a moist adjustment process (see <a href="27mri.html#RTFToC25">Convection</a>). Both
+large-scale and convective precipitation may evaporate in falling through lower
+layers; the amount of evaporation is equal to that required to saturate each of
+these layers in turn.
+<h3>
+<a name="RTFToC28">Planetary Boundary Layer
+</a></h3>
+<ul>
+<li>	The PBL is parameterized as a well-mixed layer after Randall (1976)
+<a href="27mri_fn.html#fn22">[23]</a>. The depth and mean structure of the PBL are
+prognostic functions of the surface momentum, heat, and moisture fluxes (see
+<a href="27mri.html#RTFToC34">Surface Fluxes</a>), as well as horizontal mass convergence, entrainment,
+and cumulus mass fluxes determined by the cumulus convection scheme (see
+<a href="27mri.html#RTFToC25">Convection</a>). PBL u-v winds, temperature, and specific humidity are
+predicted. Discontinuities in atmospheric variables that may exist at the PBL
+top because of the absence of vertical diffusion in the free atmosphere (see
+<a href="27mri.html#RTFToC20">Diffusion</a>) are also predicted. In addition, PBL stratus cloud is
+produced under saturated conditions (see <a href="27mri.html#RTFToC26">Cloud Formation</a>), and its
+evaporation by drier entrained air is treated.
+<p>
+<li>	The turbulence kinetic energy (TKE) also is determined. (TKE is generated
+by wind shear and convective buoyancy fluxes, and is depleted by surface
+dissipation, by work done against the free atmosphere, and by newly turbulent
+air that is entrained into the PBL.) Because of the mutual dependence of the
+entrainment rate and the turbulent fluxes at the PBL top and at the surface,
+these quantities are solved iteratively under the assumption that the
+generation of TKE balances its dissipation. See also 
+<a href="27mri.html#RTFToC33">Surface Characteristics</a> and 
+<a href="27mri.html#RTFToC15">Time Integration Scheme(s)</a>.</ul>
+<h3>
+<a name="RTFToC29">Orography</a></h3>
+Orography, obtained from UCLA, is area averaged over each 4 x 5-degree model
+grid box. Orographic covariances required for the parameterization of
+gravity-wave drag (see <a href="27mri.html#RTFToC21">Gravity-wave Drag</a>) are computed from the U.S.
+Navy 10-minute resolution topography dataset (cf. Joseph 1980)
+<a href="27mri_fn.html#fn23">[24]</a>.
+<h3>
+<a name="RTFToC30">Ocean</a>
+</h3>
+AMIP monthly sea surface temperature fields are prescribed, with daily values
+determined by linear interpolation.
+<h3>
+<a name="RTFToC31">Sea Ice
+</a></h3>
+<ul>
+<li>	AMIP monthly sea ice extents are prescribed. Sea ice concentration
+fraction (ranging between 0 and 1) for each grid box is prescribed monthly by
+averaging over corresponding weekly U.S. Navy and National Oceanic and
+Atmospheric Administration (NOAA) Joint Ice Center data for 1979 to 1988. The
+spatially variable thickness of sea ice is given by the local concentration
+fraction multiplied by 3.0 meters in the Northern Hemisphere and by 0.5 meter
+in the Southern Hemisphere. Daily values of the above quantities are determined
+by linear interpolation. 
+<p>
+<li>	The ice surface temperature is predicted from the net flux of energy (see
+<a href="27mri.html#RTFToC34">Surface Fluxes</a>), including a subsurface conduction heat flux that is
+proportional to the difference between the ice surface temperature and that
+prescribed (271.3 K) for the ocean below. Snow may accumulate on sea ice or
+melt if the snow surface temperature exceeds 0 degrees C (see <a href="27mri.html#RTFToC32">Snow Cover</a>). Snow also alters the heat capacity/conductivity of the ice, but the
+heat capacity of snow is independent of depth.</ul><h3>
+<a name="RTFToC32">Snow Cover
+</a></h3>
+If the surface air temperature is &lt;0 degrees C, precipitation falls as snow.
+Snow may accumulate on both land and sea ice, with complete coverage of a grid
+box assumed (i.e., there is no fractional snow coverage). Prognostic snow mass
+is depleted both by snowmelt (which contributes to soil moisture) and by
+sublimation (which contributes to surface evaporation). Snow melts if its
+surface temperature exceeds 0 degrees C. Snow cover affects both surface albedo
+and the thermal properties of the surface. See also <a href="27mri.html#RTFToC31">Sea Ice</a>, <a href="27mri.html#RTFToC33">Surface Characteristics</a>, <a href="27mri.html#RTFToC34">Surface Fluxes</a>, and <a href="27mri.html#RTFToC35">Land Surface Processes</a>.
+<h3>
+<a name="RTFToC33">Surface Characteristics
+</a></h3>
+<ul>
+<li>	The surface type is defined as open ocean, sea ice, glacial ice, lake, or
+land. (Lakes are treated as mixed layers of depth 10 m, with prognostic
+temperatures.)
+<p>
+<li>	The surface roughness length is a fixed value over oceans (2 x 10^-4 m),
+sea ice (1 x 10^-4 m), glacial ice (5 x 10^-3 m), and land (0.45 m); the
+surface drag coefficient over land is a function of orographic variances,
+however (see <a href="27mri.html#RTFToC29">Orography</a> and <a href="27mri.html#RTFToC34">Surface Fluxes</a>). 
+<p>
+<li>	Surface albedos depend on solar zenith angle (cf. Paltridge and Platt
+1976)
+<a href="27mri_fn.html#fn24">[25]</a>, but not on spectral interval. The
+ocean albedo is a maximum of 0.07. The albedo of bare sea ice ranges between a
+maximum of 0.50 to 0.64 as a function of surface temperature; the albedo of
+snow-covered sea ice is a maximum of 0.70, depending on snow depth.
+Snow-covered glacial ice albedos range between 0.70 and 0.85. Snow-free land
+albedos are obtained from the data of Matthews (1983)
+<a href="27mri_fn.html#fn25">[26]</a>; with snow cover, the land albedo ranges
+from its snow-free value to a maximum between 0.60 to 0.70, depending on
+topographic height (see <a href="27mri.html#RTFToC29">Orography</a>). On all surfaces, the albedo of
+melting snow is 0.60, and that of frost is 0.30.
+<p>
+<li>	Longwave emissivity is prescribed as unity (blackbody emission) for all
+surfaces.</ul><h3>
+<a name="RTFToC34">Surface Fluxes
+</a></h3>
+<ul>
+<li>	Surface solar absorption is determined from albedos, and longwave emission
+from the Planck equation with emissivity of 1.0 (see 
+<a href="27mri.html#RTFToC33">Surface Characteristics</a>).
+<p>
+<li>	Turbulent eddy fluxes of momentum, heat, and moisture are parameterized as
+bulk formulae with drag and transfer coefficients that depend on vertical
+stability (bulk Richardson number) and the (locally variable) depth of the PBL
+normalized by the surface roughness length, following Deardorff (1972)
+<a href="27mri_fn.html#fn26">[27]</a>. The drag coefficient over land is also
+increased as a function of orographic variances (see <a href="27mri.html#RTFToC29">Orography</a> and cf.
+Yagai and Tokioka 1987
+<a href="27mri_fn.html#fn3">[4]</a>). The surface atmospheric values of wind, dry static
+energy, and humidity required for the bulk formulae are taken to be those
+predicted in the PBL (see <a href="27mri.html#RTFToC28">Planetary Boundary Layer</a>). Because of the
+mutual dependence of the turbulent fluxes at the surface and at the PBL top,
+these (as well as the PBL entrainment rate) are solved by mutual iteration. See
+also <a href="27mri.html#RTFToC33">Surface Characteristics</a> and <a href="27mri.html#RTFToC15">Time Integration Scheme(s)</a>.
+<p>
+<li>	The surface moisture flux depends also on an evapotranspiration efficiency
+factor beta, which is set to unity over ocean and ice surfaces and in areas of
+continental dew formation; otherwise, over land, beta is a function of soil
+moisture (see <a href="27mri.html#RTFToC35">Land Surface Processes</a>).</ul><h3>
+<a name="RTFToC35">Land Surface Processes
+</a></h3>
+<ul>
+<li>	Land-surface parameterizations follow Katayama (1978)
+<a href="27mri_fn.html#fn27">[28]</a>, with subsequent modifications in the
+treatment of soil moisture described by Kitoh et al. (1988)
+<a href="27mri_fn.html#fn5">[6]</a>. Soil heat and
+moisture move along the gradients of temperature and wetness, respectively. The
+thermodynamic and hydrologic effects of a vegetation canopy are not explicitly
+modeled, however.
+<p>
+<li>	The temperature of bare and snow-covered land is predicted in four layers,
+and that of glacial ice in a single-layer. The upper boundary condition is the
+net balance of surface energy fluxes (see <a href="27mri.html#RTFToC34">Surface Fluxes</a>), while there
+is zero heat transfer at the lower boundary. Heat exchange associated with the
+freezing or melting of soil moisture and interstitial ice is taken into
+account. Snow cover and soil moisture/ice also affect the heat
+capacity/conductivity of the surface, but the heat capacity of snow is assumed
+to be independent of its depth.
+<p>
+<li>	Soil moisture (in both liquid and frozen
+form) is predicted in four layers (with bottom boundaries at 0.10, 0.50, 1.50,
+and 10.0 m below the surface); it is augmented by precipitation and snow/ice
+melt, and is depleted by surface evaporation and runoff. The evapotranspiration
+efficiency beta (see <a href="27mri.html#RTFToC34">Surface Fluxes</a>) is set to unity if the fractional
+soil moisture (the ratio of soil moisture to the field capacity, assumed to be
+20 percent of the volume of a soil column) is at least 0.5;  beta is set to
+twice the fractional soil moisture otherwise. When all of the moisture in a
+soil layer is completely frozen (freezing begins when the layer temperature
+falls below 0 degrees C), no deeper penetration of moisture is allowed. Runoff
+occurs in any layer that is either saturated or completely frozen.</ul>
+
+<p><h4><p><A HREF="27mri_fn.html"><IMG SRC="gifs/Button_blue.gif">	Go to MRI References</a></h4>
+
+<p><h4><p><A HREF="27mri_ToC.html"><IMG SRC="gifs/Button_blue.gif">	Return to Model Table of Contents</a></h4>
+
+<P><h4><A HREF="01toc.html"><IMG SRC="gifs/Button_blue.gif">	Return to Main Document Directory</a></h4>
+
+
+<P>
+<HR>
+Last update April 19, 1996.  For further information, contact: Tom Phillips (<a href="mailto: phillips@tworks.llnl.gov">phillips@tworks.llnl.gov </a>)<P><A HREF="http://www.llnl.gov/disclaimer.html">LLNL Disclaimers</A><p>
+UCRL-ID-116384<p>
+</body>
+<!-- Mirrored from www-pcmdi.llnl.gov/modeldoc/amip1/27mri.html by HTTrack Website Copier/3.x [XR&CO'2004], Fri, 09 Jul 2004 21:04:18 GMT -->
+
+<!-- Mirrored from www-pcmdi.llnl.gov/projects/modeldoc/amip1/27mri.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 20 Jun 2016 20:11:32 GMT -->
+</html>
+

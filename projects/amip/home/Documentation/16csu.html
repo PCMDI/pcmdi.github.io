@@ -1,0 +1,229 @@
+---
+layout: AMIP
+---
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN//2.0">
+<HTML>
+<!-- Mirrored from www-pcmdi.llnl.gov/modeldoc/amip1/16csu.html by HTTrack Website Copier/3.x [XR&CO'2004], Fri, 09 Jul 2004 21:04:18 GMT -->
+
+<!-- Mirrored from www-pcmdi.llnl.gov/projects/modeldoc/amip1/16csu.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 20 Jun 2016 20:11:32 GMT -->
+<HEAD>
+<TITLE>Colorado State University: Model CSU CSU91 (4x5 L17) 1991</TITLE>
+</HEAD>
+<BODY BACKGROUND="gifs/bg9.gif">
+<BODY>
+<h2> <a name="RTFToC1">Colorado State University: Model CSU CSU91 (4x5 L17) 1991</a></h2> <hr>
+
+<h3> <a name="RTFToC2">AMIP Representative(s) </a></h3>
+
+Dr. David Randall, Atmospheric Sciences Department, Colorado State University, Fort Collins, Colorado 80523; Phone: +1-970-491-8474; Fax: +1-970-491-8449; e-mail: randall@redfish.ATMOS.ColoState.EDU; World Wide Web URL:  <a href="http://kiwi.atmos.colostate.edu/BUGS/">http://kiwi.atmos.colostate.edu/BUGS/</a>
+<h3> <a name="RTFToC3">Model Designation </a></h3>
+
+CSU CSU91 (4x 5 L17) 1991
+
+<h3> <a name="RTFToC4">Model Lineage </a></h3>
+
+The CSU model is derived from an earlier version of the University of California at Los Angeles (UCLA) atmospheric general circulation model. Subsequent modifications principally include changed parameterizations of radiation, cloud optical properties, land surface processes, and model diagnostics. 
+
+<h3> <a name="RTFToC5">Model Documentation </a></h3>
+
+Key documents on CSU model features and applications include those by Randall (1987
+<a href="16csu_fn.html#fn0">[1]</a>, 1989
+<a href="16csu_fn.html#fn1">[2]</a>), and Randall et al. (1985
+<a href="16csu_fn.html#fn2">[3]</a>, 1989
+<a href="16csu_fn.html#fn3">[4]</a>, 1990
+<a href="16csu_fn.html#fn4">[5]</a>). Details of the treatment of the planetary boundary layer (PBL) are given by Suarez et al. (1983)
+<a href="16csu_fn.html#fn5">[6]</a>. The atmospheric radiation schemes are described by Harshvardhan et al. (1987
+<a href="16csu_fn.html#fn6">[7]</a>, 1989
+<a href="16csu_fn.html#fn7">[8]</a>) and Stephens et al. (1993)
+<a href="16csu_fn.html#fn8">[9]</a>.
+
+<h2> <a name="RTFToC6">Numerical/Computational Properties </a></h2>
+
+<h3> <a name="RTFToC7">Horizontal Representation </a></h3>
+
+Finite differences on a C-grid (cf. Arakawa and Lamb 1977<a href="16csu_fn.html#fn9">
+[10]</a>), conserving total atmospheric mass, energy, and potential enstrophy. The horizontal differencing scheme is of second-order accuracy, except that the inertial terms of the momentum equation correspond to a fourth-order scheme for the advection of vorticity (cf. Takano and Wurtele 1982)<a href="16csu_fn.html#fn10">
+[11]</a>, and the horizontal advection of potential temperature and of moisture is also of fourth-order accuracy.
+
+<h3> <a name="RTFToC8">Horizontal Resolution </a></h3>
+
+4 x 5-degree latitude-longitude grid.
+
+<h3> <a name="RTFToC9">Vertical Domain </a></h3>
+
+Surface to 51.3 hPa. The lowest atmospheric level is identically the top of the prognostic PBL (see <a href="16csu.html#RTFToC28">Planetary Boundary Layer</a>), which nominally varies up to 180 hPa above the surface. 
+
+<h3> <a name="RTFToC10">Vertical Representation </a></h3>
+
+Finite differences in modified sigma coordinates. For P the pressure at a given level, PT = 51.3 hPa the constant pressure at the model top, PI = 100 hPa the pressure at the tropopause, PB the pressure at the top of the prognostic PBL (see <a href="16csu.html#RTFToC28">Planetary Boundary Layer</a>), and PS the pressure at the surface, sigma = (P - PI)/(PI - PT) for PI >= P >= PT (in the stratosphere); sigma = (PB - P)/(PB - PI) for PB >= P >= PI (in the troposphere above the PBL); and sigma = 1 + (PS - P)/(PS - PB) for PS >= P >= PB (in the PBL). Following Tokioka (1978)
+<a href="16csu_fn.html#fn11">[12]</a>, the sigma levels in the model stratosphere are evenly spaced in the logarithm of pressure. Cf. Randall (1989)
+<a href="16csu_fn.html#fn1">[2]</a> for further details.
+
+<h3> <a name="RTFToC11">Vertical Resolution </a></h3>
+
+There are 17 unevenly spaced modified sigma levels (see <a href="16csu.html#RTFToC10">Vertical Representation</a>). The first layer is identically the model's prognostic PBL of varying depth (see <a href="16csu.html#RTFToC28">Planetary Boundary Layer</a>). For a surface pressure of 1000 hPa, 2 levels are typically below 800 hPa (depending on the PBL depth) and 6 levels are typically above 200 hPa.
+
+<h3> <a name="RTFToC12">Computer/Operating System </a></h3>
+
+The AMIP simulation was run on a Cray 2 computer using 1 processor in a CTSS environment.
+
+<h3> <a name="RTFToC13">Computational Performance </a></h3>
+
+For the AMIP experiment, about 6.5 minutes Cray 2 computation time per simulated day.
+
+<h3> <a name="RTFToC14">Initialization</a></h3>
+
+For the AMIP simulation, the model atmosphere and snow cover/depth are initialized for 1 January 1979 from a previous model solution; soil moisture is initialized from the January climatological estimates of Mintz and Serafini (1981)
+<a href="16csu_fn.html#fn12">[13]</a>.
+
+<h3> <a name="RTFToC15">Time Integration Scheme(s) </a></h3>
+
+Adiabatic, frictionless processes (advection, pressure gradient force, etc.) employ the leapfrog scheme with a time step of 6 minutes. A 6-minute Matsuno step is inserted at 1-hour intervals to prevent separation of the solutions from the presence of a computational mode; prior to each of these the heating, moistening, and cumulus mass fluxes are computed and added evenly over the succeeding Matsuno and leapfrog steps. Radiation is calculated at 1-hour intervals. The surface fluxes and temperatures are computed implicitly, and the horizontal diffusion of momentum is calculated by a forward time differencing scheme, both with time steps of 6 minutes. 
+
+<h3> <a name="RTFToC16">Smoothing/Filling</a></h3>
+
+Orography is smoothed (see <a href="16csu.html#RTFToC29">Orography</a>). The mass flux and pressure gradient vectors are Fourier filtered to maintain computational stability near the poles (cf. Arakawa and Lamb 1977
+<a href="16csu_fn.html#fn9">[10]</a>). Spurious negative values of atmospheric specific humidity are filled by redistributing moisture, without changing its global integral. This correction is implemented by a global multiplicative hole-filler (cf. Rood 1987
+<a href="16csu_fn.html#fn13">[14]</a>) that "borrows" moisture primarily from grid boxes where it is plentiful--e.g., from within the PBL (see <a href="16csu.html#RTFToC28">Planetary Boundary Layer</a>).
+
+<h3> <a name="RTFToC17">Sampling Frequency </a></h3>
+
+For the AMIP simulation, the model history is written every 6 hours.
+
+<h2> <a name="RTFToC18">Dynamical/Physical Properties </a></h2>
+
+<h3> <a name="RTFToC19">Atmospheric Dynamics </a></h3>
+
+Primitive-equation dynamics are expressed in terms of atmospheric potential temperature, zonal and meridional wind components, water vapor mixing ratio, and surface pressure. The depth and turbulence kinetic energy (TKE) of the PBL are also prognostic variables (see <a href="16csu.html#RTFToC28">Planetary Boundary Layer</a>).
+
+<h3> <a name="RTFToC20">Diffusion</a></h3>
+
+<ul><li>	Nonlinear second-order horizontal diffusion after Smagorinsky (1963)<a href="16csu_fn.html#fn14">
+[15]</a> is applied only to the momentum equation at all vertical levels.<p>
+
+<li>	Vertical diffusion is not modeled above the PBL (see <a href="16csu.html#RTFToC28">Planetary Boundary Layer</a>).</ul>
+
+<h3> <a name="RTFToC21">Gravity-wave Drag </a></h3>
+
+Gravity-wave drag is not included in the model.
+
+<h3> <a name="RTFToC22">Solar Constant/Cycles </a></h3>
+
+The solar constant is the AMIP-prescribed value of 1365 W/(m^2.) Both seasonal and diurnal cycles in solar forcing are simulated.
+
+<h3> <a name="RTFToC23">Chemistry</a></h3>
+
+The carbon dioxide concentration is the AMIP-prescribed value of 345 ppm. Monthly average zonal profiles of ozone are prescribed from data of McPeters et al. (1984)<a href="16csu_fn.html#fn15">
+[16]</a>. Radiative effects of water vapor are also included, but not those of aerosols (see <a href="16csu.html#RTFToC24">Radiation</a>). 
+
+<h3> <a name="RTFToC24">Radiation</a></h3>
+
+<ul><li>	Atmospheric radiation is after the method of Harshvardhan et al. (1987
+<a href="16csu_fn.html#fn6">[7]</a>, 1989
+<a href="16csu_fn.html#fn7">[8]</a>). The shortwave parameterization by Davies (1982)<a href="16csu_fn.html#fn16">
+[17]</a> follows the approach of Lacis and Hansen (1974)<a href="16csu_fn.html#fn17">
+[18]</a> for clear-sky Rayleigh scattering, for ozone absorption in the ultraviolet (wavelengths &lt; 0.35 micron) and visible (0.5-0.7 micron) spectral bands, and for water vapor absorption in the near-infrared (0.7-4.0 microns).<p>
+
+<li>	For longwave absorption, the broadband approach of Chou (1984)<a href="16csu_fn.html#fn18">
+[19]</a> is used for water vapor, that of Chou and Peng (1983)<a href="16csu_fn.html#fn19">
+[20]</a> for carbon dioxide, and that of Rodgers (1968)<a href="16csu_fn.html#fn20">
+[21]</a> for ozone. Longwave fluxes are calculated in five spectral bands (wavenumbers 0 to 3 x 10^5 m^-1), with continuum absorption by water vapor treated as in Roberts et al. (1976)<a href="16csu_fn.html#fn21">
+[22]</a>.<p>
+
+<li>	Shortwave absorption/scattering by clouds is modeled by a delta-Eddington approximation, with prescribed single-scattering albedo and asymmetry parameter. The shortwave optical thickness is proportional to the pressure thickness, where the proportionality constant is a function of the mean layer temperature (closely related to cloud liquid water content). Cloud shortwave scattering is also a function of solar zenith angle. Cloud longwave emissivity depends on a prescribed diffusivity factor and an optical depth which is proportional to that for the shortwave. For purposes of the radiation calculations, all clouds are assumed to be maximally (fully) overlapped in the vertical See also <a href="16csu.html#RTFToC26">Cloud Formation</a>. </ul>
+
+<h3> <a name="RTFToC25">Convection</a></h3>
+
+<ul><li>	Penetrative convection is simulated by the Arakawa-Schubert (1974)<a href="16csu_fn.html#fn22">
+[23]</a> scheme, as implemented by Lord (1978)<a href="16csu_fn.html#fn23">
+[24]</a> and Lord et al. (1982)<a href="16csu_fn.html#fn24">
+[25]</a>. Convection is assumed to originate in the PBL (see <a href="16csu.html#RTFToC28">Planetary Boundary Layer</a>), and to carry its mean properties into the free atmosphere. Convective mass fluxes are predicted for 14 mutually interacting cumulus subensembles (cloud types) with different entrainment rates and levels of neutral buoyancy that define the tops of the clouds and their associated convective updrafts. In turn, the predicted convective mass fluxes feed back on the large-scale fields of temperature (through latent heating and compensating subsidence), moisture (through precipitation and detrainment), and momentum (through cumulus friction). The cumulus mass flux is also a mass sink for the PBL, tending to make it more shallow in the absence of compensating large-scale convergence and/or turbulent entrainment of mass. The effects of convective-scale downdrafts are neglected, however.<p>
+
+<li>	The mass flux for each cumulus subensemble is predicted from an integral equation that includes a positive-definite work function (defined by the tendency of cumulus kinetic energy for the subensemble) and a negative-definite kernel which expresses the effects of other subensembles on this work function. The predicted cumulus mass fluxes are positive-definite optimal solutions of this integral equation under the constraint that the rate of generation of conditional convective instability by the large-scale environment is balanced by the rate at which the cumulus subensembles suppress this instability via large-scale feedbacks. Cf. Lord et al. (1982)
+<a href="16csu_fn.html#fn24">[25]</a> for further details.<p>
+
+<li>	A moist convective adjustment process after Manabe et al. (1965)<a href="16csu_fn.html#fn25">
+[26]</a> simulates midlevel convection originating above the PBL. When the lapse rate exceeds moist adiabatic from one layer to the next and saturation occurs in both layers, mass is mixed such that either the lapse rate is restored to moist adiabatic or saturation is eliminated. The usual outcome is a highly supersaturated upper layer whose excess relative humidity is removed by formation of large-scale precipitation (see <a href="16csu.html#RTFToC27">Precipitation</a>). In addition, if the local lapse rate becomes dry convectively unstable, moisture and enthalpy are redistributed vertically, effectively deepening the PBL beyond its nominal maximum depth of 180 hPa (see <a href="16csu.html#RTFToC28">Planetary Boundary Layer</a>). </ul>
+
+<h3> <a name="RTFToC26">Cloud Formation </a></h3>
+
+<ul><li>	Clouds of three types form below 100 hPa in the model: optically thick anvil cloud when penetrative convection occurs above 500 hPa, large-scale supersaturation cloud when the local relative humidity exceeds 100 percent, and PBL stratocumulus cloud of arbitrary thinness when the prognostic humidity reaches the saturation value and there is a strong inversion at the PBL top (see <a href="16csu.html#RTFToC28">Planetary Boundary Layer</a>).<p>
+
+<li>	Above the PBL the entire grid box is filled with cloud (i.e., fractional cloudiness of 1). The fraction of PBL cloud varies linearly with cloud thickness (ranging between 0 and 1 for a cloud thickness of 12.5 hPa or greater). Cf. Randall et al. (1989)
+<a href="16csu_fn.html#fn1">[2]</a> for further details. See also <a href="16csu.html#RTFToC24">Radiation</a> for cloud-radiative interactions.</ul>
+
+<h3> <a name="RTFToC27">Precipitation</a></h3>
+
+<ul><li>	Precipitation forms when there is penetrative convection (see <a href="16csu.html#RTFToC25">Convection</a>) or when there is condensation due to large-scale supersaturation, which may arise due to large-scale lifting or cooling, penetrative convective detrainment, and/or moist convective adjustment  (see <a href="16csu.html#RTFToC25">Convection</a>). Large-scale precipitation can originate in the PBL if the liquid water mixing ratio at the surface becomes positive (see <a href="16csu.html#RTFToC28">Planetary Boundary Layer</a>).<p>
+
+<li>	Water/ice that is detrained at the top of convective cloud is assumed to evaporate instantaneously. Precipitation also evaporates as it falls into subsaturated layers, which are moistened and cooled until they become saturated, or until the precipitate is exhausted. There is no evaporation of precipitation in the PBL. </ul>
+
+<h3> <a name="RTFToC28">Planetary Boundary Layer </a></h3>
+
+<ul><li>	The PBL is parameterized as a well-mixed layer (turbulent fluxes vary linearly in the vertical) whose depth changes prognostically as a function of horizontal mass convergence, entrainment, and cumulus mass flux determined from the convective parameterization (see <a href="16csu.html#RTFToC25">Convection</a>). The PBL is identical to the lowest model layer and its potential temperature, zonal and meridional wind components, and water vapor mixing ratio are prognostic variables. TKE due to shear production is also predicted from a closure condition involving dissipation, buoyant consumption, and the rate at which TKE is supplied to make newly entrained air turbulent.<p>
+
+<li>	The presence of PBL stratocumulus cloud (see <a href="16csu.html#RTFToC26">Cloud Formation</a>) affects the radiative parameterizations (see <a href="16csu.html#RTFToC24">Radiation</a>), the entrainment rate (through enhanced cloud-top radiative cooling and latent heating), and the exchange of mass with the layer above the PBL as a result of layer cloud instability (LCI). When LCI occurs, the PBL depth remains unchanged. If the PBL lapse rate is dry convectively unstable, an adjustment process is initiated that redistributes moisture and enthalpy vertically to restore stability (see <a href="16csu.html#RTFToC25">Convection</a>). Cf. Suarez et al. (1983)
+<a href="16csu_fn.html#fn5">[6]</a> and Randall et al. (1985)
+<a href="16csu_fn.html#fn2">[3]</a>, and Randall (1987)
+<a href="16csu_fn.html#fn0">[1]</a> for further details. See also <a href="16csu.html#RTFToC33">Surface Characteristics</a> and <a href="16csu.html#RTFToC34">Surface Fluxes</a>.</ul>
+
+<h3> <a name="RTFToC29">Orography</a></h3>
+
+The orography is specified from subjectively smoothed data obtained from UCLA. 
+
+<h3> <a name="RTFToC30">Ocean</a></h3>
+
+AMIP monthly sea surface temperature fields are prescribed, with daily values determined by linear interpolation.
+
+<h3> <a name="RTFToC31">Sea Ice </a></h3>
+
+AMIP monthly sea ice extents are prescribed. The ice thickness is specified to be a uniform 1.5 m in the Northern Hemisphere, and 1.0 m in the Southern Hemisphere, except in the month after which seasonal ice first appears or disappears; in these cases, the daily thickness is adjusted linearly between 0 m and its nominal hemispheric value. The surface temperature of sea ice is determined from the net balance of the surface energy fluxes (see <a href="16csu.html#RTFToC34">Surface Fluxes</a>) and subsurface heat conduction, which depends on the ice thickness and the temperature of the underlying ocean (fixed at 271.2 K). Snow is not allowed to accumulate on sea ice.
+
+<h3> <a name="RTFToC32">Snow Cover </a></h3>
+
+Precipitation falls as snow if the surface air temperature is &lt; 0 degrees C. Snow may accumulate only on land, and it is assumed to cover the whole of each grid box where it falls (i.e., snow-cover fraction is unity). The snow depth is predicted from a budget equation that includes the rates of snowfall, sublimation, and snowmelt. Sublimation contributes to the total surface evaporation, and snowmelt to soil moisture. Snow cover alters the surface albedo and the heat capacity of the underlying soil. See also 
+<a href="16csu.html#RTFToC33">Surface Characteristics</a>, 
+<a href="16csu.html#RTFToC34">Surface Fluxes</a>, and 
+<a href="16csu.html#RTFToC35">Land Surface Processes</a>.
+
+<h3> <a name="RTFToC33">Surface Characteristics </a></h3>
+
+<ul><li>	Twelve vegetation types are distinguished.<p>
+
+<li>	The spatially varying roughness lengths over land change monthly, depending on vegetation type. Over ocean, the roughness length is a uniform 2 x 10^-4 m, and over ice surfaces, a uniform 1 x 10^-4 m.<p>
+
+<li>	Ocean surface albedo depends on solar zenith angle but not on spectral interval. The land albedos vary monthly according to the distinguished vegetation types and are specified for diffuse- and direct-beam components in visible and near-infrared spectral bands. The direct-beam component also depends on solar zenith angle. Land albedo is modified by snow (see <a href="16csu.html#RTFToC32">Snow Cover</a>). The nominal albedos of snow and sea ice are 0.8 in the visible and 0.4 in the near-infrared; for continental ice, their values are 0.8 and 0.5, respectively. These albedos are reduced by 40 percent when the temperature of the ice or snow is within 0.05 K of the melting point.<p>
+
+<li>	Longwave emissivity is prescribed as unity (blackbody emission) for all surfaces.</ul>
+
+<h3> <a name="RTFToC34">Surface Fluxes </a></h3>
+
+<ul><li>	Surface solar absorption is determined from the prescribed albedos, and longwave emission from the Planck equation with emissivity of 1.0 (see <a href="16csu.html#RTFToC33">Surface Characteristics</a>).<p>
+
+<li>	Turbulent eddy surface fluxes are expressed as bulk formulae following a simplified Deardorff (1972)<a href="16csu_fn.html#fn26">
+[27]</a> approach; the drag/transfer coefficients are functions of the PBL height, the surface roughness length, and the vertical stability (bulk Richardson number). The same transfer coefficient is used for the surface fluxes of heat and moisture. The surface wind, temperature, and moisture required for the bulk formulae are the prognostic PBL values (see <a href="16csu.html#RTFToC28">Planetary Boundary Layer</a>). The surface wind speed is constrained to be a minimum of 1 m/s.<p>
+
+<li>	The flux of surface moisture also depends on the evapotranspiration efficiency beta, which is prescribed as 1 over oceans, sea ice, and snow (i.e., they are assumed to be saturated at their surface temperatures), but which over land is a function of soil moisture (see <a href="16csu.html#RTFToC35">Land Surface Processes</a>). </ul>
+
+<h3> <a name="RTFToC35">Land Surface Processes </a></h3>
+
+<ul><li>	Soil temperature is predicted from heat storage in a single layer, and is solved by an implicit time integration from the net surface energy balance (see <a href="16csu.html#RTFToC34">Surface Fluxes</a>). The heat capacity of the soil depends on both soil moisture and snow cover.<p>
+
+<li>	Prognostic soil moisture is determined from a single-layer "bucket" model after Manabe (1969)<a href="16csu_fn.html#fn27">
+[28]</a> with uniform field capacity of 0.15 m. Precipitation and snowmelt contribute to soil moisture, while surface evaporation depletes it. The evapotranspiration efficiency beta (see <a href="16csu.html#RTFToC34">Surface Fluxes</a>) is a function of the ratio of soil moisture to field capacity, with runoff occurring implicitly if this ratio exceeds unity. </ul>
+<h4><p><A HREF="16csu_fn.html"><IMG SRC="gifs/Button_blue.gif">	Go to CSU References</a></h4>
+
+<p><h4><p><A HREF="16csu_ToC.html"><IMG SRC="gifs/Button_blue.gif">	Return to CSU Table of Contents</a></h4>
+
+<h4><A HREF="01toc.html"><IMG SRC="gifs/Button_blue.gif">	Return to Main Document Directory</a></h4>
+
+<P><HR>
+
+Last update September 17, 1996.  For further information, contact: Tom Phillips (<a href="mailto: phillips@tworks.llnl.gov">phillips@tworks.llnl.gov </a>)<P>
+<A HREF="http://www.llnl.gov/disclaimer.html">LLNL Disclaimers</A><p>
+ UCRL-ID-116384<p>
+</body>
+<!-- Mirrored from www-pcmdi.llnl.gov/modeldoc/amip1/16csu.html by HTTrack Website Copier/3.x [XR&CO'2004], Fri, 09 Jul 2004 21:04:18 GMT -->
+
+<!-- Mirrored from www-pcmdi.llnl.gov/projects/modeldoc/amip1/16csu.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 20 Jun 2016 20:11:32 GMT -->
+</html>
