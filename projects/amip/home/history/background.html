@@ -1,0 +1,544 @@
+---
+layout: AMIP
+title: Background
+---
+
+&nbsp;
+<center>
+<h4>
+PCMDI Report No. 7&nbsp;<br>
+(Also published in <i>Bulletin of the American Meteorological Society</i>,
+<b>73</b>, 1962-1970)</h4></center>
+&nbsp;
+<center>
+<h1>
+AMIP: The Atmospheric Model Intercomparison Project</h1></center>
+
+<center>by</center>
+
+<center>W. Lawrence Gates</center>
+
+<center>Program for Climate Model Diagnosis and Intercomparison (<a href="../../">PCMDI</a>)</center>
+
+<center>Lawrence Livermore National Laboratory (<a href="http://www.llnl.gov/">LLNL</a>)</center>
+
+<center>December 1992</center>
+
+<center>(Updated March 1997)</center>
+
+<hr>
+<center>
+<h3>
+Abstract</h3></center>
+The Atmospheric Model Intercomparison Project (AMIP) is an international
+effort to determine the systematic climate errors of atmospheric models
+under realistic conditions, and calls for the simulation of the climate
+of the decade 1979-1988 using the observed monthly-averaged distributions
+of sea-surface temperature and sea ice as boundary conditions. Organized
+by the Working Group on Numerical Experimentation (WGNE) as a contribution
+to the World Climate Research Programme, AMIP involves the international
+atmospheric modeling community in a major test and intercomparison of model
+performance; in addition to an agreed-to set of monthly-averaged output
+variables, each of the participating models will generate a daily history
+of state. These data will be stored and made available in standard format
+by the Program for Climate Model Diagnosis and Intercomparison (PCMDI)
+at the Lawrence Livermore National Laboratory. Following completion of
+the computational phase of AMIP in 1993, emphasis will shift to a series
+of diagnostic subprojects, now being planned, for the detailed examination
+of model performance and the simulation of specific physical processes
+and phenomena. AMIP offers an unprecedented opportunity for the comprehensive
+evaluation and validation of current atmospheric models, and is expected
+to provide valuable information for model improvement.
+
+<p>
+</p><hr>
+<br>&nbsp;
+<br>&nbsp;
+<h3>
+<a name="Contents"></a>Table of Contents:</h3>
+
+<ul>
+<li>
+<a href="#Section_1">1. Introduction</a></li>
+
+<li>
+<a href="#Section_2">2. AMIP background and purpose</a></li>
+
+<ul>
+<li>
+<a href="/report/PCMDIrept7/Fig_1.html">Figure 1: Levels of model intercomparison</a></li>
+</ul>
+
+<li>
+<a href="#Section_3">3. AMIP experimental plan</a></li>
+
+<ul>
+<li>
+<a href="/report/PCMDIrept7/Fig_2.html">Figure 2: AMIP sea-surface temperature and sea-ice
+distribution</a></li>
+
+<li>
+<a href="/report/PCMDIrept7/Table_1.html">Table: AMIP standard output data</a></li>
+</ul>
+
+<li>
+<a href="#Section_4">4. AMIP implementation and present status</a></li>
+
+<ul>
+<li>
+<a href="/report/PCMDIrept7/AMIPgroups.html">List of AMIP modeling groups</a></li>
+</ul>
+
+<li>
+<a href="#Section_5">5. AMIP diagnostic subprojects</a></li>
+
+<ul>
+<li>
+<a href="/report/PCMDIrept7/AMIPsubprojects.html">List of AMIP diagnostic subprojects</a></li>
+</ul>
+
+<li>
+<a href="#Section_6">6. Future plans</a></li>
+
+<li>
+<a href="#Acknowledgments">Acknowledgments</a></li>
+
+<li>
+<a href="#References">References</a></li>
+</ul>
+
+<hr>
+<br>&nbsp;
+<br>&nbsp;
+<h3>
+<a name="Section_1"></a>1. Introduction</h3>
+Intercomparison of the results from different atmospheric model integrations
+has been carried out since the beginning of large-scale atmospheric modeling
+in the 1950s, and is an important part of modeling research. Most such
+model intercomparisons have been made in connection with numerical weather
+prediction, in which short-term forecasts in selected cases are compared
+with one another and with observation. In particular, the Working Group
+on Numerical Experimentation (WGNE) has organized several such model tests
+since the early 1970s in support of the World Climate Research Programme
+(and of the earlier Global Atmospheric Research Programme). In the area
+of climate, however, fewer such tests have been carried out, due in part
+to the greater computational resources required and in part to the lack
+of a clear experimental strategy. Among the first juxtapositions of the
+results of atmospheric climate models was that given in the report of the
+U.S. GARP Committee's Panel on Climatic Variation (National Academy of
+Sciences, 1975) and in the subsequent compilation of the zonally-averaged
+monthly mean sea-level pressure and precipitation of then-current atmospheric
+climate models (Gates, 1975, 1987).
+
+<p>The recent intercomparisons of the performance of atmospheric models
+by the Intergovernmental Panel on Climate Change (IPCC) with climatological
+sea-surface temperatures (Gates et al., 1990, 1992) show that although
+there is continuing disagreement among current models (and between models
+and the corresponding observations), there has been an overall narrowing
+of the range of model results and a reduction in the models' systematic
+errors as a whole. A compilation of model systematic errors in the seasonal
+mean sea-level pressure, temperature, zonal wind and precipitation as simulated
+by 14 atmospheric models has also recently been completed under WGNE auspices
+(Boer et al., 1991, 1992). In this study it was found, for example, that
+a large-scale error common to all current atmospheric GCMs is colder than
+observed air in the lower troposphere in the tropics and in the upper troposphere
+in higher latitudes. A corresponding WGNE study of extended-range predictions
+with 8 atmospheric models shows a similar common error (Bourke et al.,
+1991).
+
+</p><p>
+</p><hr><a href="#Section_2">Continue/</a><a href="#Section_1">Section 1/</a><a href="#Contents">Table
+of Contents</a>&nbsp;
+<hr>
+<h3>
+<a name="Section_2"></a>2. AMIP background and purpose</h3>
+The recent intercomparisons of the performance of atmospheric models by
+the Intergovernmental Panel on Climate Change (IPCC) with climatological
+sea-surface temperatures (Gates et al., 1990, 1992) show that although
+there is continuing disagreement among current models (and between models
+and the corresponding observations), there has been an overall narrowing
+of the range of model results and a reduction in the models' systematic
+errors as a whole. A compilation of model systematic errors in the seasonal
+mean sea-level pressure, temperature, zonal wind and precipitation as simulated
+by 14 atmospheric models has also recently been completed under WGNE auspices
+(Boer et al., 1991, 1992). In this study it was found, for example, that
+a large-scale error common to all current atmospheric GCMs is colder than
+observed air in the lower troposphere in the tropics and in the upper troposphere
+in higher latitudes. A corresponding WGNE study of extended-range predictions
+with 8 atmospheric models shows a similar common error (Bourke et al.,
+1991).
+
+<p>The basic purpose of AMIP is to undertake the systematic intercomparison
+and validation of the performance of atmospheric GCMs on seasonal and interannual
+time scales under as realistic conditions as possible, and to support the
+in-depth diagnosis and interpretation of the model results. In particular,
+the simulation of the mean climate and the sequence of shorter-term climatic
+states, and the simulation of specific atmospheric processes and phenomena
+are of interest to both the climate and weather prediction communities.
+Such analyses and intercomparisons require that all models simulate the
+same time period under comparable experimental conditions, and that the
+same diagnostic measures of performance be calculated for all models. As
+simple as it sounds, the decision to undertake such a structured or standardized
+simulation is a major step forward in climate model intercomparison. In
+terms of the WGNE's definitions of model intercomparison shown in <a href="Fig_1.html">Figure
+1</a>, AMIP is a level 2 intercomparison in which the models' climate is
+specifically generated for the purpose of intercomparison, in contrast
+to model intercomparisons in which results are taken from uncoordinated
+and possibly disparate runs (i.e., level 1 intercomparisons). An earlier
+example of a level 2 diagnostic intercomparison is that of Cess et al.
+(1989), while the reports of Boer et al. (1991) and Neelin et al. (1992)
+are examples of level 1 model intercomparisons.
+
+</p><p>
+</p><hr><a href="#Section_3">Continue/</a><a href="#Section_2">Section 2/</a><a href="#Section_1">Section
+1/</a><a href="#Contents">Table of Contents</a>
+<br>
+<hr>
+<h3>
+<a name="Section_3"></a>3. AMIP experimental plan</h3>
+The decade 1979-1988 was selected as the AMIP test period. This choice
+was a compromise between the desire to use as long a simulation period
+as possible in order to obtain representative results, and the increasing
+difficulties with observed global data sets as one proceeds to earlier
+years. This time period includes the FGGE observational year 1979 and the
+occurrence of the major ENSO event during 1982/3. Satellite observations
+also become increasingly available during this period. Realistic atmospheric
+forcing is sought by specifying the global distribution of the sea-surface
+temperature and sea ice in terms of the observed monthly averages on a
+2 latitude-longitude grid, from which the appropriate spatial and temporal
+interpolations can be made for each model. A data set meeting these requirements
+was specifically constructed for AMIP by the NOAA Climate Analysis Center
+in cooperation with the Center for Ocean-Land-Atmosphere Interactions at
+the University of Maryland. An edited version of this AMIP SST and sea-ice
+data set is available from PCMDI, and has been distributed to AMIP participants.
+These data are illustrated for the month of September 1982 in <a href="Fig_2.html">Figure
+2</a>. The sequence of 120 monthly mean observed SST and sea-ice distributions
+during 1979-1988 provides realistic forcing for (and constraint on) the
+atmosphere, and constitutes a "perfect" ocean for the purposes of AMIP.
+
+<p>Atmospheric GCMs represent the land surface character and its behavior
+in a wide variety of ways, including the possible interaction with vegetation.
+In order to keep the AMIP specifications as simple as possible, it was
+decided to make no common specification of the land surface. Thus, over
+land (as determined by each model's land-sea distribution) surface properties
+such as the albedo, emissivity, roughness, soil moisture and snow/ice cover,
+and the possible effects of surface vegetation, are left entirely up to
+each modeling group. (The validation and intercomparison of land surface
+parameterization schemes in atmospheric models is being undertaken by the
+joint WGNE/GEWEX project PILPS (Henderson-Sellers, 1992). Neither has any
+attempt been made to use common surface elevation data or to specify the
+values of geophysical constants such as gravity and the orbital parameters,
+although standard values of the atmospheric carbon dioxide concentration
+(345 ppm) and solar constant (1365 W/m^2) have been specified; these values
+are close to the averages observed during the AMIP period.
+
+</p><p>The initial conditions for the AMIP integrations beginning on 1 January
+1979 were also not specified since these would presumably have no significant
+effect beyond the first month. The atmospheric forecast models in AMIP
+generally use an operational analysis for 1 January 1979 as initial AMIP
+conditions, while most of the atmospheric climate models use either climatological
+January conditions or the results of earlier model runs appropriate for
+January. In any case, the integrations are carried out over the 3653-day
+period 1 January 1979 to 31 December 1988, inclusive.
+
+</p><p>A common list of standard monthly-averaged output has been established
+as shown in the <a href="Table_1.html">Table</a>. Set 1 consists of the
+monthly mean global geographical distributions of selected surface and
+vertically integrated variables (sea-level pressure, ground and surface
+air temperature, cloudiness, precipitable water, soil moisture and snow
+mass). In addition, the monthly means of selected components of the atmospheric
+heat and hydrologic budgets and the surface wind stress are accumulated
+at each physics time step in the models' integrations. Set 1 also includes
+the monthly mean cloud radiative forcing as found by subtracting the net
+outgoing radiation at the top of the atmosphere in the (artificial) case
+without clouds from that in the (normal) case with clouds. Set 2 of the
+AMIP standard output consists of the monthly mean global geographical distributions
+of selected three-dimensional variables (temperature, geopotential height,
+specific humidity, the zonal and meridional wind and the associated stream
+function and velocity potential) at the 850, 500 and 200 hPa levels. In
+addition, set 2 includes the geographical distributions of the monthly
+variance (defined as the variance about the monthly mean of the daily averages
+found from 6 hourly values) of all variables in the set, while set 1 includes
+the monthly variance of selected variables (sea-level pressure, ground
+and surface air temperature). Set 3 of the AMIP standard output consists
+of the monthly means of the zonally-averaged distributions of selected
+variables in the meridional-vertical plane (temperature, specific and relative
+humidity, cloudiness, zonal and meridional wind, and the mean meridional
+streamfunction).
+
+</p><p>In anticipation of the use of the AMIP results in a wide variety of
+diagnostic studies, some of which may require information not contained
+in the monthly averaged standard output sets, each participating modeling
+group is requested to generate a 6-hourly history-of-state consisting of
+the prognostic variables of the model, along with the 6-hourly sub-totals
+of those quantities accumulated for the standard output. For those models
+without a diurnal cycle, a once daily history is appropriate.
+
+</p><p>
+</p><hr><a href="#Section_4">Continue/</a><a href="#Section_3">Section 3/</a><a href="#Section_2">Section
+2/</a><a href="#Section_1">Section 1/</a><a href="#Contents">Table
+of Contents</a>&nbsp;
+<hr>
+<h3>
+<a name="Section_4"></a>4. AMIP implementation and present status</h3>
+As part of its commitment to the implementation of AMIP, the PCMDI with
+the support the Environmental Sciences Division of the U.S. Department
+of Energy is providing computer time to those atmospheric modeling groups
+wishing to run their models' AMIP simulation at LLNL, and is supporting
+the visit to Livermore of a representative of each group for that purpose.
+In order to manage effectively and to access the standard output and history-of-state
+data that are expected to be in archival storage at LLNL, the PCMDI has
+developed a data management system (known as the Data Retrieval and Storage
+system, DRS) for storing, retrieving and visualizing both model-generated
+and observational data. DRS is a file-oriented system of libraries and
+utilities that support a machine-independent data file format. These consist
+of the DRS Library, which is the programming interface to DRS, and the
+PCMDI Graphics package, which is a menu-driven, point-and-click utility
+that allows interactive data selection from DRS files and the creation
+and manipulation of graphic displays and animations. This software, as
+well as interactive utilities that support DRS file browsing and manipulation,
+are available to all AMIP participants as well as to other groups engaged
+in related studies.
+
+<p>In support of AMIP and the broader interests of the atmospheric modeling
+community, PCMDI is developing a computerized database of the properties
+of the models participating in AMIP, as a subset of a more comprehensive
+information system of the principal historical versions of atmospheric
+GCMs. PCMDI is also assembling an observational database for validation
+of the AMIP simulations and related diagnostic studies (see <a href="#Section_5">section
+5</a>).
+
+</p><p>In testimony to the widespread interest in model validation and intercomparison
+in both the forecasting and climate modeling communities, there are presently
+<a href="AMIPgroups.html">more than 30 modeling groups</a> participating
+in the AMIP, some with multiple model entries. The principal characteristics
+of the AMIP models are summarized by <a href="../../projects/modeldoc/">Phillips
+et al. (1995)</a>.
+
+</p><p>The horizontal resolution of the models being used for AMIP ranges from
+2.5 degrees latitude x 3.75 degrees longitude to about 4 degrees latitude
+x 6 degrees longitude among the 12 finite-difference models represented,
+and from R15 to R40/T63 among the participating 19 spectral models, while
+the number of vertical levels (usually in sigma or hybrid coordinates)
+ranges from 2 to 30. Although most models include a diurnal cycle, there
+are wide variations in the schemes used in models' parameterization of
+radiation, convection, clouds, frictional effects and soil properties.
+
+</p><p>From the monthly-averaged standard output (see <a href="Table_1.html">Table</a>),
+the PCMDI, in cooperation with the participating modeling groups, will
+undertake the preparation of a series of reports summarizing and intercomparing
+the models' results, together with an estimate of the models' systematic
+errors on the basis of the observational data bank being assembled for
+AMIP model validation (described below). While much important information
+on the model's individual and collective performance will be provided by
+these statistics, insight into the models' portrayal of specific physical
+mechanisms requires a deeper and more revealing diagnosis of the results.
+
+</p><p>
+</p><hr><a href="#Section_5">Continue/</a><a href="#Section_4">Section 4/</a><a href="#Section_3">Section
+3/</a><a href="#Section_2">Section 2/</a><a href="#Section_1">Section 1/</a><a href="#Contents">Table
+of Contents</a>&nbsp;
+<hr>
+<h3>
+<a name="Section_5"></a>5. AMIP diagnostic subprojects</h3>
+To promote the advanced or sophisticated diagnosis of the AMIP results,
+a series of <a href="AMIPsubprojects.html">diagnostic subprojects</a> is
+being undertaken by members of both the climate modeling and climate diagnostics
+communities. Each diagnostic subproject is focussed on a particular phenomenological
+aspect of the simulations, on a particular physical or dynamical process,
+or on model performance in a particular region. Following approval of a
+diagnostic subproject proposal by the WGNE AMIP Panel, the <a href="AMIPgroups.html">AMIP
+modeling groups</a> are polled as to their willingness to release their
+model's data and/or their interest in being more actively involved by providing
+the required diagnostics and participating in the analysis.
+
+<p>The PCMDI will assist the diagnostic subprojects in the acquisition
+of the required model data from the AMIP standard output and the model
+histories (which are expected to be available at LLNL in DRS format), and
+will provide computational assistance to the extent feasible. Proposals
+for additional AMIP diagnostic subprojects are welcome, and should be sent
+to the author as soon as possible.
+
+</p><p>
+</p><hr><a href="#Section_6">Continue/</a><a href="#Section_5">Section 5/</a><a href="#Section_4">Section
+4/</a><a href="#Section_3">Section 3/</a><a href="#Section_2">Section 2/</a><a href="#Section_1">Section
+1/</a><a href="#Contents">Table of Contents</a>&nbsp;
+<hr>
+<h3>
+<a name="Section_6"></a>6. Future plans</h3>
+After completion of the computational phase of AMIP in 1994, attention
+will increasingly focus on the analysis and intercomparison of the results
+as discussed above. This diagnostic phase of AMIP is expected to continue
+for as long as necessary in order to exploit fully the unique AMIP dataset.
+An informal AMIP Newsletter is issued twice each year by PCMDI, in which
+summaries of the project's status and other information relevant to AMIP
+are given; AMIP Newsletters are available from PCMDI upon request. Depending
+upon progress, it is anticipated that an international AMIP scientific
+conference will be convened in 1995.
+
+<p>The availability of observational data with which to validate the models'
+performance is essential to the success of AMIP. Although data from a wide
+variety of sources are currently available, they are generally not for
+the specific AMIP decade or in a format readily useful in model validation
+and diagnosis. To develop a model-oriented observational database in support
+of AMIP, the PCMDI is acquiring gridded global data sets for as many of
+the variables in the AMIP standard output and for as many months of the
+AMIP period as possible. These data include temperature, geopotential,
+wind and relative humidity from both ECMWF and NMC analyses, and the cloudiness,
+radiation and precipitation as generated by the WCRP International Satellite
+Cloud Climatology Project (ISCCP), the WCRP/NASA Earth Radiation Budget
+Experiment (ERBE), and the WCRP Global Precipitation Climatology Project
+(GPCP) observational programs, respectively. It is planned to store these
+data (and other relevant data that may become available) at PCMDI in uniformly-formatted
+DRS files for ease of access and use in connection with AMIP analyses.
+It is recognized that when a reanalysis of the period 1979-1988 is performed
+with an advanced data assimilation system (as currently under consideration
+by both the ECMWF and NMC), it will be possible to generate consistent
+observational estimates of the AMIP monthly-averaged standard output variables
+as well as a complete history. AMIP therefore provides an important justification
+for carrying out such a reanalysis in a timely fashion over the next few
+years (Bengtsson and Shukla, 1988).
+
+</p><p>In addition to its obvious and unprecedented value in the comprehensive
+validation of the current generation of atmospheric GCMs, the results of
+AMIP can serve as a reference for the systematic documentation of model
+improvements by the repetition of some or all of the AMIP simulation with
+new model versions, and may also provide a useful yardstick for sensitivity
+and predictability studies with atmospheric models. AMIP also compliments
+the intercomparison of ocean models being undertaken by the WCRP TOGA Numerical
+Experimentation Group (D. Anderson and T. Stockdale, personal communication),
+and may serve as a prototype for intercomparisons of coupled atmosphere-ocean
+GCMs. In the future it may be useful to extend the AMIP period beyond 1988
+(and perhaps before 1979), and to repeat the AMIP integrations with improved
+boundary conditions as well as with improved models. Independent realizations
+of the AMIP integration with different initial conditions have already
+been recognized by several modeling groups as an important source of information
+on natural variability and climate predictability.
+
+</p><p>AMIP may be regarded as the first "electronic" model intercomparison,
+in the sense that its results and diagnoses (along with the corresponding
+observed data) will be electronically available for analysis and display.
+The greatest obstacle to achieving this goal lies in the development of
+efficient techniques for the storage, retrieval and visualization of extremely
+large databases. This is a major challenge to the computational sciences
+community on whose skills climate modeling studies increasingly depend.
+
+</p><p>
+</p><hr><a href="#Acknowledgments">Continue/</a><a href="#Section_6">Section
+6/</a><a href="#Section_5">Section 5/</a><a href="#Section_4">Section 4/</a><a href="#Section_3">Section
+3/</a><a href="#Section_2">Section 2/</a><a href="#Section_1">Section 1/</a><a href="#Contents">Table
+of Contents</a>&nbsp;
+<hr>
+<h3>
+<a name="Acknowledgments"></a>Acknowledgments</h3>
+I would like to thank Lennart Bengtsson, George Boer, David Burridge, Roger
+Newson and Jerry Potter for their helpful suggestions, and Tom Phillips
+for his assistance in the preparation of model documentation summaries.
+This article was prepared at the Lawrence Livermore National Laboratory
+with the support of the Environmental Sciences Division of the Office of
+Energy Research of the U.S. Department of Energy under contract W-7405-Eng-48
+with the University of California.
+
+<p>
+</p><hr><a href="#References">Continue/</a><a href="#Acknowledgments">Acknowledgments/</a><a href="#Section_6">Section
+6/</a><a href="#Section_5">Section 5/</a><a href="#Section_4">Section 4/</a><a href="#Section_3">Section
+3/</a><a href="#Section_2">Section 2/</a><a href="#Section_1">Section 1/</a><a href="#Contents">Table
+of Contents</a>&nbsp;
+<hr>
+<br>&nbsp;
+<br>&nbsp;
+<center>
+<h3>
+<a name="References"></a>References</h3></center>
+Bader, D.C., M.C. MacCracken and R.C. Malone, 1992: The Computer Hardware,
+Advanced Mathematics and Model Physics (CHAMMP) Program. Proc. Third Symposium
+on Global Change Studies, Atlanta, 140-142.
+
+<p>Bengtsson, L., and J. Shukla, 1988: Integration of space and in situ
+observations to study global climate change. <i>Bull. Amer. Meteor. Soc.</i>,
+<b>69</b>, 1130-1143.
+
+</p><p>Boer, G.J., K. Arpe, M. Blackburn, M. Déqué, W.L. Gates,
+T.L. Hart, H. Le Treut, E. Roeckner, D.A. Sheinin, I. Simmonds, R.N.B.
+Smith, T. Tokioka, R.T. Wetherald and D. Williamson, 1991: An intercomparison
+of the climates simulated by 14 atmospheric general circulation models.
+CAS/JSC Working Group on Numerical Experimentation, WCRP-58, WMO/TD-No.
+425, World Meteorological Organization, Geneva.
+
+</p><p>Boer, G.J.,1992: Some results from and an intercomparison of the climates
+simulated by 14 atmospheric general circulation models. <i>J.Geophys. Res.</i>,
+<b>97</b>, 12771-12786.
+
+</p><p>Bourke, W., P. Mullenmeister, K. Arpe, D. Baumhefner, P. Caplan, J.L.
+Kinter, S.F. Milton, W.F. Stern and M. Sugi, 1991: Systematic errors in
+extended range predictions. Report No. 16, CAS/JSC Working Group on Numerical
+Experimentation, WCRP (WMO/TD-No. 444), World Meteorological Organization,
+Geneva.
+
+</p><p>Cess, R.D., G.L. Potter, J.P. Blanchet, G.J. Boer, S.J. Ghan, J.T. Kiehl,
+H. Le Treut, Z.-X. Li, X.-Z. Liang, J.F.B. Mitchell, J.-J. Morcrette, D.A.
+Randall, M.R. Riches, E. Roeckner, U. Schlese, A. Slingo, K.E. Taylor,
+W.M. Washington, R.T. Wetherald and I. Yagai, 1989: Interpretation of cloud-climate
+feedback as produced by 14 atmospheric general circulation models. <i>Science</i>,
+<b>245</b>, 513-516.
+
+</p><p>Gates, W.L., 1975: Numerical modelling of climate change: A review of
+problems and prospects. In Proc. WMO/IAMAP Symposium on Long-Term Climatic
+Fluctuations, WMO No. 421, World Meteorological Organization, Geneva, pp.
+343-354.
+
+</p><p>Gates, W.L., 1987: Problems and prospects in climate modeling. In <i>Toward
+Understanding Climate Change</i> (U. Radok, ed.), Westview Press, Boulder,
+pp. 5-34.
+
+</p><p>Gates, W.L., J.F.B. Mitchell, G.J. Boer, U. Cubasch and V.P. Meleshko,
+1992: Climate modelling, climate prediction and model validation. In <i>Climate
+Change 1992, the Supplementary Report to the IPCC Scientific Assessment</i>
+(J.T. Houghton, B.A. Callander and S.K. Varney, eds.), Cambridge University
+Press, pp. 97-134.
+
+</p><p>Gates, W.L., P.R. Rowntree and Q.-C. Zeng, 1990: Validation of climate
+models. In <i>Climate Change, the IPCC Scientific Assessment</i> (J.T.
+Houghton, G.J. Jenkins and J.J. Ephraums, eds.), Cambridge University Press,
+pp. 93-130.
+
+</p><p>Henderson-Sellers, A., 1992: Intercomparison of land-surface parameterizations
+launched. <i>EOS</i>, <b>73</b>, 195-196.
+
+</p><p>National Academy of Sciences, 1975: Survey of the climate simulation
+capability of global circulation models. Appendix B of <i>Understanding
+Climatic Change</i>, National Academy of Sciences, Washington, DC, pp.
+196-239.
+
+</p><p>Neelin, J.D., M. Latif, M.A.F. Allaart, M.A. Cane, U. Cubasch, W.L.
+Gates, P.R. Gent, M.Ghil, C. Gordon, N.C. Lau, C.R. Mechoso, G.A. Meehl,
+J.M. Oberhuber, S.G.H. Philander, P.S. Schopf, K.R. Sperber, A. Sterl,
+T. Tokioka, J. Tribbia and S.E. Zebiak, 1992: Tropical air-sea interaction
+in general circulation models. <i>Climate Dynamics</i>, <b>7</b>, 73-104.
+
+</p><p>Phillips, T.J., 1994: A summary documentation of the AMIP models. PCMDI
+Report No. 18, 343 pp.
+
+</p><p>Phillips, T.J., R. Anderson, and M. Br&amp;oumlsius, 1995: Hypertext
+summary documentation of the AMIP models. UCRL-MI-116384, Lawrence Livermore
+National Laboratory, Livermore, CA (URL <a href="../../projects/modeldoc/">http://www-pcmdi.llnl.gov/projects/modeldoc/amip/</a>).
+
+</p><p>
+</p><hr><a href="#References">References/</a><a href="#Acknowledgments">Acknowledgments/</a><a href="#Section_6">Section
+6/</a><a href="#Section_5">Section 5/</a><a href="#Section_4">Section 4/</a><a href="#Section_3">Section
+3/</a><a href="#Section_2">Section 2/</a><a href="#Section_1">Section 1/</a><a href="#Contents">Table
+of Contents</a>&nbsp;
+<hr>
+<br>&nbsp;
+
+<p>Last update April 17, 1997. For further information, contact Larry Gates
+(<a href="mailto:gates@pcmdi.llnl.gov">gates5@llnl.gov</a>).
+
+</p><p><a href="http://www.llnl.gov/disclaimer.html">LLNL Disclaimers</a>
+
+</p><p>UCRL-ID-111532 Rev1
+
+
+
+
+</p>
