@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: AMIP
 title: AMIP
 ---
 
