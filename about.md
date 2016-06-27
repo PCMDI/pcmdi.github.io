@@ -76,6 +76,6 @@ img {
   <li><a href="http://climatemodeling.science.energy.gov/research-highlights/contributions-radiative-forcing-and-climate-feedbacks-range-cmip5-global-warming">Contributions of radiative forcing and climate feedbacks to range of CMIP5 global warming responses</a> (September 2013)</li>
   <li><a href="http://climatemodeling.science.energy.gov/research-highlights/new-internationally-coordinated-climate-model-experiments-underway">New internationally coordinated climate model experiments underway</a> (September 2013)</li>
 </ul>
-</div>
+
 </p>
 </div>
