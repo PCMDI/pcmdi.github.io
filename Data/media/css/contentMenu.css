@@ -13,7 +13,7 @@
 
 #topic {
 	color:white;
-	background-color:#0088cc;
+	background-color:#005dab;
 	font-size:16px;
 	border-bottom: 1px; 
 	border-top: 1px;
@@ -22,18 +22,12 @@
 	padding: 10px;
 
 }
-li a:hover {
-	border-radius: 5px;
-	border-top: 1px;
-	border-bottom: 1px;
-}
 
 
 #tb{
     color:white;
-	background-color:#0088cc;
 	font-size:16px;
-	border-bottom: 1px;
+	border-bottom: 2px;
 	border-top: 1px;
 	background-size: 100%;
 	border-radius: 5px;
@@ -41,3 +35,27 @@ li a:hover {
 
 
 }
+
+
+
+
+.btn-primary{
+         color:#ffffff;
+         text-shadow:0 -1px 0 rgba(0, 0, 0, 0.25);
+         background-color:#006dcc;
+         background-image:-moz-linear-gradient(top, #005dab, #0044cc);
+         background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#005dab), to(#005dab));
+         background-image:-webkit-linear-gradient(top, #005dab, #005dab);
+         background-image:-o-linear-gradient(top, #005dab, #005dab);
+         background-image:linear-gradient(to bottom, #005dab, #005dab);
+         background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff#005dab', endColorstr='#ff0044cc', GradientType=0);
+         border-color:#0044cc #0044cc #002a80;border-color:rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);*background-color:#0044cc;
+         filter:progid:DXImageTransform.Microsoft.gradient(enabled = false);
+         }
+
+.btn-primary:hover,.btn-primary:focus,.btn-primary:active,.btn-primary.active,.btn-primary.disabled,.btn-primary[disabled]{
+         color:white;
+         background-color:#005dab;
+        tex-decoration: none ;
+ }
+
