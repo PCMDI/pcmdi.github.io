@@ -1,3 +1,82 @@
-#head{
-      position: fixed;
-      width:940px;}
+.container{
+
+      width:990px;
+
+
+
+      }
+
+
+
+#___gcse_0 {
+        width:250px;
+       height: 59px;
+       border: none;
+
+
+
+}
+
+
+.cse , .gsc-control-cse, .gsc-control-cse{
+
+    background-color: transparent;
+    border: 1px solid #eeeeee;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    border-left-color: rgb(255, 255, 255);
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image-source: none;
+    border-image-slice: 100% 100% 100% 100%;
+    border-image-width: 0px;
+    border-image-outset: 0 0 0 0;
+    border-image-repeat: stretch stretch;
+    border: none;
+}
+
+.gsc-input-box {
+        border:none;
+        background: transparent ;
+
+}
+.gsc-input:hover {
+        color: transparent;
+        background-color:transparent;
+        border: transparent;
+
+
+}
+#gsc-iw-id1{
+
+        color: transparent;
+        background-color:transparent;
+        border: none;
+
+}
+
+
+
+.gsc-input-box-focus {
+    box-shadow: none;
+}
+
+.gsc-input-box-hover {
+  box-shadow: none;
+}
+
+.pull-right {
+    width: 250px;
+    margin-left:10px;
+}
