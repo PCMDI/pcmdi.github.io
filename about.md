@@ -62,12 +62,9 @@ img {
 </div>
 
     <div class="span7">
-<<<<<<< HEAD
-<h3 id="title" ><a href="#">PCMDI</a> Introduction</h3>
-=======
-<h3>Introduction</h3>
->>>>>>> efd481fc7051cb361bfc78bbf061a909710969b6
-<p>
+
+<h3 id="title" > Introduction</h3>
+
 <p>Established in 1989 at the Lawrence Livermore National Laboratory (<a href="https://www.llnl.gov/">LLNL</a>), the Program for Climate Model Diagnosis and Intercomparison (PCMDI) fosters and engages in research aimed at providing a systematic and comprehensive evaluation of climate models.  Working with international partners, PCMDI has inspired a fundamental cultural shift in the climate research community: there is now an expectation that everyone should have timely and unimpeded access to output from standardized climate model simulations.  This has enabled widespread scientific analysis and scrutiny of the models and, judging by the large number of resulting scientific publications, has accelerated our understanding of climate and climate change.</p>
 <p>PCMDI’s mission is to develop improved methods and tools for the diagnosis and evaluation of climate models.  Although models have become increasingly complex, model errors and disagreements among model simulations remain substantial and poorly understood. The nature and causes of these disagreements should be uncovered before the models are fully trusted to inform us about global climate change. </p>
 <p>PCMDI provides leadership and infrastructure in support of internationally-coordinated <a href="http://www-pcmdi.llnl.gov/projects/model intercomparison.php">model intercomparison</a> activities and carries out research related largely to the multi-model ensemble of results hosted by PCMDI’s infrastructure. Ongoing PCMDI research focuses on 1) detecting and investigating the causes of climate-change (<a href="http://www-pcmdi.llnl.gov/projects/detection_attribution.php">detection/attribution</a><u>)</u>, 2) developing metrics and leading a WCRP <a href="http://www-metrics-panel.llnl.gov/wiki">metrics panel</a> for evaluating model performance (e.g., <a href="http://www-pcmdi.llnl.gov/about/staff/Taylor/CV/Taylor_diagram_primer.pdf">Taylor diagrams</a> and <a href="http://dx.doi.org/doi:10.1029/2007JD008972">performance portraits</a>), and 3) seeking a better understanding of a wide range of climate phenomena. (e.g., the <a href="http://dx.doi.org/10.1007/s00382-012-1607-6">Madden-Julian Oscillation</a> and <a href="http://dx.doi.org/10.1175/2010JAS3560.1">atmospheric tides</a>).  PCMDI also is encouraging the development of observational datasets needed for model evaluation through a relatively new <a href="http://obs4mips.llnl.gov/">obs4MIPs</a> initiative.</p>
