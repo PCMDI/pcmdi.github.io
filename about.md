@@ -8,6 +8,16 @@ group: "navigation"
 img {
     padding-bottom:15px;
 }
+
+#title{
+    font-size: 150%;
+    padding: 0 19px;
+    padding-top: 0px;
+    padding-right: 19px;
+    padding-bottom: 0px;
+    padding-left: 19px;
+}
+
 </style>
 
 <div class="hero-unit">
@@ -54,7 +64,7 @@ img {
 </div>
 
     <div class="span7">
-<h3><a href="#">PCMDI</a>Introduction</h3>
+<h3 id="title" ><a href="#">PCMDI</a> Introduction</h3>
 <p>
 <p>Established in 1989 at the Lawrence Livermore National Laboratory (<a href="https://www.llnl.gov/">LLNL</a>), the Program for Climate Model Diagnosis and Intercomparison (PCMDI) fosters and engages in research aimed at providing a systematic and comprehensive evaluation of climate models.  Working with international partners, PCMDI has inspired a fundamental cultural shift in the climate research community: there is now an expectation that everyone should have timely and unimpeded access to output from standardized climate model simulations.  This has enabled widespread scientific analysis and scrutiny of the models and, judging by the large number of resulting scientific publications, has accelerated our understanding of climate and climate change.</p>
 <p>PCMDI’s mission is to develop improved methods and tools for the diagnosis and evaluation of climate models.  Although models have become increasingly complex, model errors and disagreements among model simulations remain substantial and poorly understood. The nature and causes of these disagreements should be uncovered before the models are fully trusted to inform us about global climate change. </p>
@@ -64,8 +74,8 @@ img {
 </p>
 <hr>
 <p>
-<h3>Research Highlights & Publicity</h3>
-<ul>
+<h3 id="title">Research Highlights & Publicity</h3>
+<ul style="list-style-type:none">
 <li><a href="https://public.ornl.gov/site/bernews/search_news_action.cfm?id=595">Human versus natural causes of the mid-1970s climate anomaly</a> (April 2009)</li>
   <li><a href="https://public.ornl.gov/site/bernews/search_news_action.cfm?id=660">Exploring the role of climate model quality in detection and attribution</a> (August 2009) </li>
   <li><a href="https://public.ornl.gov/site/bernews/search_news_action.cfm?id=687">American Meteorological Society Special Group Award</a> (January 2010)</li>
