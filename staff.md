@@ -8,7 +8,6 @@ group: "navigation"
 
 Name | Position | E-mail | Phone Number
 --- | --- | --- | --- | ---
-
 [Taylor, Karl][karl] | Program Director |	taylor13@llnl.gov |	(925) 423-3623
 [Bonfils, Celine][celine]	| Research Scientist | bonfils2@llnl.gov | (925) 423-9923
 [Covey, Curt][curt]	| Research Scientist	| covey1@llnl.gov	| (925) 422-1828
