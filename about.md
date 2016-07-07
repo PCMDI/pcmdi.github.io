@@ -15,9 +15,7 @@ group: "navigation"
     padding-left: 19px;
 }
 
-.span7{
-    width: 700px;
-}
+
 
 </style>
 
@@ -64,7 +62,7 @@ group: "navigation"
                           <h5>Ken Sperber<br><i> (climate scientist)</i></h5>
                           <h5>Dean Williams<br><i> (computer scientist)</i></h5>
                         </ul>
-                 </div>
+
            </div>
 
             <div class="span7">
