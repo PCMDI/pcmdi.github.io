@@ -1,0 +1,594 @@
+---
+layout: AMIP
+title: AMIP II Diagnostic Subproject 12
+---
+<H1>AMIP II Diagnostic Subproject 12:</H1>
+
+<center>
+<h2>
+<font color="#000099">Land-Surface Processes and Parameterizations&nbsp;<br>
+(a joint AMIP/PILPS
+project)</font></h2>
+</center>
+
+<center><b><font color="#000000">Project coordinators:</font></b>
+<br>Tom Phillips<sup>1</sup>, Ann Henderson-Sellers<sup>2</sup>, Parviz
+Irannejad<sup>2</sup>, Kendal McGuffie<sup>3</sup> , Huqiang Zhang<sup>4</sup>
+<p><sup>1</sup>Program for Climate Model Diagnosis and Intercomparison,
+LLNL, California, USA
+<br><sup>2</sup> Environment, Australian Nuclear Science and Technology
+Organisation, Menai NSW, Australia
+<br><sup>3</sup>Department of Applied Physics, University of Technology,
+Sydney, Australia
+<br><sup>4</sup> Bureau of Meteorology Research Centre, Melbourne, Australia
+<p><b>Last Update: 28 March, 2002</b>
+<p><b><a href="mailto: phillips@pcmdi.llnl.gov">Comments:phillips@pcmdi.llnl.gov</a></b></center>
+
+<p><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p><b><font size=+1>Contents:</font></b>
+<br>&nbsp;&nbsp;&nbsp; <a href="#Background">Background</a>
+<br>&nbsp;&nbsp;&nbsp; <a href="#Objectives">Objectives</a>
+<br>&nbsp;&nbsp;&nbsp; <a href="#Methodology">Methodology</a>
+<br>&nbsp;&nbsp;&nbsp; <a href="#Data">Data Requirements</a>
+<br>&nbsp;&nbsp;&nbsp; <a href="#References">References</a>
+<br>&nbsp;&nbsp;&nbsp; <a href="#Further Information">Further Information</a>
+<p>
+<hr width="100%"><a name="Background"></a><b><font size=+1>Background</font></b>
+<p>Because the land surface is the locus of most human activities, realistic
+simulation of continental weather and climate is of crucial importance.
+Land-surface parameterizations in today's atmospheric models exhibit a
+wide range of complexity: classic "bucket" models (e.g., <a href="#Manabe 1969">Manabe
+1969</a>) and detailed soil-vegetation-atmosphere transfer schemes (SVATs)
+(e.g., <a href="#Dickinson et al. 1993">Dickinson et al. 1993</a>, <a href="#Sellers et al. 1996">Sellers
+et al. 1996</a>) occupy opposite ends of the spectrum, while most such
+schemes are SVATs that exemplify an intermediate degree of complexity (e.g.,
+<a href="#Henderson-Sellers 1996">Henderson-Sellers
+1996</a>).
+<p>The perceived need to systematically analyze these diverse schemes motivated
+the World Climate Research Programme to launch the Project for the Intercomparison
+of Land-surface Parameterization Schemes (<a href="http://www.cic.mq.edu.au/pilps-rice/">PILPS</a>)
+in 1992. PILPS diagnoses the behaviors of participating land-surface schemes
+(hereafter, "PILPS schemes") in controlled experiments implemented in 4
+phases. The first two phases include studies of scheme behavior when driven
+in "off-line" (one-way feedback) mode by atmospheric forcings prescribed
+from GCM output (Phase 1) or from varied observational data sets (Phase
+2). PILPS Phase 3 entails the diagnosis of land-surface schemes coupled
+to their "home" atmospheric host models, while Phase 4 concerns the analysis
+of results from coupling different land-surface schemes to a common host
+(<a href="#Henderson-Sellers et al. 1996">Henderson-Sellers et al. 1996</a>).
+<p>In practice, Phase 3 has involved the analysis of land-surface schemes
+in the <a href="../index-2.html">AMIP</a> models, organized
+as Diagnostic Subproject No. 12 (DSP12). This joint AMIP/PILPS proposal
+elaborates the rationale for continuing this subproject in AMIP II. Supporting
+details are provided on our Web home page <a href="http://www.cic.mq.edu.au/pilps-rice/">http://www.cic.mq.edu.au/pilps-rice/</a>.
+<p>In AMIP I, we diagnosed the continental climatologies of some 10 models
+with PILPS schemes (for a review of this work, see <a href="#Henderson-Sellers 1999">Henderson-Sellers
+1999</a>).&nbsp; Analysis of large-scale climatic differences revealed
+the presence of outlier variables in all the simulations (<a href="#Love and Henderson-Sellers 1994">Love
+and Henderson-Sellers 1994</a>, <a href="#Love et al. 1995">Love et al.
+1995</a>). Diagnosis of regional-scale surface moisture partitioning indicated
+that the inter-model scatter in midlatitudes was comparable to that of
+the analogous PILPS off-line experiment, despite of the presence of two-way
+feedbacks in the AMIP runs (<a href="#Irannejad et al. 1995">Irannejad
+et al. 1995)</a>. Subsequent diagnosis of two cases of repeated AMIP I
+experiments made with simple bucket vs SVAT schemes in the same atmospheric
+model (<a href="#Qu and Henderson-Sellers 1996">Qu and Henderson-Sellers
+1996</a>, <a href="#Phillips 1997">Phillips 1997)</a> revealed widespread
+statistically significant differences in continental temperature, pressure,
+and turbulent fluxes--results in accord with those of analogous studies
+(e.g., <a href="#Sato et al. 1989">Sato et al. 1989</a>, <a href="#Thompson and Pollard 1995">Thompson
+and Pollard 1995</a>, <a href="#Yang et al. 1995">Yang et al. 1995</a>).
+Thus, all our AMIP I analyses highlight the substantial differences in
+simulated continental climate that result from coupling diverse land-surface
+parameterizations to atmospheric models.
+<p>We should note, however, that the makeup of many AMIP I models imposed
+certain constraints on our analysis. First, the spectrum of land-surface
+scheme complexity was not well represented, in that most models employed
+bucket schemes rather than SVATs. Also, a number of AMIP I simulations
+were compromised by nonconservation of energy and moisture and/or pronounced
+trends in soil moisture and snow mass ( <a href="#Love and Henderson-Sellers 1994">Love
+and Henderson-Sellers 1994</a> , <a href="#Robock et al. 1998">Robock et
+al. 1998</a>).
+<p>The AMIP II models are likely to show significant improvements in both
+these respects, in that a richer variety of land-surface schemes that have
+been tested in PILPS off-line experiments will be represented, and greater
+attention will be paid to model spin-up and related experimental procedures.
+Thus, a more meaningful investigation of the nature and import of differences
+in the simulation of continental climate should be possible.
+<p>Our AMIP I analysis also was limited by the dearth of suitable validation
+data. Now, with the availability of several reanalyses that span the AMIP
+II years and supplementary land-surface data that cover at least part of
+this period, validation is a more feasible, though still problematical,
+undertaking. The problems are not only limited to data issues. For example,
+<a href="#Gates et al. 1996">Gates
+et al. (1996)</a> note the current absence of a definitive formalism for
+the validation of coupled (in the AMIP context, land + atmosphere) climate
+models. They recommend, however, that model validation proceed along three
+paths:
+<p>(i) evaluation of the results of coupled model simulations
+<p>(ii) tests of individual components of coupled models
+<p>(iii) sensitivity studies of component coupling
+<br>&nbsp;
+<p>Validation path (i) implies that a necessary, but not sufficient, condition
+for confidence in coupled model results is "adequate simulation" of the
+current climate--a concept that has not been well defined or implemented
+to date. The participation of PILPS in AMIP II presents a unique opportunity
+to formulate a definition of "adequate simulation" of land-surface climate,
+and to evaluate the performance of current-generation GCMs accordingly.
+In such an evaluation, the relationship between model performance and land-surface
+scheme complexity will be of particular interest. This is our first objective.
+<p>Path (ii) of the validation of land-surface scheme prediction entails
+testing whether essential processes are captured. From PILPS Phase 2 off-line
+studies, we have found that many schemes are able to simulate such processes
+to varying degrees, but that in general the performance of any individual
+scheme is inferior to that of the ensemble mean when a range of time and
+space scales are considered (e.g., <a href="#Shao and Henderson-Sellers 1996">Shao
+and Henderson-Sellers 1996)</a>. In addition, while <a href="#Koster and Milley, 1997">Koster
+and Milly (1997)</a> demonstrate that essential hydrological processes
+in almost all land-surface schemes can be simply represented at monthly
+time scales, <a href="#Qu et al. 1998">Qu et al. (1998) </a>show that the
+detailed behaviors and degree of sensitivity of these processes to increased
+surface air temperature are very different. Moreover, from preliminary
+experience pursuing validation path (iii) in the coupled experiments of
+PILPS Phase 4 (e.g. <a href="#Peylin et al. 1997">Peylin et al. 1997</a>,
+<a href="#Schulz et al. 1997">Schulz
+et al. 1997</a>), we have found that differences in the simulation of continental
+climate tend to play out most strongly in particular regions. These results
+highlight the need to evaluate land-surface scheme behavior in select locations
+where processes critical to prediction capability can be carefully studied.
+When this is attempted in the context of AMIP II, the analysis methodology
+must take account of substantial inter-model differences in surface forcings.
+This is our second objective.
+<p>Finally, it should be noted that the different phases of PILPS are organized
+to yield results along all three of these validation paths. Our subproject
+addresses path (i) and identifies regions in which path (iii) should be
+pursued; Phases 1 and 2 mainly follow path (ii), while Phase 4 emphasizes
+path (iii) and, to a lesser extent, path (i). As much as possible, therefore,
+we will draw insights from, and connections to, other PILPS initiatives
+in order to deepen our insights on the workings of land-surface schemes
+in the AMIP II models. This is our third objective.
+<br>&nbsp;
+<p><a name="Objectives"></a><b><font size=+1>Objectives</font></b>
+<p>To summarize, our objectives in AMIP II are:
+<p>1) Validate the simulated continental climates, and assess the relationship
+of model performance to land-surface scheme complexity.
+<p>2) Identify key regions where continental processes are most sensitive
+to the choice of land-surface scheme, and analyze inter-model differences
+there.
+<p>3) Draw insights from, and connections to, other phases of PILPS.
+<br>&nbsp;
+<br>&nbsp;
+<p><a name="Methodology"></a><b><font size=+1>Methodology</font></b>
+<p>Here we describe a methodology designed to meet our objectives concerning
+the validation and analysis of differences in AMIP II simulations of land-surface
+variables. We also briefly describe the relationship of our subproject
+to the activities of other phases of PILPS.
+<p><a name="Validation"></a><b>a.&nbsp; Validation</b>
+<p>We propose to validate the large-scale continental climate of each AMIP
+II model, recognizing the problematical nature of such an undertaking:
+in spite of recent advances in deriving global observational datasets,
+many land-surface variables are not directly observable. Such model validation,
+although inherently provisional, will serve as an initial assessment of
+the performance of today's GCMs in simulating continental climate. We anticipate
+that recommended additions to the <a href="../OUTPUT/WGNEDIAGS/wgnediags.html">WGNE
+list of standard model diagnostics</a> for land-surface variables also
+will result from this effort.
+<p>In the context of AMIP II, validation of a model's continental climate
+reflects not only on the performance of the land-surface scheme, but on
+that of the coupled system as a whole. We will place highest priority on
+validating variables that reflect the response of the land surface more
+than the atmospheric forcings (while acknowledging that forcing and response
+are not cleanly separable in coupled mode). These "response variables"
+include the surface latent and sensible heat fluxes, the ground temperature,
+and hydrological variables that include the evaporation + sublimation,
+runoff + drainage, and moisture stores in soil and snowpack. In order to
+interpret the land-surface response, we also will need to validate selected
+"forcing variables" such as the net downwelling radiative fluxes, liquid/solid
+precipitation, near-surface gradients of temperature and humidity, and
+surface wind stresses. At lowest priority, validation of precipitable water,
+cloud cover, and surface pressure may clarify the nature of inter-model
+differences in forcing or response variables. (Our ultimate choice of validation
+variables will attempt to avoid duplicating the efforts of other diagnostic
+subprojects as well.)
+<p>As initial reference data, we will use the <a href="http://www.ecmwf.int/research/era/">ECMWF</a>,
+<a href="http://www.cdc.noaa.gov/cdc/reanalysis/reanalysis.shtml">NCEP/NCAR</a>,
+and
+NASA
+reanalyses, since these include estimates of the land-surface variables
+of interest and span the entire AMIP II period (1979-1995). Moreover, differences
+among the reanalyses will serve as estimates of the observational uncertainties
+in each validation variable. However, because the reanalyses reflect the
+biases of the respective analysis models (e.g., <a href="#Betts et al. 1997">Betts
+et al. 1997</a>), wherever possible we also will use other global validation
+references that are based primarily on gauge or satellite observing systems
+for applicable portions of the AMIP period. Some examples include:
+<ul>
+<li>
+<a href="http://www.gewex.com/islscp.html">ISLSCP</a> temperatures, radiative
+fluxes, and hydrometeorology: currently available for 1987-1988, eventually
+for 1987-1996</li>
+</ul>
+
+<ul>
+<li>
+<a href="http://eosweb.larc.nasa.gov/PRODOCS/srb/table_srb.html">SRB</a>
+surface short-wave radiation data: currently available for 1985-1988</li>
+</ul>
+
+<ul>
+<li>
+<a href="http://www.cpc.ncep.noaa.gov/products/global_precip/html/wpage.cmap.html">CMAP</a>
+and <a href="http://orbit-net.nesdis.noaa.gov/arad/gpcp/">GPCP</a> merged
+gauge-satellite monthly precipitation data: available for the entire AMIP
+period</li>
+</ul>
+
+<ul>
+<li>
+<a href="http://www.bafg.de/grdc.htm">GRDC</a> river runoff data: available
+for varied time periods</li>
+</ul>
+We will assess the similarity of each model's mean continental climatology
+to that of the reference data at spatial scales from continental to global
+and at time scales from monthly to annual. We also will validate the interannual
+variances of the continental simulations against that of the reanalyses
+over the AMIP period, and we also intend to explore certain aspects of
+the models' continental predictability performance inasmuch as these may
+relate to details of the associated land-surface schemes (e.g. <a href="#Phillips 2001">Phillips
+2001</a>)
+<p>As objective summaries of the goodness-of-fit of each model climatology
+to the reference dataset, we will compute standard statistics such as pattern
+correlations, RMS differences, and variance ratios, but also multivariate
+measures of the overall spatio-temporal fidelity of each simulation (e.g.
+<a href="#Wigley and Santer 1990">Wigley
+and Santer 1990,</a> <a href="#Taylor 2001">Taylor 2001</a>). We will supplement
+these numerical summaries with selective use of zonal mean plots and maps
+of seasonal and/or annual climatologies.
+<p>As an outcome of our validation effort, we will note systematic model
+biases in the simulation of particular land-surface variables. We also
+will examine the relationship (or lack thereof) between overall model performance
+and land-surface scheme complexity, as defined by various metrics (e.g.,
+<a href="#Henderson-Sellers et al. 1995">Henderson-Sellers
+et al. 1995</a>). In this regard, the collective performance of AMIP II
+models with bucket schemes will be especially instructive: although buckets
+were outliers in the PILPS off-line experiments, in coupled mode the presence
+of compensating feedbacks may drive their associated climatologies within
+the envelope of observational uncertainties. We also will assess whether
+models using modified bucket schemes (e.g., inclusion of spatially varying
+field capacity, stomatal resistance, etc.) outperform those retaining the
+classical formulation of <a href="#Manabe 1969">Manabe (1969)</a>.
+<p><a name="Methodology_Differences"></a><b>b.&nbsp; Analysis of Differences</b>
+<p>At the large-scale, diagnosis of inter-model differences will come as
+a byproduct of model validation. In addition, we will examine land-surface
+processes in several key regions, so as to elucidate detailed differences
+in scheme behaviors. This regional analysis of differences will entail
+more qualitative interpretation, and less statistical computation, than
+our validation effort. We will focus initially on those AMIP II models
+with PILPS schemes to formulate initial hypotheses on possible reasons
+for regional differences, reserving the remainder of the models/land-surface
+schemes for hypothesis testing.
+<p>The primary criterion for selection of a key region is that the local
+response variables must exhibit significant inter-model differences as
+measured, for example, by a battery of multivariate statistical tests.
+Secondary considerations will include whether the region shows sensitivity
+to changes in land-surface scheme when coupled to the same atmospheric
+host (see <a href="#Methodology_Relationship">Relationship to Other Phases
+of PILPS</a>), and whether the region overlaps a <a href="http://www.gewex.com/projects.html#hydro">GEWEX
+Continental Experimental Projects</a> (e.g.&nbsp; BALTEX, GAME, GCIP, LBA,
+MAGS) that can provide a reality check on the simulations. From our AMIP
+I analysis and initial experience in coupling different SVATs to the same
+atmospheric host (e.g. <a href="#Peylin et al. 1997">Peylin et al. 1997</a>,
+<a href="#Schulz et al. 1997">Schulz
+et al. 1997</a> ), candidate regions include Amazonia, Saharan Africa,
+Tibetan Plateau, Siberia/Northeast Asia, Northern Canada, and Central/Western
+USA. After examining the AMIP II data, we will make a final selection of
+several regions that are diverse in both climate and biome.
+<p>Of all the regional processes of potential interest, we will pay particular
+attention to surface evaporation, since this variable link the moisture
+and energy budgets. However, because of inter-model forcing differences
+that complicate single-variable comparisons, we will concentrate on differences
+in the <i>relationships</i> between surface evaporation and other variables.
+We may track these connections, for example, by plotting the average month-to-month
+regional variation in surface evaporation (latent heat flux) against those
+of other moisture (energy) variables for each model. Here, our objective
+will not be to "explain" the inter-model differences (probably an unattainable
+goal for such coupled nonlinear systems), but only to trace the associated
+chain of processes/feedbacks these differences reflect. An example: The
+relatively high sensible heat flux in model A is consistent with reduced
+snow melt -> reduced soil moisture -> reduced evaporation -> reduced latent
+heat flux.
+<p>We also may diagnose differences in the temporal variability of surface
+evaporation that are likely to depend on the land-surface scheme (<a href="#Koster and Suarez 1994">Koster
+and Suarez 1994, </a><a href="#Koster and Suarez 1995">1995</a>). For example,
+lagged autocorrelations of monthly evaporation can quantify differences
+in climatic persistence (<a href="#Scott et al. 1995">Scott et al. 1995)</a>.
+Contingent on the availability of <a href="#High-Frequency Data">optional
+high-frequency data</a>, we may investigate differences in the variability
+of surface evaporation at daily time scales as well. These diagnostics
+can corroborate whether the variability of surface evaporation for bucket
+schemes in coupled mode is generally skewed toward lower frequencies than
+that for SVATs (<a href="#Scott et al. 1997">Scott et al. 1997</a>), and
+whether there are substantial differences in variance structure among the
+SVATs.
+<p>In addition, we will investigate inter-model differences in regional
+partitioning of moisture and energy (e.g., runoff and Bowen ratios) and/or
+in the local moisture convergence (P - E). These basic "signatures" of
+a land-surface scheme (<a href="#Chen et al. 1997">Chen et al. 1997</a>,
+<a href="#Koster and Milley, 1997">Koster
+and Milley 1997</a>, <a href="#Koster and Suarez 1994">Koster and Suarez
+1994</a>, <a href="#Laval et al. 1996">Laval et al. 1996</a>) are likely
+to be less sensitive to inter-model forcing differences than are single
+variables.
+<p>Where it is necessary to compare single response variables across the
+models, we will explore the utility of dividing by the appropriate forcing
+variable (e.g., net downwelling shortwave radiation or precipitation),
+as a zeroth-order scaling technique. This dimensionless-variable approach
+has shown promise in analyzing repeated AMIP I runs with different LSSs
+coupled to the same atmospheric model with (<a href="#Phillips 1997">Phillips
+1997</a>) and in climate-change experiments with multiple models/LSSs (<a href="#Gedney et al. 2000">Gedney
+et al. 2000</a>).
+<p><a name="Methodology_Relationship"></a><b>c. Relationship to Other Phases
+of PILPS</b>
+<p>In our analysis, we will strive to draw insights from other phases of
+PILPS. For example, the results of the PILPS Phase 1 and 2 off-line experiments
+will provide general guidance for interpreting the regional behavior of
+the same schemes in coupled mode. These insights are likely to be most
+pertinent where our selected regions overlap the geographical locations
+of the off-line experiments (e.g. <a href="#Pitman et al. 1993">Pitman
+et al. 1993</a>, <a href="#Henderson-Sellers 1996">Henderson-Sellers 1996</a>,
+<a href="#Chen et al. 1997">Chen
+et al. 1997</a>, <a href="#Schlosser et al. 1997">Schlosser et al. 1997</a>,
+<a href="#Wood et al. 1997">Wood
+et al. 1997</a>).
+<p>In addition, complementary PILPS Phase 4 studies of different land-surface
+schemes coupled to the same atmospheric host model will be especially relevant.
+Thus, by coordinating our diagnosis with that of Phase 4, we expect to
+deepen our insights on coupled land-atmosphere interactions.
+<br>&nbsp;
+<p><a name="Data"></a><b><font size=+1>Data Requirements</font></b>
+<p>We will require the following AMIP II <a href="../OUTPUT/AMIP2/outlist.html">model
+output data:</a>
+<br>&nbsp;
+<p><b>Table 2: Single-level low frequency (monthly mean) output</b>
+<p>Ground temperature
+<br>Surface (2 m) air temperature
+<br>Mean sea-level pressure
+<br>Surface pressure
+<br>Total precipitation rate
+<br>Snowfall rate (water equivalent)
+<br>Convective precipitation rate
+<br>Precipitable water
+<br>Total soil frozen water content
+<br>Surface soil water content (upper 0.1 m)
+<br>Total soil water content
+<br>Surface runoff
+<br>Total runoff (including drainage)
+<br>Snow depth (water equivalent)
+<br>Snow cover
+<br>Snow melt
+<br>Surface (10 m) eastward wind
+<br>Surface (10 m) northward wind
+<br>Surface (2m) specific humidity
+<br>Surface sensible heat flux
+<br>Surface latent heat flux
+<br>Surface evaporation plus sublimation rate
+<br>Eastward surface wind stress
+<br>Northward surface wind stress
+<br>Surface incident shortwave radiation
+<br>Surface reflected shortwave radiation
+<br>Surface downwelling longwave radiation
+<br>Surface upwelling longwave radiation
+<br>Daily maximum/minimum surface (2m) temperatures
+<br>Total cloud amount
+<p><b>Table 3: High-frequency (6-hourly) output</b>
+<p>Total precipitation rate
+<p><b>Table 4: Time series of daily global averages (area-weighted)</b>
+<p>Net downward energy flux at surface
+<br>Evaporation and sublimation
+<br>Total snow-covered area
+<br>Snow depth (water equivalent)
+<br>Average SST over open ocean
+<p><b>Table 5: Fixed geographic fields</b>
+<p>Model topography
+<br>Land fraction
+<br>Glacier fraction
+<br>Total soil moisture field capacity
+<br>Surface (upper 0.1 m) soil moisture field capacity
+<p><a name="High-Frequency%20Data"></a><b>Table 6: Optional supplementary
+high-frequency (6-hourly) output</b>
+<p>Surface latent heat flux
+<br>Surface (2 m) temperature
+<br>&nbsp;
+<p><a name="References"></a><b>References</b>
+<p><a name="Betts%20et%20al.%201997"></a><font size=-1>Betts, A.K., P. Viterbo,
+A. Beljaars, H-L. Pan, S-Y. Hong, M. Goulden, and S. Wofsy, 1997: Evaluation
+of the land-surface interaction in the ECMWF and NCEP/NCAR reanalysis models
+over grassland (FIFE) and Boreal Forest (BOREAS). Proceedings of the First
+International Conference on Reanalyses, 27-31 October 1997, Silver Spring,
+Maryland.</font>
+<p><a name="Chen%20et%20al.%201997"></a><font size=-1>Chen, T.H., A. Henderson-Sellers,
+P.C.D. Milly, A.J. Pitman, A.C.M. Beljaars, J. Polcher, F. Abramopoulos,
+A. Boone, S. Chang, F. Chen, Y. Dai, C.E. Desborough, R.E. Dickinson, L.
+D&uuml;menil, M. Ek, J.R. Garratt, N. Gedney, Y.M. Gusev, J. Kim, R. Koster,
+E.A. Kowalczyk, K. Laval, J. Lean, D. Lettenmaier, X. Liang, J.-F. Mahfouf,
+H.-T. Mengelkamp, K. Mitchell, O.N. Nasonova, J. Noilhan, A. Robock, C.
+Rosenzweig, J. Schaake, C.A. Schlosser, J.-P. Schulz, Y. Shao, A.B. Shmakin,
+D.L. Verseghy, P. Wetzel, E.F. Wood, Y. Xue, Z.-L. Yang, and Q. Zeng, 1997:
+Cabauw experimental results from the Project for Intercomparison of Land-surface
+Parameterizations Schemes. <i>Journal of Climate</i>, <b>10</b>, 1194-1171.</font>
+<p><a name="Dickinson%20et%20al.%201993"></a><font size=-1>Dickinson, R.E., A.
+Henderson-Sellers, and P.J. Kennedy, 1993: Biosphere-Atmosphere Transfer
+Scheme (BATS) Version 1e as coupled to the NCAR Community Climate Model.
+NCAR Technical Note NCAR/TN-383+STR, National Center for Atmospheric Research,
+Boulder, Colorado, 72 pp.</font>
+<p><a name="Gates%20et%20al.%201996"></a><font size=-1>Gates, W.L., A. Henderson-Sellers,
+G.J. Boer, C.K. Folland, A. Kitoh, b.J. McAvaney, F. Semazzi, N. Smith,
+A.J. Weaver, and Q. Zeng, 1996: Climate Models-Evaluation. In Climate Change
+1995: The Science of Climate Change. Contribution of Working Group 1 to
+the Second Assessment Report of the Intergovernmental Panel on Climate
+Change, Cambridge University Press, pp. 233-284.</font>
+<p><a name="Gedney%20et%20al.%202000"></a><font size=-1>Gedney, N., P.M. Cox,
+H. Douville, J. Polcher, and P.J. Valdes, 2000: Characterizing GCM land
+surface schemes to understand their responses to climate change. <i>Journal
+of Climate</i>, <b>13</b>, 3066-3079.</font>
+<p><a name="Henderson-Sellers%20et%20al.%201995"></a><font size=-1>Henderson-Sellers,
+A., B. Henderson-Sellers, D. Pollard, J.M. Verner, and A.J. Pitman, 1995:
+Applying software engineering metrics to land surface parameterization
+schemes. <i>Journal of Climate</i>, <b>8</b>, 1043-1059.</font>
+<p><a name="Henderson-Sellers%201996"></a><font size=-1>Henderson-Sellers,
+A. (ed.), 1996: Special issue on soil moisture simulation. <i>Global and
+Planetary Change</i>, <b>13(1)</b>, 223 pp.</font>
+<p><a name="Henderson-Sellers%201999"></a><font size=-1>Henderson-Sellers,
+A., 1999: Atmospheric global climate models' representation of the land
+surface: From AMIP I to AMIP II.</font>
+
+<p><a name="Henderson-Sellers%20et%20al.%201996"></a><font size=-1>Henderson-Sellers,
+A., K. McGuffie, and A.J. Pitman, 1996: The Project for the Intercomparison
+of Land-surface Parameterization Schemes: 1992 to 1995. <i>Climate Dynamics</i>,
+<b>12</b>,
+849-859.</font>
+<p><a name="Irannejad%20et%20al.%201995"></a><font size=-1>Irannejad, P., A.
+Henderson-Sellers, Y. Shao, and P.K. Love, 1995: Comparison of AMIP and
+PILPS off-line landsurface simulations. Proceedings of the First AMIP Scientific
+Conference, 15-19 May 1995, Monterey, California, WMO/TD-No. 732, pp. 465-470.</font>
+<p><a name="Koster%20and%20Milley,%201997"></a><font size=-1>Koster, R.D., and
+P.C.D. Milly, 1997: The interplay between transpiration and runoff formulations
+in land surface schemes used with atmospheric models. <i>Journal of Climate</i>,
+<b>10</b>,1578-1591.</font>
+<p><a name="Koster%20and%20Suarez%201994"></a><font size=-1>Koster, R.D., and
+M.J. Suarez, 1994: The components of a 'SVAT' scheme and their effects
+on a GCM's hydrological cycle. <i>Advances in Water Resources</i>, <b>17</b>,
+61-78.</font>
+<p><a name="Koster%20and%20Suarez%201995"></a><font size=-1>Koster, R.D., and
+M.J. Suarez, 1995: Relative contributions of land and ocean processes to
+precipitation variability. <i>Journal of Geophysical Research</i>, <b>100</b>,
+13775-13790.</font>
+<p><a name="Laval%20et%20al.%201996"></a><font size=-1>Laval, K., R. Raghava,
+J. Polcher, R. Sadourny, and M. Forichon, 1996: Simulations of the 1987
+and 1988 Indian monsoons using the LMD GCM. <i>Journal of Climate</i>,
+<b>9</b>,
+3357-3371.</font>
+<p><a name="Love%20and%20Henderson-Sellers 1994"></a><font size=-1>Love, P.K.,
+and A. Henderson-Sellers, 1994: Land-surface climatologies of AMIP-PILPS
+models and identification of regions for future investigation (PILPS Phase
+3a). GEWEX Report, IGBPO Publication Series No. 13, 48 pp.</font>
+<p><a name="Love%20et%20al.%201995"></a><font size=-1>Love, P.K., A. Henderson-Sellers,
+and P. Irannejad, 1995: AMIP Diagnostic Subproject 12 (PILPS Phase 3):
+Land-surface processes. Proceedings of the First AMIP Scientific Conference,
+15-19 May 1995, Monterey, California, WCRP-92, WMO/TD-No. 732, 101-106.</font>
+<p><a name="Manabe%201969"></a><font size=-1>Manabe, S., 1969: Climate and
+ocean circulation. I. The atmospheric circulation and the hydrology of
+the earth's surface. <i>Monthly Weather Review</i>, <b>97</b>, 739-774.</font>
+<p><a name="Peylin%20et%20al.%201997"></a><font size=-1>Peylin, P., J. Polcher,
+G. Bonan, and D. Williamson, 1997: Comparison of two complex land surface
+schemes coupled to the National Center for Atmospheric Research general
+circulation model. <i>Journal of Geophysical Research</i>, <b>102</b>,
+19413-19431.</font>
+<p><a name="Phillips%201997"></a><font size=-1>Phillips, T.J., 1997: PILPS
+3: PILPS in the AMIP. Presentation at the 1997 meeting of the Working Group
+on Numerical Experimentation (WGNE), 3-7 November 1997, Washington, D.C.</font>
+<p><a name="Phillips%202001"></a><font size=-1>Phillips, T.J., 2001: On the
+predictability of seasonal land-surface climate. Program for Climate Model
+Diagnosis and Intercomparison (PCMDI) report No. 68. Accessible at <a href="http://www-pcmdi.llnl.gov/publications/pdf/rpt68.pdf">http://www-pcmdi.llnl.gov/publications/pdf/rpt68.pdf</a>
+.</font>
+<p><a name="Pitman%20et%20al.%201993"></a><font size=-1>Pitman, A.J., A. Henderson-Sellers,
+F. Abramopoulos, R. Avissar, G. Bonan, A. Boone, J.G. Cogley, R.E. Dickinson,
+M. Ek, D. Entekhabi, J. Famiglietti, J.R. Garratt, M. Frech, A. Hahmann,
+R. Koster, E. Kowalczyk, K. Laval, L. Lean, T.J. Lee, D. Lettenmaier, X.
+Liang, J-F. Mahfouf, L. Mahrt, C. Milly, K. Mitchell, N. de Noblet, J.
+Noilhan, H. Pan, R. Pielke, A. Robock, C. Rosenzweig, S.W. Running, C.A.
+Schlosser, R. Scott, M. Suarez, S. Thompson, D. Verseghy, P. Wetzel, E.
+Wood, Y. Xue, Z-L. Yang, , L. Zhang, 1993: Results from the Off-line Control
+Simulation Phase of the Project for Intercomparison of Landsurface Parameterisation
+Schemes (PILPS), GEWEX Tech. Note, IGPO Publ. Series, 7, 1993, 47pp.</font>
+<p><a name="Qu%20and%20Henderson-Sellers 1996"></a><font size=-1>Qu, W., and
+A. Henderson-Sellers, 1996: Surface energy balance of the revised AMIP
+simulations from BMRC and LMD GCM--A comparison of the effects of the bucket
+hydrology and the biophysically based land-surface scheme on the simulated
+climate. Unpublished manuscript.</font>
+<p><a name="Qu%20et%20al.%201998"></a><font size=-1>Qu, W., A. Henderson-Sellers,
+A. Pitman, T-H. chen, F. Abramopoulos, A. Boone, S. Chang, F. Chen, Y.
+Dai, R.E. Dickinson, L. D&uuml;menil, M. Ek, N. Gedney, Y.M. Gusev, J.
+Kim, R. Koster, E.A. Kowalczyk, J. Lean, D. Lettenmaier, X. Liang, J-F.
+Mahfouf, H-T. Mengelkamp, K. Mitchell, O.N. Nasonova, J. Noilhan, A. Robock,
+C. Rosenzweig, J. Schaake, C.A. Schlosser, J-P. Schulz, A.B. Shmakin, D.L.
+Verseghy, P. Wetzel, W.F. Wood, Z-L. Yang, and Q. Zeng, 1998: Sensitivity
+of latent heat flux from PILPS land-surface schemes to perturbations of
+surface air temperature. <i>Journal of the Atmospheric Sciences </i>(in
+press).</font>
+<p><a name="Robock%20et%20al.%201998"></a><font size=-1>Robock, A., C. A. Schlosser,
+K. Ya. Vinnikov, N.A. Speranskaya, and J. K. Entin, 1998: Evaluation of
+AMIP soil moisture simulations. <i>Global and Planetary Change</i> (in
+press).</font>
+<p><a name="Sato%20et%20al.%201989"></a><font size=-1>Sato, N., P.J. Sellers,
+D.A. Randall, E.K. Schneider, J. Shukla, J.L. Kinter II, Y-T. Hou, and
+E. Albertazzi, 1989: Effects of implementing the Simple Biosphere Model
+in a general circulation model. <i>Journal of the Atmospheric Sciences</i>,
+<b>46</b>,
+2757-2782.</font>
+<p><a name="Schlosser%20et%20al.%201997"></a><font size=-1>Schlosser, C.A., A.J.
+Pitman, A.G. Slater, and A. Henderson-Sellers, 1997: Experimental design
+and preliminary results from PILPS Phase 2(d). GEWEX News, Vol. 7, No.
+4, 9-11.</font>
+<p><a name="Schulz%20et%20al.%201997"></a><font size=-1>Schulz, J-P., L. D&uuml;menil,
+and J. Polcher, 1997: Two land surface schemes implemented in the ECHAM4
+GCM. </font>
+<p><a name="Scott%20et%20al.%201995"></a><font size=-1>Scott, R., R. Koster,
+D. Entekhabi, and M. Suarez, 1995: Effect of a canopy interception reservoir
+on hydrological persistence in a general circulation model. <i>Journal
+of Climate</i>, <b>8</b>, 1917-1922.</font>
+<p><a name="Scott%20et%20al.%201997"></a><font size=-1>Scott, R., D. Entekhabi,
+R. Koster, and M. Suarez, 1997: Timescales of land surface evapotranspiration
+response. <i>Journal of Climate</i>, <b>10</b>, 559-566.</font>
+<p><a name="Sellers%20et%20al.%201996"></a><font size=-1>Sellers, P.J., D.A.
+Randall, G.J. Collatz, J. Berry, C. Field, D.A. Dazlich, C. Zhang, and
+L. Bounoua, 1996: A revised land-surface parameterization (SiB2) for atmospheric
+GCMs. Part 1: Model formulation. Journal of<i> Climate</i>, <b>9</b>, 676-705.</font>
+<p><a name="Shao%20and%20Henderson-Sellers 1996"></a><font size=-1>Shao, Y.,
+and A. Henderson-Sellers, 1996: Validation of soil moisture simulation
+in landsurface parameterisation schemes with HAPEX data. Special issue
+on soil moisture simulation. <i>Global and Planetary Change</i>, <b>13(1)</b>,
+11-46.</font>
+<p><a name="Taylor%202001"></a><font size=-1>Taylor, K.E., 2001: Summarizing
+multiple aspects of model performance in a single diagram. <i>Journal of
+Geophyical. Research</i>, <b>106</b>, 7183-7192.</font>
+<p><a name="Thompson%20and%20Pollard%201995"></a><font size=-1>Thompson, S.L.,
+and D. Pollard, 1995: A global climate model (GENESIS) with a land-surface
+transfer scheme (LSX). Part I: Present climate simulation. <i>Journal of
+Climate</i>, <b>8</b>, 732-761.</font>
+<p><a name="Wigley%20and%20Santer%201990"></a><font size=-1>Wigley, T.M.L., and
+B.D. Santer, 1990: Statistical comparison of spatial fields in model validation,
+perturbation, and predictability experiments. <i>Journal of Geophysical
+Research</i>, <b>95</b>, 851-865.</font>
+<p><a name="Wood%20et%20al.%201997"></a><font size=-1>Wood, E.F. , D.P. Lettenmaier,
+X. Liang, D. Lohmann, A. Boone, S. Change, F. Chen, Y. Dai, R.E. Dickinson,
+Q. Duan, M. Ek, Y.M. Gusev, F. Habets, P. Irannejad, R. Koster, K.E. Mitchell,
+O.N. Nasonova, J. Noilhan, J. Schaake, A. Schlosser, Y. Shao, A.B. Shmakin,
+D. Verseghy, K. Warrach, P. Wetzel, Y. Xue, Z-L. Yang, and Q. Zeng, 1997:
+The Project for Intercomparison of Land-surface Parameterization Schemes
+(PILPS) Phase-2(c) Red-Arkansas River Basin Experiment: 1. Experiment description
+and summary intercomparisons. <i>Global and Planetary Change</i> (accepted).</font>
+<p><a name="Xie%20and%20Arking%201997"></a><font size=-1>Xie, P., and P.A. Arkin,
+1997: Comparison between a global precipitation analysis based on in-situ
+and satellite observations and precipitation from reanalyses. Proceedings
+of the First International Conference on Reanalyses, 27-31 October 1997,
+Silver Spring, Maryland.</font>
+<p><a name="Yang%20et%20al.%201995"></a><font size=-1>Yang, Z.L., A.J. Pitman,
+B. McAvaney, and A. Henderson-Sellers, 1995: The impact of implementing
+the bare essentials of surface transfer land surface scheme into the BMRC
+GCM. <i>Climate Dynamics</i>, <b>11</b>, 279-297.</font>
+<br>&nbsp;
+<p>
+<hr width="100%">
+<a name="Further%20Information"></a>For further information, contact <a href="mailto:phillips@pcmdi.llnl.gov">Tom Phillips</a>
+.
+<p>
+<hr>
+<br>&nbsp;
+<p><a href="http://www.llnl.gov/disclaimer.html">LLNL Disclaimers</a>
+<p>UCRL-MI-127350

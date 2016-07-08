@@ -1,0 +1,65 @@
+<html>
+
+<!-- Mirrored from www-pcmdi.llnl.gov/amip/DATASTDS/gavgwrite.html by HTTrack Website Copier/3.x [XR&CO'2004], Fri, 09 Jul 2004 21:01:42 GMT -->
+
+<!-- Mirrored from www-pcmdi.llnl.gov/projects/amip/DATASTDS/gavgwrite.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 17 Jun 2016 00:24:56 GMT -->
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="GENERATOR" content="Mozilla/4.03 [en] (Win95; I) [Netscape]">
+   <title>gavgwrite</title>
+</head>
+<body>
+<img src="../IMAGES/wld3blu.gif" height=50 width=94>
+<br><b><font color="#000099"><font size=+1>Area-weighted&nbsp; global mean
+daily data (Table 4)</font></font></b>
+<ul>
+<ul><b>References</b>:
+<br><a href="../NEWS/amipnl8.html">http://www-pcmdi.llnl.gov/amip/NEWS/amipnl8.html</a>
+<br>and
+<br><a href="../OUTPUT/AMIP2/outlist.html">http://www-pcmdi.llnl.gov/amip/OUTPUT/outlist.html</a></ul>
+</ul>
+Although not required, use of <a href="GLOBEOUT.txt">GLOBOUT</a> (Fortran
+subroutine) to output AMIP II Table 4 (global average daily data) would
+greatly facilitate processing at PCMDI. If you choose not to use GLOBEOUT,<b>
+please adhere to the following specifications</b>
+<ul><b>1)</b> Each variable should be written in a separate file (with
+the name of the variable and an acronym identifying your research center
+contained in the file name: for example, ta_pcmdi.gm)
+
+<p><b>2)</b> Use the following structure:
+<ul><b>a)</b> write the number of days of data contained in the file using
+the following:
+<br>&nbsp;&nbsp;&nbsp; write(*,'(//// i8 ///)') ntimes
+<br><b>b)</b> write the time (in days following 1 January 1979) and the
+global&nbsp; mean value at each time, (each time and value appearing on
+its own&nbsp; line) as follows:
+<br>write(*,'(0Pf10.3, 2X, 1pe13.6)') (times(n), gmeans(n), n=1,ntimes)
+<br>You may replace the blank lines in your output with any text you want.
+For example, a partial listing of the global mean temperature data might
+look like:
+
+<p>ps
+<br>global mean surface pressure
+<br>PCMDI
+<br>CCM1-TG (R15 L12) 1990
+<br>6300 = ntimes
+<br>days since
+<br>1979-1-1 global mean
+<br>0.000 9.873563E+04
+<br>1.000 9.873784E+04
+<br>2.000 9.873382E+04
+<br>3.000 9.873300E+04
+<br>4.000 9.873522E+04
+<br>. . .
+<br>. . .
+<br>. . .
+<br>6300.000 9.873988E+04
+<br>&nbsp;</ul>
+</ul>
+
+</body>
+
+<!-- Mirrored from www-pcmdi.llnl.gov/amip/DATASTDS/gavgwrite.html by HTTrack Website Copier/3.x [XR&CO'2004], Fri, 09 Jul 2004 21:01:42 GMT -->
+
+<!-- Mirrored from www-pcmdi.llnl.gov/projects/amip/DATASTDS/gavgwrite.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 17 Jun 2016 00:24:56 GMT -->
+</html>

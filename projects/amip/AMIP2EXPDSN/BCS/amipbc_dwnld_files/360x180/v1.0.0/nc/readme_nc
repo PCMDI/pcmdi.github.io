@@ -1,0 +1,130 @@
+README_nc
+
+The AMIP 2 boundary condition data are to be used in simulations as
+described in the document on the web: 
+http://www-pcmdi.llnl.gov/projects/amip/AMIP2EXPDSN/BCS/amip2bcs.php.  
+This document has also been published as a PCMDI report:  Taylor, K.E., 
+D. Williamson and F. Zwiers, 2000: "The sea surface temperature and sea
+ice concentration boundary conditions for AMIP II simulations," PCMDI
+Report No. 60, Program for Climate Model Diagnosis and Intercomparison,
+Lawrence Livermore National Laboratory, 25 pp (available at
+http://www-pcmdi.llnl.gov/publications/ab60.html). These boundary
+condition data sets are based on, but not the same as, the monthly mean
+data. 
+
+There are a few uncompressed files and 8 compressed tar files:  half 
+the compressed files contain boundary condition data (the "bcs" files --
+YOU SHOULD USE THE "BCS" FILES IN DRIVING YOUR MODEL SIMULATIONS); 
+the other half contain observed monthly mean data (the "obs" files,
+which you can use after you run your model to see that you recover 
+the observed values).  
+
+First you should uncompress the files
+(e.g., gunzip amipbcs_tos_1870-1899.tar.gz).  Then you should
+extract the individual files from the tar files (e.g., tar xvf
+sst_bcs_nc_360x180_187001-189012.tar).  The following describes how to read
+the SST boundary condition  files you have extracted (for the years 
+1870-1899); a similar procedure applies for the later time-periods and 
+also for the sea ice concentration files, as well as the observed monthly
+mean data.
+
+The SST and seaice data have been extrapolated to cover the entire globe, 
+but note that you shouldn't trust it over land regions or inland seas and 
+lakes.
+
+Upon completing the "gunzip" and "tar" steps, you should have
+access to the following files containing sea surface temperature (SST)
+data:
+
+  amipbc_sst_360x180_1870.nc   contains boundary condition data (mid-month
+                                values) for January - December 1870.
+  amipbc_sst_360x180_1871.nc   contains boundary condition data (mid-month
+                                values) for January - December 1871.
+         .
+         .
+         .
+
+  amipbc_sst_360x180_1899.nc   contains boundary condition data (mid-month
+                                values) for January - December 1899.
+
+Along with the 8 tarred and zipped files, you will also find a few other
+files similar to the following:
+
+
+  amipbc_sst_360x180_1988-2007_clim.nc  contains boundary condition data 
+                            based on the observed climatology computed for 
+                            the period: January 1988 - December 2007.
+
+  bcinfo_sst_360x180.nc   contains some statistical information concerning
+                           the boundary condition data, which will not
+                           be of general interest.
+  
+  amipbc_sst_360x180.out       contains the text output documenting the
+                           conditions under which the boundary conditions
+                           were generated, which will not be of general
+                           interest.
+
+***********
+begin netCDF files
+***********
+The ncdump utility can be used to extract the header information from
+each file.  For data on a 1x1 degree grid, for example, the result of
+the command, "ncdump -h amipbc_sst_360x180_2001.nc", produces the following
+listing:
+
+netcdf amipbc_sst_360x180_2001 {
+dimensions:
+	time = UNLIMITED ; // (12 currently)
+	latitude = 180 ;
+	bound = 2 ;
+	longitude = 360 ;
+variables:
+	double time(time) ;
+		time:units = "days since 1870-1-1" ;
+		time:long_name = "time" ;
+		time:standard_name = "time" ;
+		time:calendar = "gregorian" ;
+		time:axis = "T" ;
+	double latitude(latitude) ;
+		latitude:bounds = "bounds_latitude" ;
+		latitude:units = "degrees_north" ;
+		latitude:long_name = "Latitude" ;
+		latitude:standard_name = "latitude" ;
+		latitude:axis = "Y" ;
+	double bounds_latitude(latitude, bound) ;
+	double longitude(longitude) ;
+		longitude:bounds = "bounds_longitude" ;
+		longitude:modulo = 360. ;
+		longitude:long_name = "Longitude" ;
+		longitude:standard_name = "longitude" ;
+		longitude:units = "degrees_east" ;
+		longitude:topology = "circular" ;
+		longitude:axis = "X" ;
+	double bounds_longitude(longitude, bound) ;
+	float tosbcs(time, latitude, longitude) ;
+		tosbcs:name = "tosbcs" ;
+		tosbcs:long_name = "AMIP constructed mid-month sea surface temperature" ;
+		tosbcs:standard_name = "sea_surface_temperature" ;
+		tosbcs:cell_methods = "time: point" ;
+		tosbcs:units = "K" ;
+		tosbcs:missing_value = 1.e+20f ;
+
+// global attributes:
+		:Conventions = "CF-1.6" ;
+		:history = "File processed: 22-06-2015 19:58:17 PM UTC; San Francisco, CA, USA" ;
+		:host = "oceanonly.llnl.gov; UVCDAT version: 2.2.0; Python version: 2.7.9 (default, May 28 2015, 13:43:07); [GCC 4.4.7 20120313 (Red Hat 4.4.7-11)]" ;
+		:comment = "Based on Hurrell SST/sea ice consistency criteria applied to merged HadISST (1870-01 1981-10) & NCEP-0I2 (1981-11 to 2015-03)" ;
+		:contact = "pcmdi-cmip@lists.llnl.gov" ;
+		:creation_date = "2015-06-22T19:58:17Z" ;
+		:data_structure = "grid" ;
+		:data_usage_tips = "The mid-month data should be linearly interpolated in time and then clipped for use as boundary conditions to drive AMIP simulations as described at: http://www-pcmdi.llnl.gov/projects/amip/AMIP2EXPDSN/BCS/amip2bcs.php" ;
+		:frequency = "mon" ;
+		:institute_id = "PCMDI" ;
+		:institution = "Program for Climate Model Diagnosis and Intercomparison (LLNL), Livermore, CA, U.S.A." ;
+		:mip_specs = "AMIP CMIP5 CMIP6" ;
+		:project_id = "AMIP" ;
+		:realm = "ocean" ;
+		:references = "Taylor, K.E., D. Williamson and F. Zwiers, 2000: The sea surface temperature and sea ice concentration boundary conditions for AMIP II simulations. PCMDI Report 60, Program for Climate Model Diagnosis and Intercomparison, Lawrence Livermore National Laboratory, 25 pp. Available online: http://www-pcmdi.llnl.gov/publications/pdf/60.pdf" ;
+		:source = "Merged SST based on UK MetOffice HadISST and NCEP OI2" ;
+		:source_id = "PCMDI-AMIP-1.0.0" ;
+}

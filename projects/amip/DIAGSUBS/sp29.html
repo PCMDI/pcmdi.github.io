@@ -1,0 +1,173 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+
+<!-- Mirrored from www-pcmdi.llnl.gov/amip/DIAGSUBS/sp29.html by HTTrack Website Copier/3.x [XR&CO'2004], Fri, 09 Jul 2004 21:01:42 GMT -->
+
+<!-- Mirrored from www-pcmdi.llnl.gov/projects/amip/DIAGSUBS/sp29.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 17 Jun 2016 00:22:29 GMT -->
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="GENERATOR" content="Mozilla/4.07 [en] (WinNT; I) [Netscape]">
+   <title>sp29</title>
+</head>
+<body text="#000000" bgcolor="#FFFFFF" link="#0000EE" vlink="#551A8B" alink="#FF0000">
+<img src="wld3blu.gif" height=40 width=75>
+<center>
+<h2>
+<font color="#000099"><font size=+1>AMIP II Diagnostic Subproject No. 29:&nbsp;<br>
+Diagnosis of Nonlinear Circulation Regimes</font></font></h2></center>
+
+<center><b><font size=+0>P</font>roject coordinators:</b>
+<br><b>A. Hannachi<sup> 1</sup></b>
+<br><b>F. Molteni<sup>2</sup></b>
+<br><b>T.N.Palmer<sup>3</sup></b>
+<p><sup>1</sup>University of Oxford
+<br><sup>2</sup>CINECA
+<br><sup>3</sup>European Centre for Medium-Range Weather Forecasts</center>
+
+<p>&nbsp;&nbsp;&nbsp; <b>Contents:</b>
+<br>&nbsp;&nbsp;&nbsp; <a href="#Background">Background</a>
+<br>&nbsp;&nbsp;&nbsp; <a href="#Objectives">Objectives</a>
+<br>&nbsp;&nbsp;&nbsp; <a href="#Methodology">Methodology</a>
+<br>&nbsp;&nbsp;&nbsp; <a href="#Data Requirements">Data Requirements</a>
+<br>&nbsp;&nbsp;&nbsp; <a href="#References">References</a>
+<p>
+<hr width="100%"><a name="Background"></a><font size=+1>Background</font>
+<p>Many of the techniques used to diagnose climatic variability (empirical
+orthogonal functions, teleconnections, regression analysis, singular value
+decomposition etc.) are formulated using methods taken from linear analysis.
+Whilst these techniques can be legitimately applied to the nonlinear climate
+system, by virtue of their linear formulation, it is difficult to use them
+to analyze the nonlinear structure of the climate attractor.
+<p>There are indications that it may be important to understand the nonlinear
+structure of the climate attractor in order to understand recent climate
+change. For example, there is evidence that changes in northern-hemisphere
+climate in recent decades can be explained in terms of changes in the frequency
+of occurrence of preferred nonlinear naturally-occurring atmospheric circulation
+regimes (Palmer, 1998; Corti et al., 1998).
+<p>If this is so, then it is essential that global climate models (GCMs)
+be able to simulate accurately the observed atmospheric circulation regimes,
+even though the dominant intraseasonal timescale of regime fluctuations
+is much shorter than the decadal timescale of the climate change signal
+itself. More generally, GCMs should be able to simulate the non-gaussian
+structure of the climate attractor. As yet, only a few tests have been
+performed on GCMs to assess this component of their behavior (e.g. Molteni
+and Tibaldi, 1990; Haines and Hannachi, 1995; Hannachi, 1997, Tett et al.,
+1997).
+<p>In this proposal we introduce a diagnostic package which we hope will
+become a standard tool for the assessment of circulation regimes and associated
+nonlinear structure, both from GCM simulations, and from (re)analysis datasets.
+We propose to apply this package to the set of AMIP-II integrations.
+<p><a name="Objectives"></a><font size=+1>Objectives</font>
+<p>The objectives of the intended research is to investigate:
+<p>a) Whether the climate attractors (expressed as probability density
+functions -PDFs) of global circulation models have statistically significant
+non-gaussian structure, and well defined circulation regimes in particular.
+Attention will be focussed on the northern hemisphere winter circulation.
+The regime analyses will be performed over the whole hemisphere, and over
+the Atlantic and Pacific sectors. The vertical (and hence thermal) structure
+of the PDF maxima will also be estimated. Analyses from different models,
+and with reanalysis data will be compared
+<p>b) The extent to which time-mean differences between models can be explained
+in terms of the difference in PDFs associated with dominant regimes will
+be explored.
+<p>c) The existence of intermittent synchronization between regimes in
+the Atlantic and Pacific will be explored. The existence of such intermittent
+synchronization may help explain why there appear to be coherent regimes
+on the hemispheric scale.
+<p>d) To study the differences between regimes defined by quasi-stationarity
+on the one hand, and defined by PDF maxima on the other.
+<br>&nbsp;
+<p><a name="Methodology"></a><font size=+1>Methodology</font>
+<p>Two different techniques are proposed to study nonlinear low frequency
+variability (LFV) from both the AMIP-II and from re-analyses.
+<p>The first (dynamical) method is based on minimizing the streamfunction
+tendency using for example the barotropic vorticity equation (Haines and
+Hannachi, 1995) within the phase space spanned by the dominant low frequency
+Empirical Orthogonal Functions (EOFs) of the GCMs. It is believed that
+this technique ought to be more realistic and computationally cheaper compared
+to other approaches (Branstator and Opseegh, 1989, and Anderson, 1992),
+since there are fewer degrees of freedom involved and also because the
+whole of the chosen phase space, defined by the retained EOFs, can be explored.
+Therefore, the method converges towards a few realistic minima within the
+model attractor in contrast to the previously mentioned approaches which
+always seek a single fixed point state close to some given observed flow.
+We also propose at a later stage to diagnose three-dimensional (3D) flow
+regimes by extending the previous technique to include the vertical structure
+of the model variability as in Hannachi (1997). This is of particular interest
+if we want to relate the vertical structure of the regimes to satellite
+radiance observations (Christy and McNider, 1994, Hurrel and Trenberth,
+1996, and Corti et al. 1998).
+<p>Local and also global analyses will be performed. Specifically, we propose
+to&nbsp; perform analyses over the North Atlantic and North Pacific sectors
+as well as over the whole northern hemisphere. This will enable us in particular
+to link local regimes to `planetary' regimes and to study the `intermittent'
+synchronisation mentioned earlier.
+<p>Next, the model attractors will be investigated to assess how well models
+do represent the non-Gaussian behaviour. Each GCM model trajectory obtained
+as (filtered) timeseries of the principal components (PCs) of the retained
+(LFV) EOFs will be analysed using a mixture analysis (Haines and Hannachi,
+1995, Hannachi, 1997) in which the probability distribution of the data
+is expressed as a weighted sum (mixture) of Gaussians. Each Gaussian represents
+the probability distribution of one regime identified by its centre and
+its covariance matrix. The mixture model (Everitt and Hand, 1981) is very
+convenient for regime studies and clusters identification (Wolfe, 1970),
+especially given the existence of efficient iterative approaches such as
+the expectation-maximization algorithm (Dempster et al., 1977). This analysis
+will also enable us to test whether the model attractor supports non-Gaussian
+behaviour.
+<p>As before, the analysis will be performed locally over the North Atlantic
+and North Pacific sectors and also over the whole northern hemisphere.
+Extension to the 3D analyses will be performed at a later stage. Once the
+regimes and their probability distributions are identified then we will
+be able to do a composite analysis to analyse for the temperature field
+pattern corresponding to each regime flow.
+<p><a name="Data Requirements"></a><font size=+1>Data Requirements</font>
+<p>We will require in the first instance the timeseries of the NDJFM daily
+winter time geopotential height fields at 500 mb.&nbsp; At a later stage
+we will require geopotential and temperature fields at a number of levels
+in the upper and lower troposphere.
+<p><a name="References"></a><font size=+1>References</font>
+<dl><b>Anderson, J.L.,</b> 1992: Barotropic stationary states and persistent
+anomalies in the atmosphere. <i>J. Atmos. Sci</i>., <b>49</b>, 1709-1722.</dl>
+<b>Branstator, G.</b> and J.D. Opsteegh, 1989: Free solutions of the barotropic
+vorticity equation.&nbsp; <i>J. Atmos. Sci.</i>,&nbsp; <b>46</b>, 1799-1814.
+<p><b>Corti, S.,</b> F. Molteni, and T. N. Palmer, 1998: Signature of climate
+change in atmospheric circulation regime frequencies. <i>Nature</i>. Submitted.
+<p><b>Christy, J.R.,</b> and R.T. McNider, 1994: Satellite greenhouse warming.
+<i>Nature</i>, <b>378</b>, 145-149.
+<p><b>Dempster, A.P.,</b> N.M. Laird, and D.B. Rubin, 1977: Maximum likelihood
+from incomplete data via the EM algorithm .&nbsp; <i>J. Roy. Stat. Soc.
+B</i>, <b>39</b>, 1-38 (1977).
+<p><b>Everitt, B.S.,</b> and D.J. Hand, 1981:&nbsp; <i>Finite Mixture Distributions</i>.
+Chapmann and Hall, London.
+<p><b>Haines, K.</b> and A. Hannachi, 1995: Weather regimes in the Pacific
+from a GCM.&nbsp; <i>J. Atmos. Sci.</i>, <b>52</b>, 2444-2462.
+<p><b>Hannachi, A.,</b> 1997: Low-frequency variability in a GCM: three-dimensional
+flow regimes and their dynamics. <i>J. Climate</i>, <b>10</b>, 1357-1379.
+<p><b>Hurrel, J.W.,</b> and K.E. Trenberth, 1996: Satellite versus surface
+estimates of air temperature since 1979. <i>J. Climate</i>, <b>9</b>, 2222-2232.
+<p><b>Molteni, F.</b> and S. Tibaldi, 1990: Regimes in the wintertime circulation
+over northern extratropics. II: Consequences for dynamical predictability.
+<i>Quart.
+J. Roy. Meteor. Soc.</i>,&nbsp; <b>116</b>, 1263-1288.
+<p><b>Palmer, T. N.,</b> 1998: A nonlinear dynamical perspective on climate
+prediction.&nbsp; <i>J. Climate</i>. In Press.
+<p><b>Tett, S. F. B.</b>, T. C. Johns, and J. Mitchell, 1997: Global and
+regional variability in a coupled AOGCM.&nbsp; <i>Climate Dynamics</i>,
+
+<b>13</b>, 303-323.
+<p><b>Wolfe, J.H.,</b> 1970: Pattern clustering by multivariate mixture
+analysis. <i>Multiv. Behav. Res.,</i> <b>5</b>, 329-50 (1970).
+<p>
+<hr width="100%">For further information, contact the AMIP Project Office
+(<a href="mailto:amip@pcmdi.llnl.gov">amip@pcmdi.llnl.gov</a>).
+<br>June 14, 1999
+<p><a href="http://www.llnl.gov/disclaimer.html">LLNL Disclaimers</a>
+<br>&nbsp;
+<br>&nbsp;
+</body>
+
+<!-- Mirrored from www-pcmdi.llnl.gov/amip/DIAGSUBS/sp29.html by HTTrack Website Copier/3.x [XR&CO'2004], Fri, 09 Jul 2004 21:01:42 GMT -->
+
+<!-- Mirrored from www-pcmdi.llnl.gov/projects/amip/DIAGSUBS/sp29.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 17 Jun 2016 00:22:29 GMT -->
+</html>

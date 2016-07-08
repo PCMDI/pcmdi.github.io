@@ -1,0 +1,127 @@
+<HTML>
+
+<!-- Mirrored from www-pcmdi.llnl.gov/amip2/AMIP2EXPDSN/BCS_OBS/amip2_bcs_graphics.htm by HTTrack Website Copier/3.x [XR&CO'2004], Sat, 10 Jul 2004 00:50:38 GMT -->
+
+<!-- Mirrored from www-pcmdi.llnl.gov/projects/amip/amip2/AMIP2EXPDSN/BCS_OBS/amip2_bcs_graphics.htm by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 17 Jun 2016 00:24:57 GMT -->
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.02 [en] (WinNT; I) [Netscape]">
+   <TITLE>AMIP II BCS Graphics</TITLE>
+</HEAD>
+<BODY  bgcolor="#fcf1da">
+
+<H2>
+<I><FONT SIZE=+3>AMIP II BCS Graphics--</FONT></I></H2>
+<B>The Annual Cycle and Individual Months of the 17-year Time Series</B>&nbsp;
+<HR>
+
+<P>Select then click on the plot button to display. Use the "back" button
+to return to this page.
+<H3>
+<I><FONT SIZE=+1><FONT COLOR="#0000FF">Full Time Series</FONT>:</FONT></I></H3>
+<FORM METHOD=post ACTION="http://www-pcmdi.llnl.gov/cgi-bin/amip2.bcs.obs.grf.pl">
+
+<P><INPUT NAME="data" VALUE="sst_sic" TYPE=HIDDEN>
+<TABLE BORDER >
+<TR>
+<TD WIDTH="152">Area:</TD>
+
+<TD WIDTH="105"><INPUT TYPE="RADIO" NAME="atype" VALUE="global" CHECKED>Global&nbsp;</TD>
+
+<TD WIDTH="131"><INPUT TYPE="RADIO" NAME="atype" VALUE="nhem">Arctic&nbsp;</TD>
+
+<TD WIDTH="124"><INPUT TYPE="RADIO" NAME="atype" VALUE="shem">Antarctic&nbsp;</TD>
+</TR>
+
+<TR>
+<TD WIDTH="152">Field:</TD>
+
+<TD WIDTH="105"><INPUT TYPE="RADIO" NAME="dtype" VALUE="sst" CHECKED>SST&nbsp;</TD>
+
+<TD WIDTH="131"><INPUT TYPE="RADIO" NAME="dtype" VALUE="sic">SIC&nbsp;</TD>
+
+<TD WIDTH="124"></TD>
+</TR>
+
+<TR>
+<TD WIDTH="152">Type:</TD>
+
+<TD WIDTH="105"><INPUT TYPE="RADIO" NAME="stype" VALUE="mean" CHECKED>Mean&nbsp;</TD>
+
+<TD WIDTH="131"><INPUT TYPE="RADIO" NAME="stype" VALUE="anom">Anomaly&nbsp;</TD>
+
+<TD WIDTH="124"></TD>
+</TR>
+
+<TR>
+<TD WIDTH="152">Year and Month:</TD>
+
+<TD WIDTH="105"><SELECT NAME="mon" ><OPTION SELECTED VALUE="12">dec&nbsp;<OPTION VALUE="01">jan&nbsp;<OPTION VALUE="02">feb&nbsp;<OPTION VALUE="03">mar&nbsp;<OPTION VALUE="04">apr&nbsp;<OPTION VALUE="05">may&nbsp;<OPTION VALUE="06">jun&nbsp;<OPTION VALUE="07">jul&nbsp;<OPTION VALUE="08">aug&nbsp;<OPTION VALUE="09">sep&nbsp;<OPTION VALUE="10">oct&nbsp;<OPTION VALUE="11">nov&nbsp;<OPTION VALUE="12">dec</SELECT>&nbsp;</TD>
+
+<TD WIDTH="131"><SELECT NAME="year"><OPTION SELECTED>1978&nbsp;<OPTION>1979&nbsp;<OPTION>1980&nbsp;<OPTION>1981&nbsp;<OPTION>1982&nbsp;<OPTION>1983&nbsp;<OPTION>1984&nbsp;<OPTION>1985&nbsp;<OPTION>1986&nbsp;<OPTION>1987&nbsp;<OPTION>1988&nbsp;<OPTION>1989&nbsp;<OPTION>1990&nbsp;<OPTION>1991&nbsp;<OPTION>1992&nbsp;<OPTION>1993&nbsp;<OPTION>1994&nbsp;<OPTION>1995&nbsp;<OPTION>1996</SELECT>&nbsp;</TD>
+
+<TD WIDTH="124"></TD>
+</TR>
+</TABLE>
+<INPUT TYPE=SUBMIT VALUE="plot"></FORM>
+<H3>
+<I><FONT COLOR="#FF0000"><FONT SIZE=+1>17-year Annual Cycle (Climatology):</FONT></FONT></I></H3>
+<FORM METHOD=post ACTION="http://www-pcmdi.llnl.gov/cgi-bin/amip2.bcs.obs.grf.pl">
+
+<P><INPUT NAME="data" VALUE="sst_sic_ac" TYPE=HIDDEN>
+<TABLE BORDER >
+<TR>
+<TD COLSPAN="3" WIDTH="180">Area:</TD>
+
+<TD COLSPAN="3" WIDTH="180"><INPUT TYPE="RADIO" NAME="atype" VALUE="global" CHECKED>Global&nbsp;</TD>
+
+<TD COLSPAN="2" WIDTH="136"><INPUT TYPE="RADIO" NAME="atype" VALUE="nhem">Arctic&nbsp;</TD>
+
+<TD COLSPAN="4" WIDTH="272"><INPUT TYPE="RADIO" NAME="atype" VALUE="shem">Antarctic&nbsp;</TD>
+</TR>
+
+<TR>
+<TD COLSPAN="3" WIDTH="180">Field:</TD>
+
+<TD COLSPAN="3" WIDTH="180"><INPUT TYPE="RADIO" NAME="dtype" VALUE="sst" CHECKED>SST&nbsp;</TD>
+
+<TD COLSPAN="6" WIDTH="408"><INPUT TYPE="RADIO" NAME="dtype" VALUE="sic">SIC&nbsp;</TD>
+</TR>
+
+<TR>
+<TD WIDTH="60"><INPUT TYPE="RADIO" NAME="mon" VALUE="01" CHECKED>Jan&nbsp;</TD>
+
+<TD WIDTH="60"><INPUT TYPE="RADIO" NAME="mon" VALUE="02">Feb&nbsp;</TD>
+
+<TD WIDTH="60"><INPUT TYPE="RADIO" NAME="mon" VALUE="03">Mar&nbsp;</TD>
+
+<TD WIDTH="60"><INPUT TYPE="RADIO" NAME="mon" VALUE="04">Apr&nbsp;</TD>
+
+<TD WIDTH="60"><INPUT TYPE="RADIO" NAME="mon" VALUE="05">May&nbsp;</TD>
+
+<TD WIDTH="60"><INPUT TYPE="RADIO" NAME="mon" VALUE="06">Jun&nbsp;</TD>
+
+<TD WIDTH="68"><INPUT TYPE="RADIO" NAME="mon" VALUE="07">Jul&nbsp;</TD>
+
+<TD WIDTH="68"><INPUT TYPE="RADIO" NAME="mon" VALUE="08">Aug&nbsp;</TD>
+
+<TD WIDTH="68"><INPUT TYPE="RADIO" NAME="mon" VALUE="09">Sep&nbsp;</TD>
+
+<TD WIDTH="68"><INPUT TYPE="RADIO" NAME="mon" VALUE="10">Oct&nbsp;</TD>
+
+<TD WIDTH="68"><INPUT TYPE="RADIO" NAME="mon" VALUE="11">Nov&nbsp;</TD>
+
+<TD WIDTH="68"><INPUT TYPE="RADIO" NAME="mon" VALUE="12">Dec&nbsp;</TD>
+</TR>
+</TABLE>
+<INPUT TYPE=SUBMIT VALUE="plot"></FORM>
+
+<P>These graphics were creating using <A HREF="http://grads.iges.org/grads/">GrADS</A>.
+Contact <A HREF="mailto:fiorino@llnl.gov">Mike Fiorino </A>for
+details.
+</BODY>
+
+<!-- Mirrored from www-pcmdi.llnl.gov/amip2/AMIP2EXPDSN/BCS_OBS/amip2_bcs_graphics.htm by HTTrack Website Copier/3.x [XR&CO'2004], Sat, 10 Jul 2004 00:50:38 GMT -->
+
+<!-- Mirrored from www-pcmdi.llnl.gov/projects/amip/amip2/AMIP2EXPDSN/BCS_OBS/amip2_bcs_graphics.htm by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 17 Jun 2016 00:24:57 GMT -->
+</HTML>

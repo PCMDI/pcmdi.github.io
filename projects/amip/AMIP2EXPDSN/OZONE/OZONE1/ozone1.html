@@ -1,0 +1,241 @@
+---
+layout: AMIP
+title: Ozone
+---
+
+
+<center><h1>Preliminary Comparison of Climatological Ozone
+Data Sets</h1></center>
+
+
+<h2>James S. Boyle</h2>
+
+<center><h3>Program for Climate Model Diagnosis and Intercomparison<br>
+Lawrence Livermore National Laboratory</h3></center>
+
+<p><br>
+<a name="Table of contents"></a>Table of Contents</p>
+
+<p><a href="#Abstract">Abstract<br>
+</a><a href="#1. Introduction">1. Introduction<br>
+</a><a href="#2. SUNYA">2. SUNYA<br>
+</a><a href="#3. UGAMP">3. UGAMP<br>
+</a><a href="#4. FUB/KNMI">4. FUB.KNMI<br>
+</a><a href="#5. CCM2/CCM3 ozone">5. CCM2/CCM3 ozone data<br>
+</a><a href="#6. Comparisons">6. Comparisons<br>
+</a><a href="#7. References">7. References</a>
+<hr width="100%"><p></p>
+
+<p><a name="Abstract"></a><b>Abstract</b></p>
+
+<p>This report provides a brief overview of some recently compiled ozone
+climatologies. The purpose of the comparision is to aid in deciding what
+ozone data should be recommended for the AMIP II integrations.</p>
+
+<p>The data sets examined are products from efforts at the State University
+of New York at Albany (SUNYA) , U. K. Universities Global Atmospheric Modelling
+Programme (UGAMP) and Free University Berlin / Royal Netherlands Meteorological
+Institute (FUB/KNMI). All these data sets are generated from ozonesondes
+and satellite retrievals from a number of platforms. Each group employed
+different techniques for merging the data from the disparate sources. The
+base data are also from different time periods. The tropospheric estimates
+represent the greatest observational uncertainty.</p>
+
+<p>Compared to an older data set, all the new compilations show the presence
+of ozone depletion in the austral spring near the South Pole.</p>
+
+<p><a name="1. Introduction"></a><b>1. Introduction</b></p>
+
+<p>Three ozone data sets have been obtained by PCMDI for the purpose of
+exploring the various possibilities for an AMIP recommended data set. There
+appears to be some desire in the modeling community for PCMDI to recommend
+an ozone data set that describes the climatological seasonal cycle and
+is representative of the AMIP II period. The three data sets obtained were
+produced by efforts at State University of New York ant Albany (SUNYA)
+, U. K. Universities Global Atmospheric Modelling Programme (UGAMP) and
+Free University Berlin / Royal Netherlands Meteorolgical Institute (FUB/KNMI).
+For the purposes of comparison, the zonal mean data distributed with the
+NCAR CCM2 and the initial release of the CCM3 is also included. These latter
+data are taken to be representative of the older (~1974) data. In the following
+sections some brief descriptions and comparisons of the data will be presented.</p>
+
+<p><a name="2. SUNYA"></a><b>2. SUNYA</b></p>
+
+<p>The SUNYA data set is described by Wang et al. (1995).</p>
+
+<p>The total column values for these data are based on the TOMS (Total
+Ozone Mapping Spectrometer) measurements. These are provided as monthly-mean
+values from November 1978 to January 1992 on a 1.25 x 2 degree, longitude-latitude
+grid. The missing values at high latitudes during the winter were filled
+with available ozonesonde observations near the poles. The stratospheric
+vertical distribution is based on the data from the SAGE II (Stratospheric
+Aerosol and Gas Experiment) which provides data up to 60 km at 1 km resolution
+from October 1984 to November 1989. Above 60 km a single mean value at
+100 km taken from McClatchey et al. 1992 is used to calculate the mixing
+ratios assuming a linear relationship between the logarithm of the ozone
+value and pressure. Troposphere data was taken from Logan (1985) and Spivakovsky
+et al. (1990), which have values at 1000, 900, 850, 800, 700, 500, 300,
+200, 150, and 70 mb at a 10 to 20 degree latitude resolution. Linear interpolation
+is used to calculate the values between 12 and 17 km. The vertical ozone
+distribution is shown in <a href="fig1a.html">Fig.
+1a</a> for March and <a href="fig1b.html">Fig.
+1b</a> October which represent months of the extreme variation at the poles.
+<a href="fig5.html">Figure 5a</a> displays the seasonal cycle of the column
+integrated, zonal mean for these data. The SUNYA procedure is to calculate
+the ozone path length distribution at each radiation step of the model
+given the current surface pressure, the time dependent climatological vertical
+distribution and constraining the column integrated values to the TOMS
+climatology.</p>
+
+<p><a name="3. UGAMP"></a><b>3. UGAMP</b></p>
+
+<p>The UGAMP data set is described in a UGAMP Internal Report, Li and Shine
+(1995). These data are a combination of satellite data from SBUV (Solar
+Backscatter UltraViolet instrument) and SAGE II, and supporting data from
+ozonesondes and other satellite observations such as SME (Solar Mesosphere
+Explorer) and TOMS. The SBUV data were available from November 1987 to
+June 1990. The SAGE II data used is from October 1984 to early 1990. The
+SBUV was chosen as the main data set for this climatology (at pressures
+above 70 mb and below 1 mb) with SAGE II used as a supplement. A two dimensional
+(latitude, height) ozone climatology of the troposphere and lower stratosphere
+based on ozonesonde observations by London and Liu (1992) provided data
+for the lower atmosphere. Combining the data sets from different instruments,
+on various satellites is a complex task and the reader is referred to the
+UGAMP technical report for the details. Also in the report there is a description
+of the polar night interpolation scheme that was used to fill in the satellite
+data that is missing during this time. The data obtained from UGAMP was
+for the period 1985 to 1989. Figure 2 shows the zonally and time averaged
+ozone distribution for these data for March <a href="fig2a.html">(Fig.
+2a)</a> and October <a href="fig2b.html">(Fig.
+2b).</a> Figure 5b displays the seasonal cycle of the column integrated,
+zonal mean for these data.</p>
+
+<p><a name="4. FUB/KNMI"></a><b>4. FUB/KNMI</b></p>
+
+<p>The FUB/KNMI data are not the final version but provide another independent
+perspective on a difficult analysis. These data are an attempt to merge
+the CIRA ozone reference model with ozonesonde data to better describe
+the troposphere and lower stratosphere in a climatological sense. The data
+procedures are described in Fortuin and Langematz (1994). The improvement
+of the polar night high latitude representation mentioned in this paper
+is included in the data set shown here.</p>
+
+<p>The CIRA data was compiled using five satellite instruments, LIMS, SBUV,
+AE-2 SAGE, SME-UVS, and SME-IR to define profiles from 20 to 0.003 hPa.
+The data were for the time period from November 1978 to December 1983.
+The ozonesonde data set is a compilation of sonde data of the troposphere
+and lower stratosphere for a wide range of time periods at a number of
+locations. The time periods covered and length of records vary widely from
+station to station. The data include times from 1966 to 1993. Fortuin and
+Langematz (1994) provide a detailed listing of the ozonesonde stations
+and their observational periods. The sonde stations were grouped into latitudinal
+bands. The monthly mean ozone values of the stations within each band were
+added together and weighted by the number of soundings taken during the
+month. The sonde data are rather inhomogeous in space and time, and effort
+was made to have the data coincide with the CIRA data. The sonde climatology
+for surface to 30hPa was coupled to the CIRA profiles for 70 to 0.003 hPa.
+In the overlap region the climatological values were adjusted towards the
+more reliable observations, which vary by month and latitude. Figure 3
+shows the zonally averaged ozone distribution for these data for March&nbsp;<a href="fig3a.html">(Fig.3a)</a>
+and October&nbsp;<a href="fig3b.html">(Fig.
+3b)</a>. <a href="fig5.html">Figure 5c</a> displays the seasonal cycle
+of the column integrated, zonal mean.</p>
+
+<p><a name="5. CCM2/CCM3 ozone"></a><b>5. CCM2/CCM3 ozone data</b></p>
+
+<p>For a representative older climatology the two dimensional (latitude,
+pressure) data provided with the CCM2 (Community Climate Model 2, NCAR)
+release and the initial release of the CCM3 were selected. These data are
+derived from values in a climatology compiled by D&uuml;tsch (1978). They
+represent data available up to 1974. Wang et al. (1995) compared these
+data to the SUNYA product. Figure 4 shows the zonally averaged ozone distribution
+for these data for March <a href="fig4a.html">(Fig.4a)</a>
+and October&nbsp;<a href="fig4b.html">(Fig.
+4b)</a>. <a href="fig5.html">Figure 5d</a> displays the seasonal cycle
+of the column integrated, zonal mean.</p>
+
+<p><a name="6. Comparisons"></a><b>6. Comparisons</b></p>
+
+<p>The above sketches of how the various data sets were compiled is not
+meant to be comprehensive but to give an indication of the number of decisions
+that need to be made constructing an ozone climatology. Because of this,
+each effort to construct a climatology will probably follow a different
+path or use different input data, and the resulting data set will be unique.
+The decision to be made here is the appropriate data set to be used in
+AMIP II. It appears to be agreed that the column integrated values for
+the TOMS and SBUV instruments are accurate; the large uncertainty is the
+distribution in the vertical, especially in the troposphere. There are
+also differences in the manner of filling the data voids from the solar
+backscatter instruments during the polar winters.</p>
+
+<p>The four data sets shown here represent means over distinct time periods.
+The SUNYA data is for 13 years from about 1978 to 1992, the UGAMP data
+is for the 5 year period from 1985 to 1989. The FUB/KNMI data is nominally
+for 1978 to 1983. The CCM3 data is representative of the period prior to
+1974. Since the ozone distribution has undergone significant changes over
+the last 15 years, the differences in averaging periods cannot be ignored.</p>
+
+<p>The seasonal cycle plots, Fig. 5, show that three contemporary data
+sets, SUNYA, UGAMP and FUB are in reasonable agreement. These data are
+also comparable to the CCM3 data, with the strong exception of the South
+Pole region in the austral fall. with the strong exception of the South
+Pole region in the austral autumn. The newer data sets are all picking
+up the existence of the &quot;ozone hole&quot; near the South Pole. The
+SUNYA seasonal cycle, <a href="fig4a.html">Fig.
+4a</a>, has a gradual depletion of ozone near the South Pole proceeding
+from the austral winter to summer, while the FUB/KNMI and UGAMP data indicate
+a rather abrupt decrease starting around August.</p>
+
+<p>The pressure, latitude sections, Figs. 1 to 3, exhibit some of the artifacts
+of the extrapolation of data poleward of 80 degrees.</p>
+
+<p>There is some question as to whether the longitudinal variations are
+known well enough to recommend a data set that is zonally varying for use
+in AMIP II. For the upper levels, the combination of the satellite data
+probably can force a reasonable variation. In the troposphere, the ozonesonde
+data are so sparse as to seriously question the representativeness of the
+resulting fields.</p>
+
+<p><a name="7. References"></a><b>7. References</b></p>
+
+<p><b>D&uuml;tsch, H. V.</b>, 1978: Vertical ozone distribution on a global
+scale.<i> Pure Appl. Geophys.</i>, 116, 511-529.</p>
+
+<p><b>Fortuin, J. P. F.</b> and U. Langematz, 1994: An update on the global
+ozone climatology and on concurrent ozone and temperature trends. Proceedings
+SPIE Vol. 2311 Atmospheric Sensing and Modeling, 207-216.</p>
+
+<p><b>Li, D.</b> and K. P. Shine, 1995: A 4-Dimensional Ozone Climatology
+for UGAMP Models., UGAMP Internal Report No. 35, April 1995.</p>
+
+<p><b>Logan, J. A.</b>, 1985: Tropospheric ozone: Seasonal behaviour, trends,
+and anthropogenic influences. <i>J. Geophys. Res.</i>, 90, 10463-10482.</p>
+
+<p><b>London, J.</b>, and S. C. Liu, 1992: Long-term tropospheric and lower
+stratospheric ozone variations from ozonesonde observations. <i>J. Atmos.
+and Terres. Phys.</i>, 54, 599-625.</p>
+
+<p><b>McClatchey, R. A.</b>, W. Fenn, J. E. A. Selby, F. E. Volz, and J.
+S. Garin, 1971: Optical properties of the atmosphere. AFGL-71-0279, Air
+Force Cambridge Research Laboratories, 85pp.</p>
+
+<p><b>Wang, W.-C</b>., Liang, X.-Z. Liang, M. P. Dudek, D. Pollard, S.
+L. Thompson, 1995: Atmospheric ozone as a climate gas. <i>Atmospheric Research,</i>
+37, 247-256.</p>
+
+<p><b>Spivakovsky, C. M.</b>, R. Yevich, J. A. Logan, S. C. Wofsy, and
+M. B. McElroy, 1990: Tropospheric OH in a three dimensional chemical tracer
+model. An assessment based on observations of CH3CCL3. <i>J. Geophys. Res.,</i>
+95, 18441-18471.</p>
+
+<p><b><a href="#Table of contents">Return to Table of Contents</a></b></p>
+
+<p>
+<hr width="100%">Last update May 5, 1997.</hr>
+
+<hr width="100%"><p></p>
+
+<a href="http://www.llnl.gov/disclaimer.html">LLNL Disclaimers</a></p>
+
+<p>UCRL-MI-125543</p>
+

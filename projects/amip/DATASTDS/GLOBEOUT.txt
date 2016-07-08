@@ -1,0 +1,338 @@
+      subroutine globeout(iunit, path, center, version, varname,   
+     &                    ntimes, times, gmeans)
+      
+c **********************************************************************
+c
+c    This subroutine writes area-weighted global mean time-series data
+c        to an ascii file.  It should be used to output the AMIP 2 
+c        data listed in Table 4 of AMIP Newsletter 8 (see 
+c        http://www-pcmdi.llnl.gov/amip/amipnl8.html  and
+c        http://www-pcmdi.llnl.gov/amip/output/outlist.html
+c
+c    The output filename is constructed from the center and variable 
+c        name.
+c
+c **********************************************************************
+c
+c  --------------------------------------------------------------------
+c
+c   Description of subroutine arguments:
+c
+c  --------------------------------------------------------------------
+c
+c      iunit: the fortran i/o unit number that will be used
+c            by this subroutine when writing files. (Make sure
+c            the calling program is not concurrently using this number
+c            for its own i/o.)
+c
+c      path: a character string with the path (i.e.,
+c          directory/subdirectory-1/subdir-2/ ...subdir-n) where you 
+c          want the output to be written.   
+c
+c      center:  a character string identifying the modeling center by
+c          acronym (e.g. NCAR, UKMO, MPI, LMD, ....).  The acronym is
+c          restricted to fewer than 21 characters.
+c
+c      version:  a character string describing the model version with 
+c          an indication of resolution and vintage.  This string
+c          should be restricted to fewer than 41 characters.
+c          For example:
+c               CSIRO9 Mark1 (R21 L9) 1992
+c               GCMII (T32 L10) 1990
+c               BMRC3.7 (R31 L17) 1995
+c               GEOS-1 (4x5 L20) 1993
+c               LMD6s (3.6x5.6 L11) 1995
+c
+c
+c      varname: a standard AMIP 2 variable name.  Should be one of the
+c           names listed below (description and units are given here
+c           for your information):
+c
+c                         TABLE 4
+c
+c  NAME              DESCRIPTION                               UNITS
+c 
+c   rmt  Net radiation at model top (positive downward)       W/m**2
+c  hfns  Net downward energy flux at surface                  W/m**2
+c  enek  Total kinetic energy (per unit area)                 J/m**2
+c   moa  Total relative angular momentum (per unit area)     kg/(m s)
+c torts  Total surface torque (including mountain torque)      N/m
+c    ta  Temperature (mass-weighted vertically average)         K
+c    ps  Surface pressure                                       Pa
+c evsps  Evaporation and sublimation (per unit area)        kg/(m**2 s)
+c   snc  Snow-covered area                                       %
+c   snd  Snow depth (water equivalent)                           m
+c   tso  SST over open (ice-free) ocean                          K
+c 
+c
+c
+c    ntimes:  (integer) the number of daily global means that will be 
+c             written (for AMIP 2 this will typically be 6300 for models
+c             with a realistic calendar and an AMIP run covering
+c             1996-1-1 through 1996-3-31)
+c
+c    times: (real) a vector, times(ntimes), containing the time of each
+c             time-mean in units of "days since 1979-1-1" (i.e.,
+c              1 January 1979).  For example, 
+c            times           date
+c              0.0         1979-1-1  
+c              1.0         1979-1-2  
+c              2.0         1979-1-3
+c               .               .
+c               .               .
+c               .               .
+c           6299.0         1996-3-31
+c
+c    gmeans: (real) a vector, gmeans(ntimes), containing the global
+c           mean value corresponding to each time stored in "times".
+c
+c
+c   SAMPLE CALL TO GLOBEOUT:
+c
+c      call globeout(9, '/pcmdi/ktaylor/global_means', 'PCMDI',
+c     &      'CCM1-TG (R15 L12) 1990', 'snc', 6300, times, gmeans)
+c
+c   NOTE: This subroutine calls subroutine findloc
+c
+c  --------------------------------------------------------------------
+c
+c    Author:  Karl E. Taylor (PCMDI)
+c    Date:    25 March 1998
+c
+c  --------------------------------------------------------------------
+  
+   
+      implicit none
+      integer ntimes, iunit
+      character*(*) center, version, varname, path
+      real times(ntimes), gmeans(ntimes)
+      
+c      local variables
+      integer n, iv1, iv2, ic1, ic2, ip1, ip2, if1, if2, i1, i2, i
+      character*80 filename, vartitle
+      
+c     ------------------------------------------------------------------
+c     ignoring leading and trailing blanks, find the position of the 
+c        actual strings indentifying path, variable, center, and 
+c        version:
+c     ------------------------------------------------------------------
+
+      call findloc(path, ip1, ip2)
+c      possibly strip off trailing '/':
+      If ((ip1 .gt. 0) .and. (ip1 .ne. ip2) .and.
+     &     (path(ip2:ip2) .eq. '/')) then
+        ip2 = ip2-1
+      endif
+      call findloc(varname, iv1, iv2)
+      if (iv1 .eq. 0) go to 100
+      call findloc(center, ic1, ic2)
+      if (ic1 .eq. 0) go to 200
+      if ((ic2-ic1+1) .gt. 20) go to 300
+      call findloc(version, i1, i2)
+      if (i1 .eq. 0) go to 400
+      i2 = len(version)
+      if ((i2-i1+1) .gt. 40) go to 500
+
+c     ------------------------------------------------------------------
+c     check whether variable name is acceptable and assign title:
+c     ------------------------------------------------------------------
+
+      if     (varname(iv1:iv2) .eq. 'rmt') then
+        vartitle = 'net radiation at model top (positive downward)'
+      elseif (varname(iv1:iv2) .eq. 'hfns') then
+        vartitle = 'net downward energy flux at surface'
+      elseif (varname(iv1:iv2) .eq. 'enek') then
+        vartitle = 'total kinetic energy (per unit area)'
+      elseif (varname(iv1:iv2) .eq. 'moa') then
+        vartitle = 'total relative angular momentum (per unit area)'
+      elseif (varname(iv1:iv2) .eq. 'torts') then
+        vartitle = 'total surface torque (including mountain torque)'
+      elseif (varname(iv1:iv2) .eq. 'ta') then
+        vartitle = 'temperature (mass-weighted vertically average)'
+      elseif (varname(iv1:iv2) .eq. 'ps' ) then
+        vartitle = 'surface pressure'
+      elseif (varname(iv1:iv2) .eq. 'evsps') then
+        vartitle = 'evaporation and sublimation (per unit area)'
+      elseif (varname(iv1:iv2) .eq. 'snc') then
+        vartitle = 'snow-covered area'
+      elseif (varname(iv1:iv2) .eq. 'snd') then
+        vartitle = 'snow depth (water equivalent)'
+      elseif (varname(iv1:iv2) .eq. 'tso') then
+        vartitle = 'SST over open (ice-free) ocean'
+      else
+        go to 600
+      endif
+            
+      vartitle = 'global mean ' // vartitle
+
+c     ------------------------------------------------------------------
+c     generate filename:
+c           (if necessary, make center acronym lower case)
+c     ------------------------------------------------------------------
+
+      filename = ' '
+      i = 0
+      do 50 n=ic1,ic2
+        i = i + 1
+        if (lge(center(n:n),'A') .and. lle(center(n:n),'Z')) then
+          filename = filename(1:i) // char(ichar(center(n:n))+32)
+        else
+          filename = filename(1:i) // center(n:n)
+        endif
+   50 continue
+
+      filename = varname(iv1:iv2)//'_'//filename(2:(ic2-ic1+2))//'.glb'
+      call findloc(filename, if1, if2)
+      
+c     ------------------------------------------------------------------
+c     open file and write data:
+c     ------------------------------------------------------------------
+
+      if (ip1 .gt. 0) then
+        open(iunit, err=700, status='new', 
+     &                      file=path(ip1:ip2)//'/'//filename(if1:if2))
+      else
+        open(iunit, err=700, status='new', file=filename(if1:if2))
+      endif
+      
+      write(iunit, 9) varname(iv1:iv2), vartitle, center(ic1:ic2),
+     &        version(i1:i2), ntimes
+      write(iunit, 10) (times(n), gmeans(n), n=1,ntimes)
+
+    9 format(a8 / a80 / a20 / a40 / i8, ' = ntimes' //
+     &                'days since' / '  1979-1-1    global mean')
+   10 format(0pf10.3, 2x, 1pe13.6)
+    
+c     ------------------------------------------------------------------
+c     close file and return
+c     ------------------------------------------------------------------
+
+      close(iunit)
+      
+      return
+      
+c     ------------------------------------------------------------------
+c      write error messages:
+c     ------------------------------------------------------------------
+
+  100 write(*,1)
+    1 format(/ 'An unacceptable variable name was passed to globeout.'
+     &          / '  It must not be null or all blanks.') 
+      go to 1000
+      
+  200 write(*,2)
+    2 format(/ 'An unacceptable research center name was passed to ',
+     &        'globeout.' / '  It must not be null or all blanks.') 
+      go to 1000
+
+  300 write(*,3) center
+    3 format(/ 'The length of the research center acronym is too long.'
+     &       / '  It should be no longer than 20 characters.'
+     &       / '  You passed: ', a80)
+      go to 1000
+
+  400 write(*,4) 
+    4 format(/ 'An unacceptable model version description was passed', 
+     &        ' to globeout.' / '  It must not be null or all blanks.') 
+      go to 1000
+
+  500 write(*,5) version
+    5 format(/ 'The length of the model version description is too' 
+     &         ' long.'
+     &       / '  It should be no longer than 40 characters.'
+     &       / '  You passed: ', a80)
+      go to 1000
+
+  600 write(*,6)
+    6 format(/ 'The variable name passed to globeout is either not '
+     &    / '   a standard AMIP 2 name or was not requested by PCMDI')
+      go to 1000
+
+  700 if (ip1 .eq. 0) then
+        write(*,7) filename(if1:if2), path(ip1:ip2)
+      else
+        write(*,7) filename(if1:if2)
+      endif
+    7 format(/ 'Error writing global mean:  trouble opening' /
+     &    '   file = ', a40 /  
+     &    '   in directory: ', a80 /
+     &    '   if the file exists, you must destroy it before running'
+     &           ' this program.' /
+     &    '   Also make sure unit number, ' i5, ', is not already'
+     &           'in use elsewhere in your program.')
+  
+ 1000 write(*,8) iunit, path, center, version, varname, ntimes
+    8 format(/ 'Arguments passed to subroutine globeout:'
+     &   '    iunit    = ', i8  /
+     &   '    path     = ', a80 /
+     &   '    center   = ', a20 /
+     &   '    version  = ', a80 /
+     &   '    varname  = ', a20 /
+     &   '    ntimes   = ', i8 /)
+  
+      return
+      end
+
+
+      
+      subroutine findloc(strng, i1, i2)
+      
+c     ------------------------------------------------------------------
+c       this subroutine finds where a non-blank string starts and ends
+c     ------------------------------------------------------------------
+
+      implicit none
+      integer i1, i2
+      character*(*) strng
+      
+c     local variables:
+      integer n, nn
+      
+      nn = len(strng)
+      if (nn .eq. 0) then
+        i1=0
+        i2=0
+        return
+      endif
+      
+      i1 = 1
+      do 100 n=1,nn
+        if (strng(n:n) .ne. ' ') goto 150
+        i1 = i1 + 1
+  100 continue
+c         error: whole string is blank
+      i1=0
+      i2=nn
+      return
+
+  150 i2 = index(strng(i1:nn), ' ') - 1
+  
+      if (i2 .lt. 0) then
+        i2 = nn
+      else
+        i2 = i1 + i2 - 1
+      endif
+      
+      return
+      end
+
+      
+c      program test_globeout
+c      
+c      parameter (ntimes=6300)
+c      real times(ntimes), gmeans(ntimes)
+c      
+c      integer n
+c      
+c      do n=1,ntimes
+c        times(n) = n-1
+c        gmeans(n)= -110. + 10.*n
+c      enddo
+c      
+c      call globeout(9, '  /pcmdi/ktaylor/global_means/  ', '  PCMDI ',
+c     &     '  CCM1-TG (R15 L12) 1990   ', ' snc ', 6300, times, gmeans)
+c
+c      stop
+c      end
+     
+
