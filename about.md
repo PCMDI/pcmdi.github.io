@@ -47,21 +47,23 @@ group: "navigation"
             <p><b>PCMDI Info</b></p>
             <ul>
                 <li><b>Project Participants</b></li>
-                <h5>Karl Taylor<br><i> (Director & PI)</i></h5>
-                <h5>Celine Bonfils<br><i> (climate scientist)</i></h5>
-                <h5>Curt Covey<br><i> (climate scientist)</i></h5>
-                <h5>Charles Doutriaux<br><i> (computer scientist)</i></h5>
-                <h5>Paul Durack<br><i> (climate scientist)</i></h5>
-                <h5>Peter Gleckler<br><i> (climate scientist)</i></h5>
-                <h5>Denis Nadeau<br><i> (computer scientist)</i></h5>
-                <h5>Jeff Painter<br><i> (computer scientist)</i></h5>
-                <h5>Tom Phillips<br><i> (climate scientist)</i></h5>
-                <h5>Ben Santer<br><i> (climate scientist)</i></h5>
-                <h5>Ken Sperber<br><i> (climate scientist)</i></h5>
-                <h5>Dean Williams<br><i> (computer scientist)</i></h5>
+                <h5><a href="about/staff/Karl/index.html">Karl Taylor<br><i> (Director & PI)</i></a></h5>
+                <h5><a href="about/staff/celine/index.html">Celine Bonfils<br><i> (climate scientist)</i></a></h5>
+                <h5><a href="about/staff/curt/index.html">Curt Covey<br><i> (climate scientist)</i></a></h5>
+                <h5><a href="about/staff/doutriaux/index.html">Charles Doutriaux<br><i> (computer scientist</i></a></h5>
+                <h5><a href="about/staff/durack/index.html">Paul Durack<br><i> (climate scientist)</i></a></h5>
+                <h5><a href="about/staff/gleckler/index.html">Peter Gleckler<br><i> (climate scientist)</i></a></h5>
+                <h5><a href="about/staff/nadeau/index.html">Denis Nadeau<br><i> (computer scientist)</i></a></h5>
+                <h5><a href="about/staff/painter/index.html">Jeff Painter<br><i> (computer scientist)</i></a></h5>
+                <h5><a href="about/staff/phillips/index.html">Tom Phillips<br><i> (climate scientist)</i></a></h5>
+                <h5><a href="about/staff/santer/index.html">Ben Santer<br><i> (climate scientist)</i></a></h5>
+                <h5><a href="about/staff/sperber/index.html">Ken Sperber<br><i> (climate scientist)</i></a></h5>
+                <h5><a href="about/staff/williams/index.html">Dean Williams<br><i> (computer scientist)</i></a></h5>
             </ul>
         </div>
     </div>
+
+
 
     <div class="span7">
         <h3 id="title">Introduction</h3>
