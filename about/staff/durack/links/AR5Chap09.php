@@ -1,0 +1,21 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+
+<!-- Mirrored from www-pcmdi.llnl.gov/about/staff/Durack/publication/links/AR5Chap09.php by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 19 Jul 2016 21:10:18 GMT -->
+<head>
+<title>Climate Change 2013: Chapter 9 - Evaluation of Climate Models</title>
+<meta http-equiv="REFRESH" content="0,url=http://www.climatechange2013.org/report/full-report/">
+</head>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','http://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-3843414-4', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<!-- Mirrored from www-pcmdi.llnl.gov/about/staff/Durack/publication/links/AR5Chap09.php by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 19 Jul 2016 21:10:18 GMT -->
+</html>
