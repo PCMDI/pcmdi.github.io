@@ -29,13 +29,13 @@ group: "navigation"
   <p>The Program for Climate Model Diagnosis and Intercomparison: furthering the understanding of climate change through model and observational analysis and community leadership</p><br>
                        <div class="row , visible-xs-block visible-s-block visible-md-inline-block">
                           <div class="col-xs-4 col-md-4 ">
-                            <img class="pull-left" src="/Data/media/images/about1.jpg" alt="..." style="width:280px;height:228px;">
+                            <img class="pull-left" src="{{site.baseurl}}/Data/media/images/about1.jpg" alt="..." style="width:280px;height:228px;">
                           </div>
                           <div class="col-xs-4 col-md-4">
-                              <img class="pull-left" src="/Data/media/images/about2.jpg" alt="..." style="width:280px;height:228px;">
+                              <img class="pull-left" src="{{site.baseurl}}/Data/media/images/about2.jpg" alt="..." style="width:280px;height:228px;">
                           </div>
                           <div class="col-xs-4 col-md-4">
-                              <img class="pull-left" src="/Data/media/images/about3.jpg" alt="..." style="width:280px;height:228px;">
+                              <img class="pull-left" src="{{site.baseurl}}/Data/media/images/about3.jpg" alt="..." style="width:280px;height:228px;">
                           </div>
                        </div>
 </div>
