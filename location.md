@@ -81,7 +81,7 @@ The San Jose International Airport is about 36 miles southwest of the Laboratory
 
 
 
-<<script>
+<script>
 
 if (screen.width < 650){
 
