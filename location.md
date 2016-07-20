@@ -83,12 +83,46 @@ The San Jose International Airport is about 36 miles southwest of the Laboratory
 
 <script>
 
-if (screen.width < 650){
+if ((screen.width < 650) && (screen.width > 450)){
 
     document.getElementById("sfmap").src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d808269.8513667781!2d-122.64880997732568!3d37.689056512109126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x808f778c55555555%3A0xa4f25c571acded3f!2sSan+Francisco+International+Airport+(SFO)%2C+San+Francisco%2C+CA+94128!3m2!1d37.6213129!2d-122.3789554!4m5!1s0x808fde1cf96c9a41%3A0xf7e280030f00ed38!2sLawrence+Livermore+National+Laboratory%2C+East+Avenue%2C+Livermore%2C+CA!3m2!1d37.6876861!2d-121.706457!5e0!3m2!1sen!2sus!4v1469027601592";
     document.getElementById("sfmap").style.width="400px";
     document.getElementById("sfmap").style.height="300px";
+    document.getElementById("sfmap").style.style="1px";
+
+    document.getElementById("oklmap").src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d406470.83200978284!2d-122.19242796336904!3d37.258302844839726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x808f845402c0a641%3A0xb0630c0f03017460!2sOakland+International+Airport%2C+Airport+Drive%2C+Oakland%2C+CA!3m2!1d37.7125689!2d-122.21974279999999!4m5!1s0x808fde1cf96c9a41%3A0xf7e280030f00ed38!2sLawrence+Livermore+National+Laboratory%2C+East+Avenue%2C+Livermore%2C+CA!3m2!1d37.6876861!2d-121.706457!5e0!3m2!1sen!2sus!4v1469031627838";
+    document.getElementById("oklmap").style.width="400px";
+    document.getElementById("oklmap").style.height="300px";
+    document.getElementById("oklmap").style.border="1px";
+
+
+    document.getElementById("sjmap").src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d808269.8513667781!2d-122.64880997732568!3d37.689056512109126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x808f778c55555555%3A0xa4f25c571acded3f!2sSan+Francisco+International+Airport+(SFO)%2C+San+Francisco%2C+CA+94128!3m2!1d37.6213129!2d-122.3789554!4m5!1s0x808fde1cf96c9a41%3A0xf7e280030f00ed38!2sLawrence+Livermore+National+Laboratory%2C+East+Avenue%2C+Livermore%2C+CA!3m2!1d37.6876861!2d-121.706457!5e0!3m2!1sen!2sus!4v1469027601592";
+    document.getElementById("sjmap").style.width="400px";
+    document.getElementById("sjmap").style.height="300px";
+    document.getElementById("sjmap").style.border="1px";
+
 }
+
+if ((screen.width < 450) && (screen.width > 310 )){
+
+    document.getElementById("sfmap").src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d808269.8513667781!2d-122.64880997732568!3d37.689056512109126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x808f778c55555555%3A0xa4f25c571acded3f!2sSan+Francisco+International+Airport+(SFO)%2C+San+Francisco%2C+CA+94128!3m2!1d37.6213129!2d-122.3789554!4m5!1s0x808fde1cf96c9a41%3A0xf7e280030f00ed38!2sLawrence+Livermore+National+Laboratory%2C+East+Avenue%2C+Livermore%2C+CA!3m2!1d37.6876861!2d-121.706457!5e0!3m2!1sen!2sus!4v1469027601592";
+    document.getElementById("sfmap").style.width="310px";
+    document.getElementById("sfmap").style.height="250px";
+    document.getElementById("sfmap").style.style="1px";
+
+    document.getElementById("oklmap").src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d406470.83200978284!2d-122.19242796336904!3d37.258302844839726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x808f845402c0a641%3A0xb0630c0f03017460!2sOakland+International+Airport%2C+Airport+Drive%2C+Oakland%2C+CA!3m2!1d37.7125689!2d-122.21974279999999!4m5!1s0x808fde1cf96c9a41%3A0xf7e280030f00ed38!2sLawrence+Livermore+National+Laboratory%2C+East+Avenue%2C+Livermore%2C+CA!3m2!1d37.6876861!2d-121.706457!5e0!3m2!1sen!2sus!4v1469031627838";
+    document.getElementById("oklmap").style.width="310px";
+    document.getElementById("oklmap").style.height="250px";
+    document.getElementById("oklmap").style.border="1px";
+
+
+    document.getElementById("sjmap").src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d808269.8513667781!2d-122.64880997732568!3d37.689056512109126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x808f778c55555555%3A0xa4f25c571acded3f!2sSan+Francisco+International+Airport+(SFO)%2C+San+Francisco%2C+CA+94128!3m2!1d37.6213129!2d-122.3789554!4m5!1s0x808fde1cf96c9a41%3A0xf7e280030f00ed38!2sLawrence+Livermore+National+Laboratory%2C+East+Avenue%2C+Livermore%2C+CA!3m2!1d37.6876861!2d-121.706457!5e0!3m2!1sen!2sus!4v1469027601592";
+    document.getElementById("sjmap").style.width="310px";
+    document.getElementById("sjmap").style.height="250px";
+    document.getElementById("sjmap").style.border="1px";
+
+}
+
 
 
 </script>
