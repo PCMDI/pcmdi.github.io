@@ -29,7 +29,13 @@ group: "navigation"
 
 ----
 
-#### From the San Francisco International Airport
+<center>
+
+<h3><a href="https://goo.gl/maps/79zpKjhAZHR2">From the San Francisco International Airport</a></h3>
+
+</center>
+
+<center><iframe id="sfmap" src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d404126.5437044654!2d-122.36492724937877!3d37.69059463219267!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x808f778c55555555%3A0xa4f25c571acded3f!2sSan+Francisco+International+Airport+(SFO)%2C+San+Francisco%2C+CA+94128!3m2!1d37.6213129!2d-122.3789554!4m5!1s0x808fde1cf96c9a41%3A0xf7e280030f00ed38!2sLawrence+Livermore+National+Laboratory%2C+East+Avenue%2C+Livermore%2C+CA!3m2!1d37.6876861!2d-121.706457!5e0!3m2!1sen!2sus!4v1469024731684" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></center>
 The San Francisco International Airport is about 49 miles west of the Laboratory. Travel time from the airport to the Laboratory is about 1 hour and 15 minutes but can be longer during commute hours.
 
     As you exit the airport, take I-101 SOUTH toward San Jose. Drive about 6.4 miles. 
@@ -41,7 +47,9 @@ The San Francisco International Airport is about 49 miles west of the Laboratory
     Continue EAST on I-580 about 20 miles past Castro Valley, Dublin, Pleasanton, and most Livermore exits. 
 
   
-#### From the Oakland International Airport
+<center><h3><a href="https://goo.gl/maps/qWSp63gV5WC2">From the Oakland International Airport</a></h3></center>
+
+<center><iframe id="oklmap" src="https://www.google.com/maps/embed?pb=!1m24!1m8!1m3!1d404126.5438799022!2d-122.3649272!3d37.6905946!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x808f845402c0a641%3A0xb0630c0f03017460!2sOakland+International+Airport%2C+Airport+Drive%2C+Oakland%2C+CA!3m2!1d37.7125689!2d-122.21974279999999!4m5!1s0x808fde1cf96c9a41%3A0xf7e280030f00ed38!2sLawrence+Livermore+National+Laboratory%2C+East+Avenue%2C+Livermore%2C+CA!3m2!1d37.6876861!2d-121.706457!5e0!3m2!1sen!2sus!4v1469025403081" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></center>
 The Oakland International Airport is about 33 miles west of the Laboratory. Travel time from the airport to the Laboratory is about 50 minutes but can be longer during commute hours.
 
     Exit the airport and turn right on Airport Drive. 
@@ -52,7 +60,8 @@ The Oakland International Airport is about 33 miles west of the Laboratory. Trav
     I-238 turns into I-580 EAST. 
     Continue EAST on I-580 about 20 miles past Castro Valley, Dublin, Pleasanton, and most Livermore exits. 
 
-#### From the San Jose International Airport
+<center><h3><a href="https://goo.gl/maps/nVDpxPpPvk12">From the San Jose International Airport</a></h3></center>
+<center><iframe id="sjmap" src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d346788.15256868565!2d-122.19242796336904!3d37.258302844839726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x808fcbc3fab3c59b%3A0xbcfa443f6df67e3e!2sMineta+San+Jos%C3%A9+International+Airport%2C+Airport+Boulevard%2C+San+Jose%2C+CA!3m2!1d37.3639472!2d-121.92893749999999!4m5!1s0x808fde1cf96c9a41%3A0xf7e280030f00ed38!2sLawrence+Livermore+National+Laboratory%2C+East+Avenue%2C+Livermore%2C+CA!3m2!1d37.6876861!2d-121.706457!5e0!3m2!1sen!2sus!4v1469026124705" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></center>
 The San Jose International Airport is about 36 miles southwest of the Laboratory. Travel time from the airport to the Laboratory is about 1 hour but can be longer during commute hours. 
 
     Exit the airport
@@ -70,3 +79,16 @@ The San Jose International Airport is about 36 miles southwest of the Laboratory
     Take the first right to the Laboratory's Westgate Badge Office, which is the first building to the right before passing the guarded entrance. All visitors must check in at this office prior to entering the Laboratory's main site.
     PCMDI is located on the second floor of the large gray-colored LLNL Building 170 that is visible from the Westgate Badge Office.
 
+
+
+<<script>
+
+if (screen.width < 650){
+
+    document.getElementById("sfmap").src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d808269.8513667781!2d-122.64880997732568!3d37.689056512109126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x808f778c55555555%3A0xa4f25c571acded3f!2sSan+Francisco+International+Airport+(SFO)%2C+San+Francisco%2C+CA+94128!3m2!1d37.6213129!2d-122.3789554!4m5!1s0x808fde1cf96c9a41%3A0xf7e280030f00ed38!2sLawrence+Livermore+National+Laboratory%2C+East+Avenue%2C+Livermore%2C+CA!3m2!1d37.6876861!2d-121.706457!5e0!3m2!1sen!2sus!4v1469027601592";
+    document.getElementById("sfmap").style.width="400px";
+    document.getElementById("sfmap").style.height="300px";
+}
+
+
+</script>
