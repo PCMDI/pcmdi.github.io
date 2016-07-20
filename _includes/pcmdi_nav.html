@@ -31,20 +31,18 @@
   </div>
   <div class="navbar-inner">
     <div class="container">
-       <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+       <button type="button" class="btn btn-navbar collapse" data-toggle="collapse" data-target=".nav-collapse">
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-      <div class="nav-collapse">
+      <div class="nav-collapse collapse">
         <ul class="nav">
           {% assign pages_list = site.pages %}
           {% assign group = 'navigation' %}
           {% include pages_list %}
           <li><a href="{{site.baseurl}}/software/index.html">Software</a></li>
           <li><a href="http://www-pcmdi.llnl.gov">Old Site</a></li>
-
-
         </ul>
       </div>
     </div>
