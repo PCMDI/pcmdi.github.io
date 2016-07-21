@@ -63,9 +63,9 @@ input4MIPS (input datasets for Model Intercomparison Projects) is an activity to
 
 ---
 
-# Suplemental Material
+# Supplemental Material
 
-#### [Suplemental Material for Ken Sperber's Publication][KEN]
+#### [Supplemental Material for Ken Sperber's Publication][KEN]
 
 [ICME]:{{site.baseurl}}/projects/4MIPs/index.html
 [AMIP]:{{site.baseurl}}/projects/amip/amip.html
