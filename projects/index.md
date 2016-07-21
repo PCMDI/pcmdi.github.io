@@ -67,7 +67,7 @@ input4MIPS (input datasets for Model Intercomparison Projects) is an activity to
 
 #### [Suplemental Material for Ken Sperber's Publication][KEN]
 
-[ICME]:{{site.baseurl}}/projects/
+[ICME]:{{site.baseurl}}/projects/4MIPs/index.html
 [AMIP]:{{site.baseurl}}/projects/amip/amip.html
 [icmc]:http://www-pcmdi.llnl.gov/projects/amip/STATUS/incoming.html
 [CMIP]:{{site.baseurl}}/projects/about-cmip.html
@@ -75,7 +75,7 @@ input4MIPS (input datasets for Model Intercomparison Projects) is an activity to
 [CMIP2]:{{site.baseurl}}/projects/cmip2/
 [CMIP5]:{{site.baseurl}}/projects/cmip5/
 [CMIP6]:{{site.baseurl}}/projects/cmip6/
-[CMD]:{{site.baseurl}}/projects/
+[CMD]:{{site.baseurl}}/projects/dcmp/index.html
 [SMIP]:http://www-pcmdi.llnl.gov/projects/smip/smip2.phpsmip
 [APE]:{{site.baseurl}}/projects/ape/index.html
 [PMIP]:http://www-lsce.cea.fr/pmip2/
