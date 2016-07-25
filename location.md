@@ -6,25 +6,36 @@ group: "navigation"
 
 ----
 
-<center> 
-    <table border="0" cellpadding="7" cellspacing="14"> 
-      <tbody> 
+<center>
+    <table border="0" cellpadding="7" cellspacing="14">
+      <tbody>
         <tr>
-          <td align="left"><u>Mailing address</u><br> 
-            PCMDI<br> 
-            P.O. Box 808<br> 
-            L-103<br> 
-            Livermore, CA 94551-0808<br> 
-            Tel:&nbsp; (925) 422-2486</td> 
-          <td><u>Street address</u><br> 
-            PCMDI<br> 
-            7000 East Avenue<br> 
-            Bldg. 170, L-103 <br> 
-            Livermore, CA 94550-9234<br> 
-            Fax:&nbsp; (925) 422-7675</td> 
-        </tr> 
-      </tbody> 
-     </table> 
+          <td align="left"><b>Mailing address</b><br>
+            PCMDI<br>
+            P.O. Box 808<br>
+            L-103<br>
+            Livermore, CA 94551-0808<br>
+            Tel:&nbsp; (925) 422-2486</td>
+          <td><b>Street address</b><br>
+            PCMDI<br>
+            7000 East Avenue<br>
+            Bldg. 170, L-103 <br>
+            Livermore, CA 94550-9234<br>
+            Fax:&nbsp; (925) 422-7675</td>
+        </tr>
+      </tbody>
+     </table>
+</center>
+
+----
+<center>
+
+<h3> Rental Cars </h3>
+
+    <a href="https://www.enterprise.com/"> <img src="Data/media/images/enterprise.png" style="width:200px;height:150px;"></a>
+    <a href="http://www.priceline.com"> <img src="Data/media/images/priceline.png" style="width:200px;height:150px;"></a>
+    <a href="http://www.nationalcar.com/"> <img src="Data/media/images/national.jpg" style="width:200px;height:150px;"></a>
+
 </center>
 
 ----
