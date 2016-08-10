@@ -74,7 +74,8 @@ The San Jose International Airport is about 36 miles southwest of the Laboratory
 
 <center><h3><a href="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d789.3260162384117!2d-121.71731449269105!3d37.68905749741413!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x160e174249c59775!2sLawrence+Livermore+National+Laboratory+Westgate+Badge+Office!5e0!3m2!1sen!2sus!4v1470852626753"> Westgate Badge Office</a></h3>
 <iframe id="badge" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d789.3260162384117!2d-121.71731449269105!3d37.68905749741413!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x160e174249c59775!2sLawrence+Livermore+National+Laboratory+Westgate+Badge+Office!5e0!3m2!1sen!2sus!4v1470852626753" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></center>
-#### I-580 to the Laboratory's Westgate Badge Office
+
+<h3><a href="">I-580 to the Laboratory's Westgate Badge Office</a></h3>
 
     To go to the Lab's Westgate Badge Office, take the Vasco Road exit. Keep to the right at the fork in the exit ramp. 
     Travel SOUTH on Vasco Road about 1.5 miles.
