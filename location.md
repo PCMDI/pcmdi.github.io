@@ -80,8 +80,11 @@ The San Jose International Airport is about 36 miles southwest of the Laboratory
     Take the CA-237 EAST/Mission Boulevard exit. Drive about 1 mile.
     Take the I-680 NORTH exit toward Sacramento. Drive about 16 miles.
     Take the I-580 EAST exit toward Stockton.
-    Continue EAST on I-580 past Pleasanton and most of the Livermore exits. 
+    Continue EAST on I-580 past Pleasanton and most of the Livermore exits.
 
+
+<center><h3><a href="hhttps://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d789.3260162384117!2d-121.71731449269105!3d37.68905749741413!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x160e174249c59775!2sLawrence+Livermore+National+Laboratory+Westgate+Badge+Office!5e0!3m2!1sen!2sus!4v1470852626753"> Westgate Badge Office</a></h3>
+<iframe id="badge" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d789.3260162384117!2d-121.71731449269105!3d37.68905749741413!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x160e174249c59775!2sLawrence+Livermore+National+Laboratory+Westgate+Badge+Office!5e0!3m2!1sen!2sus!4v1470852626753" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></center>
 #### I-580 to the Laboratory's Westgate Badge Office
 
     To go to the Lab's Westgate Badge Office, take the Vasco Road exit. Keep to the right at the fork in the exit ramp. 
@@ -112,6 +115,13 @@ if ((screen.width < 650) && (screen.width > 450)){
     document.getElementById("sjmap").style.height="300px";
     document.getElementById("sjmap").style.border="1px";
 
+    document.getElementById("badge").src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d789.3260162384117!2d-121.71731449269105!3d37.68905749741413!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x160e174249c59775!2sLawrence+Livermore+National+Laboratory+Westgate+Badge+Office!5e0!3m2!1sen!2sus!4v1470852626753";
+    document.getElementById("badge").style.width="400px";
+    document.getElementById("badge").style.height="300px";
+    document.getElementById("badge").style.border="1px";
+
+
+
 }
 
 if ((screen.width < 450) && (screen.width > 310 )){
@@ -132,8 +142,15 @@ if ((screen.width < 450) && (screen.width > 310 )){
     document.getElementById("sjmap").style.height="250px";
     document.getElementById("sjmap").style.border="1px";
 
+    document.getElementById("badge").src="href="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d789.3260162384117!2d-121.71731449269105!3d37.68905749741413!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x160e174249c59775!2sLawrence+Livermore+National+Laboratory+Westgate+Badge+Office!5e0!3m2!1sen!2sus!4v1470852626753";
+    document.getElementById("badge").style.width="310px";
+    document.getElementById("badge").style.height="250px";
+    document.getElementById("badge").style.border="1px";
+
+
 }
 
 
 
 </script>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d789.3260162384117!2d-121.71731449269105!3d37.68905749741413!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x160e174249c59775!2sLawrence+Livermore+National+Laboratory+Westgate+Badge+Office!5e0!3m2!1sen!2sus!4v1470852626753" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
