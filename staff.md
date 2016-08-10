@@ -16,7 +16,7 @@ Name | Position | E-mail | Phone Number
 [Gleckler, Peter][gleckler] | Research Scientist	| gleckler1@llnl.gov	| (925) 422-7631
 [Harris, Matthew][harris] | Computer Scientist	| harris112@llnl.gov	| (925) 423-8978
 [Hoang, Anthony][hoang] | Systems Manager	| hoang1@llnl.gov	| (925) 423-6733
-[Jefferson, Angela] | Administrator | jefferson9@llnl.gov | (925) 422-5932
+[Jefferson, Angela][] | Program Administrator | jefferson9@llnl.gov | (925) 422-5932
 [Nadeau, Denis][nadeau] | Computer Scientist | nadeau1@llnl.gov | (925) 423-3123
 [Painter, Jeff][painter] | Computer Scientist	| painter1@llnl.gov	| (925) 422-8114
 [Phillips, Tom][phillips] | Research Scientist	| phillips14@llnl.gov	| (925) 422-0072
