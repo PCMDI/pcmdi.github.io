@@ -1,6 +1,6 @@
 ---
 layout: CMIP5
-title: Submitting Data
+title: PCMDI - CMIP5 Submitting Data
 ---
 
 CMIP5 - Modeling Info - Submitting Data

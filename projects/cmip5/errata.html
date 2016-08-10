@@ -1,6 +1,6 @@
 ---
 layout: CMIP5
-title: Errata
+title: PCMDI - Errata
 ---
 
 <center><h2>CMIP5 Data Issues</h2></center>
@@ -14,12 +14,12 @@ title: Errata
 <br>
 
 ß
-    <table border="2" cellpadding="10px">
+ <table border="2" cellpadding="10px" width="2000">
   <!--<caption>Errata</caption>-->
   <tbody><tr>
-    <th>Date of first posting</th>
-    <th>Model(s)</th>
-    <th>Files</th>
+    <th width="100">Date of first posting</th>
+    <th width="100">Model(s)</th>
+    <th width="100">Files</th>
     <th width="250">Description</th>
     <th width="200">Status</th>
   </tr>
@@ -358,7 +358,7 @@ title: Errata
     <td>SST input to AMIP future run</td>
     <td>A discontinuity of temperature appears at the land-sea interface (see nearby plot).<br>
            <a href="imageNoRegrid_MPI-ESM-LR_amipFuture_r1i1p1_197901-200812_DJF_amipFuture_ANOM_ts.pdf">
-           <img src="imageNoRegrid_MPI-ESM-LR_amipFuture_r1i1p1_197901-200812_DJF_amipFuture_ANOM_ts.png" style="border:2px solid" height="200" align="middle" border="2"></a></td>
+           <img src="imageNoRegrid_MPI-ESM-LR_amipFuture_r1i1p1_197901-200812_DJF_amipFuture_ANOM_ts.png" style="border:2px solid" height="200" align="middle" border="2" width="300"></a></td>
 
 
     <td>
@@ -444,7 +444,7 @@ title: Errata
     <td>Sign convention was reversed from that of the CMIP5 Data description: upward flux of water vapor was negative;
           downward flux is positive. See nearby plot provided by Jack Scheff, University of Washington.<br>
            <a href="FGOALS-s2_evspsbl_example.gif">
-           <img src="FGOALS-s2_evspsbl_example.gif" style="border:2px solid" height="215" align="middle" border="2"></a></td>
+           <img src="FGOALS-s2_evspsbl_example.gif" style="border:2px solid" height="215" align="middle" border="2" width="300"></a></td>
     <td>
       <p>Qing Bao et al. (LASG, Beijing, China) have removed the incorrect files and uploaded replacements
         (16 May 2012).</p></td>
@@ -480,7 +480,7 @@ title: Errata
     <td>Sign convention is reversed from that of the CMIP5 Data description: upward flux of water vapor is negative;
           downward flux is positive. See nearby plot provided by Jack Scheff, University of Washington.<br>
            <a href="CMCC-CM_evspsbl_example.png">
-           <img src="CMCC-CM_evspsbl_example.png" style="border:2px solid" height="215" align="middle" border="2"></a></td>
+           <img src="CMCC-CM_evspsbl_example.png" style="border:2px solid" height="215" align="middle" border="2" width="300"></a></td>
     <td>Contacting modelers. Data files are still available. EC-EARTH files are being corrected. </td>
   </tr>
 
@@ -540,7 +540,7 @@ title: Errata
     <td>A discontinuity appeared in the last five years of the simulations.
           See nearby plot provided by Geert Jan van Oldenborgh, KNMI, the Netherlands.<br>
            <a href="CESM1-CAM5_tas_rcp85.png">
-           <img src="CESM1-CAM5_tas_rcp85.png" style="border:2px solid" height="180" align="middle" border="2"></a></td>
+           <img src="CESM1-CAM5_tas_rcp85.png" style="border:2px solid" height="180" align="middle" border="2" width="300"></a></td>
     <td>Data was corrected and republished (June 2012).</td>
   </tr>
 
@@ -574,7 +574,7 @@ title: Errata
     <td>These fractions are given as numbers between 0 and 1, rather than percent (as specified in the CMIP5
           Data Description). See nearby plot provided by Jack Scheff, University of Washington.<br>
            <a href="MIROC-ESMsftlfexample.gif">
-           <img src="MIROC-ESMsftlfexample.gif" style="border:2px solid" height="215" align="middle" border="2"></a></td>
+           <img src="MIROC-ESMsftlfexample.gif" style="border:2px solid" height="215" align="middle" border="2" width="300"></a></td>
     <td>The MIROC group will correct the error (20 July 2012). Meanwhile, the original data files are still available;
           multiply by 100 to correct the units. </td>
   </tr>
@@ -587,7 +587,7 @@ title: Errata
     <td>Downward heat flux into the ocean surface had unrealistically small values due to incorrect units.
           See nearby plot provided by Mahe Perrette, Potsdam Institute for Climate Impact Research.<br>
            <a href="checkgcm_ohu_FGOALS_s2_19-Jul-2012.png">
-           <img src="checkgcm_ohu_FGOALS_s2_19-Jul-2012.png" style="border:2px solid" height="215" align="middle" border="2"></a></td>
+           <img src="checkgcm_ohu_FGOALS_s2_19-Jul-2012.png" style="border:2px solid" height="215" align="middle" border="2" width="300"></a></td>
     <td>The FGOALS group corrected the error (26 July 2012).</td>
   </tr>
 
@@ -653,7 +653,7 @@ then they are corrupted.
     <td>All clisccp files</td>
     <td>Per Mark Zelinka, PCMDI: The dimensions of clisccp are described in the netcdf file as (time, tau, plev, lat, lon), but dimensions 2 and 3 have been reversed, making the true dimensions (time, plev, tau, lat, lon).  The nearby figure demonstrates this: Summing clisccp only over "tau" bins 1 and 2 produces a map (top left) that is clearly the distribution of low clouds (i.e., the sum over plev bins 1 and 2).  Similarly, summing the histogram only over "tau" bins 6 and 7 produces a map  (top right) that is clearly the distribution of high clouds (i.e., the sum over plev bins 6 and 7).<br>
     <a href="CCSM4_amip_r7i1p1_simulator_check_v2.png">
-    <img src="CCSM4_amip_r7i1p1_simulator_check_v2.png" style="border:2px solid" height="215" align="middle" border="2"></a></td>
+    <img src="CCSM4_amip_r7i1p1_simulator_check_v2.png" style="border:2px solid" height="215" align="middle" border="2" width="300"></a></td>
     <td>Data are being corrected and will be replaced.</td>
   </tr>
 
@@ -687,7 +687,7 @@ to be 4K warmer than the control run by mistake.</td>
     <td>Relative humidity includes unphysical values such as negative numbers.
           See nearby plot.<br>
            <a href="hur_day_inmcm4_rcp85_r1i1p1_tavg20060101-20101231.png">
-           <img src="hur_day_inmcm4_rcp85_r1i1p1_tavg20060101-20101231.png" style="border:2px solid" height="215" align="middle" border="2"></a></td>
+           <img src="hur_day_inmcm4_rcp85_r1i1p1_tavg20060101-20101231.png" style="border:2px solid" height="215" align="middle" border="2" width="300"></a></td>
     <td>INM will provide corrected data.</td>
   </tr>
 
@@ -752,7 +752,7 @@ reflectances.  The incorrect layer interface pressures also caused a
 small change in some ISCCP variables related to the determination of
 cloud top pressure.<br>
 <a href="zonal_CALIPSO_cloud_amount_CanAM4_COSP_fix.png">
-<img src="zonal_CALIPSO_cloud_amount_CanAM4_COSP_fix.png" style="border:2px solid" height="215" align="middle" border="2"></a></td>
+<img src="zonal_CALIPSO_cloud_amount_CanAM4_COSP_fix.png" style="border:2px solid" height="215" align="middle" border="2" width="300"></a></td>
     <td>CCCma removed the erroneous files on 1 Nov 2012 and replaced
 them with corrected files on 19 January 2013, after rerunning the model simulations.</td>
   </tr>
@@ -777,7 +777,7 @@ them with corrected files on 19 January 2013, after rerunning the model simulati
           coordinate is erroneously shifted by 90 degrees. See nearby figure from Geert Jan van Oldenborgh,
           KNMI. sic in the piControl scenario has a similar problem.<br>
           <a href="historicalBNU-ESM.sic.png">
-          <img src="historicalBNU-ESM.sic.png" style="border:2px solid" height="215" align="middle" border="2"></a></td>
+          <img src="historicalBNU-ESM.sic.png" style="border:2px solid" height="215" align="middle" border="2" width="300"></a></td>
     <td>BNU is addressing the problem. Meanwhile, data files are still available. Users may be able to fix the problem
           in the historical scenario by adding 90 degrees
           to the longitude coordinate. </td>
@@ -827,7 +827,7 @@ them with corrected files on 19 January 2013, after rerunning the model simulati
           where sea ice exists.
           <br>
           <a href="tos_CISIROmk3.6.0historical1981-2005.png">
-          <img src="tos_CISIROmk3.6.0historical1981-2005.png" style="border:2px solid" height="215" align="middle" border="2"></a></td>
+          <img src="tos_CISIROmk3.6.0historical1981-2005.png" style="border:2px solid" height="215" align="middle" border="2" width="300"></a></td>
     <td>Data files are still available. Users can approximately fix the problem by setting tos = -2 degrees C under sea ice.
   </td></tr>
 
@@ -869,7 +869,7 @@ them with corrected files on 19 January 2013, after rerunning the model simulati
           than the actual eruption times (which appear correctly in the two other models shown).
           <br>
           <a href="rsutcs_inmcm4.png">
-          <img src="rsutcs_inmcm4.png" style="border:2px solid" height="215" align="middle" border="2"></a></td>
+          <img src="rsutcs_inmcm4.png" style="border:2px solid" height="215" align="middle" border="2" width="300"></a></td>
     <td>Data files are still available. Users can fix the problem by manually correcting the time coordinate or just adding
           1 to the year.
   </td></tr>
@@ -884,7 +884,7 @@ them with corrected files on 19 January 2013, after rerunning the model simulati
           that's way too big (-68 W / m<sup>2</sup> noted at upper left).
           <br>
           <a href="hfds_Omon_MIROC-ESM_piControl_r1i1p1_1991-7.pdf">
-          <img src="hfds_Omon_MIROC-ESM_piControl_r1i1p1_1991-7.png" style="border:2px solid" height="215" align="middle" border="2"></a><br>
+          <img src="hfds_Omon_MIROC-ESM_piControl_r1i1p1_1991-7.png" style="border:2px solid" height="215" align="middle" border="2" width="300"></a><br>
           The MIROC group has traced this problem to double-counting of shortwave penetration.
           This is why hdfs is incorrect in the summer hemisphere although other variables, such as SST, are reasonable.</td>
     <td>Data files are still available.
@@ -964,7 +964,7 @@ them with corrected files on 19 January 2013, after rerunning the model simulati
     <td>The time period 9-17 May 1990 (8 days) has zero precipitation.  See nearby figure, which shows the meridional mean for 1990.
           <br>
           <a href="meridmean_pr_day_ACCESS1-3_historical_r3i1p1_19750101-19991231.pdf">
-          <img src="meridmean_pr_day_ACCESS1-3_historical_r3i1p1_19750101-19991231.png" style="border:2px solid" height="215" align="middle" border="2"></a></td>
+          <img src="meridmean_pr_day_ACCESS1-3_historical_r3i1p1_19750101-19991231.png" style="border:2px solid" height="215" align="middle" border="2" width="300"></a></td>
     <td>Contacting ACCESS group. Meanwhile, data files are still available.
   </td></tr>
 
@@ -1019,9 +1019,9 @@ depth_bnds =
           By the second time step (3Z that day) everything looks normal again, and thereafter.
           See nearby plots provided by Jack Scheff, University of Washington.<br>
            <a href="vas_3hr_inmcm4_historical_r1i1p1_1998010100.png">
-           <img src="vas_3hr_inmcm4_historical_r1i1p1_1998010100.png" style="border:2px solid" height="215" align="middle" border="2"></a>
+           <img src="vas_3hr_inmcm4_historical_r1i1p1_1998010100.png" style="border:2px solid" height="215" align="middle" border="2" width="300"></a>
            <a href="vas_3hr_inmcm4_historical_r1i1p1_1998010103.png">
-           <img src="vas_3hr_inmcm4_historical_r1i1p1_1998010103.png" style="border:2px solid" height="215" align="middle" border="2"></a></td>
+           <img src="vas_3hr_inmcm4_historical_r1i1p1_1998010103.png" style="border:2px solid" height="215" align="middle" border="2" width="300"></a></td>
     <td>Contacting INM. Data files are still available.</td>
   </tr>
 
@@ -1058,7 +1058,7 @@ difference in historical and RCP 4.5 warming between the original
 and bug-fixed version was small.  See nearby plot provided by Tokuta Yokohata,
 NIES/CGER.<br>
            <a href="Fig1-MIROC5_20140609.gif">
-           <img src="Fig1-MIROC5_20140609.gif" style="border:2px solid" height="215" align="middle" border="2"></a>
+           <img src="Fig1-MIROC5_20140609.gif" style="border:2px solid" height="215" align="middle" border="2" width="300"></a>
 </td>
     <td>Original data files are still available.</td>
   </tr>

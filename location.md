@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Location
+title:  Location
 group: "navigation"
 ---
 
@@ -47,7 +47,7 @@ group: "navigation"
 </center>
 
 <center><iframe id="sfmap" src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d404126.5437044654!2d-122.36492724937877!3d37.69059463219267!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x808f778c55555555%3A0xa4f25c571acded3f!2sSan+Francisco+International+Airport+(SFO)%2C+San+Francisco%2C+CA+94128!3m2!1d37.6213129!2d-122.3789554!4m5!1s0x808fde1cf96c9a41%3A0xf7e280030f00ed38!2sLawrence+Livermore+National+Laboratory%2C+East+Avenue%2C+Livermore%2C+CA!3m2!1d37.6876861!2d-121.706457!5e0!3m2!1sen!2sus!4v1469024731684" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></center>
-The San Francisco International Airport is about 49 miles west of the Laboratory. Travel time from the airport to the Laboratory is about 1 hour and 15 minutes but can be longer during commute hours.
+<h4>The San Francisco International Airport is about 49 miles west of the Laboratory. Travel time from the airport to the Laboratory is about 1 hour and 15 minutes but can be longer during commute hours.</h4>
 
     As you exit the airport, take I-101 SOUTH toward San Jose. Drive about 6.4 miles. 
     Take the CA-92 exit to Hayward/Half Moon Bay. 
@@ -61,7 +61,7 @@ The San Francisco International Airport is about 49 miles west of the Laboratory
 <center><h3><a href="https://goo.gl/maps/qWSp63gV5WC2">From the Oakland International Airport</a></h3></center>
 
 <center><iframe id="oklmap" src="https://www.google.com/maps/embed?pb=!1m24!1m8!1m3!1d404126.5438799022!2d-122.3649272!3d37.6905946!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x808f845402c0a641%3A0xb0630c0f03017460!2sOakland+International+Airport%2C+Airport+Drive%2C+Oakland%2C+CA!3m2!1d37.7125689!2d-122.21974279999999!4m5!1s0x808fde1cf96c9a41%3A0xf7e280030f00ed38!2sLawrence+Livermore+National+Laboratory%2C+East+Avenue%2C+Livermore%2C+CA!3m2!1d37.6876861!2d-121.706457!5e0!3m2!1sen!2sus!4v1469025403081" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></center>
-The Oakland International Airport is about 33 miles west of the Laboratory. Travel time from the airport to the Laboratory is about 50 minutes but can be longer during commute hours.
+<h4>The Oakland International Airport is about 33 miles west of the Laboratory. Travel time from the airport to the Laboratory is about 50 minutes but can be longer during commute hours.</h4>
 
     Exit the airport and turn right on Airport Drive. 
     Turn right at the intersection of Neil Armstrong Way to stay on Airport Drive.
@@ -73,7 +73,7 @@ The Oakland International Airport is about 33 miles west of the Laboratory. Trav
 
 <center><h3><a href="https://goo.gl/maps/nVDpxPpPvk12">From the San Jose International Airport</a></h3></center>
 <center><iframe id="sjmap" src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d346788.15256868565!2d-122.19242796336904!3d37.258302844839726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x808fcbc3fab3c59b%3A0xbcfa443f6df67e3e!2sMineta+San+Jos%C3%A9+International+Airport%2C+Airport+Boulevard%2C+San+Jose%2C+CA!3m2!1d37.3639472!2d-121.92893749999999!4m5!1s0x808fde1cf96c9a41%3A0xf7e280030f00ed38!2sLawrence+Livermore+National+Laboratory%2C+East+Avenue%2C+Livermore%2C+CA!3m2!1d37.6876861!2d-121.706457!5e0!3m2!1sen!2sus!4v1469026124705" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></center>
-The San Jose International Airport is about 36 miles southwest of the Laboratory. Travel time from the airport to the Laboratory is about 1 hour but can be longer during commute hours. 
+<h4>The San Jose International Airport is about 36 miles southwest of the Laboratory. Travel time from the airport to the Laboratory is about 1 hour but can be longer during commute hours. </h4>
 
     Exit the airport
     Take the I-880 NORTH on-ramp. Drive about 7 miles. 
@@ -85,7 +85,7 @@ The San Jose International Airport is about 36 miles southwest of the Laboratory
 
 <center><h3><a href="hhttps://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d789.3260162384117!2d-121.71731449269105!3d37.68905749741413!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x160e174249c59775!2sLawrence+Livermore+National+Laboratory+Westgate+Badge+Office!5e0!3m2!1sen!2sus!4v1470852626753"> Westgate Badge Office</a></h3>
 <iframe id="badge" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d789.3260162384117!2d-121.71731449269105!3d37.68905749741413!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x160e174249c59775!2sLawrence+Livermore+National+Laboratory+Westgate+Badge+Office!5e0!3m2!1sen!2sus!4v1470852626753" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></center>
-#### I-580 to the Laboratory's Westgate Badge Office
+<h4>I-580 to the Laboratory's Westgate Badge Office</h4>
 
     To go to the Lab's Westgate Badge Office, take the Vasco Road exit. Keep to the right at the fork in the exit ramp. 
     Travel SOUTH on Vasco Road about 1.5 miles.
@@ -153,4 +153,3 @@ if ((screen.width < 450) && (screen.width > 310 )){
 
 
 </script>
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d789.3260162384117!2d-121.71731449269105!3d37.68905749741413!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x160e174249c59775!2sLawrence+Livermore+National+Laboratory+Westgate+Badge+Office!5e0!3m2!1sen!2sus!4v1470852626753" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>

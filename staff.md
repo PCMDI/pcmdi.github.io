@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Staff
+title:  Staff
 group: "navigation"
 ---
 

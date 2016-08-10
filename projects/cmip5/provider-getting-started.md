@@ -1,6 +1,6 @@
 ---
 layout: CMIP5
-title: Getting Started
+title: PCMDI - CMIP5 Getting Started
 ---
 CMIP5 - Modeling Info - Getting Started
 
