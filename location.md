@@ -7,21 +7,23 @@ group: "navigation"
 ----
 
 <center>
-    <table border="0" cellpadding="7" cellspacing="14">
+    <table border="0" cellpadding="2" cellspacing="10">
       <tbody>
         <tr>
           <td align="left"><b>Mailing address</b><br>
-            PCMDI<br>
+            Program for Climate Model Diagnosis <br> & Intercomparison<br>
+            Lawrence Livermore National Laboratory<br>
             P.O. Box 808<br>
             L-103<br>
             Livermore, CA 94551-0808<br>
-            Tel:&nbsp; (925) 422-2486</td>
-          <td><b>Street address</b><br>
-            PCMDI<br>
+            Tel: (925) 422-5932</td>
+           <td align="left"><b>Street address</b><br>
+            Program for Climate Model Diagnosis & Intercomparison<br>
+            Lawrence Livermore National Laboratory<br>
             7000 East Avenue<br>
             Bldg. 170, L-103 <br>
             Livermore, CA 94550-9234<br>
-            Fax:&nbsp; (925) 422-7675</td>
+            Fax: (925) 422-7675</td>
         </tr>
       </tbody>
      </table>
@@ -83,7 +85,7 @@ group: "navigation"
     Continue EAST on I-580 past Pleasanton and most of the Livermore exits.
 
 
-<center><h3><a href="hhttps://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d789.3260162384117!2d-121.71731449269105!3d37.68905749741413!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x160e174249c59775!2sLawrence+Livermore+National+Laboratory+Westgate+Badge+Office!5e0!3m2!1sen!2sus!4v1470852626753"> Westgate Badge Office</a></h3>
+<center><h3><a href="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d789.3260162384117!2d-121.71731449269105!3d37.68905749741413!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x160e174249c59775!2sLawrence+Livermore+National+Laboratory+Westgate+Badge+Office!5e0!3m2!1sen!2sus!4v1470852626753"> Westgate Badge Office</a></h3>
 <iframe id="badge" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d789.3260162384117!2d-121.71731449269105!3d37.68905749741413!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x160e174249c59775!2sLawrence+Livermore+National+Laboratory+Westgate+Badge+Office!5e0!3m2!1sen!2sus!4v1470852626753" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></center>
 <h4>I-580 to the Laboratory's Westgate Badge Office</h4>
 
