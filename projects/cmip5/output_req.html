@@ -1,0 +1,265 @@
+---
+layout: default
+title: PCMDI - CMIP5 Modeling Info
+---
+
+   <p class="hdr">CMIP5 - Modeling Info - Producing Model Output </p>
+   <br>
+   <br>
+   <p class="txt2">CMIP5 requests an extensive list of variables described as "standard output" (see <a href="#req_list">link 1</a> below), which resulted from extensive discussions involving experts from various climate sub-disciplines and interest groups, including those in the "impacts, adaptation, and vulnerabilities" community.  In order for the output to be easily accessible and useful to researchers and before it can be accepted into the CMIP5 archive, the output must be written conforming with the requirements specified in two documents (see <a href="#req_format">links 2</a> and <a href="#metadata">link 3</a> below).  The Climate Model Output Rewriter (CMOR; see <a href="#cmor">link 4</a> below) can be used to satisfy the specifications for CMIP5 model output.  Finally, the important new "satellite simulator" diagnostics requested by CMIP5 can be produced with the CFMIP Observational Simulator Package (COSP; see <a href="#cosp">link 5</a> below). </p>
+
+   <br>
+   <blockquote>
+     <p class="txt2 "><a href="#req_list">1. Requested Variables </a><a href="#req_format"><span class="style7">(updated 15 Aug
+     2013)</span>.</a><br>
+       <a href="#req_format">2. CMIP5 Data Reference Syntax (DRS) and Controlled Vocabulary <span class="style7">(updated 09 Mar 2011)</span>.</a>  <br>
+       <a href="#metadata">3. CMIP5 Model Output Format and Metadata Requirements   <span class="style7">(updated 07 Jan 2011)</span>.</a>  <br>
+       <a href="#cmor">4. CMOR - Climate Model Output Rewriter Software  <span class="style7">(CMOR 2.*, Jan 2011)</span>.</a>    <br>
+       <a href="#cosp">5. The CFMIP Observational Simulator Package (COSP) output.</a>   <br>   <br>
+       </p>
+   </blockquote>
+   <br>
+
+<div class="bar">   </div>
+
+    <br>
+    <p class="hdr1"><a name="req_list"></a></p>
+    <p class="hdr1"> 1. Requested Variables.</p>
+    <p>&nbsp;</p>
+     <p class="txt2"></p>
+     <p>&nbsp;</p>
+     <p class="txt2">The standard output document: <strong>standard_output</strong> (<span class="style7">current version: 15 Aug 2013 </span>) is available in 2 formats:</p>
+     <div class="indent">
+       <p class="txt2"> <a href="docs/standard_output.pdf">standard_output.pdf</a> </p>
+       <p class="txt2"><a href="docs/standard_output.xls">standard_output.xls</a><br>
+       </p>
+      <!-- <p class="txt2"><a href="docs/standard_output.xlsx">standard_output.xlsx</a></p>-->
+     </div>
+
+     <br>
+
+
+     <!--<p class="txt2">Previous versions to track the changes: </p>-->
+<div id="CollapsiblePanel1" class="CollapsiblePanel CollapsiblePanelClosed">
+         <div class="CollapsiblePanelTab" tabindex="0">   <span class="style5">&nbsp;&nbsp;  Click here to see previous versions to track the changes: </span> </div>
+         <div style="display: none;" class="CollapsiblePanelContent">
+     <br>
+     <p class="txt2">- 15 Aug 2013: <span class="style4"> <strong>standard_output_15Aug2013</strong> in the following formats: <a href="docs/standard_output_15Aug2013.pdf">pdf</a>  and <a href="docs/standard_output_15Aug2013.xls">xls</a> .</span></p>
+      <p class="txt2">- 16 Jul 2013: <span class="style4"> <strong>standard_output_16Jul2013</strong> in the following formats: <a href="docs/standard_output_16Jul2013.pdf">pdf</a>  and <a href="docs/standard_output_16Jul2013.xls">xls</a> .</span></p>
+       <p class="txt2">- 12 Mar 2012: <span class="style4"> <strong>standard_output_12Mar2012</strong> in the following formats: <a href="docs/standard_output_12Mar2012.pdf">pdf</a> , <a href="docs/standard_output_12Mar2012.xlsx">xlsx</a> and <a href="docs/standard_output_12Mar2012.xls">xls</a> .</span></p>
+       <p class="txt2">- 12 Jan 2012: <span class="style4"> <strong>standard_output_12Jan2012</strong> in the following formats: <a href="docs/standard_output_12Jan2012.pdf">pdf</a> , <a href="docs/standard_output_12Jan2012.xlsx">xlsx</a> and <a href="docs/standard_output_12Jan2012.xls">xls</a> .</span></p>
+       <p class="txt2">- 24 Jul 2011: <span class="style4"> <strong>standard_output_24Jul2011</strong> in the following formats: <a href="docs/standard_output_24Jul2011.pdf">pdf</a> , <a href="docs/standard_output_24Jul2011.xlsx">xlsx</a> and <a href="docs/standard_output_24Jul2011.xls">xls</a> .</span></p>
+     <p class="txt2">- 10 Jun 2011: <span class="style4"> <strong>standard_output_10Jun2011</strong> in the following formats: <a href="docs/standard_output_10Jun2011.pdf">pdf</a> , <a href="docs/standard_output_10Jun2011.xlsx">xlsx</a> and <a href="docs/standard_output_10Jun2011.xls">xls</a> .</span></p>
+     <p class="txt2">- 27 Apr 2011: <span class="style4"> <strong>standard_output_27Apr2011</strong> in the following formats: <a href="docs/standard_output_27Apr2011.pdf">pdf</a> , <a href="docs/standard_output_27Apr2011.xlsx">xlsx</a> and <a href="docs/standard_output_27Apr2011.xls">xls</a> .</span></p>
+       <p class="txt2">- 23 Mar 2011: <span class="style4"> <strong>standard_output_23Mar2011</strong> in the following formats: <a href="docs/standard_output_23Mar2011.pdf">pdf</a> , <a href="docs/standard_output_23Mar2011.xlsx">xlsx</a> and <a href="docs/standard_output_23Mar2011.xls">xls</a> .</span></p>
+      <p class="txt2">- 05 Jan 2011: <span class="style4"> <strong>standard_output_5Jan2011</strong> in the following formats: <a href="docs/standard_output_5Jan2011.pdf">pdf</a> , <a href="docs/standard_output_5Jan2011.xlsx">xlsx</a> and <a href="docs/standard_output_5Jan2011.xls">xls</a> .</span></p>
+     <p class="txt2">- 29 Nov 2010: <span class="style4"> <strong>standard_output_29Nov2010</strong> in the following formats: <a href="docs/standard_output_29Nov2010.pdf">pdf</a> , <a href="docs/standard_output_29Nov2010.xlsx">xlsx</a> and <a href="docs/standard_output_29Nov2010.xls">xls</a> .</span></p>
+     <p class="txt2">- 18 Nov 2010: <span class="style4"> <strong>standard_output_18Nov2010</strong> in the following formats: <a href="docs/standard_output_18Nov2010.pdf">pdf</a> , <a href="docs/standard_output_18Nov2010.xlsx">xlsx</a> and <a href="docs/standard_output_18Nov2010.xls">xls</a> .</span></p>
+      <p class="txt2">- 08 Nov 2010: <span class="style4"> <strong>standard_output_8Nov2010</strong> in the following formats: <a href="docs/standard_output_8Nov2010.pdf">pdf</a> , <a href="docs/standard_output_8Nov2010.xlsx">xlsx</a> and <a href="docs/standard_output_8Nov2010.xls">xls</a> .</span></p>
+      <p class="txt2">- 17 Sep 2010: <span class="style4"> <strong>standard_output_17Sep2010</strong> in the following formats: <a href="docs/standard_output_17Sep2010.pdf">pdf</a> , <a href="docs/standard_output_17Sep2010.xlsx">xlsx</a> and <a href="docs/standard_output_17Sep2010.xls">xls</a> .</span></p>
+      <p class="txt2">- 08 July 2010: <span class="style4"> <strong>standard_output_8July2010</strong> in the following formats: <a href="docs/standard_output_8July2010.pdf">pdf</a> , <a href="docs/standard_output_8July2010.xlsx">xlsx</a> and <a href="docs/standard_output_8July2010.xls">xls</a> .</span></p>
+     <p class="txt2">- 09 June 2010: <span class="style4"> <strong>standard_output_9June2010</strong> in the following formats: <a href="docs/standard_output_9June2010.pdf">pdf</a> , <a href="docs/standard_output_9June2010.xlsx">xlsx</a> and <a href="docs/standard_output_9June2010.xls">xls</a> .</span></p>
+     <p class="txt2">- 20 May 2010: <span class="style4"> <strong>standard_output_20May2010</strong> in the following formats: <a href="docs/standard_output_20May2010.pdf">pdf</a> , <a href="docs/standard_output_20May2010.xlsx">xlsx</a> and <a href="docs/standard_output_20May2010.xls">xls</a> .</span></p>
+     <p class="txt2">- 02 Apr 2010: <span class="style4"> <strong>standard_output_2Apr2010</strong> in the following formats: <a href="docs/standard_output_2Apr2010.pdf">pdf</a> , <a href="docs/standard_output_2Apr2010.xlsx">xlsx</a> and <a href="docs/standard_output_2Apr2010.xls">xls</a> .</span></p>
+     <p class="txt2">- 05 Jan 2010: <span class="style4"> <strong>standard_output_05Jan2010</strong> in the following formats: <a href="docs/standard_output_05Jan2010.pdf">pdf</a> , <a href="docs/standard_output_05Jan2010.xlsx">xlsx</a> and <a href="docs/standard_output_05Jan2010.xls">xls</a> .</span></p>
+     <p class="txt2">- 09 Dec 2009: <span class="style4"> <strong>standard_output_09Dec2009</strong> in the following formats: <a href="docs/standard_output_09Dec2009.pdf">pdf</a> , <a href="docs/standard_output_09Dec2009.xlsx">xlsx</a> and <a href="docs/standard_output_09Dec2009.xls">xls</a> .</span></p>
+     <p class="style4">- 26 Nov 2009: <strong>standard_output_11_26_09</strong> in the following formats: <a href="docs/standard_output_11_26_09.pdf">pdf</a> , <a href="docs/standard_output_11_26_09.xlsx">xlsx</a> and <a href="docs/standard_output_06_16_09.xls">xls</a> .</p>
+       <p class="style4">- 16 Jun 2009: <strong>standard_output_06_16_09</strong> in the following formats: <a href="docs/standard_output_06_16_09.pdf">pdf</a> , <a href="docs/standard_output_06_16_09.xlsx">xlsx</a> and <a href="docs/standard_output_06_16_09.xls">xls</a> .</p>
+       <br>
+       </div>
+      </div><!--  id="CollapsiblePanel1"-->
+       <br>
+
+
+     <p class="style4">The list of variables appearing in the above document substantially augments the list of model output collected as part of CMIP3.  The current list resulted from a long deliberation involving experts from various climate sub-disciplines and interest groups, including those in the "impacts, adaptation, and vulnerabilities" community.   For example, the ocean variables were adopted almost entirely from a document prepared by the Working Group on Ocean Model Development (see Griffies et al., 2009: "<a href="http://www.clivar.org/sites/default/files/imported/organization/wgomd/references/WGOMD_CMIP5_ocean_fields.pdf">Sampling Physical Ocean Fields in WCRP CMIP5 Simulations</a>") </p><br>
+     <p>
+     Note also that some special "bias corrected" fields are requested for decadal prediction experiments as explained in <a href="http://eprints.soton.ac.uk/171975/1/150_Bias_Correction.pdf"> http://eprints.soton.ac.uk/171975/1/150_Bias_Correction.pdf</a> .
+    </p><br>
+
+
+      <div class="bar">   </div>
+   <br>
+   <p class="style4"><a name="req_format"></a></p>
+   <p class="hdr1"> 2. CMIP5 Data Reference Syntax (DRS) and Controlled Vocabulary.</p>
+
+    <p>&nbsp;</p>
+    <p>Current version of Data Reference Syntax document (<span class="style7"> 13 June 2012 </span> ) <a href="docs/cmip5_data_reference_syntax.pdf">cmip5_data_reference_syntax.pdf</a> (version v1.3).</p>
+    <!-- <p>&nbsp;</p>
+    <p>Track changes to the document:</p> -->
+     <br>
+
+     <!--<p class="txt2">Previous versions to track the changes: </p>-->
+<div id="CollapsiblePanel2" class="CollapsiblePanel CollapsiblePanelClosed">
+         <div class="CollapsiblePanelTab" tabindex="0">   <span class="style5">&nbsp;&nbsp;  Click here to see previous versions to track the changes: </span> </div>
+         <div style="display: none;" class="CollapsiblePanelContent">
+     <br>
+    <div class=" txt indent">
+
+    &nbsp; -- 09 Mar 2011
+    &nbsp;<a href="docs/cmip5_data_reference_syntax_v1-03_clean.pdf"> v1-03 clean (pdf)</a> ,
+    &nbsp;&nbsp;<a href="docs/cmip5_data_reference_syntax_v1-03_marked.pdf"> v1-03 marked (pdf)</a><br>
+
+    &nbsp; -- 22 Jan 2011
+    &nbsp;<a href="docs/cmip5_data_reference_syntax_v1-02_clean.pdf"> v1-02 clean (pdf)</a> ,
+    &nbsp;&nbsp;<a href="docs/cmip5_data_reference_syntax_v1-02_marked.pdf"> v1-02 marked (pdf)</a><br>
+
+    &nbsp; -- 18 Nov 2010
+    &nbsp;<a href="docs/cmip5_data_reference_syntax_v1-01_clean.pdf"> v1-01 clean (pdf)</a> ,
+    &nbsp;&nbsp;<a href="docs/cmip5_data_reference_syntax_v1-01_marked.pdf"> v1-01 marked (pdf)</a><br>
+
+    &nbsp; -- 04 Nov 2010
+    &nbsp;<a href="docs/cmip5_data_reference_syntax_v1-00_clean.pdf"> v1-00 clean (pdf)</a> ,
+    &nbsp;&nbsp;<a href="docs/cmip5_data_reference_syntax_v1-00_marked.pdf"> v1-00 marked (pdf)</a><br>
+
+    &nbsp; -- 08 Apr 2010
+    &nbsp;<a href="docs/cmip5_data_reference_syntax_v0-27_clean.pdf"> v0-27 clean (pdf)</a> ,
+    &nbsp;&nbsp;<a href="docs/cmip5_data_reference_syntax_v0-27_marked.pdf"> v0-27 marked (pdf)</a><br>
+
+    &nbsp; -- 24 Mar 2010
+    &nbsp;<a href="docs/cmip5_data_reference_syntax_v0-26_clean.pdf"> v0-26 clean (pdf)</a> ,
+    &nbsp;&nbsp;<a href="docs/cmip5_data_reference_syntax_v0-26_marked.pdf"> v0-26 marked (pdf)</a><br>
+
+    &nbsp; -- 12 Mar 2010
+    &nbsp;<a href="docs/cmip5_data_reference_syntax_v0-25_clean.pdf"> v0-25 clean (pdf)</a> ,
+    &nbsp;&nbsp;<a href="docs/cmip5_data_reference_syntax_v0-25_marked.pdf"> v0-25 marked (pdf)</a><br>
+
+    &nbsp; -- 12 Jan 2010
+    &nbsp;&nbsp;<a href="docs/cmip5_data_reference_syntax_v0-23_marked.pdf"> v0-23 marked (pdf)</a><br>
+
+    &nbsp; -- 02 Nov 2009
+    &nbsp;&nbsp;<a href="docs/cmip5_data_reference_syntax_v0-22_marked.pdf"> v0-22 marked (pdf)</a><br>
+
+    &nbsp; -- 28 Oct 2009
+    &nbsp;<a href="docs/cmip5_data_reference_syntax_v0-21_clean.pdf"> v0-21 clean (pdf)</a>
+    &nbsp;&nbsp; <br>
+
+    &nbsp; -- 22 Sep 2009
+    &nbsp;<a href="docs/cmip5_data_reference_syntax_v0-20_clean.pdf"> v0-20 clean (pdf)</a>
+    &nbsp;&nbsp;<br>
+
+    &nbsp; -- 25 Aug 2009
+    &nbsp;<a href="docs/cmip5_data_reference_syntax_v0-19_clean.pdf"> v0-19 clean (pdf)</a>
+    &nbsp;&nbsp;<br>
+
+
+
+
+    <!--
+    <br>
+
+     <p> - 22 Jan 2011   <a href="docs/cmip5_data_reference_syntax_v1-02_marked.pdf">cmip5_data_reference_syntax_v1-02_marked.pdf</a> document with marked changes</p>
+    <p>- 22 Jan 2011 <a href="docs/cmip5_data_reference_syntax_v1-02_clean.pdf">cmip5_data_reference_syntax_v1-02_clean.pdf</a></p>
+
+     <p> - 18 Nov 2010   <a href="docs/cmip5_data_reference_syntax_v1-01_marked.pdf">cmip5_data_reference_syntax_v1-01_marked.pdf</a> document with marked changes</p>
+    <p>- 18 Nov 2010 <a href="docs/cmip5_data_reference_syntax_v1-01_clean.pdf">cmip5_data_reference_syntax_v1-01_clean.pdf</a></p>
+    <p> - 04 Nov 2010   <a href="docs/cmip5_data_reference_syntax_v1-00_marked.pdf">cmip5_data_reference_syntax_v1-00_marked.pdf</a>  -  marked changes</p>
+    <p>- 04 Nov 2010 <a href="docs/cmip5_data_reference_syntax_v1-00_clean.pdf">cmip5_data_reference_syntax_v1-00_clean.pdf</a></p>
+    <p> - 08 Apr 2010   <a href="docs/cmip5_data_reference_syntax_v0-27_marked.pdf">cmip5_data_reference_syntax_v0-27_marked.pdf</a> - marked changes</p>
+    <p>- 08 Apr 2010 <a href="docs/cmip5_data_reference_syntax_v0-27_clean.pdf">cmip5_data_reference_syntax_v0-27_clean.pdf</a></p>
+    <p> - 24 Mar 2010   <a href="docs/cmip5_data_reference_syntax_v0-26_marked.pdf">cmip5_data_reference_syntax_v0-26_marked.pdf</a> - marked changes</p>
+    <p>- 24 Mar 2010 <a href="docs/cmip5_data_reference_syntax_v0-26_clean.pdf">cmip5_data_reference_syntax_v0-26_clean.pdf</a></p>
+    <p> - 12 Mar 2010   <a href="docs/cmip5_data_reference_syntax_v0-25_marked.pdf">cmip5_data_reference_syntax_v0-25_marked.pdf</a> - marked changes</p>
+    <p>- 12 Mar 2010 <a href="docs/cmip5_data_reference_syntax_v0-25_clean.pdf">cmip5_data_reference_syntax_v0-25_clean.pdf</a></p>
+    <p> - 12 Jan 2010   <a href="docs/cmip5_data_reference_syntax_v0-23_marked.pdf">cmip5_data_reference_syntax_v0-23_marked.pdf</a> - marked changes</p>
+    <p> - 02 Nov 2009   <a href="docs/cmip5_data_reference_syntax_v0-22_marked.pdf">cmip5_data_reference_syntax_v0-22_marked.pdf</a> - marked changes</p>
+    <p>- 28 Oct 2009 <a href="docs/cmip5_data_reference_syntax_v0-21_clean.pdf">cmip5_data_reference_syntax_v0-21_clean.pdf</a></p>
+    <p>- 22 Sep 2009 <a href="docs/cmip5_data_reference_syntax_v0-20_clean.pdf">cmip5_data_reference_syntax_v0-20_clean.pdf</a></p>
+    <p>- 25 Aug 2009 <a href="docs/cmip5_data_reference_syntax_v0-19_clean.pdf">cmip5_data_reference_syntax_v0-19_clean.pdf</a><br>
+    </p> -->
+    </div>
+     <br>
+       </div>
+      </div><!--  id="CollapsiblePanel2"-->
+
+    <br><br>
+
+    <p>
+    The data output should follow the standard <a href="http://cf-pcmdi.llnl.gov/">NetCDF Climate and Forecast (CF) Metadata convention</a> and specifically to adhere to the standard variable names, units, dimensions, axis, required 'coordinates' attribute, bounds and stored direction for overall intercomparability, see  document in 'CMIP5 Model Output Format and Metadata Requirements'    section below (<a href="#metadata">section 3. below</a>) . </p>
+     <br>
+    <p>The common naming system should also be used in files, directories, metadata and URLs to facilitate standard identification of datasets. Refer to <a href="docs/cmip5_data_reference_syntax.pdf">"CMIP5 Data Reference Syntax (DRS)  and Controlled Vocabulary" </a> document for the specifications.</p>
+    <br>
+    <p>The Climate Model Output Rewriter (CMOR) software can be used to produce such a CF-compliant output, or a model center can choose to write their own data output software.</p>
+
+    <br>
+
+
+     <div class="bar">   </div>
+   <br>
+   <p class="style4"><a name="metadata"></a></p>
+   <p class="hdr1"> 3. CMIP5 Model Output Format and Metadata Requirements.</p>
+
+    <p>&nbsp;</p>
+    <p>Model output requirements for structure, format and metadata (<span class="style7"> new! 22 May 2014</span> ) <a href="docs/CMIP5_output_metadata_requirements.pdf">CMIP5_output_metadata_requirements.pdf</a> . </p>
+   <!-- <p>&nbsp;</p>
+    <p>Document history</p>-->
+     <br>
+
+     <!--<p class="txt2">Previous versions to track the changes: </p>-->
+<div id="CollapsiblePanel3" class="CollapsiblePanel CollapsiblePanelClosed">
+         <div class="CollapsiblePanelTab" tabindex="0">   <span class="style5">&nbsp;&nbsp;  Click here to see document history </span> </div>
+         <div style="display: none;" class="CollapsiblePanelContent">
+     <br>
+
+    <div class="indent">
+      <p> - 22 May 2014 &nbsp;  <a href="docs/CMIP5_output_metadata_requirements_22May14.pdf">CMIP5_output_metadata_requirements_22May14.pdf </a>, <a href="docs/CMIP5_output_metadata_requirements_22May14.docx">docx version</a>
+      </p><p> - 07 Jan 2011 &nbsp;  <a href="docs/CMIP5_output_metadata_requirements_4Jan11_clean.pdf">CMIP5_output_metadata_requirements_4Jan11_clean.pdf</a>, <!-- <br> &nbsp;  with marked changes: <a href="docs/CMIP5_output_metadata_requirements_8Nov10_marked.pdf">CMIP5_output_metadata_requirements_8Nov10_marked.pdf</a> --> </p>
+    <p> - 08 Nov 2010 &nbsp;  <a href="docs/CMIP5_output_metadata_requirements_8Nov10_clean.pdf">CMIP5_output_metadata_requirements_8Nov10_clean.pdf</a>,   &nbsp; with marked changes: <a href="docs/CMIP5_output_metadata_requirements_8Nov10_marked.pdf">CMIP5_output_metadata_requirements_8Nov10_marked.pdf</a> </p>
+    <p> - 28 Apr 2010 &nbsp;  <a href="docs/CMIP5_output_metadata_requirements28Apr10.pdf">CMIP5_output_metadata_requirements28Apr10.pdf</a>  </p>
+    <p> - 25 Mar 2010 &nbsp;  <a href="docs/CMIP5_output_metadata_requirements25Mar10.pdf">CMIP5_output_metadata_requirements25Mar10.pdf</a>  </p>
+    <p> - 19 Mar 2010 &nbsp;  <a href="docs/CMIP5_output_metadata_requirements19Mar10.pdf">CMIP5_output_metadata_requirements19Mar10.pdf</a>  </p>
+    </div>
+     <br>
+       </div>
+      </div><!--  id="CollapsiblePanel2"-->
+
+
+
+    <p>&nbsp;</p>
+    <p>The document specifies the requirements for data contributed to the archive: the general structure and format of the data, the directory
+      structure and names of files and directories,  the required and recommended
+      "global attributes", the metadata required for describing the coordinates, and
+      the constraints imposed on the variables themselves.</p>
+    <!--   <p>The Word doc format file: <a href="docs/CMIP5_output_metadata_requirements.docx">CMIP5_output_metadata_requirements.docx</a></p>  -->
+    <p>&nbsp;</p>
+
+
+
+    <div class="bar">   </div>
+   <br>
+   <p class="hdr"><a name="cmor"></a></p>
+   <p class="hdr1">4. CMOR - Climate Model Output Rewriter Software.</p>
+   <p class="hdr1">&nbsp;</p>
+   <p class="txt2"><span class="style7">New! Jan 2011 </span> Newest version of <span class="style7">CMOR 2.5</span> is now available, follow the links below to get it.</p>
+   <br>
+   <p>The <a href="http://www2-pcmdi.llnl.gov/cmor">"Climate Model Output Rewriter"</a> (CMOR, pronounced "Seymour"), written in C with FORTRAN 90/python API functions, can be used to produce CF-compliant netCDF files that fulfill the requirements of many of the climate community's standard model experiments. These experiments are collectively referred to as MIP's and include, for example, AMIP, CMIP, CFMIP, PMIP, APE, and IPCC scenario runs. The output resulting from CMOR is "self-describing" and facilitates analysis of results across models.</p>
+    <p>Much of the metadata written to the output files is defined in MIP-specific tables, typically made available from each MIP's web site. CMOR relies on these tables to provide much of the metadata that is needed in the MIP context, thereby reducing the programming effort required of the individual MIP contributors.</p>
+    <br>
+    <p>The new <a href="http://www2-pcmdi.llnl.gov/cmor">CMOR v2</a> has interface to the C/FORTRAN and Python programming languages. It can be linked either to NetCDF3 or NetCDF4 and it can handle non-cartesian grids and station data.</p>
+    <br>
+    <ul>
+      <li><a href="http://www2-pcmdi.llnl.gov/cmor/download/">Download CMOR 2</a></li>
+      <li><a href="http://www2-pcmdi.llnl.gov/cmor/documentation/">CMOR 2 documentation</a></li>
+    </ul>
+    <br>
+
+     <br>
+    <div class="bar">   </div>
+   <br>
+   <p class="hdr"><a name="cosp"></a></p>
+   <p class="hdr1">5.  The CFMIP Observational Simulator Package (COSP) output.</p>
+   <br>
+
+   <p>As part of the CMIP5 standard output, modeling groups are strongly encouraged to provide cloud diagnostic data produced by the <a href="http://www.cfmip.net/">CFMIP</a> Observational Simulator Package (COSP).  COSP emulates in a model the remotely-sensed observational data from CloudSat, CALIPSO, and ISCCP, thereby enabling  a fuller evaluation of model-simulated clouds.
+
+The latest version of COSP is available at: <a href="http://cfmip.metoffice.com/COSP.html">http://cfmip.metoffice.com/COSP.html</a> </p>
+   <br>   <br>
+
+
+
+
+<div class="bar">
+</div>
+   <br>   <br>   <br>
+
+  </div>
+  <!--  id="main_text_area" -->
