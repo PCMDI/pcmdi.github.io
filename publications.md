@@ -5,7 +5,7 @@ group: "navigation"
 ---
 
 <h1>Publications</h1>
-<h2><a name="Publications"></a>  Publications 2003-2013</h2>
+<h2><a name="Publications"></a>  Publications 2003-2016</h2>
 <p>  (Researchers supported by PCMDI funding are in <strong>bold face</strong> font) </p>
 
 
