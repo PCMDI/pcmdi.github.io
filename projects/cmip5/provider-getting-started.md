@@ -2,18 +2,17 @@
 layout: CMIP5
 title: PCMDI - CMIP5 Getting Started
 ---
-CMIP5 - Modeling Info - Getting Started
 
-If you are looking for model output go to "Data Access -> Getting Started" page.
+# CMIP5 - Modeling Info - Getting Started
+
+If you are looking for model output go to "Data Access -> Getting Started" [page][data-access-getting-started.html].
 
 
 A Guide for Modeling Groups Participating in CMIP5
 
-Download it in pdf format: getting_started.pdf]
-
 Participation in CMIP5 is open to everyone. The following is meant to be a step by step guide to CMIP5 procedures and requirements. The steps are grouped into three stages: “Perform Experiments”, “Prepare Model Output”, and “Make Output Available”. It is strongly advised that modeling groups immediately begin to put in place the capabilities needed for stages 2 and 3. Do not wait until Stage 1 has been completed. In particular there will be considerable effort required to complete stage 2, which will be the key to a successful CMIP5.
 
-Stage 1: Perform Experiments
+## Stage 1: Perform Experiments
 
     Read the experiment design document and decide which suite or suites of experiments you want to perform. There are three types of experiments planned:
         a.  Decadal Hindcasts and Predictions simulations
@@ -28,7 +27,7 @@ Stage 1: Perform Experiments
     For each simulation, complete a questionnaire documenting your model and simulation conditions. This is a requirement that the WGCM feels is essential for increased transparency and scientific rigor. The questionnaire, which must be completed before your data will be made available for analysis, can be found at the METAFOR website.
 
 
-Stage 2: Prepare Model Output
+## Stage 2: Prepare Model Output
 
     It is recommended that output files be produced using the CMOR2 software. This will assure compliance with most of the “CMIP5 Model Output Format and Metadata Requirements”. If CMOR2 is not used, the CMOR-checker should be included as part of the job stream to catch any obvious inconsistencies with the CMIP5 output requirements.
     Send sample output files to PCMDI for QC checks. A list of files that should be sent to PCMDI is under preparation.
@@ -37,7 +36,7 @@ Stage 2: Prepare Model Output
     If your ocean or atmosphere grid is not a Cartesian longitude/latitude grid, and if gridspec is unable to use the information you provide in the gridspec file to create the information needed by the SCRIP software to regrid data to a Cartesian longitude/latitude grid, then generate a SCRIP input file to map your grid to a Cartesian longitude/latitude grid of your choice. (It is recommended that you choose a resolution that is appropriate for your model.) SCRIP is a software package which computes addresses and weights for remapping and interpolating fields between grids in spherical coordinates.
 
 
-Stage 3: Make Output Available
+## Stage 3: Make Output Available
 
     Indicate to PCMDI what “terms of use” are agreeable to you. The recommended option is that you agree to make the model output freely available for any use whatsoever by anyone. If this is unacceptable, you may elect to restrict release of your data for “non-commercial research and educational purposes”. All users will be required to register before accessing the data. They will be required to agree to one of two above choices. Users who do not agree to abide by the more restricted terms of use, will only have access to the “freely available” model output. The "terms of use" document can be found here.
     Become familiar with the ESG federated data archive and delivery system described in a document titled “How will CMIP5 Model Output be Archived and Served?”
@@ -48,4 +47,3 @@ Stage 3: Make Output Available
     Additional quality assurance checks will be performed at the CMIP5 Data Centers, which will be described in a document under preparation.
 
 
-[Document prepared by K.E. Taylor; 15 Sep 2010. Download it in pdf format: getting_started.pdf]
