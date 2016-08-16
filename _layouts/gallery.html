@@ -36,7 +36,7 @@ div.desc {
  {{ content }}
 
 <center><div class="img">
-    
+
 
     <div class="mySlides">
         <a href="{{site.baseurl}}/about/staff/santer/index.html">
@@ -51,6 +51,7 @@ div.desc {
         </a>
          <div class="desc"><h3>Quantifying underestimates of long-term upper-ocean warming</h3></div>
     </div>
+
 
     <div class="mySlides">
         <a href="{{site.baseurl}}/about/staff/Karl/nclimate2389.pdf">
@@ -74,12 +75,29 @@ and early 21st century volcanic activity </h3></div>
          <div class="desc"><h3>Volcanic contribution to decadal changes in tropospheric temperature</h3></div>
     </div>
 
+    <!---
+     <div class="mySlides">
+        <a href="http://uvcdat.llnl.gov/examples/plot_colors.html">
+           <img  align="center" src="{{site.baseurl}}/Data/media/images/plotcolors.png">
+        </a>
+         <div class="desc"><h3>Plot Colors</h3></div>
+    </div>
+
     <div class="mySlides">
         <a href="http://uvcdat.llnl.gov/examples/hovmoeller.html">
            <img  align="center" src="{{site.baseurl}}/Data/media/images/hovmoller.png">
         </a>
          <div class="desc"><h3>Hovmöller HUS</h3></div>
     </div>
+
+    <div class="mySlides">
+        <a href="http://uvcdat.llnl.gov/examples/vcs3D_multiplot.html">
+           <img  align="center" src="{{site.baseurl}}/Data/media/images/vcs3dMult.png">
+        </a>
+         <div class="desc"><h3>vcs3D_multiplot</h3></div>
+    </div>
+
+    --->
 
 </div></center>
 
@@ -101,7 +119,7 @@ function carousel() {
     slideIndex++;
     if (slideIndex > x.length) {slideIndex = 1}
     x[slideIndex-1].style.display = "block";
-    setTimeout(carousel, 2000); // Change image every 2 seconds
+    setTimeout(carousel, 5000); // Change image every 2 seconds
 }
 
 
