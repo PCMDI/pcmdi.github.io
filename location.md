@@ -31,13 +31,13 @@ group: "navigation"
 ----
 <center>
 
-<h3> Rental Cars </h3>
+<!--- <h3> Rental Cars </h3>
 
     <a href="https://www.enterprise.com/"> <img src="Data/media/images/enterprise.png" style="width:200px;height:150px;"></a>
     <a href="http://www.priceline.com"> <img src="Data/media/images/priceline.png" style="width:200px;height:150px;"></a>
     <a href="http://www.nationalcar.com/"> <img src="Data/media/images/national.jpg" style="width:200px;height:150px;"></a>
 
-</center>
+</center> --->
 
 ----
 
