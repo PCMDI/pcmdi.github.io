@@ -2,17 +2,103 @@
 layout: default
 ---
 
+<style>
+div.img {
+    margin: 5px;
+    border: 2px solid #ccc;
+    float: center;
+    width: 600px;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.footer {
+
+    height: 1010px;
+}
+
+#footer-slim{
+    height: 1010px;
+}
+
+</style>
 
  {{ content }}
-<img class="mySlides" align="center" src="{{site.baseurl}}/Data/media/images/about1.jpg">
-<img class="mySlides" align="center" src="{{site.baseurl}}/Data/media/images/about3.jpg">
-<img class="mySlides" align="center" src="{{site.baseurl}}/Data/media/images/120405_CTD_Deployment.png">
+
+<center><div class="img">
+    <div class="mySlides">
+        <a href="">
+             <img  align="center" src="{{site.baseurl}}/Data/media/images/about1.jpg">
+        </a>
+
+        <div class="desc">Description 1 </div>
+    </div>
+
+
+    <div class="mySlides">
+      <a href="">
+      <img  align="center" src="{{site.baseurl}}/Data/media/images/about3.jpg">
+    </a>
+        <div class="desc">Description 2 </div>
+    </div>
+
+
+    <div class="mySlides">
+        <a href="">
+           <img  align="center" src="{{site.baseurl}}/Data/media/images/120405_CTD_Deployment.png">
+        </a>
+         <div class="desc">Description 4 </div>
+    </div>
+
+    <div class="mySlides">
+        <a href="{{site.baseurl}}/about/staff/santer/index.html">
+           <img  align="center" src="{{site.baseurl}}/about/staff/santer/stil_32425_GAK_Ben Santer_Q5I0377_006.jpeg"">
+        </a>
+         <div class="desc"> Dr. Benjamin D. Santer </div>
+    </div>
+
+    <div class="mySlides">
+        <a href="{{site.baseurl}}/about/staff/Karl/nclimate2389.pdf">
+           <img  align="center" src="{{site.baseurl}}/Data/media/images/nature2014.png">
+        </a>
+         <div class="desc">Quantifying underestimates of long-term upper-ocean warming </div>
+    </div>
+
+    <div class="mySlides">
+        <a href="{{site.baseurl}}/about/staff/Karl/nclimate2389.pdf">
+           <img  align="center" src="{{site.baseurl}}/Data/media/images/upperOceanHeatContent.png">
+        </a>
+         <div class="desc"> Upper-ocean (0–700 dbar) heat content trends for 1970–2004 </div>
+    </div>
+
+    <div class="mySlides">
+        <a href="{{site.baseurl}}/about/staff/santer/Santer_etal_GRL_2015.pdf">
+           <img  align="center" src="{{site.baseurl}}/Data/media/images/santer_GRL_2015.png">
+        </a>
+         <div class="desc"> Upper-ocean (0–700 dbar) heat content trends for 1970–2004 </div>
+    </div>
+
+</div></center>
+
+
 
 
 
 <script>
 
-    var slideIndex = 0;
+var slideIndex = 0;
 carousel();
 
 function carousel() {
