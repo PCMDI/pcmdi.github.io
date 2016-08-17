@@ -2,125 +2,96 @@
 layout: default
 ---
 
-<style>
-div.img {
-    margin: 5px;
-
-    float: center;
-    width: 600px;
-}
 
 
 
-div.img img {
-    width: 100%;
-    height: auto;
-}
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
 
-div.desc {
-    padding: 15px;
-    text-align: center;
-}
+  </ol>
 
-.footer {
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
 
-    height: 1010px;
-}
-
-#footer-slim{
-    height: 1010px;
-}
-
-</style>
-
- {{ content }}
-
-<center><div class="img">
-
-
-    <div class="mySlides">
-        <a href="{{site.baseurl}}/about/staff/santer/index.html">
-           <img  align="center" src="{{site.baseurl}}/about/staff/santer/stil_32425_GAK_Ben Santer_Q5I0377_006.jpeg"">
-        </a>
-         <div class="desc"><h3>Dr. Benjamin D. Santer</h3> </div>
+       <div class="item active">
+            <a href="{{site.baseurl}}/about/staff/santer/Santer_etal_GRL_2015.pdf">
+       <img src="{{site.baseurl}}/Data/media/images/santer_GRL_2015.png" alt="santer">
+      <div class="carousel-caption">
+        <h3>Publication</h3>
+        <p>Observed multivariable signals of late 20th
+and early 21st century volcanic activity</p>
+      </div>
+                </a>
     </div>
 
-    <div class="mySlides">
+    <div class="item">
+         <a href="{{site.baseurl}}/about/staff/santer/index.html">
+      <img src="{{site.baseurl}}/about/staff/santer/stil_32425_GAK_Ben Santer_Q5I0377_006.jpeg" alt="Santer">
+      <div class="carousel-caption">
+         <h3>Research Scientist</h3>
+        <p>Dr. Benjamin D. Santer</p>
+      </div>
+              </a>
+    </div>
+
+    <div class="item">
         <a href="{{site.baseurl}}/about/staff/Karl/nclimate2389.pdf">
-           <img  align="center" src="{{site.baseurl}}/Data/media/images/nature2014.png">
-        </a>
-         <div class="desc"><h3>Quantifying underestimates of long-term upper-ocean warming</h3></div>
+      <center><img src="{{site.baseurl}}/Data/media/images/nature2014.png" alt="Nature"></center>
+      <div class="carousel-caption">
+        <h3>Publication</h3>
+        <p>Quantifying underestimates of long-term upper-ocean warming</p>
+      </div>
+            </a>
     </div>
 
 
-    <div class="mySlides">
-        <a href="{{site.baseurl}}/about/staff/Karl/nclimate2389.pdf">
-           <img  align="center" src="{{site.baseurl}}/Data/media/images/upperOceanHeatContent.png">
-        </a>
-         <div class="desc"><h3>Upper-ocean (0–700 dbar) heat content trends for 1970–2004</h3></div>
-    </div>
 
-    <div class="mySlides">
-        <a href="{{site.baseurl}}/about/staff/santer/Santer_etal_GRL_2015.pdf">
-           <img  align="center" src="{{site.baseurl}}/Data/media/images/santer_GRL_2015.png">
-        </a>
-         <div class="desc"> <h3> Observed multivariable signals of late 20th
-and early 21st century volcanic activity </h3></div>
-    </div>
-
-    <div class="mySlides">
-        <a href="{{site.baseurl}}/about/staff/santer/Santer_el_al_NatGeo_2014.pdf">
-           <img  align="center" src="{{site.baseurl}}/Data/media/images/largecover.gif">
-        </a>
-         <div class="desc"><h3>Volcanic contribution to decadal changes in tropospheric temperature</h3></div>
-    </div>
-
-    <!---
-     <div class="mySlides">
-        <a href="http://uvcdat.llnl.gov/examples/plot_colors.html">
-           <img  align="center" src="{{site.baseurl}}/Data/media/images/plotcolors.png">
-        </a>
-         <div class="desc"><h3>Plot Colors</h3></div>
-    </div>
-
-    <div class="mySlides">
-        <a href="http://uvcdat.llnl.gov/examples/hovmoeller.html">
-           <img  align="center" src="{{site.baseurl}}/Data/media/images/hovmoller.png">
-        </a>
-         <div class="desc"><h3>Hovmöller HUS</h3></div>
-    </div>
-
-    <div class="mySlides">
-        <a href="http://uvcdat.llnl.gov/examples/vcs3D_multiplot.html">
-           <img  align="center" src="{{site.baseurl}}/Data/media/images/vcs3dMult.png">
-        </a>
-         <div class="desc"><h3>vcs3D_multiplot</h3></div>
-    </div>
-
-    --->
-
-</div></center>
+  </div>
 
 
 
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
 
+    <span class="sr-only"> < </span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+
+    <span class="sr-only"> > </span>
+  </a>
+</div>
 
 <script>
+$(document).ready(function(){
+    // Activate Carousel
+    $("#myCarousel").carousel();
 
-var slideIndex = 0;
-carousel();
+    // Enable Carousel Indicators
+    $(".item1").click(function(){
+        $("#myCarousel").carousel(0);
+    });
+    $(".item2").click(function(){
+        $("#myCarousel").carousel(1);
+    });
+    $(".item3").click(function(){
+        $("#myCarousel").carousel(2);
+    });
+    $(".item4").click(function(){
+        $("#myCarousel").carousel(3);
+    });
 
-function carousel() {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    for (i = 0; i < x.length; i++) {
-      x[i].style.display = "none";
-    }
-    slideIndex++;
-    if (slideIndex > x.length) {slideIndex = 1}
-    x[slideIndex-1].style.display = "block";
-    setTimeout(carousel, 5000); // Change image every 2 seconds
-}
-
-
+    // Enable Carousel Controls
+    $(".left").click(function(){
+        $("#myCarousel").carousel("prev");
+    });
+    $(".right").click(function(){
+        $("#myCarousel").carousel("next");
+    });
+});
 </script>
+
+
