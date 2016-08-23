@@ -1,0 +1,152 @@
+---
+layout: default
+title: PCMDI - CMIP Standard Output for 20C3M
+---
+<!-- startprint -->
+<center>
+                          <h1> Standard Output for 20C3M</h1>
+                        </center>
+                        <center>
+                          <p><b>Program for Climate Model Diagnosis and Intercomparison</b></p>
+                        </center>
+                        <center>
+                          <p><b>Lawrence Livermore National Laboratory</b>
+                          </p>
+                        </center>
+                        <center>
+                          <p>                          E-mail: <a href="mailto:covey1@llnl.gov">covey1@llnl.gov</a>
+                          </p>
+                        </center>
+                        <p> 3 November 2003                        </p><hr noshade="">
+                        <p><b> Introduction</b></p>
+                        <p>The following list of standard output for the CMIP "20th Century Climate in Coupled Models" pilot project (20C3M; see <a href="ann_20c3m.php"> http://www-pcmdi.llnl.gov/cmip/ann_20c3m.html)</a> assumes that output is produced in network Common Data Form (netCDF; see <a href="http://www.unidata.ucar.edu/packages/netcdf"> http://www.unidata.ucar.edu/packages/netcdf)</a> and that the NetCDF Climate and Forecast (CF) Metadata Conventions (see <a href="http://www.cgd.ucar.edu/cms/eaton/cf-metadata"> http://www.cgd.ucar.edu/cms/eaton/cf-metadata)</a> are followed. <i> Use of netCDF and adherence to the CF convention are required for future contributions to CMIP and will be followed in future releases of CMIP data. </i>
+                        </p>
+                        <p> The NetCDF software library is maintained by the Unidata Program Center in Boulder, Colorado, under sponsorship of the University Corporation for Atmosphere Research; the Climate Data Analysis Tools (CDAT) software infrastructure (see <a href="http://esg.llnl.gov/cdat"> http://esg.llnl.gov/cdat)</a> also supports netCDF. NetCDF is now the most common format for exchange of ocean-atmosphere model output. The new CF conventions for netCDF data generalize and extend the Cooperative Ocean / Atmosphere Research Data Service (COARDS) conventions developed in the 1990s.
+</p><p><b>Output fields</b></p>
+<p></p><table border="">
+  <caption>
+  <b><i>Monthly Mean Surface Data</i></b>
+  </caption>
+  <tbody><tr>
+    <th> </th>
+    <th> CF Standard name </th>
+    <th> PCMDI name </th>
+    <th> Units </th>
+  </tr><tr>
+    <td> 1 </td>
+    <td> air_pressure_at_sea_level </td>
+    <td> psl </td>
+    <td> Pa </td>
+  </tr><tr>
+    <td> 2 </td>
+    <td> precipitation_flux </td>
+    <td> pr </td>
+    <td> kg m<sup>-2</sup> s<sup>-1</sup> </td>
+  </tr><tr>
+    <td> 3 </td>
+    <td> air_temperature<sup><i>a</i></sup> </td>
+    <td> tas </td>
+    <td> K </td>
+  </tr><tr>
+    <td> 4 </td>
+    <td> sea_surface_elevation </td>
+    <td> </td>
+    <td> m </td>
+  </tr><tr>
+    <td> 5 </td>
+    <td> sea_surface_temperature </td>
+    <td> </td>
+    <td> K </td>
+  </tr><tr>
+    <td> 6 </td>
+    <td> sea_ice_area_fraction </td>
+    <td> sic </td>
+    <td> (dimensionless fraction) </td>
+  </tr><tr>
+    <td> 7 </td>
+    <td> sea_ice_thickness </td>
+    <td> sit </td>
+    <td> m </td>
+  </tr><tr>
+    <td> 8 </td>
+    <td> moisture_content_of_soil_layer<sup><i>b</i></sup> </td>
+    <td> mrsos </td>
+    <td> kg m<sup>-2</sup>
+  </td></tr><tr>
+    <td> 9 </td>
+    <td> soil_moisture_content<sup><i>c</i></sup> </td>
+    <td> mrso </td>
+    <td> kg m<sup>-2</sup>
+</td></tr></tbody></table>
+<p><sup><i>a</i></sup>Also known as "surface air temperature." Distinguish from 3-D air temperature by specifying a size-one dimension of height with coordinate value 2 m. <br>
+    <sup><i>b</i></sup>In the upper 0.1 m only. <br>
+    <sup><i>c</i></sup>Total for all soil layers.
+</p>
+<p></p><table border="">
+  <caption>
+  <b><i>Monthly Mean 3-D Data</i></b>
+  </caption>
+  <tbody><tr>
+    <th> </th>
+    <th> CF Standard name </th>
+    <th> PCMDI name </th>
+    <th> Units </th>
+  </tr><tr>
+    <td> 1 </td>
+    <td> cloud_area_fraction_in_atmosphere_layer </td>
+    <td> cl </td>
+    <td> (dimensionless fraction) </td>
+  </tr><tr>
+    <td> 2 </td>
+    <td> air_temperature<sup><i>d</i></sup> </td>
+    <td> ta </td>
+    <td> K </td>
+  </tr><tr>
+    <td> 3 </td>
+    <td> sea_water_temperature </td>
+    <td> to </td>
+    <td> K </td>
+  </tr><tr>
+    <td> 4 </td>
+    <td> sea_water_salinity </td>
+    <td> so </td>
+    <td> ppt (parts per thousand) </td>
+</tr></tbody></table>
+<p><sup><i>d</i></sup>On AMIP standard pressure levels (= NCEP reanalysis levels): 1000, 925, 850, 700, 600, 500, 400, 300, 250, 200, 150, 100, 70, 50, 30, 20, 10 hPa.
+</p>
+<p></p><table border="">
+  <caption>
+  <b><i>Daily Surface Data</i></b>
+  </caption>
+  <tbody><tr>
+    <th> </th>
+    <th> CF Standard name </th>
+    <th> PCMDI name </th>
+    <th> Units </th>
+  </tr><tr>
+    <td> 1 </td>
+    <td> air_pressure_at_sea_level </td>
+    <td> psl </td>
+    <td> Pa </td>
+  </tr><tr>
+    <td> 2 </td>
+    <td> precipitation_flux </td>
+    <td> pr </td>
+    <td> kg m<sup>-2</sup> s<sup>-1</sup> </td>
+  </tr><tr>
+    <td> 3 </td>
+    <td> air_temperature<sup><i>a, e</i></sup> </td>
+    <td> tasmin </td>
+    <td> K </td>
+  </tr><tr>
+    <td> 4 </td>
+    <td> air_temperature<sup><i>a, f</i></sup> </td>
+    <td> tasmax </td>
+    <td> K </td>
+</tr></tbody></table>
+<p><sup><i>a</i></sup>Also known as "surface air temperature." Distinguish from 3-D air temperature by specifying a size-one dimension of height with coordinate value 2 m. <br>
+    <sup><i>e</i></sup>Daily minimum value. Designate by a cell_methods attribute specifying "time: minimum within days," where "time" is the name of the time dimension. <br>
+    <sup><i>f</i></sup>Daily maximum value. Designate by a cell_methods attribute specifying "time: maximum within days," where "time" is the name of the time dimension.</p>
+
+<!-- stopprint -->
+
