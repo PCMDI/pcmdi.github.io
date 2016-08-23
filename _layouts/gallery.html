@@ -2,19 +2,13 @@
 layout: default
 ---
 
-<style>
-
-div.item active{
-        width = "440";
-      height= "500";
-    }
-
-div.item{
-        width = "440";
-        height= "500";
-    }
-</style>
-
+ <style>
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      margin: auto;
+  }
+  </style>
 
 
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -31,7 +25,7 @@ div.item{
 
        <div class="item active">
             <a href="{{site.baseurl}}/about/staff/santer/Santer_etal_GRL_2015.pdf">
-       <img src="{{site.baseurl}}/Data/media/images/santer_GRL_2015.png" alt="santer">
+       <img src="{{site.baseurl}}/Data/media/images/santer_GRL_2015.png" alt="santer"  style="width:581px;height:700px;" >
       <div class="carousel-caption">
         <h3>Publication</h3>
         <p>Observed multivariable signals of late 20th
@@ -42,7 +36,7 @@ and early 21st century volcanic activity</p>
 
     <div class="item">
          <a href="{{site.baseurl}}/about/staff/santer/index.html">
-      <img src="{{site.baseurl}}/about/staff/santer/stil_32425_GAK_Ben Santer_Q5I0377_006.jpeg" alt="Santer">
+      <img src="{{site.baseurl}}/about/staff/santer/stil_32425_GAK_Ben Santer_Q5I0377_006.jpeg" alt="Santer"  style="width:940px;height:700px;">
       <div class="carousel-caption">
          <h3>Research Scientist</h3>
         <p>Dr. Benjamin D. Santer</p>
@@ -52,8 +46,8 @@ and early 21st century volcanic activity</p>
 
     <div class="item">
         <a href="{{site.baseurl}}/about/staff/Karl/nclimate2389.pdf">
-      <center><img src="{{site.baseurl}}/Data/media/images/nature2014.png" alt="Nature"></center>
-      <div class="carousel-caption">
+      <center><img src="{{site.baseurl}}/Data/media/images/nature2014.png" alt="Nature"  style="width:581px;height:700px;"></center>
+      <div class="carousel-caption" style="background-color:invisible;">
         <h3>Publication</h3>
         <p>Quantifying underestimates of long-term upper-ocean warming</p>
       </div>
