@@ -45,7 +45,7 @@ CMIP3 output from coupled ocean-atmosphere model simulations of 20th - 22nd cent
 
 ### CMIP2
 
-[Original Announcement]({{site.baseurl}}/projects/cmip/announ.html){: .indent}
+[Original Announcement]({{site.baseurl}}/projects/cmip2/){: .indent}
 
 ### CMIP2+ (closed to new contributions; open for data users)
 
