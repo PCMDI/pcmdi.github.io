@@ -70,7 +70,7 @@ input4MIPS (input datasets for Model Intercomparison Projects) is an activity to
 [ICME]:{{site.baseurl}}/projects/4MIPs/index.html
 [AMIP]:{{site.baseurl}}/projects/amip/amip.html
 [icmc]:http://www-pcmdi.llnl.gov/projects/amip/STATUS/incoming.html
-[CMIP]:{{site.baseurl}}/projects/about-cmip.html
+[CMIP]:{{site.baseurl}}/projects/cmip/about-cmip.html
 [CMIP3]:{{site.baseurl}}/projects/cmip3/home.html
 [CMIP2]:{{site.baseurl}}/projects/cmip2/
 [CMIP5]:{{site.baseurl}}/projects/cmip5/

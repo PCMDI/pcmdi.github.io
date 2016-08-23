@@ -21,46 +21,46 @@ CMIP3 output from coupled ocean-atmosphere model simulations of 20th - 22nd cent
 
 ### Previous CMIP experiments.
 
-[General Overview of CMIP Results](http://www-pcmdi.llnl.gov/projects/cmip/overview_ms/ms_text.php){: .indent}
+[General Overview of CMIP Results]({{site.baseurl}}/projects/cmip/overview_ms/ms_text.html){: .indent}
 
-[An Appraisal of CMIP2+ Simulations](http://www-pcmdi.llnl.gov/appraisal.php){: .indent}
+[An Appraisal of CMIP2+ Simulations]({{site.baseurl}}/projects/cmip/appraisal.html){: .indent}
 
-[AMIP-CMIP Comparison](http://www-pcmdi.llnl.gov/appraisal.php){: .indent}
+[AMIP-CMIP Comparison]({{site.baseurl}}/projects/cmip/appraisal.html){: .indent}
 
 [Table of Participating Models]({{site.baseurl}}/projects/cmip/Table.pdf){: .indent}
 
-[Model/Experiment Documentation](http://www-pcmdi.llnl.gov/projects/modeldoc/cmip/index.html){: .indent}
+[Model/Experiment Documentation]({{site.baseurl}}/projects/modeldoc/cmip/index.html){: .indent}
 
-[Diagnostic Subprojects for CMIP1, CMIP2, and CMIP2+](http://www-pcmdi.llnl.gov/projects/cmip/diagsub.php){: .indent}
+[Diagnostic Subprojects for CMIP1, CMIP2, and CMIP2+]({{site.baseurl}}/projects/cmip/diagsub.html){: .indent}
 
-[CMIP Abstracts Archive](http://www-pcmdi.llnl.gov/projects/cmip/abstracts.php){: .indent}
+[CMIP Abstracts Archive]({{site.baseurl}}/projects/cmip/abstracts.html){: .indent}
 
 ### CMIP1 (superseded by CMIP2 and CMIP2+)
 
-[Power Spectra of Global Mean Temperatures](http://www-pcmdi.llnl.gov/projects/cmip/Fig1.php)
+[Power Spectra of Global Mean Temperatures]({{site.baseurl}}/projects/cmip/overview_ms/ms_text.html)
 {: .indent}
 
-[Seasonal Cycle Climatology](http://www-pcmdi.llnl.gov/projects/cmip/scc.php)
+[Seasonal Cycle Climatology]({{site.baseurl}}/projects/cmip/scc.html)
 {: .indent}
 
 ### CMIP2
 
-[Original Announcement](http://www-pcmdi.llnl.gov/projects/cmip/announ.php){: .indent}
+[Original Announcement]({{site.baseurl}}/projects/cmip/announ.html){: .indent}
 
 ### CMIP2+ (closed to new contributions; open for data users)
 
-[Announcement](http://www-pcmdi.llnl.gov/projects/cmip/cmip2plusann.php)
+[Announcement]({{site.baseurl}}/projects/cmip/cmip2plusann.html)
 {: .indent}
 
-[Data Access Request Form](http://www-pcmdi.llnl.gov/projects/cmip/cmipform.php)
+[Data Access Request Form]({{site.baseurl}}/projects/cmip/cmipform.html)
 {: .indent}
 
-### 20C3M: 20th Century Climate in Coupled Models pilot project (superseded by [IPCC Model Output](http://www-pcmdi.llnl.gov/ipcc/about_ipcc.php))
+### 20C3M: 20th Century Climate in Coupled Models pilot project (superseded by [IPCC Model Output]({{site.baseurl}}/ipcc/about_ipcc.html))
 
-[Announcement](http://www-pcmdi.llnl.gov/projects/cmip/ann_20c3m.php)
+[Announcement]({{site.baseurl}}/projects/cmip/ann_20c3m.html)
 {: .indent}
 
-[Data Transmission Standards](http://www-pcmdi.llnl.gov/projects/cmip/std_20c3m.php)
+[Data Transmission Standards]({{site.baseurl}}/projects/cmip/std_20c3m.html)
 {: .indent}
 
 ### C4MIP: Coupled Carbon Cycle Climate Model Intercomparison Project
@@ -76,13 +76,13 @@ Protocol and forcing fields: <http://www.c4mip.cnrs-gif.fr/protocol.html>
 
 ### CMIP Coordinated Experiments
 
-[Description](http://www-pcmdi.llnl.gov/projects/cmip/coord_expt.php)
+[Description]({{site.baseurl}}/projects/cmip/coord_expt.html)
 {: .indent}
 
-[Correspondence](http://www-pcmdi.llnl.gov/projects/cmip/coord_expt_corr.php)
+[Correspondence]({{site.baseurl}}/projects/cmip/coord_expt_corr.html)
 {:.indent}
 
-[Publications](http://www-pcmdi.llnl.gov/projects/cmip/coord_expt_pubs.php)
+[Publications]({{site.baseurl}}/projects/cmip/coord_expt_pubs.html)
 {:.indent}
 
 Related Intercomparison Projects:
