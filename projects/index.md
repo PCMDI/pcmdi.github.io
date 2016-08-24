@@ -26,6 +26,7 @@ The Coupled Model Intercomparison Project Phase VI
 
 [Related Intercomparison Projects][related]
 
+#### [CMOR Tables][CMOR]
 ---
 
 # Detection and Attribution
@@ -67,30 +68,35 @@ input4MIPS (input datasets for Model Intercomparison Projects) is an activity to
 
 #### [Supplemental Material for Ken Sperber's Publication][KEN]
 
-[ICME]:{{site.baseurl}}/projects/4MIPs/index.html
+
+
 [AMIP]:{{site.baseurl}}/projects/amip/amip.html
-[icmc]:http://www-pcmdi.llnl.gov/projects/amip/STATUS/incoming.html
+[APE]:{{site.baseurl}}/projects/ape/index.html
+[ARM]:http://www.arm.gov/
+[ASR]:http://asr.science.energy.gov/
+[BER]:http://www.science.doe.gov/Program_Offices/BER.htm
+[CAPT]:{{site.baseurl}}/projects/capt/index.html
 [CMIP]:{{site.baseurl}}/projects/cmip/about-cmip.html
 [CMIP3]:{{site.baseurl}}/projects/cmip3/home.html
 [CMIP2]:{{site.baseurl}}/projects/cmip2/
 [CMIP5]:{{site.baseurl}}/projects/cmip5/
 [CMIP6]:{{site.baseurl}}/projects/cmip6/
 [CMD]:{{site.baseurl}}/projects/dcmp/index.html
-[SMIP]:http://www-pcmdi.llnl.gov/projects/smip/smip2.phpsmip
-[APE]:{{site.baseurl}}/projects/ape/index.html
+[CMOR]:{{site.baseurl}}/projects/cmorTable/index.html
+[DETC]:{{site.baseurl}}/projects/detection/index.html
+[DCMP]:{{site.baseurl}}/projects/model/index.html
+[DOI1]:http://dx.doi.org/doi:10.1029/2011JD016263
+[DOI2]:http://dx.doi.org/10.1002/joc.1756
+[icmc]:http://www-pcmdi.llnl.gov/projects/amip/STATUS/incoming.html
+[ICME]:{{site.baseurl}}/projects/4MIPs/index.html
+[KEN]:{{site.baseurl}}/about/staff/sperber/suplemental.html
+[OCME]:{{site.baseurl}}/projects/obs4MIPs/index.html
 [PMIP]:http://www-lsce.cea.fr/pmip2/
 [PMIP1]:http://www-lsce.cea.fr/pmip/
 [PMIP2]:http://www-lsce.cea.fr/pmip2/
 [related]:http://www.clivar.org/organization/wgcm/cmip.php
-[CAPT]:{{site.baseurl}}/projects/capt/index.html 
-[ASR]:http://asr.science.energy.gov/
-[BER]:http://www.science.doe.gov/Program_Offices/BER.htm
-[ARM]:http://www.arm.gov/
-[DOI1]:http://dx.doi.org/doi:10.1029/2011JD016263
-[DOI2]:http://dx.doi.org/10.1002/joc.1756
+[SMIP]:http://www-pcmdi.llnl.gov/projects/smip/smip2.phpsmip
 [synth]:http://www-pcmdi.llnl.gov/projects/msu/index.php
 [synth2011]:http://www-pcmdi.llnl.gov/projects/msu2011/index.php
-[DETC]:{{site.baseurl}}/projects/detection/index.html
-[DCMP]:{{site.baseurl}}/projects/model/index.html
-[OCME]:{{site.baseurl}}/projects/obs4MIPs/index.html
-[KEN]:{{site.baseurl}}/about/staff/sperber/suplemental.html
+
+

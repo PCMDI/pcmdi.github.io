@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Home
+group: "navigation"
 ---
 {% include hero.html %}
 
