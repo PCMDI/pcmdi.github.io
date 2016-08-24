@@ -1,12 +1,8 @@
-<?
+---
+layout: default
+title: PCMDI - CMIP2+ Data Access
+---
 
-$title = "PCMDI > WCRP CMIP2+ Model Output > CMIP2+ Data Access";
-$header_image = "http://www-pcmdi.llnl.gov/images/banner_ipcc.jpg";
-$welcome_image = "http://www-pcmdi.llnl.gov/images/headers/cmip_data_access.jpg";
-
-require ("http://www-pcmdi.llnl.gov/header.inc");
-
-?>
 
 <TITLE>CMIP2+ Data Access</TITLE>
 
@@ -31,8 +27,8 @@ interactive sea ice).
 A list of the models and the numerical experiments that produced the data is
 provided in an ASCII text file on the Web at
 <p>
-<a href = "http://www-pcmdi.llnl.gov/cmip/cmip2plus_models.txt">
-           http://www-pcmdi.llnl.gov/cmip/cmip2plus_models.txt</a>
+<a href = "{{site.baseurl}}/cmip/cmip2plus_models.txt">
+           {{site.baseurl}}/cmip/cmip2plus_models.txt</a>
 <p>
 The output is stored as monthly and daily means.
 
@@ -58,7 +54,7 @@ employs non-standard forcing in which sea ice is
 held constant throughout the increasing-CO2 run.
 Additional information about CMIP2 models
 is on the Web at
-<A HREF = "http://www-pcmdi.llnl.gov/cmip/Table.htm">http://www-pcmdi.llnl.gov/cmip/Table.htm.</A>
+<A HREF = "{{site.baseurl}}/cmip/Table.htm">{{site.baseurl}}/cmip/Table.htm.</A>
 
 <P>
 <H2>CMIP2+ model output is stored at NERSC</H2>
@@ -66,8 +62,8 @@ is on the Web at
 CMIP2+ model output is stored at the National Energy Reserach Supercompter Center (NERSC).
 You will need a NERSC account to download the data.
 To request an account for this purpose, use the form on the Web at
-<A HREF = "http://www-pcmdi.llnl.gov/cmip/cmipform.html">
-           http://www-pcmdi.llnl.gov/cmip/cmipform.html.</A>
+<A HREF = "{{site.baseurl}}/cmip/cmipform.html">
+           {{site.baseurl}}/cmip/cmipform.html.</A>
 <P>
 CMIP2+ output is stored at archive.nersc.gov, part of NERSC's High Performance Storage
 System (HPSS).
@@ -122,8 +118,8 @@ Variable
 name conventions are taken from AMIP2, as given on the
 Web at
 <P>
-<A HREF = "http://www-pcmdi.llnl.gov/amip/OUTPUT/AMIP2/outlist.html">
-http://www-pcmdi.llnl.gov/amip/OUTPUT/AMIP2/outlist.html</A>
+<A HREF = "{{site.baseurl}}/amip/OUTPUT/AMIP2/outlist.html">
+{{site.baseurl}}/amip/OUTPUT/AMIP2/outlist.html</A>
 <P>
 and from CMIP2, as listed in the readme_CMIP2 file mentioned above 
 <A HREF = "ftp://sprite.llnl.gov/pub/cmip2/readme_CMIP2">
@@ -147,8 +143,8 @@ CMIP2+ monthly mean time series begin with the month of January,
 HadCM2 output starts in September and HadCM3 output starts
 in December.
 In addition, as noted in the ASCII text file
-<a href = "http://www-pcmdi.llnl.gov/cmip/cmip2plus_models.txt">
-           http://www-pcmdi.llnl.gov/cmip/cmip2plus_models.txt,</a>
+<a href = "{{site.baseurl}}/cmip/cmip2plus_models.txt">
+           {{site.baseurl}}/cmip/cmip2plus_models.txt,</a>
 the HadCM3 perturbed run (but not the control
 run) is missing one month of output: the 237th month in the series is
 August but the 238th month is October rather than September.
@@ -237,8 +233,8 @@ at NERSC under directory
 /nersc/k/krishna/CMIP2Plus/mo.
 Organization of this data is similar to the atmosphere data; for details
 see the Web page
-<a href = "http://www-pcmdi.llnl.gov/cmip/OceanData">
-           http://www-pcmdi.llnl.gov/cmip/OceanData.</a>
+<a href = "{{site.baseurl}}/cmip/OceanData">
+           {{site.baseurl}}/cmip/OceanData.</a>
 As noted in that documentation, ocean output has not been processed yet
 for two models that employ non-retilinear coordinate systems (the
 PCM and the Community Climate System Model).
@@ -290,6 +286,6 @@ was for some reason included in that model's atmosphere output.
 
 <?
 
-require ("http://www-pcmdi.llnl.gov/footer.inc");
+require ("{{site.baseurl}}/footer.inc");
 
 ?>

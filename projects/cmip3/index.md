@@ -57,7 +57,7 @@ As of January 2007, over 35 terabytes of data were in the archive and over 337 t
 2. Follow the established procedure for preparing and transferring model output to the IPCC archive, as summarized in:
 * [Step-by-step procedure.](../../ipcc/data_transfer_procedure.html)
 * [List of requested simulations and standard model output.](../../ipcc/standard_output.html)
-* [Model output requirements.](../../ipcc/IPCC_output_requirements.htm)
+* [Model output requirements.](../../ipcc/IPCC_output_requirements.html)
 * [CMOR software](software/cmor/cmor_users_guide.pdf) for producing output conforming to IPCC requirements is available here.
 3. [Additional important requests and information](../../ipcc/info_for_modeling_groups.html)
 

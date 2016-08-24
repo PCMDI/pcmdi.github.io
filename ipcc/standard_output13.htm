@@ -1,9 +1,23 @@
----
-layout: default
-title: PCMDI - IPCC
----
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+   <META NAME="GENERATOR" CONTENT="Microsoft FrontPage 5.0">
+   <TITLE>IPCC Standard Output</TITLE>
+   <style>
+<!--
+div.Section1
+	{page:Section1;}
+span.GramE
+	{}
+ table.MsoNormalTable
+	{mso-style-parent:"";
+	font-size:10.0pt;
+	font-family:"Times New Roman"}
+-->
+   </style>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF">
 
-{{site.baseurl}}
 <CENTER>
 <H1>
 IPCC Standard Output from Coupled Ocean-Atmosphere GCMs</H1></CENTER>
@@ -160,8 +174,8 @@ mean precisely by this quantity?", may be found on the Web at
            http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html.</a></p>
 <p>
 <b><i>The detailed requirements</i></b> for CMIP / IPCC contributions are contained in the document
-<a href="{{site.baseurl}}.gov/ipcc/IPCC_output_requirements.htm">
-{{site.baseurl}}.gov/ipcc/IPCC_output_requirements.htm.</a>
+<a href="http://www-pcmdi.llnl.gov/ipcc/IPCC_output_requirements.htm">
+http://www-pcmdi.llnl.gov/ipcc/IPCC_output_requirements.htm.</a>
 This document should be read carefully before preparing contributions.
 Perhaps the easiest way to meet these requirements is to rewrite your model output through CMOR, 
 a software library available from PCMDI and further described in the next paragraph.
@@ -186,16 +200,16 @@ contain all variables for a single time step. </p>
 <p>
 To facilitate adherence to these standards, the PCMDI has written (in FORTRAN 90) a standard output code 
 called CMOR (pronounced "see more"; see
-<a href="http://cmor.llnl.gov/">cmor</a>), which is now available as open source.
+<a href="http://www-pcmdi.llnl.gov/software-portal/cmor">http://www-pcmdi.llnl.gov/software-portal/cmor</a>), which is now available as open source.
 This code structures the data uniformly and writes netCDF files in full compliance with IPCC requirements.
 Use of CMOR is being encouraged (and in some cases required) by various ongoing model intercomparison 
 projects. <span style="font-size: 12.0pt; font-family: Times New Roman">The CMOR 
 documentation in pdf format is available at
-<a href="http://cmor.llnl.gov/" style="color: blue; text-decoration: underline; text-underline: single">
-cmor_users_guide.pdf</a>, and the source
+<a href="http://www-pcmdi.llnl.gov/software/cmor/cmor_users_guide.pdf" style="color: blue; text-decoration: underline; text-underline: single">
+http://www-pcmdi.llnl.gov/software/cmor/cmor_users_guide.pdf</a>, and the source
 code is available at&nbsp;
-<a href="http://cmor.llnl.gov/" style="color: blue; text-decoration: underline; text-underline: single">
-/cmor/download</a>. </span>For further information, contact
+<a href="http://www-pcmdi.llnl.gov/software-portal/cmor/download" style="color: blue; text-decoration: underline; text-underline: single">
+http://www-pcmdi.llnl.gov/software-portal/cmor/download</a>. </span>For further information, contact
 <a href="mailto:taylor13@llnl.gov"> taylor13@llnl.gov.</a></p>
 <p>The notes that appear in the following tables are meant to provide precise 
 definitions of the requested fields.&nbsp; Sometimes it may be impossible to 
@@ -213,13 +227,13 @@ to calculate (or lack of agreement as to calculation method), 2) nominated late,
 &quot;highest priority&quot; tables had been officially released, or 3) generally 
 perceived to be of somewhat less interest than other fields. </p>
 <p>Some of the variables in the tables below were required for the original 1997 version of
-<a href="{{site.baseurl}}.gov/projects/cmip/announ.html">CMIP2</a> or  have been requested for contributions to the CMIP pilot project
+<a href="http://www-pcmdi.llnl.gov/projects/cmip/announ.php">CMIP2</a> or  have been requested for contributions to the CMIP pilot project
 "20th Century Climate in Coupled Models"
-(<a href="{{site.baseurl}}.gov/projects/cmip/ann_20c3m.html">20C3M</a>). Many of
+(<a href="http://www-pcmdi.llnl.gov/projects/cmip/ann_20c3m.php">20C3M</a>). Many of
 the additional fields were requested by AMIP, the atmosphere-only
 counterpart of CMIP in which ocean surface and sea ice boundary conditions are prescribed to
 match observations over the late 20th century (see
-<a href="{{site.baseurl}}.gov/projects/amip/OUTPUT/AMIP2/outlist.html">AMIP2 standard output).
+<a href="http://www-pcmdi.llnl.gov/projects/amip/OUTPUT/AMIP2/outlist.php">AMIP2 standard output).
 </a>&nbsp;Suggestions for additions or 
 changes to these tables are welcome and will be considered for future model 
 intercomparison and IPCC exercises.</p>
@@ -2503,7 +2517,7 @@ forcing.  These four fields should be a function of longitude latitude
 and time (monthly sampling).  No standard
 method for calculating radiative forcing has been agreed on by the
 WGCM, but one good option would be to follow the method suggested in Appendix A of a letter from the IPCC co-chairs 
-(see <a href="Appendix_A.html">{{site.baseurl}}.gov/ipcc/Appendix_A.html</a>).  The
+(see <a href="Appendix_A.php">http://www-pcmdi.llnl.gov/ipcc/Appendix_A.php</a>).  The
 highest priority (and easiest) calculation of this kind is to calculate
 monthly-mean values of radiative forcing for doubled CO2.
 Calculation of clear-sky radiative forcing as well as all-sky forcing
@@ -3374,7 +3388,7 @@ and &quot;global_ocean&quot;.</td>
 <h2>
 <a name="Experiments">Experiments and time periods for which data should be submitted:</a></h2>
 <p>A figure summarizing the reporting periods is available at
-<a href="{{site.baseurl}}.gov/ipcc/output_periods.pdf">{{site.baseurl}}.gov/ipcc/output_periods.pdf</a>, but more precise
+<a href="http://www-pcmdi.llnl.gov/ipcc/output_periods.pdf">http://www-pcmdi.llnl.gov/ipcc/output_periods.pdf</a>, but more precise
 information is provided below. The following table indicates for each IPCC simulation the years for which 
 output should be 
 submitted to the PCMDI archive.&nbsp; All time intervals should be interpreted 

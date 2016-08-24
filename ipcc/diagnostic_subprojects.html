@@ -1,3 +1,8 @@
+---
+layout: default
+title: PCMDI - WCRP CMIP#
+---
+
 <?
 
 $title = "PCMDI > WCRP CMIP3 Model Output > Diagnostic Subprojects";
@@ -8,7 +13,7 @@ require ("http://www-pcmdi.llnl.gov/header.inc");
 
 // ==========================================================
 
-require_once("/pcmdi_web/include/header.php");
+require_once("/pcmdi_web/include/header.html");
 
 $sql = "SELECT S.ipcc_subproject_id, S.title, S.pi_first_name, S.pi_last_name, S.institution, ";
 $sql .= "P.ipcc_publication_id, P.is_active FROM pcmdi_web.ipcc_subprojects AS S ";
@@ -28,7 +33,7 @@ $projectsCount = $db->getOne("SELECT COUNT(*) FROM pcmdi_web.ipcc_subprojects WH
 <table width="100%">
     <tr>
         <td valign="top">
-            <b>WCRP CMIP3 Subprojects</b> | <a href="subproject_publications.php"><b>Subproject Publications</b></a>
+            <b>WCRP CMIP3 Subprojects</b> | <a href="subproject_publications.html"><b>Subproject Publications</b></a>
         </td>
         <td align="right" valign="top">
             <p>Last Updated: 2007-07-25<br>Current Total: <?php print $projectsCount; ?> subprojects</p>
@@ -70,7 +75,7 @@ for ($i = 0; $i < count($projectsArray); $i++)
 	}
 	echo "<tr>";
 
-	echo "<td style=\"background-color: $rowcolor\"><a href=\"project_detail.php?ipcc_subproject_id=" . $curProject["ipcc_subproject_id"] . "\">" . $curProject["title"] . "</a></td>";
+	echo "<td style=\"background-color: $rowcolor\"><a href=\"project_detail.html?ipcc_subproject_id=" . $curProject["ipcc_subproject_id"] . "\">" . $curProject["title"] . "</a></td>";
 	echo "<td style=\"background-color: $rowcolor\">";
 	echo $curProject["pi_first_name"] . " " . $curProject["pi_last_name"];
 	if (isset($curProject["additional_pis"]) && $curProject["additional_pis"] != "")
@@ -83,7 +88,7 @@ for ($i = 0; $i < count($projectsArray); $i++)
 
     if ($curProject['ipcc_publication_id'] != 0 && $curProject['is_active'] == 1)
     {            
-        echo '<a href="abstract.php?ipcc_publication_id=' . $curProject['ipcc_publication_id'] . '&r=subprojects">Pub 1</a>';
+        echo '<a href="abstract.html?ipcc_publication_id=' . $curProject['ipcc_publication_id'] . '&r=subprojects">Pub 1</a>';
     }
     else
     {
@@ -98,7 +103,7 @@ for ($i = 0; $i < count($projectsArray); $i++)
     {
         if ($projectsArray[$offset]['ipcc_publication_id'] != 0 && $projectsArray[$offset]['is_active'] == 1)
         {            
-            echo ', <a href="abstract.php?ipcc_publication_id=' . $projectsArray[$offset]['ipcc_publication_id'] . '&r=subprojects">Pub ' . ($offset - $first_offset + 2) . '</a>';
+            echo ', <a href="abstract.html?ipcc_publication_id=' . $projectsArray[$offset]['ipcc_publication_id'] . '&r=subprojects">Pub ' . ($offset - $first_offset + 2) . '</a>';
         }
         else
         {

@@ -1,12 +1,7 @@
-<?
-
-$title = "PCMDI > WCRP CMIP3 Model Output > Data Transfer Procedure";
-$header_image = "http://www-pcmdi.llnl.gov/images/banner_ipcc.jpg";
-$welcome_image = "http://www-pcmdi.llnl.gov/images/headers/ipcc_data_status.jpg";
-
-require ("http://www-pcmdi.llnl.gov/header.inc");
-
-?> 
+---
+layout: default
+title: PCMDI - Procedure for Preparing and Transferring Model Output to PCMDI
+---
 
 <p align="center"><font size="4">Procedure for Preparing and Transferring 
                         Model Output to PCMDI</font></p>
@@ -14,18 +9,18 @@ require ("http://www-pcmdi.llnl.gov/header.inc");
                           <li>
                           <p style="margin-top: 0; margin-bottom: 12">The simulations called for by the WGCM Climate Simulation Panel and summarized in the last table at end of the document (
                           <a href="standard_output.html">
-                          http://www-pcmdi.llnl.gov/ipcc/standard_output.html
+                          {{site.baseurl}}/ipcc/standard_output.html
                           </a>) should be run. &nbsp;Monthly-mean, daily and 3-hourly output fields (listed in the other tables of that document) should all be saved for the specified time periods.
                             <br>                          
                           <li>
                           <p style="margin-top: 0; margin-bottom: 12">Model 
                           output will have to be rewritten to conform to the IPCC requirements for model output (see
-                          <a href="http://www-pcmdi.llnl.gov/ipcc/IPCC_output_requirements.htm">
-                          http://www-pcmdi.llnl.gov/ipcc/IPCC_output_requirements.htm
+                          <a href="{{site.baseurl}}/ipcc/IPCC_output_requirements.htm">
+                          {{site.baseurl}}/ipcc/IPCC_output_requirements.htm
                           </a>).&nbsp; The easiest way to meet these requirements may be to rely on a FORTRAN 90 software library (called CMOR) developed by PCMDI and documented at:
-                          <a href="http://www-pcmdi.llnl.gov/software/cmor/cmor_users_guide.pdf">
-                          http://www-pcmdi.llnl.gov/software/software/cmor/cmor_users_guide.pdf</a>.&nbsp; CMOR can be obtained at:
-                          <a href="http://www-pcmdi.llnl.gov/software-portal/cmor/">http://www-pcmdi.llnl.gov/software-portal/cmor/</a>.&nbsp;
+                          <a href="http://cmor.llnl.gov/"> http://cmor.llnl.gov/
+                          </a>.&nbsp; CMOR can be obtained at:
+                          <a href="http://cmor.llnl.gov/">cmor</a>.&nbsp;
                             <br>                          
                           <li>
                           <p style="margin-top: 0; margin-bottom: 12">Before producing hundreds of gigabytes of rewritten output, a small sample of &nbsp;the output should be ftp'd to PCMDI where it will be checked for conformance with the IPCC requirements.&nbsp; The following data should be included in the sample: 
@@ -175,8 +170,3 @@ require ("http://www-pcmdi.llnl.gov/header.inc");
                         <p>[table] = A1, A2, A3, A4, A5, or O1 </p>
                         <p>[run] = run1, run2, run3 ... (indicating different members of an ensemble; if only a single run will be performed, please retain this subdirectory with the name 'run1') </p>
 
-<?
-
-require ("http://www-pcmdi.llnl.gov/footer.inc");
-
-?>
