@@ -1,0 +1,295 @@
+<?
+
+$title = "PCMDI > WCRP CMIP2+ Model Output > CMIP2+ Data Access";
+$header_image = "http://www-pcmdi.llnl.gov/images/banner_ipcc.jpg";
+$welcome_image = "http://www-pcmdi.llnl.gov/images/headers/cmip_data_access.jpg";
+
+require ("http://www-pcmdi.llnl.gov/header.inc");
+
+?>
+
+<TITLE>CMIP2+ Data Access</TITLE>
+
+<H1><CENTER>Accessing CMIP2+ Data</CENTER></H1>
+    <CENTER>Curt Covey and Krishna AchutaRao</CENTER>
+    <CENTER>Program for Climate Model Diagnostics and Intercomparison</CENTER>
+    <CENTER>Lawrence Livermore National Laboratory</CENTER>
+<P>
+    <CENTER>fax: 1-925-422-7675</CENTER>
+    <CENTER>email for atmosphere inquiries: <A HREF = "mailto:covey1@llnl.gov">covey1@llnl.gov</A></CENTER>
+    <CENTER>email for ocean / sea ice inquiries: <A HREF = "mailto:achutarao1@llnl.gov">achutarao1@llnl.gov</A></CENTER>
+<P>
+    <CENTER>19 July 2004</CENTER>
+
+<P>
+<H2>Introduction</H2>
+<P>
+Enhanced CMIP2 (or "CMIP2+") data from the Coupled Model Intercomparison Project
+includes a fairly complete set
+of atmospheric and oceanic output variables from twelve coupled ocean-atmosphere GCMs (including
+interactive sea ice).
+A list of the models and the numerical experiments that produced the data is
+provided in an ASCII text file on the Web at
+<p>
+<a href = "http://www-pcmdi.llnl.gov/cmip/cmip2plus_models.txt">
+           http://www-pcmdi.llnl.gov/cmip/cmip2plus_models.txt</a>
+<p>
+The output is stored as monthly and daily means.
+
+
+Before exploring this database, it is advisable to check
+a similar but
+more condensed (CMIP2) set of the data
+from a somewhat different set of models.  
+In addition to its smaller volume, 
+the CMIP2 data is more uniformly formatted than the CMIP2+ data,
+and is thus easier to work with.
+CMIP2 data
+includes monthly mean precipitation, sea level
+pressure and surface air temperature (but not
+SST). CMIP2 output can be downloaded by
+anonymous FTP:
+<P>
+<A HREF = "ftp://sprite.llnl.gov/pub/cmip2">ftp://sprite.llnl.gov/pub/cmip2</A>
+<P>
+Consult the readme_CMIP2 file for details.
+Note that one of the models (YONU)
+employs non-standard forcing in which sea ice is
+held constant throughout the increasing-CO2 run.
+Additional information about CMIP2 models
+is on the Web at
+<A HREF = "http://www-pcmdi.llnl.gov/cmip/Table.htm">http://www-pcmdi.llnl.gov/cmip/Table.htm.</A>
+
+<P>
+<H2>CMIP2+ model output is stored at NERSC</H2>
+<P>
+CMIP2+ model output is stored at the National Energy Reserach Supercompter Center (NERSC).
+You will need a NERSC account to download the data.
+To request an account for this purpose, use the form on the Web at
+<A HREF = "http://www-pcmdi.llnl.gov/cmip/cmipform.html">
+           http://www-pcmdi.llnl.gov/cmip/cmipform.html.</A>
+<P>
+CMIP2+ output is stored at archive.nersc.gov, part of NERSC's High Performance Storage
+System (HPSS).
+The default method for data transfer to or from HPSS is now FTP with
+remote automatic authentication.  Detailed instructions for this method
+are on the Web at 
+<A HREF = "http://hpcf.nersc.gov/storage/hpss/ftp_nopass.html">
+           http://hpcf.nersc.gov/storage/hpss/ftp_nopass.html.</A>
+NERSC will not allow FTP to or from HPSS with clear text passwords.
+Remote automatic authentication is also required for an alternative
+method of communication with HPSS, the High Speed Interface (HSI).  HSI
+is basically a more sophisticated version of FTP that is better behaved
+in transfering large data sets.  To use this method, you will need to
+download the HSI code to your local machine (see
+<A HREF = "http://hpcf.nersc.gov/storage/hpss/#hsiaccess">
+           http://hpcf.nersc.gov/storage/hpss/#hsiaccess).</A>
+<p>
+Remote automatic authentication can have troublesome interaction with
+firewalls.  If you experience difficulties, your first course of action
+should be to e-mail a full transcript of your session, together with the
+time you attempted to log on and the name of the local computer you were
+using, to consult@nersc.gov.  (You can also reach NERSC consultants by
+phoning 1-800-66NERSC during weekdays, California time.)  If you have
+problems that are not resolved quickly, please let us know.
+<P>
+<H2>Atmosphere output</H2>
+<p>
+Monthly mean atmosphere
+output is available under directory /nersc/afu/u5024/CMIP2Plus/mo.  
+The output is sorted by variable name:
+subdirectories are names of variables and each subdirectory
+contains output from all models providing the given variable.
+Thus a listing of all available variables can be obtained,
+using HSI to connect with archive.nersc.gov, 
+by "cd"-ing to /nersc/afu/u5024/CMIP2Plus/mo and 
+listing its subdirectories by issuing the command "ls".
+<P>
+Output from both control runs and 1% per year increasing
+CO2 scenarios (or "perturbed" runs) is included.  
+Not all models appear under 
+each field, because they store data in different ways --
+e.g., some save upward solar flux at the top of the 
+atmosphere while others store net downward -- and because
+output fields from different models are different.
+Even output fields from different runs of the same model
+are not necessarily identical.
+For example, the HadCM2 control run, but
+not the HadCM2 perturbed run, includes specific humidity in
+its output.
+<P>
+Variable
+name conventions are taken from AMIP2, as given on the
+Web at
+<P>
+<A HREF = "http://www-pcmdi.llnl.gov/amip/OUTPUT/AMIP2/outlist.html">
+http://www-pcmdi.llnl.gov/amip/OUTPUT/AMIP2/outlist.html</A>
+<P>
+and from CMIP2, as listed in the readme_CMIP2 file mentioned above 
+<A HREF = "ftp://sprite.llnl.gov/pub/cmip2/readme_CMIP2">
+(ftp://sprite.llnl.gov/pub/cmip2/readme_CMIP2).</A>
+An additional
+naming convention involves net fluxes
+at the surface and the top of the atmosphere:
+"rlns", "rsns", "rsnscs" and "rsnt" are
+net (difference between upward and downward) fluxes 
+analogous to AMIP standard variables "rlus", "rlds", 
+"rsus", etc.
+In some cases variables do not fall under either AMIP or
+CMIP naming conventions.  These variables have the names
+assigned to them by the original modeling groups.
+For example, "cl_hi", "cl_lo" and "cl_med" are
+high, low and medium-height cloud fractions from 
+the NCAR CCM3, and "cloud" is 3D cloud amount from GFDL.
+<P>
+CMIP2+ monthly mean time series begin with the month of January,
+<EM>with the exception of the Hadley Center Models</EM>:
+HadCM2 output starts in September and HadCM3 output starts
+in December.
+In addition, as noted in the ASCII text file
+<a href = "http://www-pcmdi.llnl.gov/cmip/cmip2plus_models.txt">
+           http://www-pcmdi.llnl.gov/cmip/cmip2plus_models.txt,</a>
+the HadCM3 perturbed run (but not the control
+run) is missing one month of output: the 237th month in the series is
+August but the 238th month is October rather than September.
+Time coordinates for the various models can be confusing, so
+for monthly mean data it's
+generally a good idea to access time points by index rather
+than the value of the time coordinate.
+<p>
+Coordinates of the standard atmosphere output are the ones provided
+by the contributing modelers. In some cases the vertical coordinate is
+pressure; in others it is "sigma" or a hybrid sigma-pressure coordinate.
+In CSIRO model output the vertical coordinate is incorrectly named
+"zt_k" due to a mistake made in formatting the data for CMIP.
+Vertical coordinate values for this model are actually pressure (in hPa)
+divided by 1000;
+the pressure coordinate values, however, are not round numbers.
+Specific humidity (hus) from the Hadley Center models was provided on model 
+sigma levels, whereas relative humidity (hur) and other atmospheric fields
+were provided on standard pressure levels.
+Of course hur can be converted to hus on the
+given pressure levels using atmospheric temperature.
+<p>
+In additon to providing model output in original vertical coordinates, the PCMDI
+has done interpolation to 18 WMO standard pressure levels (compatible
+with NCEP and ECMWF reanalysis products) for selected monthly mean fields from CSIRO and 
+from the models
+that did not supply output on pressure levels, namely CSM1, GFDL and PCM.
+Results are available in directory /nersc/afu/u5024/CMIP2Plus/mo/PInterpolated.
+They include hus, ua, va, ta and zg (except that zg was not provided by CSIRO).
+<p>
+Daily mean atmosphere output from a subset of the
+CMIP2+ models is also available at NERSC, under directory
+/nersc/afu/u5024/CMIP2Plus/da.
+Subdirectories under this main directory store the data by
+variable name, as with monthly mean output.
+Some files are divided by time segment to keep the file size
+within reasonable limits.
+In these cases the file name indicates the time segment as
+well as the variable and the model.
+For example, ua_pcm_con_d_4000_4999.nc
+contains zonal wind ("ua") from the PCM control run for days 4000-4999.
+The numbering scheme for days starts with 0 on the first day
+of the output.
+The time coordinate is usually in the form "days since [year]-[month]-[day]."
+Note that the CCSM, CSM, CSIRO, GFDL, MRI and PCM models employ a calendar of 365 days per
+year with no leap years, and that ECHAM4/OPYC3, ECHO-G and the Hadley Center models
+employ a calendar of 360 days per year (each month has 30 days).
+Let Curt know if you need help figuring out the calendar dates
+of daily output.
+<p>
+Daily frequency output from three late-arriving CMIP2+ models,
+ECHAM4/OPYC3, ECHO-G and MRI, is stored as it was received (without any 
+formatting or other processing at the PCMDI) under NERSC directories
+/nersc/afu/u5024/CMIP2Plus/[model_name].
+The file names make it fairly obvious which time periods are
+covered by this output.
+For example, ECHAM4/OPYC3 output file names end in a year/month (yyyymm) designation.
+(ECHAM4/OPYC3 output is missing for yyymm = 27310-27312 and 27410-27503.)
+<p>
+Please note that GFDL's daily mean 
+output from the increasing-CO2
+scenario is taken from a different
+run (of the same model) than the analogous monthly mean output.
+The monthly mean increasing-CO2 output is from the run designated by
+GFDL as R30_1PCT_B.
+The daily mean increasing-CO2 output is from the run designated by
+GFDL as R30_1PCT_C.
+The "C" run is just a different ensemble member with the same forcing
+but different initial conditions.
+<p>
+For GFDL daily mean control run output,
+the data in /nersc/afu/u5024/CMIP2Plus/da includes 
+GFDL-defined Years 261-425
+(which correspond to Days 0-60224 in the
+file nomenclature discussed above).
+Daily output from Years 131-425 was supplied to CMIP2+
+from GFDL, but gaps were present in the data before Year 261.
+We decided not to process this data; it is available on request in its
+orginal format.
+
+<p>
+<h2>Ocean output</h2>
+<p>
+Monthly mean ocean and sea ice output is available 
+at NERSC under directory 
+/nersc/k/krishna/CMIP2Plus/mo.
+Organization of this data is similar to the atmosphere data; for details
+see the Web page
+<a href = "http://www-pcmdi.llnl.gov/cmip/OceanData">
+           http://www-pcmdi.llnl.gov/cmip/OceanData.</a>
+As noted in that documentation, ocean output has not been processed yet
+for two models that employ non-retilinear coordinate systems (the
+PCM and the Community Climate System Model).
+We hope to process this data in the near future. 
+
+<P>
+<H2>Final notes</H2>
+<p>
+Both control run output and perturbed case output is available from
+the first version of the Community Climate System Model (CSM1).
+Control run output is now available from the second version of this model
+(CCSM2).
+The second version's output should be used instead of the first version's
+output where feasible.
+The second version's output is available in a special NERSC directory,
+/nersc/mp193/mwehner/ccsm2.0/b20.007.
+Alternatively, this output may be obtained directly from the NCAR mass
+storage system.
+<P>
+Both CMIP2 and CMIP2+ data are stored in NetCDF, a commonly used
+format in atmospheric research.
+Users of GrADS should be able to read this data if they are using
+a recent version of GrADS.
+Older versions
+of GrADS can't handle time units expressed as months
+since a base time, as is the case for several CMIP2+ output
+sets.
+<P>
+For CMIP2+, we have attempted to archive all the
+atmosphere data we received except for some truly obscure fields that 
+even the modelers thought would not interest anyone.
+We have also processed and archived most but not all of the ocean and sea
+ice data.
+If there are fields your subproject needs that are not 
+in the database, please let us know and we'll look 
+around for them.
+<P>
+Some CMIP2+ ocean and sea ice data was provided to us as part of
+the "atmosphere" component of model output and is stored at NERSC
+accordingly, in directory /nersc/afu/u5024/CMIP2Plus/mo. 
+In most cases this data simply duplicates a subset of the ocean data
+in the atmosphere's coordinates.
+For example,
+SST was included (with ground surface temperature) in the
+atmosphere output of most models as variable "ts", and GFDL's sea ice thickness
+was for some reason included in that model's atmosphere output.
+
+<p>
+
+<?
+
+require ("http://www-pcmdi.llnl.gov/footer.inc");
+
+?>

@@ -1,0 +1,18 @@
+<?
+
+$title = "PCMDI";
+$header_image = "images/banner_pcmdi.jpg";
+$welcome_image = "images/headers/welcome_to_pcmdi.jpg";
+
+require ("header.inc");
+
+?>
+                        <p align="left"><b>IPCC Standard Output </b></p>
+                        <p>Much of the output from the coupled ocean-atmosphere GCM simulations that are being performed in support of the IPCC process will be archived at PCMDI and then distributed for analysis to IPCC Working Group 1 under policies developed by IPCC and the WGCM.&nbsp; The following three documents contain the specifications and requirements for this model output: </p>
+                        <p><a href="standard_output.html">Standard output description</a>: the list of experiments, the fields that should be saved, and the periods for which they will be analyzed. </p>
+                        <p><a href="IPCC_output_requirements.htm">Output requirements</a>: the specifications for writing the standard output. </p>
+                        <p><a href="#">CMOR Software</a>: a fortran code that facilitates adherence to the output requirements. </p>
+                        <p><a href="data_transfer_procedure.php">Data transfer procedure</a>: procedure for preparing and transferring model output to PCMDI. </p>
+                      <!-- InstanceEndEditable -->
+</body>
+<!-- InstanceEnd --></html>

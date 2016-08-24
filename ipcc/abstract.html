@@ -1,0 +1,191 @@
+<?
+
+$title = "PCMDI > WCRP CMIP3 Model Output > Diagnostic Subprojects";
+$header_image = "http://www-pcmdi.llnl.gov/images/banner_projects.jpg";
+$welcome_image = "http://www-pcmdi.llnl.gov/images/headers/diagnostic_subprojects.jpg";
+
+require ("http://www-pcmdi.llnl.gov/header.inc");
+
+// ==========================================================
+
+require_once("/pcmdi_web/include/header.php");
+
+$ipcc_subproject_id = 0;
+$ipcc_publication_id = 0;
+$r = 0;
+
+if (isset($_REQUEST['ipcc_subproject_id']))
+	$ipcc_subproject_id = $_REQUEST["ipcc_subproject_id"];
+if (isset($_REQUEST['ipcc_publication_id']))
+    $ipcc_publication_id = $_REQUEST['ipcc_publication_id'];
+if (isset($_REQUEST['r']))
+    $r = $_REQUEST['r'];
+
+
+$sql = "SELECT * FROM pcmdi_web.ipcc_subprojects WHERE ipcc_subproject_id='" . mysql_real_escape_string($ipcc_subproject_id) . "'";
+$curProject = $db->getRow($sql);
+
+$sql = "SELECT * FROM pcmdi_web.ipcc_publications WHERE ipcc_publication_id='" . mysql_real_escape_string($ipcc_publication_id) . "' AND is_active='1'";
+$pub = $db->getRow($sql);
+
+?> 
+
+
+<?php 
+
+if ($ipcc_subproject_id != 0)
+{
+?>
+
+    <a href="project_detail.php?ipcc_subproject_id=<?php print $ipcc_subproject_id; ?>"><< Back to Subproject Details</a>
+
+<?php
+}
+else if (!$r)
+{
+?>
+
+    <a href="subproject_publications.php"><< Back to WCRP CMIP3 Subproject Publications</a>
+
+<?php
+}
+else
+{
+?>
+
+    <a href="diagnostic_subprojects.php"><< Back to WCRP CMIP3 Subprojects</a>
+
+<?php
+}
+?>
+
+
+<br><br>
+
+<div style="font-size: 14pt">
+
+    <ul style="list-style: none; margin-left: 0; padding-left: 1em; text-indent: -1em; margin-top: 0px; margin-botom: 0px; padding-top: 0px; padding-bottom: 0px;">
+
+<?php
+
+    $citation = $pub['authors'] . ', ';
+
+    if ($pub['year'] != '')
+    {
+        $citation.= $pub['year'] . ': ';
+    }
+
+    $citation .= $pub['title'] . '. ';
+                       
+    if ($pub['journal'] != '')
+    {
+        $citation .= '<i>' . $pub['journal'] . '</i>';
+
+        if ($pub['volume'] != '' || $pub['pages'] != '' || $pub['doi_id'] != '')
+        {
+            if ($pub['volume'] != '')
+            {
+                $citation .= ', <b>' . $pub['volume'] . '</b>';
+            }
+            if ($pub['pages'] != '')
+            {
+                $citation .= ', ' . $pub['pages'];
+            }
+                        
+            if ($pub['doi_id'] != '')
+            {
+                $citation .= ', ' . $pub['doi_id'];
+            }
+                        
+            $citation .= '. ';
+        }
+        else 
+        {
+            $citation .= '. ';
+        }   
+    }
+                        
+    if ($pub['status'] == 'in_preparation')
+    {
+        $citation .= 'In preparation. ';
+    }
+    else if ($pub['status'] == 'submitted')
+    {
+        $citation .= 'Submitted. ';
+    }
+    else if ($pub['status'] == 'accepted')
+    {
+        $citation .= 'Accepted. ';
+    }
+    else if ($pub['status'] == 'in_press')
+    {
+        $citation .= 'In press. ';
+    }
+
+    print '<li>' . $citation . '</li>';
+
+?>
+</ul>
+</div>
+
+<p>
+<?php print nl2br($pub['abstract']); ?>
+</p>
+
+<br>
+
+<?php
+
+if ($pub['url'] != '')
+{
+
+?>
+
+<p><b>Full Article:</b> <?php print '<a href="' . $pub['url'] . '">' . $pub['url'] . '</a>'; ?></p>
+
+<?php
+
+}
+
+?>
+
+
+<p>
+Last Updated: <?php $datetime = explode(" ", $pub['modified_datetime']); print $datetime[0]; ?>
+</p>
+
+
+<?php 
+
+if ($ipcc_subproject_id != 0)
+{
+?>
+
+    <a href="project_detail.php?ipcc_subproject_id=<?php print $ipcc_subproject_id; ?>"><< Back to Subproject Details</a>
+
+<?php
+}
+else if (!$r)
+{
+?>
+
+    <a href="subproject_publications.php"><< Back to WCRP CMIP3 Subproject Publications</a>
+
+<?php
+}
+else
+{
+?>
+
+    <a href="diagnostic_subprojects.php"><< Back to WCRP CMIP3 Subprojects</a>
+
+<?php
+}
+?>
+
+
+<?
+
+require ("http://www-pcmdi.llnl.gov/footer.inc");
+
+?>

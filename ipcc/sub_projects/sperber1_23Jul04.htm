@@ -1,0 +1,71 @@
+<html>
+<body>
+
+<title>
+</title><h1>Madden-Julian Oscillation in General Circulation Models
+</h1>
+
+<br>Kenneth R. Sperber
+<br>Program for Climate Model Diagnosis and Intercomparison
+<br>Lawrence Livermore National Laboratory
+<br>P.O. Box 808, L-103
+<br>Livermore, CA 94550 USA
+<br>
+<br>sperber1@llnl.gov
+
+<p>
+The Madden-Julian Oscillation (MJO) dominates the convective signal over the
+tropical Eastern Hemisphere, with teleconnections extending into the extratropics
+due to the large-scale convective extent and duration of the MJO convective
+anomalies. A methodology is utilized to analyze in a standardized fashion the MJO
+in general circulation models. This is attained by projecting 20-100 day bandpass
+filtered outgoing longwave radiation (OLR) from the models onto the two leading
+empirical orthogonal functions (EOFs) of observed OLR that characterize the
+propagation of MJO convection from the Indian Ocean to the central Pacific Ocean.
+The resulting principal component time series are then screened to isolate boreal
+winters during which they exhibit a lead-lag relationship consistent with
+observations. This PC subset is used for linear regression to determine the ability
+of the models to simulate the observed space-time variability of the MJO. Analysis
+of control integrations of the CMIP2+ models indicates that the vast majority of
+models underestimate the amplitude of the MJO convective anomalies by a factor of
+two or more, and the eastward propagation of convection is less coherent than
+observed, typically. For a given family of models, coupling to an ocean leads to
+better organization of the large-scale convection. The low-level moisture
+convergence mechanism for eastward propagation of the MJO is represented in limited
+cases, as is the vertical structure of moisture and divergence. The analysis of the
+CMIP2+ models provides a frame of reference for evaluating improvement in the
+simulation of the MJO in the IPCC control simulations.
+<p>
+It is envisioned that the IPCC control runs will first be analyzed to determine the
+models that give the most realistic representation of the MJO based on the
+afore-mentioned diagnostics. With this subset of models the climate change
+integrations will be analyzed to ascertain anthropogenically forced perturbations
+to this important mode of variability. Previous work by Slingo et al. (1999, QJRMS,
+125, 583-609) has demonstrated an increased amplitude of observed MJO variability
+as the tropics warmed in the post-1976 regime transition compared to earlier
+decades. This suggests that additional warming due to anthropogenic climate change
+may strongly influence the MJO. During years when the MJO is active, the tendency
+is for below-normal rainfall over Austral-Asia, mainly due to reduced convection
+during the suppressed phase of the MJO. If the MJO becomes stronger in the future,
+this may have dire consequences for the agricultural based economies of the
+tropics.
+<p>
+<h3>Data Requirements</h3>
+<p>
+Daily mean 2-d atmosphere data (Table A2a):
+psl, pr, tas, hfls, hfss, rsus, uas, vas, rlut.
+<i>Note</i>:
+In an apparent oversight, daily sea-surface temperature (SST) was not included in
+the requested standard output. I feel strongly that SST should be added to the list
+of daily output. This is a variable of great interest for MJO, being related to
+surface wind and latent heat flux anomalies. The strength of the SST anomalies may
+be important for modulating the eastward propagation of the MJO.
+<p>
+Daily mean 3-d atmosphere data (Table A2b):
+ua, va, hu.
+
+<?
+
+require ("footer.inc");
+
+?>

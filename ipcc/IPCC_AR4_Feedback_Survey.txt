@@ -1,0 +1,100 @@
+Dear IPCC analyst,
+
+Although the IPCC publication deadline has passed, we plan to continue support 
+of the multi-model dataset at PCMDI which most of you have accessed.  We 
+expect the current database to be the basis for continued scientific investigation.
+
+We are writing to ask you for input to to assist us in preparing an improved data 
+service for the next round of simulations (likely to become available a few years 
+from now).  There is an expectation that different parts of the future multi-model 
+database will be archived at multiple modeling centers and a few data centers 
+around the world, and the data will be accessible through a common portal.  The 
+user will be able to search and retrieve the data as if it were all at a single location.
+
+As we plan for this, we would like your input concerning some specific items 
+below and, more generally, your thoughts concerning what your needs will be.  
+Do not feel obliged to answer every questions; any input you provide will be helpful.
+
+========================================================================================
+Please return the completed survey to: williams13@llnl.gov.  
+Your input is needed by September 11th to be most useful. 
+========================================================================================
+
+1. First, please rate the following items, according to the priority you think they 
+deserve (high, medium, or low) :
+
+a) Improved search capability.
+
+b) Improved publication of errata.
+
+c) Improved notice of new data availability.
+
+We are aware that the registration procedure was confusing for some of you, 
+and we will work to simplify it.  If you have suggestions as to what features 
+should be included in any of the above, please provide them here:
+
+
+
+2. To what extent did you use the data portal (https://esg.llnl.gov:8443/index.jsp),
+and to what extent did you obtain data via ftp?
+
+
+
+3. Would extracting a subset of the data in a file be really useful? (e.g., only 
+a certain region, only a few time-slices, only a single layer)?  What about 
+aggregating data from several files into a single file?
+
+
+
+4. Would you have preferred to obtain data that had to some extent already 
+been processed on the server side?  (e.g., climatology computed for some 
+standard period or a zonal mean).  If so, specify what type of calculations.
+
+
+
+5.  What dissimilarities in the way the output from different models was 
+stored caused you the most headaches, and how important would it be to 
+impose more uniformity?
+
+
+
+6.   Please share with us any negative or positive experiences you had 
+dealing with the database at PCMDI.  In particular, what is the single 
+thing you would most like to see fixed or improved?
+
+
+
+
+Finally, we are working with our colleagues at several other climate 
+research centers to develop software capabilities that help address 
+the longer term needs of our community.  Please think expansively 
+as you provide guidance concerning the following:
+
+a) What problems in obtaining and analyzing data do you foresee that 
+a more powerful portal or integrated network for sharing and analyzing 
+climate data could help solve?
+
+
+
+
+b) Are there other tools, services, or capabilities related to serving, 
+sharing and analyzing climate data that you would find useful if they 
+could be integrated into a data portal system?
+
+
+
+
+c) Do you have any other comments as to what a future data portal 
+system should offer? 
+
+
+
+
+========================================================================================
+
+Thank you very much for your input.  Your suggestions will help 
+improve our service to you.
+
+Sincerely yours,
+Karl Taylor and Dean Williams
+PCMDI

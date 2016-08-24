@@ -1,0 +1,22 @@
+<?php
+
+$title = "PCMDI > WCRP CMIP3 Model Output > WCRP CMIP3 Data Status";
+$header_image = "http://www-pcmdi.llnl.gov/images/banner_ipcc.jpg";
+$welcome_image = "http://www-pcmdi.llnl.gov/images/headers/ipcc_data_status.jpg";
+
+require ("http://www-pcmdi.llnl.gov/header.inc");
+
+?>
+
+<p>Monthly data and daily data are now available on the <a href="http://esg.llnl.gov/portal">IPCC Data Portal</a>.<br></p>
+<p style="text-align: center;"><a href="http://www-pcmdi.llnl.gov/ipcc/data_status_tables.htm"><font size="+1"> <u>Click here to view tables summarizing the availability of data.</u></font></a><br><br></p>
+
+<!--
+<p align="center"><font size=4 color=red>The IPCC Data Portal scheduled maintenance will be on:<br><br>Thursday, April 7, 2005; and <br>Thursday, April 21, 2005<br><br>from 11:00 AM - 3:00 PM PST (19:00 - 23:00 GMT).</b></font></p>
+-->
+
+<?php
+
+require ("http://www-pcmdi.llnl.gov/footer.inc");
+
+?>

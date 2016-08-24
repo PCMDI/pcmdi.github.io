@@ -1,0 +1,180 @@
+<?
+
+$title = "PCMDI > WCRP CMIP3 Model Output > Diagnostic Subprojects";
+$header_image = "http://www-pcmdi.llnl.gov/images/banner_projects.jpg";
+$welcome_image = "http://www-pcmdi.llnl.gov/images/headers/diagnostic_subprojects.jpg";
+
+require ("http://www-pcmdi.llnl.gov/header.inc");
+
+// ==========================================================
+
+require_once("/pcmdi_web/include/header.php");
+
+$ipcc_subproject_id = 0;
+
+if (isset($_REQUEST["ipcc_subproject_id"]))
+{
+	$ipcc_subproject_id = $_REQUEST["ipcc_subproject_id"];
+}
+
+$sql = "SELECT * FROM aa_pcmdi_web.ipcc_subprojects WHERE ipcc_subproject_id='" . mysql_real_escape_string($ipcc_subproject_id) . "' AND is_active='1'";
+$curProject = $db->getRow($sql);
+
+$sql = "SELECT * FROM aa_pcmdi_web.ipcc_publications WHERE ipcc_subproject_id='" . mysql_real_escape_string($ipcc_subproject_id) . "' AND is_active='1' ";
+$sql .= "ORDER BY authors";
+$curPublications = $db->getAll($sql);
+
+?> 
+
+<a href="aa_diagnostic_subprojects.php"><< Back to WCRP CMIP3 Subprojects</a>
+<br><br>
+
+<h3><?php echo $curProject["title"]; ?></h3>
+
+<div style="width: 600px">
+	<table cellpadding="4">
+		<tr>
+			<td width="150"><b>PI: </b></td>
+			<td>
+				<?php 
+					echo $curProject["pi_first_name"] . " " . $curProject["pi_last_name"];
+					if ($curProject["additional_pis"] != "")
+						echo $curProject["additional_pis"];
+				?>
+			</td>
+		</tr>
+		<tr>
+			<td><b>Institution: </b></td>
+			<td><?php echo $curProject["institution"]; ?></td>
+		</tr>
+
+        <?php 
+
+        if ($curProject["additional_investigators"] != '')
+        {
+
+        ?>
+
+    		<tr>
+	    		<td><b>Additional Investigators: </b></td>
+		    	<td><?php echo $curProject["additional_investigators"]; ?></td>
+    		</tr>
+
+        <?php
+        }
+        ?>
+
+        <tr>
+            <td colspan="2"><b>Abstract:</b></td>
+        </tr>
+
+        <tr>
+            <td colspan="2" style="padding-left: 10px;"><?php echo nl2br($curProject["abstract"]); ?></td>
+        </tr>
+
+        <tr>
+            <td colspan="2"><b>Publications:</b></td>
+        </tr>
+
+        <tr>
+            <td colspan="2" style="padding-left: 10px;">
+                <?php
+                   
+                    print '<ul style="list-style: none; margin-left: 0; padding-left: 1em; text-indent: -1em; margin-top: 0px; margin-botom: 0px; padding-top: 0px; padding-bottom: 0px;">';
+
+                    $citation = ''; 
+                    foreach ($curPublications as $pub)
+                    {
+                        $citation = $pub['authors'] . ', ';
+
+                        if ($pub['year'] != '')
+                        {
+                            $citation.= $pub['year'] . ': ';
+                        }
+
+
+                        $citation .= $pub['title'] . '. ';
+
+                        if ($pub['journal'] != '')
+                        {
+                            $citation .= '<i>' . $pub['journal'] . '</i>';
+
+                            if ($pub['volume'] != '' || $pub['pages'] != '' || $pub['doi_id'] != '')
+                            {
+                                if ($pub['volume'] != '')
+                                {
+                                    $citation .= ', <b>' . $pub['volume'] . '</b>';
+                                }
+                                if ($pub['pages'] != '')
+                                {
+                                    $citation .= ', ' . $pub['pages'];
+                                }
+
+                                if ($pub['doi_id'] != '')
+                                {
+                                    $citation .= ', ' . $pub['doi_id'];
+                                }
+    
+                                $citation .= '. ';
+                            }
+                            else
+                            {
+                                $citation .= '. ';
+                            }
+                        }
+
+
+                        if ($pub['status'] == 'in_preparation')
+                        {
+                            $citation .= 'In preparation. ';
+                        }
+                        else if ($pub['status'] == 'submitted')
+                        {
+                            $citation .= 'Submitted. ';
+                        }
+                        else if ($pub['status'] == 'accepted')
+                        {
+                            $citation .= 'Accepted. ';
+                        }
+                        else if ($pub['status'] == 'in_press')
+                        {
+                            $citation .= 'In press. ';
+                        }
+                        
+
+
+                        $citation .= '<a href="aa_abstract.php?ipcc_publication_id=' . $pub['ipcc_publication_id'] . '&ipcc_subproject_id=' . $ipcc_subproject_id . '">Abstract</a>. ';
+
+                        if ($pub['url'] != '')
+                        {
+                            $citation .= '<a href="' . $pub['url'] . '">Full Article</a>. ';
+                        }
+
+                        $citation .= '<a href="aa_edit_publication.php?ipcc_publication_id=' . $pub['ipcc_publication_id'] . '&ipcc_subproject_id=' . $ipcc_subproject_id . '">Edit</a>. ';
+
+                        print '<li>' . $citation . '</li>';
+                    }
+                   
+                    print '</ul>';
+                ?>
+                <br>
+                <a href="aa_add_publication.php?ipcc_subproject_id=<?php print $ipcc_subproject_id; ?>">Add Publication</a>
+            </td>
+        </tr>
+
+	</table>
+
+
+</div>
+
+
+<br><br>
+<a href="aa_diagnostic_subprojects.php"><< Back to WCRP CMIP3 Subprojects</a>
+
+
+
+<?
+
+require ("http://www-pcmdi.llnl.gov/footer.inc");
+
+?>

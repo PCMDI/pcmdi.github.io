@@ -1,0 +1,73 @@
+<?
+
+$title = "PCMDI > IPCC Model Output > Diagnostic Subprojects";
+$header_image = "http://www-pcmdi.llnl.gov/images/banner_ipcc.jpg";
+$welcome_image = "http://www-pcmdi.llnl.gov/images/headers/diagnostic_subprojects.jpg";
+
+require ("http://www-pcmdi.llnl.gov/header.inc");
+
+// ==========================================================
+
+require_once("/pcmdi_web/include/header.php");
+
+$sql = "SELECT * FROM pcmdi_web.ipcc_subprojects WHERE is_active='1' ORDER BY pi_last_name, pi_first_name";
+
+$projectsArray = $db->getAll($sql);
+
+?> 
+
+<p>Last Updated: February 2, 2006</p>
+
+<table cellspacing="0" cellpadding="4" border="0">
+
+	<tr>
+		<th width="50%" align="left">Title</th>
+		<th align="left">PI</th>
+		<th align="left">Institution</th>
+	</tr>
+
+
+<?php
+$rowcolor1 = "#FFFFFF";
+$rowcolor2 = "";
+$rowcolorred = "#FF9999";
+$rowcolor = $rowcolor1;
+$i = 0;
+
+foreach($projectsArray as $curProject)
+{
+	//if ($curProject["abstract"] == "")
+	//{
+	//	$rowcolor = $rowcolorred;
+	//}
+	if ($i % 2)
+	{
+		$rowcolor = $rowcolor2;
+	}
+	else
+	{
+		$rowcolor = $rowcolor1;
+	}
+	echo "<tr>";
+	echo "<td style=\"background-color: $rowcolor\"><a href=\"project_detail.php?ipcc_subproject_id=" . $curProject["ipcc_subproject_id"] . "\">" . $curProject["title"] . "</a></td>";
+	echo "<td style=\"background-color: $rowcolor\">";
+	echo $curProject["pi_first_name"] . " " . $curProject["pi_last_name"];
+	if ($curProject["additional_pis"] != "")
+		echo $curProject["additional_pis"];
+	echo "</td>";
+	echo "<td style=\"background-color: $rowcolor\">" . $curProject["institution"] . "</td>";
+	echo "</tr>";
+
+	$i++;
+}
+
+?>
+
+
+</table>
+
+<?
+
+require ("http://www-pcmdi.llnl.gov/footer.inc");
+
+?>

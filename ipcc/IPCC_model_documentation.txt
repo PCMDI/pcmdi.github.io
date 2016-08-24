@@ -1,0 +1,122 @@
+31 January 2005
+Dear colleague,
+
+The model output you have contributed (or will contribute) to the IPCC database (archived at PCMDI) is an invaluable resource for our research community.  There are over 200 research projects registered to analyze various aspects of your simulations.  The database is proving to be a critical resource for the authors of the IPCC Fourth Assessment Report (AR4).  In order to better document and characterize how modeling has advanced since the Third Assessment Report (TAR) and to facilitate understanding of model differences, we are sending you this request for model documentation.
+
+The information asked for on the attached document clearly does not constitute full model documentation, but it should answer many of the common questions that arise when analyzing output from multiple models.  A number of scientists have helped in preparing this document, including IPCC chapter 8 lead authors, other lead authors, and PCMDI scientists. The document is attached as both a "word document" and as a plain text file. Please enter information from your model into one of these two forms and return it to taylor13@llnl.gov.  Since the material will be entered into a database, we would prefer "electronic" insertion of your responses into these documents (rather than hand-written), so that we can simply "cut and paste".
+
+We cannot emphasize enough how important your responses will be to preparation of the IPCC report, so we hope you will be able to respond quickly to this request.  We would appreciate receiving your responses no later than February 18, 2005.  Even if you cannot provide all the information requested at that time, please send us whatever you have. 
+
+Thank you very much for your help which will be of immense value in the preparation of the IPCC AR4.
+
+Best regards,
+Karl Taylor, on behalf of the lead authors of Chapter 8 and other chapters of the IPCC AR4
+
+
+Model Information of Potential Use to the IPCC Lead Authors and the AR4.
+
+31 January 2005
+
+
+For each entry below, short responses (a few words to a few dozen words) will generally be sufficient,  but when appropriate please include the following: 
+    * In addition to providing summary information, cite, when possible, published references or web pages for each descriptive item (but there is no need to repeat the information provided in I-D and I-E).
+    * If the model is related to an earlier one used in the IPCC TAR, please either provide a paragraph describing the important changes made, or include a "TAR version" note  for each entry below where a significant modification was made. These are meant to provide an overview of the scope of changes that have been made, not to document every detail.
+      Example 1:
+          II-C aerosols?:  only direct effect of sulfate and black carbon aerosols included (TAR = no aerosols included)
+      Example 2:
+	  IV-A1 resolution: T63 L28 (TAR = T42 L23)
+
+
+I. Model identity:
+   A. Institution, sponsoring agency, country
+   B. Model name (and names of component atmospheric, ocean, sea ice, etc. models)
+   C. Vintage (i.e., year that model version was first used in a published application)
+   D. General published references and web pages
+   E. References that document changes over the last ~5 years (i.e., since the IPCC TAR) in the coupled model or its components.   We are specifically looking for references that document changes in some aspect(s) of model performance.
+   F. IPCC model version's global climate sensitivity (KW-1m2) to increase in CO2 and how it was determined (slab ocean expt., transient expt--Gregory method, ±2K Cess expt., etc.)
+   G. Contacts (name and email addresses), as appropriate, for:
+       1. coupled model
+       2. atmosphere
+       3. ocean
+       4. sea ice
+       5. land surface
+       6. vegetation
+       7. other?
+
+II. Besides atmosphere, ocean, sea ice, and prescription of land/vegetated surface, what can be included (interactively) and was it active in the model version that produced output stored in the PCMDI database?
+   A. atmospheric chemistry?
+   B. interactive biogeochemistry?
+   C. what aerosols and are indirect effects modeled?
+   D. dynamic vegetation?
+   E. ice-sheets?
+
+III. List the community based projects (e.g., AMIP, C4MIP, PMIP, PILPS, etc.) that your modeling group has participated in and indicate if your model results from each project should carry over to the current (IPCC) version of your model in the PCMDI database.
+
+IV. Component model characteristics (of current IPCC model version):
+
+   A. Atmosphere
+       1. resolution
+       2. numerical scheme/grid (advective and time-stepping schemes; model top; vertical coordinate and number of layers above 200 hPa and below 850 hPa)
+       3. list of prognostic variables (be sure to include, as appropriate, liquid water, chemical species, ice, etc.)
+       4. name, terse descriptions, and references (journal articles, web pages) for all major parameterizations.  Include, as appropriate, descriptions of:
+           a. clouds
+           b. convection
+           c. boundary layer
+           d. SW, LW radiation
+           e. any special handling of wind and temperature at top of model
+
+   B. Ocean
+       1. resolution
+       2. numerical scheme/grid, including advection scheme, time-stepping scheme, vertical coordinate,  free surface or rigid lid, virtual salt flux or freshwater flux
+       3. list of prognostic variables and tracers
+       4. name, terse descriptions, and references (journal articles, web pages) for all parameterizations.  Include, as appropriate, descriptions of: 
+           a. eddy parameterization
+           b. bottom boundary layer treatment and/or sill overflow treatment
+           c. mixed-layer treatment
+           d. sunlight penetration
+           e. tidal mixing
+           f. river mouth mixing
+           g. mixing isolated seas with the ocean
+           h. treatment of North Pole "singularity" (filtering, pole rotation, artificial island?)
+
+   C. sea ice
+       1. horizontal resolution, number of layers, number of thickness categories
+       2. numerical scheme/grid, including advection scheme, time-stepping scheme, 
+       3. list of prognostic variables
+       4. completeness (dynamics? rheology? leads?  snow treatment on sea ice)
+       5. treatment of salinity in ice
+       6. brine rejection treatment
+       7. treatment of the North Pole "singularity" (filtering, pole rotation, artificial island?)
+
+   D. land / ice sheets (some of the following may be omitted if information is clearly included in cited references.
+       1. resolution (tiling?), number of layers for heat and water
+       2. treatment of frozen soil and permafrost
+       3. treatment of surface runoff and river routing scheme
+       4. treatment of snow cover on land
+       5. description of water storage model and drainage
+       6. surface albedo scheme
+       7. vegetation treatment (canopy?)
+       8. list of prognostic variables
+       9. ice sheet characteristics (How are snow cover, ice melting, ice accumulation, ice dynamics handled?  How are the heat and water fluxes handled when the ice sheet is melting?)
+
+   E. coupling details
+       1. frequency of coupling
+       2. Are heat and water conserved by coupling scheme?
+       3. list of variables passed between components:
+           a. atmosphere - ocean
+           b. atmosphere - land
+           c. land - ocean
+           d. sea ice - ocean
+           e. sea ice - atmosphere
+       4. Flux adjustment? (heat?, water?, momentum?, annual?, monthly?).
+
+VI. Simulation Details (report separately for each IPCC simulation contributed to database at PCMDI):
+
+   A. IPCC "experiment" name
+   B. Describe method used to obtain initial conditions for each component model 
+       1. If initialized from a control run, which month/year.
+       2. For control runs, describe spin-up procedure.
+   C. For pre-industrial and present-day control runs, describe radiative forcing agents (e.g., non-anthropogenic aerosols, solar variability) present.  Provide references or web pages containing further information as to the distribution and temporal changes in these agents.
+   D. For perturbation runs, describe radiative forcing agents (e.g., which greenhouse gases, which aerosols, ozone, land surface changes, etc.) present.  Provide references or web pages containing further information as to the distribution and temporal changes in these agents.
+
+
