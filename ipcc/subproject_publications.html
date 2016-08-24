@@ -1,29 +1,11 @@
-<?
-
-$title = "PCMDI > WCRP CMIP3 Model Output > WCRP CMIP3 Sub-Project Publications";
-$header_image = "http://www-pcmdi.llnl.gov/images/banner_ipcc.jpg";
-$welcome_image = "http://www-pcmdi.llnl.gov/images/headers/ipcc_subproject_publications.jpg";
-
-require ("http://www-pcmdi.llnl.gov/header.inc");
-
-// ==================================================
-
-require_once("/pcmdi_web/include/header.php");
-
-$sql = "SELECT * FROM pcmdi_web.ipcc_publications ";
-$sql .= "WHERE is_active='1' ";
-$sql .= "ORDER BY authors";
-$curPublications = $db->getAll($sql);
-
-$updatedDate = $db->getOne("SELECT MAX(modified_datetime) FROM pcmdi_web.ipcc_publications");
-$updatedDate = date('Y-m-d', strtotime($updatedDate));
-
-?>
-
+---
+layout: default
+title: PCMDI - IPCC
+---
 <table width="100%">
     <tr>
         <td valign="top">
-            <a href="diagnostic_subprojects.php">WCRP CMIP3 Subprojects</a> | <b>Subproject Publications</b>
+            <a href="diagnostic_subprojects.html">WCRP CMIP3 Subprojects</a> | <b>Subproject Publications</b>
         </td>
         <td align="right" valign="top">
             <p>Last Updated: <?php print $updatedDate; ?><br>Current Total: <?php print count($curPublications); ?> publications</p>
