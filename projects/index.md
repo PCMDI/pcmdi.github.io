@@ -27,6 +27,8 @@ The Coupled Model Intercomparison Project Phase VI
 [Related Intercomparison Projects][related]
 
 #### [CMOR Tables][CMOR]
+CMOR is a software supported and maintained by PCMDI
+
 ---
 
 # Detection and Attribution
