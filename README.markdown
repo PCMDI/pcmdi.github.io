@@ -11,4 +11,4 @@ repo for hosting web pages
 * [instructions](https://github.com/aims-group/intern/wiki/Start)
 
 ### Developers: How to download files/folder from the old website database
-* [instructions]()
+* [instructions](https://github.com/PCMDI/pcmdi.github.io/wiki/How-to-download-files-folder-from-the-old-website-database)
