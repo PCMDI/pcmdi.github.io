@@ -26,9 +26,6 @@ The Coupled Model Intercomparison Project Phase VI
 
 [Related Intercomparison Projects][related]
 
-#### [CMOR Tables][CMOR]
-CMOR is a software supported and maintained by PCMDI
-
 ---
 
 # Detection and Attribution
@@ -84,7 +81,6 @@ input4MIPS (input datasets for Model Intercomparison Projects) is an activity to
 [CMIP5]:{{site.baseurl}}/projects/cmip5/
 [CMIP6]:{{site.baseurl}}/projects/cmip6/
 [CMD]:{{site.baseurl}}/projects/dcmp/index.html
-[CMOR]:{{site.baseurl}}/projects/cmorTable/index.html
 [DETC]:{{site.baseurl}}/projects/detection/index.html
 [DCMP]:{{site.baseurl}}/projects/model/index.html
 [DOI1]:http://dx.doi.org/doi:10.1029/2011JD016263
