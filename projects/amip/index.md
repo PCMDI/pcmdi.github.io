@@ -17,11 +17,9 @@ The proper citation for the boundary condition data is the following report: Tay
 
 Note that earlier versions (prior to 2007) of the observational dataset on which the boundary conditions are based were prepared following a different procedure described [here]({{site.baseurl}}/projects/amip/amip2/index.html ). There are differences between the earlier dataset and the present one which are generally small but not entirely negligible.
 
-
 <center> 
 <p><a href="http://www-pcmdi.llnl.gov/projects/amip/AMIP2EXPDSN/BCS/bcsregist.html">Please register</a> so that we can contact you with information concerning these data sets.</p>
-<p><a href="http://www-pcmdi.llnl.gov/projects/amip/AMIP2EXPDSN/BCS/amipbc_dwnld_files/360x180/v1.0.0/nc/readme_nc">README</a><br></p>
-<br>
+<p><a href="http://www-pcmdi.llnl.gov/projects/amip/AMIP2EXPDSN/BCS/amipbc_dwnld_files/360x180/v1.0.0/nc/readme_nc">README</a></p>
 <p>Current version: PCMDI-AMIP-1.1.1 (20 October 2016; Data coverage 1870-1-1 to 2016-6-31)</p>
 <p>Please see the input4MIPs website at <a href="https://pcmdi.llnl.gov/search/input4mips/" target="_blank>http://pcmdi.llnl.gov/search/input4mips/</a>
 </center>
