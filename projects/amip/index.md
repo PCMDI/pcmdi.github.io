@@ -21,38 +21,9 @@ Note that earlier versions (prior to 2007) of the observational dataset on which
 <center> 
 <p><a href="http://www-pcmdi.llnl.gov/projects/amip/AMIP2EXPDSN/BCS/bcsregist.html">Please register</a> so that we can contact you with information concerning these data sets.</p>
 <p><a href="http://www-pcmdi.llnl.gov/projects/amip/AMIP2EXPDSN/BCS/amipbc_dwnld_files/360x180/v1.0.0/nc/readme_nc">README</a><br></p>
-<p>File sizes indicated below are approximate<br></p>
-<p>Current version: PCMDI-AMIP-1.0.0 (22 June 2015; Data coverage 1870-1-1 to 2015-3-31)</p>
-    <table border="0" cellpadding="7" cellspacing="14">
-      <tbody>
-        <tr>
-          <td align="center"><b>Mid-Month "Boundary Conditions"</b><br>
-          	<br>
-            <a href="http://www-pcmdi.llnl.gov/projects/amip/AMIP2EXPDSN/BCS/amipbc_dwnld_files/360x180/v1.0.0/nc/amipbcs_tos_1870-1899.tar.gz">SST 1870-1899 (50 Mb)</a><br>
-			<a href="http://www-pcmdi.llnl.gov/projects/amip/AMIP2EXPDSN/BCS/amipbc_dwnld_files/360x180/v1.0.0/nc/amipbcs_tos_1900-1949.tar.gz">SST 1900-1949 (83 Mb)</a><br>
-			<a href="http://www-pcmdi.llnl.gov/projects/amip/AMIP2EXPDSN/BCS/amipbc_dwnld_files/360x180/v1.0.0/nc/amipbcs_tos_1950-1999.tar.gz">SST 1950-1999 (83 Mb)</a><br>
-			<a href="http://www-pcmdi.llnl.gov/projects/amip/AMIP2EXPDSN/BCS/amipbc_dwnld_files/360x180/v1.0.0/nc/amipbcs_tos_2000-2015.tar.gz">SST 2000-2015 (26 Mb)</a><br>
-			<br>
-			<a href="http://www-pcmdi.llnl.gov/projects/amip/AMIP2EXPDSN/BCS/amipbc_dwnld_files/360x180/v1.0.0/nc/amipbcs_sic_1870-1899.tar.gz">SEA ICE 1870-1899 (17 Mb)</a><br>
-			<a href="http://www-pcmdi.llnl.gov/projects/amip/AMIP2EXPDSN/BCS/amipbc_dwnld_files/360x180/v1.0.0/nc/amipbcs_sic_1900-1949.tar.gz">SEA ICE 1900-1949 (28 Mb)</a><br>
-			<a href="http://www-pcmdi.llnl.gov/projects/amip/AMIP2EXPDSN/BCS/amipbc_dwnld_files/360x180/v1.0.0/nc/amipbcs_sic_1950-1999.tar.gz">SEA ICE 1950-1999 (26 Mb)</a><br>
-			<a href="http://www-pcmdi.llnl.gov/projects/amip/AMIP2EXPDSN/BCS/amipbc_dwnld_files/360x180/v1.0.0/nc/amipbcs_sic_2000-2015.tar.gz">SEA ICE 2000-2015 (7 Mb)</a><br>
-			<br>
-          	<b>Monthly-Mean Observed fields</b><br>
-          	<br>
-			<a href="http://www-pcmdi.llnl.gov/projects/amip/AMIP2EXPDSN/BCS/amipbc_dwnld_files/360x180/v1.0.0/nc/amipobs_tos_1870-1899.tar.gz">SST 1870-1899 (44 Mb)</a><br>    
-			<a href="http://www-pcmdi.llnl.gov/projects/amip/AMIP2EXPDSN/BCS/amipbc_dwnld_files/360x180/v1.0.0/nc/amipobs_tos_1900-1949.tar.gz">SST 1900-1949 (77 Mb)</a><br>
-			<a href="http://www-pcmdi.llnl.gov/projects/amip/AMIP2EXPDSN/BCS/amipbc_dwnld_files/360x180/v1.0.0/nc/amipobs_tos_1950-1999.tar.gz">SST 1950-1999 (79 Mb)</a><br>
-			<a href="http://www-pcmdi.llnl.gov/projects/amip/AMIP2EXPDSN/BCS/amipbc_dwnld_files/360x180/v1.0.0/nc/amipobs_tos_2000-2015.tar.gz">SST 2000-2015 (25 Mb)</a><br>
-			<br>
-			<a href="http://www-pcmdi.llnl.gov/projects/amip/AMIP2EXPDSN/BCS/amipbc_dwnld_files/360x180/v1.0.0/nc/amipobs_sic_1870-1899.tar.gz">SEA ICE 1870-1899 (6 Mb)</a><br>
-			<a href="http://www-pcmdi.llnl.gov/projects/amip/AMIP2EXPDSN/BCS/amipbc_dwnld_files/360x180/v1.0.0/nc/amipobs_sic_1900-1949.tar.gz">SEA ICE 1900-1949 (11 Mb)</a><br>
-			<a href="http://www-pcmdi.llnl.gov/projects/amip/AMIP2EXPDSN/BCS/amipbc_dwnld_files/360x180/v1.0.0/nc/amipobs_sic_1950-1999.tar.gz">SEA ICE 1950-1999 (10 Mb)</a><br>
-			<a href="http://www-pcmdi.llnl.gov/projects/amip/AMIP2EXPDSN/BCS/amipbc_dwnld_files/360x180/v1.0.0/nc/amipobs_sic_2000-2015.tar.gz">SEA ICE 2000-2015 (3 Mb)</a>
-            </td> 
-        </tr> 
-      </tbody> 
-     </table> 
+<br>
+<p>Current version: PCMDI-AMIP-1.1.1 (20 October 2016; Data coverage 1870-1-1 to 2016-6-31)</p>
+<p>Please see the input4MIPs website at <a href="https://pcmdi.llnl.gov/search/input4mips/" target="_blank>http://pcmdi.llnl.gov/search/input4mips/</a>
 </center>
 
 
