@@ -21,7 +21,7 @@ Note that earlier versions (prior to 2007) of the observational dataset on which
 <p><a href="http://www-pcmdi.llnl.gov/projects/amip/AMIP2EXPDSN/BCS/bcsregist.html">Please register</a> so that we can contact you with information concerning these data sets.</p>
 <p><a href="http://www-pcmdi.llnl.gov/projects/amip/AMIP2EXPDSN/BCS/amipbc_dwnld_files/360x180/v1.0.0/nc/readme_nc">README</a></p>
 <p><b>Current version: PCMDI-AMIP-1.1.1 (20 October 2016; Data coverage 1870-1-1 to 2016-6-31)</b></p>
-<p>Please see the input4MIPs website at <a href="https://pcmdi.llnl.gov/search/input4mips/" target="_blank">"http://pcmdi.llnl.gov/search/input4mips/"</a></p>
+<p>Please see the input4MIPs website at <a href="https://pcmdi.llnl.gov/search/input4mips/" target="_blank">http://pcmdi.llnl.gov/search/input4mips/</a></p>
 </center>
 
 
