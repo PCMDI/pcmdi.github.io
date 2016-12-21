@@ -25,3 +25,5 @@ In the above statement, the “NonCommercial Share Alike” option is discourage
 ### General Warning:
 
 The CMIP6 archive contains the output of scientific simulations of the past and potential future that are subject to multiple sources of error, ranging from errors in data handling, to errors in the representation of the real world in either the model, or the experimental setup for which the model was used. Different parts of the CMIP6 archive may be subject to differing levels of such errors, and users should be alert to these issues, and their potential consequences (and to the limitations of liability expressed in the data license).
+
+###### Document version: 6.0 (21st December 2016)
