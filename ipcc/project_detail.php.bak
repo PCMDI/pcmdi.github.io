@@ -1,0 +1,67 @@
+<?
+
+$title = "PCMDI > IPCC Model Output > Diagnostic Subprojects";
+$header_image = "http://www-pcmdi.llnl.gov/images/banner_projects.jpg";
+$welcome_image = "http://www-pcmdi.llnl.gov/images/headers/diagnostic_subprojects.jpg";
+
+require ("http://www-pcmdi.llnl.gov/header.inc");
+
+// ==========================================================
+
+require_once("/pcmdi_web/include/header.php");
+
+$ipcc_subproject_id = 0;
+
+if (isset($_REQUEST["ipcc_subproject_id"]))
+{
+	$ipcc_subproject_id = $_REQUEST["ipcc_subproject_id"];
+}
+
+$sql = "SELECT * FROM pcmdi_web.ipcc_subprojects WHERE ipcc_subproject_id='" . $ipcc_subproject_id . "'";
+
+$curProject = $db->getRow($sql);
+
+?> 
+
+<a href="diagnostic_subprojects.php"><< Back to IPCC Subprojects</a>
+<br><br>
+
+<h3><?php echo $curProject["title"]; ?></h3>
+
+<div style="width: 600px">
+	<table cellpadding="4">
+		<tr>
+			<td><b>PI: </b></td>
+			<td>
+				<?php 
+					echo $curProject["pi_first_name"] . " " . $curProject["pi_last_name"];
+					if ($curProject["additional_pis"] != "")
+						echo $curProject["additional_pis"];
+				?>
+			</td>
+		</tr>
+		<tr>
+			<td><b>Institution: </b></td>
+			<td><?php echo $curProject["institution"]; ?></td>
+		</tr>
+		<tr>
+			<td><b>Additional Investigators: </b></td>
+			<td><?php echo $curProject["additional_investigators"]; ?></td>
+		</tr>
+	</table>
+
+	<p><?php echo nl2br($curProject["abstract"]); ?></p>
+
+</div>
+
+
+<br><br>
+<a href="diagnostic_subprojects.php"><< Back to IPCC Subprojects</a>
+
+
+
+<?
+
+require ("http://www-pcmdi.llnl.gov/footer.inc");
+
+?>

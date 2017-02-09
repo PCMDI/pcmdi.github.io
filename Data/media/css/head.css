@@ -49,9 +49,10 @@
 .gsc-input-box {
         border:none;
         background: transparent ;
+        background-color:transparent;
 
 }
-.gsc-input:hover {
+.gsc-input.disable:hover {
         color: transparent;
         background-color:transparent;
         border: transparent;
@@ -68,12 +69,20 @@
 
 
 
-.gsc-input-box-focus {
+.gsc-input-box-focus{
     box-shadow: none;
+    background: transparent ;
+    background-color:transparent;
 }
 
-.gsc-input-box-hover {
+.gsc-input-box-hover{
   box-shadow: none;
+   background: transparent ;
+   background-color:transparent;
+}
+
+.gsc-input-box gsc-input-box-focus gsc-input-box-hover.disable{
+      background-color:transparent;
 }
 
 .pull-right {

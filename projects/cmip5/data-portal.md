@@ -17,10 +17,10 @@ You may search or browse through the Earth System Grid data holdings, but you wi
 
 It is highly recommended that you read the 'Getting started' page first.
 
-See also [IPCC AR5 timetable](http://pcmdi-cmip.llnl.gov/cmip5/ipcc_ar5_timetable.html) for estimation of due dates for some IPCC"s Fifth Assessment Report (AR5) activities.
+See also [IPCC AR5 timetable](ipcc_ar5_timetable.html) for estimation of due dates for some IPCC"s Fifth Assessment Report (AR5) activities.
 
 
-##CMIP3
+## CMIP3
 
 If you would like to check the CMIP3 data portal, it is available throught the [Earth System Grid (ESG)](https://esg.llnl.gov:8443/) portal.
 

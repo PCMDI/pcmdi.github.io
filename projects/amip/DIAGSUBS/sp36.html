@@ -1,0 +1,137 @@
+
+<center><h1>AMIP II Diagnostic Subproject
+36</h1></center>
+
+<center>
+<h1>
+<font color="#000066"><font size=+1>Water Vapor and Cloud Feedback Processes</font></font></h1></center>
+
+<center><b>Project coordinators:</b>
+<br><b>Ming-Dah Chou<sup>1,</sup>&nbsp; Curt Covey<sup>2</sup>, Arthur
+Y. Hou<sup>1,</sup> Richard S. Lindzen<sup>3</sup> , De-Zheng Sun<sup>4</sup></b>
+<p><sup>1</sup>NASA GSFC, Greenbelt MD
+<br><sup>2</sup>Program for Climate Model Diagnosis and Intercomparison
+<br><sup>3</sup>Masacusetts Institude of Technology
+<br><sup>4</sup>Cooperative Institute for Research in Environmental Sciences
+(CIRES)</center>
+
+<p><br>
+<br>
+<br>
+<br>
+<br>
+<p><font size=-1><a href="#background">Background</a></font>
+<br><font size=-1><a href="#Objectives">Objectives</a></font>
+<br><font size=-1><a href="#methodology">Methodology</a></font>
+<br><font size=-1><a href="#Data Requirements">Data Requirements</a></font>
+<br><font size=-1><a href="#references">References</a></font>
+<p>
+<hr>
+<h1>
+<a name="background"></a>Background</h1>
+Feedback processes within the climate system that involve clouds and water
+vapor exert a dominant influence on the way the climate responds to external
+forcing. Coupled ocean-atmosphere models typically exhibit strong positive
+water vapor feedback, amplifying the warming effect of enhanced greenhouse
+gas concentrations (e.g., anthropogenic CO<sub>2</sub>). Such models also
+exhibit a range of positive and negative cloud feedbacks depending on details
+of the models' parameterizations of convection and microphysics. Consequently,
+model-based predictions of global warming include both a strong amplifying
+effect of water vapor feedback and a significant uncertainty range due
+to different possible cloud feedback processes. It has proved difficult
+to narrow this uncertainty range, to confirm (or refute) positive water
+vapor feedback in the real-world climate sysem, or even to evaluate the
+extent to which the two types of feedback are separable. Progress toward
+these objectives requires a wide variety of model diagnostics, especially
+those involving comparison of model-simulated quantities with observational
+data.
+<p>We propose to examine AMIP II model output using two new diagnostics
+related to cloud and water vapor feedback. Two existing AMIP II subprojects
+are examining the general characteristics of model-simulated clouds and
+water vapor: No. 13, "Evaluation of Global Cloudiness" (B. Weare), and
+No. 27, "Tropospheric Humidity and Meridional Moisture Fluxes" (D. Gaffen,
+R. Rosen D. Salstein, J. Boyle, B. Soden). We do not anticipate that these
+subprojects will employ the diagnostics proposed below, but we will maintain
+close contact with Weare and Boyle to prevent duplication of effort. An
+additional AMIP II subproject -- No. 34, "Evaluation of Convection and
+Upper Level Moisture and their Links Using Meteosat Water Vapor Channel
+Data" (R. Roca and L. Picon) -- will use specialized diagnostics that appear
+to be largely unrelated to ours.
+<h1>
+<a name="Objectives"></a>Objectives</h1>
+We propose to compare AMIP II model simulations with observations during
+the AMIP II period (1979-1996) of the following tropical phenomena:
+<ol>
+<li>
+Correlations involving interannual variations of water vapor and temperature</li>
+
+<li>
+Correlations between cloud area and underlying sea surface temperature</li>
+</ol>
+Item (1) has been investigated in several studies, but typically results
+from only one or two models have been considered in each study. Item (2)
+has not previously been investigated with the particular method discussed
+below.
+<h1>
+<a name="methodology"></a>Methodology</h1>
+For Item (1) we will repeat the major diagnostics employed by Sun and Held
+(1996) on the complete set of AMIP II model simulations. For example, Figure
+9 in Sun and Held's paper indicates that correlations between interannual
+variations of water vapor at different atmospheric levels are much stronger
+in their model than in the real world. Our preliminary results from the
+public-domain AMIP I database reveal similar results from all of these
+models (see calc_r.ps, available on the anonymous FTP server sprite.llnl.gov
+in subdirectory pub/covey/IPCC). The discrepancy between models and observations
+appears to be independent of model characteristics such as vertical resolution
+or convective parameterization. On the other hand, the AMIP I model family
+is several years old, and it will be interesting to see if the more recent
+models from AMIP II give significantly different results when this diagnostic
+(and others from Sun and Held) are applied to their output.
+<p>It should be noted that the observational data employed by Sun and Held
+is open to criticism. The observations were obtained from radiosondes whose
+high-altitude measurements are questionable, and whose coverage of the
+tropics is sparse. In our subproject we will employ satellite and reanalysis
+data where possible, in addition to updated radiosonde data. When comparing
+with the radiosonde data, we will use a subset of model output that matches
+the space-time coverage of the observations. Del Genio (personal communication)
+has found that this technique reduces the disagreement between the radiosondes
+and the GISS GCM.
+<p>For Item (2) we will extend our current work, which compares recent
+satellite observations of the tropical Pacific (30S-30N, 130E-170W; Jan
+1998 - Aug 1999) with simulations by a GCM including the NCAR CCM3 subgridscale
+physics. In the observations we find a large, robust negative correlation
+between high elevation cloud cover and cloud-weighted SST. Our use of cloud-weighted
+rather than actual SST was motivated by our assumption that cloud area
+is proportional to ice detrainment by cumulus, which depends on the temperature
+dependent stochastic coalescence in the cumuli. In that case, the only
+temperature relevant to the process is the temperature as seen by the clouds.
+For the periods studied, most of the change in cloud weighted SST comes
+from movement of the clouds rather than actual changes in SST.
+<p>We have found that our model simulations completely fail to replicate
+the observed cloud area dependence. This result is not surprising since
+CCM3 physics uses diagnostic clouds. However, several AMIP II models (and
+indeed several AMIP I models) use prognostic cloud schemes. We therefore
+wish to repeat our cloud area / cloud-weighted SST study with the complete
+AMIP II results. Although the AMIP II period does not overlap the period
+of our observational data, we believe that for a given model, any 1-2 year
+period from the full AMIP II time span will give results similar to those
+from any other 1-2 year period. We will test this assumption by examining
+several 1-2 year periods for each model.
+<h1>
+<a name="Data Requirements"></a>Data requirements</h1>
+For Item (1) we require monthly mean air temperature and specific humidity
+(ta and hus). For Item (2) we require monthly mean SST (ts) and high-time-frequency
+cloud amounts. If the optional 6-hourly total cloud cover (clt) has been
+supplied by a sufficient number of AMIP II models, then we will use this
+quantity. Otherwise we will deduce cloud amounts as best we can from 6-hourly
+OLR (rlut). We will also examine the analogous AMIP I output for Item (2),
+as we already have for Item (1).
+<h1>
+<a name="references"></a>References</h1>
+D.-Z. Sun and I. M. Held, 1996: "A Comparison of Modeled and Observed Relationships
+between Interannual Variations of Water Vapor and Temperature",
+<i>Journal
+of Climate, 9: </i>665-675
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;

@@ -1,0 +1,2844 @@
+---
+layout: AMIP
+title: AMIP II Standard Model Output
+---
+
+<center><h1>AMIP II Standard Model Output</h1>
+<br>
+<hr width="100%">
+<br><b>Contents</b></center>
+
+<dir>
+<dir>
+<dl>
+<dt>
+<img src="redball.gif" height=10 width=10><b><a href="#intro">Introduction</a></b></dt>
+
+<dt>
+<img src="blueball.gif" height=10 width=10><b><a href="#table1a">Table
+1a: Upper-air low frequency (monthly mean): Basic</a></b></dt>
+
+<dt>
+<img src="blueball.gif" height=10 width=10><b><a href="#table1b">Table
+1b: Upper-air low frequency (monthly mean): Dynamical</a></b></dt>
+
+<dt>
+<img src="blueball.gif" height=10 width=10><b><a href="#table1c">Table
+1c: Upper-air low frequency (monthly mean): Physical</a></b></dt>
+
+<dt>
+<img src="blueball.gif" height=10 width=10><b><a href="#Table_2">Table
+2: Single-level low frequency (monthly mean)</a></b></dt>
+
+<dt>
+<img src="blueball.gif" height=10 width=10><b><a href="#Table_3">Table
+3: High-frequency (6-hourly)</a></b></dt>
+
+<dt>
+<img src="blueball.gif" height=10 width=10><b><a href="#Table_4">Table
+4: Time Series of daily global averages (area-weighted)</a></b></dt>
+
+<dt>
+<img src="blueball.gif" height=10 width=10><b><a href="#Table_5">Table
+5: Fixed geographical fields</a></b></dt>
+
+<dt>
+<img src="blueball.gif" height=10 width=10><b><a href="#Table_6__optional_">Table
+6: Optional high frequency (6-hourly): optional fields</a></b></dt>
+
+<dt>
+<img src="redball.gif" height=10 width=10><b><a href="#Notes_for_Tables">Notes
+for Tables 1-6:&nbsp;&nbsp;&nbsp; Recommended sampling and calculations</a>
+and <a href="#references">references</a></b></dt>
+
+<br><img src="blueball.gif" height=10 width=10><b><font size=-1><a href="#revision">Log
+of corrections and minor revisions to this listing</a></font></b>
+<dt>
+<img src="blueball.gif" height=10 width=10><b><font size=-1><a href="TESTS/testsintro.html">A
+study of sampling, interpolation and data compression issues</a> <i>(link
+to separate document)</i></font></b></dt>
+
+<dt>
+<img src="blueball.gif" height=10 width=10><b><font size=-1><a href="volume.html">
+Data volume estimates</a> <i>(link to separate document)</i></font></b></dt>
+
+<dt>
+<img src="blueball.gif" height=10 width=10><b><font size=-1> Discussion
+of future diagnostics<i> (under construction)</i></font></b></dt>
+
+<dt>
+<img src="blueball.gif" height=10 width=10><b><font size=-1><a href="../../DATASTDS/VARNAMES/main.html">PCMDI
+standard variable names</a><i> and </i><a href="../../DATASTDS/datastds.html">AMIP
+data transmission standards</a><i> (links to separate document)</i></font></b></dt>
+</dl>
+</dir>
+</dir>
+
+<hr>
+<p><a name="intro"></a><b>Introduction</b>
+<p>The standard model output list for AMIP II is documented in six tables
+below. It has been prepared by the WGNE AMIP Panel and the PCMDI scientific
+staff, with the strong influence of many valuable recommendations made
+by diagnosticians and modelers during 1995-1997. The inclusion of many
+more diagnostics than in AMIP I results from the need for increasingly
+advanced analysis of AGCMs. Minor revisions made to this list since its
+first publication (AMIP Newsletter No. 8) are summarized at the end of
+this document. The list is ambitious, but not exhaustive. It represents
+a concerted effort to find a delicate balance between the needs of the
+diagnostic community and the practical limitations that modelers are faced
+with.
+<p>Additional information in the form of footnotes follows the upper air
+output (Tables 1a-c). Temporal sampling and variable-specific recommendations
+are summarized after the six tables. These recommendations are identified
+in the "Notes" of the rightmost Table columns (numbers for sampling and
+letters for variable-specific recommendations). The online version of this
+document also includes links to data volume estimates (as a function of
+resolution and data truncation), discussion of future AMIP diagnostics,
+and a description of the PCMDI variable names used in AMIP.
+<p>It is not expected that every modeling group participating in AMIP II
+will succeed in providing the entire AMIP II standard model output, especially
+from the "optional" listing of high frequency output (Table 6). Tables
+1a, 2, 3, 4 and 5 are considered to represent minimum participation in
+AMIP II. As diagnostic subprojects are approved, their requests for Table
+6 output will be posted so that modeling groups may determine on the basisi
+of interest which fields to save.
+<p>
+<hr>
+<center><a name="table1a"></a><b>Table 1a</b>
+<br><b><u>Upper-air low frequency (monthly mean): Basic</u></b>
+<br><b><sup><a href="#table1foot">#</a> <a href="#table1foot">*&amp;</a></sup>
+17 WMO standard pressure levels compatible with reanalysis products:</b>
+<br><b>1000, 925, 850, 700, 600, 500, 400, 300, 250, 200, 150, 100, 70,
+50,30, 20, 10 hPa</b>
+<br><b><font size=-1>For those groups participating in <a href="http://strat-www.met.fu-berlin.de/~pawson/grips.html">GRIPS</a>,
+the following levels are also encouraged: 15, 7, 5, 3, 2, 1.5, 1, 0.5 hPa</font></b>
+<br><b>(Variable units are MKS)</b></center>
+
+<center><table border width="702" bordercolor="#000000" >
+<tr>
+<td valign=TOP width="11%">
+<center><b>PCMDI</b>
+<br><b>Name</b></center>
+</td>
+
+<td valign=CENTER>
+<dir>
+<center><b>Variable Title</b></center>
+</dir>
+</td>
+
+<td valign=CENTER width="21%">
+<center><b>Units</b></center>
+</td>
+
+<td valign=CENTER width="11%">
+<center><b>Notes</b></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="11%">
+<center>va</center>
+</td>
+
+<td valign=CENTER width="68%">Northward wind&nbsp;</td>
+
+<td valign=CENTER width="21%">
+<center>m/s</center>
+</td>
+
+<td valign=CENTER width="11%">
+<center><a href="#Notes_for_Tables">2</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="11%">
+<center>ua</center>
+</td>
+
+<td valign=CENTER width="68%">Eastward wind&nbsp;</td>
+
+<td valign=CENTER width="21%">
+<center>m/s</center>
+</td>
+
+<td valign=CENTER width="11%">
+<center><a href="#Notes_for_Tables">2</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="11%">
+<center>wap</center>
+</td>
+
+<td valign=CENTER width="68%">Vertical motion</td>
+
+<td valign=CENTER width="21%">
+<center>Pa/s</center>
+</td>
+
+<td valign=CENTER width="11%">
+<center><a href="#Notes_for_Tables">2</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="11%">
+<center>ta</center>
+</td>
+
+<td valign=CENTER width="68%">Air temperature</td>
+
+<td valign=CENTER width="21%">
+<center>K</center>
+</td>
+
+<td valign=CENTER width="11%">
+<center><a href="#Notes_for_Tables">2</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="11%">
+<center>zg</center>
+</td>
+
+<td valign=CENTER width="68%">Geopotential height</td>
+
+<td valign=CENTER width="21%">
+<center>m</center>
+</td>
+
+<td valign=CENTER width="11%">
+<center><a href="#Notes_for_Tables">2</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="11%">
+<center>hus</center>
+</td>
+
+<td valign=CENTER width="68%">Specific humidity</td>
+
+<td valign=CENTER width="21%">
+<center>kg/kg</center>
+</td>
+
+<td valign=CENTER width="11%">
+<center><a href="#Notes_for_Tables">2</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="11%">
+<center>hur</center>
+</td>
+
+<td valign=CENTER width="68%">Relative humidity</td>
+
+<td valign=CENTER width="21%">
+<center>%</center>
+</td>
+
+<td valign=CENTER width="11%">
+<center><a href="#Notes_for_Tables">2</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="11%">
+<center>psbg</center>
+</td>
+
+<td valign=CENTER width="68%">Pressure surface below ground</td>
+
+<td valign=CENTER width="21%">
+<center>%</center>
+</td>
+
+<td valign=CENTER width="11%">
+<center><a href="#Notes_for_Tables">1</a>, <a href="#a">a</a></center>
+</td>
+</tr>
+</table></center>
+
+<hr>
+<center>
+<h4>
+<a name="table1b"></a></h4></center>
+
+<center><b>Table 1b</b>
+<br><b><u>Upper-air low frequency (monthly mean): Dynamical</u></b>
+<br><b><sup><a href="#table1foot">#</a> <a href="#table1foot">*&amp;</a></sup>
+17 WMO standard pressure levels compatible with reanalysis products:</b>
+<br><b>1000, 925, 850, 700, 600, 500, 400, 300, 250, 200, 150, 100, 70,
+50,30, 20, 10 hPa</b>
+<br><b>Calculation precision recommended: 64 bits</b>
+<br><b><sup><a href="#table1foot">$</a></sup> Covariances/variances acceptable</b>
+<br><b>(Variable units are MKS)</b></center>
+
+<center><table border bordercolor="#000000" >
+<tr>
+<td valign=CENTER width="78">
+<center><b>PCMDI Name</b></center>
+</td>
+
+<td valign=CENTER>
+<dir>
+<center><b>Variable Title</b></center>
+</dir>
+</td>
+
+<td valign=CENTER width="148">
+<center><b>Units</b></center>
+</td>
+
+<td valign=CENTER width="78">
+<center><b>Notes</b></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="78">
+<center>mpuva</center>
+</td>
+
+<td valign=CENTER width="475">Mean product of eastward and northward winds</td>
+
+<td valign=CENTER width="148">
+<center>m<sup>2</sup>/s<sup>2</sup></center>
+</td>
+
+<td valign=CENTER width="78">
+<center><a href="#Notes_for_Tables">3</a>, <a href="#b">b</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="78">
+<center>mpvhusa</center>
+</td>
+
+<td valign=CENTER width="475">Mean product of northward wind and specific
+humidity</td>
+
+<td valign=CENTER width="148">
+<center>m/s (kg/kg)</center>
+</td>
+
+<td valign=CENTER width="78">
+<center><a href="#Notes_for_Tables">3</a>, <a href="#b">b</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="78">
+<center>mpvta</center>
+</td>
+
+<td valign=CENTER width="475">Mean product of northward wind and temperature</td>
+
+<td valign=CENTER width="148">
+<center>mK/s</center>
+</td>
+
+<td valign=CENTER width="78">
+<center><a href="#Notes_for_Tables">3</a>, <a href="#b">b</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="78">
+<center>mpwhusa</center>
+</td>
+
+<td valign=CENTER width="475">Mean product of vertical motion and specific
+humidity</td>
+
+<td valign=CENTER width="148">
+<center>(Pa/s)(kg/kg)</center>
+</td>
+
+<td valign=CENTER width="78">
+<center><a href="#Notes_for_Tables">3</a>, <a href="#b">b</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="78">
+<center>mpvzga</center>
+</td>
+
+<td valign=CENTER width="475">Mean product of northward wind and geopotential
+height</td>
+
+<td valign=CENTER width="148">
+<center>m<sup>2</sup>/s</center>
+</td>
+
+<td valign=CENTER width="78">
+<center><a href="#Notes_for_Tables">3</a>, <a href="#b">b</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="78">
+<center>mpwapta</center>
+</td>
+
+<td valign=CENTER width="475">Mean product of vertical motion and temperature</td>
+
+<td valign=CENTER width="148">
+<center>Pa/s K</center>
+</td>
+
+<td valign=CENTER width="78">
+<center><a href="#Notes_for_Tables">3</a>, <a href="#b">b</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="78">
+<center>mpuua</center>
+</td>
+
+<td valign=CENTER width="475">Mean product of eastward wind and eastward
+wind</td>
+
+<td valign=CENTER width="148">
+<center>m<sup>2</sup>/s<sup>2</sup></center>
+</td>
+
+<td valign=CENTER width="78">
+<center><a href="#Notes_for_Tables">3</a>, <a href="#b">b</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="78">
+<center>mpvva</center>
+</td>
+
+<td valign=CENTER width="475">Mean product of northward wind and northward
+wind</td>
+
+<td valign=CENTER width="148">
+<center>m<sup>2</sup>/s<sup>2</sup></center>
+</td>
+
+<td valign=CENTER width="78">
+<center><a href="#Notes_for_Tables">3</a>, <a href="#b">b</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="78">
+<center>mptta</center>
+</td>
+
+<td valign=CENTER width="475">Mean product of temperature and temperature</td>
+
+<td valign=CENTER width="148">
+<center>K<sup>2</sup></center>
+</td>
+
+<td valign=CENTER width="78">
+<center><a href="#Notes_for_Tables">3</a>, <a href="#b">b</a></center>
+</td>
+</tr>
+</table></center>
+
+<hr>
+<center><a name="table1c"></a><b>Table 1c</b>
+<br><b>Upper-air low frequency (monthly mean): Physical</b>
+<br><b>On model levels</b>
+<br><b><sup><a href="#table1foot">@</a></sup>or</b>
+<br><b><sup><a href="#table1foot">#</a></sup> <sup><a href="#table1foot">*&amp;</a></sup>
+17 WMO standard pressure levels compatible with reanalysis products:</b>
+<br><b>1000, 925, 850, 700, 600, 500, 400, 300, 250, 200, 150, 100, 70,
+50,30, 20, 10 hPa</b>
+<br><b>(Variable units are MKS)</b></center>
+
+<center><table border width="702" bordercolor="#000000" >
+<tr>
+<td valign=TOP width="10%">
+<center><b>PCMDI</b>
+<br><b>Name</b></center>
+</td>
+
+<td valign=CENTER width="61%">
+<dir>
+<center><b>Variable Title</b></center>
+</dir>
+</td>
+
+<td valign=CENTER width="19%">
+<center><b>Units</b></center>
+</td>
+
+<td valign=CENTER width="10%">
+<center><b>Notes</b></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="10%">
+<center>tnt</center>
+</td>
+
+<td valign=CENTER width="61%">Temperature tendency due to total diabatic
+heating</td>
+
+<td valign=CENTER width="19%">
+<center>K/s</center>
+</td>
+
+<td valign=CENTER width="10%">
+<center><a href="#Notes_for_Tables">1</a>, <a href="#c">c</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="10%">
+<center>tntsw</center>
+</td>
+
+<td valign=CENTER width="61%">Temperature tendency due to SW radiation</td>
+
+<td valign=CENTER width="19%">
+<center>K/s</center>
+</td>
+
+<td valign=CENTER width="10%">
+<center><a href="#Notes_for_Tables">1</a>, <a href="#c">c</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="10%">
+<center>tntlw</center>
+</td>
+
+<td valign=CENTER width="61%">Temperature tendency due to LW radiation</td>
+
+<td valign=CENTER width="19%">
+<center>K/s</center>
+</td>
+
+<td valign=CENTER width="10%">
+<center><a href="#Notes_for_Tables">1</a>, <a href="#c">c</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="10%">
+<center>tntmc</center>
+</td>
+
+<td valign=CENTER width="61%">Temperature tendency due to moist convective
+processes</td>
+
+<td valign=CENTER width="19%">
+<center>K/s</center>
+</td>
+
+<td valign=CENTER width="10%">
+<center><a href="#Notes_for_Tables">1</a>, <a href="#c">c</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="10%">
+<center>tntdc</center>
+</td>
+
+<td valign=CENTER width="61%">Temperature tendency due to dry convective
+processes</td>
+
+<td valign=CENTER width="19%">
+<center>K/s</center>
+</td>
+
+<td valign=CENTER width="10%">
+<center><a href="#Notes_for_Tables">1</a>, <a href="#c">c</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="10%">
+<center>tntlsp</center>
+</td>
+
+<td valign=CENTER width="61%">Temperature tendency due to stratiform clouds</td>
+
+<td valign=CENTER width="19%">
+<center>K/s</center>
+</td>
+
+<td valign=CENTER width="10%">
+<center><a href="#Notes_for_Tables">1</a>, <a href="#c">c</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="10%">
+<center>tnmrd</center>
+</td>
+
+<td valign=CENTER width="61%">Moisture tendency due to diabatic processes
+(total)&nbsp;</td>
+
+<td valign=CENTER width="19%">
+<center>(kg/kg)/s</center>
+</td>
+
+<td valign=CENTER width="10%">
+<center><a href="#Notes_for_Tables">1</a>, <a href="#d">d</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="10%">
+<center>tnmrc</center>
+</td>
+
+<td valign=CENTER width="61%">Moisture tendency due to convective processes</td>
+
+<td valign=CENTER width="19%">
+<center>(kg/kg)/s</center>
+</td>
+
+<td valign=CENTER width="10%">
+<center><a href="#Notes_for_Tables">1</a>, <a href="#d">d</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="10%">
+<center>tnmmugwd</center>
+</td>
+
+<td valign=CENTER width="61%">Eastward momentum tendency due to gravity
+wave drag</td>
+
+<td valign=CENTER width="19%">
+<center>m/s<sup>2</sup></center>
+</td>
+
+<td valign=CENTER width="10%">
+<center><a href="#Notes_for_Tables">1</a>, <a href="#e">e</a></center>
+</td>
+</tr>
+
+<tr>
+<td>tnmmvgwd</td>
+
+<td>Northward momentum tendency due to gravity wave drag</td>
+
+<td>
+<center>m/s<sup>2</sup></center>
+</td>
+
+<td>
+<center><a href="#Notes_for_Tables">1</a>, <a href="#e">e</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="10%">
+<center>tnmmuc</center>
+</td>
+
+<td valign=CENTER width="61%">Eastward momentum tendency due to convection</td>
+
+<td valign=CENTER width="19%">
+<center>m/s<sup>2</sup></center>
+</td>
+
+<td valign=CENTER width="10%">
+<center><a href="#Notes_for_Tables">1</a>, <a href="#e">e</a></center>
+</td>
+</tr>
+
+<tr>
+<td>
+<center>tnmmvc</center>
+</td>
+
+<td>Northward momentum tendency due to convection</td>
+
+<td>
+<center>m/s<sup>2</sup></center>
+</td>
+
+<td>
+<center><a href="#Notes_for_Tables">1</a>, <a href="#e">e</a></center>
+</td>
+</tr>
+
+<tr>
+<td>
+<center>tnmmutot</center>
+</td>
+
+<td>Eastward total diabatic tendency of momentum</td>
+
+<td>
+<center>m/s<sup>2</sup></center>
+</td>
+
+<td>
+<center><a href="#Notes_for_Tables">1</a>, <a href="#e">e</a></center>
+</td>
+</tr>
+
+<tr>
+<td>
+<center>tnmmvtot</center>
+</td>
+
+<td>Northward total diabatic tendency of momentum</td>
+
+<td>
+<center>m/s<sup>2</sup></center>
+</td>
+
+<td>
+<center><a href="#Notes_for_Tables">1</a>, <a href="#e">e</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="10%">
+<center>cl</center>
+</td>
+
+<td valign=CENTER width="61%">Cloud fraction</td>
+
+<td valign=CENTER width="19%">
+<center>%</center>
+</td>
+
+<td valign=CENTER width="10%">
+<center><a href="#Notes_for_Tables">5</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="10%">
+<center>clw</center>
+</td>
+
+<td valign=CENTER width="61%">Cloud liquid water</td>
+
+<td valign=CENTER width="19%">
+<center>kg/kg</center>
+</td>
+
+<td valign=CENTER width="10%">
+<center><a href="#Notes_for_Tables">1</a>, <a href="#f">f</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="10%">
+<center>cli</center>
+</td>
+
+<td valign=CENTER width="61%">Cloud ice</td>
+
+<td valign=CENTER width="19%">
+<center>kg/kg</center>
+</td>
+
+<td valign=CENTER width="10%">
+<center><a href="#Notes_for_Tables">1</a>, <a href="#f">f</a></center>
+</td>
+</tr>
+</table></center>
+
+<hr>
+<center><a name="table1foot"></a><b>Footnotes for Tables 1a-c</b></center>
+
+<dir>* Comparison of AMIP II model output with reanalyses will be an important
+part of the project. For consistency with reanalysis products, the AMIP
+II monthly mean upper air data must be on the 17 WMO standard pressure
+levels that are included in both the NCEP/NCAR and ECMWF reanalyses. Modeling
+groups are requested to provide data on these levels to insure that they
+are interpolated in a manner consistent with their model. Data from models
+with fewer than 17 levels should also be provided on the 17 standard levels
+to minimize the possibility of the data being misrepresented. Exceptions
+will be made for models with a top level that is at a lower pressure than
+the highest reanalysis level (10 hPa), as the transformation to pressure
+coordinates should not involve extrapolation. Models with a top level corresponding
+to a pressure that is more than 10 hPa should only provide data on the
+pressure levels that are greater than 10 hPa.
+<p># For all fields interpolated to standard pressure levels it is recommended
+that they be interpolated every sampled time step (e.g., every time step
+for temperature tendencies, every six hours for winds) rather than averaged
+on model surfaces and then interpolated. For some groups this may not be
+practical. Tests demonstrating the effects of the order of the interpolation
+(every sampled time step vs. end of month) are available at http://www-pcmdi.llnl.gov/amip/output/sampstudy/sampstudy.html
+<p>&amp; If fields below ground are extrapolated, it is suggested that
+the method of Trenberth et al. (1993) be used.
+<p>@ It is recognized that many groups prefer to save these diagnostics
+on model levels. The rationale for this choice is that vertical interpolation
+can degredate vertical profiles in regions of sharp vertical gradients
+if the model level (equivalent pressure value) is not close to the target
+pressure level. Examples of this are posted on in the standard output section
+of the AMIP homepage. Determination of how best to save these fields (on
+model levels or standard pressure levels) may be model dependent and is
+best determined each group.
+<p>$ Either mean products (e.g., {uv}, with brackets representing time
+average) or covariances/variances (e.g., {u'v'}) are acceptable. The later
+(which can be computed with the former and the fields of Table 1a) will
+be archived by PCMDI. If covariances/variances are supplied, the corresponding
+name and title changes for Table 1b are: replace "mp" with "cv" in variable
+names, and "Mean product" with "Covariance" (or when applicable "Variance)
+in the variable title.</dir>
+<b><a href="#TOC">Return to Table of Contents</a></b>
+<p>
+<hr>
+<center><a name="Table_2"></a><b>Table 2</b>
+<br><b><u>Single-level low frequency (monthly mean) output</u></b></center>
+
+<center><table border width="701" bordercolor="#000000" >
+<tr>
+<td valign=TOP width="11%">
+<center><b>PCMDI</b>
+<br><b>Name</b></center>
+</td>
+
+<td valign=CENTER width="67%">
+<dir>
+<center><b>Variable</b></center>
+</dir>
+</td>
+
+<td valign=CENTER width="13%">
+<center><b>Units</b></center>
+</td>
+
+<td valign=CENTER width="9%">
+<center><b>Notes</b></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="11%">
+<center>ts</center>
+</td>
+
+<td valign=CENTER width="67%">Ground temperature</td>
+
+<td valign=CENTER width="13%">
+<center>K</center>
+</td>
+
+<td valign=CENTER width="9%">
+<center><a href="#Notes_for_Tables">1</a>, <a href="#g">g</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="11%">
+<center>tas</center>
+</td>
+
+<td valign=CENTER width="67%">Surface (2m) air temperature</td>
+
+<td valign=CENTER width="13%">
+<center>K</center>
+</td>
+
+<td valign=CENTER width="9%">
+<center><a href="#Notes_for_Tables">2</a>, <a href="#h">h</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="11%">
+<center>psl</center>
+</td>
+
+<td valign=CENTER width="67%">Mean-sea-level pressure</td>
+
+<td valign=CENTER width="13%">
+<center>N/m<sup>2</sup></center>
+</td>
+
+<td valign=CENTER width="9%">
+<center><a href="#Notes_for_Tables">2</a>, <a href="#i">i</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="11%">
+<center>ps</center>
+</td>
+
+<td valign=CENTER width="67%">Surface pressure</td>
+
+<td valign=CENTER width="13%">
+<center>N/m<sup>2</sup></center>
+</td>
+
+<td valign=CENTER width="9%">
+<center><a href="#Notes_for_Tables">2</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="11%">
+<center>pr</center>
+</td>
+
+<td valign=CENTER width="67%">Total precipitation rate</td>
+
+<td valign=CENTER width="13%">
+<center>kg/(m<sup>2</sup>s)</center>
+</td>
+
+<td valign=CENTER width="9%">
+<center><a href="#Notes_for_Tables">1</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="11%">
+<center>prsn</center>
+</td>
+
+<td valign=CENTER width="67%">Snowfall rate (water equivalent)</td>
+
+<td valign=CENTER width="13%">
+<center>kg/(m<sup>2</sup>s)</center>
+</td>
+
+<td valign=CENTER width="9%">
+<center><a href="#Notes_for_Tables">1</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="11%">
+<center>prc</center>
+</td>
+
+<td valign=CENTER width="67%">Convective precipitation rate</td>
+
+<td valign=CENTER width="13%">
+<center>kg/(m<sup>2</sup>s)</center>
+</td>
+
+<td valign=CENTER width="9%">
+<center><a href="#Notes_for_Tables">1</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="11%">
+<center>prw</center>
+</td>
+
+<td valign=CENTER width="67%">Precipitable water</td>
+
+<td valign=CENTER width="13%">
+<center>kg/m<sup>2</sup></center>
+</td>
+
+<td valign=CENTER width="9%">
+<center><a href="#Notes_for_Tables">1</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="11%">
+<center>mrfso</center>
+</td>
+
+<td valign=CENTER width="67%">Total soil frozen water content</td>
+
+<td valign=CENTER width="13%">
+<center>kg/m<sup>2</sup></center>
+</td>
+
+<td valign=CENTER width="9%">
+<center><a href="#Notes_for_Tables">1</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="11%">
+<center>mrsos</center>
+</td>
+
+<td valign=CENTER width="67%">Surface soil water content (upper 0.1m)</td>
+
+<td valign=CENTER width="13%">
+<center>kg/m<sup>2</sup></center>
+</td>
+
+<td valign=CENTER width="9%">
+<center><a href="#Notes_for_Tables">1</a>,<a href="#j"> j</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="11%">
+<center>mrso</center>
+</td>
+
+<td valign=CENTER width="67%">Total soil water content</td>
+
+<td valign=CENTER width="13%">
+<center>kg/m<sup>2</sup></center>
+</td>
+
+<td valign=CENTER width="9%">
+<center><a href="#Notes_for_Tables">1</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="11%">
+<center>mrros</center>
+</td>
+
+<td valign=CENTER width="67%">Surface runoff</td>
+
+<td valign=CENTER width="13%">
+<center>kg/(m<sup>2</sup>s)</center>
+</td>
+
+<td valign=CENTER width="9%">
+<center><a href="#Notes_for_Tables">1</a>, <a href="#j">j</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="11%">
+<center>mrro</center>
+</td>
+
+<td valign=CENTER width="67%">Total runoff (including drainage)</td>
+
+<td valign=CENTER width="13%">
+<center>kg/(m<sup>2</sup>s)</center>
+</td>
+
+<td valign=CENTER width="9%">
+<center><a href="#Notes_for_Tables">1</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="11%">
+<center>snw</center>
+</td>
+
+<td valign=CENTER width="67%">Snow depth (water equivalent)</td>
+
+<td valign=CENTER width="13%">
+<center>kg/m<sup>2</sup></center>
+</td>
+
+<td valign=CENTER width="9%">
+<center><a href="#Notes_for_Tables">1</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="11%">
+<center>snc</center>
+</td>
+
+<td valign=CENTER width="67%">Snow cover</td>
+
+<td valign=CENTER width="13%">
+<center>%</center>
+</td>
+
+<td valign=CENTER width="9%">
+<center><a href="#Notes_for_Tables">5</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="11%">
+<center>snm</center>
+</td>
+
+<td valign=CENTER width="67%">Snow melt</td>
+
+<td valign=CENTER width="13%">
+<center>kg/(m<sup>2</sup>s)</center>
+</td>
+
+<td valign=CENTER width="9%">
+<center><a href="#Notes_for_Tables">1</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="11%">
+<center>sic</center>
+</td>
+
+<td valign=CENTER width="67%">Sea-ice concentration</td>
+
+<td valign=CENTER width="13%">
+<center>%</center>
+</td>
+
+<td valign=CENTER width="9%">
+<center><a href="#Notes_for_Tables">5</a>, <a href="#k">k</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="11%">
+<center>uas</center>
+</td>
+
+<td valign=CENTER width="67%">Surface (10m) eastward wind</td>
+
+<td valign=CENTER width="13%">
+<center>m/s</center>
+</td>
+
+<td valign=CENTER width="9%">
+<center><a href="#Notes_for_Tables">2</a>, <a href="#h">h</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="11%">
+<center>vas</center>
+</td>
+
+<td valign=CENTER width="67%">Surface (10m) northward wind</td>
+
+<td valign=CENTER width="13%">
+<center>m/s</center>
+</td>
+
+<td valign=CENTER width="9%">
+<center><a href="#Notes_for_Tables">2</a>, <a href="#j">j</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="11%">
+<center>huss</center>
+</td>
+
+<td valign=CENTER width="67%">Surface specific humidity (2m)</td>
+
+<td valign=CENTER width="13%">
+<center>kg/kg</center>
+</td>
+
+<td valign=CENTER width="9%">
+<center><a href="#Notes_for_Tables">2</a>, <a href="#h">h</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="11%">
+<center>hfss</center>
+</td>
+
+<td valign=CENTER width="67%">Surface sensible heat flux (positive upward)</td>
+
+<td valign=CENTER width="13%">
+<center>W/m<sup>2</sup></center>
+</td>
+
+<td valign=CENTER width="9%">
+<center><a href="#Notes_for_Tables">1</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="11%">
+<center>hfls</center>
+</td>
+
+<td valign=CENTER width="67%">Surface latent heat flux (positive upward)</td>
+
+<td valign=CENTER width="13%">
+<center>W/m<sup>2</sup></center>
+</td>
+
+<td valign=CENTER width="9%">
+<center><a href="#Notes_for_Tables">1</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="11%">
+<center>evspsbl</center>
+</td>
+
+<td valign=CENTER width="67%">Surface evaporation plus sublimation rate</td>
+
+<td valign=CENTER width="13%">
+<center>kg/(m<sup>2</sup>s)</center>
+</td>
+
+<td valign=CENTER width="9%">
+<center><a href="#Notes_for_Tables">1</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="11%">
+<center>tauu</center>
+</td>
+
+<td valign=CENTER width="67%">Eastward surface wind stress (positive for
+eastward wind)</td>
+
+<td valign=CENTER width="13%">
+<center>N/m<sup>2</sup></center>
+</td>
+
+<td valign=CENTER width="9%">
+<center><a href="#Notes_for_Tables">1</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="11%">
+<center>tauv</center>
+</td>
+
+<td valign=CENTER width="67%">Northward surface wind stress (positive for
+northward wind)</td>
+
+<td valign=CENTER width="13%">
+<center>N/m<sup>2</sup></center>
+</td>
+
+<td valign=CENTER width="9%">
+<center><a href="#Notes_for_Tables">1</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="11%">
+<center>tauugwd</center>
+</td>
+
+<td valign=CENTER width="67%">GWD induced eastward surface wind stress
+(positive for eastward wind)</td>
+
+<td valign=CENTER width="13%">
+<center>N/m<sup>2</sup></center>
+</td>
+
+<td valign=CENTER width="9%">
+<center><a href="#Notes_for_Tables">1</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="11%">
+<center>tauvgwd</center>
+</td>
+
+<td valign=CENTER width="67%">GWD induced northward surface wind stress
+(positive for northward wind)</td>
+
+<td valign=CENTER width="13%">
+<center>N/m<sup>2</sup></center>
+</td>
+
+<td valign=CENTER width="9%">
+<center><a href="#Notes_for_Tables">1</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="11%">
+<center>rsds</center>
+</td>
+
+<td valign=CENTER width="67%">Surface incident shortwave radiation (positive
+downward)</td>
+
+<td valign=CENTER width="13%">
+<center>W/m<sup>2</sup></center>
+</td>
+
+<td valign=CENTER width="9%">
+<center><a href="#Notes_for_Tables">1</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="11%">
+<center>rsus</center>
+</td>
+
+<td valign=CENTER width="67%">Surface reflected shortwave radiation (positive
+downward)</td>
+
+<td valign=CENTER width="13%">
+<center>W/m<sup>2</sup></center>
+</td>
+
+<td valign=CENTER width="9%">
+<center><a href="#Notes_for_Tables">1</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="11%">
+<center>rlds</center>
+</td>
+
+<td valign=CENTER width="67%">Surface downwelling longwave radiation (positive
+downward)</td>
+
+<td valign=CENTER width="13%">
+<center>W/m<sup>2</sup></center>
+</td>
+
+<td valign=CENTER width="9%">
+<center><a href="#Notes_for_Tables">1</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="11%">
+<center>rlus</center>
+</td>
+
+<td valign=CENTER width="67%">Surface upwelling longwave radiation (positive
+downward)</td>
+
+<td valign=CENTER width="13%">
+<center>W/m<sup>2</sup></center>
+</td>
+
+<td valign=CENTER width="9%">
+<center><a href="#Notes_for_Tables">1</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="11%">
+<center>rsdt</center>
+</td>
+
+<td valign=CENTER width="67%">TOA incident shortwave radiation (positive
+downward)</td>
+
+<td valign=CENTER width="13%">
+<center>W/m<sup>2</sup></center>
+</td>
+
+<td valign=CENTER width="9%">
+<center><a href="#Notes_for_Tables">1</a>, ,<a href="#l"> l</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="11%">
+<center>rsut</center>
+</td>
+
+<td valign=CENTER width="67%">TOA reflected shortwave radiation (positive
+downward)</td>
+
+<td valign=CENTER width="13%">
+<center>W/m<sup>2</sup></center>
+</td>
+
+<td valign=CENTER width="9%">
+<center><a href="#Notes_for_Tables">1</a>, <a href="#l">l</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="11%">
+<center>rlut</center>
+</td>
+
+<td valign=CENTER width="67%">Outgoing longwave radiation (positive downward)</td>
+
+<td valign=CENTER width="13%">
+<center>W/m<sup>2</sup></center>
+</td>
+
+<td valign=CENTER width="9%">
+<center><a href="#Notes_for_Tables">1</a>,<a href="#l"> l</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="11%">
+<center>rtmt</center>
+</td>
+
+<td valign=CENTER width="67%">Net radiation at model top (positive downward)</td>
+
+<td valign=CENTER width="13%">
+<center>W/m<sup>2</sup></center>
+</td>
+
+<td valign=CENTER width="9%">
+<center><a href="#Notes_for_Tables">1</a>, <a href="#m">m</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="11%">
+<center>rsdscs</center>
+</td>
+
+<td valign=CENTER width="67%">Surface incident clear-sky shortwave radiation
+(method II)</td>
+
+<td valign=CENTER width="13%">
+<center>W/m<sup>2</sup></center>
+</td>
+
+<td valign=CENTER width="9%">
+<center><a href="#Notes_for_Tables">1</a>,<a href="#n"> n</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="11%">
+<center>rsuscs</center>
+</td>
+
+<td valign=CENTER width="67%">Surface reflected clear-sky shortwave radiation
+(method II)</td>
+
+<td valign=CENTER width="13%">
+<center>W/m<sup>2</sup></center>
+</td>
+
+<td valign=CENTER width="9%">
+<center><a href="#Notes_for_Tables">1</a>,<a href="#n"> n</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="11%">
+<center>rldscs</center>
+</td>
+
+<td valign=CENTER width="67%">Surface downwelling clear-sky longwave radiation
+(method II)</td>
+
+<td valign=CENTER width="13%">
+<center>W/m<sup>2</sup></center>
+</td>
+
+<td valign=CENTER width="9%">
+<center><a href="#Notes_for_Tables">1</a>,<a href="#n"> n</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="11%">
+<center>rlutcs</center>
+</td>
+
+<td valign=CENTER width="67%">TOA clear-sky longwave radiation (method
+II)</td>
+
+<td valign=CENTER width="13%">
+<center>W/m<sup>2</sup></center>
+</td>
+
+<td valign=CENTER width="9%">
+<center><a href="#Notes_for_Tables">1</a>,<a href="#n"> n</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="11%">
+<center>rsutcs</center>
+</td>
+
+<td valign=CENTER width="67%">TOA reflected clear-sky shortwave radiation
+(method II)</td>
+
+<td valign=CENTER width="13%">
+<center>W/m<sup>2</sup></center>
+</td>
+
+<td valign=CENTER width="9%">
+<center><a href="#Notes_for_Tables">1</a>,<a href="#n"> n</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="11%">
+<center>tasmax</center>
+</td>
+
+<td valign=CENTER width="67%">Daily maximum surface (2m) air temperature</td>
+
+<td valign=CENTER width="13%">
+<center>K</center>
+</td>
+
+<td valign=CENTER width="9%">
+<center><a href="#Notes_for_Tables">4</a>, <a href="#o">o</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="11%">
+<center>tasmin</center>
+</td>
+
+<td valign=CENTER width="67%">Daily minimum surface (2m) air temperature</td>
+
+<td valign=CENTER width="13%">
+<center>K</center>
+</td>
+
+<td valign=CENTER width="9%">
+<center><a href="#Notes_for_Tables">4</a>, <a href="#o">o</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="11%">
+<center>clt</center>
+</td>
+
+<td valign=CENTER width="67%">Total cloud amount</td>
+
+<td valign=CENTER width="13%">
+<center>%</center>
+</td>
+
+<td valign=CENTER width="9%">
+<center><a href="#Notes_for_Tables">5</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="11%">
+<center>clwvi</center>
+</td>
+
+<td valign=CENTER width="67%">Vertically integrated cloud water (liquid
+and solid phase)</td>
+
+<td valign=CENTER width="13%">
+<center>kg/m<sup>2</sup></center>
+</td>
+
+<td valign=CENTER width="9%">
+<center><a href="#Notes_for_Tables">1</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="11%">
+<center>clivi</center>
+</td>
+
+<td valign=CENTER width="67%">Vertically integrated cloud ice</td>
+
+<td valign=CENTER width="13%">
+<center>kg/m<sup>2</sup></center>
+</td>
+
+<td valign=CENTER width="9%">
+<center><a href="#Notes_for_Tables">1</a></center>
+</td>
+</tr>
+</table></center>
+<b><a href="#TOC">Return to Table of Contents</a></b>
+<p>
+<hr>
+<center><a name="Table_3"></a><b>Table 3</b>
+<br><b><u>High-frequency (6-hourly and daily) output</u></b>
+<br><b>(6-hourly data sample 4 times daily: 0, 6, 12, 18Z)</b></center>
+
+<center><table border width="702" bordercolor="#000000" >
+<tr>
+<td valign=TOP width="16%">
+<center><b>PCMDI</b>
+<br><b>Name</b></center>
+</td>
+
+<td valign=CENTER width="58%">
+<center><b>Variable</b></center>
+</td>
+
+<td valign=CENTER width="14%">
+<center><b>Units</b></center>
+</td>
+
+<td valign=CENTER width="12%">
+<center><b>Notes</b></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="16%">
+<center>va</center>
+</td>
+
+<td valign=CENTER width="58%">Northward wind (850 and 200 hPa): 6-hourly</td>
+
+<td valign=CENTER width="14%">
+<center>m/s</center>
+</td>
+
+<td valign=CENTER width="12%">
+<center><a href="#Notes_for_Tables">4</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="16%">
+<center>ua</center>
+</td>
+
+<td valign=CENTER width="58%">Eastward wind (850 and 200 hPa): 6-hourly</td>
+
+<td valign=CENTER width="14%">
+<center>m/s</center>
+</td>
+
+<td valign=CENTER width="12%">
+<center><a href="#Notes_for_Tables">4</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="16%">
+<center>rlut</center>
+</td>
+
+<td valign=CENTER width="58%">Outgoing longwave radiation: 6-hourly</td>
+
+<td valign=CENTER width="14%">
+<center>W/m<sup>2</sup></center>
+</td>
+
+<td valign=CENTER width="12%">
+<center><a href="#Notes_for_Tables">1</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="16%">
+<center>pr</center>
+</td>
+
+<td valign=CENTER width="58%">Total precipitation rate: 6-hourly</td>
+
+<td valign=CENTER width="14%">
+<center>kg/(m<sup>2</sup>s)</center>
+</td>
+
+<td valign=CENTER width="12%">
+<center><a href="#Notes_for_Tables">1</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="16%">
+<center>psl</center>
+</td>
+
+<td valign=CENTER width="58%">Mean-sea-level pressure: 6-hourly</td>
+
+<td valign=CENTER width="14%">
+<center>Pa</center>
+</td>
+
+<td valign=CENTER width="12%">
+<center><a href="#Notes_for_Tables">4</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=CENTER>
+<center>tasmax</center>
+</td>
+
+<td valign=CENTER>Daily maximum surface (2m) air temperature</td>
+
+<td valign=CENTER>
+<center>K</center>
+</td>
+
+<td valign=CENTER>
+<center><a href="#Notes_for_Tables">8</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=CENTER>
+<center>tasmin</center>
+</td>
+
+<td valign=CENTER>Daily minimum surface (2m) air temperature</td>
+
+<td valign=CENTER>
+<center>K</center>
+</td>
+
+<td valign=CENTER>
+<center><a href="#Notes_for_Tables">8</a></center>
+</td>
+</tr>
+</table></center>
+<b><a href="#TOC">Return to Table of Contents</a></b>
+<p>
+<hr>
+<center><a name="Table_4"></a><b>Table 4</b>
+<br><b><u>Time Series of daily global averages (area-weighted)</u></b></center>
+
+<center><table border width="702" bordercolor="#000000" >
+<tr>
+<td valign=TOP width="15%">
+<center><b>PCMDI</b>
+<br><b>Name</b></center>
+</td>
+
+<td valign=CENTER width="59%">
+<dir>
+<dir>
+<dir>
+<center><b>Variable</b></center>
+</dir>
+</dir>
+</dir>
+</td>
+
+<td valign=CENTER width="14%">
+<center><b>Units</b></center>
+</td>
+
+<td valign=CENTER width="12%">
+<center><b>Notes</b></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="15%">
+<center>rmt</center>
+</td>
+
+<td valign=CENTER width="59%">Net radiation at model top (positive downward)</td>
+
+<td valign=CENTER width="14%">
+<center>W/m<sup>2</sup></center>
+</td>
+
+<td valign=CENTER width="12%">
+<center><a href="#Notes_for_Tables">1</a>, <a href="#m">m</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="15%">
+<center>hfns</center>
+</td>
+
+<td valign=CENTER width="59%">Net downward energy flux at surface</td>
+
+<td valign=CENTER width="14%">
+<center>W/m<sup>2</sup></center>
+</td>
+
+<td valign=CENTER width="12%">
+<center><a href="#Notes_for_Tables">1</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="15%">
+<center>enek</center>
+</td>
+
+<td valign=CENTER width="59%">Total kinetic energy (per unit area)</td>
+
+<td valign=CENTER width="14%">
+<center>J/m<sup>2</sup></center>
+</td>
+
+<td valign=CENTER width="12%">
+<center><a href="#Notes_for_Tables">1</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="15%">
+<center>moa</center>
+</td>
+
+<td valign=CENTER width="59%">Total relative angular momentum (per unit
+area)</td>
+
+<td valign=CENTER width="14%">
+<center>kg/ s</center>
+</td>
+
+<td valign=CENTER width="12%">
+<center><a href="#Notes_for_Tables">1</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="15%">
+<center>torts</center>
+</td>
+
+<td valign=CENTER width="59%">Total surface torque (including mountain
+torque)</td>
+
+<td valign=CENTER width="14%">
+<center>N/m</center>
+</td>
+
+<td valign=CENTER width="12%">
+<center><a href="#Notes_for_Tables">1</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="15%">
+<center>ta</center>
+</td>
+
+<td valign=CENTER width="59%">Temperature (mass-weighted vertically average)</td>
+
+<td valign=CENTER width="14%">
+<center>K</center>
+</td>
+
+<td valign=CENTER width="12%">
+<center><a href="#Notes_for_Tables">1</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="15%">
+<center>ps</center>
+</td>
+
+<td valign=CENTER width="59%">Surface pressure</td>
+
+<td valign=CENTER width="14%">
+<center>Pa</center>
+</td>
+
+<td valign=CENTER width="12%">
+<center><a href="#Notes_for_Tables">1</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="15%">
+<center>evsps</center>
+</td>
+
+<td valign=CENTER width="59%">Evaporation and sublimation (per unit area)</td>
+
+<td valign=CENTER width="14%">
+<center>kg/(m<sup>2</sup>s)</center>
+</td>
+
+<td valign=CENTER width="12%">
+<center><a href="#Notes_for_Tables">1</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="15%">
+<center>snc</center>
+</td>
+
+<td valign=CENTER width="59%">Snow-covered area&nbsp;</td>
+
+<td valign=CENTER width="14%">
+<center>%</center>
+</td>
+
+<td valign=CENTER width="12%">
+<center><a href="#Notes_for_Tables">5</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="15%">
+<center>snd</center>
+</td>
+
+<td valign=CENTER width="59%">Snow depth (water equivalent)</td>
+
+<td valign=CENTER width="14%">
+<center>kg/m<sup>2</sup></center>
+</td>
+
+<td valign=CENTER width="12%">
+<center><a href="#Notes_for_Tables">1</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="15%">
+<center>tso</center>
+</td>
+
+<td valign=CENTER width="59%">SST over open (ice-free) ocean</td>
+
+<td valign=CENTER width="14%">
+<center>K</center>
+</td>
+
+<td valign=CENTER width="12%">
+<center><a href="#Notes_for_Tables">1</a></center>
+</td>
+</tr>
+</table></center>
+<b><a href="#TOC">Return to Table of Contents</a></b>
+<p>
+<hr>
+<center><a name="Table_5"></a><b>Table 5</b>
+<br><b><u>Fixed geographical fields</u></b></center>
+
+<center><table border width="699" bordercolor="#000000" >
+<tr>
+<td valign=TOP width="12%">
+<center>&nbsp;<b>PCMDI</b>
+<br><b>Name</b></center>
+</td>
+
+<td valign=CENTER width="70%">
+<center><b>Variable</b></center>
+</td>
+
+<td valign=CENTER width="9%">
+<center><b>Units</b></center>
+</td>
+
+<td valign=CENTER width="9%">
+<center><b>Notes</b></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="12%">
+<center>orog</center>
+</td>
+
+<td valign=CENTER width="70%">Model topography</td>
+
+<td valign=CENTER width="9%">
+<center>m</center>
+</td>
+
+<td valign=CENTER width="9%">
+<center><a href="#Notes_for_Tables">6</a>,<a href="#p"> p</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="12%">
+<center>sftlf</center>
+</td>
+
+<td valign=CENTER width="70%">Land fraction (expressed as percent)</td>
+
+<td valign=CENTER width="9%">
+<center>%</center>
+</td>
+
+<td valign=CENTER width="9%">
+<center><a href="#Notes_for_Tables">6</a>,<a href="#k"> k</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="12%">
+<center>sftgif</center>
+</td>
+
+<td valign=CENTER width="70%">Glacier fraction (expressed as percent)</td>
+
+<td valign=CENTER width="9%">
+<center>%</center>
+</td>
+
+<td valign=CENTER width="9%">
+<center><a href="#Notes_for_Tables">6</a>,<a href="#k"> k</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="12%">
+<center>mrsofc</center>
+</td>
+
+<td valign=CENTER width="70%">Total soil moisture field capacity</td>
+
+<td valign=CENTER width="9%">
+<center>kg/m<sup>2</sup></center>
+</td>
+
+<td valign=CENTER width="9%">
+<center><a href="#Notes_for_Tables">6</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="12%">
+<center>mrsofcs</center>
+</td>
+
+<td valign=CENTER width="70%">Surface soil moisture field capacity (upper
+0.1 m)</td>
+
+<td valign=CENTER width="9%">
+<center>kg/m<sup>2</sup></center>
+</td>
+
+<td valign=CENTER width="9%">
+<center><a href="#Notes_for_Tables">6</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="12%">
+<center>tro3</center>
+</td>
+
+<td valign=CENTER width="70%">Ozone climatology (zonal average -pressure
+cross section )</td>
+
+<td valign=CENTER width="9%">
+<center>ppmv</center>
+</td>
+
+<td valign=CENTER width="9%">
+<center><a href="#Notes_for_Tables">7</a></center>
+</td>
+</tr>
+</table></center>
+<b><a href="#TOC">Return to Table of Contents</a></b>
+<p>
+<hr>
+<center><a name="Table_6__optional_"></a><b>Table 6 (optional)</b>
+<br><b><u>Supplementary Output</u></b>
+<br><b>High frequency (6-hourly)</b></center>
+
+<center><table border width="702" bordercolor="#000000" >
+<tr>
+<td valign=TOP width="12%">
+<center><b>PCMDI</b>
+<br><b>Name</b></center>
+</td>
+
+<td valign=CENTER width="65%">
+<dir>
+<center><b>Variable</b></center>
+</dir>
+</td>
+
+<td valign=CENTER width="13%">
+<center><b>Units</b></center>
+</td>
+
+<td valign=CENTER width="10%">
+<center><b>Notes</b></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="12%">
+<center>ta</center>
+</td>
+
+<td valign=CENTER width="65%">Air temperature (850, 500, 50 hPa)</td>
+
+<td valign=CENTER width="13%">
+<center>K</center>
+</td>
+
+<td valign=CENTER width="10%">
+<center><a href="#Notes_for_Tables">4</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="12%">
+<center>zg</center>
+</td>
+
+<td valign=CENTER width="65%">Geopotential height (500 hPa)</td>
+
+<td valign=CENTER width="13%">
+<center>m</center>
+</td>
+
+<td valign=CENTER width="10%">
+<center><a href="#Notes_for_Tables">4</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="12%">
+<center>hus</center>
+</td>
+
+<td valign=CENTER width="65%">Specific humidity (850, 500 hPa)</td>
+
+<td valign=CENTER width="13%">
+<center>kg/kg</center>
+</td>
+
+<td valign=CENTER width="10%">
+<center><a href="#Notes_for_Tables">4</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="12%">
+<center>uas</center>
+</td>
+
+<td valign=CENTER width="65%">Surface (10m) eastward wind</td>
+
+<td valign=CENTER width="13%">
+<center>m/s</center>
+</td>
+
+<td valign=CENTER width="10%">
+<center><a href="#Notes_for_Tables">4</a>,<a href="#h"> h</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="12%">
+<center>vas</center>
+</td>
+
+<td valign=CENTER width="65%">Surface (10m) northward wind</td>
+
+<td valign=CENTER width="13%">
+<center>m/s</center>
+</td>
+
+<td valign=CENTER width="10%">
+<center><a href="#Notes_for_Tables">4</a>, <a href="#h">h</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="12%">
+<center>tas</center>
+</td>
+
+<td valign=CENTER width="65%">Surface (2m) temperature</td>
+
+<td valign=CENTER width="13%">
+<center>K</center>
+</td>
+
+<td valign=CENTER width="10%">
+<center><a href="#Notes_for_Tables">4</a>, <a href="#h">h</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="12%">
+<center>huss</center>
+</td>
+
+<td valign=CENTER width="65%">Surface specific humidity (2m)</td>
+
+<td valign=CENTER width="13%">
+<center>kg/kg</center>
+</td>
+
+<td valign=CENTER width="10%">
+<center><a href="#Notes_for_Tables">4</a>,<a href="#h"> h</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="12%">
+<center>wap</center>
+</td>
+
+<td valign=CENTER width="65%">Vertical motion (500 hPa)</td>
+
+<td valign=CENTER width="13%">
+<center>Pa/s</center>
+</td>
+
+<td valign=CENTER width="10%">
+<center><a href="#Notes_for_Tables">4</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="12%">
+<center>va</center>
+</td>
+
+<td valign=CENTER width="65%">Northward wind (50 hPa)</td>
+
+<td valign=CENTER width="13%">
+<center>m/s</center>
+</td>
+
+<td valign=CENTER width="10%">
+<center><a href="#Notes_for_Tables">4</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="12%">
+<center>ua</center>
+</td>
+
+<td valign=CENTER width="65%">Eastward wind (50 hPa)</td>
+
+<td valign=CENTER width="13%">
+<center>m/s</center>
+</td>
+
+<td valign=CENTER width="10%">
+<center><a href="#Notes_for_Tables">4</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="12%">
+<center>ps</center>
+</td>
+
+<td valign=CENTER width="65%">Surface pressure</td>
+
+<td valign=CENTER width="13%">
+<center>Pa</center>
+</td>
+
+<td valign=CENTER width="10%">
+<center><a href="#Notes_for_Tables">4</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="12%">
+<center>clt</center>
+</td>
+
+<td valign=CENTER width="65%">Total cloud cover</td>
+
+<td valign=CENTER width="13%">
+<center>%</center>
+</td>
+
+<td valign=CENTER width="10%">
+<center><a href="#Notes_for_Tables">5</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="12%">
+<center>tauu</center>
+</td>
+
+<td valign=CENTER width="65%">Eastward surface wind stress (positive for
+eastward wind)</td>
+
+<td valign=CENTER width="13%">
+<center>N/m<sup>2</sup></center>
+</td>
+
+<td valign=CENTER width="10%">
+<center><a href="#Notes_for_Tables">1</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="12%">
+<center>tauv</center>
+</td>
+
+<td valign=CENTER width="65%">Northward surface wind stress (positive for
+northward wind)</td>
+
+<td valign=CENTER width="13%">
+<center>N/m<sup>2</sup></center>
+</td>
+
+<td valign=CENTER width="10%">
+<center><a href="#Notes_for_Tables">1</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="12%">
+<center>prw</center>
+</td>
+
+<td valign=CENTER width="65%">Precipitable water</td>
+
+<td valign=CENTER width="13%">
+<center>kg/m<sup>2</sup></center>
+</td>
+
+<td valign=CENTER width="10%">
+<center><a href="#Notes_for_Tables">1</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="12%">
+<center>hfss</center>
+</td>
+
+<td valign=CENTER width="65%">Surface sensible heat flux (positive upward)</td>
+
+<td valign=CENTER width="13%">
+<center>W/m<sup>2</sup></center>
+</td>
+
+<td valign=CENTER width="10%">
+<center><a href="#Notes_for_Tables">1</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="12%">
+<center>hfls</center>
+</td>
+
+<td valign=CENTER width="65%">Surface latent heat flux (positive upward)</td>
+
+<td valign=CENTER width="13%">
+<center>W/m<sup>2</sup></center>
+</td>
+
+<td valign=CENTER width="10%">
+<center><a href="#Notes_for_Tables">1</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="12%">
+<center>mrro</center>
+</td>
+
+<td valign=CENTER width="65%">Total runoff (including drainage)</td>
+
+<td valign=CENTER width="13%">
+<center>kg/(m<sup>2</sup>s)</center>
+</td>
+
+<td valign=CENTER width="10%">
+<center><a href="#Notes_for_Tables">1</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="12%">
+<center>mrso</center>
+</td>
+
+<td valign=CENTER width="65%">Total soil water content</td>
+
+<td valign=CENTER width="13%">
+<center>kg/m<sup>2</sup></center>
+</td>
+
+<td valign=CENTER width="10%">
+<center><a href="#Notes_for_Tables">1</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="12%">
+<center>snw</center>
+</td>
+
+<td valign=CENTER width="65%">Snow depth (water equivalent)</td>
+
+<td valign=CENTER width="13%">
+<center>kg/m<sup>2</sup></center>
+</td>
+
+<td valign=CENTER width="10%">
+<center><a href="#Notes_for_Tables">1</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="12%">
+<center>rsds</center>
+</td>
+
+<td valign=CENTER width="65%">Surface incident shortwave radiation</td>
+
+<td valign=CENTER width="13%">
+<center>W/m<sup>2</sup></center>
+</td>
+
+<td valign=CENTER width="10%">
+<center><a href="#Notes_for_Tables">1</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="12%">
+<center>rsus</center>
+</td>
+
+<td valign=CENTER width="65%">Surface reflected shortwave radiation</td>
+
+<td valign=CENTER width="13%">
+<center>W/m<sup>2</sup></center>
+</td>
+
+<td valign=CENTER width="10%">
+<center><a href="#Notes_for_Tables">1</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="12%">
+<center>rlds</center>
+</td>
+
+<td valign=CENTER width="65%">Surface downwelling longwave radiation</td>
+
+<td valign=CENTER width="13%">
+<center>W/m<sup>2</sup></center>
+</td>
+
+<td valign=CENTER width="10%">
+<center><a href="#Notes_for_Tables">1</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="12%">
+<center>rlus</center>
+</td>
+
+<td valign=CENTER width="65%">Surface upwelling longwave radiation</td>
+
+<td valign=CENTER width="13%">
+<center>W/m<sup>2</sup></center>
+</td>
+
+<td valign=CENTER width="10%">
+<center><a href="#Notes_for_Tables">1</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="12%">
+<center>rsdt</center>
+</td>
+
+<td valign=CENTER width="65%">TOA incident shortwave radiation</td>
+
+<td valign=CENTER width="13%">
+<center>W/m<sup>2</sup></center>
+</td>
+
+<td valign=CENTER width="10%">
+<center><a href="#Notes_for_Tables">1</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="12%">
+<center>rsut</center>
+</td>
+
+<td valign=CENTER width="65%">TOA reflected shortwave radiation</td>
+
+<td valign=CENTER width="13%">
+<center>W/m<sup>2</sup></center>
+</td>
+
+<td valign=CENTER width="10%">
+<center><a href="#Notes_for_Tables">1</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="12%">
+<center>vorpot</center>
+</td>
+
+<td valign=CENTER width="65%">Potential vorticity 350, 380, 405K</td>
+
+<td valign=CENTER width="13%">
+<center>1/(Pas)</center>
+</td>
+
+<td valign=CENTER width="10%">
+<center><a href="#Notes_for_Tables">4</a>,<a href="#q"> q</a></center>
+</td>
+</tr>
+
+<tr>
+<td valign=TOP width="12%">
+<center>zblh</center>
+</td>
+
+<td valign=CENTER width="65%">Planetary boundary layer height</td>
+
+<td valign=CENTER width="13%">
+<center>m</center>
+</td>
+
+<td valign=CENTER width="10%">
+<center><a href="#Notes_for_Tables">2</a>,<a href="#r"> r</a></center>
+</td>
+</tr>
+</table></center>
+<b>&nbsp;<a href="#TOC">Return to Table of Contents</a></b>
+<p>
+<hr>
+<center><a name="Notes_for_Tables"></a><b>Notes_for_Tables 1-6</b></center>
+
+<dir>
+<center><b><i>Recommended sampling</i></b></center>
+</dir>
+
+<table border=0 cellspacing=0 width="859" >
+<tr>
+<td valign=CENTER width="4%">1</td>
+
+<td valign=CENTER width="96%">Averages computed to most accurately represent
+true simulation average (i.e., based on every time step)</td>
+</tr>
+
+<tr>
+<td valign=CENTER width="4%">2</td>
+
+<td valign=CENTER width="96%">Averages based on instantaneous samples at
+0, 6, 12 and 18Z.</td>
+</tr>
+
+<tr>
+<td valign=CENTER width="4%">3</td>
+
+<td valign=CENTER width="96%">Mean products are the monthly means <b>{xy}
+= {x} * {y} + {x'y'} </b>where<b>{xy} </b>is the monthly mean of the product
+of 6-hour (0,6,12,18Z) instantaneous samples. If calculations are done
+in pressure coordinates they will be more consistent with reanalysis products.</td>
+</tr>
+
+<tr>
+<td valign=CENTER width="4%">4</td>
+
+<td valign=CENTER width="96%">Instantaneous values.</td>
+</tr>
+
+<tr>
+<td valign=CENTER width="4%">5</td>
+
+<td valign=CENTER width="96%">Accumulated time average of the fraction
+of the grid cell covered, expressed as percent.</td>
+</tr>
+
+<tr>
+<td valign=CENTER width="4%">6</td>
+
+<td valign=CENTER width="96%">Time independent, but two-dimensional in
+space (longitude x latitude).</td>
+</tr>
+
+<tr>
+<td valign=CENTER width="4%">7</td>
+
+<td valign=CENTER width="96%">Monthly mean latitude-height (pressure) climatology.</td>
+</tr>
+
+<tr>
+<td valign=CENTER width="4%">8</td>
+
+<td valign=CENTER width="96%">Daily quantity, based on all model time steps</td>
+</tr>
+</table>
+<b>&nbsp;<a href="#TOC">Return to Table of Contents</a></b><a name="reccalc"></a>
+<center><b><i>Recommended calculations</i></b></center>
+
+<p><br>
+<table border=0 cellspacing=0 width="702" >
+<tr>
+<td valign=TOP width="3%" height="51"><a name="a"></a>a</td>
+
+<td valign=TOP width="97%" height="51">Fraction of time that a pressure
+surface is below ground: recommended method of calculation is outlined
+in Boer (1985).</td>
+</tr>
+
+<tr>
+<td valign=TOP width="3%"><a name="b"></a>b</td>
+
+<td valign=TOP width="97%">Mean products -&nbsp;</td>
+</tr>
+
+<tr>
+<td valign=TOP width="3%"><a name="c"></a>c</td>
+
+<td valign=TOP width="97%">Temperature tendencies - Total diabatic temperature
+tendency: temperature tendency due to radiation, shallow and deep convection,
+large scale precipitation, dry convective adjustment and vertical diffusion.
+Temperature tendency due to moist convection: for deep and shallow convection
+and including latent heat release, sub-gridscale vertical heat transport,
+and the tendencies due to the evaporation and phase change of falling precipitation.
+Temperature tendency due to dry convection: This should include the tendencies
+from dry convective adjustment only. Some models may not treat this explicitly.
+Temperature tendency due to large scale/stratiform precipitation: This
+should include the tendency associated with evaporation and phase change
+of falling precipitation.</td>
+</tr>
+
+<tr>
+<td valign=TOP width="3%"><a name="d"></a>d</td>
+
+<td valign=TOP width="97%">Moisture tendencies - Total moisture tendency:
+Include the total change in moisture due to diabatic processes. It should
+include shallow and deep convection, large scale precipitation, vertical
+diffusion, and the tendency due the evaporation of falling precipitation.</td>
+</tr>
+
+<tr>
+<td valign=TOP width="3%"><a name="e"></a>e</td>
+
+<td valign=TOP width="97%">Momentum tendencies - Both momentum tendency
+due to gravity wave drag and that due to convective processes should be
+scaler quantities representing the magnitude of both eastward and westward
+componenents [e.g., (tnmmcu**2 + tnmmcv**2)**0.5].</td>
+</tr>
+
+<tr>
+<td valign=TOP width="3%"><a name="f"></a>f</td>
+
+<td valign=TOP width="97%">Cloud liquid water and ice: grid-cell average
+mixing ratios.</td>
+</tr>
+
+<tr>
+<td valign=TOP width="3%"><a name="g"></a>g</td>
+
+<td valign=TOP width="97%">Ground temperature: this is the prescribed SST
+over ocean. Over land, the surface effective radiating temperature (as
+"seen" by the atmosphere) should be reported.</td>
+</tr>
+
+<tr>
+<td valign=TOP width="3%"><a name="h"></a>h</td>
+
+<td valign=TOP width="97%">Surface-air variables: calculations should be
+consistent with Hess et al. (1995).</td>
+</tr>
+
+<tr>
+<td valign=TOP width="3%"><a name="i"></a>i</td>
+
+<td valign=TOP width="97%">Mean-sea-level pressure: use corrected ECMWF
+algorithm (Trenberth et al., 1993).</td>
+</tr>
+
+<tr>
+<td valign=TOP width="3%"><a name="j"></a>j</td>
+
+<td valign=TOP width="97%">Land surface variables: for surface water content,
+integrate from surface down to 0.1 m of the soil. Surface runoff should
+include that portion of rainfall and snowmelt that does not infiltrate
+the soil.</td>
+</tr>
+
+<tr>
+<td valign=TOP width="3%"><a name="k"></a>k</td>
+
+<td valign=TOP width="97%">Sea-ice concentration, land and glacier masks:
+those models that do not include fraction grid-cell coverage should report
+values as 0 (e.g., 0% sea-ice) or 100 (e.g., 100% sea-ice).</td>
+</tr>
+
+<tr>
+<td valign=TOP width="3%"><a name="l"></a>l</td>
+
+<td valign=TOP width="97%">Top-of-atmosphere radiation fields: true "top-of-the-atmosphere"
+fluxes appropriate for comparison with satellite measurements (cf. model
+top calculations).</td>
+</tr>
+
+<tr>
+<td valign=TOP width="3%"><a name="m"></a>m</td>
+
+<td valign=TOP width="97%">Model top calculations: should be based on the
+radiation calculations at the top of the dynamically active model (cf.
+top-of-atmosphere calculations).</td>
+</tr>
+
+<tr>
+<td valign=TOP width="3%"><a name="n"></a>n</td>
+
+<td valign=TOP width="97%">Cloud-radiative forcing calculations: calculations
+consistent with Potter et al. (1992).</td>
+</tr>
+
+<tr>
+<td valign=TOP width="3%"><a name="o"></a>o</td>
+
+<td valign=TOP width="97%">Maximum/minimum temperatures: monthly means
+of daily extremes, based on all timesteps.</td>
+</tr>
+
+<tr>
+<td valign=TOP width="3%"><a name="p"></a>p</td>
+
+<td valign=TOP width="97%">Model topography: this should be the same as
+that which is used in the model. In AMIP I, some groups provided cosmetically
+altered topography.</td>
+</tr>
+
+<tr>
+<td valign=TOP width="3%"><a name="q"></a>q</td>
+
+<td valign=TOP width="97%">Potential vorticity: recommended method of calculation
+is outlined in Hoskins et al. (1985).</td>
+</tr>
+
+<tr>
+<td valign=TOP width="3%"><a name="r"></a>r</td>
+
+<td valign=TOP width="97%">Planetary boundary layer height: some suggestions
+are provided in Holtslag and Boville (1993), Beljaars et al. (1993), and
+Vogelezang and Holtslag (1996).</td>
+</tr>
+</table>
+
+<hr>
+<center><a name="references"></a><b>References</b></center>
+
+<p>Boer, G.J., 1985: A comparison of mass and energy budgets from two FGGE
+datasets and a GCM. Mon. Wea. Rev., 114, 885-902.
+<p>Beljaars, A.C.M, and Betts, A.K.: Validation of the boundary layer representation
+in the ECMWF model. The proceedings of Validation of Models over Europe,
+Vol. II, 7-11 September 1992, European Centre for Medium-Range Weather
+Forecasts, Shinfield Park, Reading RG2 9AX, UK
+<p>Hess, G. D., R. A. Colman and B. J. McAvaney, 1995: On computing screen
+temperatures, humidities and anemometer-height winds in large-scale models.
+Aust. Met. Mag., 44, 139-145. Available upon request from the AMIP Project
+Office.
+<p>Holtslag, A., A., and B.A. Boville, 1993: Local versus nonlocal boundary-layer
+diffusion in a global climate model. J. Clim., 6, 1825-1842.
+<p>Hoskins, B. J., M. E. McIntyre and A. W. Roberson, 1985: On the use
+and significance of isentropic potential vorticity maps. Quart. J. R. Met.
+Soc, 111, 877-946.
+<p>Potter, G. L., J. M. Slingo, J.-J. Morcrette and L. Corsetti, 1992:
+A modeling perspective on cloud radiative forcing. J. Geophys. Res, 97,
+20,507-20,518.
+<p>Trenberth, K. E., J. C. Berry and L. E. Buja, 1993: Vertical interpolation
+and truncation of model-coordinate data. NCAR Technical Note NCAR/TN-396+STR,
+54 pp. Available on request from the AMIP Project Office.
+<p>Vogelezang, D., and Holtslag, A., 1997: Evaluation and model impacts
+of alternative boundary-layer height formulations, Boundary-Layer. Meterol.
+(in press).
+<p>
+<hr>
+<center><a name="revision"></a><b>Listing of corrections and minor revision</b></center>
+
+<address>
+Because of the complexities and controversies associated with the AMIP
+II standard output list, there have been several minor revisions and corrections
+since its original publication in AMIP Newsletter No. 8.&nbsp; However,
+it is understood that not all modeling groups will be able to account for
+the revisions made in their first AMIP II simulations.</address>
+
+<dl><b>Units corrections</b>:
+<br>Table 1: Mean Product of vertical motion and specific humidity - (Pa/s)(kg/kg)
+<br>Table 4: Total relative angular momentum (per unit area) - kg/s
+<br>Table 6: Total soil water content - kg/m<sup>2</sup>
+<p><b>Organizational changes</b>:
+<br>Table 1 has been split up into three categories: a) "basic", b) "physical"
+and c) "dynamical" fields in an attempt to partition the complexities of
+computing the various quantities. It is expected that all participants
+will save every basic field. Several "physical" fields will not apply to
+all models, and for some calculating the "dynamical" fields may be prohibitively
+difficult.
+<p><b>Additional Pressure levels:</b>
+<br>Table 1a&nbsp; on additional levels in coordination with the stratospheric
+intercomparison activities of GRIPS.
+<p><b>Clarifications</b>
+<br>Table 4: "Total relative angular momentum" and "Global average temperature"
+should both be column integrated quantities.
+<p><b>Removed fields</b>
+<br><u>Satellite/surface views of 3-d cloud amounts, cloud optical depth
+and LW emissivity (Table 1):</u>
+<br>These fields initiated a great deal of interest and confusion. Many
+modelers continue to feel that they deserve further consideration. However,
+to date no one has clearly defined the satellite and surface views of cloud
+cover for the general case of different cloud cover treatments used in
+AGCMs. For this reason, the satellite and surface views of 3-d cloud amounts
+have been removed from Table 1. Cloud optical depth (extinction coefficient)
+and LW emissivity have also been removed because of a lacking consensus
+on how to define them. It is clear that there remains a strong interest
+in these fields, and they are certain to gain increasing attention. For
+now they will be archived (and analyzed) for those modeling groups that
+believe they deserves further attention. In this case, documentation of
+how the calculations are made will be necessary. (6/15/97)
+<p><b>New fields:</b>
+<br>Table 1: Gravity wave drag momentum tendency - m/(s<sup>2</sup>)
+<br>Table 1: Convective momentum transport tendency- m/(s<sup>2</sup>)
+<br>Talbe 1: Momentem tendencies changed from scalar to compenents
+<br>Table 1 Mean product of vertical velocity and temperature
+<br>Table 1 Mean product of temperature and total heating
+<br>Table 1 Mean product of eastward wind and eastward wind
+<br>Table 1 Mean product of northward wind and northward wind
+<br>Table 1 Mean product of temperature and temperature
+<br>Table 2: Snowmelt - kg/(m<sup>2</sup> s)
+<br>Table 3: Surface air temperature (2m) daily min and max fields - K
+<br>Table 4: Global average total surface torque - N/m
+<br>Table 6: Air temperature at 50hPa - K
+<p><b>3-d fields interpolated to standardized pressure levels:</b>
+<br>Some modelers have expressed reservations about interpolating <u>cloud-related</u>
+fields (e.g., cloud amount, temperature and moisture tendencies) to standard
+pressure levels.&nbsp; For this reason, cloud-related fields will be accepted
+on either model coordinates or the 17 standard pressure levels.
+<p><b>Order of vertical interpolation:</b>
+<br>Tests have demonstrated that in some cases (especially with fields
+on Tables 1b-c), interpolating every time step vs. at the end of the month
+can yield important differences. For this reason, a recommendation has
+now been made for the order of interpolation. (6/15/97).</dl>
+<b><a href="../../index-2.html">Return to AMIP home page</a></b>
+<p>
+<hr>
+<p><b>For further information contact the AMIP Project Office <a href="mailto: amip@pcmdi.llnl.gov">(amip@pcmdi.llnl.gov)</a>.</b>
+<p>
+<hr>
+<p><b><font size=-1>Last update: April 8, 1998</font></b>
+<br><a href="http://www.llnl.gov/"><img src="lll.gif" border=0 height=32 width=32></a><b><font size=-1>
+and <a href="http://www.llnl.gov/disclaimer.html">LLNL Disclaimers</a></font></b>
+<p><b><font size=-1>UCRL-MI-125180</font></b>
+</body>
+
+<!-- Mirrored from www-pcmdi.llnl.gov/amip/OUTPUT/AMIP2/outlist.html by HTTrack Website Copier/3.x [XR&CO'2004], Fri, 09 Jul 2004 21:01:37 GMT -->
+
+<!-- Mirrored from www-pcmdi.llnl.gov/projects/amip/OUTPUT/AMIP2/outlist.php by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 17 Jun 2016 00:22:25 GMT -->
+</html>

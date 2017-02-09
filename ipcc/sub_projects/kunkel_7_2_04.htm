@@ -1,0 +1,421 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/pcmdi_content.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>PCMDI</title>
+<!-- InstanceEndEditable -->
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+<link href="../../pcmdi.css" rel="stylesheet" type="text/css">
+<script language="JavaScript" type="text/JavaScript">
+<!--
+
+
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+
+function MM_setTextOfTextfield(objName,x,newText) { //v3.0
+  var obj = MM_findObj(objName); if (obj) obj.value = newText;
+}
+//-->
+</script>
+<style type="text/css">
+
+#dropmenudiv{
+position:absolute;
+z-index:100;
+border: 0px;
+}
+
+</style>
+<script type="text/javascript">
+<!--
+/***********************************************
+* AnyLink Drop Down Menu- © Dynamic Drive (www.dynamicdrive.com)
+* This notice MUST stay intact for legal use
+* Visit http://www.dynamicdrive.com/ for full source code
+***********************************************/
+
+//Contents for menu 1
+var menuAbout=new Array()
+menuAbout[0]='<table width="100%" border="0" cellpadding="3" cellspacing="1" bgcolor="#FFFFFF">'
+menuAbout[1]='<tr><td class="popupMenu" onMouseDown="MM_goToURL(\'parent\',\'http://www-pcmdi.llnl.gov/about/index.htm\');return document.MM_returnValue"><a href="../about/index.htm" class="popupMenu">About PCMDI</a></td></tr>'
+menuAbout[2]='<tr><td class="popupMenu" onMouseDown="MM_goToURL(\'parent\',\'http://www-pcmdi.llnl.gov/about/staff.htm\');return document.MM_returnValue"><a href="../about/staff.htm" class="popupMenu">Staff Directory</a></td></tr>'
+menuAbout[3]='<tr><td class="popupMenu" onMouseDown="MM_goToURL(\'parent\',\'http://www-pcmdi.llnl.gov/about/location.htm\');return document.MM_returnValue"><a href="../about/location.htm" class="popupMenu">Location</a></td></tr>'
+menuAbout[4]='</table>'
+
+var menuIPCC=new Array()
+menuIPCC[0]='<table width="100%" border="0" cellpadding="3" cellspacing="1" bgcolor="#FFFFFF">'
+menuIPCC[1]='<tr><td class="popupMenu" onMouseDown="MM_goToURL(\'parent\',\'http://www-pcmdi.llnl.gov/ipcc/about_ipcc.htm\');return document.MM_returnValue"><a href="../ipcc/about_ipcc.htm" class="popupMenu">About IPCC<br>Model Output</a></td></tr>'
+menuIPCC[2]='<tr><td class="popupMenu" onMouseDown="MM_goToURL(\'parent\',\'http://www-pcmdi.llnl.gov/ipcc/climate_forcing.htm\');return document.MM_returnValue"><a href="../ipcc/climate_forcing.htm" class="popupMenu">Climate Forcing</a></td></tr>'
+menuIPCC[3]='<tr><td class="popupMenu" onMouseDown="MM_goToURL(\'parent\',\'http://www-pcmdi.llnl.gov/ipcc/ipcc_data_status.htm\');return document.MM_returnValue"><a href="../ipcc/ipcc_data_status.htm" class="popupMenu">Data Status</a></td></tr>'
+menuIPCC[4]='<tr><td class="popupMenu" onMouseDown="MM_goToURL(\'parent\',\'http://www-pcmdi.llnl.gov/ipcc/ipcc_data_status.htm\');return document.MM_returnValue"><a href="../ipcc/ipcc_data_status.htm" class="popupMenu">Data Portal</a></td></tr>'
+menuIPCC[5]='<tr><td class="popupMenu" onMouseDown="MM_goToURL(\'parent\',\'http://www-pcmdi.llnl.gov/ipcc/diagnostic_subprojects.htm\');return document.MM_returnValue"><a href="../ipcc/diagnostic_subprojects.htm" class="popupMenu">Diagnostic Sub-Projects</a></td></tr>'
+menuIPCC[6]='<tr><td class="popupMenu" onMouseDown="MM_goToURL(\'parent\',\'http://www-pcmdi.llnl.gov/ipcc/diagnostic_subprojects.htm\');return document.MM_returnValue"><a href="../ipcc/subproject_publications.htm" class="popupMenu">Sub-Project Publications</a></td></tr>'
+menuIPCC[7]='</table>'
+
+var menuProjects=new Array()
+menuProjects[0]='<table width="100%" border="0" cellpadding="3" cellspacing="1" bgcolor="#FFFFFF">'
+menuProjects[1]='<tr><td class="popupMenu" onMouseDown="MM_goToURL(\'parent\',\'http://www-pcmdi.llnl.gov/projects/model_intercomparison.htm\');return document.MM_returnValue"><a href="../projects/model_intercomparison.htm" class="popupMenu">Model Intercomparison</a></td></tr>'
+menuProjects[2]='<tr><td class="popupMenu" onMouseDown="MM_goToURL(\'parent\',\'http://www-pcmdi.llnl.gov/projects/model_testbed.htm\');return document.MM_returnValue"><a href="../projects/model_testbed.htm" class="popupMenu">Model Testbed</a></td></tr>'
+menuProjects[3]='<tr><td class="popupMenu" onMouseDown="MM_goToURL(\'parent\',\'http://www-pcmdi.llnl.gov/projects/detection_attribution.htm\');return document.MM_returnValue"><a href="../projects/detection_attribution.htm" class="popupMenu">Detection/Attribution</a></td></tr>'
+menuProjects[4]='</table>'
+
+var menuSoftware=new Array()
+menuSoftware[0]='<table width="100%" border="0" cellpadding="3" cellspacing="1" bgcolor="#FFFFFF">'
+menuSoftware[1]='<tr><td class="popupMenu" onMouseDown="MM_goToURL(\'parent\',\'http://www-pcmdi.llnl.gov/software/about_software.htm\');return document.MM_returnValue"><a href="../software/about_software.htm" class="popupMenu">About Software</a></td></tr>'
+menuSoftware[2]='<tr><td class="popupMenu" onMouseDown="MM_goToURL(\'parent\',\'http://www-pcmdi.llnl.gov/software/news.htm\');return document.MM_returnValue"><a href="../software/news.htm" class="popupMenu">News</a></td></tr>'
+menuSoftware[3]='<tr><td class="popupMenu" onMouseDown="MM_goToURL(\'parent\',\'http://www-pcmdi.llnl.gov/software/download.htm\');return document.MM_returnValue"><a href="../software/download.htm" class="popupMenu">Downloads</a></td></tr>'
+menuSoftware[4]='<tr><td class="popupMenu" onMouseDown="MM_goToURL(\'parent\',\'http://www-pcmdi.llnl.gov/software/support.htm\');return document.MM_returnValue"><a href="../software/support.htm" class="popupMenu">Support</a></td></tr>'
+menuSoftware[5]='<tr><td class="popupMenu" onMouseDown="MM_goToURL(\'parent\',\'http://www-pcmdi.llnl.gov/Bugzilla/index.cgi\');return document.MM_returnValue"><a href="../Bugzilla/index.cgi" class="popupMenu">Bug Reports</a></td></tr>'
+menuSoftware[6]='</table>'
+
+var menuPublications=new Array()
+menuPublications[0]='<table width="100%" border="0" cellpadding="3" cellspacing="1" bgcolor="#FFFFFF">'
+menuPublications[1]='<tr><td class="popupMenu" onMouseDown="MM_goToURL(\'parent\',\'http://www-pcmdi.llnl.gov/publications/index.htm\');return document.MM_returnValue"><a href="../publications/index.htm" class="popupMenu">About Publications</a></td></tr>'
+menuPublications[2]='<tr><td class="popupMenu" onMouseDown="MM_goToURL(\'parent\',\'http://www-pcmdi.llnl.gov/publications/reports.htm\');return document.MM_returnValue"><a href="../publications/reports.htm" class="popupMenu">Report Series</a></td></tr>'
+menuPublications[3]='<tr><td class="popupMenu" onMouseDown="MM_goToURL(\'parent\',\'http://www-pcmdi.llnl.gov/publications/reviewed_literature.htm\');return document.MM_returnValue"><a href="../publications/reviewed_literature.htm" class="popupMenu">Reviewed Literature</a></td></tr>'
+menuPublications[4]='</table>'
+		
+var disappeardelay=0  //menu disappear speed onMouseout (in miliseconds)
+var hidemenu_onMouseDown="no" //hide menu when user clicks within menu?
+
+/////No further editting needed
+
+var ie4=document.all
+var ns6=document.getElementById&&!document.all
+
+if (ie4||ns6)
+document.write('<div id="dropmenudiv" style="visibility:hidden;" onMouseover="clearhidemenu()" onMouseout="dynamichide(event)"></div>')
+
+function getposOffset(what, offsettype){
+var totaloffset=(offsettype=="left")? what.offsetLeft : what.offsetTop;
+var parentEl=what.offsetParent;
+while (parentEl!=null){
+totaloffset=(offsettype=="left")? totaloffset+parentEl.offsetLeft : totaloffset+parentEl.offsetTop;
+parentEl=parentEl.offsetParent;
+}
+return totaloffset;
+}
+
+
+function showhide(obj, e, visible, hidden, menuwidth){
+if (ie4||ns6)
+dropmenuobj.style.left=dropmenuobj.style.top=-500
+if (menuwidth!=""){
+dropmenuobj.widthobj=dropmenuobj.style
+dropmenuobj.widthobj.width=menuwidth
+}
+if (e.type=="click" && obj.visibility==hidden || e.type=="mouseover")
+obj.visibility=visible
+else if (e.type=="click")
+obj.visibility=hidden
+}
+
+function iecompattest(){
+return (document.compatMode && document.compatMode!="BackCompat")? document.documentElement : document.body
+}
+
+function clearbrowseredge(obj, whichedge){
+var edgeoffset=0
+if (whichedge=="rightedge"){
+var windowedge=ie4 && !window.opera? iecompattest().scrollLeft+iecompattest().clientWidth-15 : window.pageXOffset+window.innerWidth-15
+dropmenuobj.contentmeasure=dropmenuobj.offsetWidth
+if (windowedge-dropmenuobj.x < dropmenuobj.contentmeasure)
+edgeoffset=dropmenuobj.contentmeasure-obj.offsetWidth
+}
+else{
+var windowedge=ie4 && !window.opera? iecompattest().scrollTop+iecompattest().clientHeight-15 : window.pageYOffset+window.innerHeight-18
+dropmenuobj.contentmeasure=dropmenuobj.offsetHeight
+if (windowedge-dropmenuobj.y < dropmenuobj.contentmeasure)
+edgeoffset=dropmenuobj.contentmeasure+obj.offsetHeight
+}
+return edgeoffset
+}
+
+function populatemenu(what){
+if (ie4||ns6)
+dropmenuobj.innerHTML=what.join("")
+}
+
+
+function dropdownmenu(obj, e, menucontents, menuwidth){
+if (window.event) event.cancelBubble=true
+else if (e.stopPropagation) e.stopPropagation()
+clearhidemenu()
+dropmenuobj=document.getElementById? document.getElementById("dropmenudiv") : dropmenudiv
+populatemenu(menucontents)
+
+if (ie4||ns6){
+showhide(dropmenuobj.style, e, "visible", "hidden", menuwidth)
+dropmenuobj.x=getposOffset(obj, "left")
+dropmenuobj.y=getposOffset(obj, "top")
+dropmenuobj.style.left=dropmenuobj.x-clearbrowseredge(obj, "rightedge")+"px"
+dropmenuobj.style.top=dropmenuobj.y-clearbrowseredge(obj, "bottomedge")+obj.offsetHeight+"px"
+}
+
+return clickreturnvalue()
+}
+
+function clickreturnvalue(){
+if (ie4||ns6) return false
+else return true
+}
+
+function contains_ns6(a, b) {
+while (b.parentNode)
+if ((b = b.parentNode) == a)
+return true;
+return false;
+}
+
+function dynamichide(e){
+if (ie4&&!dropmenuobj.contains(e.toElement))
+delayhidemenu()
+else if (ns6&&e.currentTarget!= e.relatedTarget&& !contains_ns6(e.currentTarget, e.relatedTarget))
+delayhidemenu()
+}
+
+function hidemenu(e){
+if (typeof dropmenuobj!="undefined"){
+if (ie4||ns6)
+dropmenuobj.style.visibility="hidden"
+}
+}
+
+function delayhidemenu(){
+if (ie4||ns6)
+delayhide=setTimeout("hidemenu()",disappeardelay)
+}
+
+function clearhidemenu(){
+if (typeof delayhide!="undefined")
+clearTimeout(delayhide)
+}
+
+if (hidemenu_onMouseDown=="yes")
+document.onMouseDown=hidemenu
+
+function MM_goToURL() { //v3.0
+  var i, args=MM_goToURL.arguments; document.MM_returnValue = false;
+  for (i=0; i<(args.length-1); i+=2) eval(args[i]+".location='"+args[i+1]+"'");
+}
+//-->
+</script>
+<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
+</head>
+<body onLoad="MM_preloadImages('../../images/b_links_over.jpg','../../images/b_ipcc_over.jpg','../../images/b_projects_over.jpg','../../images/b_software_over.jpg','../../images/b_publications_over.jpg','../../images/b_about_over.jpg')"> 
+<table width="770" height="20" border="0" cellpadding="0" cellspacing="0"> 
+  <tr> 
+    <td width="129" height="20" valign="top" bgcolor="#95B3D7"><a href="#" onMouseDown="return clickreturnvalue()" onMouseOver="dropdownmenu(this, event, menuAbout, '129px')" onMouseOut="delayhidemenu()"><img src="../../images/b_about.jpg" name="Image1" width="129" height="19" border="0" class="popupMenu" id="Image1" onMouseOver="MM_swapImage('Image1','','../../images/b_about_over.jpg',1)" onMouseOut="MM_swapImgRestore()"></a></td> 
+    <td width="128" height="20" valign="top" bgcolor="#95B3D7"><a href="#" onMouseDown="return clickreturnvalue()" onMouseOver="dropdownmenu(this, event, menuIPCC, '128px')" onMouseOut="delayhidemenu()"><img src="../../images/b_ipcc.jpg" name="Image2" width="128" height="19" border="0" class="popupMenu" id="Image2" onMouseOver="MM_swapImage('Image2','','../../images/b_ipcc_over.jpg',1)" onMouseOut="MM_swapImgRestore()"></a></td> 
+    <td width="128" height="20" valign="top" bgcolor="#95B3D7"><a href="#" onMouseDown="return clickreturnvalue()" onMouseOver="dropdownmenu(this, event, menuProjects, '128px')" onMouseOut="delayhidemenu()"><img src="../../images/b_projects.jpg" name="Image3" width="128" height="19" border="0" class="popupMenu" id="Image3" onMouseOver="MM_swapImage('Image3','','../../images/b_projects_over.jpg',1)" onMouseOut="MM_swapImgRestore()"></a></td> 
+    <td width="128" height="20" valign="top" bgcolor="#95B3D7"><a href="#" onMouseDown="return clickreturnvalue()" onMouseOver="dropdownmenu(this, event, menuSoftware, '128px')" onMouseOut="delayhidemenu()"><img src="../../images/b_software.jpg" name="Image4" width="128" height="19" border="0" class="popupMenu" id="Image4" onMouseOver="MM_swapImage('Image4','','../../images/b_software_over.jpg',1)" onMouseOut="MM_swapImgRestore()"></a></td> 
+    <td width="128" height="20" valign="top" bgcolor="#95B3D7"><a href="#" onMouseDown="return clickreturnvalue()" onMouseOver="dropdownmenu(this, event, menuPublications, '128px')" onMouseOut="delayhidemenu()"><img src="../../images/b_publications.jpg" name="Image5" width="128" height="19" border="0" class="popupMenu" id="Image5" onMouseOver="MM_swapImage('Image5','','../../images/b_publications_over.jpg',1)" onMouseOut="MM_swapImgRestore()"></a></td> 
+    <td width="129" height="20" valign="top" bgcolor="#95B3D7"><a href="../../links/links.htm" onMouseOver="MM_swapImage('Image7','','../../images/b_links_over.jpg',1)" onMouseOut="MM_swapImgRestore()"><img src="../../images/b_links.jpg" name="Image7" width="129" height="19" border="0" id="Image7"></a></td> 
+  </tr> 
+</table> 
+<!-- InstanceBeginEditable name="Header_Image" --> 
+<table width="770" border="0" cellpadding="0" cellspacing="0" background="../../images/banner_ipcc.jpg">
+  <tr>
+    <td width="770" height="160" align="right" valign="bottom"><!-- #BeginLibraryItem "/Library/Search Box.lbi" -->
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_setTextOfTextfield(objName,x,newText) { //v3.0
+  var obj = MM_findObj(objName); if (obj) obj.value = newText;
+}
+//-->
+</script>
+<table width="180" height="160" border="0" cellpadding="0" cellspacing="0"> 
+  <tr valign="top"> 
+    <form action="" method="post"> 
+      <td height="135" colspan="2" align="right"><a href="../../index.htm"><img src="../../images/transparent.gif" width="120" height="95" border="0"></a></td> 
+    </form> 
+  </tr> 
+  <tr> 
+    <form action="http://www-pcdmi.llnl.gov/cgi-bin/search/search.pl" method="post"> 
+      <td height="25" align="right"><input name="Terms" type="text" class="textfield" onMouseDown="MM_setTextOfTextfield('Terms','','')" value="Search" size="25"></td> 
+      <td width="40" height="25" align="center"><input name="Submit2" type="submit" class="submit" value="GO" onMouseOver="className='submitOver';" onMouseOut="className='submit';"></td> 
+      <input name="Match" type="hidden" value="0"> 
+      <input name="Realm" type="hidden" value="All"> 
+    </form> 
+  </tr> 
+</table> 
+<!-- #EndLibraryItem --></td>
+  </tr>
+</table>
+<!-- InstanceEndEditable --> 
+<table width="770" height="20" border="0" cellpadding="0" cellspacing="0" background="../../images/bg_sub_nav.jpg"> 
+  <tr> 
+    <td width="170" align="center" class="date"><span id=clock> </span> 
+      <script>
+/*By JavaScript Kit
+http://javascriptkit.com
+Credit MUST stay intact for use
+*/
+
+//time
+function show2(){
+if (!document.all&&!document.getElementById)
+return
+thelement=document.getElementById? document.getElementById("clock"): document.all.clock
+var Digital=new Date()
+var hours=Digital.getHours()
+var minutes=Digital.getMinutes()
+var seconds=Digital.getSeconds()
+var dn="PM"
+if (hours<12)
+dn="AM"
+if (hours>12)
+hours=hours-12
+if (hours==0)
+hours=12
+if (minutes<=9)
+minutes="0"+minutes
+if (seconds<=9)
+seconds="0"+seconds
+var ctime=hours+":"+minutes+":"+seconds
+thelement.innerHTML="<span='date'>"+ctime+" - </span>"
+setTimeout("show2()",1000)
+}
+window.onload=show2
+
+//date
+var mydate=new Date()
+var year=mydate.getYear()
+if (year < 1000)
+year+=1900
+var month=mydate.getMonth()
+var daym=mydate.getDate()
+var montharray=new Array("January","February","March","April","May","June","July","August","September","October","November","December")
+document.write("<span='date'>"+montharray[month]+" "+daym+", "+year+"</span>")
+
+  </script></td> 
+    <td width="600">&nbsp;</td> 
+  </tr> 
+</table> 
+<table width="770" border="0" cellspacing="0" cellpadding="0"> 
+  <tr> 
+    <td width="170" valign="top" background="../../images/bg_side.gif"><table width="170" border="0" cellpadding="0" cellspacing="0" background="../../images/bg_side.gif"> 
+        <tr> 
+          <td align="center"><p><a href="../../temporary/ccpp/index.html"><img src="../../images/featured_ccpp.jpg" width="160" height="103" border="0"></a><br> 
+              <a href="../../temporary/ccpp/index.html" class="sideNav">Register for this year's annual CCPP Conference</a></p> 
+            <p>&nbsp;</p> 
+            <table  border="1" cellpadding="10" cellspacing="0" bordercolor="#FFFFFF"> 
+              <tr> 
+                <td align="center"><a href="../about_ipcc.php" class="sideNav">IPCC Working<br> 
+                  Group 1 Data</a></td> 
+              </tr> 
+            </table> 
+            <p>&nbsp;</p> 
+            <p class="sideNav"><a href="../../notice.htm" class="sideNav">ATTENTION!<br> 
+              PCMDI's got a new look!<br> 
+              Read on for more info.</a></p> 
+            <p>&nbsp; </p> 
+            <table width="166" border="0" cellspacing="0" cellpadding="0"> 
+              <tr align="center"> 
+                <td colspan="2"><p><a href="http://www.llnl.gov/disclaimer.html" class="sideNav">Privacy &amp; Legal Notice</a></p> 
+                  <p><a href="http://www.lmd.jussieu.fr/pcmdi-mirror/" class="sideNav">Website Mirror (France)</a><br> 
+                    <a href="http://www.bom.gov.au/bmrc/clch/pcmdi-mirror/index.html" class="sideNav">Website Mirror (Australia)</a></p> 
+                  <p class="size10White">Thanks to Our Sponsors:</p></td> 
+              </tr> 
+              <tr align="center"> 
+                <td width="135"><a href="http://www.llnl.gov"><img src="../../images/logo_llnl.jpg" width="60" height="60" border="0"></a></td> 
+                <td width="135"><a href="http://www.er.doe.gov/production/ober/lsd_top.html"><img src="../../images/logo_ber.jpg" width="70" height="70" border="0"></a></td> 
+              </tr> 
+              <tr align="center"> 
+                <td colspan="2"><a href="http://www.science.doe.gov/"><img src="../../images/logo_office_of_science.jpg" width="166" height="64" border="0"></a></td> 
+              </tr> 
+            </table></td> 
+        </tr> 
+      </table></td> 
+    <td valign="top"><table width="600" border="0" cellspacing="0" cellpadding="0"> 
+        <tr> 
+          <td width="20" rowspan="2"><img src="../../images/corner.jpg" width="20" height="40"></td> 
+          <td colspan="3"><img src="../../images/content_top_shadow.jpg" width="580" height="20"></td> 
+        </tr> 
+        <tr> 
+          <td width="20"><img src="../../images/content_corner_tl.jpg" width="20" height="20"></td> 
+          <td width="520" background="../../images/bg_content_breadcrumb.gif" class="size10"><!-- InstanceBeginEditable name="Breadcrumb" -->IPCC Model Output &gt; Diagnostic Sub-Projects <!-- InstanceEndEditable --></td> 
+          <td width="40"><img src="../../images/content_corner_tr.jpg" width="40" height="20"></td> 
+        </tr> 
+      </table> 
+      <table width="600" border="0" cellspacing="0" cellpadding="0"> 
+        <tr> 
+          <td width="19" background="../../images/content_left_shadow.gif">&nbsp;</td> 
+          <td><table width="562" border="0" cellpadding="0" cellspacing="0" class="contentTable"> 
+              <tr> 
+                <td><table width="100%"  border="0" cellspacing="0" cellpadding="0"> 
+                    <tr> 
+                      <td><!-- InstanceBeginEditable name="Welcome_Image" --><img src="../../images/headers/ipcc_diagnostic_subprojects.jpg" width="200" height="40"><!-- InstanceEndEditable --></td> 
+                    </tr> 
+                  </table> 
+                  <table width="542"  border="0" align="center" cellpadding="10" cellspacing="0"> 
+                    <tr> 
+                      <td> <!-- InstanceBeginEditable name="Content" -->
+                        <p><b>Historical Variations and Future Projections of Central and Southeast U.S. Climate</b></p>
+                        <p>Kenneth E. Kunkel and Xin-Zhong Liang<br>
+                          Illinois State Water Survey<br>
+                          2204 Griffith Dr.<br>
+                        Champaign, IL 61820</p>
+                        <p>The central and southeast U.S. is one of the few locations globally that has not experienced at least some warming during the 20 th Century. The causes for this remain the subject of active research; one recent paper hypothesized that the temporal pattern of SST anomalies in the tropical Pacific observed in the latter half of the 20 th Century can induce an atmospheric response leading to decreased temperature, increased cloud cover, and increased precipitation in this region. We propose to undertake an analysis of the AR4 GCM simulations, focusing on this observed regional feature of little or no warming. The overarching question is this: To what extent can GCMs reproduce this feature of the 20 th Century climate and what are the implications of the answer for confidence in their 21 st Century projections? Our specific objectives are: (1) to determine whether any 20 th Century CGCM simulation can reproduce the observed central and southeast U.S variations of temperature and precipitation; (2) to determine through process-oriented studies why models produce certain variations in the central U.S. with a particular, though non-exclusive, focus on processes related to SSTs; and (3) to determine to what extent the models project changes in these forcing processes in the 21 st Century. This analysis will complement ongoing work at our institution in which we are performing 21 st Century regional climate model simulations using PCM and HadAM3 data as the lateral boundary conditions. The AR4 data sets needed are: (1) time series of 20 th Century simulations, including the following specific variables: surface climate (temperature, precipitation, humidity, cloud cover, sea level pressure , wind speed and direction ) for the U.S., upper air data (height, wind, temperature, specific humidity) at standard levels for North America and adjacent ocean areas, and global SSTs; and (2) time series of the same data for 21 st Century simulations for the A1B, A2, and B1 emissions scenarios. We understand that the time resolution will generally be monthly, but there may be some time periods with daily and even hourly resolution. We desire the highest time resolution available to fully support the process studies. </p>
+                      <!-- InstanceEndEditable --></td> 
+                    </tr> 
+                  </table></td> 
+              </tr> 
+            </table></td> 
+          <td width="19" background="../../images/content_right_shadow.gif">&nbsp;</td> 
+        </tr> 
+      </table> 
+      <table width="600" border="0" cellspacing="0" cellpadding="0"> 
+        <tr> 
+          <td width="30" rowspan="2"><img src="../../images/content_corner_bl.jpg" width="30" height="60"></td> 
+          <td width="540" height="40" align="center" background="../../images/bg_content_footer.gif" class="size10">For questions or comments regarding this website, please contact <a href="mailto:webmaster@pcmdi.llnl.gov">the Webmaster.</a></td> 
+          <td width="30" rowspan="2"><img src="../../images/content_corner_br.jpg" width="30" height="60"></td> 
+        </tr> 
+        <tr> 
+          <td width="540" height="20" background="../../images/content_bottom_shadow.gif">&nbsp;</td> 
+        </tr> 
+      </table></td> 
+  </tr> 
+</table> 
+</body>
+<!-- InstanceEnd --></html>

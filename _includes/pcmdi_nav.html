@@ -1,8 +1,9 @@
 <head>
     <link rel="stylesheet" href="{{site.baseurl}}/Data/media/css/head.css"/>
+    <link rel="stylesheet" href="{{site.baseurl}}/Data/media/css/nav.css"/>
 </head>
 <div id="header-fat" class="navbar navbar-fixed-top navbar-noFixed">
-  <div id="brand" class="navbar-inner">
+  <div id="brand" class="navbar-inner" style="min-height: 103px">
     <div class="container header" id="header">
         <p id="llnl-menu-tab" class="pull-left"><a href="http://llnl.gov"><span>Lawrence Livermore National Laboratory</span></a></p>
         <a class="brand pull-left" href="{{site.baseurl}}/index.html">Program for Climate Model Diagnosis & Intercomparison</a>
@@ -31,20 +32,18 @@
   </div>
   <div class="navbar-inner">
     <div class="container">
-       <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+       <button type="button" class="btn btn-navbar collapse" data-toggle="collapse" data-target=".nav-collapse">
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-      <div class="nav-collapse">
+      <div class="nav-collapse collapse">
         <ul class="nav">
           {% assign pages_list = site.pages %}
           {% assign group = 'navigation' %}
           {% include pages_list %}
           <li><a href="{{site.baseurl}}/software/index.html">Software</a></li>
           <li><a href="http://www-pcmdi.llnl.gov">Old Site</a></li>
-
-
         </ul>
       </div>
     </div>

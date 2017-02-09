@@ -1,6 +1,6 @@
 ---
 layout: CMIP5
-title: CMIP5 Guide
+title: PCMDI - CMIP5 Guide
 ---
 
 # CMIP5 Essential Information 

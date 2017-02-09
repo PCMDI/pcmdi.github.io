@@ -1,0 +1,318 @@
+---
+layout: AMIP
+title: WGNE Standard Diagnostics of Mean Climate
+---
+
+<!-- startprint -->
+<h1>WGNE Standard Diagnostics of Mean Climate</h1>
+                          <h3>Purpose</h3>
+                          <table cellspacing=0 cellpadding=8 width="100%" >
+                            <tr>
+                              <td valign=TOP width="2%"><img src="aniterre.gif" height=12 width=12></td>
+                              <td valign=CENTER width="98%">Provide a comprehensive set of diagnostics that the community agrees is useful to characterize a climate model&nbsp;</td>
+                            </tr>
+                            <tr>
+                              <td valign=TOP width="2%"><img src="aniterre.gif" height=12 width=12></td>
+                              <td valign=CENTER width="98%">Provide a concise, complete summary of a model's simulation characteristics</td>
+                            </tr>
+                            <tr>
+                              <td valign=TOP width="2%"><img src="aniterre.gif" height=12 width=12></td>
+                              <td valign=CENTER width="98%">Provide an indication of the suitability of a model for a variety of applications&nbsp;</td>
+                            </tr>
+                            <tr>
+                              <td valign=TOP width="2%"><img src="aniterre.gif" height=12 width=12></td>
+                              <td valign=CENTER width="98%">Provide information about the simulated state and about the processes maintaining that state</td>
+                            </tr>
+                            <tr>
+                              <td valign=TOP width="2%"><img src="aniterre.gif" height=12 width=12></td>
+                              <td valign=CENTER width="98%">Include variables that modeling groups and users would like to see from their own model and from other models&nbsp;</td>
+                            </tr>
+                            <tr>
+                              <td valign=TOP width="2%"><img src="aniterre.gif" height=12 width=12></td>
+                              <td valign=CENTER width="98%">Allow model developers to compare their developmental model with other models and with AMIP vintage models to determine where they currently stand in the development process</td>
+                            </tr>
+                          </table>
+                          <hr>
+                          <p>These diagnostics conceptually comprise sets of plots and averages. They are not the data base from which these are calculated, such as that developed for AMIP at PCMDI, nor are they a data base from which further diagnostics can be calculated. The exact format is left open for the moment, i.e. whether electronic, specified plot formats and contour intervals, etc. The diagnostics could form the basis of a printed technical report or WWW home page to document the simulation capabilities of a particular model version.
+    
+                        <p>The list is limited to atmospheric quantities. Variables such as runoff are not included as they are conceptually controlled by another component of the climate system, namely the land surface model. Presumably similar standard diagnostic lists would be useful for the other components of the climate system.
+    
+                        <p>The list will be updated from time to time in response to suggestions from the modeling community and to make it more complete. For example, diagnostics which illuminate some aspects of the climate, such as the diurnal cycle, are not yet included. Please send all comments and suggestions to David Williamson, National Center for Atmospheric Research, Box 3000, Boulder, CO 80307-3000, USA or (preferably) electronically to (<a href="mailto:wmson@ncar.ucar.edu">wmson@ncar.ucar.edu</a>). The list is maintained by PCMDI under the direction of the WGNE.
+    
+                        <p>
+                          <hr noshade>
+                          <p><u>Diagnostics</u>                           
+                          <dir>(multiple year climatologies implied for all variables)
+                          <p>1. GLOBAL AVERAGES (Annual) <br>
+&nbsp;&nbsp;&nbsp;&nbsp; (for model budget)
+                          <dir> <dir>Top of Model Atmosphere Energy Budget (W/m<sup>2</sup>) <br>
+&nbsp;&nbsp;&nbsp;&nbsp; --- net solar flux at top of model, positive downward <br>
+&nbsp;&nbsp;&nbsp;&nbsp; --- net longwave flux at top of model, positive upward <br>
+&nbsp;&nbsp;&nbsp;&nbsp; --- residual (solar -- longwave)
+<p>Surface Energy Budget (W/m<sup>2</sup>) <br>
+&nbsp;&nbsp;&nbsp;&nbsp; --- net solar flux at surface, positive downward <br>
+&nbsp;&nbsp;&nbsp;&nbsp; --- net longwave flux at surface, positive upward <br>
+&nbsp;&nbsp;&nbsp;&nbsp; --- surface latent heat flux, positive upward <br>
+&nbsp;&nbsp;&nbsp;&nbsp; --- surface sensible heat flux, positive upward <br>
+&nbsp;&nbsp;&nbsp;&nbsp; --- residual (solar -- longwave -- latent -- sensible)
+    
+<p>Surface Water Budget (mm/day) <br>
+&nbsp;&nbsp;&nbsp;&nbsp; --- precipitation rate global land only <br>
+&nbsp;&nbsp;&nbsp;&nbsp; --- evaporation rate global land only <br>
+&nbsp;&nbsp;&nbsp;&nbsp; --- residual (precipitation -- evaporation) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; global <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; land only
+                          </dir>
+                          <dl>
+                            <dt> 2. GLOBAL AVERAGES: Annual, Seasonal (DJF, JJA)</dt>
+                            <dt> (for comparison with atmospheric observations) Note, a few variables in this set overlap with Set 1, but are repeated here for completeness. Also, there is a deliberate distinction between top of model (above) for budgets and top of atmosphere (here) for comparison with observations.</dt>
+                          </dl>
+                          <dir>Outgoing Longwave Radiation, top of atmosphere (W/m<sup>2</sup>) <br>
+&nbsp;&nbsp;&nbsp;&nbsp; --- all sky <br>
+&nbsp;&nbsp;&nbsp;&nbsp; --- clear sky (method II)
+<p>Net Solar Flux at top of atmosphere, positive downward (W/m<sup>2</sup>) <br>
+&nbsp;&nbsp;&nbsp;&nbsp; (Absorbed Solar Radiation) <br>
+&nbsp;&nbsp;&nbsp;&nbsp; --- all sky <br>
+&nbsp;&nbsp;&nbsp;&nbsp; --- clear sky (method II)
+    
+                      <p>Net Longwave Flux at surface, positive upward (W/m<sup>2</sup>) <br>
+&nbsp;&nbsp;&nbsp;&nbsp; --- all sky <br>
+&nbsp;&nbsp;&nbsp;&nbsp; --- clear sky (method II)
+    
+                      <p>Net Solar Flux at surface, positive downward (W/m<sup>2</sup>) <br>
+&nbsp;&nbsp;&nbsp;&nbsp; --- all sky <br>
+&nbsp;&nbsp;&nbsp;&nbsp; --- clear sky (method II)
+    
+                      <p>Longwave Cloud Forcing (W/m<sup>2</sup>) <br>
+&nbsp;&nbsp;&nbsp;&nbsp; (net longwave clear sky flux -- net longwave all sky flux, top of atmosphere)
+    
+                      <p>Shortwave Cloud Forcing (W/m<sup>2</sup>) <br>
+&nbsp;&nbsp;&nbsp;&nbsp; (net shortwave all sky flux -- net shortwave clear sky flux, top of atmosphere)
+    
+                      <p>Cloud <br>
+&nbsp;&nbsp;&nbsp;&nbsp; --- fraction (total), overlap as assumed in model
+    
+                      <p>Precipitation Rate (mm/day)
+    
+                      <p>Evaporation Rate (mm/day)
+    
+                      <p>Precipitable Water (mm)
+    
+                      <p>Surface Skin Temperature (effective radiating temperature, K) <br>
+&nbsp;&nbsp;&nbsp;&nbsp; --- global <br>
+&nbsp;&nbsp;&nbsp;&nbsp; --- land only
+    
+                      <p>Screen Temperature, 2 m, (K) <br>
+&nbsp;&nbsp;&nbsp;&nbsp; --- global <br>
+&nbsp;&nbsp;&nbsp;&nbsp; --- land only
+    
+                      <p>Atmospheric Angular Momentum (kg m**2/s) <br>
+&nbsp;&nbsp;&nbsp; (vertical integral through depth of atmosphere) <br>
+&nbsp;                         
+                          </dir>3. ZONAL AVERAGES (Annual) <dir>Implied Meridional Ocean Heat Transport (W) <br>
+&nbsp;&nbsp;&nbsp;&nbsp; (with non-zero annual mean, global ocean average net surface flux removed uniformly) <br>
+&nbsp;&nbsp;&nbsp;&nbsp; --- all oceans <br>
+&nbsp;&nbsp;&nbsp;&nbsp; --- Atlantic Ocean <br>
+&nbsp;&nbsp;&nbsp;&nbsp; --- Indo-Pacific Ocean <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (the two basins delimited by 67.5W south of South America and 22.5E south of Africa)
+<p>Implied Meridional Ocean Freshwater Flux (kg/s) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (with non-zero annual mean, global ocean average net surface flux removed uniformly) <br>
+&nbsp;&nbsp;&nbsp;&nbsp; --- all oceans <br>
+&nbsp;&nbsp;&nbsp;&nbsp; --- Atlantic Ocean <br>
+&nbsp;&nbsp;&nbsp;&nbsp; --- Indo-Pacific Ocean <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (the two basins delimited by 67.5W south of South America and 22.5E south of Africa)
+                          </dir>4. ZONAL AVERAGES: Seasonal (DJF, JJA) <dir>(and differences from yet to be determined "standard'' observed atmospheric estimates where available)</dir>
+                          <center>
+                            <i>(following subset contains the same variables as Set 2)</i>
+                          </center>
+                          <dir>Outgoing Longwave Radiation, top of atmosphere (W/m<sup>2</sup>) <br>
+&nbsp;&nbsp;&nbsp;&nbsp; --- all sky <br>
+&nbsp;&nbsp;&nbsp;&nbsp; --- clear sky (method II)
+<p>Net Solar Flux at top of atmosphere, positive downward (W/m<sup>2</sup>) <br>
+&nbsp;&nbsp;&nbsp;&nbsp; (Absorbed Solar Radiation) <br>
+&nbsp;&nbsp;&nbsp;&nbsp; --- all sky <br>
+&nbsp;&nbsp;&nbsp;&nbsp; --- clear sky (method II)
+    
+                      <p>Net Longwave Flux at surface, positive upward (W/m<sup>2</sup>) <br>
+&nbsp;&nbsp;&nbsp;&nbsp; --- all sky <br>
+&nbsp;&nbsp;&nbsp;&nbsp; --- clear sky (method II)
+    
+                      <p>Net Solar Flux at surface, positive downward (W/m<sup>2</sup>) <br>
+&nbsp;&nbsp;&nbsp;&nbsp; --- all sky <br>
+&nbsp;&nbsp;&nbsp;&nbsp; --- clear sky (method II)
+    
+                      <p>Longwave Cloud Forcing (W/m<sup>2</sup>) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (net longwave clear sky flux -- net longwave all sky flux, top of atmosphere)
+    
+                      <p>Shortwave Cloud Forcing (W/m<sup>2</sup>) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (net shortwave all sky flux -- net shortwave clear sky flux, top of atmosphere)
+    
+                      <p>Cloud <br>
+&nbsp;&nbsp;&nbsp;&nbsp; --- fraction (total), overlap as assumed in model
+    
+                      <p>Precipitation Rate (mm/day)
+    
+                      <p>Evaporation Rate (mm/day)
+    
+                      <p>Precipitable Water (mm)
+    
+                      <p>Surface Skin Temperature (effective radiating temperature, K) <br>
+&nbsp;&nbsp;&nbsp;&nbsp; --- global <br>
+&nbsp;&nbsp;&nbsp;&nbsp; --- land only
+    
+                      <p>Screen Temperature, 2 m (K) <br>
+&nbsp;&nbsp;&nbsp;&nbsp; --- global <br>
+&nbsp;&nbsp;&nbsp;&nbsp; --- land only
+  <center>
+  </center>
+  <center>
+    <i>(end of subset containing the same variables as Set 2)</i>
+  </center>
+                        <p>Zonal Surface Stress (positive for westerly wind, N/m<sup>2</sup>) <br>
+&nbsp;&nbsp;&nbsp;&nbsp; --- ocean only
+    
+                      <p>Zonal Wind (m/s)
+    
+                      <p>Temperature (K)
+    
+                      <p>Specific Humidity (g/kg)
+    
+                      <p>Relative Humidity (percent)
+    
+                      <p>Pressure Vertical Velocity,&nbsp;<img src="Image14.gif" height=15 width=16> (hPa/day)
+    
+                      <p>Meridional Streamfunction (kg/s)
+    
+                      <p>Total Diabatic Heating (K/day)
+    
+                      <p>Total Diabatic Moistening (g/kg/day)
+    
+                      <p>Total Parameterized Momentum Sink, (m/s/day) --- u and v components
+    
+                      <p>Meridional Eddy Fluxes <br>
+&nbsp;&nbsp;&nbsp;&nbsp; (&nbsp;<img src="Image15.gif" height=23 width=13> = individual seasonal mean,&nbsp;<img src="Image16.gif" height=28 width=66>) <br>
+&nbsp;&nbsp;&nbsp;&nbsp; ( [ u ] = zonal average, u<sup>*</sup> = u - [u] )
+    
+                      <p>&nbsp;&nbsp;&nbsp;&nbsp; --- transient <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; momentum ( [<img src="Image17.gif" height=31 width=43>], m<sup>2</sup>)/s<sup>2</sup>) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; heat ( [<img src="Image18.gif" height=31 width=43>], Km/s) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; moisture ( [<img src="Image19.gif" height=31 width=41>], (g/kg)(m/s) )
+    
+                      <p>&nbsp;&nbsp;&nbsp;&nbsp; --- stationary <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; momentum ( [<img src="Image20.gif" height=28 width=60>], m<sup>2</sup>)/s<sup>2</sup>) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; heat ( [<img src="Image21.gif" height=31 width=56> ], Km/s) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; moisture ( [<img src="Image22.gif" height=31 width=53>], (g/kg)(m/s) )
+    
+                      <p>Vertical Eddy Heat Flux <br>
+&nbsp;&nbsp;&nbsp;&nbsp; --- transient <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; heat ( [<img src="Image23.gif" height=31 width=46>], K Pa/s) <br>
+&nbsp;&nbsp;&nbsp;&nbsp; --- stationary <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; heat ( [<img src="Image24.gif" height=31 width=58>], K Pa/s)
+    
+                      <p>Eddy Kinetic Energy (&nbsp;<img src="Image25.gif" height=50 width=130> , m<sup>2</sup>)/s<sup>2</sup>)
+    
+                      <p>Eddy Variances <br>
+&nbsp;&nbsp;&nbsp;&nbsp; --- height (&nbsp;<img src="Image26.gif" height=40 width=45>, m<sup>2</sup>) <br>
+&nbsp;&nbsp;&nbsp;&nbsp; --- temperature (<img src="Image27.gif" height=41 width=45>, K<sup>2</sup>)                          
+                          </dir>5. HORIZONTAL MAPS: Seasonal (DJF, JJA) <dir>(and differences from yet to be determined "standard'' observed atmospheric estimates where available; and when observed estimates deemed sufficiently reliable, spatial mean and rms differences calculated over 90S-20S, 20S-20N, and 20N-90N)
+                          <center>
+                          </center>
+                          <center>
+  points below ground not plotted nor included in rms
+                          </center>
+                          <p>Sea--Level Pressure (hPa)
+    
+                        <p>300 hPa Height Field (m)
+    
+                        <p>200 hPa Zonal Wind (m/s)
+    
+                        <p>200 hPa Velocity Potential (m<sup>2</sup>)/s)
+    
+                        <p>200 hPa Stream Function (m<sup>2</sup>)/s)
+    
+                        <p>850 hPa Temperature (K)
+    
+                        <p>850 hPa Vector Winds (m/s)
+    
+                        <p>Screen Temperature, 2 m, (as defined in AMIP II, K)
+    
+                        <p>Surface Skin Temperature (effective radiating temperature, K)
+    
+                        <p>Snow Mass (liquid water equivalent, mm)
+    
+                        <p>Snow Cover (fraction)
+    
+                        <p>Precipitable Water (mm)
+    
+                        <p>Total Precipitation (mm/day)
+    
+                        <p>Evaporation -- Precipitation (mm/day)
+    
+                        <p>Latent Heat Flux (W/m<sup>2</sup>)
+    
+                        <p>Sensible Heat Flux (W/m<sup>2</sup>)
+    
+                        <p>Surface Stress <br>
+&nbsp;&nbsp;&nbsp;&nbsp; --- ocean only, vectors and magnitude (N/m<sup>2</sup>)
+    
+                        <p>Outgoing Longwave Radiation (W/m<sup>2</sup>)
+    
+                        <p>Absorbed Solar Radiation (W/m<sup>2</sup>)
+    
+                        <p>Net Solar Flux at surface (W/m<sup>2</sup>)
+    
+                        <p>Net Longwave Flux at surface (W/m<sup>2</sup>)
+    
+                        <p>Net Surface Heat Flux (W/m<sup>2</sup>)
+    
+                        <p>Longwave Cloud Forcing (W/m<sup>2</sup>)
+    
+                        <p>Shortwave Cloud Forcing (W/m<sup>2</sup>)
+    
+                        <p>Meridional Eddy Fluxes <br>
+  (<img src="Image28.gif" height=26 width=16> individual seasonal mean,&nbsp;<img src="Image29.gif" height=31 width=81>)
+    
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp; --- 200 hPa momentum (<img src="Image30.gif" height=31 width=40>, m<sup>2</sup>/s<sup>2</sup>) <br>
+&nbsp;&nbsp;&nbsp;&nbsp; --- 850 hPa heat (<img src="Image31.gif" height=31 width=43>, Km/s )
+    
+                        <p>Vertical Heat Flux
+    
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp; --- 850 hPa heat (<img src="Image32.gif" height=31 width=48>, K Pa/s )
+    
+                        <p>Transient Kinetic Energy <br>
+&nbsp;&nbsp;&nbsp;&nbsp; --- 850 hPa&nbsp;<img src="Image33.gif" height=33 width=98>, m<sup>2</sup>/s<sup>2</sup>)
+    
+                        <p>Variability (intra-seasonal) (Climatological average of seasonal standard deviations) (<img src="Image34.gif" height=26 width=16> = individual seasonal mean,&nbsp;<img src="Image29.gif" height=31 width=81>) <br>
+&nbsp;&nbsp;&nbsp;&nbsp; --- 850 hPa T (<img src="Image35.gif" height=45 width=70>, K ) <br>
+&nbsp;&nbsp;&nbsp;&nbsp; --- 300 hPa Z (<img src="Image36.gif" height=43 width=71>, m ) <br>
+&nbsp;&nbsp;&nbsp;&nbsp; --- 300 hPa band pass filtered (2-8 day) Z (<img src="Image37.gif" height=43 width=71>, m ) <br>
+&nbsp;&nbsp;&nbsp;&nbsp; --- precipitation (&nbsp;<img src="Image38.gif" height=45 width=110>, mm/day) <br>
+&nbsp;&nbsp;&nbsp;&nbsp; --- sea-level pressure (<img src="Image39.gif" height=43 width=83>, hPa)
+    
+                        <p>Variability (inter-seasonal) <br>
+&nbsp;&nbsp;&nbsp;&nbsp; (Standard deviations of seasonal averages) <br>
+&nbsp;&nbsp;&nbsp;&nbsp; (<img src="Image28.gif" height=26 width=16> = individual seasonal mean,&nbsp;<img src="Image29.gif" height=31 width=81>) <br>
+&nbsp;&nbsp;&nbsp;&nbsp; (braces, {u} = climatological seasonal average)
+    
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp; --- 850 hPa T (<img src="Image40.gif" height=43 width=103>, K ) <br>
+&nbsp;&nbsp;&nbsp;&nbsp; --- 300 hPa Z (<img src="Image41.gif" height=43 width=103>, m ) <br>
+&nbsp;&nbsp;&nbsp;&nbsp; --- 300 hPa band pass filtered (2-8 day) Z (<img src="Image42.gif" height=43 width=123>, m ) <br>
+&nbsp;&nbsp;&nbsp;&nbsp; --- precipitation (<img src="Image43.gif" height=43 width=188>, mm/day) <br>
+&nbsp;&nbsp;&nbsp;&nbsp; --- sea-level pressure (<img src="Image44.gif" height=43 width=135>, hPa)                          
+                          </dir>6. CLIMATOLOGICAL AVERAGE SEASONAL CYCLE ZONAL AVERAGE versus TIME (monthly averages) <dir>200 hPa Zonal Wind Component (m/s)
+                          <p>Precipitable Water (mm)
+    
+                        <p>Precipitation (mm/day)
+    
+                        <p>Zonal Surface Stress (positive for westerly wind, N/m<sup>2</sup>) <br>
+&nbsp;&nbsp;&nbsp;&nbsp; --- ocean only Net Heat Flux into Ocean (W/m<sup>2</sup>)
+                          </dir>7. CLIMATOLOGICAL AVERAGE SEASONAL CYCLE <dir>HORIZONTAL MAPS of DIFFERENCES <br>
+of SEASONAL AVERAGES (DJF -- JJA)
+<p>Sea-Level Pressure (hPa) <br>
+  850 hPa Temperature (K) <br>
+  Screen Temperature, 2 m, (K)
+                          </dir></dir></dir>
+                          <p class="size10">UCRL-MI-127455
+
+<!-- stopprint -->
+

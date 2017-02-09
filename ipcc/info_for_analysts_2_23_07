@@ -1,0 +1,301 @@
+<?
+$title = "PCMDI > IPCC Model Output > About IPCC Model Output > Info for Analysts";
+$header_image = "http://www-pcmdi.llnl.gov/images/banner_ipcc.jpg";
+$welcome_image = "http://www-pcmdi.llnl.gov/images/headers/about_ipcc_model_output.jpg";
+require ("http://www-pcmdi.llnl.gov/header.inc");
+?>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=us-ascii">
+</head>
+<body>
+<p align="center"><font size="5">Important Information for Analysts and Authors</font></p>
+<p align="center">Last updated 23 February 2007</p>
+<blockquote>
+<p align="left" style="margin-top: 0; margin-bottom: 0">
+<a href="#Terms of use agreement">Terms of use agreement</a></p>
+<p align="left" style="margin-top: 0; margin-bottom: 0">
+<a href="#Proper_acknowledgement">Proper citation and acknowledgement</a></p>
+<p align="left" style="margin-top: 0; margin-bottom: 0">
+<a href="#Check_errata">Check errata page frequently</a></p>
+<p align="left" style="margin-top: 0; margin-bottom: 0">
+<a href="#Request_metrics">Request for &quot;performance metrics&quot;</a></p>
+<p align="left" style="margin-top: 0; margin-bottom: 0">
+<a href="#Define_climate">Definition of model &quot;mean climate&quot;</a></p>
+<p align="left" style="margin-top: 0; margin-bottom: 0">
+<a href="http://www-pcmdi.llnl.gov/ipcc/standard_output.html#Experiments">List of 
+simulation specifications</a></p>
+<p align="left" style="margin-top: 0; margin-bottom: 0">
+<a href="http://www-pcmdi.llnl.gov/ipcc/standard_output.html">Precise 
+definitions of variables</a></p>
+<p align="left" style="margin-top: 0; margin-bottom: 0">
+<a href="#model_names">Official model names</a></p>
+<p align="left" style="margin-top: 0; margin-bottom: 0">
+<a href="model_documentation/ipcc_model_documentation.php">Model documentation</a> 
+(including simulation forcing information)</p>
+<p align="left" style="margin-top: 0; margin-bottom: 0">
+<a href="#time_info">
+Which control simulation (and time period) should each perturbation run be 
+compared to?</a></p>
+<p align="left" style="margin-top: 0; margin-bottom: 0">
+<a href="#IPCC_timeline">IPCC 
+deadlines and transfer of information to WG1 Lead Authors</a></p>
+<p align="left" style="margin-top: 0; margin-bottom: 0">
+<a href="about_ipcc.php">Getting started and other information</a></p>
+</blockquote>
+<p>
+<b><font size="3"><a name="Terms of use agreement">Terms of use agreement</a></font></b></p>
+<p>
+These data are for use in research projects only.&nbsp; A 'research project' is 
+any project carried out by an individual or organized by a university, a 
+scientific institute, or similar organization (private or public) for 
+non-commercial research purposes only.&nbsp; Results based on these data must be 
+submitted for publication in the open literature without any delay linked to 
+commercial objectives.</p>
+<p>
+<b><font size="3"><a name="Proper_acknowledgement">Proper citation and acknowledgement</a></font></b></p>
+<p>In first making reference to the data obtained from the CMIP3 archive, please 
+include the phrase &quot;the World Climate Research Program's (WCRP's) Coupled Model 
+Intercomparison Project phase 3 (CMIP3) multi-model dataset&quot;.&nbsp; Subsequent 
+references within the same publication might refer to the data with terms such 
+as &quot;CMIP3 data&quot;, &quot;the CMIP3 multi-model dataset&quot;, &quot;the CMIP3 archive&quot;, or the 
+&quot;CMIP3 dataset&quot;.</p>
+<p>&nbsp;Whenever you publish research based on model output from the CMIP3 
+database, you must include the following acknowledgement:</p>
+<p>&quot;<i>We acknowledge the modeling groups for making their model output 
+available as part of the WCRP's CMIP3 multi-model dataset, the Program for Climate Model Diagnosis and Intercomparison (PCMDI) 
+for collecting and archiving this data, and the WCRP's Working Group 
+on Coupled Modelling (WGCM) for organizing the model data analysis activity.&nbsp; 
+The WCRP CMIP3 multi-model dataset is supported by the Office of Science, U.S. 
+Department of Energy.</i>&quot;</p>
+<p>
+<font size="3"><b><a name="Check_errata">Check errata page </a></b></font></p>
+<p>
+In some cases data contributed to the database have been found to contain errors 
+of various sorts. Certain files are then withdrawn or replaced and an entry is 
+logged on the errata page:
+<a class="moz-txt-link-freetext" href="https://esg.llnl.gov:8443/about/errata.do">
+https://esg.llnl.gov:8443/about/errata.do</a> <br>
+&nbsp;The errata page should be checked frequently to avoid analyzing &quot;garbage&quot;, 
+and to determine whether any of the files you have downloaded from the PCMDI 
+site need to be updated or removed. If any of you find undetected errors in the 
+data you are analyzing, please contact the responsible modeling group and copy
+<a href="mailto:taylor13@llnl.gov">taylor13@llnl.gov</a>. </p>
+<p>
+One general warning concerning the global attributes in each file -- the &quot;title&quot; 
+and &quot;comment&quot; attributes may in some cases incorrectly identify the experiment, 
+whereas the &quot;experiment_id&quot; will always be correct.&nbsp; If there is a 
+conflict, rely only on experiment_id.</p>
+<p>
+<br>
+<b><font size="3"><a name="Request_metrics">Request for 
+&quot;performance metrics&quot;</a></font></b><br>
+<br>
+Some of the IPCC WG1 lead authors (notably from Chapter 8  model evaluation) 
+have requested specific information that might prove useful in preparing their 
+chapters. The overall purpose of Chapter 8 of the AR4 is to assess the ability 
+of the global climate models to make projections of future climate change. Many 
+of the analyses you are performing will contribute to answering this question. 
+In the Third Assessment Report, Table 8.2 included several ocean circulation 
+diagnostics for each of the models, along with an observational estimate of 
+these same quantities (e.g., Antarctic circumpolar current transport strength, 
+Nino 3 SST standard deviation, etc.). For the AR4, plans include considerably 
+expanding a table of this sort, providing characteristics of the mean climate 
+state and additional metrics for quantifying the ability of models to simulate 
+particular phenomena. The chapter 8 authors would like to rely on you to provide 
+scalar measures of model performance for each model and, when practical, for the 
+multi-model mean simulation. These measures might, as appropriate, be in the 
+form of an RMS error, a correlation, a mean difference, a ratio of variances, or 
+(as in the TAR Table 8.2) simply a scalar measure of some simulated and observed 
+quantity. As one part of your analysis, therefore, it would be useful to 
+synthesize your results into a single (or perhaps a couple of) scalar metrics 
+that can be used to gauge how well each individual model simulates the aspect of 
+climate that you are analyzing. This request should certainly not be considered 
+a requirement, but if you can produce a scalar metric of this sort, the chapter 
+8 authors will be grateful. <br>
+<br>
+A final note concerning metrics: For some quantities, observational uncertainty 
+will be an issue. Whenever possible, therefore, an assessment should be made as 
+to how this uncertainty might affect the apparent agreement or disagreement 
+between models and observations. When more than one reliable observational data 
+set is available, it would be helpful to calculate differences based also on the 
+alternative. <br>
+<br>
+<b><font size="3"><a name="Define_climate">Definition of model 
+&quot;mean climate&quot;</a></font></b><br>
+<br>
+The IPCC WG1 lead authors have also made the following suggestion meant to help 
+unify the analysis of model results. In defining the 'mean climate state' of a 
+model for comparison against observations there are number of choices that could 
+be made, e.g. use model 'control runs' (which may have either preindustrial or 
+present day trace gases), or use the '20th Century all forcings' runs (many of 
+which are available as ensembles started from varying initial conditions). For 
+the 20th Century integrations there is also a choice of meaning period. It is 
+recognized that the optimal choice for a given problem may depend on a number of 
+factors including the period over which observations are available, and the need 
+for a non-drifting or non-trending model solution. We also recognize that some 
+projects have already begun their analyses based on a particular choice. We 
+therefore do not wish to prescribe a solution to this problem and leave it to 
+the judgment of individual projects. However, in cases where there is a choice, 
+we wish to encourage as much uniformity in the analysis as possible, and 
+therefore propose that other things being equal, model mean climate is defined 
+based on the 1981-2000 period of the 'all forcings 20th Century' runs (or the 
+ensemble mean where appropriate). </p>
+<p>
+<br>
+<b><font size="3"><a name="Simulation_Specifications">List of Simulation 
+Specifications</a></font></b></p>
+<p>
+Click <a href="http://www-pcmdi.llnl.gov/ipcc/standard_output.html#Experiments">here</a> for 
+experiments and time periods requested from modeling groups.</p>
+<p>
+<b><font size="3"><a name="define_variables">Precise Definition of Variables</a></font></b></p>
+<p>
+Click <a href="http://www-pcmdi.llnl.gov/ipcc/standard_output.html">here</a> for 
+precise definitions of all model output fields collected.</p>
+<p>
+<b><a name="model_names">O<font size="3">fficial 
+model names</font></a></b></p>
+</font>
+<p>
+To minimize confusion and maximize uniformity across analyses, authors are urged 
+to use the official <a href="model_documentation/ipcc_model_documentation.php">
+CMIP3 model 
+&quot;I.D.'s&quot;</a> when referring to individual model results.&nbsp; In addition it 
+would usually be appropriate to include a table containing the names of the 
+modeling groups along with citations to their relevant papers.</p>
+<p>
+<b><font size="3"><a name="Model_documentation">Model documentation</a></font></b></p>
+<p>
+Click <a href="model_documentation/ipcc_model_documentation.php">here</a> for 
+available documentation of models and their simulations, which have been 
+contributed to the WCRP CMIP3 multi-model dataset. Note that for most models you can find 
+information concerning the forcing that was applied in each simulation.</p>
+<p>
+<b><font size="3"><a name="time_info">Which control simulation (and 
+time period) should each perturbation run be compared to?</a></font></b></p>
+<p>
+In order to compare each simulation to the corresponding time period of the 
+control simulation, you will need the information contained in the following 
+table, available as:</p>
+<ul>
+  <li><a href="time_correspondence_summary.htm">web page</a></li>
+  <li><a href="time_correspondence_summary.xls">Excel spread sheet</a></li>
+  <li><a href="time_correspondence_summary.pdf">pdf file</a></li>
+</ul>
+<p>
+<b>
+<font size="3"><a name="IPCC_timeline">IPCC 
+deadlines and transfer of information to WG1 Lead Authors</a></font></b><br>
+<br>
+To fit with the IPCC review process, papers will need to be submitted to 
+peer-reviewed journals and available to IPCC lead authors by 1 MAY 2005
+<a href="revised_deadlines.php">(REVISED TO 31 MAY 2005)</a>, and 
+accepted for publication in a peer-reviewed journal by approximately 1 DEC 2005
+<a href="revised_deadlines.php">(REVISED TO 15 DECEMBER 2005)</a>. 
+These deadlines are set to allow lead authors time to consider all available 
+literature in time for the first and second AR4 drafts. Electronic copies of 
+papers need to be sent to the appropriate lead author contacts, with an 
+electronic copy lodged with the WG1 Technical Support Unit (TSU)  see below.
+<br>
+<br>
+For the May deadline, the authors need some form of draft paper to assess. In 
+almost all cases this will be in the form of a paper submitted to a 
+peer-reviewed journal. An exception to the need for a peer-reviewed paper can be 
+made for calculations of well-established diagnostics (e.g. where the diagnostic 
+and the lines of inference from the results are described in a number of 
+existing peer-reviewed papers). This would be at the discretion of the lead 
+authors and would be subject to scrutiny by the WG1 Review Editors and Bureau. 
+If you are planning work of this type I would advise establishing early direct 
+contact with an appropriate lead author. <br>
+<br>
+<i>List of contacts for AR4 modelling chapters</i> <br>
+<br>
+Please email a pdf copy of your paper to the IPCC WG1 TSU&nbsp; (<a class="moz-txt-link-abbreviated" href="mailto:ipcc-wg1@al.noaa.gov">ipcc-wg1@al.noaa.gov</a>) 
+and to the&nbsp; relevant contact points below. Note that your study may be relevant 
+to more than one chapter (e.g. a study that considers both the control 
+simulations of ENSO and future changes in ENSO would be relevant to both 
+Chapters 8 and 10). <br>
+<br>
+Roughly speaking, Ch. 8 deals with simulations of aspects of the climatology or 
+processes in present-day climate, Ch. 9 addresses simulation of trends or 
+responses to specific forcings in 20th century climate in addition to 
+detection/attribution studies, Ch. 10 assesses any aspect of climate change 
+projections from global models, and Ch. 11 deals with aspects of regional 
+climate change projections from regional models or information downscaled from 
+global models.&nbsp; These are not strict boundaries, but are used for general 
+guidance to give you a rough idea of where to send copies of your papers.&nbsp; As 
+long as you send copies to the chapter contacts you think are relevant for your 
+paper, it is then the responsibility of the respective lead authors to sort out 
+exactly where your results will be assessed. <br>
+<br>
+Chapter outlines can be found at:&nbsp;&nbsp;&nbsp;&nbsp;
+<a class="moz-txt-link-freetext" href="http://ipcc-wg1.ucar.edu/index.html">
+http://ipcc-wg1.ucar.edu/index.html</a> <br>
+<br>
+<br>
+Chapter 8: Climate Models and their Evaluation <br>
+Please send copies to the appropriate section contacts: <br>
+8.1 Introduction and Philosophy: <br>
+Richard Wood
+<a class="moz-txt-link-abbreviated" href="mailto:richard.wood@metoffice.gov.uk">
+richard.wood@metoffice.gov.uk</a> <br>
+8.2 Advances in Modelling (model formulation, resolution etc): <br>
+Akimasa Sumi
+<a class="moz-txt-link-abbreviated" href="mailto:sumi@ccsr.u-tokyo.ac.jp">
+sumi@ccsr.u-tokyo.ac.jp</a> <br>
+8.3 Evaluation of contemporary climate as simulated by coupled global models:
+<br>
+Karl Taylor <a class="moz-txt-link-abbreviated" href="mailto:taylor13@llnl.gov">
+taylor13@llnl.gov</a> <br>
+8.4 Evaluation of large-scale climate variability: <br>
+John Fyfe <a class="moz-txt-link-abbreviated" href="mailto:John.Fyfe@ec.gc.ca">
+John.Fyfe@ec.gc.ca</a> <br>
+8.5 Model simulations of extremes: <br>
+Jagadish Shukla
+<a class="moz-txt-link-abbreviated" href="mailto:shukla@cola.iges.org">
+shukla@cola.iges.org</a> <br>
+8.6 Climate Sensitivity and hydrological sensitivity: <br>
+Sandrine Bony
+<a class="moz-txt-link-abbreviated" href="mailto:Sandrine.Bony@lmd.jussieu.fr">
+Sandrine.Bony@lmd.jussieu.fr</a> <br>
+8.7 Mechanisms producing thresholds and abrupt climate change: <br>
+Ron Stouffer
+<a class="moz-txt-link-abbreviated" href="mailto:Ronald.Stouffer@noaa.gov">
+Ronald.Stouffer@noaa.gov</a> <br>
+8.8 Representing the global system with simpler models: <br>
+Thierry Fichefet
+<a class="moz-txt-link-abbreviated" href="mailto:fichefet@astr.ucl.ac.be">
+fichefet@astr.ucl.ac.be</a> <br>
+<br>
+<br>
+Chapter 9 : Understanding and Attributing Climate Change <br>
+Please send all papers to CLA Gabi Hegerl
+<a class="moz-txt-link-abbreviated" href="mailto:hegerl@duke.edu">
+hegerl@duke.edu</a> <br>
+<br>
+Chapter 10: Global Climate Projections <br>
+Please send all papers to CLA Thomas Stocker
+<a class="moz-txt-link-abbreviated" href="mailto:stocker@climate.unibe.ch">
+stocker@climate.unibe.ch</a> <br>
+<br>
+Chapter 11: Regional Climate Projections <br>
+Please send all papers to CLA Jens Christensen
+<a class="moz-txt-link-abbreviated" href="mailto:jhc@dmi.dk">jhc@dmi.dk</a> <br>
+<br>
+<br>
+The draft papers will be made available through the WG1 web pages to all WG1 
+lead authors. Additionally, the TSU will set up a tracking sheet, and it will be 
+your responsibility to update this form as your paper progresses through the 
+review process.&nbsp; Further details regarding this procedure will be forthcoming.
+<br>
+&nbsp;</p>
+</body>
+
+<!-- stopprint -->
+
+<?
+
+require ("http://www-pcmdi.llnl.gov/footer.inc");
+
+?>

@@ -1,0 +1,17 @@
+<?
+
+$title = "PCMDI > IPCC Model Output > IPCC Sub-Project Publications";
+$header_image = "http://www-pcmdi.llnl.gov/images/banner_ipcc.jpg";
+$welcome_image = "http://www-pcmdi.llnl.gov/images/headers/ipcc_subproject_publications.jpg";
+
+require ("http://www-pcmdi.llnl.gov/header.inc");
+
+?> 
+
+Coming soon...
+
+<?
+
+require ("http://www-pcmdi.llnl.gov/footer.inc");
+
+?>

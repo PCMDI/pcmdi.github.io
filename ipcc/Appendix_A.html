@@ -1,0 +1,47 @@
+---
+layout: default
+title: PCMDI - IPCC Appendix A.
+---
+
+
+<p><b><font size="4">Appendix A.&nbsp;&nbsp; Proposal for Radiative 
+Forcing Calculations (attached to a letter from the IPCC co-chairs)</font></b></p>
+<p>&nbsp;</p>
+<p><u>1. Online Approximation to Forcing:</u></p>
+<p>&nbsp;</p>
+<p>The objective is to approximate radiative forcing for the 
+major radiatively active species using online calculations during model 
+integrations.&nbsp; The models should be configured to save monthly mean net 
+shortwave&nbsp; and longwave fluxes at the surface, top of atmosphere (TOA), and 
+200mb. The net fluxes at 200mb will be used as surrogates for the net fluxes at 
+the tropopause.&nbsp; The archived fluxes should correspond to the radiative heating 
+rates interacting with the remainder of the model physics. </p>
+<p>At 10-year intervals during the integration, for a period 
+of one year, a second set of diagnostic radiative calculations should be 
+performed using the same state information as the interactive radiative 
+calculations.&nbsp; The differences between the diagnostic and interactive radiative 
+fluxes will provide estimates of the radiative forcing.&nbsp; The diagnostic 
+calculations should include (1) a calculation with all radiatively active trace 
+gases and sulfate set to the same values as the 19th century control 
+integrations; and (2) separate calculations for each species at current 
+concentrations with the other species held at 19th century values.</p>
+<p>&nbsp;</p>
+<p><u>2. Reference Calculations:</u></p>
+<p>&nbsp;</p>
+<p>A separate computation is necessary to quantify the 
+differences between these approximate forcing estimates and the standard 
+definition of forcing with the tropospheric state held fixed and the 
+stratosphere adjusted using fixed dynamical heating.&nbsp; An additional set of 
+diagnostic calculations should be performed at the same decadal interval for 
+one-year periods. In this second set, the tropospheric state parameters should 
+be set to values from a monthly mean climatology derived from the 19th century 
+control integration.&nbsp; The stratosphere&nbsp; should be adjusted via the fixed 
+dynamical heating derived from the control integration.&nbsp; Net fluxes should be 
+archived at the surface, TOA, 200mb, and model tropopause for all species reset 
+to control values and for each individual species set to current values.&nbsp; In 
+addition, the net fluxes at the model tropopause should be computed using 
+current model state information and concentrations of radiatively active 
+species.&nbsp; These calculations can be performed either during the model 
+integration or using offline RT codes with complete state information archived 
+from the model.</p>
+

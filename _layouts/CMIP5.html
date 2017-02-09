@@ -4,23 +4,29 @@ layout: default
 
 
 
+
 <head>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
- <link rel="stylesheet" href="{{site.baseurl}}/Data/media/css/bootstrap.min.css"/>
+
+	<link rel="stylesheet" href="{{site.baseurl}}/Data/media/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="{{site.baseurl}}/Data/media/css/bootstrap.mods.css"/>
+    <link rel="stylesheet" href="{{site.baseurl}}/Data/media/css/shadowbox.css"/>
+    <link rel="stylesheet" href="{{site.baseurl}}/Data/media/css/site.css"/>
+    <link rel="stylesheet" href="{{site.baseurl}}/Data/media/css/main.css"/>
 	<link rel="stylesheet" href="{{site.baseurl}}/Data/media/css/contentMenu.css"/>
 </head>
 
 
-
-	<div data-spy="scroll" data-target="#myScrollspy" data-offset="20">
+     <div data-spy="scroll" data-target="#myScrollspy" data-offset="20">
 			<div class="container">
 				<div class="row" >
 					<div class="span3"  >
 						<div class="well sidebar-nav" id="myScrollspy" position="center">
 
 
-							<ul style="list-style-type:none">
+
+						<ul style="list-style-type:none">
 
 								<button id="tb" type="button" class="btn btn-primary btn-block btn-md" data-toggle="collapse" data-target="#demo">CMIP5 Home</button>
 								<div id="demo" class="collapse">
@@ -69,7 +75,7 @@ layout: default
 											<li><a href="{{site.baseurl}}/projects/cmip5/provider-faq.html">  FAQs</a></li>
 								</div>
 
-								<div><a href="{{site.baseurl}}/projects/cmip5/publication.html">
+								<div><a href="https://cmip-publications.llnl.gov/">
 										<button id = "tb" type="button" class="btn btn-primary btn-block btn-md" data-toggle="collapse" data-target="#demo5">  Publication</button></a>
 								</div>
 
@@ -100,12 +106,18 @@ layout: default
 
 							</ul>
 
+
 						</div>
+
 					</div>
+
 					<div class="span9" id="content">
 						<div class="row-fluid">
 						{{ content }}
 						</div>
 					</div>
+
 				</div>
-</div>
+            </div>
+	</div>
+

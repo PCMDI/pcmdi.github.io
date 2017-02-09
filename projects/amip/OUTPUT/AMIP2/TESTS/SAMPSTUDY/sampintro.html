@@ -1,0 +1,116 @@
+<html>
+
+<!-- Mirrored from www-pcmdi.llnl.gov/amip/OUTPUT/AMIP2/TESTS/SAMPSTUDY/sampintro.html by HTTrack Website Copier/3.x [XR&CO'2004], Fri, 09 Jul 2004 21:01:46 GMT -->
+
+<!-- Mirrored from www-pcmdi.llnl.gov/projects/amip/OUTPUT/AMIP2/TESTS/SAMPSTUDY/sampintro.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 17 Jun 2016 00:24:55 GMT -->
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="GENERATOR" content="Mozilla/4.03 [en] (Win95; I) [Netscape]">
+   <title>AMIP II Standard Model Output</title>
+</head>
+<body text="#000000" bgcolor="#FFFFFF" link="#0000FF" vlink="#800080" alink="#FF0000" background="Image8.jpg">
+<img src="../../../../IMAGES/wld3blu.gif" height=50 width=94>
+<center><b><font color="#000099"><font size=+1>AMIP II Standard Model Output</font></font></b></center>
+
+<center><i><font face="Arial">Questions concerning sampling, interpolation
+and model output compression</font></i></center>
+
+
+<p>Perspectives of the AMIP Panel, the PCMDI staff, and many others have
+formed the basis for the AMIP II Standard Model Output sampling and interpolation
+recommendations. However, the implications of some of these recommendations
+are not yet fully understood. <a href="sampstudy.html">Tests</a> are underway
+to examine the effects of these recommendations (published in the guidelines
+for AMIP II) on model validation and intercomparison. Here, questions are
+addressed concerning these recommendations. <b><font color="#000000">Questions
+and comments should be sent to:</font><font color="#008080"> </font></b><a href="mailto:amip@pcmdi.llnl.gov">amip@pcmdi.llnl.gov.</a>
+
+<p>
+<hr>
+<address>
+<b>Disclaimer:</b> The responses to the questions below have been prepared
+or reviewed by the AMIP Panel, which often consults with individuals who
+are particularly familiar with the issue at hand. To some questions there
+may be no single right answer. Differing views are welcome, and will be
+added to the discussion below if they help to clarify the question or provide
+an important perspective on a contentious issue.</address>
+
+<address>
+<b><font color="#000099">Some questions...</font></b></address>
+
+<ul><b><font color="#000099"><a href="#avgonp">Average before or after
+interpolation to standard pressure surfaces?</a></font></b>
+
+<p><b><font color="#000099"><a href="#nottop">Should <i>all</i> 3-d quantities
+be interpolated to standard pressure surfaces?</a></font></b></ul>
+
+<hr>
+
+<p><a href="../../../../index-2.html">Return to AMIP home page</a>
+
+<p>
+<hr>
+
+<p>
+<hr>
+<center><b><font size=+1>Question responses</font></b></center>
+
+
+<p><a name="avgonp"></a><font color="#0000FF">Should 3-d fields be time
+averaged before or after interpolation to pressure surfaces?</font>
+
+<p>In the AMIP II Guidelines no recommendation was made for vertical interpolation
+because there is no single method of interpolation that is most appropriate
+for all fields and models. However, <i>how</i> to interpolate and <i>when</i>
+to interpolate are very different questions. Some groups have expressed
+that their job-stream is more practical when quantities are averaged on
+model surfaces and then interpolated to pressure surfaces. With this approach,
+the average surface pressure is used for interpolation, despite the temporal
+pressure fluctuations at each model level. The resulting inaccuracies are
+not well known, and are likely to be variable dependent. This is the first
+issue addressed in a sampling/interpolation study. Preliminary results
+suggest that the effects of the ordering of interpolation for most fields
+is not critical, and thus if it is not the same for all AMIP simulations
+the resulting biases should not be too severe. However, when interpolating
+to pressure surfaces, it is recommended that these calculations be done
+as correctly as possible (i.e., accumulate each model time step on pressure
+surfaces). This is particularly important if cloud related fields are being
+interpolated to pressure surfaces. When the results of the sampling study
+become available, they may assist modeling groups in making their own judgements.
+The results of this study will also serve as a reference of potential bias
+in the output provided by groups who average on model surfaces and then
+interpolate to pressure.
+
+<p>
+<hr>
+
+<p><a name="nottop"></a><a name="Are_there_scientific_reasons_for_not_int"></a><font color="#0000FF">Should
+all 3-d fields be interpolated to standard pressure surfaces?</font>
+
+<p>Conceptually there should be no problem with defining most of the AMIP
+II 3-d quantities on pressure surfaces. Budget calculations with these
+data will only be approximations, and most features of fields that vary
+relatively smoothly in the vertical should not be lost when interpolating
+to standard pressure surfaces. However, fields with sharp vertical gradients
+or discontinuities such as cloud cover (and other cloud-related fields)
+may be significantly compromised by the interpolation to standard pressure
+levels. Preliminary tests help to quantify the severity of this. Nevertheless,
+the treatment of such fields varies substantially from one model to the
+next, and thus whether or not to provide cloud related fields (Table 1C)
+on model surfaces or standard pressure levels is to be decided by each
+modeling group. Clearly further study of this issue is necessary.
+
+<p>
+<hr>
+
+<p>Last update 28 April 1997
+
+<p><a href="http://www.llnl.gov/disclaimer.html">LLNL Disclaimers</a>
+
+<p>UCRL-MI-135952
+</body>
+
+<!-- Mirrored from www-pcmdi.llnl.gov/amip/OUTPUT/AMIP2/TESTS/SAMPSTUDY/sampintro.html by HTTrack Website Copier/3.x [XR&CO'2004], Fri, 09 Jul 2004 21:01:46 GMT -->
+
+<!-- Mirrored from www-pcmdi.llnl.gov/projects/amip/OUTPUT/AMIP2/TESTS/SAMPSTUDY/sampintro.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 17 Jun 2016 00:24:55 GMT -->
+</html>

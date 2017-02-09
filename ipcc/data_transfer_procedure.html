@@ -1,0 +1,172 @@
+---
+layout: default
+title: PCMDI - Procedure for Preparing and Transferring Model Output to PCMDI
+---
+
+<p align="center"><font size="4">Procedure for Preparing and Transferring 
+                        Model Output to PCMDI</font></p>
+                          <ol>
+                          <li>
+                          <p style="margin-top: 0; margin-bottom: 12">The simulations called for by the WGCM Climate Simulation Panel and summarized in the last table at end of the document (
+                          <a href="standard_output.html">
+                          {{site.baseurl}}/ipcc/standard_output.html
+                          </a>) should be run. &nbsp;Monthly-mean, daily and 3-hourly output fields (listed in the other tables of that document) should all be saved for the specified time periods.
+                            <br>                          
+                          <li>
+                          <p style="margin-top: 0; margin-bottom: 12">Model 
+                          output will have to be rewritten to conform to the IPCC requirements for model output (see
+                          <a href="{{site.baseurl}}/ipcc/IPCC_output_requirements.htm">
+                          {{site.baseurl}}/ipcc/IPCC_output_requirements.htm
+                          </a>).&nbsp; The easiest way to meet these requirements may be to rely on a FORTRAN 90 software library (called CMOR) developed by PCMDI and documented at:
+                          <a href="http://cmor.llnl.gov/"> http://cmor.llnl.gov/
+                          </a>.&nbsp; CMOR can be obtained at:
+                          <a href="http://cmor.llnl.gov/">cmor</a>.&nbsp;
+                            <br>                          
+                          <li>
+                          <p style="margin-top: 0; margin-bottom: 12">Before producing hundreds of gigabytes of rewritten output, a small sample of &nbsp;the output should be ftp'd to PCMDI where it will be checked for conformance with the IPCC requirements.&nbsp; The following data should be included in the sample: 
+                          <ul type="disc">
+                            <li>
+                            <p>Time-independent fields:
+                            <ol type="a">
+                              <li>
+                              <p>land fraction (sftlf) 
+                              - A time-independent 2-d field </li>
+                              <li>
+                              <p>sea floor depth (zobt) - A time-independent 2-d ocean field
+                              </li>
+                            </ol>
+                            <p></li>
+                            <li>
+                        <p>At least 2 years of monthly mean data for the following fields 
+                        (preferably including a leap year for models with leap 
+                        years):</p>
+                            <ol type="a">
+                              <li>
+                        <p>precipitation 
+                        (pr) -- a 2-d atmosphere field </p>
+                              </li>
+                              <li>
+                        <p>surface air temperature (tas) -- a 2-d atmos. field with a 'scalar' dimension</p>
+                              </li>
+                              <li>
+                        <p>air temperature (ta) -- a 3-d atmos. field on pressure levels</p>
+                              </li>
+                              <li>
+                        <p>cloud fraction (cl) -- a 3-d atmos. 
+                        field on model levels</p>
+                              </li>
+                              <li>
+                        <p>northward ocean heat transport (hfogo) -- a 1-d ocean field</p>
+                              </li>
+                              <li>
+                        <p>ocean meridional overturning stream function (stfmmc) -- an ocean basin cross-section</p>
+                              </li>
+                              <li>
+                        <p>sea surface temperature (tos) -- a 2-d ocean field</p>
+                              </li>
+                              <li>
+                        <p>sea water salinity (so) -- a 3-d ocean field. </p>
+                              </li>
+                            </ol>
+                        <p>&nbsp;</p>
+                            </li>
+                            <li>
+                        <p>At least 2 years of daily data for the following fields 
+                        (preferably including a leap year for models with a leap 
+                        year): </p>
+                            <ol type="a">
+                              <li>
+                        <p>outgoing longwave flux (rlut) - a 2-d field </p>
+                              </li>
+                              <li>
+                        <p>air temperature (ta) - a 3-d field</p>
+                              </li>
+                            </ol>
+                        <p>&nbsp;</p>
+                            </li>
+                            <li>
+                        <p>1 year of 3-hourly data for the following field: </p>
+                            <ol type="a">
+                              <li>
+                        <p>precipitation (pr) </p>
+                              </li>
+                            </ol>
+                        <p>&nbsp;</p>
+                            </li>
+                            <li>
+                        <p>At least 2 years of the following annually calculated "extremes index":</p>
+                            <ol type="a">
+                              <li>
+                        <p>&nbsp;total number of frost days (fd) </p>
+                              </li>
+                            </ol>
+                        <p>&nbsp;</p>
+                            </li>
+                            <li>
+                        <p>Any other fields you suspect might have problems</p>
+                            </li>
+                          </ul>
+                            </li>
+                          </ol>
+                          <ol start="4">
+                            <li>
+                        <p>The data should be sent to the following anonymous ftp site: </p>
+                            </li>
+                          </ol>
+                          <blockquote>
+                        <p>ftp sprite.llnl.gov </p>
+                        <p>anonymous&nbsp; </p>
+                        <p>&lt;your email address as password&gt; </p>
+                        <p>cd incoming/ipcc </p>
+                        <p>bin </p>
+                        <p>put data </p>
+                          </blockquote>
+                        <ol start="5">
+                          <li>
+                          <p>Advise <a href="mailto:taylor13@llnl.gov">taylor13@llnl.gov </a> that you've deposited data on anonymous ftp, and it will be checked for compliance.&nbsp; Any problems with the format and structure of the data will be communicated to the contributor.&nbsp; (Note that the no checks will be performed to determine if the fields themselves are sensible.)<br>                                                    
+                          <li>
+                          <p>If problems are found, steps 3 and 4 will be repeated until everything is o.k.&nbsp; Then, presumably, the complete set of model output will be rewritten.
+                            <br>                          
+                          <li>
+                          <p>A 1-terrabyte disk with USB2 and Firewire connections will be sent by PCMDI to the contributing group. &nbsp;(It may be possible to send more than 1 disk, if demand for these disks is not excessive and if this would speed transfer of the data.) &nbsp;&nbsp;PCMDI has purchased 12 of these disks, which have been formatted for Linux platforms.&nbsp; Please let &nbsp; <a href="mailto:taylor13@llnl.gov">taylor13@llnl.gov </a> know as soon as possible when model output is expected to be ready for transfer so that disks can be sent out in time. A disk will normally not be sent until a sample of the data has checked out o.k.&nbsp; Output from all model experiments need not be sent at the same time, but since sending disks back and forth takes time, it will probably be best not to break up the transfer into too many chunks.
+                            <br>                          
+                          <li>
+                          <p>Modeling groups will rewrite model output to the 1 terabyte disk and return it to PCMDI by FedEx.
+                            <br>                          
+                          <li>
+                          <p>The data will be transferred to PCMDI's 40 terabyte RAID storage system (arranging the files in a uniform directory structure), and and it will be made accessible to those researchers who have registered with the WGCM Climate Simulation Panel. </li>
+                        </ol>
+                        <p>One final note regarding the procedure: please store all model output in the following directory structure (the order of the subdirectories is not as important as their names).&nbsp; </p>
+                        <p>&nbsp;</p>
+                        <p>[experiment]/[table]/[run] </p>
+                        <p>where </p>
+                        <p>[experiment] = &nbsp;one of the following: </p>
+                        <ul>
+                          <li>
+                          <p>PIcntrl (i.e., the pre-industrial control experiment)
+                          <li>
+                          <p>PDcntrl (i.e., the present-day control experiment)
+                          <li>
+                          <p><a name="OLE_LINK1">20C3M (i.e., the climate of the 20 th Century experiment (20C3M)) </a>
+                          <li>
+                          <p>Commit (i.e., the committed climate change experiment)
+                          <li>
+                          <p>SRESA2 (i.e., the SRES A2 experiment)
+                          <li>
+                          <p>SRESA1B (i.e., the 720 ppm stabilization experiment (SRES A1B))
+                          <li>
+                          <p>SRESB1 (i.e., the 550 ppm stabilization experiment (SRES B1))
+                          <li>
+                          <p>1%to2x (i.e., the 1%/year CO2 increase experiment (to doubling))
+                          <li>
+                          <p>1%to4x (i.e., the 1%/year CO2 increase experiment (to quadrupling))
+                          <li>
+                          <p>Slabcntl (i.e., the slab ocean control experiment)
+                          <li>
+                          <p>2xCO2 (i.e., the 2xCO2 equilibrium experiment)
+                          <li>
+                          <p>AMIP (i.e., the AMIP experiment) </li>
+                        </ul>
+                        <p>[table] = A1, A2, A3, A4, A5, or O1 </p>
+                        <p>[run] = run1, run2, run3 ... (indicating different members of an ensemble; if only a single run will be performed, please retain this subdirectory with the name 'run1') </p>
+

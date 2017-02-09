@@ -1,0 +1,43 @@
+---
+layout: AMIP
+title: AMIP
+---
+<h1>Request for AMIP II Boundary
+Conditions Data on a specified grid&nbsp;</h1>
+<hr size=2 width="70%">
+
+<p><form action="http://esg.llnl.gov/cgi-bin-d/AMIP_Form.py" method="PUT">
+<input type="hidden" name="subject" value="AMIP2 grid"><font size=+1>What
+is your grid type ?&nbsp;</font><select name="Grdtype"><font size=+1><option value="UNIFORM">Uniform&nbsp;<option value="GAUSSIAN">Gaussian&nbsp;</select>
+<br><font size=+1>Spherical Harmonic Truncation * :&nbsp;<input type=text name="trunc" size=4></font><font size=+0>(eg:T42,
+R31, etc...)</font>
+<br><font size=+1>Resolution:# of longitudes&nbsp;<input type=text name="reslon" size=3>#
+of latitudes&nbsp;</font><input type=text name="reslat" size=3>
+<br><font size=+1>First grid point: longitude&nbsp;<input type=text name="firstlon" size=7>latitude&nbsp;</font><input type=text name="firstlat" size=7>
+<br><font size=+1>Which format do you want for your files ?&nbsp;</font><select name="format"><font size=+1><option value="Netcdf">Netcdf
+(COARDS convention)&nbsp;<option value="Ascii">ASCII&nbsp;<option value="Grib">GRIB
+(available by 24 Feb)&nbsp;<option value="DRS">DRS&nbsp;</select>
+<br><font size=+1>Name of your institute:<input type=text name='name' size=15>
+</font><font size=+0>(e.g., National Center for Atmospheric Research)</font>
+<br><font size=+1>Model / Version name:<input type=text name='vers' size=15>
+</font><font size=+0>(see <a href="modl_tbl.html">examples</a>)</font>
+<br><font size=+1>Your name:</font><input type=text name=who size=24>
+<br><font size=+1>Your email:</font><input type=text name=emailwho size=30>
+
+<p><b><font size=+1>Insert here any questions or comments</font></b>
+<br>* For a grid that is neither uniform nor Gaussian provide a description
+in the Comments area below:
+<br>** If applicable, please specify how we can access a NetCDF version of your grid
+(ftp site):
+<br><b><font size=+1><textarea background=white.html name="Comments" cols=40 rows=3 wrap=physical>Your Comments Here</textarea></font></b>
+<br>
+<center></center>
+
+<center><input type="submit" value="Submit Request"><input type="reset" ></center></form>
+
+</body>
+
+<!-- Mirrored from www-pcmdi.llnl.gov/amip2/AMIP2EXPDSN/BCS/amip_grid.html by HTTrack Website Copier/3.x [XR&CO'2004], Sat, 10 Jul 2004 00:24:33 GMT -->
+
+<!-- Mirrored from www-pcmdi.llnl.gov/projects/amip/amip2/AMIP2EXPDSN/BCS/amip_grid.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 17 Jun 2016 00:23:50 GMT -->
+</html>

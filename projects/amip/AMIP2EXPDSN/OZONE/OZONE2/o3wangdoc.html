@@ -1,0 +1,662 @@
+<html>
+
+<!-- Mirrored from www-pcmdi.llnl.gov/amip/AMIP2EXPDSN/OZONE/OZONE2/o3wangdoc.html by HTTrack Website Copier/3.x [XR&CO'2004], Fri, 09 Jul 2004 21:01:59 GMT -->
+
+<!-- Mirrored from www-pcmdi.llnl.gov/projects/amip/AMIP2EXPDSN/OZONE/OZONE2/o3wangdoc.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 17 Jun 2016 00:24:40 GMT -->
+<head>
+   <title>Untitled</title>
+ </head>
+<body text="#000000" bgcolor="#FFFFFF" link="#0000EE" vlink="#551A8B" alink="#FF0000">
+
+<center><p><font size=+1><b>Atmospheric Ozone Climatology for Use in General
+Circulation Models</b> </font></p></center>
+
+<center><p><font size=+1><i>Xin-Zhong Liang and Wei-Chyung Wang</i> </font></p></center>
+
+<center><p>Atmospheric Sciences Research Center, State University of New
+York at Albany </p></center>
+
+<center><table border=1 cellspacing=8 cellpadding=6 >
+<tr align=CENTER valign=CENTER>
+<td colspan="2">
+<center><p><a name="TOC"></a><font size=+1>Table of Contents</font></p></center>
+</td>
+</tr>
+
+<tr>
+<td><a href="#Abstract"><b>Abstract</b> </a>
+<p><b><a href="#Introduction">Introduction<br>
+<br>
+</a><a href="#Data Sources">Data Sources and Preparation</a></b><a href="#Data Sources">
+</a></p>
+
+<ul>
+<a href="#Stratospheric">Stratospheric Ozone Profiles<br>
+</a><a href="#Tropospheric">Tropospheric Ozone and Upper Boundary Condition<br>
+</a><a href="#Column">Column Total Ozone Distribution </a><p></p>
+</ul>
+</td>
+
+<td><b><a href="#Composite">Composite 3-D O<font size=-2>3</font> Climatology</a></b><a href="#Composite">
+</a>
+<p><a href="#GCM"><b>GCM Implementation</b> </a></p>
+
+<p><a href="#Concluding"><b>Concluding Remarks</b> </a></p>
+
+<p><a href="#Acknowledgments"><b>Acknowledgments</b> </a></p>
+
+<p><b><a href="#References">References</a></b></p>
+</td>
+</tr>
+</table></center>
+
+<center><p>
+<hr><a name="Abstract"></a><b>Abstract</b> <p></p></center>
+
+<p><i>A three-dimensional global, monthly mean atmospheric ozone climatology
+for use in general circulation models (GCMs) is constructed based on recent
+satellite and ozonesonde measurements. The present report describes in
+details the construction of this climatology, and discusses the data uncertainties
+and future refinements.</i> 
+<hr width="100%"><p></p>
+
+<p><a name="Introduction"></a><b>Introduction</b> </p>
+
+<p>Atmospheric ozone (O<font size=-2>3</font>) absorbs solar radiation,
+in particular, the ultraviolet radiation that controls basic biological
+processes. It also traps outgoing longwave radiation, thus acting as a
+greenhouse gas. The presence of O<font size=-2>3</font> is therefore important
+not only to the biological activities on the Earth&iacute;s surface but
+also to the radiation budget and climate (Bower and Ward 1982). Ozone observations
+have been substantially expanded, especially since the late 1970s when
+satellite measurements became available. The atmospheric O<font size=-2>3</font>
+distribution has been changing, notably decreases in the lower stratosphere
+around the globe and increases in the upper troposphere in the mid-to-high
+latitudes of the Northern Hemisphere. These changes can significantly perturb
+the radiative forcing and thus modify the Earth-atmosphere climate system
+(WMO 1994). General circulation model (GCM) studies have shown that an
+accurate O<font size=-2>3</font> representation is required not only to
+simulate a realistic present climate but also to study potential climate
+responses to O<font size=-2>3</font> changes (Hansen et al. 1993; Wang
+et al. 1995; Liang and Wang 1995). </p>
+
+<p>However, the O<font size=-2>3</font> climatologies used in most GCMs
+are based on measurements before 1970s and, at the best, limited early
+satellite measurements. In general, these climatologies are represented
+by latitude-altitude variations of O<font size=-2>3</font> mixing ratio
+and/or longitude-latitude distributions of column total ozone amount. Among
+the 30 GCMs participating in the Atmospheric Model Intercomparison Project
+(AMIP; Gate 1992; Phillips 1994), one-third use O<font size=-2>3</font>
+latitude-altitude variations that are obtained from a few years&iacute;
+ozonesonde observations over North America (Herring and Borden 1965; Dopplick
+1974; Wilcox and Belmont 1977). Another one-third include O<font size=-2>3</font>
+latitude-altitude variations that are partly derived from satellite measurements
+during a short period (D&uuml;tsch 1978; McPeters et al. 1984; Rosenfield
+et al. 1987; Keating et al. 1987). For the rest of GCMs, some incorporate
+only the observed total ozone distributions (London et al. 1976; Bowman
+1988), while others employ simple model prediction or parameterization.
+</p>
+
+<p>Recently, we have replaced the zonally symmetric O<font size=-2>3</font>
+climatology (D&uuml;tsch 1978) in the SUNYA/NCAR GCM with more contemporary
+measurements that include longitudinal variations (Wang et al. 1995). This
+new three-dimensional climatology is constructed from long-term records
+of TOMS (total ozone mapping spectrometer) and SAGE (stratospheric aerosol
+and gas experiment) II satellite data as well as ozonesonde measurements.
+The O<font size=-2>3</font> update has been found to substantially ameliorate
+regional climate simulations (Wang et al. 1995). In addition, when the
+O<font size=-2>3</font> trend estimated from TOMS is imposed upon the new
+climatology in the lower stratosphere, the GCM simulates quite realistic
+climate responses when compared with observations, in particular, the lower
+stratospheric cooling signals that were identified with O<font size=-2>3</font>
+depletion during 1979-1992 (Liang and Wang 1995). Since then, many modeling
+groups have requested this data set for use in their GCMs. The purpose
+of this report is to document in details the construction of the O<font size=-2>3</font>
+climatology and its implementation in GCMs. </p>
+
+<p>Below, we first describe the data preparation, which covers the correction
+of obvious data biases, the fill-in of missing data, and the merging of
+different data sets. As a result, a three-dimensional global, monthly mean
+O<font size=-2>3</font> climatology is given. We then provide a procedure
+for GCM implementation. Finally we discuss several data problems and outline
+future refinements. </p>
+
+<p><a href="#TOC">Return to Table of Contents</a></p>
+
+<p><a name="Data Sources"></a><b>Data Sources and Preparation</b> </p>
+
+<p>The available measurements are still inadequate to construct a truly
+three-dimensional O<font size=-2>3</font> climatology. Although measurements
+of total O<font size=-2>3</font> amount are extensive and adequate to provide
+geographic distribution on a global basis, information on the O<font size=-2>3</font>
+vertical distribution is lacking. The construction of the O<font size=-2>3</font>
+climatology therefore involves ad hoc linkages between vertical profiles
+and total amounts. </p>
+
+<p><a name="Stratospheric"></a><u>Stratospheric Ozone Profiles</u> </p>
+
+<p>The stratospheric O<font size=-2>3</font> latitude-altitude distribution
+is constructed from SAGE II measurements. The raw data were provided in
+the GEDEX CD-ROM [USA_NASA_NCDS_GEDEX_004], as released in 1992 by the
+NASA Goddard Space Flight Center. The data cover the period October 1984
+to November 1989, and the details were described in McCormick (1989). SAGE
+II performs 15 sunrise and 15 sunset daily measurements, each separated
+by 24.5&deg; in longitude. Because of the satellite orbital inclination,
+the SAGE II spatial coverage extends over a latitude range of approximately
+80&deg;S to 80&deg;N, which varies with months. The measurement precision
+was estimated to be within 7% at all altitudes between 20 and 53 km, degrading
+to 20% at 60 km and to 50% at 10 km (Cunnold et al. 1989). </p>
+
+<p>Note that SAGE I measurements is also available for the period February
+1979 to November 1981. We however exclude their use because of the existence
+of substantial differences between long-term SAGE I and II averages. Cunnold
+et al. (1989) indicated that SAGE II profiles are more precise than SAGE
+I profiles. In addition, the altitude registration of SAGE I data are now
+found to be offset by 300 meters (WMO 1994). Therefore, as suggested by
+McCormick et al. (1992), we use here only the SAGE II self-calibrating
+instrument data to eliminate uncertainties caused by systematic instrumental
+differences. Note also that SAGE II data in the troposphere are biased
+due to the presence of clouds (McCormick et al. 1992). Thus, only stratospheric
+measurements are adopted here. </p>
+
+<p>We first calculate monthly, zonal mean profiles of O<font size=-2>3</font>
+volume mixing ratio from all available SAGE II measurements within 5&deg;
+wide latitude bands. These profiles are obtained at the 1 km vertical resolution
+(as in the original data) extending over the geometric altitude range of
+13.5-60.5 km. The resulting monthly, latitude-altitude distributions are
+illustrated in <a href="F1.html">Fig. 1</a>. Three problems are noticed.
+First, no data are available over polar regions with the latitudinal extent
+a function of particular months. Second, for several mid- and low latitude
+bands, data are missing in February, June, August and December. Third,
+obvious data biases exist at and around the latitudes where missing data
+are found. </p>
+
+<p>The above data problems are resolved as follows. We first eliminate
+these edging biases by extrapolation through vertical or meridional gradient
+adjustments toward adjacent latitudes and months, which are chosen subjectively.
+Then linear interpolations between three successive months are applied
+to fill the data gaps in the middle month. Finally subjective extension
+to the polar regions is conducted by manual drawing of the contours. Note
+that all data treatments are done on the logarithm of O<font size=-2>3</font>
+volume mixing ratio to allow better representation of the two orders of
+magnitude variations over the computational domain. The analyzed results
+are plotted in <a href="F1.html">Fig. 1</a>, overlaying with the raw data
+distributions for comparison. </p>
+
+<p><a href="#TOC">Return to Table of Contents</a></p>
+
+<p><a name="Tropospheric"></a><u>Tropospheric Ozone and Upper Boundary
+Condition</u> </p>
+
+<p>The tropospheric O<font size=-2>3</font> latitude-altitude distribution
+was provided by J.A. Logan of Harvard University, Cambridge, Massachusetts.
+This data set is based on measurements from more than 40 ozonesonde and
+surface stations. The data periods range from 4 to 18 years during 1963-1984.
+(Logan 1985; Oltmans and Komhyr 1986; Spivakovsky et al. 1990). The monthly
+mean O<font size=-2>3</font> volume mixing ratios are given at a latitude
+resolution of 15&deg; for 75&deg;S-15&deg;N and 7.5&deg; for 15&deg;N-75&deg;N.
+For most latitude bands, data are available at 1000, 700, 500, 300, 200,
+150, 100 hPa pressure levels. At 22.5&deg;N and 15&deg;S, additional data
+are presented at 900, 800, 850 and 70 hPa levels. In the equator, only
+the annual mean values are supplied and assumed to be the same for all
+months. Values at higher latitudes are set equal to values at 75&deg;.
+Note that measurements are sparse for the tropics and Southern Hemisphere.
+</p>
+
+<p>To be consistent, the tropospheric data are interpolated to the same
+computational grids as for the SAGE II analysis, i.e., with the resolution
+of 5&deg; in latitude and 1 km in altitude. The lowest pressure level (1000
+hPa) data, however, are maintained. Again, the interpolations are done
+on logarithm of O<font size=-2>3</font> volume mixing ratio, which is assumed
+to depend linearly on both latitude and altitude. The altitude versus pressure
+conversion is made according to the US-1976 Standard Atmosphere (see next
+section). </p>
+
+<p>As indicated above, the SAGE II profiles provide useful stratospheric
+O<font size=-2>3</font> information up to approximately 60 km. Above this
+level, we assume that the logarithm of O<font size=-2>3</font> volume mixing
+ratio is a linear function of altitude. To complete the extrapolation,
+a top boundary condition is specified according to the AFGL standard O<font size=-2>3</font>
+profiles (McClatchey et al. 1971). The O<font size=-2>3</font> volume mixing
+ratio at 98.5 km (~0.0003 hPa) is set to 0.0521105 ppmv for all latitudes
+and months. </p>
+
+<p><a href="#TOC">Return to Table of Contents</a></p>
+
+<p><a name="Column"></a><u>Column Total Ozone Distribution</u> </p>
+
+<p>The geographic distribution of column total O<font size=-2>3</font>
+amount is represented by TOMS measurements. The raw data were based on
+the version 6 algorithm and provided in the CD-ROMs [USA_NASA_UARP_OPT_001
+to 003] by the NASA Goddard Space Flight Center, as released in December
+1990, July 1991 and April 1992. The data cover the period November 1978
+to January 1992 and are given as monthly mean gridded values at a resolution
+of 1.25&deg; longitude by 1&deg; latitude. The measurement details were
+documented in McPeters et al. (1993). The measurement precision was estimated
+to be 2 % or better (Bhartia et al. 1984; Bojkov et al. 1988). The version
+6 data have corrected the calibration drift of the TOMS instrument (McPeters
+and Komhyr 1991; Herman et al. 1991; Stolarski et al. 1991). </p>
+
+<p>Since the TOMS instrument measures backscattered solar radiation, no
+data are available at polar night (Bowman and Krueger 1985). Thus, a special
+treatment is needed to fill these data gaps. First, the individual, monthly
+mean series of raw data contour maps are examined to determine additional
+latitude bands near the boundaries of missing values. Contours over these
+bands are substantially noisy and differ from those over the interior data
+domain. This is likely caused by insufficient samples that were used to
+produce monthly means over these areas. For the interior data domain, a
+linear longitudinal interpolation is then applied to obtain values for
+the few places with missing data. Analyses of the temporal variations of
+zonal means show that, for each year, the measurements over the north polar
+regions start and end almost at the maximum and minimum of the column O<font size=-2>3</font>
+annual cycle <a href="F2.html">(Fig. 2)</a>. This characteristic allows
+us to develop the following simple but efficient procedure to fill the
+missing values. </p>
+
+<p>First, the time series of the zonal mean at 89.5&deg;N are linearly
+interpolated to eliminate missing data months. For the first and last years
+of records, extrapolation is done such that their seasonal variations follow
+the adjacent year but with the cycle amplitude their own. This continuous
+data series is assigned to the north pole at 90&deg;N, where no longitudinal
+variation occurs. The remaining gaps are then filled, for each month, by
+a linear latitude interpolation between the north pole value and those
+at corresponding longitudes along the nearest latitude circle where data
+are available. The satisfaction of this procedure can be visualized from
+<a href="F2.html">Fig. 2</a>, where the resulting time series of zonal means
+at 89.5&deg;N, 80.5&deg;N and 70.5&deg;N are illustrated along with the
+raw data, as well as the 60.5&deg;N series for reference. The same procedure
+is applied for data gaps near the south pole. The performance however is
+not as good because the annual cycle minima were not measured. Nevertheless,
+temporal variations at 80.5&deg;S and equatorward are well reproduced (Fig.
+2). In addition, the geographic distributions of our analyzed total O<font size=-2>3</font>
+amount over northern high latitudes agree well with GO<font size=-2>3</font>OS
+(global ozone observing system) ground-based observations during the overlap
+period November 1991 to January 1992 (WMO 1993). </p>
+
+<p>Given the above procedure, global monthly distributions of long-term
+averaged climatology and linear trend can be archived using the analyzed
+data that continued from November 1978 through January 1992. <a href="F3.html">Figure
+3</a> depicts seasonal variations of the zonal mean climatology and trend
+of total O<font size=-2>3</font> amount. For comparison, corresponding
+results derived from the raw data are also shown. </p>
+
+<p><a href="#TOC">Return to Table of Contents</a></p>
+
+<p><a name="Composite"></a><b>Composite 3-D O<font size=-2>3</font> Climatology</b>
+</p>
+
+<p>We now combine the analyzed data sets to construct a three-dimensional
+O<font size=-2>3</font> climatology for a given GCM longitude-latitude
+grid mesh designated by <img src="IMG00057.gif" height=24 width=49>.
+First, the SAGE II stratospheric profiles are merged with the tropospheric
+soundings and the prescribed upper boundary extrapolation to produce a
+unique latitude-altitude structure of O<font size=-2>3</font> volume mixing
+ratio. The merging levels are specified at 16.5 and 57.5 km, respectively.
+A smooth transition is ensured by invoking a log-linear altitude interpolation
+between the SAGE II at 15.5 km and the tropospheric soundings at 12 km,
+although the latter have data up to 16.3-18.5 km (100-70 hPa). This unified
+set, which carries data from 90&deg;S to 90&deg;N with a 5&deg; interval,
+is linearly interpolated in latitude into the GCM grid mesh. As a result,
+the outputs are given at the GCM grid latitudes and 1-km-interval vertical
+levels. We denote this product as <img src="IMG00058.gif" height=24 width=61>.
+Second, the analyzed TOMS data at the 1.25&deg;x1&deg; resolution are interpolated
+linearly both in longitude and latitude to obtain GCM gridded total O<font size=-2>3</font>
+amount distribution <img src="IMG00059.gif" height=24 width=74>.
+The final local O<font size=-2>3</font> volume mixing ratio <img src="IMG00060.gif" height=24 width=78>
+is composited from the adjustment of the vertical profile <img src="IMG00061.gif" height=24 width=61>
+toward a correct column total amount <img src="IMG00062.gif" height=24 width=74>:
+</p>
+
+<center><p><img src="IMG00063.gif" height=67 width=284>
+(1) </p></center>
+
+<p>where <img src="IMG00064.gif" height=19 width=16>
+is the local air density <img src="IMG00065.gif" height=24 width=64>,
+<img src="IMG00066.gif" height=25 width=19>
+is the surface elevation <img src="IMG00067.gif" height=24 width=49>,
+<img src="IMG00068.gif" height=26 width=23>
+is the volume of an ideal gas at STP (standard temperature and pressure
+at the sea level), and <img src="IMG00069.gif" height=17 width=24>
+is the mean molecular weight of air. The vertical integration is over the
+entire atmosphere column, where <img src="IMG00070.gif" height=24 width=61>
+values outside of the data altitude domain 0.118-98.5 km are assumed by
+homogeneous extension. Thus, at each <img src="IMG00071.gif" height=24 width=49>
+grid point, the vertical profile maintains a zonally symmetric shape while
+its amplitude is scaled to adjust the column total amount toward the TOMS
+data. </p>
+
+<p>So far we present the vertical O<font size=-2>3</font> variations as
+a function of geometric altitude. For use in GCMs, it is preferred to invoke
+a pressure dependence. Without the instantaneous atmospheric temperature
+structure, the actual geometric altitude in unknown. For reference, we
+adopt the altitude versus pressure conversion that is based on the US-1976
+Standard Atmosphere using the analytic representation of Fels (1986). Thus,
+we have monthly distributions of <img src="IMG00072.gif" height=24 width=64>
+and <img src="IMG00073.gif" height=24 width=74>,
+and </p>
+
+<center><p><img src="IMG00074.gif" height=66 width=295>
+(2) </p></center>
+
+<p>where <img src="IMG00075.gif" height=26 width=23>
+is the local surface pressure <img src="IMG00076.gif" height=24 width=49>,
+and <img src="IMG00077.gif" height=19 width=16>
+is the acceleration due to gravity. Given constants <img src="IMG00078.gif" height=26 width=41>
+22413.6 cm<font size=-2>3</font>/mol, <img src="IMG00079.gif" height=17 width=41>
+28.9644 g/mol and <img src="IMG00080.gif" height=19 width=33>
+9.80616 m/s<font size=-2>2</font>, we have the coefficient <img src="IMG00081.gif" height=33 width=43>
+789.129 cm-STP/hPa. </p>
+
+<p>For reference, Figs. <a href="F4.html">4</a> and <a href="F5.html">5</a>
+illustrate monthly distributions of <img src="IMG00082.gif" height=24 width=64>
+and <img src="IMG00083.gif" height=24 width=74>,
+respectively. Small differences between Figs. <a href="F1.html">1</a><font color="#FF0000">
+</font>and<font color="#FF0000"> </font><a href="F4.html">4</a> in the overlap
+domain are noticed because the latter has scaled to produce the identical
+zonal mean total O<font size=-2>3</font> amount as the TOMS data <a href="F3.html">(Fig.
+3)</a>. </p>
+
+<p><a href="#TOC">Return to Table of Contents</a></p>
+
+<p><a name="GCM"></a><b>GCM Implementation</b> </p>
+
+<p>The most pertinent GCM component that depends on atmospheric ozone is
+the radiation process. To compute the absorption in the solar and longwave
+radiative transfer parameterizations, ozone path lengths are needed and
+usually defined as (Chervin 1986): </p>
+
+<center><p><img src="IMG00084.gif" height=82 width=545>
+(3) </p></center>
+
+<p>where <img src="IMG00085.gif" height=26 width=43>
+1013.25 hPa is the pressure at STP, and <img src="IMG00086.gif" height=16 width=33>
+1 or 2. <img src="IMG00087.gif" height=24 width=87>
+is needed for solar absorption, while longwave calculations require both
+<img src="IMG00088.gif" height=24 width=87>
+and <img src="IMG00089.gif" height=24 width=88>.
+For a specific GCM application, we recommend the following procedure to
+evaluate Eq. (3). </p>
+
+<p>First, at the beginning of each calendar date, a linear interpolation
+between the two nearest months is applied to calculate the representative
+<img src="IMG00090.gif" height=24 width=64>
+and <img src="IMG00091.gif" height=24 width=74>
+distributions for that day. On the data grid mesh, two additional quantities
+are computed: </p>
+
+<center><p><img src="IMG00092.gif" height=119 width=487>
+(4) </p></center>
+
+<p>where <img src="IMG00093.gif" height=25 width=39>
+is the pressure at the lower interface of the <img src="IMG00094.gif" height=25 width=69>
+data layer that is centered at pressure <img src="IMG00095.gif" height=26 width=21>.
+These four fields are saved for subsequent calculations of instantaneous
+local ozone path lengths during the entire day. </p>
+
+<p>Second, at each step of radiation calculations, corresponding parameters
+at a specific model pressure level <img src="IMG00096.gif" height=26 width=23>
+are calculated by </p>
+
+<center><p><img src="IMG00097.gif" height=65 width=391>
+(5) </p></center>
+
+<p>where <img src="IMG00098.gif" height=26 width=122>,
+and the superscript <img src="IMG00099.gif" height=16 width=21>
+denotes for a quantity that is carried on the model pressure levels. The
+adjustment of the total O<font size=-2>3</font> amount toward <img src="IMG00100.gif" height=24 width=74>
+is represented by the scaling factors: </p>
+
+<center><p><img src="IMG00101.gif" height=65 width=345> (6) </p></center>
+
+<p>Finally, the instantaneous local ozone path lengths are given by </p>
+
+<center><p><img src="IMG00102.gif" height=64 width=309>
+(7) </p></center>
+
+<p>Note that the units of <img src="IMG00103.gif" height=25 width=94>
+are generally in cm-STP. Through the above procedure, this is realized
+as long as <img src="IMG00104.gif" height=24 width=74>
+is given in cm-STP and <img src="IMG00105.gif" height=19 width=23>
+and <img src="IMG00106.gif" height=24 width=23>
+in hPa. </p>
+
+<p><a href="#TOC">Return to Table of Contents</a></p>
+
+<p><a name="Concluding"></a><b>Concluding Remarks</b> </p>
+
+<p>We have constructed a three-dimensional global, monthly mean O<font size=-2>3</font>
+climatology using long-term records of TOMS and SAGE II satellite measurements
+together with ozonesonde data. Special efforts have been taken to prepare
+this climatology for general use in GCMs. Although it has significantly
+improved over the data sets that are prescribed in most of current GCMs,
+substantial uncertainties remain. Several issues are discussed below. </p>
+
+<p>First, the latitude-altitude O<font size=-2>3</font> distribution <img src="IMG00107.gif" height=24 width=64>
+over polar regions is almost completely obtained by extrapolation, while
+the specification of local O<font size=-2>3</font> vertical profiles through
+adjustment of <img src="IMG00108.gif" height=24 width=64>
+toward correct column total amount <img src="IMG00109.gif" height=24 width=74>
+is arbitrary. These however are not likely to be resolved in the near future
+due to the data limitation. Second, above 57.5 km, the log-linear altitude
+extrapolation toward the AFGL upper boundary condition is questionable.
+As Keating et al. (1987) showed, the ultraviolet instrument aboard the
+solar mesosphere explorer satellite (Barth et al. 1983) observed O<font size=-2>3</font>
+volume mixing ratio minima near 0.02 hPa (approximately 75 km). This has
+not been incorporated in the present <img src="IMG00110.gif" height=24 width=64>
+climatology. Perhaps the most pertinent problem with the <img src="IMG00111.gif" height=24 width=64>
+distribution lies in the vertical domain near the tropopause and in the
+troposphere, where scarce and inhomogeneous soundings are used. In particular,
+the radiative forcing and the climatic effect of O<font size=-2>3</font>
+change indicate the greatest sensitivity in the vicinity of the tropopause
+(Wang et al. 1980; Lacis et al. 1990), which is just at the transition
+level from direct sounding to satellite data. Third, the <img src="IMG00112.gif" height=24 width=74>
+climatology includes the perturbations caused by the eruption of the El
+Chichon in 1982 and Mount Pinatubo in 1991 as well as the systematic measurement
+biases due to a failure of the TOMS instrument from May 1991 onward (WMO
+1994). All of these may affect the representativeness of the climatology.
+</p>
+
+<p>It is therefore important to continue refinements using more contemporary
+measurements. Recently, comprehensive and long-term records of high quality
+ozonesonde data have been archived (Logan 1994; Bojkov et al. 1995). The
+TOMS version 7 data set of total O<font size=-2>3</font> amount is now
+available, which extends the record period from November 1979 through April
+1993 and have corrected several version 6 biases (McPeters et al. 1996).
+Currently, Earth Probe TOMS and ADEOS TOMS provide near real-time total
+O<font size=-2>3</font> amount data. Meanwhile, the SAGE II O<font size=-2>3</font>
+profile measurements continue to the present. In addition, the scheduled
+SAGE III lunch in 1998 will augment such measurements and resolve the O<font size=-2>3</font>
+vertical structure up to 85 km. Appropriate processing and the merging
+of all these data sets are warranted to construct an improved O<font size=-2>3</font>
+climatology. </p>
+
+<p><a href="#TOC">Return to Table of Contents</a></p>
+
+<p><a name="Acknowledgments"></a><b>Acknowledgments</b> </p>
+
+<p>We thank J.A. Logan for providing the tropospheric ozone distribution.
+We appreciate the NASA/Goddard Space Flight Center Ozone Processing Team
+for preparing and making available the TOMS and SAGE satellite data sets.
+The research was supported by the Environmental Research Division/Department
+of Energy and the Climate Dynamics/National Science Foundation. </p>
+
+<p><a name="References"></a><b>References</b> </p>
+
+<p>Barth, C.A., D.W. Rusch, R.J. Thomas, G.H. Mount, G.J. Rottman, G.E.
+Thomas, R.W. Sanders, and G.M. Lawrence, 1983: Solar Mesosphere Explorer:
+Scientific objectives and results. <i>Geophys. Res. Lett.</i>, <b>10</b>,
+237-240. </p>
+
+<p>Bhartia, P.K., K.F. Flenk, C.K. Wong, D. Gordon, and A.J. Fleig, 1984:
+Intercomparison of the Nimbus 7 SBUV/TOMS total ozone data sets with Dobson
+and M83 results. <i>J. Geophys. Res.</i>, <b>89</b>, 5239-5247. </p>
+
+<p>Bojkov, R.D., L. Bishop, and V.E. Fioletov, 1995: Total ozone trends
+from quality-controlled ground-based data (1964-1994). <i>J. Geophys. Res.</i>,
+<b>100</b>, 25867-25876. </p>
+
+<p>Bojkov, R.D., C.L. Mateer, and A.L. Hansson, 1988: Comparison of ground-based
+and TOMS total ozone meaasurements used in assessing the performance of
+the Global Ozone Observing System (GO<font size=-2>3</font>OS). <i>J. Geophys.
+Res.</i>, <b>93</b>, 9525-9533. </p>
+
+<p>Bower, F.A., and R.B. Ward (Eds.), 1982: Stratospheric Ozone and Man.
+Vol. I, 216 pp, and Vol. II, 263 pp, CRC Press, Boca Raton, Fl. </p>
+
+<p>Bowman, K.P., 1988: Global trends in total ozone. <i>Science</i>, <b>239</b>,
+48-50. </p>
+
+<p>Bowman, K.P., and A.J. Krueger, 1985: A global climatology of total
+ozone from the Nimbus 7 Total Ozone Mapping Spectrometer. <i>J. Geophys.
+Res.</i>, <b>97</b>, 7603-7612. </p>
+
+<p>Chervin, R.M., 1986: Interannual variability and seasonal climate predictability.
+<i>J. Atmos. Sci.</i>, <b>43</b>, 233-251. </p>
+
+<p>Cunnold, D., W.P. Chu, R.A. Barnes, M.P. McCormick, and R.E. Veiga,
+1989: Validation of SAGE II ozone measurements. <i>J. Geophys. Res.</i>,
+<b>94</b>, 8447-8460. </p>
+
+<p>Dopplick, T.G., 1974: Radiative heating in the atmosphere. In <i>The
+General Circulation of the Tropical Atmosphere and Interactions with Extratropical
+Latitudes</i>, Vol. 2., R.E. Newell, J.W. Kidson, D.G. Vincent, and G.
+J. Boer (Eds.), M.I.T. Press, Cambridge, MA, pp. 1-25. </p>
+
+<p>D&uuml;tsch, H.U., 1978: Vertical ozone distribution on a global scale.
+<i>Pure Appl. Geophys.</i>, <b>116</b>, 511-529. </p>
+
+<p>Fels, S.B., 1986: Analytic representations of standard atmosphere temperature
+profiles. <i>J. Atmos. Sci.</i>, <b>43</b>, 119-221. </p>
+
+<p>Gates, W.L., 1992: AMIP: The Atmospheric Model Intercomparison Project.
+<i>Bull. Amer. Met. Soc.</i>, <b>73</b>, 1962-1970. </p>
+
+<p>Hansen, J.E., A. Lacis, R. Ruedy, M. Sato, and H. Wilson, 1993: How
+sensitive is the world&iacute;s climate? <i>National Geographic Research
+and Exploration</i>, <b>9</b>, 142-158. </p>
+
+<p>Hering, W.S., and T.R. Borden, Jr., 1965: Mean distributions of ozone
+density over North America, 1963-1964. Environ. Res. Paper 162, U.S. Air
+Force Cambridge Research Laboratory, Hanscom Field, Bedford, MA, 19 pp.
+</p>
+
+<p>Herman, J.R., R. Hudson, R. McPeters, R. Stolarski, Z. Ahmad, X.-Y.
+Gu, S. Taylor, and C. Wellemeyer, 1991: A new self-calibration method applied
+to TOMS/SBUV backscatterred ultraviolet data to determine long term global
+ozone change. <i>J. Geophys. Res.</i>, <b>96</b>, 7531-7546. </p>
+
+<p>Keating, G.M., D.F. Young, and M.C. Pitts, 1987: Ozone reference models
+for CIRA. <i>Adv. Space Res.</i>, <b>7</b>, 105-115. </p>
+
+<p>Lacis, A.A., D.J. Wuebbles, and J.A. Logan, 1990: Radiative forcing
+of climate by changes in the vertical distribution of ozone. <i>J. Geophys.
+Res.</i>, <b>95</b>, 9971-9981. </p>
+
+<p>Liang, X.-Z., and W.-C. Wang, 1995: A GCM study of the climate effect
+of 1979-1992 ozone trend. In <i>Atmospheric Ozone as a Climate Gas</i>,
+W.-C. Wang and I.S.A. Isaksen (Eds.), NATO ASI Series, Vol. I 32, Springer-Verlag
+Berlin Heidelberg, pp. 259-288. </p>
+
+<p>Logan, J.A., 1985: Tropospheric ozone: Seasonal behavior, trends, and
+anthropogenic influences. <i>J. Geophys. Res.</i>, <b>90</b>, 10463-10482.
+</p>
+
+<p>Logan, J.A., 1994: Trends in the vertical distribution of ozone: An
+analysis of ozonesonde data. <i>J. Geophys. Res.</i>, <b>99</b>, 25553-25585.
+</p>
+
+<p>London, J., R.D. Bojkov, S. Oltmans, and J.I. Kelley, 1976: Atlas of
+the global distribution of total ozone, July 1957-June 1967. NCAR Tech.
+Note 113+STR, National Center for Atmospheric Research, Boulder, CO. </p>
+
+<p>McClatchey, R.A., W. Fenn, J.E.A. Selby, F.E. Volz, and J.S. Garing,
+1971: Optical properties of the atmosphere. AFGL-71-0279, Air Force Cambridge
+Research Laboratories, Hanscom Air Force Base, Bedford, MA, 85 pp. </p>
+
+<p>McCormick, M.P., R.E. Veiga, and W.P. Chu, 1992: Stratospheric ozone
+profile and total ozone trends derived from the SAGE I and SAGE II data.
+<i>Geophys. Res. Lett.</i>, <b>19</b>, 269-272. </p>
+
+<p>McCormick, M.P., J.M. Zawodny, R.E. Veiga, J.C. Larsen, and P.H. Wang,
+1989: An overview of SAGE I and II ozone measurements. <i>Planetary Space
+Sci.</i>, <b>37</b>, 1567-1586. </p>
+
+<p>McPeters, R.D., P.K. Bhartia, A.J. Krueger, J.R. Herman, B.M. Schlesinger,
+C.G. Wellemeyer, C.J. Seftor, G. Jaross, S.L. Taylor, T. Swissler, O. Torres,
+G. Labow, W. Byerly, and R.P. Cebula, 1996: Nimbus-7 Total Ozone Mapping
+Spectrometer (TOMS) Data Producrs User&iacute;s Guide. <i>NASA Reference
+Publication, 1384</i>, National Aeronautics and Space Administration, Washington,
+DC. </p>
+
+<p>McPeters, R.D., D.F. Heath, and P.K. Bhartia, 1984: Averaged ozone profiles
+for 1979 from the Nimbus 7 SBUV instrument. <i>J. Geophys. Res.</i>, <b>89</b>,
+5199-5214. </p>
+
+<p>McPeters, R.D., and W.D. Komhyr, 1991: Long-term changes in the Total
+Ozone Mapping Spactrometer relative to world standard Dobson Spectrometer
+83. <i>J. Geophys. Res.</i>, <b>96</b>, 2987-2993. </p>
+
+<p>McPeters, R.D., A.J. Krueger, P.K. Bhartia, J.R. Herman, A. Oakes, Z.
+Ahmad, R.P. Cebula, B.M. Schlesinger, T. Swissler, S.L. Taylor, O. Torres,
+and C.G. Wellemeyer, 1993: Nimbus-7 Total Ozone Mapping Spectrometer (TOMS)
+Data Producrs User&iacute;s Guide. <i>NASA Reference Publication, 1323</i>,
+National Aeronautics and Space Administration, Washington, DC. </p>
+
+<p>Oltmans, S.J., and W.D. Komhyr, 1986: Surface ozone distributions and
+variations from 1973-1984 measurements at the NOAA Geophysical Monitoring
+for Climatic Change Baseline Observatories. <i>J. Geophys. Res.</i>, <b>91</b>,
+5229-5236. </p>
+
+<p>Phillips, T.J., 1994: A Summary Documentation of the AMIP Models. <i>PCMDI
+Report No. 18</i>, PCMDI/LLNL, California, 343 pp. </p>
+
+<p>Rosenfield, J.E., M.R. Schoeberl, and M.A. Geller, 1987: A computation
+of the stratospheric diabatic circulation using an accurate radiative transfer
+model. <i>J. Atmos. Sci.</i>, <b>44</b>, 859-876. </p>
+
+<p>Spivakovsky, C.M., R. Yevich, J.A. Logan, S.C. Wofsy, and M.B. McElroy,
+1990: Tropospheric OH in a three-dimensional chemical tracer model: An
+assessment based on observations of CH<font size=-2>3</font>CCl<font size=-2>3</font>.
+<i>J. Geophys. Res.</i>, <b>95</b>, 18441-18471. </p>
+
+<p>Stolarski, R.S., P. Bloomfield, R.D. McPeters, and J.R. Herman, 1991:
+Total ozone trends deduced from Nimbus-7 TOMS data. <i>Geophys. Res. Lett.</i>,
+<b>18</b>, 1015-1018. </p>
+
+<p>Wang, W.-C., X.-Z. Liang, M.P. Dudek, D. Pollard, and S.L. Thompson,
+1995: Atmospheric ozone as a climate gas. <i>Atmos. Res.</i>, <b>37</b>,
+247-256. </p>
+
+<p>Wang, W.-C., J.P. Pinto, and Y.L. Yung, 1980: Climatic effects due to
+halogenated compounds in the Earth's atmosphere. <i>J. Atmos. Sci.</i>,
+<b>37</b>, 333-338. </p>
+
+<p>Wilcox, R.W., and A.D. Belmont, 1977: Ozone concentration by latitude,
+altitude, and month near 80 degrees West. Report No. FAA-AEQ-77-13, FAA
+Office of Environmental Qality, High Altitude Pollution Program, U.S. Department
+of Transportation, Whashington, D.C., 41 pp. </p>
+
+<p>WMO, 1993: Atlas of GO<font size=-2>3</font>OS Total Ozone Maps for
+the European Arctic Stratospheric Ozone Experiment. World Meteorological
+Organization, TD-517, Geneva. </p>
+
+<p>WMO, 1994: Scientific Assessment of Ozone Depletion: 1994. World Meteorological
+Organization, Global Ozone Research and Monitoring Project, Report No.
+37, Geneva. </p>
+
+<p><a href="#TOC">Return to Table of Contents</a></p>
+
+<hr>
+Last update November 7, 1996.  For further information, contact the
+AMIP Project Office
+(<a href="mailto:amip@pcmdi.llnl.gov">amip@pcmdi.llnl.gov</a>)
+<p>
+<a href="http://www.llnl.gov/disclaimer.html">LLNL Disclaimers</a>
+<p>
+UCRL-MI-125650
+</body>
+
+<!-- Mirrored from www-pcmdi.llnl.gov/amip/AMIP2EXPDSN/OZONE/OZONE2/o3wangdoc.html by HTTrack Website Copier/3.x [XR&CO'2004], Fri, 09 Jul 2004 21:01:59 GMT -->
+
+<!-- Mirrored from www-pcmdi.llnl.gov/projects/amip/AMIP2EXPDSN/OZONE/OZONE2/o3wangdoc.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 17 Jun 2016 00:24:54 GMT -->
+</html>

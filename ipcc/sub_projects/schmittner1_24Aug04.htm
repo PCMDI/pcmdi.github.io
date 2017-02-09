@@ -1,0 +1,116 @@
+<html>
+<body>
+
+<title>
+</title><h1>Evolution of the Atlantic Meridional Overturning (AMO) During the Coming
+Centuries
+</h1>
+
+<br>Andreas Schmittner
+<br>Institut fur Geowissenschaften
+<br>Universitat Kiel
+<br>Olshausenstr. 40, 24118 Kiel
+<br>Germany
+<br>
+<br>Tel: +49 431 880 7324
+<br>Fax: +49 431 880 1569
+<br>Email: andreas@passagen.uni-kiel.de
+<br>
+<br>http://www.passagen.uni-kiel.de/people/as/
+
+<p>
+In the last IPCC report the reported projections of the AMO were
+showing a large scatter ranging from no change to a massive decline.
+We propose not only to repeat the compilation of the AMO projections
+from the different models, but also to perform additional analysis in
+order to possibly understand the reasons for the different responses.
+Therefore, we will analyze the freshwater budget of the Atlantic, sea
+surface temperatures and salinities and, if possible, sea ice and wind
+stress. We will apply the analysis both to the projections of the 20th
+and 21st centuries as well as for the long runs into the 22nd and 23rd
+centuries. The analysis will be performed by A. Schmittner in close
+cooperation with M. Latif. Both have extensive experience and a
+published track record (examples of relevant publications are given
+below) in the study of the AMO. Computer facilities
+(10 CPU linux cluster, 1.2 TB memory) and software tools (e.g. ferret)
+are available at Kiel.
+<p>
+<h3>List of variables needed for analysis</h3>
+(extracted from http://www-pcmdi.llnl.gov/cmip/standard_output.html --
+variables with an x in front are absolutely necessary, the others desirable)
+<p>
+Table A1a: Monthly-mean 2-d atmosphere or land surface data (longitude, 
+latitude, time:month).
+<br>  1 	air_pressure_at_sea_level
+<br>  2 	precipitation_flux
+<br>  3 	air_temperature
+<br>  6 	surface_downward_eastward_stress 	tauu 	Pa 	
+<br>  7 	surface_downward_northward_stress 	tauv 	Pa 	
+<br>  9 	surface_upward_latent_heat_flux
+<br>  15 	surface_temperature
+<br>  22 	runoff_flux
+<br>  26 	eastward_wind
+<br>  27 	northward_wind
+<p>
+Table O1a: Monthly-mean 1-d ocean data (latitude, region, time:month)
+<br>x 1 	northward_ocean_heat_transport
+<p>
+Table O1b: Monthly-mean 2-d ocean data (latitude, depth, region, time:month)
+<br>x 1 	ocean_meridional_overturning_streamfunction
+<p>
+Table O1c: Monthly-mean 2-d ocean or sea ice data (longitude, latitude, 
+time:month).
+<br>  1 	sea_surface_height_above_geoid
+<br>x 2 	sea_surface_temperature
+<br>  3 	sea_ice_area_fraction
+<br>  4 	sea_ice_thickness
+<br>x 7 	water_flux_into_ocean
+<br>  8 	ocean_barotropic_streamfunction
+<p>
+What about heat flux into ocean? This variable is not in the list.
+<p>
+Table O1e: Monthly-mean 3-d ocean data (longitude, latitude, depth, 
+time:month).
+<br>x 1 	sea_water_salinity
+<br>  2 	sea_water_potential_temperature
+<br>  3 	sea_water_potential_density
+<br>  4 	eastward_sea_water_velocity
+<br>  5 	northward_sea_water_velocity
+<br>  6 	upward_sea_water_velocity
+<p>
+Additional model information might be useful in the analysis
+e.g. ocean vertical diffusivities.
+<p>
+<h3>References</h3>
+<p>Schmittner, A., Yoshimori, M. and Weaver, A. J., 2002, Instability of
+ glacial climate in a model of the ocean-atmosphere-cryosphere system,
+ Science, 295, 1489-1493.
+<p>Schmittner, A., Meissner, K. J., Eby, M. and Weaver, A. J., 2002,
+ Forcing of the deep ocean circulation in simulations of the Last
+ Glacial Maximum, Paleoceanography, 17.
+<p>Schmittner, A., Appenzeller, C. and Stocker, T. F., 2000, Enhanced
+ Atlantic freshwater export during El Nino, Geoph. Res. Let., 27,
+ 1163-1166.
+<p>Stocker, T. F. and Schmittner, A., 1997, Influence of CO2 emission
+ rates on the stability of the thermohaline circulation, Nature, 388,
+ 862-865.
+<p>M. Latif, E. Roeckner, U. Mikolajewicz and R. Voss (2000): Tropical
+ stabilisation of the thermohaline circulation in a greenhouse warming
+ simulation. J. Climate, 13, 1809-1813.
+<p>M. Latif (2001): Tropical Pacific/Atlantic Ocean interactions at
+ multi-decadal time scales. Geophys. Res. Lett., 28 , 539-542.
+<p>M. Latif, E. Roeckner, M. Botzet, M. Esch, H. Haak, S. Hagemann, J.
+ Jungclaus, S. Legutke, S. Marsland, U. Mikolajewicz, and J. Mitchell 
+(2004):
+ Reconstructing, Monitoring, and Predicting Decadal-Scale Changes
+ in the North Atlantic Thermohaline Circulation with Sea Surface 
+Temperature.
+ J. Climate, 17, 1605-1614.
+<p>W. Park and M. Latif (2004): Ocean Dynamics and the Nature of Air-Sea
+ Interactions over the North Atlantic. J. Climate, in press.
+
+<?
+
+require ("footer.inc");
+
+?>

@@ -1,26 +1,26 @@
 ---
 layout: CMIP5
-title: Data Node
+title: CMIP 5 - Data Node
 ---
-CMIP5 - Modeling Info - Data Node
+# CMIP5 - Modeling Info - Data Node
 
 
 
-Installation of the Data Node and Publication:
+## Installation of the Data Node and Publication:
 
     "Taking Part in ESG: Data Node Installation" Dean Williams, Gavin Bell and Bob Drach, download in pdf format.
     "ESG Publication GUI" Bob Drach
     "ESG Publication Scripts" Bob Drach
 
 
-Taking Part in ESG: Data Node Installation 
+## Taking Part in ESG: Data Node Installation
 Gavin Bell, Bob Drach and Dean Williams (PCMDI)
  
 Please note that the information in this document may become outdated rather quickly - as the ESG Federation is established.
 Please check this site and the ESG Data Node Documentation site regularly for the latest information
 
  
-Hardware, storage, and network requirements:
+## Hardware, storage, and network requirements:
 
 To begin with, the hardware, storage, and network requirements for an ESG-CET Data Node are:
 
@@ -31,7 +31,7 @@ To begin with, the hardware, storage, and network requirements for an ESG-CET Da
     Spinning disks (rather than tapes) are required for storage (to assure fast access), but the choice of specific hardware devices is up to the host.
     The faster the network, the better.   Some groups will have 2 x 10 Gbps network access while others will have less than 1 Gbps. Initially, PCMDI will have 2 x 10 Gbps network access and is currently working to connect to a 100 Gbps network.
 
-Software prerequisites:
+## Software prerequisites:
 
 Once your hardware (with operating system), storage and network are in place, make sure the following software is installed before initiating the Data Node installation script:
 
@@ -47,13 +47,13 @@ Once your hardware (with operating system), storage and network are in place, ma
     GridFTP: ports 2811, 50000 - 51000
     There may be another port open between the Gateway and Data Nodes.
 
-Installation script:
+## Installation script:
 
 The installation script contains GIT software download commands and bash scripts to obtain, build and configure the ESG-CET Data Node for you. The installer is queried to answer a few questions about the Data Node configuration for their particular environment (questions like, “Do you want to install an analysis and visualization product server?” or “Do you want a GridFTP server?”). (Default choices are provided to the installer and in most cases recommended.) The time it takes to install the ESG-CET Data Node is approximately 1 hour. Experienced installers have installed the Data Node software stack in 30 minutes.  The ESG-CET Data Node script installation can be found at the following URL:
 
-    http://rainbow.llnl.gov/dist/
+[http://rainbow.llnl.gov/dist/](http://rainbow.llnl.gov/dist/)
 
-Virtual Machine (VM) installation:
+## Virtual Machine (VM) installation:
 
 The ESG-CET software stack may be installed on a traditional 'bare metal' linux distribution, as described above, or distributed via a virtual machine (VM).  A VM is a software platform that provides the ability to run a complete and sovereign operating system (a guest OS) as an application inside another operating system (the host OS). The guest OS executes software applications identically to a physical machine. The ESG-CET VMs contain the fully installed CentOS operating system (with requisite libraries et. al. installed) and the ESG-CET Data Node software stack. (This eliminates the need to check for software prerequisites.) VMs take advantage of the benefits of hardware virtualization – specifically, better security, hardware insulation, portability, ease of backup, and protection against potential software conflicts. For ready operation with minimal configuration, follow the links to the CentOS ESG-CET Data Node VM installation files:
 
@@ -61,11 +61,11 @@ The ESG-CET software stack may be installed on a traditional 'bare metal' linux 
 New, Updated Virtual Machines Will Be Posted Shortly.
 
  
-ESG-CET Software components to be installed:
+## ESG-CET Software components to be installed:
 
  
 
-The components of the ESG-CET Data Node that will be installed are:
+### The components of the ESG-CET Data Node that will be installed are:
 
  
 
@@ -79,11 +79,11 @@ The components of the ESG-CET Data Node that will be installed are:
      GridFTP server – GRID-enabled FTP server.
     Test publication – Publish a test data file.
 
-Operational workflow:
+## Operational workflow:
 
  
 
-As illustrated in the figure below, data is published using the Data Node software through a series of operations:  The publisher
+### As illustrated in the figure below, data is published using the Data Node software through a series of operations:  The publisher
 
     Obtains a proxy certificate.
     Scans a set of files: a) associates files to datasets, and b) caches file metadata in the node database.
@@ -91,15 +91,15 @@ As illustrated in the figure below, data is published using the Data Node softwa
     Optionally (and only after the LAS product service becomes available) reinitializes the Live Access Server (LAS) based on the TDS catalog.
     Publishes to the PCMDI Gateway: a) contacts Gateway via web service, and b) allows the Gateway to harvest the newly created TDS catalogs.
 
-Data Node
+## Data Node
 
  
 
  
-Support:
+## Support:
 
  For ESG-CET software and installation help and support, please send your e-mail questions to:
 
-    esg-node-user@lists.llnl.gov
+ [esg-node-user@lists.llnl.gov](esg-node-user@lists.llnl.gov)
 
 

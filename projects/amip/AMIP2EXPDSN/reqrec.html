@@ -1,0 +1,504 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<!-- Mirrored from www-pcmdi.llnl.gov/projects/amip/AMIP2EXPDSN/reqrec.php by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 17 Jun 2016 00:15:00 GMT -->
+<head>
+<title>PCMDI > Projects > AMIP > AMIP II > Experimental Design Details</title>
+<link rel="shortcut icon" href="http://www-pcmdi.llnl.gov/favicon.png" type="image/png" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+<link href="http://www-pcmdi.llnl.gov/pcmdi.css" rel="stylesheet" type="text/css">
+<script language="JavaScript" type="text/JavaScript">
+<!--
+
+
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+
+function MM_setTextOfTextfield(objName,x,newText) { //v3.0
+  var obj = MM_findObj(objName); if (obj) obj.value = newText;
+}
+//-->
+</script>
+
+<style type="text/css">
+
+#dropmenudiv{
+position:absolute;
+z-index:100;
+border: 0px;
+}
+
+</style>
+<script type="text/javascript">
+<!--
+/***********************************************
+* AnyLink Drop Down Menu- © Dynamic Drive (www.dynamicdrive.com)
+* This notice MUST stay intact for legal use
+* Visit http://www.dynamicdrive.com/ for full source code
+***********************************************/
+
+//Contents for menu 1
+var menuAbout=new Array()
+menuAbout[0]='<table width="100%" border="0" cellpadding="3" cellspacing="1" bgcolor="#FFFFFF">'
+menuAbout[1]='<tr><td class="popupMenu" onMouseDown="MM_goToURL(\'parent\',\'http://www-pcmdi.llnl.gov/about/index.php\');return document.MM_returnValue"><a href="http://www-pcmdi.llnl.gov/about/index.php" class="popupMenu">About PCMDI</a></td></tr>'
+menuAbout[2]='<tr><td class="popupMenu" onMouseDown="MM_goToURL(\'parent\',\'http://www-pcmdi.llnl.gov/about/staff.php\');return document.MM_returnValue"><a href="http://www-pcmdi.llnl.gov/about/staff.php" class="popupMenu">Staff Directory</a></td></tr>'
+menuAbout[3]='<tr><td class="popupMenu" onMouseDown="MM_goToURL(\'parent\',\'http://www-pcmdi.llnl.gov/about/location.php\');return document.MM_returnValue"><a href="http://www-pcmdi.llnl.gov/about/location.php" class="popupMenu">Location</a></td></tr>'
+menuAbout[4]='</table>'
+
+var menuIPCC=new Array()
+menuIPCC[0]='<table width="100%" border="0" cellpadding="3" cellspacing="1" bgcolor="#FFFFFF">'
+menuIPCC[1]='<tr><td class="popupMenu" onMouseDown="MM_goToURL(\'parent\',\'http://www-pcmdi.llnl.gov/ipcc/about_ipcc.php\');return document.MM_returnValue"><a href="http://www-pcmdi.llnl.gov/ipcc/about_ipcc.php" class="popupMenu">About CMIP3<br>Model Output</a></td></tr>'
+menuIPCC[2]='<tr><td class="popupMenu" onMouseDown="MM_goToURL(\'parent\',\'http://www-pcmdi.llnl.gov/ipcc/climate_forcing.php\');return document.MM_returnValue"><a href="http://www-pcmdi.llnl.gov/ipcc/climate_forcing.php" class="popupMenu">Climate Forcing</a></td></tr>'
+menuIPCC[3]='<tr><td class="popupMenu" onMouseDown="MM_goToURL(\'parent\',\'http://www-pcmdi.llnl.gov/ipcc/data_status_tables.htm\');return document.MM_returnValue"><a href="http://www-pcmdi.llnl.gov/ipcc/data_status_tables.htm" class="popupMenu">Data Status</a></td></tr>'
+//menuIPCC[4]='<tr><td class="popupMenu" onMouseDown="MM_goToURL(\'parent\',\'http://www-pcmdi.llnl.gov/ipcc/info_for_analysts.php\');return document.MM_returnValue"><a href="http://www-pcmdi.llnl.gov/ipcc/info_for_analysts.php" class="popupMenu">Info. for Analysts</a></td></tr>'
+menuIPCC[5]='<tr><td class="popupMenu" onMouseDown="MM_goToURL(\'parent\',\'http://esg.llnl.gov/portal\');return document.MM_returnValue"><a href="http://esg.llnl.gov/portal" class="popupMenu">Data Portal</a></td></tr>'
+menuIPCC[6]='<tr><td class="popupMenu" onMouseDown="MM_goToURL(\'parent\',\'http://www-pcmdi.llnl.gov/ipcc/diagnostic_subprojects.php\');return document.MM_returnValue"><a href="http://www-pcmdi.llnl.gov/ipcc/diagnostic_subprojects.php" class="popupMenu">Diagnostic Subprojects</a></td></tr>'
+menuIPCC[7]='<tr><td class="popupMenu" onMouseDown="MM_goToURL(\'parent\',\'http://www-pcmdi.llnl.gov/ipcc/subproject_publications.php\');return document.MM_returnValue"><a href="http://www-pcmdi.llnl.gov/ipcc/subproject_publications.php" class="popupMenu">Subproject Publications</a></td></tr>'
+menuIPCC[8]='</table>'
+
+var menuProjects=new Array()
+menuProjects[0]='<table width="100%" border="0" cellpadding="3" cellspacing="1" bgcolor="#FFFFFF">'
+menuProjects[1]='<tr><td class="popupMenu" onMouseDown="MM_goToURL(\'parent\',\'http://www-pcmdi.llnl.gov/projects/model_intercomparison.php\');return document.MM_returnValue"><a href="http://www-pcmdi.llnl.gov/projects/model_intercomparison.php" class="popupMenu">Model Intercomparison</a></td></tr>'
+menuProjects[2]='<tr><td class="popupMenu" onMouseDown="MM_goToURL(\'parent\',\'http://www-pcmdi.llnl.gov/projects/model_testbed.php\');return document.MM_returnValue"><a href="http://www-pcmdi.llnl.gov/projects/model_testbed.php" class="popupMenu">Model Testbed</a></td></tr>'
+menuProjects[3]='<tr><td class="popupMenu" onMouseDown="MM_goToURL(\'parent\',\'http://www-pcmdi.llnl.gov/projects/detection_attribution.php\');return document.MM_returnValue"><a href="http://www-pcmdi.llnl.gov/projects/detection_attribution.php" class="popupMenu">Detection/Attribution</a></td></tr>'
+menuProjects[4]='</table>'
+
+var menuSoftware=new Array()
+menuSoftware[0]='<table width="100%" border="0" cellpadding="3" cellspacing="1" bgcolor="#FFFFFF">'
+//menuSoftware[1]='<tr><td class="popupMenu" onMouseDown="MM_goToURL(\'parent\',\'http://www-pcmdi.llnl.gov/software-portal/\');return document.MM_returnValue"><a href="http://www-pcmdi.llnl.gov/software-portal/" class="popupMenu">Software Portal</a></td></tr>'
+//menuSoftware[2]='<tr><td class="popupMenu" onMouseDown="MM_goToURL(\'parent\',\'http://www-pcmdi.llnl.gov/software-portal/news\');return document.MM_returnValue"><a href="http://www-pcmdi.llnl.gov/software-portal/news" class="popupMenu">News</a></td></tr>'
+//menuSoftware[3]='<tr><td class="popupMenu" onMouseDown="MM_goToURL(\'parent\',\'http://www-pcmdi.llnl.gov/software-portal/cdat/download/\');return document.MM_returnValue"><a href="http://www-pcmdi.llnl.gov/software-portal/cdat/download/" class="popupMenu">Downloads</a></td></tr>'
+//menuSoftware[4]='<tr><td class="popupMenu" onMouseDown="MM_goToURL(\'parent\',\'http://www-pcmdi.llnl.gov/software-portal/cdat/support/\');return document.MM_returnValue"><a href="http://www-pcmdi.llnl.gov/software-portal/cdat/support/" class="popupMenu">Support</a></td></tr>'
+//menuSoftware[5]='<tr><td class="popupMenu" onMouseDown="MM_goToURL(\'parent\',\'http://www-pcmdi.llnl.gov/software-portal/cdat/\');return document.MM_returnValue"><a href="http://www-pcmdi.llnl.gov/software-portal/cdat/" class="popupMenu">UV-CDAT</a></td></tr>'
+//menuSoftware[6]='<tr><td class="popupMenu" onMouseDown="MM_goToURL(\'parent\',\'http://www-pcmdi.llnl.gov/software-portal/cmor/\');return document.MM_returnValue"><a href="http://www-pcmdi.llnl.gov/software-portal/cmor/" class="popupMenu">CMOR</a></td></tr>'
+
+menuSoftware[1]='<tr><td class="popupMenu" onMouseDown="MM_goToURL(\'parent\',\'http://aims.llnl.gov/\');return document.MM_returnValue"><a href="http://aims.llnl.gov/" class="popupMenu" target="_blank">AIMS</a></td></tr>'
+menuSoftware[2]='<tr><td class="popupMenu" onMouseDown="MM_goToURL(\'parent\',\'http://esgf.llnl.gov/\');return document.MM_returnValue"><a href="http://esgf.llnl.gov/" class="popupMenu" target="_blank">ESGF</a></td></tr>'
+menuSoftware[3]='<tr><td class="popupMenu" onMouseDown="MM_goToURL(\'parent\',\'http://pcmdi9.llnl.gov/esgf-web-fe/\');return document.MM_returnValue"><a href="http://pcmdi9.llnl.gov/esgf-web-fe/" class="popupMenu" target="_blank">ESGF Node</a></td></tr>'
+menuSoftware[4]='<tr><td class="popupMenu" onMouseDown="MM_goToURL(\'parent\',\'http://uvcdat.llnl.gov/\');return document.MM_returnValue"><a href="http://uvcdat.llnl.gov/" class="popupMenu" target="_blank">UV-CDAT</a></td></tr>'
+menuSoftware[5]='<tr><td class="popupMenu" onMouseDown="MM_goToURL(\'parent\',\'http://uv-cdat.github.io/cdat-site/\');return document.MM_returnValue"><a href="http://uv-cdat.github.io/cdat-site/" class="popupMenu" target="_blank">Old CDAT Tutorials</a></td></tr>'
+menuSoftware[6]='<tr><td class="popupMenu" onMouseDown="MM_goToURL(\'parent\',\'http://pcmdi.github.io/cmor-site/\');return document.MM_returnValue"><a href="http://pcmdi.github.io/cmor-site//" class="popupMenu" target="_blank">CMOR</a></td></tr>'
+menuSoftware[7]='<tr><td class="popupMenu" onMouseDown="MM_goToURL(\'parent\',\'http://cf-convention.github.io/\');return document.MM_returnValue"><a href="http://cf-convention.github.io" class="popupMenu" target="_blank">CF Conventions</a></td></tr>'
+menuSoftware[8]='</table>'
+
+var menuPublications=new Array()
+menuPublications[0]='<table width="100%" border="0" cellpadding="3" cellspacing="1" bgcolor="#FFFFFF">'
+menuPublications[1]='<tr><td class="popupMenu" onMouseDown="MM_goToURL(\'parent\',\'http://www-pcmdi.llnl.gov/publications/index.php\');return document.MM_returnValue"><a href="http://www-pcmdi.llnl.gov/publications/index.php" class="popupMenu">About Publications</a></td></tr>'
+menuPublications[2]='<tr><td class="popupMenu" onMouseDown="MM_goToURL(\'parent\',\'http://www-pcmdi.llnl.gov/publications/reports.php\');return document.MM_returnValue"><a href="http://www-pcmdi.llnl.gov/publications/reports.php" class="popupMenu">Report Series</a></td></tr>'
+menuPublications[3]='<tr><td class="popupMenu" onMouseDown="MM_goToURL(\'parent\',\'http://www-pcmdi.llnl.gov/publications/reviewed_literature.php\');return document.MM_returnValue"><a href="http://www-pcmdi.llnl.gov/publications/reviewed_literature.php" class="popupMenu">Reviewed Literature</a></td></tr>'
+menuPublications[4]='</table>'
+		
+var disappeardelay=0  //menu disappear speed onMouseout (in miliseconds)
+var hidemenu_onMouseDown="no" //hide menu when user clicks within menu?
+
+/////No further editting needed
+
+var ie4=document.all
+var ns6=document.getElementById&&!document.all
+
+if (ie4||ns6)
+document.write('<div id="dropmenudiv" style="visibility:hidden;" onMouseover="clearhidemenu()" onMouseout="dynamichide(event)"></div>')
+
+function getposOffset(what, offsettype){
+var totaloffset=(offsettype=="left")? what.offsetLeft : what.offsetTop;
+var parentEl=what.offsetParent;
+while (parentEl!=null){
+totaloffset=(offsettype=="left")? totaloffset+parentEl.offsetLeft : totaloffset+parentEl.offsetTop;
+parentEl=parentEl.offsetParent;
+}
+return totaloffset;
+}
+
+
+function showhide(obj, e, visible, hidden, menuwidth){
+if (ie4||ns6)
+dropmenuobj.style.left=dropmenuobj.style.top=-500
+if (menuwidth!=""){
+dropmenuobj.widthobj=dropmenuobj.style
+dropmenuobj.widthobj.width=menuwidth
+}
+if (e.type=="click" && obj.visibility==hidden || e.type=="mouseover")
+obj.visibility=visible
+else if (e.type=="click")
+obj.visibility=hidden
+}
+
+function iecompattest(){
+return (document.compatMode && document.compatMode!="BackCompat")? document.documentElement : document.body
+}
+
+function clearbrowseredge(obj, whichedge){
+var edgeoffset=0
+if (whichedge=="rightedge"){
+var windowedge=ie4 && !window.opera? iecompattest().scrollLeft+iecompattest().clientWidth-15 : window.pageXOffset+window.innerWidth-15
+dropmenuobj.contentmeasure=dropmenuobj.offsetWidth
+if (windowedge-dropmenuobj.x < dropmenuobj.contentmeasure)
+edgeoffset=dropmenuobj.contentmeasure-obj.offsetWidth
+}
+else{
+var windowedge=ie4 && !window.opera? iecompattest().scrollTop+iecompattest().clientHeight-15 : window.pageYOffset+window.innerHeight-18
+dropmenuobj.contentmeasure=dropmenuobj.offsetHeight
+if (windowedge-dropmenuobj.y < dropmenuobj.contentmeasure)
+edgeoffset=dropmenuobj.contentmeasure+obj.offsetHeight
+}
+return edgeoffset
+}
+
+function populatemenu(what){
+if (ie4||ns6)
+dropmenuobj.innerHTML=what.join("")
+}
+
+
+function dropdownmenu(obj, e, menucontents, menuwidth){
+if (window.event) event.cancelBubble=true
+else if (e.stopPropagation) e.stopPropagation()
+clearhidemenu()
+dropmenuobj=document.getElementById? document.getElementById("dropmenudiv") : dropmenudiv
+populatemenu(menucontents)
+
+if (ie4||ns6){
+showhide(dropmenuobj.style, e, "visible", "hidden", menuwidth)
+dropmenuobj.x=getposOffset(obj, "left")
+dropmenuobj.y=getposOffset(obj, "top")
+dropmenuobj.style.left=dropmenuobj.x-clearbrowseredge(obj, "rightedge")+"px"
+dropmenuobj.style.top=dropmenuobj.y-clearbrowseredge(obj, "bottomedge")+obj.offsetHeight+"px"
+}
+
+return clickreturnvalue()
+}
+
+function clickreturnvalue(){
+if (ie4||ns6) return false
+else return true
+}
+
+function contains_ns6(a, b) {
+while (b.parentNode)
+if ((b = b.parentNode) == a)
+return true;
+return false;
+}
+
+function dynamichide(e){
+if (ie4&&!dropmenuobj.contains(e.toElement))
+delayhidemenu()
+else if (ns6&&e.currentTarget!= e.relatedTarget&& !contains_ns6(e.currentTarget, e.relatedTarget))
+delayhidemenu()
+}
+
+function hidemenu(e){
+if (typeof dropmenuobj!="undefined"){
+if (ie4||ns6)
+dropmenuobj.style.visibility="hidden"
+}
+}
+
+function delayhidemenu(){
+if (ie4||ns6)
+delayhide=setTimeout("hidemenu()",disappeardelay)
+}
+
+function clearhidemenu(){
+if (typeof delayhide!="undefined")
+clearTimeout(delayhide)
+}
+
+if (hidemenu_onMouseDown=="yes")
+document.onMouseDown=hidemenu
+
+function MM_goToURL() { //v3.0
+  var i, args=MM_goToURL.arguments; document.MM_returnValue = false;
+  for (i=0; i<(args.length-1); i+=2) eval(args[i]+".location='"+args[i+1]+"'");
+}
+//-->
+</script>
+
+<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
+</head>
+<body onLoad="MM_preloadImages('http://www-pcmdi.llnl.gov/images/b_links_over.jpg','http://www-pcmdi.llnl.gov/images/b_ipcc_over.jpg','http://www-pcmdi.llnl.gov/images/b_projects_over.jpg','http://www-pcmdi.llnl.gov/images/b_software_over.jpg','http://www-pcmdi.llnl.gov/images/b_publications_over.jpg','http://www-pcmdi.llnl.gov/images/b_about_over.jpg')"> 
+<table width="100%" height="20" border="0" cellpadding="0" cellspacing="0" background="http://www-pcmdi.llnl.gov/images/bg_buttons.gif"> 
+  <tr background="http://www-pcmdi.llnl.gov/images/bg_buttons.gif"> 
+    <td>&nbsp;</td>
+    <td width="129" height="20" valign="top" bgcolor="#95B3D7"><a href="#" onmousedown="return clickreturnvalue()" onmouseover="dropdownmenu(this, event, menuAbout, '129px')" onmouseout="delayhidemenu()"><img src="http://www-pcmdi.llnl.gov/images/b_about.jpg" name="Image1" width="129" height="19" border="0" class="popupMenu" id="Image1" onmouseover="MM_swapImage('Image1','','http://www-pcmdi.llnl.gov/images/b_about_over.jpg',1)" onmouseout="MM_swapImgRestore()"></a></td> 
+    <td width="128" height="20" valign="top" bgcolor="#95B3D7"><a href="#" onmousedown="return clickreturnvalue()" onmouseover="dropdownmenu(this, event, menuIPCC, '128px')" onmouseout="delayhidemenu()"><img src="http://www-pcmdi.llnl.gov/images/b_ipcc.jpg" name="Image2" width="128" height="19" border="0" class="popupMenu" id="Image2" onmouseover="MM_swapImage('Image2','','http://www-pcmdi.llnl.gov/images/b_ipcc_over.jpg',1)" onmouseout="MM_swapImgRestore()"></a></td> 
+    <td width="128" height="20" valign="top" bgcolor="#95B3D7"><a href="#" onmousedown="return clickreturnvalue()" onmouseover="dropdownmenu(this, event, menuProjects, '128px')" onmouseout="delayhidemenu()"><img src="http://www-pcmdi.llnl.gov/images/b_projects.jpg" name="Image3" width="128" height="19" border="0" class="popupMenu" id="Image3" onmouseover="MM_swapImage('Image3','','http://www-pcmdi.llnl.gov/images/b_projects_over.jpg',1)" onmouseout="MM_swapImgRestore()"></a></td> 
+    <td width="128" height="20" valign="top" bgcolor="#95B3D7"><a href="#" onmousedown="return clickreturnvalue()" onmouseover="dropdownmenu(this, event, menuSoftware, '128px')" onmouseout="delayhidemenu()"><img src="http://www-pcmdi.llnl.gov/images/b_software.jpg" name="Image4" width="128" height="19" border="0" class="popupMenu" id="Image4" onmouseover="MM_swapImage('Image4','','http://www-pcmdi.llnl.gov/images/b_software_over.jpg',1)" onmouseout="MM_swapImgRestore()"></a></td> 
+    <td width="128" height="20" valign="top" bgcolor="#95B3D7"><a href="#" onmousedown="return clickreturnvalue()" onmouseover="dropdownmenu(this, event, menuPublications, '128px')" onmouseout="delayhidemenu()"><img src="http://www-pcmdi.llnl.gov/images/b_publications.jpg" name="Image5" width="128" height="19" border="0" class="popupMenu" id="Image5" onmouseover="MM_swapImage('Image5','','http://www-pcmdi.llnl.gov/images/b_publications_over.jpg',1)" onmouseout="MM_swapImgRestore()"></a></td> 
+    <td width="129" height="20" valign="top" bgcolor="#95B3D7"><a href="http://www-pcmdi.llnl.gov/links/links.php" onmouseover="MM_swapImage('Image7','','http://www-pcmdi.llnl.gov/images/b_links_over.jpg',1)" onmouseout="MM_swapImgRestore()"><img src="http://www-pcmdi.llnl.gov/images/b_links.jpg" name="Image7" width="129" height="19" border="0" id="Image7"></a></td> 
+    <td>&nbsp;</td>
+  </tr> 
+</table> 
+<!-- InstanceBeginEditable name="Header_Image" -->
+<table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="white">
+    <tr>
+        <td background="http://www-pcmdi.llnl.gov/images/left_projects.jpg">&nbsp;</td>
+                <td width="770">
+
+<table width="770" border="0" cellpadding="0" cellspacing="0" background="http://www-pcmdi.llnl.gov/images/banner_projects.jpg" align="center">
+  <tr>
+    <td width="100%" height="160" align="right" valign="bottom">
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_setTextOfTextfield(objName,x,newText) { //v3.0
+  var obj = MM_findObj(objName); if (obj) obj.value = newText;
+}
+//-->
+</script>
+<table width="180" height="160" border="0" cellpadding="0" cellspacing="0"> 
+  <tr valign="top"> 
+      <td height="135" colspan="2" align="right">
+        
+        <a href="http://www-pcmdi.llnl.gov/"><img src="http://www-pcmdi.llnl.gov/images/transparent.gif" width="120" height="95" border="0"></a>
+      </td> 
+  </tr> 
+  <tr> 
+
+<!---------------------------->
+<!--  PCMDI original search -->
+<!---------------------------->
+<!--
+    <form action="http://www-pcmdi.llnl.gov/cgi-bin/search/search.pl" method="post"> 
+-->
+
+<!---------------------------->
+<!--  PCMDI ksearch search  -->
+<!---------------------------->
+<!--
+<form action="http://www-pcmdi.llnl.gov/cgi-bin/ksearch/ksearch.cgi" method="get" name="search">
+	<td height="25" align="right">
+		<input name="terms" type="text" class="textfield" onmousedown="MM_setTextOfTextfield('Terms','','')" value="Search" size="25">
+	</td> 
+      	<td width="40" height="25" align="center">
+		<input name="Submit2" type="submit" class="submit" value="GO" onmouseover="className='submitOver';" onmouseout="className='submit';">
+	</td> 
+      	<input name="Match" type="hidden" value="0"> 
+      	<input name="Realm" type="hidden" value="All"> 
+</form>
+-->
+  </tr> 
+</table> 
+</td>
+  </tr>
+</table>
+</td>
+                <td background="http://www-pcmdi.llnl.gov/images/right_projects.jpg">&nbsp;</td>
+    </tr>
+</table>
+<!-- InstanceEndEditable --> 
+<table width="100%" height="20" border="0" cellpadding="0" cellspacing="0" background="http://www-pcmdi.llnl.gov/images/bg_sub_nav.gif"> 
+  <tr> 
+    <td width="170" align="center" class="date"><span id=clock> </span> 
+      <script>
+/*By JavaScript Kit
+http://javascriptkit.com
+Credit MUST stay intact for use
+*/
+
+//time
+function show2(){
+if (!document.all&&!document.getElementById)
+return
+thelement=document.getElementById? document.getElementById("clock"): document.all.clock
+var Digital=new Date()
+var hours=Digital.getHours()
+var minutes=Digital.getMinutes()
+var seconds=Digital.getSeconds()
+var dn="PM"
+if (hours<12)
+dn="AM"
+if (hours>12)
+hours=hours-12
+if (hours==0)
+hours=12
+if (minutes<=9)
+minutes="0"+minutes
+if (seconds<=9)
+seconds="0"+seconds
+var ctime=hours+":"+minutes+":"+seconds
+thelement.innerHTML="<span='date'>"+ctime+" - </span>"
+setTimeout("show2()",1000)
+}
+window.onload=show2
+
+//date
+var mydate=new Date()
+var year=mydate.getYear()
+if (year < 1000)
+year+=1900
+var month=mydate.getMonth()
+var daym=mydate.getDate()
+var montharray=new Array("1","2","3","4","5","6","7","8","9","10","11","12")
+document.write("<span='date'>"+montharray[month]+"/"+daym+"/"+year+"</span>")
+
+  </script></td> 
+    <td>&nbsp;</td> 
+  </tr> 
+</table> 
+<table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+  <tr> 
+    <td width="170" valign="top" background="http://www-pcmdi.llnl.gov/images/bg_side.gif"><table width="170" border="0" cellpadding="0" cellspacing="0" background="http://www-pcmdi.llnl.gov/images/bg_side.gif"> 
+        <tr> 
+          <td align="center"><table width="100%"  border="0" cellspacing="0" cellpadding="0"> 
+              <tr> 
+                <td><img src="http://www-pcmdi.llnl.gov/images/whats_new_top1.jpg" width="170" height="45"></td> 
+              </tr> 
+              <tr> 
+                <td background="http://www-pcmdi.llnl.gov/images/whats_new_middle.gif"><table width="150" height="1" border="0" align="center" cellpadding="10" cellspacing="0"> 
+                    <tr> 
+                      <td align="left">
+                        <p><img src="http://www-pcmdi.llnl.gov/images/whats_new_arrow.gif" width="7" height="7"><a href="http://www-pcmdi.llnl.gov/projects/pcmdi/index.php" class="sideNav">PCMDI</a> </p>  
+			<p><img src="http://www-pcmdi.llnl.gov/images/whats_new_arrow.gif" width="7" height="7"><a href="http://www-pcmdi.llnl.gov/projects/capt/index.php" class="sideNav">CAPT</a> </p>
+			<p><img src="http://www-pcmdi.llnl.gov/images/whats_new_arrow.gif" width="7" height="7"><a href="http://www-pcmdi.llnl.gov/projects/cloud_feedbacks/index.php" class="sideNav">Cloud Feedbacks</a> </p>	           
+
+                      <!--  <p><img src="http://www-pcmdi.llnl.gov/images/wcrp-cmip.png" width="120" height="30"><br></p>-->
+                        <p><img src="http://www-pcmdi.llnl.gov/images/whats_new_arrow.gif" width="7" height="7"><a href="http://cmip-pcmdi.llnl.gov/cmip5/" class="sideNav">CMIP5</a> </p>
+			<p><img src="http://www-pcmdi.llnl.gov/images/whats_new_arrow.gif" width="7" height="7"><a href="http://www-pcmdi.llnl.gov/ipcc/about_ipcc.php" class="sideNav">CMIP3</a>
+			
+			<p><img src="http://www-pcmdi.llnl.gov/images/whats_new_arrow.gif" width="7" height="7"><a href="http://www-pcmdi.llnl.gov/projects/model_intercomparison.php" class="sideNav">Other MIPs</a> </p>		 
+                        <p><img src="http://www-pcmdi.llnl.gov/images/whats_new_arrow.gif" width="7" height="7"><a href="http://www2-pcmdi.llnl.gov/" class="sideNav">Software</a> </p>
+                        <p><img src="http://www-pcmdi.llnl.gov/images/whats_new_arrow.gif" width="7" height="7"><a href="http://www-pcmdi.llnl.gov/publications/index.php" class="sideNav">Publications</a> </p>
+                        <p><img src="http://www-pcmdi.llnl.gov/images/whats_new_arrow.gif" width="7" height="7"><a href="http://www-pcmdi.llnl.gov/calendar.php" class="sideNav">Google Calendar</a> </p>
+<p><img src="http://www-pcmdi.llnl.gov/images/whats_new_arrow.gif" width="7" height="7"><a href="http://www-pcmdi.llnl.gov/lab_calendar.php" class="sideNav">Lab Calendar</a> </p>
+ 
+			 
+			<hr>
+                        <p><img src="http://www-pcmdi.llnl.gov/images/whats_new_arrow.gif" width="7" height="7"><a href="http://www-pcmdi.llnl.gov/sitemap.php" class="sideNav">Site Map</a> </p>        
+			
+			 
+                      </td> 
+                    </tr> 
+                  </table></td> 
+              </tr> 
+              <tr> 
+                <td><img src="http://www-pcmdi.llnl.gov/images/whats_new_bottom.jpg" width="170" height="20"></td> 
+              </tr> 
+            </table> 
+            <table width="166" border="0" cellspacing="0" cellpadding="0"> 
+              <tr align="center"> 
+                <td colspan="2">
+                    <p><span style="font-size: 10px; font-family: Verdana, Arial, Helvetica, sans-serif; color: #FFFFFF; text-decoration: none; font-weight: bold;">UCRL-WEB-152471</span></p>
+                    <p><a href="http://www.llnl.gov/disclaimer.html" class="sideNav">Privacy &amp; Legal Notice</a></p> 
+
+                <!--
+                  <p><a href="http://www.lmd.jussieu.fr/pcmdi-mirror/" class="sideNav">Website Mirror (France)</a><br> 
+                    <a href="http://www.bom.gov.au/bmrc/clch/pcmdi-mirror/index.html" class="sideNav">Website Mirror (Australia)</a></p> 
+                -->
+                
+                  <p class="size10White">Thanks to Our Sponsors:</p></td> 
+              </tr> 
+              <tr align="center"> 
+                <td width="135"><a href="http://www.llnl.gov/"><img src="http://www-pcmdi.llnl.gov/images/logo_llnl.jpg" width="60" height="60" border="0"></a></td> 
+                <td width="135"><a href="http://www.science.energy.gov/ber/"><img src="http://www-pcmdi.llnl.gov/images/logo_ber.jpg" width="70" height="70" border="0"></a></td> 
+              </tr> 
+              <tr align="center"> 
+                <td colspan="2"><a href="http://science.energy.gov/"><img src="http://www-pcmdi.llnl.gov/images/DOE_SC_Vertical_60h.png" width="164" height="60" border="0"></a></td> 
+              </tr> 
+            </table></td> 
+        </tr> 
+      </table></td> 
+    <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+        <tr> 
+          <td width="20" rowspan="2"><img src="http://www-pcmdi.llnl.gov/images/corner.jpg" width="20" height="40"></td> 
+          <td colspan="4"><img src="http://www-pcmdi.llnl.gov/images/content_top_shadow.jpg" width="100%" height="20"></td> 
+        </tr> 
+        <tr> 
+          <td width="20"><img src="http://www-pcmdi.llnl.gov/images/content_corner_tl.jpg" width="20" height="20"></td> 
+          <td background="http://www-pcmdi.llnl.gov/images/bg_content_breadcrumb.gif" class="size10">PCMDI > Projects > AMIP > AMIP II > Experimental Design Details</td> 
+          <td align="right" background="http://www-pcmdi.llnl.gov/images/bg_content_breadcrumb.gif" class="size10"><a href="http://www-pcmdi.llnl.gov/printer_friendly.php">Printer Friendly Version</a></td>
+		  <td width="40"><img src="http://www-pcmdi.llnl.gov/images/content_corner_tr.jpg" width="40" height="20"></td> 
+        </tr> 
+      </table> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+        <tr> 
+          <td width="19" background="http://www-pcmdi.llnl.gov/images/content_left_shadow.gif">&nbsp;</td> 
+          <td><table width="100%" border="0" cellpadding="0" cellspacing="0" class="contentTable"> 
+              <tr> 
+                <td><table width="100%"  border="0" cellspacing="0" cellpadding="0"> 
+                    <tr> 
+                      <td><img src="http://www-pcmdi.llnl.gov/images/headers/amip.jpg" width="200" height="40"></td> 
+                    </tr> 
+                  </table> 
+                  <table width="100%"  border="0" align="center" cellpadding="10" cellspacing="0"> 
+                    <tr> 
+                      <td>
+
+<!-- startprint --> 
+
+                        <h1> <font size=+1>AMIP II Experimental Design Details</font></h1>
+                        <ul>
+                          <li> <b><a href="../NEWS/amipnl8.html#2.%20AMIP%20II%20Experimental">Experimental requirements and recommendations</a></b></li>
+                        </ul>
+                        <ul>
+                          <ul>
+                            <li> <a href="BCS/bcsintro.html">AMIP II SST and sea-ice data set and boundary conditions</a></li>
+                            <li> <a href="OZONE/ozone.html">Recommended ozone climatology</a></li>
+                          </ul>
+                        </ul>
+<p class="size10">UCRL-MI-125581
+
+<!-- stopprint -->
+
+</td> 
+                    </tr> 
+                  </table></td> 
+              </tr> 
+            </table></td> 
+          <td width="19" background="http://www-pcmdi.llnl.gov/images/content_right_shadow.gif">&nbsp;</td> 
+        </tr> 
+      </table> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+        <tr>
+          <td width="30" rowspan="2"><img src="http://www-pcmdi.llnl.gov/images/content_corner_bl.jpg" width="30" height="60"></td> 
+          <td width="100%" height="40" align="center" background="http://www-pcmdi.llnl.gov/images/bg_content_footer.gif" class="size10">For questions or comments regarding this website, please contact <a href="mailto:webmaster@pcmdi.llnl.gov">the Webmaster.</a></td> 
+          <td width="30" rowspan="2"><img src="http://www-pcmdi.llnl.gov/images/content_corner_br.jpg" width="30" height="60"></td> 
+        </tr> 
+        <tr> 
+          <td width="100%" height="20" background="http://www-pcmdi.llnl.gov/images/content_bottom_shadow.gif">&nbsp;</td> 
+        </tr> 
+      </table>
+	  
+	  <center><a href="http://www.llnl.gov/" class="text">Lawrence Livermore National Laboratory</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://pls.llnl.gov/" class="text">Physical  &amp; Life Sciences Directorate </a></center></td> 
+	  
+  </tr> 
+</table> 
+

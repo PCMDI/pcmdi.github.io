@@ -1,0 +1,78 @@
+<HTML><HEAD>
+<META http-equiv=Content-Type content="text/html; charset=shift_jis">
+<META content="MSHTML 6.00.2900.2604" name=GENERATOR></HEAD>
+<BODY bgColor=#ffffff>
+<CENTER>
+<H2>Known limitations of MIROC3.2 and speculated causes </H2></CENTER>
+<BLOCKQUOTE>
+  <H3>* Besides these points, we believe MIROC3.2 is just comparable with or 
+  even better than the other state-of-the-art climate models! 
+</H3></BLOCKQUOTE><BR>
+<OL>
+  <H3>
+  <LI>TOA radiation imbalance and deep ocean temperature drift </H3>Due to the 
+  insufficient spinup, TOA radiation budget has a downward imbalance of ~0.5Wm-2 
+  in high-res. and ~1. Wm-2 in med-res. The ocean temperature has a warming 
+  drift accordingly. However, this drift is limited in deep ocean; upper ocean 
+  and above surface climate do not show any serious drift. 
+  <H3>
+  <LI>Cold bias around tropopause </H3>A serious cold bias up to 10K is seen 
+  around the tropopause. This is found to be mainly due to insufficient 
+  absorption of shortwave radiation by ozone. (This will be fixed in the next 
+  version of the model with revised radiation code, unfortunately not in time 
+  for the IPCC AR4) 
+  <H3>
+  <LI>Too shallow subtropical marine boundary layer </H3>The subtropical marine 
+  boundary layer is too shallow and a serious dry bias is seen above it 
+  (900-700hPa). It indicates a need for improving the parameterization of cloud 
+  topped boundary layer in this model. 
+  <H3>
+  <LI>Too much high cloud cover </H3>The high clouds seem too much in extent and 
+  optically too thick. The middle level clouds are then obscured by them and 
+  seem too little when looked at from the space. This may be because cloud cover 
+  diagnostics and/or cloud overlapping treatment are not very appropriate. 
+  <H3>
+  <LI>Thin NH sea ice in high-res./Small SH sea ice extent in med-res. </H3>The 
+  Northern hemisphere sea ice in high-res. version is not as thick as some 
+  observational data. This seems to cause earlier decrease of sea ice extent in 
+  the NH responding to the enhancement of GHGs. This is better in the med-res. 
+  version, which has, instead, sea ice extent in the Southern hemisphere smaller 
+  than observed. 
+  <H3>
+  <LI>Small amplitude of ENSO </H3>The amplitude of ENSO, in terms of the 
+  variation of NINO3 SST, for example, is smaller than reality. It seems to be 
+  at least partly attributable to a loose thermocline temperature gradient at 
+  the equator. 
+  <H3>
+  <LI>Problem in volcanic aerosol distribution </H3>In the 20C3M runs, the 
+  distribution of optical thickness of volcanic aerosol is prescribed for each 
+  volcanic eruption event. It was intended that its vertical distribution has 
+  maximum just above the tropopause (diagnosed from model's temperature lapse 
+  rate) and decreases with height. However, due to an error in a model 
+  parameter, it has actually a maximum uniformly at 50hPa regardless of the 
+  temperature profile. We have confirmed that the effect of this error on 
+  overall results, including surface temperature change, is small. However, if 
+  you look at the trend of 100hPa temperature in 20C, for example, it should be 
+  problematic due to this error. </LI></OL>
+<CENTER>
+<H2>Other cautions </H2></CENTER>
+<OL>
+  <H3>
+  <LI>Sea level rise diagnosis (zosga) </H3>Land ice melt is not explicitly 
+  added in the 'zosga' data but it is implicitly treated in the model. Since the 
+  mass balance of land ice is not considered in the model, snow over ice 
+  exceeding a certain critical amount is considerd to be glacier and flows into 
+  the oceans, while melted water from ice does not flow into the oceans. This 
+  treatment should be OK for equilibrium control but could be problematic for 
+  transient runs. We may revise this data with some correction of this term 
+  later. 
+  <H3>
+  <LI>20C historical temperature in high-res. </H3>The 20C3M run with our 
+  high-res. version does not really reproduce the observed warming trend in 
+  early 20C and cooling trend in middle 20C. The reason for this is unclear. The 
+  20C3M run with our med-res. version, which uses basically the same natural and 
+  anthropogenic forcing as in the high-res. run, does reproduce these trends. 
+  This might be due to natural inter-decadal variability, but we cannot confirm 
+  this because we do not have enough computer resource to make ensemble runs 
+  with the high-res. version. </LI></OL></BODY></HTML>
+
