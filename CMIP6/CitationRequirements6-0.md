@@ -17,10 +17,10 @@ In order to document CMIP6’s impact and enable ongoing support of CMIP, you ar
 The licensing agreements governing CMIP6 data depend on the model but generally conform to a standard template (nb.: the following is just an example and does not apply to all model output):
 
 ```
-“CMIP6 model data produced by <Specific Modeling Centre Name> is licensed under a Creative Commons Attribution “[NonCommercial] Share Alike” 4.0 International License (http://creativecommons.org/licenses/by/4.0/). Use of the data should be acknowledged following guidelines found at https://pcmdi.llnl.gov/home/CMIP6/CitationRequirements6-0.html.  Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file). The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.”
+“CMIP6 model data produced by <Specific Modeling Centre Name> is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/). Use of the data must be acknowledged following guidelines found at https://pcmdi.llnl.gov/home/CMIP6/CitationRequirements6-0.html.  Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file).  The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.”
 ```
 
-In the above statement, the “NonCommercial Share Alike” option is discouraged by the WCRP and many, but not all, institutions plan to release data under the less restrictive “Share Alike” license.
+Some groups may restrict use of their data under Creative Commons Attribution-NonCommercial-ShareAlike 4.0, but this is discouraged.  Users should follow whatever license agreement appears in each model's data files. 
    
 ### General Warning:
 
