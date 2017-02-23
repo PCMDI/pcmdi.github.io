@@ -1,51 +1,90 @@
-<head>
-    <link rel="stylesheet" href="{{site.baseurl}}/Data/media/css/head.css"/>
-    <link rel="stylesheet" href="{{site.baseurl}}/Data/media/css/nav.css"/>
-</head>
 <div id="header-fat" class="navbar navbar-fixed-top navbar-noFixed">
-  <div id="brand" class="navbar-inner" style="min-height: 103px">
-    <div class="container header" id="header">
-        <p id="llnl-menu-tab" class="pull-left"><a href="http://llnl.gov"><span>Lawrence Livermore National Laboratory</span></a></p>
-        <a class="brand pull-left" href="{{site.baseurl}}/index.html">Program for Climate Model Diagnosis & Intercomparison</a>
-
-                   <div class="span3 pull-right">
-
-                  <script>
-                  (function() {
-                    var cx = '016944413299698211454:hwtgfzsj7h8';
-                    var gcse = document.createElement('script');
-                    gcse.type = 'text/javascript';
-                    gcse.async = true;
-                    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-                    var s = document.getElementsByTagName('script')[0];
-                    s.parentNode.insertBefore(gcse, s);
-                  })();
-                </script>
-
-                <gcse:search></gcse:search>
-
+    <div id="brand" class="navbar-inner" style="min-height: 65px">
+        <div class="container header" id="header">
+            <a class="brand pull-left" href="{{site.baseurl}}/index.html">
+                Program for Climate Model Diagnosis & Intercomparison
+            </a>
+            <form>
+                <div class="span3 pull-right">
+                    <script>
+                        (function () {
+                            var cx = '016944413299698211454:hwtgfzsj7h8';
+                            var gcse = document.createElement('script');
+                            gcse.type = 'text/javascript';
+                            gcse.async = true;
+                            gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+                            var s = document.getElementsByTagName('script')[0];
+                            s.parentNode.insertBefore(gcse, s);
+                        })();
+                    </script>
+                    <gcse:search></gcse:search>
+                </div>
+            </form>
+        </div>
     </div>
-     <!---  <form class="navbar-search pull-right visible-desktop" action="search.php" method="post"><input name="searchwhat" type="hidden" value="site" /> --->
-
-      </form>
+    <div class="navbar-inner">
+        <div class="container">
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <div class="nav-collapse">
+                <ul class="nav">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">About<b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="{{site.baseurl}}/about.html">About PCMDI</a></li>
+                            <li><a href="{{site.baseurl}}/staff.html">Staff Directory</a></li>
+                            <li><a href="{{site.baseurl}}/location.html">Location</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">WCRP CMIP3<b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="{{site.baseurl}}/ipcc/about_ipcc.html">About CMIP3 Model Output</a></li>
+                            <li><a href="{{site.baseurl}}/ipcc/climate_forcing.html">Climate Forcing</a></li>
+                            <li><a href="{{site.baseurl}}/ipcc/data_status_tables.htm">Data Status</a></li>
+                            <li><a href="https://pcmdi.llnl.gov/projects/esgf-llnl/">Data Portal</a></li>
+                            <li><a href="{{site.baseurl}}/ipcc/diagnostic_subprojects.html">Diagnostics Subprojects</a></li>
+                            <li><a href="{{site.baseurl}}/ipcc/subproject_publications.html">Subproject Publications</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects<b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="{{site.baseurl}}/projects/index.html">Model Intercomparison</a></li>
+                            <li><a href="{{site.baseurl}}/projects/model_testbed.html">Model Testbed</a></li>
+                            <li><a href="{{site.baseurl}}/projects/capt/">Detection / Attribution</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Software<b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="http://aims.llnl.gov">AIMS</a></li>
+                            <li><a href="http://esgf.llnl.gov">ESGF</a></li>
+                            <li><a href="https://pcmdi.llnl.gov/projects/esgf-llnl/">ESGF Node</a></li>
+                            <li><a href="http://uvcdat.llnl.gov/index.html">UV-CDAT</a></li>
+                            <li><a href="http://uv-cdat.github.io/cdat-site/">OLD CDAT Tutorials</a></li>
+                            <li><a href="http://cmor.llnl.gov">CMOR</a></li>
+                            <li><a href="http://cfconventions.org">CF Conventions</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Publications<b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="{{site.baseurl}}/report/report.html">Report Series</a></li>
+                            <li><a href="{{site.baseurl}}/publications.html">Publication List</a></li>
+                            <li><a href="https://cmip-publications.llnl.gov/search?type=project&option=CMIP5">Publication Site</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </div>
-  </div>
-  <div class="navbar-inner">
-    <div class="container">
-       <button type="button" class="btn btn-navbar collapse" data-toggle="collapse" data-target=".nav-collapse">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-      <div class="nav-collapse collapse">
-        <ul class="nav">
-          {% assign pages_list = site.pages %}
-          {% assign group = 'navigation' %}
-          {% include pages_list %}
-          <li><a href="{{site.baseurl}}/software/index.html">Software</a></li>
-          <li><a href="http://www-pcmdi.llnl.gov">Old Site</a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
 </div>
