@@ -11,7 +11,7 @@
   elseif (!isset($_REQUEST['googleseachTerm'])){
 	{				
 		echo "<br /><div class='search'><div class='searchText'>";					
-		echo '<form name="googles" method="POST" action="' . $search_page_url . '"><input type="search" name="googleseachTerm" size="32" maxlength="256" value=""><button class="btn btn-primary" type="submit">Search</button>';
+		echo '<form name="googles" method="POST" action="' . $search_page_url . '"><input type="search" name="googleseachTerm" size="64" maxlength="256" value=""><button class="btn btn-primary" type="submit">Search</button>';
 		echo '<br /><label class="radio inline"><input name="searchwhat" type="radio" value="LLNL" />Search All LLNL</label> <label class="radio inline"><input name="searchwhat" type="radio" value="site" checked />' . $search_text . '</label></form><br />';
 		echo "</div></div>";
 	}	
@@ -175,7 +175,7 @@ function resultMuncher($resultXML)
 	else
 	{				
 		echo "<div class='search'><div class='searchtext'>";					
-		echo '<form name="googles" method="POST" action="' . $searchPageUrl . '"><input type="search" name="googleseachTerm" size="32" maxlength="256" value="' . $googleseachTerm . '"><button class="btn btn-primary" type="submit">Search</button>';
+		echo '<form name="googles" method="POST" action="' . $searchPageUrl . '"><input type="search" name="googleseachTerm" size="64" maxlength="256" value="' . $googleseachTerm . '"><button class="btn btn-primary" type="submit">Search</button>';
 		echo '<br /><label class="radio inline"><input name="searchwhat" type="radio" value="LLNL"' . ($searchWhat == 'LLNL' ? ' checked="checked"' : '') . '/>Search All LLNL</label> <label class="radio inline"><input name="searchwhat" type="radio" value="site"' . ($searchWhat != 'LLNL' ? ' checked="checked"' : '') . ' />' . $searchText . '</label></form><br />';		
 		echo "<p>Searched for <b>" . $googleseachTerm . ($searchWhat != 'LLNL' ? " site:" . $googleSearchSite : '') . "</b></p>";						
 		echo "</div></div>";		
@@ -255,7 +255,7 @@ function resultMuncher($resultXML)
 						$prevStartNum = $googlePageStart - 10;
 							
 						echo "<div class='search'><div class='searchtext'>";						
-						echo '<form name="googles" method="POST" action="' . $searchPageUrl . '"><input type="search" name="googleseachTerm" class="input" size="32" maxlength="256" value="' . $googleseachTerm . '" /><button class="btn btn-primary" type="submit">Search</button><input name="searchwhat" type="hidden" value="' . $searchWhat . '" />';
+						echo '<form name="googles" method="POST" action="' . $searchPageUrl . '"><input type="search" name="googleseachTerm" class="input" size="64" maxlength="256" value="' . $googleseachTerm . '" /><button class="btn btn-primary" type="submit">Search</button><input name="searchwhat" type="hidden" value="' . $searchWhat . '" />';
 						echo '<br /><label class="radio inline"><input name="searchwhat" type="radio" value="LLNL"' . ($searchWhat == 'LLNL' ? ' checked="checked"' : '') . '/>Search All LLNL</label> <label class="radio inline"><input name="searchwhat" type="radio" value="site"' . ($searchWhat != 'LLNL' ? ' checked="checked"' : '') . ' />' . $searchText . '</label></form><br />';														
 						echo "<p>Searched for <b>" . $googleseachTerm . ($searchWhat != 'LLNL' ? " site:" . $googleSearchSite : '') . "</b> - Results " . $searchStartNum . " - " . $searchEndNum . " of about " . $resultCount . ($resultCount > 100 ? ' (only top 100 given) ' : '') . "</p>";											
 						echo "</div></div>";
