@@ -5,8 +5,6 @@ group: "navigation"
 ---
 {% include hero.html %}
 
-### Testing Build System
-
 PCMDI was established in 1989 at the Lawrence Livermore National Laboratory ([LLNL]), located in the [San Francisco Bay area, 
 in California][sf]. Our staff includes research scientists, computer scientists, and diverse support personnel. We are primarily 
 funded by the Regional and Global Climate Modeling ([RGCM]) Program and the Atmospheric System Research ([ASR]) Program of the 
