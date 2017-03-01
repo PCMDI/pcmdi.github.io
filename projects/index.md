@@ -49,14 +49,14 @@ The PCMDI metrics package is used to objectively compare results from climate mo
 
 ---
 
-# Observations for MIPs
+# obs4MIPs
 
 #### [obs4MIPs][OCME]
 obs4MIPs (Observations for Model Intercomparisons Project) is an activity to make observational products more accessible for climate model intercomparisons
 
 ---
 
-# Input for MIPs
+# input4MIPs
 
 #### [input4MIPs][ICME]
 input4MIPS (input datasets for Model Intercomparison Projects) is an activity to make available via ESGF the boundary condition and forcing datasets needed for CMIP6. Various datasets are needed for the pre-industrial control (piControl), AMIP, and historical,  simulations, and additional datasets are needed for many of the <a href="http://www.wcrp-climate.org/modelling-wgcm-mip-catalogue/modelling-wgcm-cmip6-endorsed-mips" target="_blank">CMIP6-endorsed model intercomparison projects (MIPs) experiments</a>. Earlier versions of many of these datasets were used in the <a href="http://cmip-pcmdi.llnl.gov/cmip5" target="_blank">5th Coupled Model Intercomparison Project (CMIP5)</a>
@@ -66,7 +66,6 @@ input4MIPS (input datasets for Model Intercomparison Projects) is an activity to
 # Supplemental Material
 
 #### [Supplemental Material for Ken Sperber's Publication][KEN]
-
 
 
 [AMIP]:{{site.baseurl}}/projects/amip/amip.html
@@ -86,7 +85,7 @@ input4MIPS (input datasets for Model Intercomparison Projects) is an activity to
 [DOI1]:http://dx.doi.org/doi:10.1029/2011JD016263
 [DOI2]:http://dx.doi.org/10.1002/joc.1756
 [icmc]:http://www-pcmdi.llnl.gov/projects/amip/STATUS/incoming.html
-[ICME]:{{site.baseurl}}/projects/4MIPs/index.html
+[ICME]:{{site.baseurl}}/projects/input4MIPs/index.html
 [KEN]:{{site.baseurl}}/about/staff/sperber/suplemental.html
 [OCME]:{{site.baseurl}}/projects/obs4MIPs/index.html
 [PMIP]:http://www-lsce.cea.fr/pmip2/
@@ -96,5 +95,3 @@ input4MIPS (input datasets for Model Intercomparison Projects) is an activity to
 [SMIP]:http://www-pcmdi.llnl.gov/projects/smip/smip2.phpsmip
 [synth]:http://www-pcmdi.llnl.gov/projects/msu/index.php
 [synth2011]:http://www-pcmdi.llnl.gov/projects/msu2011/index.php
-
-
