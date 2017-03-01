@@ -8,10 +8,10 @@ group: "navigation"
 
 Name | Position | E-mail | Phone Number
 --- | --- | --- | --- | ---
-[Taylor, Karl][karl] | Program Director |	taylor13@llnl.gov |	(925) 423-3623
+[Taylor, Karl][taylor] | Program Director |	taylor13@llnl.gov |	(925) 423-3623
 [Ames, Sasha][ames] | Computer Scientist | ames4@llnl.gov	| (925) 424-4644
-[Bonfils, Celine][celine] | Research Scientist | bonfils2@llnl.gov | (925) 423-9923
-[Covey, Curt][curt] | Research Scientist | covey1@llnl.gov	| (925) 422-1828
+[Bonfils, Celine][bonfils] | Research Scientist | bonfils2@llnl.gov | (925) 423-9923
+[Covey, Curt][covey] | Research Scientist | covey1@llnl.gov	| (925) 422-1828
 [Doutriaux, Charles][doutriaux] | Computer Scientist	| doutriaux1@llnl.gov	| (925) 422-1487
 [Durack, Paul][durack] | Research Scientist	| durack1@llnl.gov	| (925) 422-5208
 [Gleckler, Peter][gleckler] | Research Scientist | gleckler1@llnl.gov	| (925) 422-7631
@@ -27,20 +27,20 @@ Name | Position | E-mail | Phone Number
 [Williams, Dean][williams] | Computer Scientist	| williams13@llnl.gov	| (925) 423-0145
 {: class="table table-striped"}
 
-[karl]: about/staff/Karl/index.html
-[ames]: about/staff/sasha/index.html
-[celine]: about/staff/celine/index.html
-[curt]: about/staff/curt/index.html
-[doutriaux]: about/staff/doutriaux/index.html
-[durack]: about/staff/durack/index.html
-[gleckler]: about/staff/gleckler/index.html
-[harris]: about/staff/harris/index.html
-[hoang]: about/staff/hoang/index.html
-[lee]: about/staff/lee/index.html
-[nadeau]: about/staff/nadeau/index.html
-[painter]: about/staff/painter/index.html
-[phillips]: about/staff/phillips/index.html
-[santer]: about/staff/santer/index.html
-[sperber]: about/staff/sperber/index.html
-[williams]:about/staff/williams/index.html
-[jefferson]: about/staff/angela/index.html
+[taylor]: staff/taylor/index.html
+[ames]: staff/amess/index.html
+[bonfils]: staff/bonfils/index.html
+[covey]: staff/covey/index.html
+[doutriaux]: staff/doutriaux/index.html
+[durack]: staff/durack/index.html
+[gleckler]: staff/gleckler/index.html
+[harris]: staff/harris/index.html
+[hoang]: staff/hoang/index.html
+[lee]: staff/lee/index.html
+[nadeau]: staff/nadeau/index.html
+[painter]: staff/painter/index.html
+[phillips]: staff/phillips/index.html
+[santer]: staff/santer/index.html
+[sperber]: staff/sperber/index.html
+[williams]:staff/williams/index.html
+[jefferson]: staff/jefferson/index.html
