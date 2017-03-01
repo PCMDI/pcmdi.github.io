@@ -32,4 +32,4 @@ The PCMDI metrics package is used to objectively compare results from climate mo
 [DandA]:{{site.baseurl}}/DandA/index.html
 [Diagnosis]:{{site.baseurl}}/diagnosis/index.html
 [Metrics]:{{site.baseurl}}/metrics/index.html
-[KEN]:{{site.baseurl}}/staff/sperber/suplemental.html
+[KEN]:{{site.baseurl}}/staff/sperber/supplemental.html
