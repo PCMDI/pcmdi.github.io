@@ -18,7 +18,7 @@ To enable modeling groups and others who support CMIP6 to demonstrate its impact
 The licensing agreements governing CMIP6 data depend on the model but generally conform to a standard template (nb.: the following is just an example and does not apply to all model output):
 
 ```
-“CMIP6 model data produced by <Specific Modeling Centre Name> is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/). Use of the data must be acknowledged following guidelines found at https://pcmdi.llnl.gov/home/CMIP6/CitationRequirements6-0.html.  Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file).  The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.”
+“CMIP6 model data produced by <Specific Modeling Centre Name> is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/).  Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment.  Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file).  The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.”
 ```
 
 Some groups may restrict use of their data under Creative Commons Attribution-NonCommercial-ShareAlike 4.0, but this is discouraged.  In any case users should be sure to follow whatever license agreement appears in each model's data files. 
@@ -27,4 +27,4 @@ Some groups may restrict use of their data under Creative Commons Attribution-No
 
 The CMIP6 archive contains the output of scientific simulations of the past and potential future that are subject to multiple sources of error, ranging from errors in data handling, to errors in the representation of the real world in either the model, or the experimental setup for which the model was used. Different parts of the CMIP6 archive may be subject to differing levels of such errors, and users should be alert to these issues, and their potential consequences (and to the limitations of liability expressed in the data license).
 
-###### Document version: 6.1 (17 February 2017)
+###### Document version: 6.1 (27 February 2017)
