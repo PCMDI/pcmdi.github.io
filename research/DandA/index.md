@@ -1,8 +1,20 @@
+---
+layout: default
+title: PCMDI - Detection and Attribution
+---
+
 # Detection / Attribution
+
+---
+
+### [Tropospheric Warming Over the Past Two Decades][twotptd]
+**LLNL-MI-729103** 
+
+---
 
 ### Synthetic Microwave Sounding Unit (MSU) temperatures
 
-#### 1. New Synthetic MSU Data (2011)
+#### New Synthetic MSU Data (2011)
 
 We now employ a new method to calculate synthetic Microwave Sounding Unit (MSU) atmospheric temperatures from climate model simulation output. This method was developed by Dr. Carl Mears at Remote Sensing Systems (RSS) in Santa Rosa, California. The method relies on local weighting functions, whose values are dependent on the surface pressure and surface type at each model grid-point. The method is fully described in:
 
@@ -16,7 +28,7 @@ This new method has been applied to simulation output from phase 3 of the Couple
 
 To download the synthetic MSU temperature data used in Santer et al. (2011), and to see more information regarding the calculation of these temperatures, go to [New Synthetic MSU Data 2011][synth2011]
 
-#### 2. Raw Synthetic MSU Data (2008) 
+#### Raw Synthetic MSU Data (2008) 
 
 Synthetic MSU temperatures from 49 simulations of 20th century climate change were calculated as described in:
 
@@ -25,3 +37,9 @@ Synthetic MSU temperatures from 49 simulations of 20th century climate change we
 
 To download the data used in the above article and read about the details on the derivation see 
 [Synthetic MSU Data][synth]
+
+[twotptd]: {{site.url}}/projects/ben/index.html
+[DOI1]: http://dx.doi.org/doi:10.1029/2011JD016263
+[synth2011]: {{site.url}}/projects/msu/index.html
+[DOI2]: http://dx.doi.org/10.1002/joc.1756
+[synth]: {{site.url}}/projects/msu/index.html
