@@ -7,7 +7,7 @@ title: Tropospheric Warming
 
 <center>
     <p><h1>Description of Data used in: <br/>
-        Tropospheric Warming OVer The Past Two Decades</h1></p>
+        Tropospheric Warming Over The Past Two Decades</h1></p>
 
     <p><em>(LLNL-MI-729103)</em></p>
 
