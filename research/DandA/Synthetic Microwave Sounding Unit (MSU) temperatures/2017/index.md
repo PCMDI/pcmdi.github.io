@@ -16,7 +16,7 @@ title: Tropospheric Warming
 * [Tropospheric Warming Over The Past Two Decades](Santer_etal_SciRep_Data_04apr17.pdf) (pdf)
 * [newamp1_ALLOBS_tf2-GLB2_RSS_v33jan17_r1979_2016_s1979_2016_nofilt.d](newamp1_ALLOBS_tf2-GLB2_RSS_v33jan17_r1979_2016_s1979_2016_nofilt.d) 
 * [newamp1_ALLOBS_tf2-GLB2_RSS_v40jan17_r1979_2016_s1979_2016_nofilt.d](newamp1_ALLOBS_tf2-GLB2_RSS_v40jan17_r1979_2016_s1979_2016_nofilt.d)
-* [newamp1_ALLOBS_tf2-GLB2_RSS_v40jan17_r1979_2016_s1979_2016_nofilt.d](newamp1_ALLOBS_tf2-GLB2_RSS_v40jan17_r1979_2016_s1979_2016_nofilt.d)
+* [newamp1_ALLOBS_tf2-GLB2_STR_v30jan17_r1979_2016_s1979_2016_nofilt.d](newamp1_ALLOBS_tf2-GLB2_STR_v30jan17_r1979_2016_s1979_2016_nofilt.d)
 * [newamp1_ALLOBS_tf2-GLB2_STR_v40jan17_r1979_2016_s1979_2016_nofilt.d](newamp1_ALLOBS_tf2-GLB2_STR_v40jan17_r1979_2016_s1979_2016_nofilt.d)
 * [newamp1_ALLOBS_tf2-GLB2_UAH_v56jan17_r1979_2016_s1979_2016_nofilt.d](newamp1_ALLOBS_tf2-GLB2_UAH_v56jan17_r1979_2016_s1979_2016_nofilt.d)
 * [newamp1_ALLOBS_tf2-GLB2_UAH_v60jan17_r1979_2016_s1979_2016_nofilt.d](newamp1_ALLOBS_tf2-GLB2_UAH_v60jan17_r1979_2016_s1979_2016_nofilt.d)
