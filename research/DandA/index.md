@@ -9,6 +9,7 @@ title: PCMDI - Detection and Attribution
 ---
 
 ### 2017
+#### [Causes of differences in model in satellite tropospheric warming rates](NG2017)
 #### [Tropospheric Warming Over the Past Two Decades][msu2017]
 
 
@@ -46,4 +47,5 @@ To download the data used in the above article and read about the details on the
 [DOI2011]: http://dx.doi.org/10.1002/joc.1756
 [msu2008]: {{site.url}}/research/DandA/Synthetic%20Microwave%20Sounding%20Unit%20(MSU)%20temperatures/2008/index.html
 [msu2011]: {{site.url}}/research/DandA/Synthetic%20Microwave%20Sounding%20Unit%20(MSU)%20temperatures/2011/index.html
-[msu2017]: {{site.url}}/research/DandA/Synthetic%20Microwave%20Sounding%20Unit%20(MSU)%20temperatures/2017/index.html
+[msu2017]: {{site.url}}/research/DandA/Synthetic%20Microwave%20Sounding%20Unit%20(MSU)%20temperatures/2017/Scientific_Reports/index.html
+[NG2017]: {{site.url}}/research/DandA/Synthetic%20Microwave%20Sounding%20Unit%20(MSU)%20temperatures/2017/Nature_Geoscience/index.html
