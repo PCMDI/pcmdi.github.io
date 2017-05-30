@@ -9,7 +9,7 @@ title: PCMDI - Detection and Attribution
 ---
 
 ### 2017
-#### [Causes of differences in model in satellite tropospheric warming rates](NG2017)
+#### [Causes of differences in model in satellite tropospheric warming rates][NG2017]
 #### [Tropospheric Warming Over the Past Two Decades][msu2017]
 
 
