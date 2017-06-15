@@ -4,7 +4,7 @@ title: A Guide to CMIP6 Participation
 ---
 
 # A Guide to CMIP6 Participation
-#### Karl E. Taylor, Sebastien Denvil, Paul J. Durack, Michael Lautenschlager, Martina Stockhause, Dean Williams and many others
+##### Karl E. Taylor, Sebastien Denvil, Paul J. Durack, Michael Lautenschlager, Martina Stockhause, Dean Williams and many others
 
 This guide is a “living” document, which will be augmented and updated as needed. It is sub-divided into three parts distinguished by the groups served:
 
