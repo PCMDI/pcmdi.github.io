@@ -4,7 +4,7 @@ title: A Guide to CMIP6 Participation
 ---
 
 # A Guide to CMIP6 Participation
-### Karl E. Taylor, Sebastien Denvil, Paul J. Durack, Michael Lautenschlager, Martina Stockhause, Dean Williams and many others
+#### Karl E. Taylor, Sebastien Denvil, Paul J. Durack, Michael Lautenschlager, Martina Stockhause, Dean Williams and many others
 
 This guide is a “living” document, which will be augmented and updated as needed. It is sub-divided into three parts distinguished by the groups served:
 
@@ -14,7 +14,8 @@ This guide is a “living” document, which will be augmented and updated as ne
 
 Here are links to the parts of the guide.
 
-## For CMIP6 participating climate modelers:
+
+### For CMIP6 participating climate modelers:
 
 1. Requirements/expectations
 2. Experiment design
@@ -26,14 +27,16 @@ Here are links to the parts of the guide.
 8. Documentation process
 9. CMIP6 organization and governance
 
-## For CMIP6 ESGF data node managers and operators (in preparation):
+### For CMIP6 ESGF data node managers and operators (in preparation):
 
 1. Hardware requirements
 2. Operational requirements/expectations
 3. Publication procedure
 4. Software supporting publication/replication
 
-## For Users of CMIP6 model output(in preparation):
+
+
+### For Users of CMIP6 model output (in preparation):
 
 1. Experiment design
 2. Model output specifications
@@ -43,4 +46,4 @@ Here are links to the parts of the guide.
 6. Registering published work based on CMIP6
 
 
- ###### Document version: 6.0.0 (15 June 2017)
+###### Document version: 6.0.0 (15 June 2017)
