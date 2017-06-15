@@ -8,14 +8,14 @@ title: A Guide to CMIP6 Participation
 
 This guide is a “living” document, which will be augmented and updated as needed. It is sub-divided into three parts distinguished by the groups served:
 
-1. Modelers carrying out CMIP6 simulations,
-2. Data managers responsible for data node operations, and
-3. Data users analyzing and making use of CMIP6 model output.
+1. [Modelers][modelers] carrying out CMIP6 simulations,
+2. [Data managers][dataManagers] responsible for data node operations, and
+3. [Data users][users] analyzing and making use of CMIP6 model output.
 
 Here are links to the parts of the guide.
 
 
-### For CMIP6 participating climate modelers:
+### [For CMIP6 participating climate modelers][modelers]:
 
 1. Requirements/expectations
 2. Experiment design
@@ -28,7 +28,7 @@ Here are links to the parts of the guide.
 9. CMIP6 organization and governance
 
 
-### For CMIP6 ESGF data node managers and operators (in preparation):
+### [For CMIP6 ESGF data node managers and operators][dataManagers] (in preparation):
 
 1. Hardware requirements
 2. Operational requirements/expectations
@@ -36,7 +36,7 @@ Here are links to the parts of the guide.
 4. Software supporting publication/replication
 
 
-### For Users of CMIP6 model output (in preparation):
+### [For Users of CMIP6 model output][users] (in preparation):
 
 1. Experiment design
 2. Model output specifications
@@ -47,3 +47,7 @@ Here are links to the parts of the guide.
 
 
 ###### Document version: 6.0.0 (15 June 2017)
+
+[modelers]: modelers.html
+[dataManagers]: dataManagers.html
+[users]: users.html
