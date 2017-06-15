@@ -36,7 +36,7 @@ Here are links to the parts of the guide.
 4. Software supporting publication/replication
 
 
-### [For Users of CMIP6 model output][users] (in preparation):
+### [For Users of CMIP6 model output][dataUsers] (in preparation):
 
 1. Experiment design
 2. Model output specifications
@@ -50,4 +50,4 @@ Here are links to the parts of the guide.
 
 [modelers]: modelers.html
 [dataManagers]: dataManagers.html
-[users]: users.html
+[dataUsers]: dataUsers.html
