@@ -43,4 +43,4 @@ Here are links to the parts of the guide.
 6. Registering published work based on CMIP6
 
 
- ###### Document version: 6.0.0 (15 June 2017)
+###### Document version: 6.0.0 (15 June 2017)
