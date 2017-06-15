@@ -10,7 +10,7 @@ This guide is a “living” document, which will be augmented and updated as ne
 
 1. [Modelers][modelers] carrying out CMIP6 simulations,
 2. [Data managers][dataManagers] responsible for data node operations, and
-3. [Data users][users] analyzing and making use of CMIP6 model output.
+3. [Data users][dataUsers] analyzing and making use of CMIP6 model output.
 
 Here are links to the parts of the guide.
 
