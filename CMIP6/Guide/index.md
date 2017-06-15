@@ -9,8 +9,8 @@ title: A Guide to CMIP6 Participation
 This guide is a “living” document, which will be augmented and updated as needed. It is sub-divided into three parts distinguished by the groups served:
 
 1. [Modelers][modelers] carrying out CMIP6 simulations,
-2. [Data managers][dataManagers] responsible for data node operations, and
-3. [Data users][dataUsers] analyzing and making use of CMIP6 model output.
+1. [Data managers][dataManagers] responsible for data node operations, and
+1. [Data users][dataUsers] analyzing and making use of CMIP6 model output.
 
 Here are links to the parts of the guide.
 
@@ -18,32 +18,32 @@ Here are links to the parts of the guide.
 ### [For CMIP6 participating climate modelers][modelers]:
 
 1. Requirements/expectations
-2. Experiment design
-3. Forcing data sets
-4. Model output fields
-5. Model output requirements
-6. Software for preparing/checking output
-7. Archiving/publishing output
-8. Documentation process
-9. CMIP6 organization and governance
+1. Experiment design
+1. Forcing data sets
+1. Model output fields
+1. Model output requirements
+1. Software for preparing/checking output
+1. Archiving/publishing output
+1. Documentation process
+1. CMIP6 organization and governance
 
 
 ### [For CMIP6 ESGF data node managers and operators][dataManagers] (in preparation):
 
 1. Hardware requirements
-2. Operational requirements/expectations
-3. Publication procedure
-4. Software supporting publication/replication
+1. Operational requirements/expectations
+1. Publication procedure
+1. Software supporting publication/replication
 
 
 ### [For Users of CMIP6 model output][dataUsers] (in preparation):
 
 1. Experiment design
-2. Model output specifications
-3. Accessing model output
-4. Terms of use and citation requirements
-5. Reporting suspected errors
-6. Registering published work based on CMIP6
+1. Model output specifications
+1. Accessing model output
+1. Terms of use and citation requirements
+1. Reporting suspected errors
+1. Registering published work based on CMIP6
 
 
 ###### Document version: 6.0.0 (15 June 2017)
