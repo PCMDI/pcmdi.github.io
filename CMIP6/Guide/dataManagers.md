@@ -1,6 +1,6 @@
 ---
 layout: default
-title: CMIP6 Participation: for data managers
+title: CMIP6 Participation for data managers
 ---
 
 # CMIP6 Participation for Data Managers

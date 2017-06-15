@@ -1,6 +1,6 @@
 ---
 layout: default
-title: CMIP6 Participation: for modelers
+title: CMIP6 Participation for modelers
 ---
 
 # CMIP6 Participation for modelers
