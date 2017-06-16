@@ -19,38 +19,49 @@ Document overview:
 1. [CMIP6 organization and governance](#cmip6-organization-and-governance)
 
 ## Requirements and expectations
-Those groups who plan to participate in CMIP6 should (in roughly this order, although model documentation should be provided as early as possible):
+Those groups who plan to participate in CMIP6 should (in roughly this order, although
+model documentation should be provided as early as possible):
 
-* Indicate your intention to participate by registering your institution and model following the instructions on the [WCRP-CMIP github site][wcrpGithubSite].
- ***You will not be able to publish your model output (on ESGF) without first registering your institution and model.***
- (To do this, anyone without a github account will have to create one). The currently registered institutions are listed in a [“json” file][jsonFile]
- and can be displayed in [table form][tableForm], and so are the currently registered models: [“json” file][jsonFile] and [table][tableForm].
+* Indicate your intention to participate by registering your institution and model
+ following the instructions on the [WCRP-CMIP github site][wcrpGithubSite].
+ ***You will not be able to publish your model output (on ESGF) without first registering
+ your institution and model.*** (To do this, anyone without a github account will
+ have to create one). The currently registered institutions are listed in a [“json” file][jsonFile]
+ and can be displayed in [table form][tableForm], and so are the currently registered
+ models: [“json” file][jsonFile] and [table][tableForm]
 
-* Register contact information for person(s) responsible for entering and maintaining CMIP6 model output citation information in the citation
- GUI (Documentation of GUI). This information will be used by web-based services being developed and maintained at DKRZ to ensure that data produced
- by your center is properly cited.   Data users will be able to access citation information following the URL stored as a global attribute (further_info_url)
- in each of your netCDF files and also following links to each dataset displayed by the ESGF search service.
+* Register contact information for person(s) responsible for entering and maintaining
+ CMIP6 model output citation information in the citation GUI (Documentation of GUI).
+ This information will be used by web-based services being developed and maintained
+ at DKRZ to ensure that data produced by your center is properly cited. Data users
+ will be able to access citation information following the URL stored as a global
+ attribute (further_info_url) in each of your netCDF files and also following links
+ to each dataset displayed by the ESGF search service
 
-* Provide the following to Martina Stockhause (stockhause@dkrz.de) so that an account can be set up:
- Person: name, email, ORCID (if available), affiliation and
- Specification of the data, for which this person is responsible, using the source_id and institution_id that you have registered at the WCRP-CMIP github site
+* Provide the following to Martina Stockhause (stockhause@dkrz.de) so that an account
+ can be set up:
+  - Person: name, email, ORCID (if available), affiliation and
+  - Specification of the data, for which this person is responsible, using the source_id and institution_id that you have registered at the WCRP-CMIP github site
  (see first bullet above).
 
-* If you are not yet included in the CMIP6-MODELGROUPS-SCI mail list, register your scientific contact with CMIP Panel Chair, Veronika Eyring
- (veronika.eyring@dlr.de).
+* If you are not yet included in the CMIP6-MODELGROUPS-SCI mail list, register your
+ scientific contact with CMIP Panel Chair, Veronika Eyring (veronika.eyring@dlr.de)
 
-* Indicate your intention to participate in “endorsed MIPs” by signing up for the endorsed-MIP mailing lists of interest (click on each MIP
-  of interest in the list) and also registering the information in the activity_participation field of your source_id (see first bullet above).
+* Indicate your intention to participate in “endorsed MIPs” by signing up for the
+ endorsed-MIP mailing lists of interest (click on each MIP of interest in the list)
+ and also registering the information in the activity_participation field of your
+ source_id (see first bullet above).
 
-* Perform required DECK, historical, and selected endorsed-MIP experiments, using the required, standard forcing datasets:
+* Perform required DECK, historical, and selected endorsed-MIP experiments, using
+ the required, standard forcing datasets
 
-* Save all requested model output.
+* Save all requested model output
 
-* Provide all required model documentation.
+* Provide all required model documentation
 
-* Prepare and make available model output according to CMIP6 specifications (see sections 5, 6, and 7 below).
+* Prepare and make available model output according to CMIP6 specifications (see sections 5, 6, and 7 below)
 
-* Correct published data when errors are discovered... [information forthcoming - this will be linked to ES-DOCS errata services].
+* Correct published data when errors are discovered... [information forthcoming - this will be linked to ES-DOCS errata services]
 
 
 ## Experiment design
