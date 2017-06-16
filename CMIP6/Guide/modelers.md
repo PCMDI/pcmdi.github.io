@@ -8,7 +8,7 @@ title: CMIP6 Participation for modelers
 ##### Karl E. Taylor, Paul J. Durack, Michael Lautenschlager and Martina Stockhause
 
 Document overview:
-1. [Requirements/expectations][#requirements-and-expectations]
+1. [Requirements and expectations][#requirements-and-expectations]
 1. [Experiment design][#experiment-design]
 1. [Forcing data sets][#forcing-data-sets]
 1. [Model output fields][#model-output-fields]
