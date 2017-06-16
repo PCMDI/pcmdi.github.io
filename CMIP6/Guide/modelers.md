@@ -4,7 +4,7 @@ title: CMIP6 Participation for modelers
 ---
 
 # CMIP6 Participation for modelers
-##### [Link back to Guide homepage][guide]
+##### [Link back to guide homepage][guide]
 ##### Karl E. Taylor, Paul J. Durack, Michael Lautenschlager and Martina Stockhause
 
 Document overview:
