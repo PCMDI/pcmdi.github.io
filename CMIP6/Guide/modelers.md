@@ -18,7 +18,7 @@ Document overview:
 1. [Documentation process](#documentation-process)
 1. [CMIP6 organization and governance](#cmip6-organization-and-governance)
 
-## Requirements and expectations
+## 1. Requirements and expectations
 Those groups who plan to participate in CMIP6 should (in roughly this order, although
 model documentation should be provided as early as possible):
 
@@ -70,7 +70,7 @@ model documentation should be provided as early as possible):
  this will be linked to ES-DOCS errata services]
 
 
-## Experiment design
+## 2. Experiment design
 The CMIP6 protocol and experiments are described in a [special issue][GMDSpecialIssue]
 of Geoscientific Model Development with an overview of the overall design and scientific
 strategy provided in the lead article of that issue by [Eyring et al. (2016)][EyringEtAl16]
@@ -101,7 +101,7 @@ strategy provided in the lead article of that issue by [Eyring et al. (2016)][Ey
  these experiments are available in a [“json” file][experimentIdJson] and can be
  displayed in [table form][experimentIdhtml]
 
-## Forcing data sets
+## 3. Forcing data sets
 In CMIP6 it is essential that all models adopt the same forcing datasets (and boundary
 conditions). Experts contacted by the CMIP Panel have prepared the forcing datasets,
 and a new “input4MIPs” activity has been initiated by PCMDI to encourage adherence
@@ -123,7 +123,7 @@ Some of the endorsed-MIP forcing datasets are still in preparation, but should
 be available soon. Any changes made to a released dataset will be documented in
 the [summary][input4mipsGoogleDoc].
 
-## Model output fields
+## 4. Model output fields
 The [CMIP6 Data Request][cmip6DataRequestCog] defines the variables that should
 be archived for each experiment and specifies the time intervals for which they
 should be reported. It provides much of the variable-specific metadata that should
@@ -132,7 +132,7 @@ requirements for CMIP6.
 
 *[Further explanation will be added here.]*
 
-## Model output requirements
+## 5. Model output requirements
 CMIP6 model output requirements are similar to those in CMIP5, but changes have
 been made to accommodate the more complex structure of CMIP6 and its data request.
 Some changes will make it easier for users to find the data they need and will
@@ -198,7 +198,7 @@ CMIP6. A minimum set of requirements for publication of CMIP6 data will be met
 if a dataset passes the checks performed by the PrePARE software package described
 in the next section.
 
-## Software for preparing/checking output
+## 6. Software for preparing/checking output
 To facilitate the production of model output files that meet the CMIP6 technical
 standards, a software library called “CMOR” (Climate Model Output Rewriter) has
 been developed and version 3 (CMOR3) is now available [at this site][cmorGithub],
@@ -235,7 +235,7 @@ Additional codes useful in preparing model output for CMIP6 include:
 * Code to create regridding weights: not yet available
 * Code to calculate nominal_resolution: not yet available
 
-## Archiving/publishing output
+## 6. Archiving/publishing output
 To be written soon. [What is needed here is simply a few statements introducing
 ESGF and the data node, with an indication of what modeling centers need to do:
 either host a data node or find someone else who will serve their data. There will
@@ -243,11 +243,11 @@ be another guide (for data node managers and operators -- see below) that will
 provide a more complete overview of what is involved in this aspect, but that information
 probably won’t interest most modelers.]
 
-## Documentation process
+## 8. Documentation process
 Information will be provided soon about [ES-DOCs][es-docsCmip6], which is the project responsible
 for collecting and making available model and experiment documentation.
 
-## CMIP6 organization and governance
+## 9. CMIP6 organization and governance
 The [CMIP Panel][CMIPPanel], which is a standing subcommittee of the WCRP’s [Working Group on Climate Modeling][wgcmSite]
 provides overall guidance and oversight of CMIP activities. Notably it determines
 which MIPs will participate in each phase of CMIP using the established selection
