@@ -41,8 +41,9 @@ model documentation should be provided as early as possible):
 * Provide the following to Martina Stockhause (stockhause@dkrz.de) so that an account
  can be set up:
   - Person: name, email, ORCID (if available), affiliation and
-  - Specification of the data, for which this person is responsible, using the source_id and institution_id that you have registered at the WCRP-CMIP github site
- (see first bullet above).
+  - Specification of the data, for which this person is responsible, using the
+    source_id and institution_id that you have registered at the WCRP-CMIP github
+    site (see first bullet above)
 
 * If you are not yet included in the CMIP6-MODELGROUPS-SCI mail list, register your
  scientific contact with CMIP Panel Chair, Veronika Eyring (veronika.eyring@dlr.de)
@@ -50,7 +51,7 @@ model documentation should be provided as early as possible):
 * Indicate your intention to participate in “endorsed MIPs” by signing up for the
  endorsed-MIP mailing lists of interest (click on each MIP of interest in the list)
  and also registering the information in the activity_participation field of your
- source_id (see first bullet above).
+ source_id (see first bullet above)
 
 * Perform required DECK, historical, and selected endorsed-MIP experiments, using
  the required, standard forcing datasets
