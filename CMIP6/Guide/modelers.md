@@ -45,6 +45,7 @@ model documentation should be provided as early as possible):
    source_id and institution_id that you have registered at the WCRP-CMIP github
    site (see first bullet above)
 
+
 * If you are not yet included in the CMIP6-MODELGROUPS-SCI mail list, register your
  scientific contact with CMIP Panel Chair, Veronika Eyring (veronika.eyring@dlr.de)
 
@@ -61,10 +62,11 @@ model documentation should be provided as early as possible):
 * Provide all required model documentation
 
 * Prepare and make available model output according to CMIP6 specifications (see
-  sections [5](#model-output-requirements), [6](#software-for-preparing/checking-output),
-  and [7](#archiving/publishing-output) below)
+ sections [5](#model-output-requirements), [6](#software-for-preparing/checking-output),
+ and [7](#archiving/publishing-output) below)
 
-* Correct published data when errors are discovered... [information forthcoming - this will be linked to ES-DOCS errata services]
+* Correct published data when errors are discovered... [information forthcoming -
+ this will be linked to ES-DOCS errata services]
 
 
 ## Experiment design
