@@ -13,8 +13,8 @@ Document overview:
 1. [Forcing data sets](#3-forcing-data-sets)
 1. [Model output fields](#4-model-output-fields)
 1. [Model output requirements](#5-model-output-requirements)
-1. [Software for preparing/checking output](#6-software-for-preparing/checking-output)
-1. [Archiving/publishing output](#7-archiving/publishing-output)
+1. [Software for preparing/checking output](#6-software-for-preparingchecking-output)
+1. [Archiving/publishing output](#7-archivingpublishing-output)
 1. [Documentation process](#8-documentation-process)
 1. [CMIP6 organization and governance](#9-cmip6-organization-and-governance)
 
