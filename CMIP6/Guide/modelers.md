@@ -236,13 +236,52 @@ Additional codes useful in preparing model output for CMIP6 include:
 * Code to calculate nominal_resolution: not yet available
 
 ## Archiving/publishing output
-blah
+To be written soon. [What is needed here is simply a few statements introducing
+ESGF and the data node, with an indication of what modeling centers need to do:
+either host a data node or find someone else who will serve their data. There will
+be another guide (for data node managers and operators -- see below) that will
+provide a more complete overview of what is involved in this aspect, but that information
+probably won’t interest most modelers.]
 
 ## Documentation process
-blah
+Information will be provided soon about [ES-DOCs][es-docsCmip6], which is the project responsible
+for collecting and making available model and experiment documentation.
 
 ## CMIP6 organization and governance
-blah
+The [CMIP Panel][CMIPPanel], which is a standing subcommittee of the WCRP’s [Working Group on Climate Modeling][wgcmSite]
+provides overall guidance and oversight of CMIP activities. Notably it determines
+which MIPs will participate in each phase of CMIP using the established selection
+criteria listed in Table 1 of [Eyring et al. (2016)][EyringEtAl16]. On [its webpages][wgcmCmip6]
+the CMIP Panel provides additional information that may be of interest to CMIP6
+participants, but only the CMIP6 Guide (this document) provides definitive documentation
+of CMIP6 technical requirements.
+
+The [endorsed MIPs][CMIP6EndorsedMips] are managed by independent committees, but
+acceptance of endorsement obligates them to follow CMIP’s technical requirements.
+Thus across all MIPs, the modeling groups can prepare their model output following
+a common procedure.
+
+The CMIP Panel has delegated responsibility for most of the technical requirements
+of CMIP to the [WGCM Infrastructure Panel (WIP)][wipCog]. The mission, rationale
+and Terms of Use for the panel can be found [here][wipMission]. The WIP has drafted
+a number of position papers summarizing CMIP6 requirements and specifications.
+Among these is the [CMIP6 reference specifications for global attributes, filenames, directory structure and Data Reference Syntax (DRS)][cmip6GlobalAttGoogleDoc].
+The WIP has also set up a [CMIP Data Node Operations Team (CDNOT)][cdnotGoogleDoc]
+to interface with data node managers responsible for serving CMIP6 data. This team
+provides a direct link from the panels establishing data node requirements to those
+implementing the requirements. Section [7](#archiving/publishing-output) provides
+further information about data node operational requirements.
+
+Information is under preparation describing the governance of the following:
+
+* ESGF & CoG & major replication data centers
+* [input4MIPs][input4mipsCog]
+* [CF-conventions][cfConventionsPage]
+* [ES-DOC][es-docsCmip6]
+* PCMDI
+* Evaluation activities
+* [obs4MIPs][obs4mipsCog]
+
 
 ###### Document version: 6.0.0 (15 June 2017)
 
@@ -279,3 +318,10 @@ blah
 [cmorSite]: https://cmor.llnl.gov{:target="_blank"}
 [preparePage]: https://github.com/PCMDI/cmor/tree/master/LibCV/PrePARE{:target="_blank"}
 [cf-checkerGithub]: https://github.com/cedadev/cf-checker/wiki{:target="_blank"}
+[es-docsCmip6]: https://es-doc.org/cmip6{:target="_blank"}
+[wgcmSite]: https://www.wcrp-climate.org/wgcm-overview{:target="_blank"}
+[wgcmCmip6]: https://www.wcrp-climate.org/wgcm-cmip/wgcm-cmip6{:target="_blank"}
+[wipCog]: https://www.earthsystemcog.org/projects/wip{:target="_blank"}
+[wipMission]: https://www.earthsystemcog.org/projects/wip/aboutus{:target="_blank"}
+[cdnotGoogleDoc]: https://docs.google.com/document/d/1oRWqxtWWEfsucTVhk0G3bMqHC0BL4dJwADrOG8Ukj-g{:target="_blank"}
+[obs4mipsCog]: https://www.earthsystemcog.org/projects/obs4mips/{:target="_blank"}
