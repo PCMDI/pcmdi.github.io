@@ -42,8 +42,8 @@ model documentation should be provided as early as possible):
  can be set up:
   - Person: name, email, ORCID (if available), affiliation and
   - Specification of the data, for which this person is responsible, using the
-    source_id and institution_id that you have registered at the WCRP-CMIP github
-    site (see first bullet above)
+   source_id and institution_id that you have registered at the WCRP-CMIP github
+   site (see first bullet above)
 
 * If you are not yet included in the CMIP6-MODELGROUPS-SCI mail list, register your
  scientific contact with CMIP Panel Chair, Veronika Eyring (veronika.eyring@dlr.de)
