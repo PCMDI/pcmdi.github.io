@@ -63,8 +63,8 @@ model documentation should be provided as early as possible):
 * Provide all [required model documentation](#5-model-output-requirements)
 
 * Prepare and make available model output according to CMIP6 specifications (see
- sections [5](#5-model-output-requirements), [6](#6-software-for-preparing/checking-output),
- and [7](#7-archiving/publishing-output) below)
+ sections [5](#5-model-output-requirements), [6](#6-software-for-preparingchecking-output),
+ and [7](#7-archivingpublishing-output) below)
 
 * Correct published data when errors are discovered... *[information forthcoming -
  this will be linked to ES-DOCS errata services]*
@@ -147,7 +147,7 @@ which define metadata that provide a description of the variables and their spat
 and temporal properties. This facilitates analysis of the data by users who can
 read and interpret data from all models in the same way.
 
-The [CMOR software library](#6-software-for-preparing/checking-output) can be used
+The [CMOR software library](#6-software-for-preparingchecking-output) can be used
 to meet most of the CMIP data requirements, but its use is not mandatory. To ensure
 that a critical subset of the requirements have been met, a CMIP data checker (“PrePARE”)
 will be applied before data are placed in the CMIP6 data archive, but PrePARE currently
@@ -269,7 +269,7 @@ Among these is the [CMIP6 reference specifications for global attributes, filena
 The WIP has also set up a [CMIP Data Node Operations Team (CDNOT)][cdnotGoogleDoc]
 to interface with data node managers responsible for serving CMIP6 data. This team
 provides a direct link from the panels establishing data node requirements to those
-implementing the requirements. Section [7](#7-archiving/publishing-output) provides
+implementing the requirements. Section [7](#7-archivingpublishing-output) provides
 further information about data node operational requirements.
 
 Information is under preparation describing the governance of the following:
