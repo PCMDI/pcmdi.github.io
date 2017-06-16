@@ -23,12 +23,12 @@ Those groups who plan to participate in CMIP6 should (in roughly this order, alt
 model documentation should be provided as early as possible):
 
 * Indicate your intention to participate by registering your institution and model
- following the instructions on the [WCRP-CMIP github site][wcrpGithubSite].
+ following the instructions on the [WCRP-CMIP github site][cmip6CvsRegistrationGuidance].
  ***You will not be able to publish your model output (on ESGF) without first registering
  your institution and model.*** (To do this, anyone without a github account will
- have to create one). The currently registered institutions are listed in a [“json” file][jsonInstFile]
- and can be displayed in [table form][tableInstForm], and so are the currently registered
- models: [“json” file][jsonSourceFile] and [table][tableSourceForm]
+ have to create one). The currently registered institutions are listed in a [“json” file][institutionIdJson]
+ and can be displayed in [table form][institutionIdHtml], and so are the currently registered
+ models: [“json” file][sourceIdJson] and [table][sourceIdHtml]
 
 * Register contact information for person(s) responsible for entering and maintaining
  CMIP6 model output citation information in the [citation GUI][dkrzCitationGUI]
@@ -43,7 +43,7 @@ model documentation should be provided as early as possible):
  can be set up:
   - Person: name, email, ORCID (if available), affiliation and
   - Specification of the data, for which this person is responsible, using the
-   source_id and institution_id that you have registered at the [WCRP-CMIP github site][WCRPGithubSite]
+   source_id and institution_id that you have registered at the [WCRP-CMIP github site][cmip6Cvs]
    (see first bullet above)
 
 
@@ -83,11 +83,11 @@ strategy provided in the lead article of that issue by [Eyring et al. (2016)][Ey
  
 * In addition to the DECK and historical simulations, each modeling group may choose
  to contribute to any [CMIP6 endorsed MIPs][CMIP6EndorsedMips] of interest, but
- for each MIP component, results must be provided from the full subset of “tier 1” experiments. See the
- [GMD Special CMIP6 Issue][GMDSpecialIssue] for descriptions of each MIP and its
- experiment specifications. The [endorsed MIPs][CMIP6EndorsedMips] are managed 
- by independent committees and are identified as separate “CMIP6 Activities”, but
- their coordination and their endorsement as part of CMIP6 is the responsibility
+ for each MIP component, results must be provided from the full subset of “tier 1”
+ experiments. See the [GMD Special CMIP6 Issue][GMDSpecialIssue] for descriptions
+ of each MIP and its experiment specifications. The [endorsed MIPs][CMIP6EndorsedMips]
+ are managed by independent committees and are identified as separate “CMIP6 Activities”,
+ but their coordination and their endorsement as part of CMIP6 is the responsibility
  of the [CMIP Panel][CMIPPanel]. The process by which MIP activities become endorsed
  is described [here][CMIP6EndorsedMips] and the criteria for endorsement are listed
  in Table 1 of [Eyring et al. (2016)][EyringEtAl16]. The official names of the 
@@ -102,13 +102,79 @@ strategy provided in the lead article of that issue by [Eyring et al. (2016)][Ey
  displayed in [table form][experimentIdhtml]
 
 ## Forcing data sets
-blah
+In CMIP6 it is essential that all models adopt the same forcing datasets (and boundary
+conditions). Experts contacted by the CMIP Panel have prepared the forcing datasets,
+and a new “input4MIPs” activity has been initiated by PCMDI to encourage adherence
+to many of the same data standards imposed on obs4MIPs data and CMIP data. These
+datasets are being collected into a curated archive at PCMDI. All conforming datasets
+can be downloaded via the Earth System Grid Federation’s [input4MIPs CoG][input4mipsCog].
+Any dataset not yet conforming to the input4MIPs specifications can be obtained
+from the individual preparing the dataset, as indicated in the [input4MIPs summary sheet][input4mipsGoogleDoc].
+ 
+The [input4MIPs summary sheet][input4mipsGoogleDoc] separately lists the CMIP6 
+datasets needed for the DECK and historical simulations and the datasets needed
+for the CMIP6-endorsed MIP experiments. The summary provides contact information,
+documentation of the data, and citation requirements. Included in the collection
+are datasets specifying emissions and concentrations of various atmospheric species,
+sea surface temperatures and sea ice (for AMIP), solar variability, and land cover
+characteristics.
+ 
+Some of the endorsed-MIP forcing datasets are still in preparation, but should
+be available soon. Any changes made to a released dataset will be documented in
+the [summary][input4mipsGoogleDoc]. 
 
 ## Model output fields
-blah
+The [CMIP6 Data Request][cmip6DataRequestCog] defines the variables that should
+be archived for each experiment and specifies the time intervals for which they
+should be reported. It provides much of the variable-specific metadata that should
+be stored along with the data. It also provides tools for estimating the data storage
+requirements for CMIP6.
+ 
+*[Further explanation will be added here.]*
 
 ## Model output requirements
-blah
+CMIP6 model output requirements are similar to those in CMIP5, but changes have
+been made to accommodate the more complex structure of CMIP6 and its data request.
+Some changes will make it easier for users to find the data they need and will
+enable new services to be established providing, for example, model and experiment
+documentation and citation information. 
+ 
+As in CMIP5, all CMIP6 output will be stored in netCDF files with one variable
+stored per file. The requested output fields can be determined as described [above](#model-output-fields),
+and as in CMIP5, the data must be “cmorized” (i.e., written in conformance with
+all the CMIP standards). The CMIP standards build on the [CF-conventions][cfConventionsPage],
+which define metadata that provide a description of the variables and their spatial
+and temporal properties. This facilitates analysis of the data by users who can
+read and interpret data from all models in the same way.  
+ 
+The [CMOR software library](#software-for-preparing/checking-output) can be used
+to meet most of the CMIP data requirements, but its use is not mandatory. To ensure
+that a critical subset of the requirements have been met, a CMIP data checker (“PrePARE”)
+will be applied before data are placed in the CMIP6 data archive, but PrePARE currently
+cannot check a file for full compliance with all the data requirements. It is therefore
+recommended that CMOR be used to write CMIP6 model output.
+ 
+The CMIP6 data requirements are defined and discussed in the following documents:
+ 
+* [Definition of CMIP6 netCDF global attributes][cmip6GlobalAttGoogleDoc]
+* [Reference “controlled vocabularies” (CV’s) for CMIP6][cmip6Cvs]
+* [Specifications][cmip6GlobalAttGoogleDoc] for file names, directory structures,
+ and CMIP6 Data Reference Syntax (DRS)
+* Specification of output file content, structure, and metadata (not yet available,
+ but with notable exceptions will follow [CMIP5 requirements][cmip5outputMetadataRequirements]).
+ Use of CMOR3 will ensure compliance
+* [Guidance on grid requirements][cmip6GridGoogleDoc]
+* [Information on pressure levels][cmip6PressureLevelsPdf] requested
+* [Guidance on time-averaging][cmip6TimeAveragesCog] (with masking) 
+ 
+Additional metadata requirements are imposed on a variable by variable basis as specified in the CMIP6 Data Request.  Many of these are recognized by CMOR (through input via the CMIP6 CMOR Tables), which will ensure compliance.  
+ 
+Note that in the above, controlled vocabularies (CV’s) play a key role in ensuring uniformity in the description of data sets across all models.   For all but variable-specific information, reference CV’s are being maintained by PCMDI against which all quality assurance checks will be performed. These CV’s will be relied on in constructing file names and directory structures, and they will enable faceted searches of the CMIP6 archive as called for in the search requirements document.  Additional, variable-specific CVs are part of the CMIP6 Data Request.  These CV’s are structured in a way that makes clear relationships between certain items appearing in separate CV’s.  For example, the CV for model names (“source_id”) indicates which institutions are authorized to run each model, and the complete list of institutions is recorded in a CV for “institution_id”. 
+ 
+As indicated in the guidance specifications for output grids, weights should be provided to regrid all output to a few standard grids (e.g., 1x1 degree).  All regridding information (weights, lats, lons, etc.) should be stored consistent with a standard format approved by the WIP.  Specifications for the required standard format will be forthcoming.
+ 
+CMIP6 output requirements that are critical for successful ingestion and access via ESGF will be enforced when publication of the data is initiated.  The success of CMIP6 depends on making sure that even the requirements that can not be checked by ESGF are met.  This is the responsibility of anyone preparing model output for CMIP6.  A minimum set of requirements for publication of CMIP6 data will be met if a dataset passes the checks performed by the PrePARE software package described in the next section.  
+
 
 ## Software for preparing/checking output
 blah
@@ -125,15 +191,15 @@ blah
 ###### Document version: 6.0.0 (15 June 2017)
 
 [guide]: index.html
-[wcrpGithubSite]: https://github.com/WCRP-CMIP/CMIP6_CVs/blob/master/.github/RegistrationGuidance.md{:target="_blank"}
-[jsonInstFile]: https://github.com/WCRP-CMIP/CMIP6_CVs/blob/master/CMIP6_institution_id.json{:target="_blank"}
-[tableInstForm]: http://rawgit.com/WCRP-CMIP/CMIP6_CVs/master/src/CMIP6_institution_id.html{:target="_blank"}
-[jsonSourceFile]: https://github.com/WCRP-CMIP/CMIP6_CVs/blob/master/CMIP6_source_id.json{:target="_blank"}
-[tableSourceForm]: http://rawgit.com/WCRP-CMIP/CMIP6_CVs/master/src/CMIP6_source_id.html{:target="_blank"}
+[cmip6CvsRegistrationGuidance]: https://github.com/WCRP-CMIP/CMIP6_CVs/blob/master/.github/RegistrationGuidance.md{:target="_blank"}
+[institutionIdJson]: https://github.com/WCRP-CMIP/CMIP6_CVs/blob/master/CMIP6_institution_id.json{:target="_blank"}
+[institutionIdHtml]: http://rawgit.com/WCRP-CMIP/CMIP6_CVs/master/src/CMIP6_institution_id.html{:target="_blank"}
+[sourceIdJson]: https://github.com/WCRP-CMIP/CMIP6_CVs/blob/master/CMIP6_source_id.json{:target="_blank"}
+[sourceIdHtml]: http://rawgit.com/WCRP-CMIP/CMIP6_CVs/master/src/CMIP6_source_id.html{:target="_blank"}
 [dkrzCitationGUI]: http://cera-www.dkrz.de/citeXA{:target="_blank"}
 [dkrzCitationGUIDoc]: http://cera-www.dkrz.de/docs/pdf/CMIP6_Citation_Userguide.pdf{:target="_blank"}
 [DKRZ]: https://www.dkrz.de/{:target="_blank"}
-[WCRPGithubSite]: https://github.com/WCRP-CMIP/CMIP6_CVs{:target="_blank"}
+[cmip6Cvs]: https://github.com/WCRP-CMIP/CMIP6_CVs{:target="_blank"}
 [EndorsedMipMailingList]: https://www.wcrp-climate.org/modelling-wgcm-mip-catalogue/modelling-wgcm-cmip6-endorsed-mips{:target="_blank"}
 [GMDSpecialIssue]: http://www.geosci-model-dev.net/special_issue590.html{:target="_blank"}
 [EyringEtAl16]: http://doi.org/10.5194/gmd-9-1937-2016{:target="_blank"}
@@ -142,3 +208,12 @@ blah
 [activityIdJson]: https://github.com/WCRP-CMIP/CMIP6_CVs/blob/master/CMIP6_activity_id.json{:target="_blank"}
 [experimentIdJson]: https://github.com/WCRP-CMIP/CMIP6_CVs/blob/master/CMIP6_experiment_id.json{:target="_blank"}
 [experimentIdhtml]: http://rawgit.com/WCRP-CMIP/CMIP6_CVs/master/src/CMIP6_experiment_id.html{:target="_blank"}
+[input4mipsCog]: https://esgf-node.llnl.gov/search/input4MIPs{:target="_blank"}
+[input4mipsGoogleDoc]: http://goo.gl/r8up31{:target="_blank"}
+[cmip6DataRequestCog]: https://www.earthsystemcog.org/projects/wip/CMIP6DataRequest{:target="_blank"}
+[cfConventionsPage]: http://cfconventions.org/{:target="_blank"}
+[cmip6GlobalAttGoogleDoc]: http://goo.gl/v1drZl{:target="_blank"}
+[cmip5outputMetadataRequirements]:http://cmip-pcmdi.llnl.gov/cmip5/docs/CMIP5_output_metadata_requirements.pdf{:target="_blank"}
+[cmip6GridGoogleDoc]: http://goo.gl/1oA7bO{:target="_blank"}
+[cmip6PressureLevelsPdf]: https://www.earthsystemcog.org/site_media/projects/wip/CMIP6_pressure_levels.pdf{:target="_blank"}
+[cmip6TimeAveragesCog]: https://www.earthsystemcog.org/projects/wip/time_averages{:target="_blank"}
