@@ -8,15 +8,15 @@ title: CMIP6 Participation for modelers
 ##### Karl E. Taylor, Paul J. Durack, Michael Lautenschlager and Martina Stockhause
 
 Document overview:
-1. [Requirements and expectations](#requirements-and-expectations)
-1. [Experiment design](#experiment-design)
-1. [Forcing data sets](#forcing-data-sets)
-1. [Model output fields](#model-output-fields)
-1. [Model output requirements](#model-output-requirements)
-1. [Software for preparing/checking output](#software-for-preparing/checking-output)
-1. [Archiving/publishing output](#archiving/publishing-output)
-1. [Documentation process](#documentation-process)
-1. [CMIP6 organization and governance](#cmip6-organization-and-governance)
+1. [Requirements and expectations](#1-requirements-and-expectations)
+1. [Experiment design](#2-experiment-design)
+1. [Forcing data sets](#3-forcing-data-sets)
+1. [Model output fields](#4-model-output-fields)
+1. [Model output requirements](#5-model-output-requirements)
+1. [Software for preparing/checking output](#6-software-for-preparing/checking-output)
+1. [Archiving/publishing output](#7-archiving/publishing-output)
+1. [Documentation process](#8-documentation-process)
+1. [CMIP6 organization and governance](#9-cmip6-organization-and-governance)
 
 ## 1. Requirements and expectations
 Those groups who plan to participate in CMIP6 should (in roughly this order, although
@@ -55,16 +55,16 @@ model documentation should be provided as early as possible):
  MIP of interest in the list) and also registering the information in the activity_participation
  field of your source_id (see first bullet above)
 
-* Perform required [DECK, historical, and selected endorsed-MIP experiments](#experiment-design),
- using the required, [standard forcing datasets](#forcing-data-sets)
+* Perform required [DECK, historical, and selected endorsed-MIP experiments](#2-experiment-design),
+ using the required, [standard forcing datasets](#3-forcing-data-sets)
 
-* Save all [requested model output](#model-output-fields)
+* Save all [requested model output](#4-model-output-fields)
 
-* Provide all [required model documentation](#model-output-requirements)
+* Provide all [required model documentation](#5-model-output-requirements)
 
 * Prepare and make available model output according to CMIP6 specifications (see
- sections [5](#model-output-requirements), [6](#software-for-preparing/checking-output),
- and [7](#archiving/publishing-output) below)
+ sections [5](#5-model-output-requirements), [6](#6-software-for-preparing/checking-output),
+ and [7](#7-archiving/publishing-output) below)
 
 * Correct published data when errors are discovered... [information forthcoming -
  this will be linked to ES-DOCS errata services]
@@ -93,7 +93,7 @@ strategy provided in the lead article of that issue by [Eyring et al. (2016)][Ey
  in Table 1 of [Eyring et al. (2016)][EyringEtAl16]. The official names of the
  currently endorsed CMIP6 MIPs are recorded in a [“json” file][activityIdJson]
 
-* When called for by the experiment protocol, [standard forcing data sets](#model-output-fields)
+* When called for by the experiment protocol, [standard forcing data sets](#4-model-output-fields)
  must be used.
 
 * Further documentation about CMIP6 experiments will be available shortly from
@@ -140,14 +140,14 @@ enable new services to be established providing, for example, model and experime
 documentation and citation information.
 
 As in CMIP5, all CMIP6 output will be stored in netCDF files with one variable
-stored per file. The requested output fields can be determined as described [above](#model-output-fields),
+stored per file. The requested output fields can be determined as described [above](#4-model-output-fields),
 and as in CMIP5, the data must be “cmorized” (i.e., written in conformance with
 all the CMIP standards). The CMIP standards build on the [CF-conventions][cfConventionsPage],
 which define metadata that provide a description of the variables and their spatial
 and temporal properties. This facilitates analysis of the data by users who can
 read and interpret data from all models in the same way.
 
-The [CMOR software library](#software-for-preparing/checking-output) can be used
+The [CMOR software library](#6-software-for-preparing/checking-output) can be used
 to meet most of the CMIP data requirements, but its use is not mandatory. To ensure
 that a critical subset of the requirements have been met, a CMIP data checker (“PrePARE”)
 will be applied before data are placed in the CMIP6 data archive, but PrePARE currently
@@ -269,7 +269,7 @@ Among these is the [CMIP6 reference specifications for global attributes, filena
 The WIP has also set up a [CMIP Data Node Operations Team (CDNOT)][cdnotGoogleDoc]
 to interface with data node managers responsible for serving CMIP6 data. This team
 provides a direct link from the panels establishing data node requirements to those
-implementing the requirements. Section [7](#archiving/publishing-output) provides
+implementing the requirements. Section [7](#7-archiving/publishing-output) provides
 further information about data node operational requirements.
 
 Information is under preparation describing the governance of the following:
