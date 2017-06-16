@@ -74,13 +74,13 @@ model documentation should be provided as early as possible):
 The CMIP6 protocol and experiments are described in a [special issue][GMDSpecialIssue]
 of Geoscientific Model Development with an overview of the overall design and scientific
 strategy provided in the lead article of that issue by [Eyring et al. (2016)][EyringEtAl16]
- 
+
 * Each model participating in CMIP6 must contribute results from the four DECK
  experiments (piControl, AMIP, abrupt4xCO2, and 1pctCO2) and the historical simulation.
  See [Eyring et al. (2016)][EyringEtAl16] where the experiment protocol is documented.
  These experiments are considered to define the ongoing (slowly evolving) “CMIP Activity”
  and are directly overseen by the [CMIP Panel][CMIPPanel]
- 
+
 * In addition to the DECK and historical simulations, each modeling group may choose
  to contribute to any [CMIP6 endorsed MIPs][CMIP6EndorsedMips] of interest, but
  for each MIP component, results must be provided from the full subset of “tier 1”
@@ -90,13 +90,13 @@ strategy provided in the lead article of that issue by [Eyring et al. (2016)][Ey
  but their coordination and their endorsement as part of CMIP6 is the responsibility
  of the [CMIP Panel][CMIPPanel]. The process by which MIP activities become endorsed
  is described [here][CMIP6EndorsedMips] and the criteria for endorsement are listed
- in Table 1 of [Eyring et al. (2016)][EyringEtAl16]. The official names of the 
+ in Table 1 of [Eyring et al. (2016)][EyringEtAl16]. The official names of the
  currently endorsed CMIP6 MIPs are recorded in a [“json” file][activityIdJson]
- 
+
 * When called for by the experiment protocol, [standard forcing data sets](#model-output-fields)
  must be used.
- 
-* Further documentation about CMIP6 experiments will be available shortly from 
+
+* Further documentation about CMIP6 experiments will be available shortly from
  ES-DOC, and the reference controlled vocabularies used to define and identify
  these experiments are available in a [“json” file][experimentIdJson] and can be
  displayed in [table form][experimentIdhtml]
@@ -110,18 +110,18 @@ datasets are being collected into a curated archive at PCMDI. All conforming dat
 can be downloaded via the Earth System Grid Federation’s [input4MIPs CoG][input4mipsCog].
 Any dataset not yet conforming to the input4MIPs specifications can be obtained
 from the individual preparing the dataset, as indicated in the [input4MIPs summary sheet][input4mipsGoogleDoc].
- 
-The [input4MIPs summary sheet][input4mipsGoogleDoc] separately lists the CMIP6 
+
+The [input4MIPs summary sheet][input4mipsGoogleDoc] separately lists the CMIP6
 datasets needed for the DECK and historical simulations and the datasets needed
 for the CMIP6-endorsed MIP experiments. The summary provides contact information,
 documentation of the data, and citation requirements. Included in the collection
 are datasets specifying emissions and concentrations of various atmospheric species,
 sea surface temperatures and sea ice (for AMIP), solar variability, and land cover
 characteristics.
- 
+
 Some of the endorsed-MIP forcing datasets are still in preparation, but should
 be available soon. Any changes made to a released dataset will be documented in
-the [summary][input4mipsGoogleDoc]. 
+the [summary][input4mipsGoogleDoc].
 
 ## Model output fields
 The [CMIP6 Data Request][cmip6DataRequestCog] defines the variables that should
@@ -129,7 +129,7 @@ be archived for each experiment and specifies the time intervals for which they
 should be reported. It provides much of the variable-specific metadata that should
 be stored along with the data. It also provides tools for estimating the data storage
 requirements for CMIP6.
- 
+
 *[Further explanation will be added here.]*
 
 ## Model output requirements
@@ -137,25 +137,25 @@ CMIP6 model output requirements are similar to those in CMIP5, but changes have
 been made to accommodate the more complex structure of CMIP6 and its data request.
 Some changes will make it easier for users to find the data they need and will
 enable new services to be established providing, for example, model and experiment
-documentation and citation information. 
- 
+documentation and citation information.
+
 As in CMIP5, all CMIP6 output will be stored in netCDF files with one variable
 stored per file. The requested output fields can be determined as described [above](#model-output-fields),
 and as in CMIP5, the data must be “cmorized” (i.e., written in conformance with
 all the CMIP standards). The CMIP standards build on the [CF-conventions][cfConventionsPage],
 which define metadata that provide a description of the variables and their spatial
 and temporal properties. This facilitates analysis of the data by users who can
-read and interpret data from all models in the same way.  
- 
+read and interpret data from all models in the same way.
+
 The [CMOR software library](#software-for-preparing/checking-output) can be used
 to meet most of the CMIP data requirements, but its use is not mandatory. To ensure
 that a critical subset of the requirements have been met, a CMIP data checker (“PrePARE”)
 will be applied before data are placed in the CMIP6 data archive, but PrePARE currently
 cannot check a file for full compliance with all the data requirements. It is therefore
 recommended that CMOR be used to write CMIP6 model output.
- 
+
 The CMIP6 data requirements are defined and discussed in the following documents:
- 
+
 * [Definition of CMIP6 netCDF global attributes][cmip6GlobalAttGoogleDoc]
 * [Reference “controlled vocabularies” (CV’s) for CMIP6][cmip6Cvs]
 * [Specifications][cmip6GlobalAttGoogleDoc] for file names, directory structures,
@@ -165,19 +165,75 @@ The CMIP6 data requirements are defined and discussed in the following documents
  Use of CMOR3 will ensure compliance
 * [Guidance on grid requirements][cmip6GridGoogleDoc]
 * [Information on pressure levels][cmip6PressureLevelsPdf] requested
-* [Guidance on time-averaging][cmip6TimeAveragesCog] (with masking) 
- 
-Additional metadata requirements are imposed on a variable by variable basis as specified in the CMIP6 Data Request.  Many of these are recognized by CMOR (through input via the CMIP6 CMOR Tables), which will ensure compliance.  
- 
-Note that in the above, controlled vocabularies (CV’s) play a key role in ensuring uniformity in the description of data sets across all models.   For all but variable-specific information, reference CV’s are being maintained by PCMDI against which all quality assurance checks will be performed. These CV’s will be relied on in constructing file names and directory structures, and they will enable faceted searches of the CMIP6 archive as called for in the search requirements document.  Additional, variable-specific CVs are part of the CMIP6 Data Request.  These CV’s are structured in a way that makes clear relationships between certain items appearing in separate CV’s.  For example, the CV for model names (“source_id”) indicates which institutions are authorized to run each model, and the complete list of institutions is recorded in a CV for “institution_id”. 
- 
-As indicated in the guidance specifications for output grids, weights should be provided to regrid all output to a few standard grids (e.g., 1x1 degree).  All regridding information (weights, lats, lons, etc.) should be stored consistent with a standard format approved by the WIP.  Specifications for the required standard format will be forthcoming.
- 
-CMIP6 output requirements that are critical for successful ingestion and access via ESGF will be enforced when publication of the data is initiated.  The success of CMIP6 depends on making sure that even the requirements that can not be checked by ESGF are met.  This is the responsibility of anyone preparing model output for CMIP6.  A minimum set of requirements for publication of CMIP6 data will be met if a dataset passes the checks performed by the PrePARE software package described in the next section.  
+* [Guidance on time-averaging][cmip6TimeAveragesCog] (with masking)
 
+Additional metadata requirements are imposed on a variable by variable basis as
+specified in the [CMIP6 Data Request][cmip6DataRequestCog]. Many of these are recognized
+by CMOR (through input via the [CMIP6 CMOR Tables][cmip6CmorTables]), which will
+ensure compliance.
+
+Note that in the above, controlled vocabularies (CV’s) play a key role in ensuring
+uniformity in the description of data sets across all models. For all but variable-specific
+information, [reference CV’s][cmip6Cvs] are being maintained by PCMDI against which
+all quality assurance checks will be performed. These CV’s will be relied on in
+constructing file names and directory structures, and they will enable faceted
+searches of the CMIP6 archive as called for in the [search requirements document][esgfSearchRequirementsGoogleDoc].
+Additional, variable-specific CVs are part of the [CMIP6 Data Request][cmip6DataRequestCog].
+These CV’s are structured in a way that makes clear relationships between certain
+items appearing in separate CV’s. For example, the CV for model names (“[source_id][sourceIdJson]”)
+indicates which institutions are authorized to run each model, and the complete
+list of institutions is recorded in a CV for “[institution_id][institutionIdJson]”.
+
+As indicated in the [guidance specifications for output grids][cmip6GridGoogleDoc],
+weights should be provided to regrid all output to a few standard grids (e.g., 1x1 degree).
+All regridding information (weights, lats, lons, etc.) should be stored consistent
+with a standard format approved by the WIP. Specifications for the required standard
+format will be forthcoming.
+
+CMIP6 output requirements that are critical for successful ingestion and access
+via ESGF will be enforced when publication of the data is initiated. The success
+of CMIP6 depends on making sure that even the requirements that can not be checked
+by ESGF are met. This is the responsibility of anyone preparing model output for
+CMIP6. A minimum set of requirements for publication of CMIP6 data will be met
+if a dataset passes the checks performed by the PrePARE software package described
+in the next section.
 
 ## Software for preparing/checking output
-blah
+To facilitate the production of model output files that meet the CMIP6 technical
+standards, a software library called “CMOR” (Climate Model Output Rewriter) has
+been developed and version 3 (CMOR3) is now available [at this site][cmorGithub],
+but read the [installation instructions available here][cmorSite]. This package
+was first used in CMIP3 and has been generalized and improved for each new CMIP
+phase. Use of CMOR is not mandatory, but past experience suggests that many common
+errors in model output files can be avoided by its use. (code & documentation)
+
+For those not using CMOR, some checks for compliance with CMIP specifications can
+be performed using a new code developed in support of CMIP6: the Pre-Publication
+Attribute Reviewer for ESGF ([PrePARE][preparePage]). For information about tests performed by
+PrePARE, view the design requirements. PrePARE is included as part of the CMOR
+software suite and all files produced by CMOR are effectively checked by PrePARE,
+but PrePARE can be invoked without using CMOR to write the output.
+
+In addition to PrePARE, tests for file compliance with the [CF-conventions][cfConventionsPage]
+can be made using a tool called the [CF-checker][cf-checkerGithub]. Both PrePARE
+and the CF-checker will be run as part of the ESGF publication job stream, and
+only files passing all tests will be published and made available for download.
+
+It should be noted if data are written using CMOR, additional checks will be performed
+that will, for example:
+
+* Guarantee that the metadata associated with each *variable* is recorded in the
+ file. (PrePARE only checks some of the variable attributes.)
+* Check for monotonicity of a coordinate values
+* Check for "gaps" in the time coordinates. Check that coordinates are stored in
+ the right direction (and for the longitude coordinate check that the range is correct)
+* Check that data values are within limits specified in the cmor tables (but for
+ most variables, this won't happen since limits have yet to be defined)
+
+Additional codes useful in preparing model output for CMIP6 include:
+
+* Code to create regridding weights: not yet available
+* Code to calculate nominal_resolution: not yet available
 
 ## Archiving/publishing output
 blah
@@ -217,3 +273,9 @@ blah
 [cmip6GridGoogleDoc]: http://goo.gl/1oA7bO{:target="_blank"}
 [cmip6PressureLevelsPdf]: https://www.earthsystemcog.org/site_media/projects/wip/CMIP6_pressure_levels.pdf{:target="_blank"}
 [cmip6TimeAveragesCog]: https://www.earthsystemcog.org/projects/wip/time_averages{:target="_blank"}
+[cmip6CmorTables]: https://github.com/PCMDI/cmip6-cmor-tables/tree/master/Tables{:target="_blank"}
+[esgfSearchRequirementsGoogleDoc]: https://docs.google.com/document/d/1jNBw2am28Hxux_YuCL_mYMi18EEGkJSGrtNntOs3PJo{:target="_blank"}
+[cmorGithub]: https://github.com/PCMDI/cmor{:target="_blank"}
+[cmorSite]: https://cmor.llnl.gov{:target="_blank"}
+[preparePage]: https://github.com/PCMDI/cmor/tree/master/LibCV/PrePARE{:target="_blank"}
+[cf-checkerGithub]: https://github.com/cedadev/cf-checker/wiki{:target="_blank"}
