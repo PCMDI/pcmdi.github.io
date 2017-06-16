@@ -31,35 +31,36 @@ model documentation should be provided as early as possible):
  models: [“json” file][jsonFile] and [table][tableForm]
 
 * Register contact information for person(s) responsible for entering and maintaining
- CMIP6 model output citation information in the citation GUI (Documentation of GUI).
- This information will be used by web-based services being developed and maintained
- at DKRZ to ensure that data produced by your center is properly cited. Data users
- will be able to access citation information following the URL stored as a global
- attribute (further_info_url) in each of your netCDF files and also following links
- to each dataset displayed by the ESGF search service
+ CMIP6 model output citation information in the [citation GUI][dkrzCitationGUI]
+ [(Documentation of GUI)][dkrzCitationGUIDoc]. This information will be used by
+ web-based services being developed and maintained at [DKRZ][DKRZ] to ensure that
+ data produced by your center is properly cited. Data users will be able to access
+ citation information following the URL stored as a global attribute (further_info_url)
+ in each of your netCDF files and also following links to each dataset displayed
+ by the ESGF search service
 
 * Provide the following to Martina Stockhause (stockhause@dkrz.de) so that an account
  can be set up:
   - Person: name, email, ORCID (if available), affiliation and
   - Specification of the data, for which this person is responsible, using the
-   source_id and institution_id that you have registered at the WCRP-CMIP github
-   site (see first bullet above)
+   source_id and institution_id that you have registered at the [WCRP-CMIP github site][WCRPGithubSite]
+   (see first bullet above)
 
 
 * If you are not yet included in the CMIP6-MODELGROUPS-SCI mail list, register your
  scientific contact with CMIP Panel Chair, Veronika Eyring (veronika.eyring@dlr.de)
 
 * Indicate your intention to participate in “endorsed MIPs” by signing up for the
- endorsed-MIP mailing lists of interest (click on each MIP of interest in the list)
- and also registering the information in the activity_participation field of your
- source_id (see first bullet above)
+ [endorsed-MIP mailing lists][EndorsedMipMailingList] of interest (click on each
+ MIP of interest in the list) and also registering the information in the activity_participation
+ field of your source_id (see first bullet above)
 
-* Perform required DECK, historical, and selected endorsed-MIP experiments, using
- the required, standard forcing datasets
+* Perform required [DECK, historical, and selected endorsed-MIP experiments](#experiment-design),
+ using the required, [standard forcing datasets](#forcing-data-sets)
 
-* Save all requested model output
+* Save all [requested model output](#model-output-fields)
 
-* Provide all required model documentation
+* Provide all [required model documentation](#model-output-requirements)
 
 * Prepare and make available model output according to CMIP6 specifications (see
  sections [5](#model-output-requirements), [6](#software-for-preparing/checking-output),
@@ -96,7 +97,12 @@ blah
 ###### Document version: 6.0.0 (15 June 2017)
 
 [guide]: index.html
-[requirements]: modelers.html#Requirements
 [wcrpGithubSite]: https://github.com/WCRP-CMIP/CMIP6_CVs/blob/master/.github/RegistrationGuidance.md{:target="_blank"}
 [jsonFile]: https://github.com/WCRP-CMIP/CMIP6_CVs/blob/master/CMIP6_institution_id.json{:target="_blank"}
 [tableForm]: http://rawgit.com/WCRP-CMIP/CMIP6_CVs/master/src/CMIP6_institution_id.html{:target="_blank"}
+[dkrzCitationGUI]: http://cera-www.dkrz.de/citeXA{:target="_blank"}
+[dkrzCitationGUIDoc]: http://cera-www.dkrz.de/docs/pdf/CMIP6_Citation_Userguide.pdf{:target="_blank"}
+[DKRZ]: https://www.dkrz.de/{:target="_blank"}
+[WCRPGithubSite]: https://github.com/WCRP-CMIP/CMIP6_CVs{:target="_blank"}
+[EndorsedMipMailingList]: https://www.wcrp-climate.org/modelling-wgcm-mip-catalogue/modelling-wgcm-cmip6-endorsed-mips{:target="_blank"}
+[DECKExperiments]: 
