@@ -235,7 +235,7 @@ Additional codes useful in preparing model output for CMIP6 include:
 * Code to create regridding weights: not yet available
 * Code to calculate nominal_resolution: not yet available
 
-## 6. Archiving/publishing output
+## 7. Archiving/publishing output
 To be written soon. [What is needed here is simply a few statements introducing
 ESGF and the data node, with an indication of what modeling centers need to do:
 either host a data node or find someone else who will serve their data. There will
