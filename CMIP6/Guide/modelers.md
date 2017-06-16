@@ -236,16 +236,16 @@ Additional codes useful in preparing model output for CMIP6 include:
 * Code to calculate nominal_resolution: not yet available
 
 ## 7. Archiving/publishing output
-To be written soon. [What is needed here is simply a few statements introducing
+*To be written soon. [What is needed here is simply a few statements introducing
 ESGF and the data node, with an indication of what modeling centers need to do:
 either host a data node or find someone else who will serve their data. There will
 be another guide (for data node managers and operators -- see below) that will
 provide a more complete overview of what is involved in this aspect, but that information
-probably won’t interest most modelers.]
+probably won’t interest most modelers.]*
 
 ## 8. Documentation process
-Information will be provided soon about [ES-DOCs][es-docsCmip6], which is the project responsible
-for collecting and making available model and experiment documentation.
+*Information will be provided soon about [ES-DOCs][es-docsCmip6], which is the project responsible
+for collecting and making available model and experiment documentation.*
 
 ## 9. CMIP6 organization and governance
 The [CMIP Panel][CMIPPanel], which is a standing subcommittee of the WCRP’s [Working Group on Climate Modeling][wgcmSite]
