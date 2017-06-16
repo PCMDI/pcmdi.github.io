@@ -66,8 +66,8 @@ model documentation should be provided as early as possible):
  sections [5](#5-model-output-requirements), [6](#6-software-for-preparing/checking-output),
  and [7](#7-archiving/publishing-output) below)
 
-* Correct published data when errors are discovered... [information forthcoming -
- this will be linked to ES-DOCS errata services]
+* Correct published data when errors are discovered... *[information forthcoming -
+ this will be linked to ES-DOCS errata services]*
 
 
 ## 2. Experiment design
