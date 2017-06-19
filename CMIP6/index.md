@@ -5,7 +5,7 @@ title: CMIP6 Homepage
 
 # CMIP6 - Coupled Model Intercomparison Project Phase 6
 
-## Overview
+## Overview:
 The [WCRP][WCRP] Working Group on Coupled Modelling ([WGCM][WGCM]) oversees the
 Coupled Model Intercomparison Project, which is now in its 6th phase. Background
 information about CMIP and its phases can be found on [PCMDI-hosted pages][MIPs]
