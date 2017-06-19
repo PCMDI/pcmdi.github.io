@@ -25,4 +25,4 @@ Additional information for CMIP6:
 [modelers]: Guide/modelers.html
 [dataManagers]: Guide/dataManagers.html
 [dataUsers]: Guide/dataUsers.html
-[termsOfUse][TermsOfUse/TermsOfUse6-1.md]
+[termsOfUse]: TermsOfUse/TermsOfUse6-1.html
