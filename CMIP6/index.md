@@ -16,9 +16,13 @@ in participating in CMIP6 is provided in three guides, tailored to different gro
 * [Data managers][dataManagers] responsible for data node operations, and
 * [Data users][dataUsers] analyzing and making use of CMIP6 model output
 
+Additional information for CMIP6:
+ * [CMIP6 license and terms of use][termsOfUse]
+
 [WCRP]: https://www.wcrp-climate.org
 [WGCM]: https://www.wcrp-climate.org/wgcm-overview
 [MIPs]: https://pcmdi.llnl.gov/mips
 [modelers]: Guide/modelers.html
 [dataManagers]: Guide/dataManagers.html
 [dataUsers]: Guide/dataUsers.html
+[termsOfUse][TermsOfUse/TermsOfUse6-1.md]
