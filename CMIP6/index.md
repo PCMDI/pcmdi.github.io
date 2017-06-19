@@ -16,7 +16,7 @@ in participating in CMIP6 is provided in three guides, tailored to different gro
 * [Data users][dataUsers] analyzing and making use of CMIP6 model output
 
 [WCRP]: https://www.wcrp-climate.org
-[WGCM]: http://www.wcrp-climate.org/wgcm
+[WGCM]: https://www.wcrp-climate.org/wgcm-overview
 [MIPs]: https://pcmdi.llnl.gov/mips
 [modelers]: Guide/modelers.html
 [dataManagers]: Guide/dataManagers.html
