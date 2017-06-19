@@ -13,9 +13,9 @@ as well as on the [WGCM website][WGCM]. Practical information for those interest
 in participating in CMIP6 is provided in [three guides][cmip6GuideHomepage],
 tailored to different groups:
 
-* [Modelers][modelers] carrying out CMIP6 simulations,
-* [Data managers][dataManagers] responsible for data node operations, and
-* [Data users][dataUsers] analyzing and making use of CMIP6 model output
+1. [Modelers][modelers] carrying out CMIP6 simulations,
+1. [Data managers][dataManagers] responsible for data node operations, and
+1. [Data users][dataUsers] analyzing and making use of CMIP6 model output
 
 ## Additional information for CMIP6:
  * [CMIP6 license and terms of use][termsOfUse]
