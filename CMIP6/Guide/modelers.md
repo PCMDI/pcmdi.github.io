@@ -60,7 +60,7 @@ model documentation should be provided as early as possible):
 
 * Save all [requested model output](#4-model-output-fields)
 
-* Provide all [required model documentation](#5-model-output-requirements)
+* Provide all [required model documentation](#8-documentation-process)
 
 * Prepare and make available model output according to CMIP6 specifications (see
  sections [5](#5-model-output-requirements), [6](#6-software-for-preparingchecking-output),
@@ -322,6 +322,6 @@ Information is under preparation describing the governance of the following:
 [wgcmSite]: https://www.wcrp-climate.org/wgcm-overview
 [wgcmCmip6]: https://www.wcrp-climate.org/wgcm-cmip/wgcm-cmip6
 [wipCog]: https://www.earthsystemcog.org/projects/wip
-[wipMission]: https://www.earthsystemcog.org/projects/wip/aboutus
+[wipMission]: https://www.earthsystemcog.org/projects/wip/aboutus/ 
 [cdnotGoogleDoc]: https://docs.google.com/document/d/1oRWqxtWWEfsucTVhk0G3bMqHC0BL4dJwADrOG8Ukj-g
 [obs4mipsCog]: https://www.earthsystemcog.org/projects/obs4mips/
