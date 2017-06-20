@@ -27,4 +27,4 @@ tailored to different groups:
 [modelers]: Guide/modelers.html
 [dataManagers]: Guide/dataManagers.html
 [dataUsers]: Guide/dataUsers.html
-[termsOfUse]: TermsOfUse/TermsOfUse6-1.html
+[termsOfUse]: TermsOfUse/
