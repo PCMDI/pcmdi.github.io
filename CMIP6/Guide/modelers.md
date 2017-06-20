@@ -263,7 +263,7 @@ a common procedure.
 
 The CMIP Panel has delegated responsibility for most of the technical requirements
 of CMIP to the [WGCM Infrastructure Panel (WIP)][wipCog]. The mission, rationale
-and Terms of Use for the panel can be found [here][wipMission]. The WIP has drafted
+and Terms of Reference for the panel can be found [here][wipMission]. The WIP has drafted
 a number of position papers summarizing CMIP6 requirements and specifications.
 Among these is the [CMIP6 reference specifications for global attributes, filenames, directory structure and Data Reference Syntax (DRS)][cmip6GlobalAttGoogleDoc].
 The WIP has also set up a [CMIP Data Node Operations Team (CDNOT)][cdnotGoogleDoc]
