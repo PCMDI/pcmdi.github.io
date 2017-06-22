@@ -7,13 +7,14 @@ title: Nature Geoscience
 
 <center>
     <p>
-        <h1>Description of Data used in:<h1>
+        <h1>Description of Data used in:</h1>
         <h3>Causes of differences in model in satellite tropospheric warming rates</h3>
     </p>
 
     <p><em>(LLNL-MI-######)</em></p>
 
 </center>
+<br>
 
 * Causes of differences in model in satellite tropospheric warming rates
 * [Fact Sheet](NG_Fact_sheet_v3.pdf)
