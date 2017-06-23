@@ -12,7 +12,7 @@ AMIP is a standard experimental protocol for global atmospheric general circulat
 #### [CMIP - Coupled Model Intercomparison Project][CMIP]
 The Coupled Model Intercomparison Project (CMIP) studies output from coupled ocean-atmosphere general circulation models that also include interactive sea ice.
 
-#### [CMIP2]
+#### [CMIP2][CMIP2]
 The Coupled Model Intercomparison Project Phase II
 
 #### [CMIP3][CMIP3]
@@ -42,8 +42,9 @@ input4MIPS (input datasets for Model Intercomparison Projects) is an activity to
 
 [AMIP]:{{site.baseurl}}/mips/amip/amip.html
 [CMIP]:{{site.baseurl}}/mips/cmip/about-cmip.html
-[CMIP3]:{{site.baseurl}}/mips/cmip3/home.html
-[CMIP5]:{{site.baseurl}}/mips/cmip5/
+[CMIP2]:{{site.baseurl}}/mips/cmip2
+[CMIP3]:{{site.baseurl}}/mips/cmip3
+[CMIP5]:{{site.baseurl}}/mips/cmip5
 [CMIP6]:{{site.baseurl}}/CMIP6
 [related]:http://www.clivar.org/organization/wgcm/cmip.php
 [obs4MIPs]:{{site.baseurl}}/obs4MIPs/
