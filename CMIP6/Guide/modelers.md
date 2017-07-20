@@ -37,15 +37,12 @@ model documentation should be provided as early as possible):
  data produced by your center is properly cited. Data users will be able to access
  citation information following the URL stored as a global attribute (further_info_url)
  in each of your netCDF files and also following links to each dataset displayed
- by the ESGF search service
-
-* Provide the following to Martina Stockhause (stockhause@dkrz.de) so that an account
- can be set up:
+ by the ESGF search service. Groups will also be required to provide the following
+ to Martina Stockhause (stockhause@dkrz.de) so that an account can be set up:
   - Person: name, email, ORCID (if available), affiliation and
   - Specification of the data, for which this person is responsible, using the
    source_id and institution_id that you have registered at the [WCRP-CMIP github site][cmip6Cvs]
    (see first bullet above)
-
 
 * If you are not yet included in the CMIP6-MODELGROUPS-SCI mail list, register your
  scientific contact with CMIP Panel Chair, Veronika Eyring (veronika.eyring@dlr.de)
