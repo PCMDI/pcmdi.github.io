@@ -10,9 +10,9 @@ for CMIP6. Various datasets are needed for the pre-industrial control (piControl
 AMIP, and historical simulations, and additional datasets are needed for
 many of the [CMIP6-endorsed model intercomparison projects (MIPs) experiments][CMIP6EndorsedMIPs].
 
-Earlier versions of many of these datasets were used in the [5th Coupled Model Intercomparison Project (CMIP5)][CMIP5]
+Earlier versions of many of these datasets were used in the [5th Coupled Model Intercomparison Project (CMIP5)][CMIP5].
 
-The ESGF input4MIPs homepage is linked [here][input4MIPs]
+[More Information][input4MIPs]
 
 [CMIP6EndorsedMIPs]: http://www.wcrp-climate.org/modelling-wgcm-mip-catalogue/modelling-wgcm-cmip6-endorsed-mips
 [CMIP5]: http://cmip-pcmdi.llnl.gov/cmip5
