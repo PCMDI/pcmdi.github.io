@@ -75,7 +75,7 @@ input4MIPS (input datasets for Model Intercomparison Projects) is an activity to
 [BER]:http://www.science.doe.gov/Program_Offices/BER.htm
 [CAPT]:{{site.baseurl}}/projects/capt/index.html
 [CMIP]:{{site.baseurl}}/projects/cmip/about-cmip.html
-[CMIP3]:{{site.baseurl}}/projects/cmip3/home.html
+[CMIP3]:{{site.baseurl}}/projects/cmip3/
 [CMIP2]:{{site.baseurl}}/projects/cmip2/
 [CMIP5]:{{site.baseurl}}/projects/cmip5/
 [CMIP6]:{{site.baseurl}}/projects/cmip6/

@@ -4,7 +4,7 @@ title: Projects
 ---
 ## Coupled Model Intercomparison Project (CMIP)
 
-CMIP, the Coupled Model Intercomparison Project, is the analog of AMIP for global coupled ocean-atmosphere general circulation models. CMIP began in 1995 under the auspices of the [Working Group on Coupled Modelling](http://www.wmo.int/files/WCRP_WEB/AP_Modelling_WGCM.html) (WGCM), -- which is in turn under auspices of CLIVAR and the Joint Scientific Committee for the [World Climate Research Programme](http://wcrp.wmo.int/). The PCMDI supports CMIP by helping WGCM to determine the scope of the project, by maintaining the project's data base, and by participating in data analysis.
+CMIP, the Coupled Model Intercomparison Project, is the analog of AMIP for global coupled ocean-atmosphere general circulation models. CMIP began in 1995 under the auspices of the [Working Group on Coupled Modelling](https://www.wcrp-climate.org/wgcm-overview) (WGCM), -- which is in turn under auspices of CLIVAR and the Joint Scientific Committee for the [World Climate Research Programme](https://www.wcrp-climate.org/). The PCMDI supports CMIP by helping WGCM to determine the scope of the project, by maintaining the project's data base, and by participating in data analysis.
 
 ### CMIP Phase 5 (CMIP5) and the IPCC AR5.
 
