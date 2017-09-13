@@ -47,5 +47,5 @@ input4MIPS (input datasets for Model Intercomparison Projects) is an activity to
 [CMIP5]:{{site.baseurl}}/mips/cmip5
 [CMIP6]:{{site.baseurl}}/CMIP6
 [related]:http://www.clivar.org/organization/wgcm/cmip.php
-[obs4MIPs]:{{site.baseurl}}/obs4MIPs/
-[input4MIPs]:{{site.baseurl}}/input4MIPs/
+[obs4MIPs]:{{site.baseurl}}/mips/obs4MIPs/
+[input4MIPs]:{{site.baseurl}}/mips/input4MIPs/
