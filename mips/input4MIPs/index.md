@@ -15,5 +15,5 @@ Earlier versions of many of these datasets were used in the [5th Coupled Model I
 [More Information][input4MIPs]
 
 [CMIP6EndorsedMIPs]: http://www.wcrp-climate.org/modelling-wgcm-mip-catalogue/modelling-wgcm-cmip6-endorsed-mips
-[CMIP5]: http://cmip-pcmdi.llnl.gov/cmip5
+[CMIP5]: /mips/cmip5
 [input4MIPs]: https://esgf-node.llnl.gov/projects/input4mips
