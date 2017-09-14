@@ -65,13 +65,13 @@ CMIP3 output from coupled ocean-atmosphere model simulations of 20th - 22nd cent
 
 ### C4MIP: Coupled Carbon Cycle Climate Model Intercomparison Project
 
-Home page: <http://www.c4mip.cnrs-gif.fr/background.html>
+Home page: <https://www.wcrp-climate.org/modelling-wgcm-mip-catalogue/modelling-wgcm-cmip6-endorsed-mips/index.php?t&view=article&id=1050>
 {: .indent}
 
 Mirror site: <http://www.atmos.berkeley.edu/c4mip/home.html>
 {: .indent}
 
-Protocol and forcing fields: <http://www.c4mip.cnrs-gif.fr/protocol.html>
+Protocol and forcing fields: <http://c4mip.net/index.php?id=3455>
 {: .indent}
 
 ### CMIP Coordinated Experiments
