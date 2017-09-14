@@ -153,10 +153,11 @@ and temporal properties. This facilitates analysis of the data by users who can
 read and interpret data from all models in the same way.
 
 As described in [section 6](#6-software-for-preparingchecking-output), it is recommended,
-but not required, that the [CMOR software library] be used to rewrite model output
-in conformance with the standards. In any case to ensure that a critical subset
-of the requirements have been met, a CMIP data checker ("[PrePARE](#6-software-for-preparingchecking-output)")
-will be applied before data are placed in the CMIP6 data archive.
+but not required, that the [CMOR software library](#6-software-for-preparingchecking-output)
+be used to rewrite model output in conformance with the standards. In any case
+to ensure that a critical subset of the requirements have been met, a CMIP data
+checker ("[PrePARE](#6-software-for-preparingchecking-output)") will be applied
+before data are placed in the CMIP6 data archive.
 
 The CMIP6 data requirements are defined and discussed in the following documents:
 
