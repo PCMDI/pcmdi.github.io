@@ -28,7 +28,7 @@ Name | Position | E-mail | Phone Number
 [Williams, Dean][williams] | Computer Scientist	| williams13@llnl.gov	| (925) 423-0145
 {: class="table table-striped"}
 
-[taylor]: {{site.baseurl}}/taylor/index.html
+[taylor]: {{site.baseurl}}/staff/taylor/index.html
 [ames]: {{site.baseurl}}/staff/ames/index.html
 [bonfils]: {{site.baseurl}}/staff/bonfils/index.html
 [caldwell]: {{site.baseurl}}/staff/caldwell/index.html
