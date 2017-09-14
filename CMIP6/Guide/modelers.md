@@ -283,12 +283,12 @@ node site. Here is a summary of the main steps and requirements in the procedure
  *[DKRZ][ESGFDkrzHome]*, *[IPSL][ESGFIpslHome]*, *[CEDA][ESGFCedaHome]*, and others
 * **Data long-term archival**: A “snapshot” of CMIP6 data as it exists at the time
  of a deadline imposed by the IPCC’s 6th Assessment Report (IPCC-AR6) will be archived
- at the IPCC Data Distribution Centre (IPCC DDC, [http://ipcc-data.org][http://ipcc-data.org])
+ at the IPCC Data Distribution Centre (IPCC DDC, [http://ipcc-data.org](http://ipcc-data.org)
 
 ## 8. Documentation process
 Given the wide variety of users and the need for traceability, the CMIP6 results
 will be fully documented and made accessible via the ES-DOC viewer and comparator
-interface ([https://search.es-doc.org][https://search.es-doc.org]). Each CMIP6
+interface ([https://search.es-doc.org](https://search.es-doc.org). Each CMIP6
 model output file will include a global attribute called “further_info_url” which
 will link to a signpost web page which will provide simulation/ensemble information,
 model configuration details, current contact details, data citation details etc.
@@ -308,7 +308,7 @@ Specifically, ES-DOC will include documentation of:
  conform to a number of specific requirements established by the MIP leaders. For
  example, an experiment may have the requirement that all simulations must start
  and end on particular dates. The full set of experimental requirements for each
- experiment can be viewed at [https://search.es-doc.org][https://search.es-doc.org].
+ experiment can be viewed at [https://search.es-doc.org](https://search.es-doc.org).
  Sometimes there could be more than one way to meet the requirements, so modeling
  groups must record information about how each simulation conforms to the specifications
 * **[Individual members of an ensemble][es-docsEnsemblesSimulations]**:. Some ensemble
