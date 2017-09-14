@@ -5,7 +5,7 @@ title: CMIP6 Participation for modelers
 
 # CMIP6 Participation for modelers
 ##### [Link back to guide homepage][guide]
-##### Karl E. Taylor, Paul J. Durack, Michael Lautenschlager and Martina Stockhause
+##### Karl E. Taylor, Paul J. Durack, Mark Elkington, Eric Guilyardi, David Hassell, Michael Lautenschlager and Martina Stockhause
 
 Document overview:
 1. [Requirements and expectations](#1-requirements-and-expectations)
