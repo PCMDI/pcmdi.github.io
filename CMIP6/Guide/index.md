@@ -45,7 +45,7 @@ Here are links to the parts of the guide.
 1. Registering published work based on CMIP6
 
 
-###### Document version: 6.0.0 (15 June 2017)
+###### Document version: 13 September 2017
 
 [modelers]: modelers.html
 [dataManagers]: dataManagers.html
