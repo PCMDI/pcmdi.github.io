@@ -32,7 +32,7 @@ model documentation should be provided as early as possible):
 
 * Request an account and then register contact information for person(s) responsible
  for entering and maintaining CMIP6 model output citation information in the [citation GUI][dkrzCitationGUI]
- [(Documentation of GUI)][[dkrzCitationGUIDoc]. This information will be used by
+ [(Documentation of GUI)][dkrzCitationGUIDoc]. This information will be used by
  web-based services being developed and maintained at DKRZ to ensure that data
  produced by your center is properly cited. Data users will be able to access citation
  information by: 1) following the URL stored as a global attribute (further_info_url)
@@ -288,7 +288,7 @@ node site. Here is a summary of the main steps and requirements in the procedure
 ## 8. Documentation process
 Given the wide variety of users and the need for traceability, the CMIP6 results
 will be fully documented and made accessible via the ES-DOC viewer and comparator
-interface ([https://search.es-doc.org](https://search.es-doc.org). Each CMIP6
+interface ([https://search.es-doc.org](https://search.es-doc.org)). Each CMIP6
 model output file will include a global attribute called “further_info_url” which
 will link to a signpost web page which will provide simulation/ensemble information,
 model configuration details, current contact details, data citation details etc.
