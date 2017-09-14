@@ -41,8 +41,8 @@ model documentation should be provided as early as possible):
 
  To request an account, provide the following to Martina Stockhause (stockhause@dkrz.de):
  * Person: name, email, ORCID (if available), affiliation and
- * Specification of the data, for which this person is responsible, using the source_id
- and institution_id that you have registered at the [WCRP-CMIP github site][cmip6CvsRegistrationGuidance]
+ * Specification of the data, for which this person is responsible, using the *source_id*
+ and *institution_id* that you have registered at the [WCRP-CMIP github site][cmip6CvsRegistrationGuidance]
  (see first bullet above). The *source_id* registration (see first bulleted item
  above) is a prerequisite for citation service registration.
 
