@@ -46,9 +46,9 @@ model documentation should be provided as early as possible):
    (see first bullet above). The *source_id* registration (see first bulleted item
    above) is a prerequisite for citation service registration.
 
- As an example of information that will be recoverable through the citation service
- consider the input4MIPs data set which has been recorded at the citation service
- at [http://cera-www.dkrz.de/WDCC/meta/CMIP6/input4MIPs.PCMDI.SSTsAndSeaIce.CMIP.PCMDI-AMIP-1-1-2][PCMDIAmipCitation].
+   As an example of information that will be recoverable through the citation service
+   consider the input4MIPs data set which has been recorded at the citation service
+   at [http://cera-www.dkrz.de/WDCC/meta/CMIP6/input4MIPs.PCMDI.SSTsAndSeaIce.CMIP.PCMDI-AMIP-1-1-2][PCMDIAmipCitation].
 
 * If you are not yet included in the CMIP6-MODELGROUPS-SCI mail list, register your
  scientific contact with CMIP Panel Chair, Veronika Eyring (veronika.eyring@dlr.de)
