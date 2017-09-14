@@ -35,7 +35,7 @@ model documentation should be provided as early as possible):
  [(Documentation of GUI)][dkrzCitationGUIDoc]. This information will be used by
  web-based services being developed and maintained at DKRZ to ensure that data
  produced by your center is properly cited. Data users will be able to access citation
- information by: 1) following the URL stored as a global attribute (further_info_url)
+ information by: 1) following the URL stored as a global attribute (*further_info_url*)
  in each netCDF file, or 2) by following links to each dataset displayed by the
  ESGF search service.
 
