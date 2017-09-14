@@ -35,7 +35,7 @@ model documentation should be provided as early as possible):
  [(Documentation of GUI)][dkrzCitationGUIDoc]. This information will be used by
  web-based services being developed and maintained at DKRZ to ensure that data
  produced by your center is properly cited. Data users will be able to access citation
- information by: 1) following the URL stored as a global attribute (further_info_url)
+ information by: 1) following the URL stored as a global attribute (*further_info_url*)
  in each netCDF file, or 2) by following links to each dataset displayed by the
  ESGF search service.
 
@@ -153,10 +153,11 @@ and temporal properties. This facilitates analysis of the data by users who can
 read and interpret data from all models in the same way.
 
 As described in [section 6](#6-software-for-preparingchecking-output), it is recommended,
-but not required, that the [CMOR software library] be used to rewrite model output
-in conformance with the standards. In any case to ensure that a critical subset
-of the requirements have been met, a CMIP data checker ("[PrePARE](#6-software-for-preparingchecking-output)")
-will be applied before data are placed in the CMIP6 data archive.
+but not required, that the [CMOR software library](#6-software-for-preparingchecking-output)
+be used to rewrite model output in conformance with the standards. In any case
+to ensure that a critical subset of the requirements have been met, a CMIP data
+checker ("[PrePARE](#6-software-for-preparingchecking-output)") will be applied
+before data are placed in the CMIP6 data archive.
 
 The CMIP6 data requirements are defined and discussed in the following documents:
 
