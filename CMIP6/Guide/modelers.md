@@ -88,7 +88,7 @@ strategy provided in the lead article of that issue by [Eyring et al. (2016)][Ey
  to contribute to any [CMIP6 endorsed MIPs][CMIP6EndorsedMips] of interest, but
  for each MIP component, results must be provided from the full subset of “tier 1”
  experiments. See the [GMD Special CMIP6 Issue][GMDSpecialIssue] for descriptions
- of each MIP and its experiment specifications. Each [endorsed MIPs][CMIP6EndorsedMips]
+ of each MIP and its experiment specifications. Each [endorsed MIP][CMIP6EndorsedMips]
  is managed by an independent committee. The MIPs are identified as separate
  “CMIP6 Activities”, but their coordination and their endorsement as part of CMIP6
  is the responsibility of the [CMIP Panel][CMIPPanel]. The process by which MIP
@@ -96,7 +96,7 @@ strategy provided in the lead article of that issue by [Eyring et al. (2016)][Ey
  for endorsement are listed in Table 1 of [Eyring et al. (2016)][EyringEtAl16].
  The official names of the currently endorsed CMIP6 MIPs are recorded in a [“json” file][activityIdJson]
 
-* When called for by the experiment protocol, [standard forcing data sets](#4-model-output-fields)
+* When called for by the experiment protocol, [standard forcing data sets](#3-forcing-data-sets)
  should be used. Any deviation from the standard forcing must be [clearly documented](#8-documentation-process).
 
 * Further documentation about CMIP6 experiments will be available from [ES-DOC][es-docsCmip6],
