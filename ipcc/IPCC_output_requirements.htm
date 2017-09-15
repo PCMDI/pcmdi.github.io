@@ -283,7 +283,7 @@ stored.</p>
 -.3in'><span style='font-family:"Courier New"'>&#9642; </span>Most atmospheric
 fields that are functions of the vertical coordinate must be interpolated to
 standard pressure levels (as specified in the <a
-href="http://www-pcmdi.llnl.gov/ipcc/standard_output.html">IPCC Standard Output</a><a
+href="{{site.baseurl}}/ipcc/standard_output.html">IPCC Standard Output</a><a
 href="#_ftn6" name="_ftnref6" title=""><sup><sup><span style='font-size:12.0pt;
 font-family:"Times New Roman"'>[6]</span></sup></sup></a> list of variables),
 but one field (the 3-d cloud fraction) will reside on the original model
@@ -295,7 +295,7 @@ below for these two types of &quot;3-d&quot; fields.  </p>
 that are a function of the vertical coordinate must be reported on depth levels
 and it is recommended, but not required, that they be interpolated  to standard
 depth levels (as specified in the <a
-href="http://www-pcmdi.llnl.gov/ipcc/standard_output.html">IPCC Standard Output</a><a
+href="{{site.baseurl}}/ipcc/standard_output.html">IPCC Standard Output</a><a
 href="#_ftn7" name="_ftnref7" title=""><sup><sup><span style='font-size:12.0pt;
 font-family:"Times New Roman"'>[7]</span></sup></sup></a>).</p>
 
@@ -364,7 +364,7 @@ AMIP experiment)</p>
 <p class=MsoNormal style='margin-left:.55in;text-align:justify;text-indent:
 -.3in'><span style='font-family:"Courier New"'>&#9642; </span>The names of
 output netCDF files must begin with the 'output variable name' listed in the <a
-href="http://www-pcmdi.llnl.gov/ipcc/standard_output.html">IPCC Standard Output</a><a
+href="{{site.baseurl}}/ipcc/standard_output.html">IPCC Standard Output</a><a
 href="#_ftn8" name="_ftnref8" title=""><sup><sup><span style='font-size:12.0pt;
 font-family:"Times New Roman"'>[8]</span></sup></sup></a> list of variables,
 followed by an underscore and then the table number (e.g., tas_O1, psl_A1, tas_A4,
@@ -394,7 +394,7 @@ must be written as single precision floating point numbers (netCDF type
 -.3in'><span style='font-family:"Courier New"'>&#9642; </span>The variable
 names (in the netCDF file) must be the names (&quot;output variable
 names&quot;) specified in the <a
-href="http://www-pcmdi.llnl.gov/ipcc/standard_output.html">IPCC Standard Output</a><a
+href="{{site.baseurl}}/ipcc/standard_output.html">IPCC Standard Output</a><a
 href="#_ftn9" name="_ftnref9" title=""><sup><sup><span style='font-size:12.0pt;
 font-family:"Times New Roman"'>[9]</span></sup></sup></a> table (e.g., surface
 air temperature data will be stored in a variable named &quot;tas&quot;).</p>
@@ -402,14 +402,14 @@ air temperature data will be stored in a variable named &quot;tas&quot;).</p>
 <p class=MsoNormal style='margin-left:.55in;text-align:justify;text-indent:
 -.3in'><span style='font-family:"Courier New"'>&#9642; </span>The units
 required for the output fields are given in the <a
-href="http://www-pcmdi.llnl.gov/ipcc/standard_output.html">IPCC Standard Output</a><a
+href="{{site.baseurl}}/ipcc/standard_output.html">IPCC Standard Output</a><a
 href="#_ftn10" name="_ftnref10" title=""><sup><sup><span style='font-size:12.0pt;
 font-family:"Times New Roman"'>[10]</span></sup></sup></a> tables.</p>
 
 <p class=MsoNormal style='margin-left:.55in;text-align:justify;text-indent:
 -.3in'><span style='font-family:"Courier New"'>&#9642; </span>The positive
 direction of vertical fluxes must be consistent with that specified in the <a
-href="http://www-pcmdi.llnl.gov/ipcc/standard_output.html">IPCC Standard Output</a><a
+href="{{site.baseurl}}/ipcc/standard_output.html">IPCC Standard Output</a><a
 href="#_ftn11" name="_ftnref11" title=""><sup><sup><span style='font-size:12.0pt;
 font-family:"Times New Roman"'>[11]</span></sup></sup></a> table &quot;CF
 standard name&quot;.  For example, the positive direction for vertical heat
@@ -470,7 +470,7 @@ attributes:</p>
 <p class=MsoNormal style='margin-left:1.0in;text-align:justify;text-indent:
 -.25in'><span style='font-family:"Courier New"'>&#8594; </span>standard_name =
 a character string containing a CF standard name that can be found in the <a
-href="http://www-pcmdi.llnl.gov/ipcc/standard_output.html">IPCC Standard Output</a><a
+href="{{site.baseurl}}/ipcc/standard_output.html">IPCC Standard Output</a><a
 href="#_ftn13" name="_ftnref13" title=""><sup><sup><span style='font-size:12.0pt;
 font-family:"Times New Roman"'>[13]</span></sup></sup></a> tables.  Although
 usually required, for a few fields the standard_name is omitted from the table,
@@ -479,7 +479,7 @@ and for these variables the standard_name should be omitted as an attribute. </p
 <p class=MsoNormal style='margin-left:1.0in;text-align:justify;text-indent:
 -.25in'><span style='font-family:"Courier New"'>&#8594; </span>units = a
 character string containing the units given in the <a
-href="http://www-pcmdi.llnl.gov/ipcc/standard_output.html">IPCC Standard Output</a><a
+href="{{site.baseurl}}/ipcc/standard_output.html">IPCC Standard Output</a><a
 href="#_ftn14" name="_ftnref14" title=""><sup><sup><span style='font-size:12.0pt;
 font-family:"Times New Roman"'>[14]</span></sup></sup></a> tables, which must
 be in a form recognizable by <a
@@ -501,7 +501,7 @@ vertical coordinate value of 10 meters), a &quot;coordinates&quot; attribute mus
 be defined and the scalar value must be stored in the file.  The following
 variables require singleton dimension information: tas, tasmin, tasmax, mrsos,
 mrros, uas, vas, and huss.  For each of these variables, an <a
-href="http://www-pcmdi.llnl.gov/ipcc/standard_output.html">IPCC Standard Output</a><a
+href="{{site.baseurl}}/ipcc/standard_output.html">IPCC Standard Output</a><a
 href="#_ftn16" name="_ftnref16" title=""><sup><sup><span style='font-size:12.0pt;
 font-family:"Times New Roman"'>[16]</span></sup></sup></a> table indicates what
 the value of the singleton dimension should be.  As illustrated by<a
@@ -577,7 +577,7 @@ or refers to processing procedures common to all variables.  </p>
 -.25in'><span style='font-family:"Courier New"'>&#8594; </span>original_units =
 a character string indicating the original units of the data before it has been
 processed to be consistent with the units appearing in the <a
-href="http://www-pcmdi.llnl.gov/ipcc/standard_output.html">IPCC Standard Output</a><a
+href="{{site.baseurl}}/ipcc/standard_output.html">IPCC Standard Output</a><a
 href="#_ftn19" name="_ftnref19" title=""><sup><sup><span style='font-size:12.0pt;
 font-family:"Times New Roman"'>[19]</span></sup></sup></a> tables. </p>
 
@@ -834,7 +834,7 @@ Fourth Assessment&quot;</p>
 <p class=MsoNormal style='margin-left:1.0in;text-align:justify;text-indent:
 -.25in'><span style='font-family:"Courier New"'>&#8594; </span>table_id =
 should be assigned a character string identifying the <a
-href="http://www-pcmdi.llnl.gov/ipcc/standard_output.html">IPCC Standard Output</a><a
+href="{{site.baseurl}}/ipcc/standard_output.html">IPCC Standard Output</a><a
 href="#_ftn30" name="_ftnref30" title=""><sup><sup><span style='font-size:12.0pt;
 font-family:"Times New Roman"'>[30]</span></sup></sup></a> table where this variable
 appears (e.g., Table A1).  The trailing lower case letter may be omitted (e.g.,
@@ -3101,7 +3101,7 @@ font-family:"Courier New"'>&nbsp;</span></p>
 <p class=MsoFootnoteText><a href="#_ftnref1" name="_ftn1" title=""><span
 class=MsoFootnoteReference><span class=MsoFootnoteReference><span
 style='font-size:10.0pt;font-family:"Times New Roman"'>[1]</span></span></span></a>
-See <a href="http://www-pcmdi.llnl.gov/software-portal/cmor">http://www-pcmdi.llnl.gov/software-portal/cmor</a></p>
+See <a href="https://pcmdi.github.io/cmor-site/">https://pcmdi.github.io/cmor-site/</a></p>
 
 </div>
 
@@ -3148,7 +3148,7 @@ href="http://www.cgd.ucar.edu/cms/eaton/cf-metadata">http://www.cgd.ucar.edu/cms
 <p class=MsoFootnoteText><a href="#_ftnref6" name="_ftn6" title=""><span
 class=MsoFootnoteReference><span class=MsoFootnoteReference><span
 style='font-size:10.0pt;font-family:"Times New Roman"'>[6]</span></span></span></a>
-See <a href="http://www-pcmdi.llnl.gov/ipcc/standard_output.html">http://www-pcmdi.llnl.gov/ipcc/standard_output.html</a></p>
+See <a href="{{site.baseurl}}/ipcc/standard_output.html">http://www-pcmdi.llnl.gov/ipcc/standard_output.html</a></p>
 
 </div>
 
@@ -3157,7 +3157,7 @@ See <a href="http://www-pcmdi.llnl.gov/ipcc/standard_output.html">http://www-pcm
 <p class=MsoFootnoteText><a href="#_ftnref7" name="_ftn7" title=""><span
 class=MsoFootnoteReference><span class=MsoFootnoteReference><span
 style='font-size:10.0pt;font-family:"Times New Roman"'>[7]</span></span></span></a>
-See <a href="http://www-pcmdi.llnl.gov/ipcc/standard_output.html">http://www-pcmdi.llnl.gov/ipcc/standard_output.html</a></p>
+See <a href="{{site.baseurl}}/ipcc/standard_output.html">http://www-pcmdi.llnl.gov/ipcc/standard_output.html</a></p>
 
 </div>
 
@@ -3166,7 +3166,7 @@ See <a href="http://www-pcmdi.llnl.gov/ipcc/standard_output.html">http://www-pcm
 <p class=MsoFootnoteText><a href="#_ftnref8" name="_ftn8" title=""><span
 class=MsoFootnoteReference><span class=MsoFootnoteReference><span
 style='font-size:10.0pt;font-family:"Times New Roman"'>[8]</span></span></span></a>
-See <a href="http://www-pcmdi.llnl.gov/ipcc/standard_output.html">http://www-pcmdi.llnl.gov/ipcc/standard_output.html</a></p>
+See <a href="{{site.baseurl}}/ipcc/standard_output.html">http://www-pcmdi.llnl.gov/ipcc/standard_output.html</a></p>
 
 </div>
 
@@ -3175,7 +3175,7 @@ See <a href="http://www-pcmdi.llnl.gov/ipcc/standard_output.html">http://www-pcm
 <p class=MsoFootnoteText><a href="#_ftnref9" name="_ftn9" title=""><span
 class=MsoFootnoteReference><span class=MsoFootnoteReference><span
 style='font-size:10.0pt;font-family:"Times New Roman"'>[9]</span></span></span></a>
-See <a href="http://www-pcmdi.llnl.gov/ipcc/standard_output.html">http://www-pcmdi.llnl.gov/ipcc/standard_output.html</a></p>
+See <a href="{{site.baseurl}}/ipcc/standard_output.html">http://www-pcmdi.llnl.gov/ipcc/standard_output.html</a></p>
 
 </div>
 
@@ -3184,7 +3184,7 @@ See <a href="http://www-pcmdi.llnl.gov/ipcc/standard_output.html">http://www-pcm
 <p class=MsoFootnoteText><a href="#_ftnref10" name="_ftn10" title=""><span
 class=MsoFootnoteReference><span class=MsoFootnoteReference><span
 style='font-size:10.0pt;font-family:"Times New Roman"'>[10]</span></span></span></a>
-See <a href="http://www-pcmdi.llnl.gov/ipcc/standard_output.html">http://www-pcmdi.llnl.gov/ipcc/standard_output.html</a></p>
+See <a href="{{site.baseurl}}/ipcc/standard_output.html">http://www-pcmdi.llnl.gov/ipcc/standard_output.html</a></p>
 
 </div>
 
@@ -3193,7 +3193,7 @@ See <a href="http://www-pcmdi.llnl.gov/ipcc/standard_output.html">http://www-pcm
 <p class=MsoFootnoteText><a href="#_ftnref11" name="_ftn11" title=""><span
 class=MsoFootnoteReference><span class=MsoFootnoteReference><span
 style='font-size:10.0pt;font-family:"Times New Roman"'>[11]</span></span></span></a>
-See <a href="http://www-pcmdi.llnl.gov/ipcc/standard_output.html">http://www-pcmdi.llnl.gov/ipcc/standard_output.html</a></p>
+See <a href="{{site.baseurl}}/ipcc/standard_output.html">http://www-pcmdi.llnl.gov/ipcc/standard_output.html</a></p>
 
 </div>
 
@@ -3214,7 +3214,7 @@ that are underground are usually considered missing. </p>
 <p class=MsoFootnoteText><a href="#_ftnref13" name="_ftn13" title=""><span
 class=MsoFootnoteReference><span class=MsoFootnoteReference><span
 style='font-size:10.0pt;font-family:"Times New Roman"'>[13]</span></span></span></a>
-See <a href="http://www-pcmdi.llnl.gov/ipcc/standard_output.html">http://www-pcmdi.llnl.gov/ipcc/standard_output.html</a></p>
+See <a href="{{site.baseurl}}/ipcc/standard_output.html">http://www-pcmdi.llnl.gov/ipcc/standard_output.html</a></p>
 
 </div>
 
@@ -3223,7 +3223,7 @@ See <a href="http://www-pcmdi.llnl.gov/ipcc/standard_output.html">http://www-pcm
 <p class=MsoFootnoteText><a href="#_ftnref14" name="_ftn14" title=""><span
 class=MsoFootnoteReference><span class=MsoFootnoteReference><span
 style='font-size:10.0pt;font-family:"Times New Roman"'>[14]</span></span></span></a>
-See <a href="http://www-pcmdi.llnl.gov/ipcc/standard_output.html">http://www-pcmdi.llnl.gov/ipcc/standard_output.html</a></p>
+See <a href="{{site.baseurl}}/ipcc/standard_output.html">http://www-pcmdi.llnl.gov/ipcc/standard_output.html</a></p>
 
 </div>
 
@@ -3241,7 +3241,7 @@ See <a href="http://my.unidata.ucar.edu/content/software/udunits/">http://my.uni
 <p class=MsoFootnoteText><a href="#_ftnref16" name="_ftn16" title=""><span
 class=MsoFootnoteReference><span class=MsoFootnoteReference><span
 style='font-size:10.0pt;font-family:"Times New Roman"'>[16]</span></span></span></a>
-See <a href="http://www-pcmdi.llnl.gov/ipcc/standard_output.html">http://www-pcmdi.llnl.gov/ipcc/standard_output.html</a></p>
+See <a href="{{site.baseurl}}/ipcc/standard_output.html">http://www-pcmdi.llnl.gov/ipcc/standard_output.html</a></p>
 
 </div>
 
@@ -3269,7 +3269,7 @@ style='font-size:10.0pt;font-family:"Times New Roman"'>[18]</span></span></span>
 <p class=MsoFootnoteText><a href="#_ftnref19" name="_ftn19" title=""><span
 class=MsoFootnoteReference><span class=MsoFootnoteReference><span
 style='font-size:10.0pt;font-family:"Times New Roman"'>[19]</span></span></span></a>
-See <a href="http://www-pcmdi.llnl.gov/ipcc/standard_output.html">http://www-pcmdi.llnl.gov/ipcc/standard_output.html</a></p>
+See <a href="{{site.baseurl}}/ipcc/standard_output.html">http://www-pcmdi.llnl.gov/ipcc/standard_output.html</a></p>
 
 </div>
 
@@ -3370,7 +3370,7 @@ style='font-size:10.0pt;font-family:"Times New Roman"'>[29]</span></span></span>
 <p class=MsoFootnoteText><a href="#_ftnref30" name="_ftn30" title=""><span
 class=MsoFootnoteReference><span class=MsoFootnoteReference><span
 style='font-size:10.0pt;font-family:"Times New Roman"'>[30]</span></span></span></a>
-See <a href="http://www-pcmdi.llnl.gov/ipcc/standard_output.html">http://www-pcmdi.llnl.gov/ipcc/standard_output.html</a></p>
+See <a href="{{site.baseurl}}/ipcc/standard_output.html">http://www-pcmdi.llnl.gov/ipcc/standard_output.html</a></p>
 
 </div>
 
