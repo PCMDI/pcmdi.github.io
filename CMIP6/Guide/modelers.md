@@ -96,7 +96,7 @@ strategy provided in the lead article of that issue by [Eyring et al. (2016)][Ey
  for endorsement are listed in Table 1 of [Eyring et al. (2016)][EyringEtAl16].
  The official names of the currently endorsed CMIP6 MIPs are recorded in a [“json” file][activityIdJson]
 
-* When called for by the experiment protocol, [standard forcing data sets](#4-model-output-fields)
+* When called for by the experiment protocol, [standard forcing data sets](#3-forcing-data-sets)
  should be used. Any deviation from the standard forcing must be [clearly documented](#8-documentation-process).
 
 * Further documentation about CMIP6 experiments will be available from [ES-DOC][es-docsCmip6],
