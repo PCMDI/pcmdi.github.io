@@ -1,0 +1,254 @@
+<!DOCTYPE html PUBLIC "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+  <meta http-equiv="Content-Type"
+ content="text/html; charset=iso-8859-1">
+  <meta name="GENERATOR"
+ content="Mozilla/4.79 [en] (Windows NT 5.0; U) [Netscape]">
+  <title>COLA Table Elaborations</title>
+</head>
+<body style="background-color: rgb(255, 255, 255);">
+<h1>
+<a name="Top of Page"></a></h1>
+<h1>
+Model COLA 2: Elaborations</h1>
+<h3>
+<hr width="100%"></h3>
+<h3>
+<a name="Participation"></a>Participation</h3>
+Model COLA2 is an entry in the CMIP1 intercomparison only.
+<h3><br>
+<a name="Spinup/Initialization"></a>Spinup/Initialization</h3>
+The procedure for spinup/initialization of the COLA coupled model was a
+follows (reference: E. Schneider, personal communication):
+<ul>
+  <li>The model atmosphere was integrated to equilibrium using as a
+boundary
+conditions either prescribed SSTs or the forcing provided by coupling
+to
+a mixed-layer ocean model.</li>
+</ul>
+<ul>
+  <li>The model ocean was initialized, whole-volume, to the
+observations
+(e.g., <a href="#Levitus%201982">Levitus
+1982</a> data).</li>
+</ul>
+<ul>
+  <li>The models then were coupled and integrated without flux
+adjustments
+for
+190 years.&nbsp; The first 80 years of the run were discarded, and
+time-mean
+variables were computed from the last 100 years.</li>
+</ul>
+<h3>
+<a name="Land Surface Processes"></a>Land Surface Processes</h3>
+<ul>
+  <li>Land surface processes are simulated following the <a
+ href="#Xue%20et%20al.%201991">Xue
+et al. (1991)</a> modification of the SiB model of <a
+ href="#Sellers%20et%20al.%201986">Sellers
+et al. (1986)</a>. Within the single-story vegetation canopy,
+evapotranspiration
+from dry leaves includes detailed modeling of stomatal and canopy
+resistances;
+direct evaporation from the wet canopy and from bare soil is also
+treated.
+Precipitation interception by the canopy is simulated, and its
+infiltration
+into the ground is limited to less than the hydraulic conductivity of
+the
+soil.</li>
+</ul>
+<ul>
+  <li>Soil temperature is determined in two layers by the force-restore
+method
+of <a href="#Deardorff%201978">Deardorff (1978)</a>. Soil moisture,
+which
+is predicted from diffusion equations in three layers, is increased by
+infiltrated precipitation and snowmelt, and is depleted by
+evapotranspiration,
+direct evaporation, and drainage. Both surface runoff and deep runoff
+from
+gravitational drainage are simulated, but the contribution of runoff to
+the freshwater flux into the ocean model is not included.</li>
+</ul>
+<h3>
+<a name="Sea Ice"></a>Sea Ice</h3>
+<ul>
+  <li>The sea ice parameterization (cf. the appendix to <a
+ href="#Schneider%20and%20Zhu%201998">Schneider
+and Zhu 1998</a>) is a simple prognostic single-layer thermodynamic
+model.
+Given surface fluxes provided by the atmospheric model, the scheme
+calculates
+changes in ice thickness and surface temperature, and the modified
+fluxes
+of heat and fresh water supplied to the underlying ocean. The time step
+is semi-analytic to maintain stability.</li>
+</ul>
+<ul>
+  <li>Sea ice forms over the whole of an ocean grid box when the
+temperature
+of the topmost ocean layer is predicted to fall below the saltwater
+freezing
+temperature.&nbsp; Melting occurs at&nbsp; the top or bottom of the ice
+if the respective temperatures of these surfaces are predicted to be
+above
+this freezing point.&nbsp; Freshwater fluxes from the atmosphere are
+unmodified
+by the sea ice, but freezing or melting at the ice bottom causes
+appropriate
+changes in the freshwater flux to the ocean.</li>
+</ul>
+<ul>
+  <li>The ice albedo is a constant, independent of surface temperature
+or ice
+melt.&nbsp; Solar radiation does not penetrate the ice and there are no
+other internal heat sources. Overlying snow cover also does not affect
+the ice thermodynamics.&nbsp; The temperature gradient within the ice
+is
+assumed to be linear, and the temperature at the bottom surface is
+prescribed
+to be the saltwater freezing point.&nbsp; The heat flux into the ocean
+is determined by conduction down the ice temperature gradient, which is
+controlled by the ice thickness and the top surface temperature. Heat
+is
+exchanged between the ice and the topmost ocean layer, consistent with
+freezing/melting, to keep the ocean surface temperature at the
+saltwater
+freezing point.</li>
+</ul>
+<ul>
+  <li>Sea ice dynamics and rheology are not represented.</li>
+</ul>
+<ul>
+&nbsp;
+</ul>
+<h3>
+<a name="Diffs_AMIP"></a><font size="+1">Chief Differences from the
+Closest
+AMIP Model</font></h3>
+In addition to differences in horizontal resolution, the atmospheric
+component
+of the COLA 2 model differs from AMIP model <a
+ href="http://www-pcmdi.llnl.gov/projects/modeldoc/amip/14cola_ToC.html">COLA
+COLA1.1 (R40 L18) 1993</a> in the following respects:
+<ul>
+  <a name="Convection"></a><b><font size="+0">Convection</font></b>
+  <p>The relaxed Arakawa-Schubert scheme of <a
+ href="#Moorthi%20and%20Suarez%201992">Moorthi
+and Suarez (1992)</a> replaces the modified Kuo convective
+parameterization
+that is used in the <a
+ href="http://www-pcmdi.llnl.gov/projects/modeldoc/amip1/14cola.html#RTFToC25">AMIP
+model</a>. </p>
+  <p><a name="Cloud Formation"></a><b><font size="+0">Cloud Formation</font></b>
+  </p>
+  <p><font size="+0">A cloud scheme similar to that of the NCAR CCM3
+model
+(cf. <a href="#Kiehl%20et%20al.%201996">Kiehl et al. 1996</a>)
+replaces the Slingo
+scheme that is used in the <a
+ href="http://www-pcmdi.llnl.gov/projects/modeldoc/amip1/14cola.html#RTFToC26">AMIP
+model</a>.</font> <br>
+&nbsp;</p>
+</ul>
+<h3>
+<a name="References"></a>References</h3>
+<a name="Bryan and Lewis (1979)"></a>Bryan, K., and L. Lewis, 1979: A
+water
+mass model of the world ocean. <i>J. Geophys. Res</i>., <b>84</b>,
+2503-2517.
+<p><a name="Deardorff 1978"></a>Deardorff, J.W., 1978: Efficient
+prediction
+of ground surface temperature and moisture, with inclusion of a layer
+of
+vegetation. <i>J. Geophys. Res</i>., <b>83</b>, 1889-1903.
+</p>
+<p><a name="Kiehl et al. 1996"></a>Kiehl, J.T., G.B. Bonan, B.A.
+Boville,
+B.P. Briegleb, D.L. Williamson, and P.J. Rasch, 1996: Description of
+the
+NCAR Community Climate Model (CCM3).&nbsp; NCAR Tech. Note,
+NCAR/TN-420+STR,
+152 pp. [Available from National Center for Atmospheric Research,
+Boulder,
+CO 80307.]
+</p>
+<p><a name="Levitus 1982"></a>Levitus, S., 1982: Climatological atlas
+of
+the world's oceans. NOAA Professional Paper 13, 173 pp.
+</p>
+<p><a name="Moorthi and Suarez 1992"></a>Moorthi, S., and M.J. Suarez,
+1992: Relaxed Arakawa-Schubert: A parameterization of moist convection
+for general circulation models. <i>Mon. Wea. Rev</i>., <b>120</b>,
+978-1002.
+</p>
+<p><a name="Schneider (1997)"></a>Schneider, E.K., Z. Zhu, B.S. Giese,
+B. Huang, B.P. Kirtman, J. Shukla, and J.A. Carton, 1997: Annual cycle
+and ENSO in a coupled ocean-atmosphere general circulation model. <i>Mon.
+Wea. Rev.</i>, <b>125</b>, 680-702.
+</p>
+<p><a name="Schneider and Zhu 1998"></a>Schneider, E. K., and Z. Zhu,
+1998:
+Sensitivity of the simulated annual cycle of sea surface temperature in
+the equatorial Pacific to sunlight penetration. <i>J. Climate</i>, <b>11</b>,
+1932-1950.
+</p>
+<p><a name="Sellers et al. 1986"></a>Sellers, P.J., Y. Mintz, Y.C. Sud,
+and A. Dalcher, 1986: A simple biosphere model (SiB) for use within
+general
+circulation models. <i>J. Atmos. Sci.</i>, <b>43</b>, 505-531.
+</p>
+<p><a name="Xue et al. 1991"></a>Xue, Y.-K., P.J. Sellers, J.L. Kinter
+II, and J. Shukla, 1991: A simplified biosphere model for global
+climate
+studies. <i>J. Climate</i>, <b>4</b>, 345-364.
+<br>
+&nbsp;
+<br>
+</p>
+<p><br>
+</p>
+<p><br>
+</p>
+<p><br>
+</p>
+<p><br>
+</p>
+<p><br>
+</p>
+<p><br>
+</p>
+<p><br>
+</p>
+<p><br>
+</p>
+<p><br>
+</p>
+<p><br>
+</p>
+<p><br>
+</p>
+<p><br>
+</p>
+<p><br>
+<br>
+</p>
+<p><a href="#Top%20of%20Page">Top</a>
+</p>
+<p><font size="+0"><a href="tables.html">CMIP Documentation Directory</a></font>
+</p>
+<hr><br>
+Last update 15 May, 2002.&nbsp; For questions or comments, contact
+Tom Phillips (<a href="mailto:" phillips@pcmdi.llnl.gov="">phillips@pcmdi.llnl.gov</a>).
+<br>
+&nbsp;
+<p><a href="http://www.llnl.gov/disclaimer.html">LLNL Disclaimers</a>
+</p>
+<p>UCRL-MI-126431
+</p>
+</body>
+</html>

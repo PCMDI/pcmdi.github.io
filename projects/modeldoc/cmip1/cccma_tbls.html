@@ -1,0 +1,168 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="GENERATOR" content="Mozilla/4.79 [en] (Windows NT 5.0; U) [Netscape]">
+   <title>CCCMA Table Elaborations</title>
+</head>
+<body bgcolor="#FFFFFF">
+
+<h1>
+<a NAME="Top of Page"></a></h1>
+
+<h1>
+Model CCCMA: Elaborations&nbsp;
+<hr WIDTH="100%"></h1>
+
+<h3>
+<a NAME="Participation"></a>Participation</h3>
+<font size=+0>Model CCCMA is an entry in both the CMIP1 and CMIP2 intercomparison
+experiments.</font>
+<h3>
+<a NAME="Spinup/Initialization"></a>Spinup/Initialization</h3>
+The procedure for spinup/initialization of the CCCma coupled model is as
+follows (reference: G. Boer and G. Flato, personal communication):
+<ul>
+<li>
+The model atmosphere was integrated to equilibrium with a mixed-layer ocean
+and sea ice. Monthly climatological surface fluxes were obtained.</li>
+</ul>
+
+<ul>
+<li>
+The model ocean was spun up for > 4000 years from an initial state of rest
+with uniform temperature and salinity. The ocean was forced with monthly
+mean atmospheric model surface stresses and with relaxation to monthly
+mean <a href="#Alexander and Mobley 1976">Alexander-Mobley (1976)</a> surface
+temperatures and <a href="#Levitus 1982">Levitus (1982)</a> salinities,
+where the relaxation time scale was 30 days. Climatological monthly mean
+surface fluxes were obtained.</li>
+</ul>
+
+<ul>
+<li>
+Flux adjustments for heat and fresh water were calculated from the uncoupled
+equilibria of the atmospheric and ocean models. An adaptive coupled simulation
+with these flux adjustments and relaxation terms with 60-day time scales
+was carried out for a period of 14 years, and a refined flux adjustment
+was obtained. Finally, the fresh-water flux adjustments were further modified
+based on residual model drift during an additional coupled simulation of
+5 years.</li>
+</ul>
+
+<ul>
+<li>
+The models were coupled and run for an additional 20 years with the refined
+flux adjustments imposed prior to the beginning of the experiment, whose
+nominal start time was the year 1850. The coupled model then was integrated
+for 200 years, exhibiting a residual drift of ~ 0.1 deg C per century.
+In order to be well-separated from the initial state, data retained from
+nominal years 1900 to 2150 was provided for CMIP.</li>
+</ul>
+
+<h3>
+<br>
+<a NAME="Land Surface Processes"></a>Land Surface Processes</h3>
+
+<ul>
+<li>
+Soil heat storage is determined as a residual of the surface heat fluxes
+and of the heat source/sink of freezing/melting snow cover and soil ice
+(see below). Soil temperature is computed from this heat storage in a single
+layer, following the method of <a href="#Deardorff(1978">Deardorff (1978)</a>
+which accounts for both diurnal and longer-period forcing. The composite
+conductivity/heat capacity of the soil in each grid box is computed as
+a function of soil type, soil moisture, and snow cover.</li>
+</ul>
+
+<ul><font size=+0>Soil moisture is predicted by a single-layer "bucket"
+model with field capacity and slope factors varying by primary/secondary
+soil and vegetation types for each grid box. Soil moisture budgets include
+both liquid and frozen water. The effective local moisture capacity is
+given by the product of field capacity and slope factor, with evapotranspiration
+efficiency beta a function of the ratio of soil moisture to the local effective
+moisture capacity. Runoff occurs implicitly if this ratio exceeds 1 (which
+is more likely the higher the local slope factor and the lower the local
+field capacity). Runoff from GCM squares within a river basin is transported
+directly to the ocean grid square at the mouth of the river. Cf. <a href="#McFarlane et al.(1992)">McFarlane
+et al. (1992)</a>, <a href="#Boer et al.(1984a)">Boer et al. (1984)</a>
+, and <a href="#Flato et al. 1998">Flato et al. (1998)</a> for further
+details.</font></ul>
+
+<h3>
+<a NAME="Sea Ice"></a>Sea Ice</h3>
+
+<ul>
+<li>
+Sea ice forms when the temperature of the ocean mixed layer is less than
+the freezing point of salt water (approximately 271.18 K).&nbsp; Until
+the ice mass exceeds a threshold of 45 kg m<sup>-2</sup>,<sup> </sup>however,the
+ocean surface is not considered to be ice-covered.&nbsp; Leads are represented
+as thin-ice regions, with mass equal to this threshold value.&nbsp; The
+fractional area of leads decreases as the total ice mass increases.</li>
+
+<br>&nbsp;
+<li>
+Snow may accumulate on sea ice.&nbsp; Snow that falls on thin ice, or on
+ice&nbsp;<sup> </sup>whose mass&nbsp; is less than 45 kg m<sup>-2</sup>,
+is assumed to directly augment the ice.&nbsp; The average density of snow
+on the ice is 275 kg m<sup>-3</sup>; this increases exponentially with
+depth (at an e-folding value of 1.85 m).&nbsp; To prevent the density profile
+of snow from exceeding that of the ice, the snow mass is limited to1180
+kg m<sup>-2</sup>, with any excess being converted to ice.&nbsp; Snow also
+affects the surface albedo.</li>
+</ul>
+
+<ul>
+<li>
+Sea ice thermodynamics follow <a href="#Semtner 1976">Semtner (1976)</a>.&nbsp;
+The surface temperature of the ice is a prognostic function of the surface
+heat balance and of a conduction heat flux from the underlying ocean. The
+conduction flux, which depends on the ice thickness and the temperature
+gradient between the ocean and the ice, is specified to restore ice amounts/extents
+to climatological values.&nbsp; In order to prevent unbounded growth of
+ice, negative heat flux and temperature adjustments are disallowed if the
+ice thickness exceeds 2 m.&nbsp; In the Southern ocean, a heat flux of
+at least 14 W m<sup>-2</sup> is extracted from the ocean to prevent continuous
+accumulation of ice when temperatures are too cold to allow summer melt.</li>
+</ul>
+
+<ul>
+<li>
+Sea ice dynamics and rheology are neglected.&nbsp; For further information
+see <a href="#McFarlane et al.(1992)">McFarlane et al. (1992)</a>.</li>
+</ul>
+<a NAME="References"></a><b><font size=+1>References</font></b>
+<p><a NAME="Alexander and Mobley 1976"></a>Alexander, R.C., and R.L. Mobley
+1976: Monthly average sea-surface temperatures and ice-pack limits on a
+1 degrees global grid. <i>Mon. Wea. Rev</i>., <b>104</b>, 143-148.
+<p><a NAME="Boer et al.(1984a)"></a>Boer, G.J., N.A. McFarlane, R. Laprise,
+J.D. Henderson, and J.-P Blanchet, 1984a: The Canadian Climate Centre spectral
+atmospheric general circulation model. <i>Atmos.-Ocean</i>, <b>22</b>,
+397-429.
+<p><a NAME="Deardorff(1978)"></a>Deardorff, J.W., 1978: Efficient prediction
+of ground surface temperature and moisture, with inclusion of a layer of
+vegetation. <i>J. Geophys. Res</i>., <b>83</b>, 1889-1903.
+<p><a NAME="Flato et al. 1998"></a>Flato et al. 1998: : The CCCma coupled
+GCM and its control climate. In preparation.
+<p><a NAME="Levitus 1982"></a>Levitus, S., 1982: Climatological atlas of
+the world's oceans. NOAA Professional Paper 13, 173 pp.
+<p><a NAME="McFarlane et al.(1992)"></a>McFarlane, N.A., G.J. Boer, J.-P.
+Blanchet, and M. Lazare, 1992: The Canadian Climate Centre second-generation
+general circulation model and its equilibrium climate. <i>J. Climate</i>,
+<b>5</b>, 1013-1044.
+<p><a NAME="Semtner 1976"></a>Semtner, A.J., 1976: A model for the thermodynamic
+growth of sea ice in numerical investigations of climate.&nbsp; J. Phys.
+Oceanogr., 6, 379-389.
+<br>&nbsp;
+<p><a href="#Top of Page">Top</a>
+<p><a href="tables.html">CMIP Documentation Directory</a>
+<p>
+<hr>
+<p>Last update 15 May, 2002.&nbsp; This page is maintained by Tom Phillips
+(<a href="mailto:" phillips@pcmdi.llnl.gov">phillips@pcmdi.llnl.gov</a>).
+<br>&nbsp;
+<p><a href="http://www.llnl.gov/disclaimer.html">LLNL Disclaimers</a>
+<p>UCRL-MI-126431
+</body>
+</html>

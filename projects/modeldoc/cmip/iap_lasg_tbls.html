@@ -1,0 +1,339 @@
+<!DOCTYPE html PUBLIC "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+  <meta http-equiv="Content-Type"
+ content="text/html; charset=iso-8859-1">
+  <meta name="GENERATOR"
+ content="Mozilla/4.79 [en] (Windows NT 5.0; U) [Netscape]">
+  <title>IAP_LASG Table Elaborations</title>
+</head>
+<body style="background-color: rgb(255, 255, 255);">
+<h1>
+<a name="Top of Page"></a></h1>
+<h1>
+Model IAP/LASG1: Elaborations</h1>
+<h3>
+<hr width="100%"></h3>
+<h3>
+<a name="Participation"></a>Participation</h3>
+Model IAP/LASG1 is an entry in the CMIP1 intercomparison only.
+<h3><a name="Spinup/Initialization"></a>Spinup/Initialization</h3>
+The procedure for spinup/initialization to the simulation starting
+point
+of the IAP/LASG coupled model for the CMIP intercomparison was as
+follows:
+<ul>
+  <li>The atmospheric model (including soil moisture/temperature and
+snow
+cover/depth)
+was initialized from a previous simulation with prescribed SSTs (cf. <a
+ href="#Wu%20et%20al.%201996">Wu
+et al. 1996</a>).</li>
+</ul>
+<ul>
+  <li>The oceanic model was spun up for 1700 years from an at-rest
+initial
+state
+with zonal-mean temperature and salinity specified from <a
+ href="#Levitus%201982">Levitus
+(1982)</a>. During the spinup, the model was forced by observed wind
+stresses
+after <a href="#Hellerman%20and%20Rosenstein%201983">Hellerman and
+Rosenstein
+(1983)</a>, heat fluxes after <a href="#Haney%201971">Haney (1971)</a>
+using
+observed atmospheric variables of <a
+ href="#Esbensen%20and%20Kushnir%201981">Esbensen
+and Kushnir (1981)</a>, and <a href="#Levitus%201982">Levitus (1982)</a>
+observations of skin surface salinity (cf. <a
+ href="#Zhang%20et%20al.%201996">Zhang
+et al. 1996</a>, <a href="#Yu%201997">Yu 1997</a>).</li>
+</ul>
+<ul>
+  <li>The atmospheric and oceanic models were coupled (cf. <a
+ href="#Zhang%20et%20al.%201992">Zhang
+et al. 1992)</a> and integrated for a total of 200 years using a
+monthly
+anomaly exchange scheme (cf. <a href="#Liu%20et%20al.%201996">Liu et
+al. 1996</a>
+and <a href="#Yu%20and%20Zhang%201997">Yu and Zhang 1997</a>) that
+functions
+as a flux correction for heat and momentum. The ocean model's surface
+salinity
+also was restored to <a href="#Levitus%201982">Levitus (1982)</a>
+observations.
+Data from years 131 through 180 of the coupled simulation were supplied
+to CMIP I.</li>
+</ul>
+<h3>
+<a name="Land Surface Processes"></a><font size="+1">Land Surface
+Processes</font></h3>
+<ul>
+  <li>Land surface processes are simulated following the <a
+ href="#Xue%20et%20al.%201991">Xue
+et al. (1991)</a> modification of the SiB model of <a
+ href="#Sellers%20et%20al.%201986">Sellers
+et al. (1986)</a>. Within the single-story vegetation canopy,
+evapotranspiration
+from dry leaves includes detailed modeling of stomatal and canopy
+resistances;
+direct evaporation from the wet canopy and from bare soil is also
+treated.
+Precipitation interception by the canopy is simulated, and its
+infiltration
+into the ground is limited to less than the hydraulic conductivity of
+the
+soil.</li>
+  <br>
+&nbsp; <li>Soil temperature is determined in two layers by the
+force-restore
+method
+of <a href="#Deardorff%201978">Deardorff (1978)</a>. Soil moisture,
+which
+is predicted from diffusion equations in three layers, is increased by
+infiltrated precipitation and snowmelt, and is depleted by
+evapotranspiration,
+direct evaporation, and drainage. Both surface runoff and deep runoff
+from
+gravitational drainage are simulated.</li>
+</ul>
+<h3>
+<a name="Sea Ice"></a>Sea Ice</h3>
+<ul>
+  <li>Sea ice is represented as a horizontally uniform slab without
+snow or
+leads.&nbsp;
+Brine rejection processes are not parameterized; instead, an enhanced
+but
+seasonally invariant salinity forcing similar to that of <a
+ href="#England%201993">England
+(1993)</a> is imposed near Antarctica to account for the effects on the
+thermohaline circulation.</li>
+  <br>
+&nbsp;
+  <p>&nbsp; <br>
+&nbsp; <br>
+&nbsp; <br>
+&nbsp; <br>
+&nbsp; <br>
+&nbsp; <br>
+&nbsp; </p>
+  <li>The ice albedo is a constant 0.5 and the solar penetration
+through the
+ice is set to 0.068. Ice formation, accretion, and ablation are
+determined
+by the net balance among the atmospheric heat fluxes at the top surface
+of the ice, the oceanic turbulent heat flux at the bottom of the ice,
+and
+the conductive heat flux within the ice.&nbsp; The atmospheric heat
+flux
+is calculated after <a href="#Haney%201971">Haney (1971)</a> in the
+same
+way as over open ocean, except for inclusion of the ice albedo and
+latent
+heat of evaporation. The heat flux at the ice bottom is proportional to
+the temperature of the underlying ocean and the salt-water freezing
+point
+temperature.&nbsp; A simple thermodynamic model after <a
+ href="#Semtner%201976">Semtner
+(1976)</a> and <a href="#Parkinson%20and%20Washington%201979">Parkinson
+and Washington
+(1979)</a> calculates temperatures within the sea ice from
+one-dimensional
+heat equations.</li>
+</ul>
+<ul>
+  <li>Sea ice rheology and dynamics are neglected.</li>
+</ul>
+<h3>
+<br>
+<a name="Diffs_AMIP"></a>Chief Differences from Closest AMIP Model</h3>
+The principal features of the IAP/LASG atmospheric model are documented
+by <a href="#Wu%20et%20al.%201996">Wu et al. (1996)</a>. Besides a
+reduction
+in horizontal resolution (to R15), the chief differences from the
+closest
+AMIP model, <a
+ href="http://www-pcmdi.llnl.gov/projects/modeldoc/amip/11bmrc_ToC.html">BMRC
+BMRC2.3 (R31 L9) 1990</a>, include:
+<ul>
+  <a name="Atmospheric Dynamics"></a><b>Atmospheric Dynamics</b>
+  <p>As an alternative to the <a
+ href="http://www-pcmdi.llnl.gov/projects/modeldoc/amip/11bmrc.html#RTFToC19">AMIP
+model formulation</a>, the<b> </b>atmospheric equations are expressed
+as
+perturbations from the state of a reference atmosphere in order to
+reduce
+truncation errors near mountains (cf. <a href="#Zeng%201979">Zeng 1979</a>).</p>
+</ul>
+<ul>
+  <a name="Radiation"></a><b>Radiation</b>
+  <p>The k-distribution method of <a href="#Shi%201981">Shi (1981)</a>
+and <a href="#Wang%201996">Wang
+(1996)</a> replaces the radiation scheme of the <a
+ href="http://www-pcmdi.llnl.gov/projects/modeldoc/amip/11bmrc.html#RTFToC24">AMIP
+model</a>. </p>
+  <p><a name="Cloud Formation"></a><b>Cloud Formation</b> </p>
+  <p>The diagnostic cloud formation scheme described by <a
+ href="#Liu%20et%20al.%201997">Liu
+et al. (1997)</a> replaces that of the <a
+ href="http://www-pcmdi.llnl.gov/projects/modeldoc/amip/11bmrc.html#RTFToC26">AMIP
+model</a>. </p>
+  <p><a name="Land Surface Processes 2"></a><b>Land Surface Processes</b>
+  </p>
+  <p>The <a href="#Land%20Surface%20Processes">Simple SiB (SSiB) land
+surface
+scheme</a> of <a href="#Xue%20et%20al.%201991">Xue et al. (1991)</a>
+replaces
+that of the <a
+ href="http://www-pcmdi.llnl.gov/projects/modeldoc/amip/11bmrc.html#RTFToC35">AMIP
+model</a> . The resulting land surface climate is described by <a
+ href="#Liu%20and%20Wu%201997">Liu
+and Wu (1997)</a>.</p>
+</ul>
+<h3>
+<br>
+<a name="References"></a><font size="+1">References</font></h3>
+<a name="Deardorff 1978"></a>Deardorff, J.W., 1978: Efficient
+prediction
+of ground surface temperature and moisture, with inclusion of a layer
+of
+vegetation. <i>J. Geophys. Res</i>., <b>83</b>, 1889-1903.
+<p><a name="England 1993"></a>England, M.H., 1993: Representing the
+global-scale
+water masses in ocean circulation models.&nbsp; <i>J. Phys. Oceanogr</i>.,
+<b>23</b>,
+1523-1552.
+</p>
+<p><a name="Esbensen and Kushnir 1981"></a>Esbensen, S.K., and Y.
+Kushnir,
+1981: Heat budget of the global ocean: Estimates from surface marine
+observations.
+Report No. 29, Climate Research Institute, Oregon State University,
+Corvallis,
+Oregon, 271 pp.
+</p>
+<p><a name="Haney 1971"></a>Haney, R.L., 1971: Surface thermal boundary
+condition for ocean circulation models. <i>J. Phys. Oceanogr.</i>, <b>1</b>,
+241-248.
+</p>
+<p><a name="Hellerman and Rosenstein 1983"></a>Hellerman, S., and M.
+Rosenstein,
+1983: Normal monthly wind stress over the world ocean with error
+estimates.
+<i>J.
+Phys. Oceanogr.</i>, <b>13</b>, 1093-1104.
+</p>
+<p><a name="Levitus 1982"></a>Levitus, S., 1982: Climatological atlas
+of
+the world's oceans. NOAA Professional Paper 13, 173 pp.
+</p>
+<p><a name="Liu et al. 1996"></a>Liu, H., X.-Z. Jin, X.-H. Zhang, and
+G.-X.
+Wu, 1996: A coupling experiment of an atmosphere and an ocean model
+with
+a monthly anomaly exchange scheme. <i>Advances in Atmospheric Sciences</i>,
+<b>13</b>,
+133-146.
+</p>
+<p><a name="Liu and Wu 1997"></a>Liu, H., and G.-X. Wu 1997: Impacts of
+land surface on July mean climate and onset of the monsoon: A study
+with
+an AGCM plus SSiB. <i>Adv. Atmos. Sci</i>., <b>14</b>, No. 3,
+289-308.
+</p>
+<p><a name="Liu et al. 1997"></a>Liu, H., X.-H. Zhang, and G.-X. Wu,
+1998:
+Cloud feedback on SST variability in the Western Equatorial Pacific in
+a CGCM. <i>Adv. Atmos. Sci.</i> (in press).
+</p>
+<p><a name="Parkinson and Washington 1979"></a>Parkinson, C.L. and W.M.
+Washington, 1979: A large-scale numerical model of sea ice. <i>J.
+Geophys.
+Res.</i>, 84, 311-337.
+</p>
+<p><a name="Sellers et al. 1986"></a>Sellers, P.J., Y. Mintz, Y.C. Sud,
+and A. Dalcher, 1986: A simple biosphere model (SiB) for use within
+general
+circulation models. <i>J. Atmos. Sci.</i>, <b>43</b>, 505-531.
+</p>
+<p><a name="Semtner 1976"></a>Semtner, A.J., 1976: A model for the
+thermodynamic
+growth of sea ice in numerical investigations of climate.&nbsp; <i>J.
+Phys.
+Oceanogr.</i>, 6, 379-389.
+</p>
+<p><a name="Shi 1981"></a>Shi, G.-Y., 1981: An accurate calculation and
+representation of the infrared transmission function of the atmospheric
+constituents. Ph.D. Thesis, Department of Atmospheric Science, Tohoku
+University
+of Japan, 191 pp.
+</p>
+<p><a name="Wang 1996"></a>Wang, B., 1996: On the radiation transfer
+models
+for climate simulation. Ph.D. Thesis, Institute of Atmospheric
+Physics/Chinese
+Academy of Sciences, Beijing, China, 92 pp. (in Chinese).
+</p>
+<p><a name="Wu et al. 1996"></a>Wu, G.-X., L. Hui, Y.-C. Zhao, and
+W.-P.
+Li, 1996: A nine-layer atmospheric general circulation model and its
+performance.
+<i>Advances
+in the Atmospheric Sciences</i>, <b>13</b>, 1-18.
+</p>
+<p><a name="Xue et al. 1991"></a>Xue, Y.-K., P.J. Sellers, J.L. Kinter
+II, and J. Shukla, 1991: A simplified biosphere model for global
+climate
+studies. <i>J. Climate</i>, <b>4</b>, 345-364.
+</p>
+<p><a name="Yu 1997"></a>Yu, Y.-Q., 1997: Design of a sea-air-ice
+coupling
+scheme and a study of numerical simulation of interdecadal oscillation
+of climate. Ph.D. thesis, Institute of Atmospheric Physics, Chinese
+Academy
+of Sciences, Beijing, China, 130 pp. (in Chinese).
+</p>
+<p><a name="Yu and Zhang 1997"></a>Yu, Y.-Q., and X.-H. Zhang, 1997: A
+modified sea-air-sea ice coupling scheme. To appear in <i>Chinese
+Bulletin</i>
+(in Chinese).
+</p>
+<p><a name="Zeng 1979"></a>Zeng, Q.-C., 1979: <i>Physical and
+Mathematical
+Basis of Numerical Weather Prediction</i>. Science Press, Beijing, 543
+pp. (in Chinese).
+</p>
+<p><a name="Zhang et al. 1992"></a>Zhang, X.-H., N. Bao, R.-C. Yu, and
+W.-Q. Wang, 1992: Coupling scheme experiments based on an atmospheric
+and
+an oceanic GCM. <i>Chinese Journal of Atmospheric Sciences,</i> <b>16(2)</b>,
+129-144.
+</p>
+<p><a name="Zhang et al. 1996"></a>Zhang, X.-H., K.-M. Chen, Z.-Z. Jin,
+W.-Y. Lin, and Y.-Q. Yu, 1996: Simulation of thermohaline circulation
+with
+a twenty-layer oceanic general circulation model. <i>Theoretical and
+Applied
+Climatology</i>, <b>55</b>, 65-88.
+<br>
+&nbsp;
+</p>
+<p><a href="#Top%20of%20Page">Top</a>
+</p>
+<p><a href="tables.html">CMIP Documentation Directory</a>
+</p>
+<hr width="100%"><br>
+&nbsp;
+<p>Last update 15 May, 2002.&nbsp; This page is maintained by Tom
+Phillips
+(<a href="mailto:" phillips@pcmdi.llnl.gov="">phillips@pcmdi.llnl.gov</a>).
+<br>
+&nbsp;
+</p>
+<p><a href="http://www.llnl.gov/disclaimer.html">LLNL Disclaimers</a>
+</p>
+<p>UCRL-MI-126431
+</p>
+</body>
+</html>

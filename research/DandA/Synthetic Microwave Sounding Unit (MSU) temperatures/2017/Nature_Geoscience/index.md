@@ -20,7 +20,7 @@ title: Nature Geoscience
 * [Fact Sheet](NG_Fact_sheet_v3.pdf)
 * [tlt_36models_picontrol_GLB3.tar](tlt_36models_picontrol_GLB3.tar)
 * [tlt_37models_hist_rcp85_GLB3.tar](tlt_37models_hist_rcp85_GLB3.tar)
-* [tlt_satellite_data_GLB3.tar](tlt_satellite_data_GLB3.tar])
+* [tlt_satellite_data_GLB3.tar](tlt_satellite_data_GLB3.tar)
 * [tmt_corrected_36models_picontrol_GLB2.tar](tmt_corrected_36models_picontrol_GLB2.tar)
 * [tmt_corrected_36models_picontrol_TLO2.tar](tmt_corrected_36models_picontrol_TLO2.tar)
 * [tmt_corrected_37models_hist_rcp85_GLB2.tar](tmt_corrected_37models_hist_rcp85_GLB2.tar)

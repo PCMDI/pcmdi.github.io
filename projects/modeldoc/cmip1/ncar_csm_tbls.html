@@ -1,0 +1,388 @@
+<!DOCTYPE html PUBLIC "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+  <meta http-equiv="Content-Type"
+ content="text/html; charset=iso-8859-1">
+  <meta name="GENERATOR"
+ content="Mozilla/4.79 [en] (Windows NT 5.0; U) [Netscape]">
+  <title>NCAR (CSM) Table Elaborations</title>
+</head>
+<body style="background-color: rgb(255, 255, 255);">
+<h1>
+<a name="Top of Page"></a></h1>
+<h1>
+Model NCAR (CSM): Elaborations</h1>
+<h3>
+<hr width="100%"></h3>
+<h3>
+<a name="Participation"></a>Participation</h3>
+Model NCAR (CSM) is an entry in both the CMIP1 and CMIP2
+intercomparisons,
+and also is supplying an optional extended set of output data in
+compliance
+with the
+<a href="../../cmip/cmip2plusann.php">CMIP2+ initiative</a>.
+<h3><a name="Spinup/Initialization"></a>Spinup/Initialization</h3>
+<font size="+0">The spinup/initialization procedure for the CMIP I
+intercomparison
+experiment was as follows (cf. <a href="#Boville%20and%20Gent%201998">Boville
+and Gent 1998</a> and <a href="#NCAR%20Oceanography%20Section%201996">NCAR
+Oceanography
+Section 1996</a> for further details):</font>
+<ul>
+  <li>The atmospheric model was spun up in a 10-year integration with
+prescribed
+monthly climatological SSTs (<a href="#Shea%20et%20al.%201990">Shea et
+al. 1990</a>).</li>
+</ul>
+<ul>
+  <li>The ocean model was spun up first in an uncoupled mode by
+applying
+fluxes
+of momentum, heat, and freshwater. The momentum and turbulent heat
+fluxes
+and the net surface longwave flux were derived by bulk formulae from
+surface
+winds, air temperatures, and specific humidities obtained from the
+6-hourly
+National Center for Environmental Prediction (NCEP) reanalysis data for
+1985-1988 (<a href="#Kalnay%20et%20al.%201996">Kalnay et al. 1996</a>).
+The net
+longwave radiation also was derived from a bulk formula that included
+(in
+addition to the surface temperatures and humidities) daily cloud
+fraction
+data of the International Satellite Cloud Climatology Project (ISCCP) (<a
+ href="#Rossow%20and%20Schiffer%201991">Rossow
+and Schiffer 1991</a>). The surface net shortwave radiation was derived
+from daily ISCCP insolation data of <a
+ href="#Bishop%20and%20Rossow%201991">Bishop
+and Rossow (1991)</a>. The freshwater flux was derived from satellite
+Microwave
+Sounding Unit (MSU) estimates of monthly precipitation (<a
+ href="#Spencer%201993">Spencer
+1993</a>) minus the surface evaporation obtained directly from the
+surface
+latent heat flux plus a weak salinity restoring term. (Before their
+application
+to the ocean model, the net heat and freshwater fluxes were adjusted to
+ensure that their global annual averages were near zero.) In addition,
+in areas of sea ice, ocean temperature and salinity were strongly
+restored
+to the 50-meter average climatology of <a href="#Levitus%201982">Levitus
+(1982)</a>. Sea ice extents were diagnostically determined from the
+monthly
+climatological SSTs prescribed in the atmospheric spin up.</li>
+</ul>
+<ul>
+  <li>To reduce the coupling shock, the ocean model was spun up for
+another
+60
+years by recycling the fluxes obtained from the 10-year atmospheric
+integration.
+The model atmosphere and ocean then were coupled and integrated for 300
+years without application of any flux corrections.</li>
+</ul>
+<h3>
+<a name="Land Surface Processes"></a><font size="+1">Land Surface
+Processes</font></h3>
+Land surface processes are simulated by the Land Surface Model (LSM) of
+<a href="#Bonan%201996">Bonan
+(1996</a> , <a href="#Bonan%201998">1998)</a>. See also Web site <a
+ href="http://www.cgd.ucar.edu/cms/lsm/">http://www.cgd.ucar.edu/cms/lsm/
+</a>for
+summary documentation and other information.
+<h3><a name="Sea Ice"></a>Sea Ice</h3>
+<ul>
+  <li>The simulated thermodynamics involve lateral ice growth in leads,
+lateral
+ice melt, and changes of state associated with the energy balance at
+the
+top and bottom of the ice. The representation of lateral growth/melt is
+after <a href="#Parkinson%20and%20Washington%201979">Parkinson and
+Washington
+(1979),</a> while that of the vertical energy balance follows <a
+ href="#Semtner%201976">Semtner
+(1976)</a> with some modifications.&nbsp; The calculation of the
+ice/snow
+thermodynamic state variables is based on the diffusion of heat through
+the external and internal boundaries of a three-layer system. If the
+ice
+thickness is greater than 0.5 m, two layers of ice are maintained;
+snow,
+if present, constitutes a third layer.&nbsp; When the ice thickness is
+between 0.25 m and 0.5 m, only a single layer is retained.&nbsp; If the
+ice thickness falls below 0.25 m, the zero-layer model of <a
+ href="#Semtner%201976">Semtner
+(1976)</a> is employed. The entire net heat flux from the ocean is
+applied
+to lateral ice growth/melt; thus, when computing the vertical energy
+balance,
+the heat flux at the bottom of the ice is set to zero.</li>
+  <br>
+&nbsp; <li>Snow accumulation on sea ice is computed from the
+freshwater flux
+(precipitation
+minus evaporation). The freshwater flux to the ocean due to ice
+growth/melt
+is parameterized by a method similar to <a
+ href="#Parkinson%20and%20Washington%201979">Parkinson
+(1979)</a>, with conservation of salt. Any snow melt is added to the
+freshwater
+flux into the ocean. Precipitation on sea ice at the freshwater melting
+point (0 deg C) is assumed to fall directly into the ocean.</li>
+</ul>
+<ul>
+  <li>A fraction (0.3, assuming cloudy conditions 75 percent of the
+time) of
+solar radiation is allowed to penetrate snow-free ice. The penetrating
+radiation may be transmitted to the ocean or absorbed in the ice,
+depending
+on its thickness. The absorbed fraction contributes to the internal
+melting
+of ice in brine pockets, following <a href="#Semtner%201976">Semtner
+(1976)</a>
+(i.e., the absorbed flux is stored in a heat reservoir without
+affecting
+the overall ice thickness). The ice albedo depends on snow cover/depth
+and surface temperature.&nbsp; (The albedo computation assumes a mix of
+snow-covered and snow-free ice and uses a proxy &#8216;snow fraction&#8217;.)&nbsp;
+The albedos of ice and snow depend on spectral interval, and on whether
+these surfaces are dry or melting.</li>
+</ul>
+<ul>
+  <li>Sea ice dynamics are based on the cavitating-fluid approximation
+of <a href="#Flato%20and%20Hibler%201990">Flato
+and Hibler (1990)</a>: ice has a finite resistance to compression, but
+diverges freely without resistance to shear stress. The ice momentum
+equations
+include the Coriolis force, wind stress, ocean current stress,
+down-slope
+acceleration from the ocean surface tilt, and the gradient of
+accumulated
+ice pressure due to compression.&nbsp; Ice velocity equations are
+solved
+at the corner points of an Arakawa B-grid in spherical coordinates,
+following
+a modified <a href="#Pollard%20and%20Thompson%201994">Pollard and
+Thompson (1994)</a>
+advection scheme. Advected variables include ice concentration and
+volume,
+heat content of each ice layer, brine heat reservoir, and snow volume
+and
+heat content.&nbsp; For further details, cf. <a
+ href="#Bettge%20et%20al.%201996">Bettge
+et al. (1996)</a>.</li>
+</ul>
+<h3>
+<a name="Diffs_AMIP"></a>Chief Differences from Closest AMIP Model</h3>
+<font size="+0">The NCAR (CSM) coupled model includes the NCAR
+Community
+Climate Model Version 3 (CCM3) as its atmospheric component (see also
+Web
+site </font><a href="http://www.cgd.ucar.edu/cms/ccm3/">http://www.cgd.ucar.edu/cms/ccm3/</a>).
+<font size="+0">The
+chief differences between CCM3 and AMIP model <a
+ href="http://www-pcmdi.llnl.gov/projects/modeldoc/amip1/28ncar_ToC.html">NCAR
+CCM2 (T42 L18) 1992</a> include:</font>
+<ul>
+  <a name="Radiation"></a><b>Radiation</b>
+  <p>In CCM3, effects of trace greenhouse gases on longwave radiation
+are
+added to the radiation scheme of the <a
+ href="http://www-pcmdi.llnl.gov/projects/modeldoc/amip1/28ncar.html#RTFToC24">AMIP
+model</a>. Cloud radiative properties also are changed. Cf. <a
+ href="#Kiehl%20et%20al.%201998a">Kiehl
+et al. (1998a</a>, <a href="#Kiehl%20et%20al.%201998b">b)</a> for
+further details.</p>
+</ul>
+<ul>
+  <a name="Convection"></a><b>Convection</b>
+  <p>The parameterization of deep convection in CCM3 follows <a
+ href="#Zhang%20and%20McFarlane%201995">Zhang
+and McFarlane (1995)</a> rather than the Hack (1994) scheme used in the
+  <a
+ href="http://www-pcmdi.llnl.gov/projects/modeldoc/amip1/28ncar.html#RTFToC25">AMIP
+model</a>, but the treatment of shallow convection remains the same.
+Cf.
+also <a href="#Hack%20et%20al.%201998">Hack et al. (1998).</a> </p>
+  <p><a name="Surface Fluxes"></a><b>Surface Fluxes</b> </p>
+  <p>CCM3 includes an updated version of the non-local turbulent flux
+parameterization
+of Holtslag and Boville (1994) used in the <a
+ href="http://www-pcmdi.llnl.gov/projects/modeldoc/amip1/28ncar.html#RTFToC34">AMIP
+model</a>. The new version by <a href="#Hack%20and%20Holtslag%201998">Hack
+and
+Holtslag (1998)</a> results in higher surface humidities and lower
+planetary
+boundary layer depths. </p>
+  <p><a name="Land Surface Processes 2"></a><b>Land Surface Processes</b>
+  </p>
+  <p>The <a href="#Land%20Surface%20Processes">Land Surface Model (LSM)</a>
+of <a href="#Bonan%201996">Bonan
+(1996</a> , <a href="#Bonan%201998">1998)</a> replaces the much
+simpler formulation
+of the <a
+ href="http://www-pcmdi.llnl.gov/projects/modeldoc/amip1/28ncar.html#RTFToC35">AMIP
+model</a>. <br>
+&nbsp; <br>
+&nbsp;</p>
+</ul>
+<b><font size="+0">For further details on the NCAR (CSM) model, see Web
+site
+<a href="http://www.cgd.ucar.edu/csm/">http://www.cgd.ucar.edu/csm</a><a
+ href="http://www.cgd.ucar.edu/cms/">/</a>.</font></b>
+<br>
+&nbsp;
+<br>
+&nbsp;
+<h3><a name="References"></a><font size="+1">References</font></h3>
+<a name="Bettge et al. 1996"></a>Bettge, T.W., J.W. Weatherly, W.M.
+Washington,
+D. Pollard, B.P Briegleb, and W.G. Strand, 1996: The NCAR CSM Sea Ice
+Model.&nbsp;
+NCAR Tech. Note NCAR/TN-425+STR, 25 pp.
+<p><a name="Bishop and Rossow 1991"></a>Bishop, J.K.B., and W.B.
+Rossow,
+1991: Spatial and temporal variability of global surface solar
+irradiance.
+<i>J.
+Geophys. Res</i>., <b>96</b>, 16,839-16,858.
+</p>
+<p><a name="Bonan 1996"></a><font size="+0">Bonan, G.B., 1996: A Land
+Surface
+Model (LSM Version 1.0) for Ecological, Hydrological, and Atmospheric
+Studies:
+Technical Description and User's Guide. NCAR Technical Note
+NCAR/Tn-417+STR,
+National Center for Atmospheric Research, Boulder, Colorado, 150 pp.</font>
+</p>
+<p><a name="Bonan 1998"></a><font size="+0">Bonan, G.B., 1998: The land
+surface
+climatology of the NCAR land surface model (LSM 1.0) coupled to the
+NCAR
+Community Climate Model (CCM3). <i>J. Climate,</i><b> 11</b>,
+1307-1326.</font>
+</p>
+<p><a name="Boville and Gent 1998"></a><font size="+0">Boville, B.A.,
+and
+P.R. Gent, 1998: The NCAR Climate System Model, Version One. <i>J.
+Climate,
+</i><b>11</b>,1115-1130.</font>
+</p>
+<p><a name="Flato and Hibler 1990"></a>Flato, G.M., and W.D. Hibler,
+1990:
+On a simple sea-ice dynamics model for climate studies.&nbsp; Ann.
+Glaciol.,
+14, 72-77.
+</p>
+<p><a name="Hack and Holtslag 1998"></a><font size="+0">Hack, J. J.,
+and
+A.A.M. Holtslag, 1998: Climate simulation sensitivity to a revised
+non-local
+boundary layer parameterization. In preparation.</font>
+</p>
+<p><a name="Hack et al. 1998"></a><font size="+0">Hack, J.J., J.T.
+Kiehl,
+and J. Hurrell, 1998: The hydrologic and thermodynamic structure of the
+NCAR CCM3. <i>J. Climate,</i> <b>11</b>,<i>&nbsp;</i> 1179-1206.</font>
+</p>
+<p><a name="Kalnay et al. 1996"></a>Kalnay, E.C., M. Kanamitsu, R.
+Kistler,
+W. Collins, D. Deaven, L. Gandin, M. Iredell, S. Saha, G. White, J.
+Woollen,
+Y. Zhu, M. Chelliah, W. Ebisuzaki, W. Higgins, J. Janowiak, K.C. Mo, C.
+Ropelewski, A. Leetmaa, R. Reynolds, and R. Jenne, 1996: The NCEP/NCAR
+reanalysis project. <i>Bull. Am Meteor. Soc</i>., <b>77</b>, 437-471.
+</p>
+<p><a name="Kiehl et al. 1998a"></a>Kiehl, J.T., J.J. Hack, G. Bonan,
+B.A.
+Boville, D. Williamson, and P. Rasch, 1998a: The National Center for
+Atmospheric
+Research Community Climate Model: CCM3.<font size="+0"> <i>J. Climate</i>,
+<b>11</b>,
+1131-1149.</font>
+</p>
+<p><a name="Kiehl et al. 1998b"></a>Kiehl, J.T., J.J. Hack, and J.
+Hurrell,
+1998b: The energy budget of the NCAR Community Climate Model: CCM3. <font
+ size="+0"><i>J.
+Climate</i>, <b>11</b>, 1151-1178.</font>
+</p>
+<p><a name="Levitus 1982"></a>Levitus, S., 1982: Climatological atlas
+of
+the world's oceans. NOAA Professional Paper 13, 173 pp.
+</p>
+<p><a name="NCAR Oceanography Section 1996"></a>NCAR Oceanography
+Section
+(NCAR OS), 1996: The NCAR CSM ocean model. NCAR Technical Note
+NCAR/TN-423+STR,
+National Center for Atmospheric Research, Boulder, Colorado.
+</p>
+<p><a name="Parkinson and Washington 1979"></a>Parkinson, C.L. and W.M.
+Washington, 1979: A large-scale numerical model of sea ice. J. Geophys.
+Res., 84, 311-337.
+</p>
+<p><a name="Pollard and Thompson 1994"></a>Pollard, D., and S.L.
+Thompson,
+1994: Sea-ice dynamics and CO2 sensitivity in a global climate model.
+Atmosphere-Ocean
+32, 449-467.
+</p>
+<p><a name="Rossow and Schiffer 1991"></a>Rossow,W.B., and R.A.
+Schiffer,
+1991: ISCCP cloud data products. <i>Bull. Am. Meteor. Soc</i>., <b>72</b>,
+2-20.
+</p>
+<p><a name="Semtner 1976"></a>Semtner, A.J., 1976: A model for the
+thermodynamic
+growth of sea ice in numerical investigations of climate.&nbsp; <i>J.
+Phys.
+Oceanogr</i>., <b>6</b>, 379-389.
+</p>
+<p><a name="Shea et al. 1990"></a>Shea, D.J., K.E. Trenberth, and R.W.
+Reynolds, 1990: A global monthly sea surface temperature climatology.
+NCAR
+Technical Note NCAR/TN-345, 167 pp.
+</p>
+<p><a name="Spencer 1993"></a>Spencer, R.W., 1993: Global oceanic
+precipitation
+from the MSU during 1979-91 and comparisons to other climatologies. <i>J.
+Climate</i>, <b>6</b>, 13021-1326.
+</p>
+<p><a name="Washington and Meehl 1996"></a>Washington, W.M., and G.A.
+Meehl,
+1996: High-latitude climate change in a global coupled
+ocean-atmosphere-sea
+ice model with increased atmospheric CO2. <i>J. Geophys. Res.</i>,
+<br>
+<b>101(D8)</b>, 12,795-12,801.
+</p>
+<p><a name="Zhang and McFarlane 1995"></a>Zhang, G.J., and N.A.
+McFarlane,
+1995: Sensitivity of climate simulations to the parameterization of
+cumulus
+convection in the Canadian Climate Centre general circulation model. <i>Atmos.
+Ocean</i>, <b>33</b>, 407-446.
+<br>
+&nbsp;
+<br>
+&nbsp;
+</p>
+<p><a href="#Top%20of%20Page">Top</a>
+</p>
+<p><a href="tables.html">CMIP Documentation Directory</a>
+</p>
+<hr>
+<p>Last update 15 May, 2002.&nbsp; For questions or comments, contact
+Tom
+Phillips (<a href="mailto:" phillips@pcmdi.llnl.gov="">phillips@pcmdi.llnl.gov</a>).
+<br>
+&nbsp;
+</p>
+<p><a href="http://www.llnl.gov/disclaimer.html">LLNL Disclaimers</a>
+</p>
+<p>UCRL-MI-126431
+</p>
+</body>
+</html>

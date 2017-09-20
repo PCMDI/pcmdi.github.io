@@ -1,0 +1,482 @@
+<!DOCTYPE html PUBLIC "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+  <meta http-equiv="Content-Type"
+ content="text/html; charset=iso-8859-1">
+  <meta name="GENERATOR"
+ content="Mozilla/4.79 [en] (Windows NT 5.0; U) [Netscape]">
+  <title>NCAR (Wash &amp; Meehl) Table Elaborations</title>
+</head>
+<body style="background-color: rgb(255, 255, 255);">
+<h1>
+<a name="Top of Page"></a></h1>
+<h1>
+Model NCAR (Washington &amp; Meehl): Table Elaborations</h1>
+<hr width="100%">
+<p><br>
+&nbsp;
+</p>
+<h3><a name="Participation"></a>Participation</h3>
+This model was originally submitted to the CMIP1 intercomparison, but
+was
+subsequently withdrawn from active status at the request of the
+modeling
+group representatives.
+<h3><a name="Spinup/Initialization"></a><font size="+1">Spinup/Initialization</font></h3>
+The spinup/initialization procedure was as follows (cf. <a
+ href="#Washington%20et%20al.%201994">Washington
+et al. 1994</a> and <a href="#Washington%20and%20Meehl%201996">Washington
+and
+Meehl 1996</a> for further details):
+<ul>
+  <li>The atmospheric model was initialized from the final
+quasi-equilibrium
+state of a run made when coupled to a 50-meter slab mixed-layer ocean
+without
+provision of horizontal heat transports (cf. <a
+ href="#Washington%20and%20Meehl%201993">Washington
+and Meehl 1993</a>).</li>
+</ul>
+<ul>
+  <li>The ocean model was first run for 14 years with robust diagnostic
+forcing
+from the three-dimensional observed temperature and salinity fields
+after <a href="#Levitus%201982">Levitus
+(1982)</a>, along with "early winter" SSTs near Greenland specified to
+produce a meridional overturning of about 20 sverdrup in the Atlantic
+(cf. <a href="#Washington%20et%20al.%201994">Washington
+et al. 1994</a>). The ocean model then was run for 100 more years with
+specified surface forcings, but with subsurface forcings turned off. By
+the end of this integration, the maximum drift in temperature was of
+the
+order of a few tenths of a degree near the thermocline.</li>
+</ul>
+<ul>
+  <li>The model atmosphere and ocean then were coupled an integrated
+for 100
+years without application of any flux corrections.</li>
+</ul>
+<h3>
+<a name="Land Surface Processes"></a>Land Surface Processes</h3>
+<ul>
+  <li>Land surface temperature is determined from the balance of
+surface
+energy
+fluxes by the diagnostic method of <a
+ href="#Holloway%20and%20Manabe%201971">Holloway
+and Manabe (1971)</a>. (That is, there is no heat diffusion/ storage
+within
+the soil.)</li>
+</ul>
+<ul>
+  <li>Soil moisture is represented by the single-layer "bucket" model
+of <a href="#Budyko%201956">Budyko
+(1956)</a> and <a href="#Manabe%201969">Manabe (1969)</a>, with field
+capacity
+a uniform 0.15 m of water. Soil moisture is increased by both
+precipitation
+and snowmelt. It is decreased by surface evaporation, which is
+determined
+from the product of the evapotranspiration efficiency beta and the
+potential
+evaporation from a surface saturated at the local surface
+temperature/pressure.
+Over land, beta is given by the ratio of local soil moisture to the
+field
+capacity, with runoff occurring implicitly if this ratio exceeds unity.</li>
+</ul>
+<h3>
+<a name="Sea Ice"></a>Sea Ice</h3>
+<ul>
+  <li>Sea ice thermodynamics follow <a href="#Semtner%201976">Semtner
+(1976)</a>
+with some modifications.&nbsp; The calculation of the ice/snow
+thermodynamic
+state variables is based on the diffusion of heat through the external
+and internal boundaries of a three-layer system. If the ice thickness
+is
+greater than 0.5 m, two layers of ice are maintained; snow, if present,
+constitutes s a third layer.&nbsp; When the ice thickness is between
+0.25
+m and 0.5 m, only a single layer is retained.&nbsp; If the ice
+thickness
+falls below 0.25m, the zero-layer model of <a href="#Semtner%201976">Semtner
+(1976)</a> is employed. The entire net heat flux from the ocean is
+applied
+to the lateral ice growth/melt; thus, when computing the vertical
+balance,
+the heat flux at the bottom of the ice is set to zero.</li>
+</ul>
+<ul>
+  <li>&nbsp;Snow accumulation on sea ice is computed from the
+freshwater flux
+(precipitation minus evaporation). Any snow melt is added to the
+freshwater
+flux into the ocean.&nbsp; Precipitation on sea ice at the freshwater
+melting
+point (0 deg C) is assumed to fall directly into the ocean.</li>
+</ul>
+<ul>
+  <li>A fraction (0.3, assuming cloudy conditions 75 percent of the
+time) of
+solar radiation is allowed to penetrate snow-free ice. The penetrating
+radiation may be transmitted to the ocean or absorbed in the ice,
+depending
+on its thickness. The absorbed fraction contributes to the internal
+melting
+of ice in brine pockets following <a href="#Semtner%201976">Semtner
+(1976)</a>
+(i.e., the absorbed flux is stored in a heat reservoir without
+affecting
+the overall ice thickness). The ice albedo depends on snow cover/depth
+and surface temperature.&nbsp; (The albedo computation assumes a mix of
+snow-covered and snow-free ice and uses a proxy &#8216;snow fraction&#8217;.)&nbsp;
+The albedos of ice and snow depend on spectral interval, and on whether
+these surfaces are dry or melting.</li>
+</ul>
+<ul>
+  <li>Sea ice dynamics are based on the cavitating-fluid approximation
+of <a href="#Flato%20and%20Hibler%201990">Flato
+and Hibler (1990)</a>: ice has a finite resistance to compression, but
+can diverge freely without resistance to shear stress.&nbsp; For
+further
+details, see <a href="#Washington%20and%20Meehl%201996">Washington and
+Meehl
+(1996)</a>.</li>
+  <br>
+&nbsp;
+</ul>
+<h3>
+<a name="Diffs_AMIP"></a><font size="+1">Chief Differences from Closest
+AMIP
+Model</font></h3>
+The atmospheric component of the NCAR (Washington &amp; Meehl) coupled
+model is a <i>modified </i>Community Climate Model Version Zero A
+(CCM0A)
+that is described by <a href="#Washington%20and%20Meehl%201993">Washington
+and
+Meehl (1993)</a>. Differences from the <i>standard </i>CCM0A model
+(cf.
+<a href="#Washington%201982">Washington
+1982</a>, <a href="#Pitcher%20et%20al.%201983">Pitcher et al. 1983</a>,
+<a href="#Ramanathan%20et%20al.%201983">Ramanathan
+et al. 1983</a>, and <a href="#Malone%20et%20al.%201984">Malone et al.
+1984</a>
+) include the treatment of <a href="#Radiation">cloud-radiative
+interactions</a>,
+<a href="#Convection">convection</a>,
+<a href="#Surface%20Characteristics">surface
+characteristics</a> and <a href="#Surface%20Fluxes">surface fluxes</a>.
+<p>Standard CCM0A was a precursor of the NCAR CCM1 model (cf. <a
+ href="#Williamson%20et%20al.%201987">Williamson
+et al. 1987</a>, <a href="#Kiehl%20et%20al.%201987">Kiehl et al. 1987</a>).
+Except
+for its explicit inclusion of the <a href="#Trace%20Gases">radiative
+effects
+of greenhouse trace gases</a>, AMIP model <a
+ href="http://www-pcmdi.llnl.gov/projects/modeldoc/amip/31sunya_ToC.html">SUNYA
+CCM1-TG (R15 L12) 1990</a> is identical to the NCAR CCM1. The chief
+differences
+between this <a
+ href="http://www-pcmdi.llnl.gov/projects/modeldoc/amip/31sunya_ToC.html">AMIP
+model</a> and both the standard and modified (<a
+ href="#Washington%20and%20Meehl%201993">Washington
+and Meehl 1993</a>) versions of CCM0A are summarized as follows:
+</p>
+<ul>
+  <a name="Vertical Representation"></a><b>Vertical Representation</b>
+  <p><b>I</b>n contrast to the <a
+ href="http://www-pcmdi.llnl.gov/projects/modeldoc/amip1/31sunya.html#RTFToC10">AMIP
+model</a>, the vertical finite-difference approximations in both the
+standard
+and modified (<a href="#Washington%20and%20Meehl%201993">Washington and
+Meehl
+1993</a>) CCM0A models are not energy-conserving.</p>
+</ul>
+<ul>
+  <a name="Vertical Resolution"></a><b>Vertical Resolution</b>
+  <p>There are 9 vertical levels in the standard and modified (<a
+ href="#Washington%20and%20Meehl%201993">Washington
+and Meehl 1993</a>) CCM0A models, rather than 12, as in the <a
+ href="http://www-pcmdi.llnl.gov/projects/modeldoc/amip1/31sunya.html#RTFToC11">AMIP
+model</a>. </p>
+  <p><a name="Smoothing/Filling"></a><b>Smoothing/Filling</b> </p>
+  <p>In contrast to the <a
+ href="http://www-pcmdi.llnl.gov/projects/modeldoc/amip1/31sunya.html#RTFToC16">AMIP
+model</a>, the filling of negative values of atmospheric humidity that
+arise from truncation errors in the discretized moisture equation is
+not
+implemented in either the standard or the modified (<a
+ href="#Washington%20and%20Meehl%201993">Washington
+and Meehl 1993</a>) CCM0A models. </p>
+  <p><a name="Diffusion"></a><b>Diffusion</b> </p>
+  <ul>
+    <li>In both the standard and modified (<a
+ href="#Washington%20and%20Meehl%201993">Washington
+and Meehl 1993</a>) CCM0A models, tropospheric horizontal diffusion is
+represented in a second-order (del^2) form on sigma surfaces, rather
+than
+in fourth-order (del^4) on pressure surfaces, as in the <a
+ href="http://www-pcmdi.llnl.gov/projects/modeldoc/amip1/31sunya.html#RTFToC20">AMIP
+model</a>. Frictional heating present in the AMIP model also is not
+included.</li>
+    <li>Vertical diffusion in both the standard and the modified (<a
+ href="#Washington%20and%20Meehl%201993">Washington
+and Meehl 1993</a>) CCM0A models is linear, and is applied only below
+500
+hPa, as opposed to the nonlinear diffusion that operates through the
+entire
+atmospheric column in the <a
+ href="http://www-pcmdi.llnl.gov/projects/modeldoc/amip1/31sunya.html#RTFToC20">AMIP
+model</a>. Unlike the AMIP model also, the diffusion coefficient does
+not
+depend on local shear and stability.</li>
+    <br>
+&nbsp;
+  </ul>
+  <a name="Radiation"></a><b>Radiation</b>
+  <ul>
+    <li>The modified (<a href="#Washington%20and%20Meehl%201993">Washington
+and
+Meehl
+1993</a>) CCM0A model follows the standard CCM0A radiation scheme after
+      <a href="#Ramanathan%20et%20al.%201983">Ramanathan
+et al. (1983),</a> except for the specification of cloud shortwave
+albedo
+and longwave emissivity. In the <a href="#Ramanathan%20et%20al.%201983">Ramanathan
+et al. (1983)</a> scheme, cloud emissivity is universally a black-body
+value of unity, while cloud albedo depends on solar zenith angle and
+cloud
+height: the albedo is 0.6 for low cloud, 0.3 for middle cloud, and 0.15
+for high cloud. In the modified (<a
+ href="#Washington%20and%20Meehl%201993">Washington
+and Meehl 1993</a>) CCM0A model, middle and high cloud longwave
+emissivities
+are set to 0.90 and 0.70 respectively. Middle and high cloud albedos
+also
+may increase above their nominal values (0.3 and 0.15, respectively),
+provided
+that there is both deep convection and SSTs that are in excess of 303
+K;
+for such conditions, the albedo of middle and high cloud may increase
+linearly
+up to 0.6 over an SST range of 303 to 308 K.</li>
+    <br>
+&nbsp;
+  </ul>
+  <ul>
+    <li>Cloud-radiative interactions in the modified (<a
+ href="#Washington%20and%20Meehl%201993">Washington
+and Meehl 1993</a>) CCM0A model also differ from those of the <a
+ href="http://www-pcmdi.llnl.gov/projects/modeldoc/amip1/31sunya.html#RTFToC24">AMIP
+model</a>, where stratiform cloud emissivity is a function of
+diagnostic
+liquid water content and cloud albedo is a function of optical depth
+and
+solar zenith angle, but does not depend on convection or SSTs. Both the
+standard and the modified (<a href="#Washington%20and%20Meehl%201993">Washington
+and Meehl 1993</a>) CCM0A models also lack certain other radiative
+refinements
+of the <a
+ href="http://www-pcmdi.llnl.gov/projects/modeldoc/amip1/31sunya.html#RTFToC24">AMIP
+model</a> , such as improved formulations of shortwave absorption by
+water
+vapor and oxygen and longwave absorption by water vapor, carbon
+dioxide,
+and ozone (cf. <a href="#Kiehl%20et%20al.%201987">Kiehl et al. 1987</a>).</li>
+    <br>
+&nbsp;
+  </ul>
+  <ul>
+    <li> <a name="Trace Gases"></a>Both the standard and the modified (<a
+ href="#Washington%20and%20Meehl%201993">Washington
+and Meehl 1993</a>) CCM0A models do not include the radiative effects
+of
+trace greenhouse gases that are present in the <a
+ href="http://www-pcmdi.llnl.gov/projects/modeldoc/amip1/31sunya.html#RTFToC24">AMIP
+model</a>.</li>
+    <br>
+&nbsp;
+  </ul>
+  <a name="Convection"></a><b>Convection</b>
+  <p>In addition to the moist convective adjustment scheme of the <a
+ href="http://www-pcmdi.llnl.gov/projects/modeldoc/amip1/31sunya.html#RTFToC25">AMIP
+model</a> (present also in the standard CCM0A model), the modified (<a
+ href="#Washington%20and%20Meehl%201993">Washington
+and Meehl 1993)</a> CCM0A includes a parameterization of convective
+mass
+fluxes of heat and moisture, and a simple cloud model to determine the
+depth of convection. Cf. <a href="#Albrecht%20et%20al.%201986">Albrecht
+et al.
+(1986)</a> and <a href="#Meehl%20and%20Albrecht%201988">Meehl and
+Albrecht (1988</a>, <a href="#Meehl%20and%20Albrecht%201991">1991)</a>
+for further details. </p>
+  <p><a name="Cloud Formation"></a><b>Cloud Formation</b> </p>
+  <p>In both the standard and the modified (<a
+ href="#Washington%20and%20Meehl%201993">Washington
+and Meehl 1993)</a> CCM0A models, atmospheric moisture begins to
+condense
+into clouds at 80 percent relative humidity rather than at 100 percent,
+as in the <a
+ href="http://www-pcmdi.llnl.gov/projects/modeldoc/amip1/31sunya.html#RTFToC26">AMIP
+model</a>. </p>
+  <p><a name="Surface Characteristics"></a><b>Surface Characteristics</b>
+  </p>
+  <p>In contrast to the standard CCM0a model, the sea ice albedo in the
+modified <a href="#Washington%20and%20Meehl%201993">(Washington
+and Meehl 1993)</a> CCM0A is a function of latitude and the snow albedo
+is a function of solar zenith angle; however, these albedos do not
+depend
+on spectral interval or surface temperature, as in the <a
+ href="http://www-pcmdi.llnl.gov/projects/modeldoc/amip1/31sunya.html#RTFToC33">AMIP
+model</a>. </p>
+  <p><a name="Surface Fluxes"></a><b>Surface Fluxes</b> </p>
+  <p>The surface wind-stress formulation of the modified <a
+ href="#Washington%20and%20Meehl%201993">(Washington
+and Meehl 1993)</a> CCM0A model differs from that of the standard CCM0A
+in the Western Pacific, so as to better reproduce the observations of
+strong
+vertical wind shear over this region. The surface drag coefficient in
+both
+the standard and modified <a href="#Washington%20and%20Meehl%201993">(Washington
+and Meehl 1993)</a> CCM0A models is not stability-dependent, as in the <a
+ href="http://www-pcmdi.llnl.gov/projects/modeldoc/amip1/31sunya.html#RTFToC34">AMIP
+model</a>. <br>
+&nbsp; <br>
+&nbsp;</p>
+</ul>
+<h3>
+<a name="References"></a>References</h3>
+<a name="Albrecht et al. 1986"></a>Albrecht, B.A., V. Ramanathan, and
+B.A.
+Boville, 1986: The effects of cumulus moisture transports on the
+simulation
+of climate with a general circulation model. <i>J. Atmos. Sci.</i>, <b>43</b>,
+2443-2462.
+<br>
+&nbsp;
+<p><a name="Budyko 1956"></a>Budyko, M.I., 1956: <i>Heat Balance of
+the
+Earth's Surface</i>. Gidrometeoizdat, Leningrad, 255 pp.
+</p>
+<p><a name="Flato and Hibler 1990"></a>Flato, G.M., and W.D. Hibler,
+1990:
+On a simple sea-ice dynamics model for climate studies.&nbsp; Ann.
+Glaciol.,
+14, 72-77.
+</p>
+<p><a name="Holloway and Manabe 1971"></a>Holloway, J.L., Jr., and S.
+Manabe,
+1971: Simulation of climate by a general circulation model. 1.
+Hydrological
+cycle and heat balance. <i>Mon. Wea. Rev</i>., <b>99</b>, 335-370.
+</p>
+<p><a name="Kiehl et al. 1987"></a>Kiehl, J.T., R.J. Wolski, B.P.
+Briegleb,
+and V. Ramanathan, 1987: Documentation of Radiation and Cloud Routines
+in the NCAR Community Climate Model (CCM1). NCAR Technical Note
+NCAR/Tn-288+IA,
+National Center for Atmospheric Research, Boulder, CO.
+</p>
+<p><a name="Levitus 1982"></a>Levitus, S., 1982: Climatological atlas
+of
+the world's oceans. NOAA Professional Paper 13, 173 pp.
+</p>
+<p><a name="Manabe 1969"></a>Manabe, S., 1969: Climate and ocean
+circulation.
+1. The atmospheric circulation and the hydrology of the Earth's
+surface.
+<i>Mon.
+Wea. Rev</i>., <b>97</b>, 739-773.
+</p>
+<p><a name="Malone et al. 1984"></a>Malone, R.C., E.J. Pitcher, M.L.
+Blackmon,
+K. Puri, and W. Bourke, 1984: The simulation of stationary and
+transient
+geopotential-height eddies in January and July with a spectral general
+circulation model. <i>J. Atmos. Sci</i>., <b>41</b>, 1394-1419.
+</p>
+<p><a name="Meehl and Albrecht 1988"></a>Meehl, G.A., and B.A.
+Albrecht,
+1988: Tropospheric temperatures and Southern Hemisphere circulation. <i>Mon.
+Wea. Rev</i>., <b>116</b>, 953-960.
+</p>
+<p><a name="Meehl and Albrecht 1991"></a>Meehl, G.A., and B.A.
+Albrecht,
+1991: Response of a GCM with a hybrid convection scheme to a tropical
+Pacific
+sea-surface-temperature anomaly. <i>J. Climate</i>, <b>4</b>,
+672-688.
+</p>
+<p><a name="Pitcher et al. 1983"></a>Pitcher, E.J., R.C. Malone, V.
+Ramanathan,
+M.L. Blackmon, K. Puri, and W. Bourke, 1983: January and July
+simulations
+with a spectral general circulation model. <i>J. Atmos. Sci</i>., <b>40</b>,
+580-604.
+</p>
+<p><a name="Ramanathan et al. 1983"></a>Ramanathan, V., E.J. Pitcher,
+R.C.
+Malone, and M.L. Blackmon, 1983: The response of a spectral general
+circulation
+model to refinements in radiative processes. <i>J. Atmos. Sci</i>., <b>40</b>,
+605-630.
+</p>
+<p><a name="Semtner 1976"></a>Semtner, A.J., 1976: A model for the
+thermodynamic
+growth of sea ice in numerical investigations of climate.&nbsp; J.
+Phys.
+Oceanogr., 6, 379-389.
+</p>
+<p><a name="Washington 1982"></a>Washington, W.M., 1982: Documentation
+for the Community Climate Model (CCM), Version 0. NCAR report, NTIS No.
+PB82 194192, National Center for Atmospheric Research, Boulder, CO.
+</p>
+<p><a name="Washington and Meehl 1993"></a>Washington, W.M., and G.A.
+Meehl,
+1993: Greenhouse sensitivity experiments with penetrative cumulus
+convection
+and tropical cirrus albedo effects. <i>Climate Dyn</i>., <b>8</b>,
+211-223.
+</p>
+<p><a name="Washington et al. 1994"></a>Washington, W.M., G.A. Meehl,
+L.
+VerPlank, and T.W. Bettge, 1994: A world ocean model for greenhouse
+sensitivity
+studies: resolution intercomparison and the role of diagnostic forcing.
+<i>Climate
+Dyn.</i>, <b>9</b>, 321-344.
+</p>
+<p><a name="Washington and Meehl 1996"></a>Washington, W.M., and G.A.
+Meehl,
+1996: High-latitude climate change in a global coupled
+oean-atmosphere-sea
+ice model with increased atmospheric CO<sub>2</sub>. <i>J. Geophys. Res</i>.,
+<b>101</b>,
+No. D8, 12,795-12,801.
+</p>
+<p><a name="Williamson et al. 1987"></a>Williamson, D.L., J.T. Kiehl,
+V.
+Ramanathan, R.E. Dickinson, J.J. Hack, 1987: Description of NCAR
+Community
+Climate Model (CCM1). NCAR Technical Note NCAR/TN-285+STR, National
+Center
+for Atmospheric Research, Boulder, CO.
+</p>
+<hr width="100%">
+<p><a href="#Top%20of%20Page">Return to Top of Page</a>
+</p>
+<hr><br>
+&nbsp;<a href="tables.html">Return to CMIP Documentation Tables</a>
+<p>Last update 15 May, 2002.&nbsp; For questions or comments, contact
+Tom
+Phillips (<a href="mailto:" phillips@pcmdi.llnl.gov="">phillips@pcmdi.llnl.gov</a>).
+<br>
+&nbsp;
+</p>
+<p><a href="http://www.llnl.gov/disclaimer.html">LLNL Disclaimers</a>
+</p>
+<p>UCRL-MI-126431
+</p>
+</body>
+</html>

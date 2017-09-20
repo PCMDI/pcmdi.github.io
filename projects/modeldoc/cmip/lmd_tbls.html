@@ -1,0 +1,447 @@
+<!DOCTYPE html PUBLIC "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+  <meta http-equiv="Content-Type"
+ content="text/html; charset=iso-8859-1">
+  <meta name="GENERATOR"
+ content="Mozilla/4.79 [en] (Windows NT 5.0; U) [Netscape]">
+  <title>LMD Table Elaborations</title>
+</head>
+<body style="background-color: rgb(255, 255, 255);">
+<h1>
+<a name="Top of Page"></a></h1>
+<h1>
+Model LMD/IPSL1: Elaborations
+<hr width="100%"></h1>
+<h3>
+<a name="Participation"></a>Participation</h3>
+Model LMD/IPSL1 is an entry in the CMIP1 intercomparison only.
+<h3><a name="Spinup/Initialization"></a>Spinup/Initialization</h3>
+The procedure for spinup/initialization of the LMD/IPSL coupled model
+is
+as follows (reference:&nbsp;<i> </i>Laurent Fairhead, personal
+communication):
+<p>The CMIP I simulation starting point was the tenth year of a
+previous
+coupled model integration which was initialized as follows:
+</p>
+<ul>
+  <li>The atmospheric model was started from 1 January 1980 of an
+(uncoupled)
+AMIP simulation which began on 1 January 1979.</li>
+</ul>
+<ul>
+  <li>The ocean model was initialized from the <a
+ href="#Levitus%201982">Levitus
+(1982)</a> temperature and salinity fields for climatological January.</li>
+</ul>
+<ul>
+  <li>The atmospheric and ocean models were coupled without any further
+spinup
+and without application of flux adjustment (i.e., a "cold start").</li>
+</ul>
+<h3>
+<a name="Land Surface Processes"></a>Land Surface Processes</h3>
+<ul>
+  <li>Soil thermodynamics is determined by a 7-layer heat transfer
+model. The
+7 layers are of uneven depths and are spaced between 0.02 m and 3.0 m
+below
+the surface, providing for resolution of thermal forcing at periods
+from
+0.5 hour to 2 years. A zero-flux condition is imposed at the model's
+lower
+boundary, and the thermal insulation of snow is accounted for at its
+upper
+boundary. Introduction of the 7-layer model impacts ground temperature,
+snow mass/melt, and the seasonal change in prescribed vegetation that
+is
+tied to the soil temperature at a depth of 0.4 m. In turn, changes in
+snow
+cover and vegetation affect the albedo and roughness length over land.
+Cf. <a href="#Polcher%201994">Polcher (1994)</a> for further details.</li>
+</ul>
+<ul>
+  <li> <a name="SECHIBA"></a>Soil hydrology is simulated using the
+land
+surface
+scheme SECHIBA (Sch&eacute;matisation des Echanges Hydriques &agrave;
+l'
+Interface entre la Biosph&egrave;re et l'Atmosph&egrave;re). The total
+depth of the soil column (corresponding to the vegetation root zone) is
+a constant 1.0 m. Soil moisture is computed in two layers, the upper
+layer
+being the most reactive: when precipitation exceeds evapotranspiration,
+the upper layer fills first; when the reverse is true, it empties
+first.
+Runoff occurs whenever the soil column is completely saturated (water
+depth
+0.15 m). The remaining prescribed parameters for bare soil are a
+constant
+evaporative resistance and an empirical constant used to compute
+surface
+relative humidity for calculation of evaporation.</li>
+</ul>
+<ul>
+  <li>In SECHIBA, each of the 7 prescribed vegetation classes interact
+individually
+with the soil hydrology and contribute individually to the surface
+evaporative
+flux. All the vegetation is assumed to have a single-story canopy that
+transpires or intercepts precipitation, but the canopy moisture
+capacity
+varies with the leaf area index, which is prescribed differently for
+each
+vegetation class. Different architectural and canopy resistances for
+evaporation/transpiration
+also are prescribed for each vegetation class. Cf <a
+ href="#Ducoudre%20et%20al.%201993">Ducoudre
+et al. (1993)</a> for further details. See also <a
+ href="#Surface%20Fluxes">Surface
+Fluxes</a>.</li>
+</ul>
+<h3>
+<a name="Sea Ice"></a>Sea Ice</h3>
+<ul>
+  <li>Sea ice extents are diagnostically determined, as described by <a
+ href="#Braconnot%201997">Braconnot
+et. al (1997)</a>.&nbsp; Ice forms in an ocean grid box with surface
+temperature
+less than the freezing point for salt water. The underlying ocean is
+assumed
+to supply the ice with a a constant heat flux of 2 W m<sup>-2</sup> in
+the Arctic and 4 W m<sup>-2</sup> in the Antarctic.</li>
+</ul>
+<ul>
+  <li>The upper surface temperature of the ice is determined from the
+net
+atmospheric
+heat flux and the heat conduction from the ocean below, where the
+latter
+is inversely proportional to the ice thickness (assumed to be a
+constant
+3 m).</li>
+</ul>
+<ul>
+  <li>Sea ice dynamics and rheology are neglected.</li>
+</ul>
+<h3>
+<a name="Diffs_AMIP"></a><font size="+1">Chief Differences from Closest
+AMIP
+Model</font></h3>
+The atmospheric model (designated as version LMD5.3) is as described by
+<a href="#Harzallah%20and%20Sadourny%201995">Harzallah&amp;Sadourny(1995)</a>.
+Aside from its use of higher atmospheric horizontal and vertical
+resolution,
+model LMD5.3 differs in the following respects from AMIP model <a
+ href="http://www-pcmdi.llnl.gov/projects/modeldoc/amip1/24lmd_ToC.html">LMD
+LMD5 (3.6 x 5.6 L11)</a>:
+<ul>
+  <h3> <a name="Radiation"></a><font size="+1">Radiation</font></h3>
+  <font size="+0">The interaction of radiation and cloud has been
+subject to
+some tuning. As in the <a
+ href="http://www-pcmdi.llnl.gov/projects/modeldoc/amip1/24lmd.html#RTFToC24">AMIP
+model</a>, cloud optical thickness and emissivity are determined from
+the
+cloud liquid water path <b>W</b> (in kg m<sup>-</sup></font><sup>2</sup><font
+ size="+0">),
+the effective radius <b>r</b> of cloud droplets (in m), and the
+absorption
+coefficient <b>k</b> (in m<sup>2</sup> kg<sup>-1</sup>); however, the
+prognostic
+cloud liquid water content (LWC) (and therefore <b>W</b>) as well as <b>r</b>
+and <b>k</b> are determined differently:</font> <br>
+&nbsp;
+  <ul>
+    <li> <font size="+0">The LWC changes because of the introduction
+of a
+different
+parameterization of <a href="#Precipitation">precipitation</a>. Also,
+in
+place of the <a
+ href="http://www-pcmdi.llnl.gov/projects/modeldoc/amip1/24lmd.html#RTFToC24">AMIP
+model's</a> specification of <b>r</b> as a linear function of LWC, the
+effective droplet radius in the CMIP I experiment is prescribed as 10
+microns
+for warm (water) clouds </font>(with cloud-top temperatures &gt; 0 C) <font
+ size="+0">and
+as 40 microns for cold (ice) clouds </font>(with cloud-top
+temperatures
+&lt; -25 deg C). <font size="+0">(In the CMIP II experiments, <b>r</b>
+is
+set to somewhat different values.)</font></li>
+  </ul>
+  <ul>
+    <li> <font size="+0">The absorption constant <b>k</b> is also
+different for warm
+and cold clouds: 130 m<sup>2</sup> kg<sup>-1</sup> and 50 m<sup>2</sup>
+kg<sup>-1</sup>, respectively, rather than a constant 130 m<sup>2</sup>kg<sup>-1</sup>for
+      <i>all</i>
+clouds, as in the <a
+ href="http://www-pcmdi.llnl.gov/projects/modeldoc/amip1/24lmd.html#RTFToC24">AMIP
+model</a>.</font></li>
+  </ul>
+  <ul>
+    <li>In each grid box, warm clouds constitute a fraction <b>X</b>,
+and cold
+clouds a fraction <b>1-X</b> of the total cloud cover, where <b>X = 0</b>
+for temperatures below -25 deg C and <b>X</b> = 1 for temperatures
+above
+0 deg C; <b>X</b> is assumed to vary linearly for intermediate
+temperatures.
+(Somewhat different temperature bounds are specified in the CMIP II
+experiments.)</li>
+  </ul>
+  <p><br>
+Cf. <a href="#Le%20Treut%20et%20al.%201994">Le Treut et al. (1994)</a>
+for
+further details. See also <a href="#Precipitation">Precipitation.</a> </p>
+  <h3><a name="Precipitation"></a><font size="+1">Precipitation</font></h3>
+In place of the <a
+ href="http://www-pcmdi.llnl.gov/projects/modeldoc/amip1/24lmd.html#RTFToC27">AMIP
+model's </a>sharp distinction between precipitation in warm vs cold
+clouds,
+a smoother transition is specified in model LMD5.3: <br>
+&nbsp;
+  <ul>
+    <li>For warm (water) clouds, the precipitation rate is
+parameterized after <a href="#Sundqvist%201981">Sundqvist
+(1981)</a> as the product of a characteristic precipitation time scale <b>T</b>
+(value = 5.5 x 10<sup>-4</sup> s<sup>-1</sup>), the prognostic cloud
+liquid
+water mixing ratio <b>m</b>, and an exponential function of (<b>m</b>/<b>C</b>)<sup>2</sup>,
+where <b>C</b> is a prescribed precipitation threshold value = 2 x 10<sup>-4</sup>
+kg/kg.</li>
+  </ul>
+  <ul>
+    <li>For cold (ice) clouds, the precipitation rate is determined by
+the
+ratio
+of <b>m</b> to a different timescale <b>t</b> = <b>z</b>/<b>v</b>,
+where <b>z</b>
+is the depth of the vertical layer and <b>v</b> is the terminal
+velocity
+of the water droplets, which is determined as an empirical function of <b>m</b>
+after <a href="#Heymsfield%20and%20Donner%201990">Heymsfield and
+Donner (1990)</a>.</li>
+  </ul>
+  <ul>
+    <li>The proportion of liquid and ice water mass within the clouds
+varies
+linearly
+between 0 and -25 deg C.</li>
+  </ul>
+  <p><br>
+As in the <a
+ href="http://www-pcmdi.llnl.gov/projects/modeldoc/amip1/24lmd.html#RTFToC27">AMIP
+model</a>, evaporation of falling convective and large-scale
+precipitation
+is not explicitly modeled, but evaporation of small stratiform cloud
+droplets
+is simulated stochastically. </p>
+  <h3><a name="Surface Characteristics"></a><font size="+1">Surface
+Characteristics</font></h3>
+The formulation of surface characteristics in model LMD5.3 is the same
+as in the <a
+ href="http://www-pcmdi.llnl.gov/projects/modeldoc/amip1/24lmd.html#RTFToC33">AMIP
+model</a>, except for the following features: <br>
+&nbsp;
+  <ul>
+    <li>Fractional <a href="#Sea%20Ice">sea ice</a> and free ocean
+conditions
+may
+be specified within a single grid box, with roughness lengths and <a
+ href="#Surface%20Fluxes">surface
+fluxes</a> computed separately over ocean and ice. Roughness lengths
+over
+ice surfaces are a uniform 1.1 x 10<sup>-3</sup> m. Over ocean,
+roughness
+lengths are evaluated as a function of wind speed according to <a
+ href="#Charnock%201955">Charnock
+(1955)</a>.</li>
+  </ul>
+  <ul>
+    <li>Over ocean, the surface albedo is specified according to <a
+ href="#Larson%20and%20Barkstrom%201977">Larson
+and Barkstrom (1977)</a>.</li>
+  </ul>
+  <h3> <a name="Surface Fluxes"></a><font size="+1">Surface Fluxes</font></h3>
+In its treatment of surface fluxes, model LMD5.3 differs in the
+following
+respects from the <a
+ href="http://www-pcmdi.llnl.gov/projects/modeldoc/amip/24lmd.html#RTFToC34">AMIP
+model</a>: <br>
+&nbsp;
+  <ul>
+    <li>The surface drag coefficient for the momentum, sensible heat,
+and
+evaporative
+fluxes depends on surface roughness and stability, following the
+approach
+of <a href="#Louis%201979">Louis (1979).</a></li>
+    <br>
+&nbsp; <li>In addition, over the continents, the surface evaporative
+flux
+is determined
+by the <a href="#SECHIBA">SECHIBA land surface scheme.</a> The
+evaporative
+flux is calculated separately for each of the 8 coexisting surface
+types
+(bare ground plus 7 vegetation classes with fractional areas specified
+according to grid box) that are also present in the <a
+ href="http://www-pcmdi.llnl.gov/projects/modeldoc/amip1/24lmd.html#RTFToC33">AMIP
+model</a>. The total evaporative flux in each grid box then is computed
+as an area-weighted average of the individual fluxes. The total flux
+includes
+sublimation from snow, evaporation from bare soil and from moisture
+intercepted
+by the canopy of each vegetation class, and transpiration from the dry
+foliage of each class. Sublimation and evaporation from intercepted
+canopy
+moisture occur at the potential rate, while canopy transpiration and
+evaporation
+from bare soil depend on the surface relative humidity, which is
+parameterized
+in terms of soil moisture. Evaporation from sub-canopy soil is
+neglected.</li>
+  </ul>
+</ul>
+<ul>
+  <ul>
+    <li>In SECHIBA also, the surface evaporative flux is computed by a
+bulk
+method
+that depends on the moisture gradient between the surface and the
+overlying
+air, and on resistances of different kinds (aerodynamic, soil,
+architectural,
+and canopy) that vary according to surface type and/or the nature of
+the
+moisture flux (sublimation, evaporation, transpiration). Cf. <a
+ href="#Ducoudre%20et%20al.%201993">Ducoudre
+et al. (1993)</a> for further details. See also <a href="#Diffs_LSP">Land
+Surface Processes</a>.</li>
+  </ul>
+</ul>
+<ul>
+  <h3> <a name="Diffs_LSP"></a><font size="+1">Land Surface Processes</font></h3>
+Model LMD5.3 includes the <a href="#SECHIBA">SECHIBA land surface
+scheme</a>,
+which provides a more complex representation of land surface processes
+than that of the <a
+ href="http://www-pcmdi.llnl.gov/projects/modeldoc/amip1/24lmd.html#RTFToC35">AMIP
+model</a><a href="#Land%20Surface%20Processes">.</a>
+</ul>
+<h3>
+<a name="References"></a>References</h3>
+<a name="Braconnot 1997"></a>Braconnot, P., O. Marti, and S. Joussaume,
+1997: Adjustment and feedbacks in a global coupled ocean-atmosphere
+model.
+<i>Climate
+Dyn.</i>, <b>13</b>, 507-519.
+<p><a name="Charnock 1955"></a>Charnock, H., 1955: Wind stress on a
+water
+surface. <i>Quart. J. Royal Meteor. Soc</i>., <b>81</b>, 639.
+</p>
+<p><a name="Ducoudre et al. 1993"></a>Ducoudre, N., K. Laval, A.
+Perrier,
+1993: SECHIBA, a new set of parameterizations of the hydrologic
+exchanges
+at the land/atmosphere interface within the LMD atmospheric general
+circulation
+model. <i>J. Climate</i>, <b>6</b>, 248-273.
+</p>
+<p><a name="Harzallah and Sadourny 1995"></a>Harzallah, A., and R.
+Sadourny,
+1995: Internal versus SST forced atmospheric variability as simulated
+by
+an atmospheric general circulation model. <i>J. Climate</i>, <b>8</b>,
+474-498.
+</p>
+<p><a name="Heymsfield and Donner 1990"></a>Heymsfield, A.J., and L.J.
+Donner, 1990: A scheme for parameterizing ice-cloud water content in
+general
+circulation models. <i>J. Atmos. Sci</i>., <b>47</b>, 1865-1877.
+</p>
+<p><a name="Larson and Barkstrom 1977"></a>Larson, J.C., and B.R.
+Barkstrom,
+1977: Effects of realistic angular reflection laws for Earth's surface
+upon calculations of the earth-atmosphere albedo. In Proceedings of the
+Symposium on Radiation in the Atmosphere, Science Press, 451-453.
+</p>
+<p><a name="Le Treut et al. 1994"></a>Le Treut, H., Z.-X. Li, and M.
+Forichon,
+1994: Sensitivity of the LMD general circulation model to greenhouse
+forcings
+associated with two different cloud water parameterizations. <i>J.
+Climate</i>,
+<b>7</b>,
+1827-1841.
+</p>
+<p><a name="Levitus 1982"></a>Levitus, S., 1982: Climatological atlas
+of
+the world's oceans. NOAA Professional Paper 13, 173 pp.
+</p>
+<p><a name="Louis 1979"></a>Louis, J.F., 1979: A parametric model of
+vertical
+eddy fluxes in the atmosphere. <i>Bound. Layer Meteor</i>., <b>17</b>,
+187-202.
+</p>
+<p><a name="Polcher 1994"></a>Polcher, J., 1994: Etude de la
+sensibilit&eacute;
+du climat tropical a la deforestation. Ph.D. dissertation,
+Universit&eacute;
+Pierre et Marie Curie, Paris, France.
+</p>
+<p><a name="Sundqvist 1981"></a>Sundqvist, H, 1981: Prediction of
+stratiform
+clouds: Results of a 5-day forecast with a global model. <i>Tellus</i>,
+<b>33</b>,
+242-253.
+<br>
+&nbsp;
+<br>
+</p>
+<p><br>
+</p>
+<p><br>
+</p>
+<p><br>
+</p>
+<p><br>
+</p>
+<p><br>
+</p>
+<p><br>
+</p>
+<p><br>
+</p>
+<p><br>
+</p>
+<p><br>
+</p>
+<p><br>
+</p>
+<p><br>
+</p>
+<p><br>
+</p>
+<p><br>
+<br>
+</p>
+<p><a href="#Top%20of%20Page">Top</a>
+</p>
+<p><a href="tables.html">CMIP Documentation Directory</a>
+</p>
+<hr>Last update 15 May, 2002.&nbsp; This page is maintained by Tom
+Phillips
+(<a href="mailto:" phillips@pcmdi.llnl.gov="">phillips@pcmdi.llnl.gov</a>).
+<br>
+&nbsp;
+<p><a href="http://www.llnl.gov/disclaimer.html">LLNL Disclaimers</a>
+</p>
+<p>UCRL-MI-126431
+</p>
+</body>
+</html>

@@ -1,0 +1,601 @@
+<!DOCTYPE html PUBLIC "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+  <meta http-equiv="Content-Type"
+ content="text/html; charset=iso-8859-1">
+  <meta name="Generator" content="Microsoft Word 97">
+  <meta name="Template"
+ content="C:\Program Files\Microsoft Office\Office\html.dot">
+  <meta name="GENERATOR"
+ content="Mozilla/4.79 [en] (Windows NT 5.0; U) [Netscape]">
+  <title>csiro_tbls.new.bak</title>
+</head>
+<body bgcolor="#ffffff" link="#0000ff" vlink="#800080">
+<h1>
+<a name="Top_of_Page"></a></h1>
+<h1>
+Model CSIRO: Elaborations</h1>
+<hr>
+<br>
+&nbsp;
+<h3><a name="Participation"></a>Participation</h3>
+Model CSIRO is an entry in both the CMIP1 and CMIP2 intercomparisons.
+<h3><a name="Spinup/Initialization"></a>Spinup/Initialization</h3>
+The procedure for spinup/initialization to the simulation starting
+point
+of the CSIRO coupled model is as follows (reference:<i> </i><a
+ href="csiro_tbls.html#Gordon_and_O_Farrell_1997">Gordon
+and O'Farrell 1997</a>):
+<ul>
+  <li>The atmosphere model was coupled to the dynamic sea ice model and
+integrated
+for many decades (without restoring forces toward climatology or
+surface
+stress adjustments) to ensure equilibrium of the ice.&nbsp; The surface
+fluxes from the final 10 years of the integration were averaged to
+obtain
+a monthly climatology for use in calculating the flux adjustments for
+the
+coupled run.</li>
+</ul>
+<ul>
+  <li>The ocean model started from rest and with temperature and
+salinity at
+each level specified from global average values after <a
+ href="csiro_tbls.html#Levitus_1982">Levitus
+(1982)</a>.&nbsp; It was forced at the surface with the climatological
+wind stress data of <a
+ href="csiro_tbls.html#Hellerman_and_Rosenstein_1983">Hellerman
+and Rosenstein (1983)</a>.&nbsp; In the first phase, the ocean model
+was
+integrated for 1000 years with annual-mean forcing using asynchronous
+time
+stepping (2 days for T,S and 20 minutes for U,V); then it was
+integrated
+for an additional 100 years with annual mean forcing a reduced
+asynchronicity
+(1 day for T,S and 20 minutes for U,V); then it was integrated for an
+additional
+1070 years with monthly mean forcing and further-reduced asynchronicity
+(1 day for T,S and 40 minutes for U,V); finally it was integrated for
+710
+years with monthly mean forcing using synchronous time stepping (1 hour
+for T,S,U,V).</li>
+</ul>
+<ul>
+  <li>Flux adjustments for heat, salinity, and surface stresses were
+calculated
+following the method of <a href="#Sausen_et_al__1988">Sausen et al.
+(1988)</a>
+and the ocean model's SST and SSS were further corrected at each time
+step
+before being passed to the atmospheric model in order to reduce the
+drift
+in coupled mode (cf. <a href="#Gordon_and_O_Farrell_1997">Gordon and
+O'Farrell
+1997</a> for details).</li>
+</ul>
+<ul>
+  <li>The atmosphere/sea ice and ocean models then were coupled and run
+for
+105
+years with these flux adjustments and corrections.&nbsp; The resulting
+climate drift was modest (~ -0.4 deg&nbsp; K in 2m surface air
+temperature
+and ~ -0.3 deg K in SST).</li>
+</ul>
+<h3>
+<a name="Land_Surface_Processes"></a>Land Surface Processes</h3>
+The land surface scheme is after <a href="#Kowalczyk_et_al__1991">Kowalczyk
+et al. (1991,</a><a href="#Kowalczyk_et_al__1994">1994</a><a
+ href="#Kowalczyk_et_al__1991">)</a>.
+<ul>
+  <li>The scheme includes a single-layer vegetation canopy that acts as
+a
+source
+or sink of water vapor and sensible heat. Monthly-varying values of
+local
+fractional vegetation type, unconstrained stomatal resistance,
+roughness
+length, and albedo are specified from data of <a
+ href="#Dorman_and_Sellers_1989">Dorman
+and Sellers (1989)</a>. The canopy shields the ground from solar
+radiation
+and intercepts precipitation and dew up to a maximum depth that depends
+on the leaf area index (LAI); the intercepted moisture subsequently
+evaporates
+at the potential rate.&nbsp;<a name="Transpiration"></a>Following the
+approach
+of <a href="#Noilhan_and_Planton_1989">Noilhan and Planton (1989)</a>,
+evapotranspiration from the dry portion of the canopy is regulated by a
+variable stomatal resistance that depends on the unconstrained value
+modified
+by factors associated with incident radiation, air temperature,
+availability
+of water in the root zone, and atmospheric vapor pressure deficit. Cf. <a
+ href="#Kowalczyk_et_al__1994">Kowalczyk
+et al. (1991,1994) </a>for further details.</li>
+</ul>
+<ul>
+  <li>Precipitation falls as rain and, if the surface air temperature
+is
+below
+0 deg C, freezes at the surface with release of its latent heat. The
+presence
+of snow modifies the roughness length and the radiative/thermal
+properties
+of the surface. The latter depend on the fractional snow depth: the
+surface
+albedo is assigned a maximum value of 0.8 when a snow scaling depth of
+0.14 m is exceeded and the surface temperature is calculated using a
+combined
+snow/soil layer. Changes in the total snow mass are calculated from a
+budget
+equation.</li>
+</ul>
+<ul>
+  <li>Soil temperature is calculated following <a
+ href="#McGregor_et_al__1993">McGregor
+et al. (1993)</a>. Three layers are used, their thicknesses (0.03,
+0.23,
+and 2.5 m) chosen to enable a reasonable representation of both diurnal
+and seasonal temperature waves in the soil. The temperature of the i-th
+layer is incremented by the diffusive heat flux into and out of the
+layer.
+Soil moisture is calculated using two layers, as described by <a
+ href="#Kowalczyk_et_al__1994">Kowalczyk
+et al. (1994)</a>. The chief source of soil moisture is surface
+infiltration
+which depends on precipitation, snowmelt, surface runoff, and soil
+hydrological
+properties; moisture sinks include evaporation from bare soil, root
+extraction
+associated with <a href="#Transpiration">canopy transpiration</a>, and
+gravitational drainage when the local field capacity is exceeded.
+Surface
+runoff and gravitational drainage do not contribute to the flux of
+freshwater
+to the ocean model, however.</li>
+</ul>
+<h3>
+<a name="Sea_Ice"></a>Sea Ice</h3>
+<ul>
+  <li>In a departure from common practice, the representation of sea
+ice (<a href="#O_Farrell_1998">O'Farrell
+1998</a>) is associated with the atmospheric component of the coupled
+model:
+physics (radiation, clouds, moisture and heat budget, etc.) are
+calculated
+separately for ice and open-water fractions of each grid box, and then
+are combined as an area-weighted average before computing the dynamics
+(advection, mixing, etc.). The ice concentration and the percentage of
+open water in each grid box are determined from the energy budget of
+the
+ocean mixed layer adjacent to the ice: once this water reaches the
+saltwater
+freezing point (-1.85 deg C), new ice forms at increments of 4 percent
+of the grid box. If ice advecting outside the existing area encounters
+a mixed layer temperature close to the freezing point, the advected ice
+is allowed to remain.</li>
+</ul>
+<ul>
+  <li>Both vertical and lateral accretion of ice are
+treated.&nbsp;&nbsp; If
+the existing ice floe is less than 0.25 m thick, new ice is added to
+its
+base; otherwise, ice is added to its side. Additional ice also is added
+to the base of the floe when the ice concentration is greater than
+98%&nbsp;
+in the Antarctic or 99.5% in the Arctic.&nbsp;&nbsp; In addition,
+"white
+ice " (cf. <a href="#Ledley__1985_">Ledley&nbsp; 1985</a>) forms from
+the
+overlying snow pack when it is massive enough to depress the floe
+below&nbsp;
+the ocean surface.&nbsp; Maximum ice thickness is constrained to 5 m,
+but
+only when ice&nbsp; is trapped in embayments where grid resolution
+inhibits
+the calculation of ice velocities.</li>
+</ul>
+<ul>
+  <li>Vertical and lateral ice ablation also are represented.&nbsp;
+Surface
+melting
+is calculated after the thermodynamic model of <a href="#Semtner_1976">Semtner
+(1976)</a>&nbsp; which divides the ice system into three layers--two
+for
+ice and one for overlying snow, with constant albedos specified for the
+two media; simulated brine pockets also provide an internal heat
+source.&nbsp;
+No lateral melting occurs for a system temperature between -1.85 and
+-1.0
+deg C.&nbsp; For a temperature between -1.0 and 0.5 deg C, any
+additional
+heat is partitioned between the ocean mixed layer and lateral ice
+melt.&nbsp;
+All additional heat goes to lateral ice melt when the temperature is
+greater
+than 0.5 deg C.&nbsp; Basal melt also results from ocean-to-ice heat
+transfer,
+which&nbsp; is proportional to the difference between the surface
+temperature
+of the ocean and the ice bottom at the saltwater freezing
+temperature.&nbsp;
+(The diffusion coefficient K = 1.5*10<sup>-6 </sup>m<sup>2 </sup>s<sup>-1</sup>
+permits the ocean temperature to rise 1 to 2 degrees above the
+saltwater
+freezing point without excessive melting of ice.) In the Antarctic an
+additional
+fixed ocean-to-ice flux of 10 Wm<sup>-2</sup> is applied to represent
+the
+higher transfer rates that occur during convection and the passage of
+subgrid-scale
+warm eddies.</li>
+</ul>
+<ul>
+  <li>The model also incorporates the cavitating fluid rheology of <a
+ href="#Flato_and_Hibler_1990">Flato
+and Hibler (1990)</a>,&nbsp; wherein the sea ice has a finite
+resistance
+to compression, but can diverge freely.&nbsp;&nbsp; Convergence of ice,
+with thickening by the formation of ridges, occurs when the internal
+ice
+pressure is exceeded.&nbsp; Divergence increases the area of open water
+in leads (i.e. reduces the ice compactness) rather than affecting the
+ice
+thickness.&nbsp; The ice also is assumed to offer no resistance to
+shear
+stress; its motion is determined by a dynamical balance between the
+internal
+ice presssure, the atmospheric and oceanic surface stresses, and the
+Coriolis
+force. Ice advection is treated numerically with an upstream
+differencing
+scheme.</li>
+</ul>
+<h3>
+&nbsp;</h3>
+<h3>
+Ocean Component</h3>
+<ul>
+  <li>The ocean component of the coupled model is based on the
+Bryan-Cox code
+(cf. <a href="#Cox_1984">Cox 1984</a>), and is described in <a
+ href="#Hirst_et_al_2000">Hirst
+et al. (2000)</a>. Temperature/salinity grid points are coincident with
+the physics grid of the atmospheric model, hence the model has a
+horizontal
+resolution of 3.2<font face="Symbol">&deg;</font> latitude by 5.2<font
+ face="Symbol">&deg;</font>
+longitude. The model features three "islands" (Antarctica,
+Australia-New
+Guinea, New Zealand), as well as the major Eurasian-African-American
+land
+mass. There is no Bering Strait throughflow. Nonzero net circulation is
+permitted around each island. The Mediterranean Sea and Hudson Bay are
+included, and the effect of water exchange between these features and
+the
+North Atlantic is parameterized via a mixing of tracers across the
+(unresolved)
+Strait of Gibraltar and Hudson Strait.</li>
+</ul>
+<ul>
+  <li>The ocean component has 21 levels in the vertical, with level
+spacing
+grading
+from 25 m near the surface to 450 m in the deep ocean.</li>
+</ul>
+<ul>
+  <li>Tracers (temperature, salinity) are diffused strongly along the
+neutral
+density surfaces, and weakly in the vertical. The isoneutral diffusion
+is performed by the <a href="#Cox_1987">Cox (1987)</a> implementation
+of
+the <a href="#Redi_1982">Redi (1982)</a> scheme using a uniform
+isoneutral
+tracer diffusivity of 1* 10<sup>3</sup> m<sup>2</sup> s<sup>-1</sup>.
+The
+vertical diffusivity is specified in terms of local static stability
+according
+to the formula of <a href="#Gargett_1984">Gargett (1984)</a>, however
+with
+a minimum allowed default value of 3 * 10<sup>-5</sup> m<sup>2</sup> s<sup>-1</sup>.&nbsp;
+Larger default minima of 2 * 10<sup>-3</sup> m<sup>2</sup> s<sup>-1</sup>
+and 1 * 10<sup>-4 </sup>m<sup>2</sup> s<sup>-1 </sup>for vertical
+diffusivity
+are set between the first and second, and second and third model
+levels,
+respectively, to roughly simulate some wind forced mixing effect.
+Convection
+is simulated by applying an enhanced vertical diffusivity, of 10<sup>3</sup>
+m<sup>2</sup> s<sup>-1</sup>, in regions of static instability.</li>
+</ul>
+<ul>
+  <li>The model includes the advective form of the <a
+ href="#Gent_and_McWilliams_1990">Gent
+and McWilliams (1990)</a> scheme for eddy-induced transport of tracers
+(cf. <a href="#Gent_et_al_1995">Gent et al. 1995</a>). The isoneutral
+thickness
+diffusivity is set at 1 * 10<sup>3</sup> m<sup>2</sup> s<sup>-1</sup>
+below
+270 m depth, above which this diffusivity is tapered linearly to zero
+at
+the surface. Horizontal tracer diffusivity is set to zero, as is common
+in models employing the <a href="#Gent_and_McWilliams_1990">Gent and
+McWilliams
+(1990)</a> scheme.</li>
+</ul>
+<ul>
+  <li>The horizontal viscosity is set at 9 * 10<sup>5 </sup>m<sup>2</sup>
+s<sup>-1</sup>
+and the vertical viscosity is set at 2 * 10<sup>-3</sup> m<sup>2</sup>
+s<sup>-1</sup>, which are standard choices for the present resolution
+(e.g.,
+cf. <a href="#Bryan_et_al_1975">Bryan et al. 1975</a>).</li>
+</ul>
+<h3>
+&nbsp;</h3>
+<h3>
+Details of the CMIP Integrations</h3>
+<ul>
+  <li>The 100 years of output featured in CMIP 1 is for model year 111
+through
+model year 210 of the 1,000 year simulation described in <a
+ href="#Hirst_et_al_2000">Hirst
+et al. (2000)</a>. The model version employed is the same as that
+described
+in <a href="#Gordon_and_O_Farrell_1997">Gordon and O'Farrell (1997)</a>,
+except that the <a href="#Gent_and_McWilliams_1990">Gent and
+McWilliams
+(1990)</a> scheme has been used in the ocean component and the number
+of
+oceanic levels has been increased from 12 to 21. <a
+ href="#Hirst_et_al_2000">Hirst
+et al. (2000)</a> give a detailed comparison of this 1,000 year
+simulation
+(which they refer to as "GM") with the earlier control simulation
+presented
+in <a href="#Gordon_and_O_Farrell_1997">Gordon and O'Farrell (1997)</a>.</li>
+</ul>
+<ul>
+  <li>The CMIP 2 integration is performed using the same model version
+as for
+CMIP 1, and is initialized from the model fields at the end of year 130
+of the CMIP 1 simulation. Thus the 80 years of the transient CMIP 2
+integration
+corresponds in time to the final 80 years of the period included in
+CMIP
+1 from the control integration. The response of the model to the 1% per
+annum compounding CO2 concentration in the CMIP 2 integration is
+similar
+to that shown in <a href="#Hirst_et_al_1996">Hirst et al. (1996)</a>
+and <a href="#Hirst_1999">Hirst
+(1999)</a> for the same model version forced according to the IPCC
+IS92a
+scenario. See also <a href="#Gordon_and_O_Farrell_1997">Gordon and
+O'Farrell
+(1997)</a> for a detailed discussion of an earlier 1%-compounding
+response
+experiment performed with the CSIRO model (prior to inclusion of the <a
+ href="#Gent_and_McWilliams_1990">Gent
+and McWilliams 1990</a> scheme).</li>
+</ul>
+<h3>
+<a name="Diffs_AMIP"></a>Chief Differences from the Closest AMIP Model</h3>
+<dir><a name="Horizontal_Representation"></a><b>Horizontal
+Representation</b>
+<p>In contrast to AMIP model <a
+ href="http://www-pcmdi.llnl.gov/projects/modeldoc/amip1/15csiro.html#RTFToC7">CSIRO
+CSIRO9 Mark 1 (R21 L9)</a>, the representation of atmospheric moisture
+transport is semi-Lagrangian.
+</p>
+<p><a name="Diffs_AMIP_Sea_Ice"></a><b>Sea Ice</b>
+</p>
+<p>A dynamic/thermodynamic <a href="#Sea_Ice">sea ice model</a> after <a
+ href="#O_Farrell_1998">O'Farrell
+(1998)</a> replaces the formulation of the <a
+ href="http://www-pcmdi.llnl.gov/projects/modeldoc/amip1/15csiro.html#RTFToC31">AMIP
+model</a>.
+</p>
+<p><a name="Diffs_AMIP_LSP"></a><b>Land Surface Processes</b>
+</p>
+<p><a href="#Land_Surface_Processes">Land surface processes </a>related
+to hydrology and vegetation differ from those in the <a
+ href="http://www-pcmdi.llnl.gov/projects/modeldoc/amip1/15csiro.html#RTFToC35">AMIP
+model</a>.
+<br>
+&nbsp;
+<br>
+&nbsp;</p>
+</dir>
+<a name="References"></a><b>References</b>
+<br>
+&nbsp;
+<p><a name="Bryan_et_al_1975"></a>Bryan, K., S. Manabe, and R.C.
+Pacanowski,
+1975: A global ocean-atmosphere climate model. Part II: The ocean
+circulation.<i>
+J. Phys. Oceanogr</i>., <b>5</b>, 30-46.
+</p>
+<p><a name="Cox_1984"></a>Cox, M.D., 1984: A primitive equation,
+3-dimensional
+model of the ocean. GFDL Ocean Group Tech. Rep. 1, GFDL/Princeton
+University,
+Princeton , N.J., 141 pp. [Available from Geophysics Fluid Dynamics
+Laboratory/NOAA,
+Princeton University, Princeton, NJ 08542.]
+</p>
+<p><a name="Cox_1987"></a>Cox, M.D., 1987: Isopycnal diffusion in a <i>z</i>-coordinate
+ocean model. <i>Ocean Modelling</i>, <b>74</b>, 1-15.
+</p>
+<p><a name="Dorman_and_Sellers_1989"></a>Dorman, J.L., and P.J.
+Sellers,
+1989: A global climatology of albedo, roughness length and stomatal
+resistance
+for atmospheric general circulation models as represented by the Simple
+Biosphere Model (SiB). <i>J. Appl. Meteor</i>., <b>28</b>, 833-855.
+</p>
+<p><a name="Flato_and_Hibler_1990"></a>Flato, G.M., and W.D. Hibler
+1990:
+On a simple sea-ice dynamics model for climate studies. <i>Ann.
+Glaciol.</i>,
+<b>14</b>,
+72-77.
+</p>
+<p><a name="Gargett_1984"></a>Gargett, A.E., 1984: Vertical eddy
+diffusivity
+in the ocean interior. <i>J. Mar. Res</i>., <b>42</b>, 359-393.
+</p>
+<p><a name="Gent_and_McWilliams_1990"></a>Gent, P.R., and J.C.
+McWilliams,
+1990: Isopycnal mixing in ocean circulation models. <i>J. Phys.
+Oceanogr</i>.,
+<b>20</b>,
+150-155.
+</p>
+<p><a name="Gent_et_al_1995"></a>Gent, P.R., J. Willebrand, T.J.
+McDougall
+and J.C. McWilliams, 1995: Parameterising eddy-induced tracer
+transports
+in ocean circulation models<i>. J. Phys. Oceanogr</i>., <b>25</b>,
+463-474.
+</p>
+<p><a name="Gordon_and_O_Farrell_1997"></a>Gordon, H.B., and S.P.
+O'Farrell,
+1997:&nbsp; Transient climate change in the CSIRO coupled model with
+dynamic
+sea ice, <i>Monthly Weather Review</i>, <b>125</b>, 875-907.
+</p>
+<p><a name="Hellerman_and_Rosenstein_1983"></a>Hellerman, S., and M.
+Rosenstein,
+1983: Normal monthly wind stress over the world ocean with error
+estimates.
+<i>J.
+Phys. Oceanogr.</i>, <b>13</b>, 1093-1104.
+</p>
+<p><a name="Hirst_et_al_1996"></a>Hirst A.C., H. B. Gordon, and S.P.
+O'Farrell,
+1996: Global warming in a coupled climate model including oceanic
+eddy-induced
+advection. <i>Geophys. Res. Lett</i>., <b>23</b>, 3361-3364.
+</p>
+<p><a name="Hirst_1999"></a>Hirst A.C., 1999: The Southern Ocean
+response
+to global warming in the CSIRO coupled ocean-atmosphere model. <i>Environ.
+Modeling and Software: Special Issue on Modelling Global Climatic Change</i>,
+<b>14</b>,
+227-242<b>.</b>
+</p>
+<p><a name="Hirst_et_al_2000"></a>Hirst, A.C., S.P. O'Farrell and H.B.
+Gordon, 2000: Comparison of a coupled ocean-atmosphere model with and
+without
+oceanic eddy-induced advection. Part I: Ocean Spinup and control
+integrations.
+<i>J.
+Climate</i>, <b>13</b>, 139-163.
+</p>
+<p><a name="Kowalczyk_et_al__1991"></a>Kowalczyk, E.A., J.R. Garratt,
+and
+P.B. Krummel, 1991: A soil-canopy scheme for use in a numerical model
+of
+the atmosphere--1 D stand-alone model. CSIRO Division of Atmospheric
+Research
+Technical Paper No. 23, 56 pp.
+</p>
+<p><a name="Kowalczyk_et_al__1994"></a>Kowalczyk, E.A., J.R. Garratt,
+and
+P.B. Krummel, 1994: Implementation of a soil-canopy scheme into the
+CSIRO
+GCM-Regional aspects of the model response. CSIRO Division of
+Atmospheric
+Research Technical Paper No. 32, 59 pp.
+</p>
+<p><a name="Ledley__1985_"></a>Ledley, T.S., 1985: Sea ice: Multiyear
+cycles
+and white ice.&nbsp; J<i>. Geophys. Res.</i>, <b>90</b>, 5,676-5686.
+</p>
+<p><a name="Levitus_1982"></a>Levitus, S., 1982: Climatological atlas
+of
+the world's oceans. NOAA Professional Paper 13, 173 pp.
+</p>
+<p><a name="McGregor_et_al__1993"></a>McGregor, J.L., H.B. Gordon, I.G.
+Watterson, M.R. Dix, and L.D. Rotstayn, 1993: The CSIRO 9-level
+atmospheric
+general circulation model. CSIRO Division of Atmosheric Research
+Technical
+Paper No. 26, 89 pp.
+</p>
+<p><a name="Noilhan_and_Planton_1989"></a>Noilhan, J., and S. Planton,
+1989: A simple parameterization of land surface processes for
+meteorological
+models. <i>Mon. Wea. Rev.</i>, <b>117</b>, 536-549.
+</p>
+<p><a name="O_Farrell_1998"></a>O'Farrell, S.P., 1998: Investigation of
+the dynamic sea ice component of a coupled atmosphere sea-ice general
+circulation
+model. <i>J. Geophys. Res. (Oceans)</i>, <b>103</b>,<i> </i>15751-15782.
+</p>
+<p><a name="Redi_1982"></a>Redi, M.H., 1982: Oceanic isopycnal mixing
+by
+coordinate rotation. <i>J. Phys. Oceanogr.</i>, <b>12</b>, 1154-1158.
+</p>
+<p><a name="Sausen_et_al__1988"></a>Sausen, R., K. Barthel, and K.
+Hasselman,
+1988: Coupled ocean-atmosphere models with flux correction. <i>Climate
+Dyn.</i>, <b>2</b>, 145-163.
+</p>
+<p><a name="Semtner_1976"></a>Semtner, A.J., 1976: A model for the
+thermodynamic
+growth of sea ice in numerical investigations of climate.&nbsp; <i>J.
+Phys.
+Oceanogr.</i>, <b>6</b>, 379-389.
+<br>
+&nbsp;
+<br>
+</p>
+<p><br>
+</p>
+<p><br>
+</p>
+<p><br>
+</p>
+<p><br>
+</p>
+<p><br>
+</p>
+<p><br>
+</p>
+<p><br>
+</p>
+<p><br>
+</p>
+<p><br>
+</p>
+<p><br>
+</p>
+<p><br>
+</p>
+<p><br>
+</p>
+<p><br>
+<br>
+</p>
+<p><a href="#Top%20of%20Page">Top</a>
+</p>
+<p><a href="tables.html">CMIP Documentation Directory</a>
+</p>
+<p></p>
+<hr>
+<p>Last update 15 May, 2002.&nbsp; This page is maintained by Tom
+Phillips
+(<a href="mailto:">phillips@pcmdi.llnl.gov</a>).
+<br>
+&nbsp;
+</p>
+<p><a href="http://www.llnl.gov/disclaimer.html">LLNL Disclaimers</a>
+</p>
+<p>UCRL-MI-126431
+</p>
+</body>
+</html>

@@ -1,0 +1,147 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="GENERATOR" content="Mozilla/4.79 [en] (Windows NT 5.0; U) [Netscape]">
+   <title>CCSR Table Elaborations</title>
+</head>
+<body bgcolor="#FFFFFF">
+
+<h1>
+<a NAME="Top of Page"></a>Model CCSR: Elaborations</h1>
+
+<hr WIDTH="100%">
+<h3>
+<a NAME="Participation"></a>Participation</h3>
+Model CCSR is an entry in both the CMIP1 and CMIP2 intercomparisons.
+<h3>
+<a NAME="Spinup/Initialization"></a>Spinup/Initialization</h3>
+The procedure for spinup/initialization to the simulation starting point
+of the CCSR coupled model is as follows (reference: Masahide Kimoto, personal
+communication):
+<ul>
+<li>
+First stage: The model atmosphere is integrated for 20 years starting from
+the initial conditions for the AMIP experiment.&nbsp; The last 15 years
+of this simulation is used for ocean spinup as described in the third stage
+below.</li>
+</ul>
+
+<ul>
+<li>
+Second stage: The ocean model is integrated for 2000 years with acceleration
+from static, isothermal, isohaline initial conditions.&nbsp; The ocean
+surface conditions are restored to climatology--<a href="#Levitus 1982">Levitus
+(1982)</a> SST and SSS and <a href="#Hellerman and Rosenstein 1983">Hellerman
+and Rosenstein (1983)</a> wind stress.</li>
+</ul>
+
+<ul>
+<li>
+Third stage: The ocean model is integrated for 4000 years with the atmospheric
+fluxes obtained in the first-stage spinup. The ocean surface conditions
+are restored to the same climatology as in the second-stage spinup, except
+that the SST are modified for the last 2000 years, according to the AMIP
+data.&nbsp; Initial flux-adjustment terms for heat and salinity are obtained.</li>
+</ul>
+
+<ul>
+<li>
+Fourth stage:&nbsp; The atmosphere and ocean models are coupled, and the
+system is integrated for 40 years, with the surface conditions restored
+to climatology as in the third stage.&nbsp; Additional flux-adjustment
+terms are obtained for heat and salinity.</li>
+
+<li>
+Fifth stage:&nbsp; The coupled model is run for 80 years with the flux
+adjustment terms for heat and salinity obtained above.&nbsp; The last 40
+years of this run constitutes the CMIP data set.</li>
+</ul>
+
+<h3>
+<a NAME="Land Surface Processes"></a>Land Surface Processes</h3>
+
+<ul>
+<li>
+The skin temperature of soil and land ice is predicted by a heat diffusion
+equation that is discretized in 3 layers with a zero-flux lower boundary
+condition; heat capacity and conductivity are spatially uniform values.
+Surface snow is treated as part of the uppermost soil layer, and thus modifies
+its heat content, as well as the heat conduction to lower layers.</li>
+</ul>
+
+<ul>
+<li>
+Soil liquid moisture is predicted in a single layer according to the "bucket"
+formulation of <a href="#Manabe et al.(1965)">Manabe et al. (1965)</a>
+The moisture field capacity is a spatially uniform 0.15 m, with surface
+runoff occurring if the predicted soil moisture exceeds this value. Snowmelt
+contributes to soil moisture, but if snow covers a grid box completely,
+the permeability of the soil to falling <i>liquid </i>precipitation becomes
+zero. For partial snow cover, the permeability decreases proportional to
+increasing snow fraction.</li>
+</ul>
+
+<ul>
+<li>
+Soil moisture is depleted by surface evaporation; the evaporation efficiency
+<b>beta</b>
+is not determined solely by the ratio of soil moisture to its saturation
+value, but is limited by the specified stomatal resistance of the vegetation.
+Other effects of vegetation, such as the interception of precipitation
+by the canopy and its subsequent reevaporation, are not included.</li>
+</ul>
+
+<ul>
+<li>
+Continental runoff is returned to the oceans, by means of a river transport
+model (cf. <a href="#Miller et al. 1994">Miller et al. 1994</a>). Runoff
+instantaneously increases the river and lake mass of a grid box, which
+is also affected by the local balance of precipitation and evaporation.
+For each continental grid box, a river direction file indicates the downstream
+routing to one of the 8 neighboring grid boxes. The river mass flux out
+of a grid box is computed as a function of the river and lake mass that
+lies above the local sill depth, an effective flow speed that depends on
+the local orography gradient, and the mean distance to the downstream neighbor.
+The flow speed is prescribed as a constant 0.3 m sec<sup>-1</sup>.</li>
+</ul>
+
+<h3>
+<a NAME="Sea Ice"></a>Sea Ice</h3>
+Sea ice is simulated in a single layer, with an additional layer representing
+accumulated snow.&nbsp; Snowfall, sublimation, surface melt and bottom
+melt/freeze are treated. Ice albedo is in the range 0.5-0.8 and varies
+linearly according to temperature between 0 and 15 C.&nbsp; Thermodynamics
+are modeled after <a href="#Semtner 1976">Semtner (1976)</a>.&nbsp; Sea
+ice dynamics and rheology are neglected.
+<ul>&nbsp;</ul>
+
+<h3>
+<a NAME="References"></a>References</h3>
+<a NAME="Hellerman and Rosenstein 1983"></a>Hellerman, S., and M. Rosenstein,
+1983: Normal monthly wind stress over the world ocean with error estimates.
+<i>J.
+Phys. Oceanogr.</i>, <b>13</b>, 1093-1104.
+<p><a NAME="Levitus 1982"></a>Levitus, S., 1982: Climatological atlas of
+the world's oceans. NOAA Professional Paper 13, 173 pp.
+<p><a NAME="Manabe et al.(1965)"></a>Manabe, S., J. Smagorinsky, and R.F.
+Strickler, 1965: Simulated climatology of a general circulation model with
+a hydrologic cycle. <i>Mon. Wea. Rev</i>., <b>93</b>, 769-798.
+<p><a NAME="Miller et al. 1994"></a>Miller, J.R., G.L. Russell, and G.
+Caliri, 1994: Continental scale river flow in climate models. <i>J. Climate</i>,
+7, 914-928.
+<p><a NAME="Semtner 1976"></a>Semtner, A.J., 1976: A model for the thermodynamic
+growth of sea ice in numerical investigations of climate.&nbsp; J. Phys.
+Oceanogr., 6, 379-389.
+<br>&nbsp;
+<p><a href="#Top of Page">Top</a>
+<p><a href="tables.html">CMIP Documentation Directory</a>
+<p>
+<hr>
+<p>Last update 15 May, 2002.&nbsp; This page is maintained by Tom Phillips
+(<a href="mailto:" phillips@pcmdi.llnl.gov">phillips@pcmdi.llnl.gov</a>).
+<br>&nbsp;
+<p><a href="http://www.llnl.gov/disclaimer.html">LLNL Disclaimers</a>
+<p>UCRL-MI-126431
+</body>
+</html>
