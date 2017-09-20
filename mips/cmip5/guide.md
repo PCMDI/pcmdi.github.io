@@ -111,7 +111,7 @@ All users of CMIP5 model output should be sure to properly cite and acknowledge 
 
 The process for registering and downloading CMIP5 model output is summarized in the
 
-[Getting Started Document]({{site.baseurl}}/mips/cmip5/data_getting_started.html)
+[Getting Started Document]({{site.baseurl}}/mips/cmip5/data-access-getting-started.html)
 {: .indent}
 
 An overview of currently available model output can be found at:
