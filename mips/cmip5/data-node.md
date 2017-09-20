@@ -100,6 +100,6 @@ New, Updated Virtual Machines Will Be Posted Shortly.
 
  For ESG-CET software and installation help and support, please send your e-mail questions to:
 
- [esg-node-user@lists.llnl.gov](esg-node-user@lists.llnl.gov)
+ [esg-node-user@lists.llnl.gov](mailto:esg-node-user@lists.llnl.gov)
 
 

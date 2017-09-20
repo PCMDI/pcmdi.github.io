@@ -19,7 +19,7 @@ order to confidently use GCMs for simulation of putative global climate change.
 
 PCMDI's mission demands that we work on both scientific projects and infrastructural tasks. Our current scientific projects 
 focus on supporting [model intercomparison][mi], on developing a [model parameterization testbed][mpt], identification of robust [Cloud 
-Feedbacks][cf] in observations and models and on devising robust statistical methods for climate-change [detection/attribution](DandA). 
+Feedbacks][cf] in observations and models and on devising robust statistical methods for climate-change [detection/attribution][DandA]. 
 Examples of ongoing infrastructural tasks include the development of [software][aims] for data management, visualization, and computation; 
 the assembly/organization of observational data sets for model validation; and the consistent documentation of [climate model 
 features][cmf]. Details of all this work are described in numerous publications, as well as on this website.    
