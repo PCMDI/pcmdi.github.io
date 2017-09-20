@@ -77,7 +77,7 @@ title: Getting Started
                 <li> Access one of the portals (e.g., <a href="http://pcmdi9.llnl.gov">http://pcmdi9.llnl.gov</a>). <span class="red_col">Please use Firefox 7+, Safari 5+ or Chrome 16+ (see <a href="http://www.esgf.org/wiki/ESGF_Supported_Browsers">Supported Browsers</a>) to access the ESGF portal.</span></li>
                 <li> Login with your OpenID and password. </li>
                 <li> Determine which of the two CMIP5 user groups you should belong to: the <em>“research”</em> group or the <em>“commercial”</em> group.  If you subscribe to the <em>“research”</em> group, you will gain access to all the CMIP5 data, but you may use it only for non-commercial educational and research purposes.  If you plan to use the data for other purposes, you should join the <em>“commercial”</em> group, and then you will be given access to output from a subset (about two-thirds) of the models, but your use of it is unrestricted.  The terms of use governing the CMIP5 data are spelled out in 
-                    <a href="terms.html"> Terms of Use</a>.
+                    <a href="{{site.baseurl}}/mips/cmip5/terms-of-use.html"> Terms of Use</a>.
                     A table provides the key to which models are available to the two CMIP5 groups: 
                     <a href="docs/CMIP5_modeling_groups.pdf">CMIP5_modeling_groups.pdf</a>
                 </li>

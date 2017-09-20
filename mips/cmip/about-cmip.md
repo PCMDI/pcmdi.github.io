@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Projects
+title: About CMIP
 ---
 ## Coupled Model Intercomparison Project (CMIP)
 
