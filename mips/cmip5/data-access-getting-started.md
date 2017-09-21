@@ -14,7 +14,7 @@ title: Getting Started
         <strong>NOTES: </strong> 
         <div class="indent">
             <ul>
-                <li> Please use Firefox 7+, Safari 5+ or Chrome 16+ (see <a href="http://www.esgf.org/wiki/ESGF_Supported_Browsers">Supported Browsers</a>) to access the ESGF P2P </li>
+                <li> Please use Firefox 7+, Safari 5+ or Chrome 16+ (see <a href="https://github.com/ESGF/esgf.github.io/wiki/ESGF_Supported_Browsers">Supported Browsers</a>) to access the ESGF P2P </li>
                 <li> The old ESGF gateways ( 
                     PCMDI: <a href="http://pcmdi3.llnl.gov/esgcet">http://pcmdi3.llnl.gov/esgcet ,</a>  BADC: <a href="http://cmip-gw.badc.rl.ac.uk">http://cmip-gw.badc.rl.ac.uk ,</a> DKRZ: <a href="http://ipcc-ar5.dkrz.de">http://ipcc-ar5.dkrz.de</a>  ) are now  deprecated. The pcmdi3.llnl.gov gateway was shut down permanently on 11/20/2012. Please use new P2P (Peer-to-Peer, distributed federation of nodes) ESGF portals listed below in 2a. Refer to 2b for the registration and your openid on the new ESGF P2P system. 
                 </li>
@@ -74,7 +74,7 @@ title: Getting Started
         You can search for model output without registering as a user, but in order to download CMIP5 data you must both register (see step 2 above) and also enroll in a CMIP5 “group”.  One way to do this is as follows:    
         <div class="indent">
             <ol type="a">
-                <li> Access one of the portals (e.g., <a href="http://pcmdi9.llnl.gov">http://pcmdi9.llnl.gov</a>). <span class="red_col">Please use Firefox 7+, Safari 5+ or Chrome 16+ (see <a href="http://www.esgf.org/wiki/ESGF_Supported_Browsers">Supported Browsers</a>) to access the ESGF portal.</span></li>
+                <li> Access one of the portals (e.g., <a href="http://pcmdi9.llnl.gov">http://pcmdi9.llnl.gov</a>). <span class="red_col">Please use Firefox 7+, Safari 5+ or Chrome 16+ (see <a href="https://github.com/ESGF/esgf.github.io/wiki/ESGF_Supported_Browsers">Supported Browsers</a>) to access the ESGF portal.</span></li>
                 <li> Login with your OpenID and password. </li>
                 <li> Determine which of the two CMIP5 user groups you should belong to: the <em>“research”</em> group or the <em>“commercial”</em> group.  If you subscribe to the <em>“research”</em> group, you will gain access to all the CMIP5 data, but you may use it only for non-commercial educational and research purposes.  If you plan to use the data for other purposes, you should join the <em>“commercial”</em> group, and then you will be given access to output from a subset (about two-thirds) of the models, but your use of it is unrestricted.  The terms of use governing the CMIP5 data are spelled out in 
                     <a href="{{site.baseurl}}/mips/cmip5/terms-of-use.html"> Terms of Use</a>.
@@ -101,7 +101,7 @@ title: Getting Started
     <!-- --------------------------------- --> 
     <p class="txt2"><strong> 4. Find out what data are available.</strong></p>
     <div class="indent">
-        There are two primary ways to search the CMIP5 data archive: 1) there is a search API which is described at <a href="http://www.esgf.org/wiki/ESGF_Search_REST_API">ESGF Search RESTful API</a>, or 2) you can search from one of the ESG portal web interfaces (see <a href="http://www.esgf.org/wiki/fe-user-guide"> FE User Guide </a>) and described here.  <span class="red_col">Please use Firefox 7+, Safari 5+ or Chrome 16+ (see <a href="http://www.esgf.org/wiki/ESGF_Supported_Browsers">Supported Browsers</a>).</span>
+        There are two primary ways to search the CMIP5 data archive: 1) there is a search API which is described at <a href="http://www.esgf.org/wiki/ESGF_Search_REST_API">ESGF Search RESTful API</a>, or 2) you can search from one of the ESG portal web interfaces (see <a href="http://www.esgf.org/wiki/fe-user-guide"> FE User Guide </a>) and described here.  <span class="red_col">Please use Firefox 7+, Safari 5+ or Chrome 16+ (see <a href="https://github.com/ESGF/esgf.github.io/wiki/ESGF_Supported_Browsers">Supported Browsers</a>).</span>
         <div class="indent">
             <ol type="a">
                 <li>

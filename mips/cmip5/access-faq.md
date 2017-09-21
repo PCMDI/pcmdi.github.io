@@ -9,7 +9,7 @@ title: FAQ
 <strong>NOTES: </strong>
     <div class="indent">
         <ul>
-            <li> Please use Firefox 7+, Safari 5+ or Chrome 16+ (see <a href="http://www.esgf.org/wiki/ESGF_Supported_Browsers">Supported Browsers</a>) to access the ESGF P2P </li>
+            <li> Please use Firefox 7+, Safari 5+ or Chrome 16+ (see <a href="https://github.com/ESGF/esgf.github.io/wiki/ESGF_Supported_Browsers">Supported Browsers</a>) to access the ESGF P2P </li>
             <li> The old gateway <a href="http://pcmdi3.llnl.gov/esgcet/">http://pcmdi3.llnl.gov/esgcet/</a> is deprecated and now shut down permanently. Please use new P2P nodes listed below. You may need to register again in the new ESGF P2P system <a href="http://pcmdi9.llnl.gov/" target="_blank"> http://pcmdi9.llnl.gov/</a>. </li>
             <!-- <li> The NCAR site works differently than all other nodes. To download the CESM1 and CCSM data you will need to login to NCAR gateway (www.earthsystemgrid.org) with your openid </li>-->
         </ul>

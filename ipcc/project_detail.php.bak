@@ -23,7 +23,7 @@ $curProject = $db->getRow($sql);
 
 ?> 
 
-<a href="diagnostic_subprojects.php"><< Back to IPCC Subprojects</a>
+<a href="diagnostic_subprojects.html"><< Back to IPCC Subprojects</a>
 <br><br>
 
 <h3><?php echo $curProject["title"]; ?></h3>
@@ -56,7 +56,7 @@ $curProject = $db->getRow($sql);
 
 
 <br><br>
-<a href="diagnostic_subprojects.php"><< Back to IPCC Subprojects</a>
+<a href="diagnostic_subprojects.html"><< Back to IPCC Subprojects</a>
 
 
 

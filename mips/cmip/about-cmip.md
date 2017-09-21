@@ -21,7 +21,7 @@ CMIP3 output from coupled ocean-atmosphere model simulations of 20th - 22nd cent
 
 ### Previous CMIP experiments.
 
-[General Overview of CMIP Results]({{site.baseurl}}/mips/cmip/overview_ms/ms_text.html){: .indent}
+[General Overview of CMIP Results](/mips/cmip/overview_ms/ms_text.html){: .indent}
 
 [An Appraisal of CMIP2+ Simulations]({{site.baseurl}}/mips/cmip/appraisal.html){: .indent}
 
@@ -37,7 +37,7 @@ CMIP3 output from coupled ocean-atmosphere model simulations of 20th - 22nd cent
 
 ### CMIP1 (superseded by CMIP2 and CMIP2+)
 
-[Power Spectra of Global Mean Temperatures]({{site.baseurl}}/mips/cmip/overview_ms/ms_text.html)
+[Power Spectra of Global Mean Temperatures](/mips/cmip/overview_ms/ms_text.html)
 {: .indent}
 
 [Seasonal Cycle Climatology]({{site.baseurl}}/mips/cmip/scc.html)

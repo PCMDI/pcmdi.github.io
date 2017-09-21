@@ -178,7 +178,7 @@ Links to Projects and Sites with Close Ties to CMIP5:
 
 [METAFOR](http://metaforclimate.eu/) (Metadata For Climate Models)
 
-[Earth System Curator](http://www.earthsystemcurator.org/index.shtml)
+[Earth System Curator](https://www.earthsystemcog.org/projects/earthsystemcurator/)
 
 [WGCM](http://www.wcrp-climate.org/wgcm/) (Working Group on Coupled Modelling)
 
