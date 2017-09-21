@@ -1,0 +1,5 @@
+Proceedings of the AMIP2 Workshop ([Download 11M PDF version here]({{site.baseurl}}/mips/amip/amip2_workshop_proceedings.pdf))
+
+A workshop on results from the second phase of the Atmospheric Model Intercomparison Project (AMIP2) was held in November 2002 (Toulouse, France). AMIP is a benchmark exercise endorsed bye World Climate Research Programme's Working Group on Numerical Experimentation (WGNE) . A PDF version of the report can be downloaded [here]({{site.baseurl}}/mips/amip/amip2_workshop_proceedings.pdf)). The file is formatted for easy printing on standard 8.5 by 11 inch paper, but much of the detail in some of the smaller figures is best viewed on a computer screen. Please be patient, it may take a few minutes to download.
+
+Note at a later date this report may also be published by the World Climate Research Programme.
