@@ -220,7 +220,7 @@ title: Getting Started
             </div>
             <p></p>
         </li>
-        <li> Register and view CMIP5 publications based on for example specific model or experiment :  <a href="http://cmip.llnl.gov/cmip5/publications/publicationjournal"> CMIP5 Publications List </a></li>
+        <li> Register and view CMIP5 publications based on for example specific model or experiment :  <a href="https://cmip-publications.llnl.gov/search?type=project&option=CMIP5"> CMIP5 Publications List </a></li>
         <li> See also <a href="ipcc_ar5_timetable.html">IPCC AR5 timetable</a> for estimation of due dates for some AR5 activities. </li>
     </ul>
     <br>
