@@ -54,9 +54,9 @@ Assessment Report on Climate Change][report], which is scheduled for publication
 [BER]:  https://science.energy.gov/ber/
 [mi]:   mips/
 [mpt]:  projects/capt/
-[cf]:   http://www-pcmdi.llnl.gov/projects/cloud_feedbacks/index.php
+[cf]:   {{site.baseurl}}/projects/cloud_feedbacks/index.html
 [aims]: software/
-[cmf]:  http://www-pcmdi.llnl.gov/projects/modeldoc/index.php
+[cmf]:  https://pcmdi.llnl.gov/projects/modeldoc/index.html
 [WCRP]: http://www.wcrp-climate.org/
 [CMIP5]: http://pcmdi-cmip.llnl.gov/cmip5/index.html
 [ESGF]: http://esgf.llnl.gov/
