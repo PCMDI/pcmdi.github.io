@@ -183,7 +183,7 @@ Important information concerning some models and simulations can be found by cli
         &nbsp; MRI-CGCM3 <br>
         &nbsp; MRI-ESM1 </td>
     <td>&nbsp; Meteorological Research Institute </td> 
-    <td>&nbsp;non-commercial only&nbsp;</td>
+    <td>&nbsp;unrestricted&nbsp;</td>
   </tr>
 
   <tr bgcolor="#FFFFFF">
