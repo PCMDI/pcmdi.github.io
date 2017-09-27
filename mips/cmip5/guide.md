@@ -63,7 +63,7 @@ For simulations of the historical period, references for the forcing (emissions/
 
 Additional datasets and references used in CMIP5 are described on the CMIP5 website at:
 
-<{{site.baseurl}}/mips/cmip5/forcing.html>
+[https://pcmdi.llnl.gov/mips/cmip5/forcing.html]({{site.baseurl}}/mips/cmip5/forcing.html)
 {: .indent}
 
 
