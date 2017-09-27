@@ -105,7 +105,7 @@ All users of CMIP5 model output should be sure to properly cite and acknowledge 
 {: .indent}
 
 
-“Official” Names of CMIP5 Models and Modeling Groups [CMIP5_modeling_groups]({{site.baseurl}}/mips/cmip5/cmip5_data_reference_syntax.pdf) ([pdf format]({{site.baseurl}}/mips/cmip5/CMIP5_modeling_groups.pdf)).
+**“Official” Names of CMIP5 Models and Modeling Groups [CMIP5_modeling_groups]({{site.baseurl}}/mips/cmip5/CMIP5_modeling_groups.pdf).**
 
 ## CMIP5 Model Output Archive:
 
@@ -153,14 +153,14 @@ There are, of course, many additional datasets of interest to CMIP5 researchers.
 
 ClimateDataGuide: <http://climatedataguide.ucar.edu/>
 
-Downscaled Data Based on CMIP5:
+## Downscaled Data Based on CMIP5:
 
 The CORDEX project is a WCRP-coordinated exercise to regionally downscale climate model projection data.  The initial focus of this project is to downscale CMIP5 model output from the following CMIP5 simulations: historical, RCP4.5, RCP8.5, AMIP, and decadal prediction runs.  Further information is available at:
 
 <http://wcrp.ipsl.jussieu.fr/SF_RCD_CORDEX.html>
 
 
-Links to Projects and Sites with Close Ties to CMIP5:
+## Links to Projects and Sites with Close Ties to CMIP5:
 
 [CFMIP](http://cfmip.metoffice.com/) (Cloud Feedback Model Intercomparison Project)
 
