@@ -371,7 +371,7 @@ Information is under preparation describing the governance of the following:
 ###### Document version: 13 September 2017
 
 [guide]: index.html
-[cmip6CvsRegistrationGuidance]: https://github.com/WCRP-CMIP/CMIP6_CVs/blob/master/.github/RegistrationGuidance.md
+[cmip6CvsRegistrationGuidance]: https://github.com/WCRP-CMIP/CMIP6_CVs/blob/master/.github/ISSUE_TEMPLATE.md
 [ESGFLlnlHome]: https://esgf-node.llnl.gov/projects/esgf-llnl/
 [institutionIdJson]: https://github.com/WCRP-CMIP/CMIP6_CVs/blob/master/CMIP6_institution_id.json
 [institutionIdHtml]: http://rawgit.com/WCRP-CMIP/CMIP6_CVs/master/src/CMIP6_institution_id.html
