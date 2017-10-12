@@ -186,6 +186,11 @@ Zelinka, M. D., S. A. Klein, and D. L. Hartmann, 2012b: <a href="http://climatem
 <ul>
     <!-- 2016-->
     <li>
+        <a href="https://eos.org/research-spotlights/how-do-clouds-react-to-regional-warming" rel="nofollow" target="_blank">
+            How Do Clouds React to Regional Warming?
+        </a> (October 2017, <em>Eos</em>)
+    </li>
+      <li>
         <a href="http://abc7news.com/weather/study-examines-migration-patterns-of-clouds/1648684/" rel="nofollow" target="_blank">
             Study examines migration patterns of clouds
         </a> (December 2016, <em>ABC7 News</em>)
