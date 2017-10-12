@@ -63,6 +63,8 @@ This Cloud Feedback project is supported by the Regional and Global Climate Mode
 
 <li>Ceppi, P., F. Brient, M. D. Zelinka, and D. L. Hartmann, 2017: <a href="https://climatemodeling.science.energy.gov/research-highlights/review-cloud-feedbacks-climate-models" rel="nofollow" target="_blank">Review of Cloud Feedbacks in Climate Models</a></li>
 
+<li>Zelinka, M. D., Randall, D. A., Webb, M. J., & Klein, S. A., 2017: <a href="https://climatemodeling.science.energy.gov/research-highlights/clearing-clouds-uncertainty" rel="nofollow" target="_blank">Clearing Clouds of Uncertainty</a></li>
+
 <li>Zhou, C., M. D. Zelinka, and S. A. Klein, 2017:  <a href="https://climatemodeling.science.energy.gov/research-highlights/dependence-cloud-feedback-spatial-pattern-sea-surface-warming" rel="nofollow" target="_blank">Dependence of Cloud Feedback on the Spatial Pattern of Sea Surface Warming</a></li>
 
 </ul>
@@ -184,6 +186,11 @@ Zelinka, M. D., S. A. Klein, and D. L. Hartmann, 2012b: <a href="http://climatem
 <ul>
     <!-- 2016-->
     <li>
+        <a href="https://eos.org/research-spotlights/how-do-clouds-react-to-regional-warming" rel="nofollow" target="_blank">
+            How Do Clouds React to Regional Warming?
+        </a> (October 2017, <em>Eos</em>)
+    </li>
+      <li>
         <a href="http://abc7news.com/weather/study-examines-migration-patterns-of-clouds/1648684/" rel="nofollow" target="_blank">
             Study examines migration patterns of clouds
         </a> (December 2016, <em>ABC7 News</em>)
