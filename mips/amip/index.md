@@ -20,8 +20,8 @@ Note that earlier versions (prior to 2007) of the observational dataset on which
 <center> 
 <p><a href="{{site.baseurl}}/mips/amip/AMIP2EXPDSN/BCS/bcsregist.html">Please register</a> so that we can contact you with information concerning these data sets.</p>
 <p><a href="{{site.baseurl}}/mips/amip/AMIP2EXPDSN/BCS/amipbc_dwnld_files/360x180/v1.0.0/nc/readme_nc">README</a></p>
-<p><b>Current version: PCMDI-AMIP-1.1.2 (20 April 2017; Data coverage 1870-1-1 to 2016-12-31)</b></p>
-<p>Please see the input4MIPs website at <a href="https://esgf-node.llnl.gov/search/input4mips/" target="_blank">http://esgf-node.llnl.gov/search/input4mips/</a></p>
+<p><b>Current version: PCMDI-AMIP-1.1.3 (31 October 2017; Data coverage 1870-1-1 to 2017-06-30)</b></p>
+<p>Please see the input4MIPs website at <a href="https://esgf-node.llnl.gov/search/input4mips/?dataset_version_number=1.1.3" target="_blank">http://esgf-node.llnl.gov/search/input4mips/</a></p>
 </center>
 
 
