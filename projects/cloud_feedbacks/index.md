@@ -40,7 +40,6 @@ This Cloud Feedback project is supported by the Regional and Global Climate Mode
 * [Peter Caldwell]({{site.baseurl}}/staff/caldwell/index.html)
 * [Mark Zelinka](https://markdzelinka.wordpress.com/)
 * [Yunyan Zhang](https://pls.llnl.gov/people/staff-bios/aeed/zhang-y)
-* [Chen Zhou](https://pls.llnl.gov/people/staff-bios/aeed/zhou-c)
 * [Anthony DeAngelis](http://www.atmos.ucla.edu/csrl/) (UCLA)
 * [Xin Qu](http://www.atmos.ucla.edu/csrl/) (UCLA) 
 
@@ -49,6 +48,7 @@ This Cloud Feedback project is supported by the Regional and Global Climate Mode
 * [Florent Brient](http://www.lmd.jussieu.fr/~fbrlmd/test_index_flo.html) (ETH Zurich)
 * Neil Gordon (Space and Naval Warfare Systems Command) 
 * [Christopher Terai](https://sites.google.com/site/christeraiatmos/) (UC Irvine)
+* [Chen Zhou](https://pls.llnl.gov/people/staff-bios/aeed/zhou-c)
 
 ---
 
