@@ -301,6 +301,7 @@ Zelinka, M. D., S. A. Klein, and D. L. Hartmann, 2012b: <a href="http://climatem
 
 <li>Klein, S. A., A. Hall, J. R. Norris, and R. Pincus, 2017: Low-Cloud Feedbacks from Cloud Controlling Factors: A Review. <em>Surv. Geophys.</em>, doi:<a href="https://link.springer.com/article/10.1007/s10712-017-9433-3" rel="nofollow" target="_blank">10.1007/s10712-017-9433-3</a>.</li>
 
+<li>Qu, X., A. Hall, A. M. DeAngelis, M. D. Zelinka, S. A. Klein, H. Su, B. Tian, and C. Zhai, 2017: On proposed emergent constraints of climate sensitivity, <em>J. Climate</em>, doi:<a href="http://journals.ametsoc.org/doi/abs/10.1175/JCLI-D-17-0482.1" rel="nofollow" target="_blank">10.1175/JCLI-D-17-0482.1</a>.</li>  
 
 <li>Webb, M. J., Andrews, T., Bodas-Salcedo, A., Bony, S., Bretherton, C. S., Chadwick, R., Chepfer, H., Douville, H., Good, P., Kay, J. E., Klein, S. A., Marchand, R., Medeiros, B., Siebesma, A. P., Skinner, C. B., Stevens, B., Tselioudis, G., Tsushima, Y., and Watanabe, M., 2017: The Cloud Feedback Model Intercomparison Project (CFMIP) contribution to CMIP6. <em>Geo. Mod. Dev.</em>,  <strong>10</strong>, 359-384, <a href="https://www.geosci-model-dev.net/10/359/2017/" rel="nofollow" target="_blank">https://doi.org/10.5194/gmd-10-359-2017</a>.</li>
 
