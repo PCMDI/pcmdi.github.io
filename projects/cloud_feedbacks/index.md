@@ -40,7 +40,6 @@ This Cloud Feedback project is supported by the Regional and Global Climate Mode
 * [Peter Caldwell]({{site.baseurl}}/staff/caldwell/index.html)
 * [Mark Zelinka](https://markdzelinka.wordpress.com/)
 * [Yunyan Zhang](https://pls.llnl.gov/people/staff-bios/aeed/zhang-y)
-* [Chen Zhou](https://pls.llnl.gov/people/staff-bios/aeed/zhou-c)
 * [Anthony DeAngelis](http://www.atmos.ucla.edu/csrl/) (UCLA)
 * [Xin Qu](http://www.atmos.ucla.edu/csrl/) (UCLA) 
 
@@ -49,6 +48,7 @@ This Cloud Feedback project is supported by the Regional and Global Climate Mode
 * [Florent Brient](http://www.lmd.jussieu.fr/~fbrlmd/test_index_flo.html) (ETH Zurich)
 * Neil Gordon (Space and Naval Warfare Systems Command) 
 * [Christopher Terai](https://sites.google.com/site/christeraiatmos/) (UC Irvine)
+* [Chen Zhou](https://pls.llnl.gov/people/staff-bios/aeed/zhou-c)
 
 ---
 
@@ -299,7 +299,9 @@ Zelinka, M. D., S. A. Klein, and D. L. Hartmann, 2012b: <a href="http://climatem
 
 <li>Ceppi, P., F. Brient, M. D. Zelinka, and D. L. Hartmann, 2017: Cloud feedback mechanisms and their representation in global climate models. <em>WIREs Climate Change</em>, <strong>e465</strong>, doi:<a href="http://onlinelibrary.wiley.com/doi/10.1002/wcc.465/full" rel="nofollow" target="_blank">10.1002/wcc.465</a>.</li>
 
-<li>Klein, S. A., A. Hall, J. R. Norris, and R. Pincus, 2017: Low-Cloud Feedbacks from Cloud Controlling Factors: A Review. <em>Surv. Geophys.</em>, in press.</li>
+<li>Klein, S. A., A. Hall, J. R. Norris, and R. Pincus, 2017: Low-Cloud Feedbacks from Cloud Controlling Factors: A Review. <em>Surv. Geophys.</em>, doi:<a href="https://link.springer.com/article/10.1007/s10712-017-9433-3" rel="nofollow" target="_blank">10.1007/s10712-017-9433-3</a>.</li>
+
+<li>Qu, X., A. Hall, A. M. DeAngelis, M. D. Zelinka, S. A. Klein, H. Su, B. Tian, and C. Zhai, 2017: On proposed emergent constraints of climate sensitivity, <em>J. Climate</em>, doi:<a href="http://journals.ametsoc.org/doi/abs/10.1175/JCLI-D-17-0482.1" rel="nofollow" target="_blank">10.1175/JCLI-D-17-0482.1</a>.</li>  
 
 <li>Webb, M. J., Andrews, T., Bodas-Salcedo, A., Bony, S., Bretherton, C. S., Chadwick, R., Chepfer, H., Douville, H., Good, P., Kay, J. E., Klein, S. A., Marchand, R., Medeiros, B., Siebesma, A. P., Skinner, C. B., Stevens, B., Tselioudis, G., Tsushima, Y., and Watanabe, M., 2017: The Cloud Feedback Model Intercomparison Project (CFMIP) contribution to CMIP6. <em>Geo. Mod. Dev.</em>,  <strong>10</strong>, 359-384, <a href="https://www.geosci-model-dev.net/10/359/2017/" rel="nofollow" target="_blank">https://doi.org/10.5194/gmd-10-359-2017</a>.</li>
 
