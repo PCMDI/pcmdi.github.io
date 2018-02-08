@@ -1,0 +1,232 @@
+This document summarizes the controlled vocabulary associated with the DRS
+specification for CMIP5, and relates the vocabulary to the ESG publisher
+configuration. The components described are:
+
+- experiment
+- institute
+- model
+- product
+- project (activity)
+- realm
+- time frequency
+- CMOR table
+
+See http://cmip-pcmdi.llnl.gov/cmip5/docs/cmip5_data_reference_syntax.pdf
+
+-------------------------------------------------------------------------------------
+Experiment
+
+Defined in esg.ini, in section [project:cmip5]
+
+Format: project | experiment_name | experiment_description
+
+experiment_options = 
+	cmip5 | 1pctCO2 | 1 percent per year CO2
+	cmip5 | abrupt4xCO2 | abrupt 4XCO2
+	cmip5 | amip | AMIP
+	cmip5 | amip4K | AMIP plus 4K anomaly
+	cmip5 | amip4xCO2 | 4xCO2 AMIP
+	cmip5 | amipFuture | AMIP plus patterned anomaly
+	cmip5 | aqua4K | aqua planet plus 4K anomaly
+	cmip5 | aqua4xCO2 | 4xCO2 aqua planet
+	cmip5 | aquaControl | aqua planet control
+	cmip5 | decadal1960 | 10- or 30-year run initialized in year 1960
+	cmip5 | decadal1961 | 10- or 30-year run initialized in year 1961
+	cmip5 | decadal1962 | 10- or 30-year run initialized in year 1962
+	cmip5 | decadal1963 | 10- or 30-year run initialized in year 1963
+	cmip5 | decadal1964 | 10- or 30-year run initialized in year 1964
+	cmip5 | decadal1965 | 10- or 30-year run initialized in year 1965
+	cmip5 | decadal1966 | 10- or 30-year run initialized in year 1966
+	cmip5 | decadal1967 | 10- or 30-year run initialized in year 1967
+	cmip5 | decadal1968 | 10- or 30-year run initialized in year 1968
+	cmip5 | decadal1969 | 10- or 30-year run initialized in year 1969
+	cmip5 | decadal1970 | 10- or 30-year run initialized in year 1970
+	cmip5 | decadal1971 | 10- or 30-year run initialized in year 1971
+	cmip5 | decadal1972 | 10- or 30-year run initialized in year 1972
+	cmip5 | decadal1973 | 10- or 30-year run initialized in year 1973
+	cmip5 | decadal1974 | 10- or 30-year run initialized in year 1974
+	cmip5 | decadal1975 | 10- or 30-year run initialized in year 1975
+	cmip5 | decadal1976 | 10- or 30-year run initialized in year 1976
+	cmip5 | decadal1977 | 10- or 30-year run initialized in year 1977
+	cmip5 | decadal1978 | 10- or 30-year run initialized in year 1978
+	cmip5 | decadal1979 | 10- or 30-year run initialized in year 1979
+	cmip5 | decadal1980 | 10- or 30-year run initialized in year 1980
+	cmip5 | decadal1981 | 10- or 30-year run initialized in year 1981
+	cmip5 | decadal1982 | 10- or 30-year run initialized in year 1982
+	cmip5 | decadal1983 | 10- or 30-year run initialized in year 1983
+	cmip5 | decadal1984 | 10- or 30-year run initialized in year 1984
+	cmip5 | decadal1985 | 10- or 30-year run initialized in year 1985
+	cmip5 | decadal1986 | 10- or 30-year run initialized in year 1986
+	cmip5 | decadal1987 | 10- or 30-year run initialized in year 1987
+	cmip5 | decadal1988 | 10- or 30-year run initialized in year 1988
+	cmip5 | decadal1989 | 10- or 30-year run initialized in year 1989
+	cmip5 | decadal1990 | 10- or 30-year run initialized in year 1990
+	cmip5 | decadal1991 | 10- or 30-year run initialized in year 1991
+	cmip5 | decadal1992 | 10- or 30-year run initialized in year 1992
+	cmip5 | decadal1993 | 10- or 30-year run initialized in year 1993
+	cmip5 | decadal1994 | 10- or 30-year run initialized in year 1994
+	cmip5 | decadal1995 | 10- or 30-year run initialized in year 1995
+	cmip5 | decadal1996 | 10- or 30-year run initialized in year 1996
+	cmip5 | decadal1997 | 10- or 30-year run initialized in year 1997
+	cmip5 | decadal1998 | 10- or 30-year run initialized in year 1998
+	cmip5 | decadal1999 | 10- or 30-year run initialized in year 1999
+	cmip5 | decadal2000 | 10- or 30-year run initialized in year 2000
+	cmip5 | decadal2001 | 10- or 30-year run initialized in year 2001
+	cmip5 | decadal2002 | 10- or 30-year run initialized in year 2002
+	cmip5 | decadal2003 | 10- or 30-year run initialized in year 2003
+	cmip5 | decadal2004 | 10- or 30-year run initialized in year 2004
+	cmip5 | decadal2005 | 10- or 30-year run initialized in year 2005
+	cmip5 | decadal2006 | 10- or 30-year run initialized in year 2006
+	cmip5 | decadal2007 | 10- or 30-year run initialized in year 2007
+	cmip5 | decadal2008 | 10- or 30-year run initialized in year 2008
+	cmip5 | decadal2009 | 10- or 30-year run initialized in year 2009
+	cmip5 | decadal2010 | 10- or 30-year run initialized in year 2010
+	cmip5 | decadal2011 | 10- or 30-year run initialized in year 2011
+	cmip5 | decadal2012 | 10- or 30-year run initialized in year 2012
+	cmip5 | esmControl | ESM pre-industrial control
+	cmip5 | esmFdbk1 | ESM feedback 1
+	cmip5 | esmFdbk2 | ESM feedback 2
+	cmip5 | esmFixClim1 | ESM fixed climate 1
+	cmip5 | esmFixClim2 | ESM fixed climate 2
+	cmip5 | esmHistorical | ESM historical
+	cmip5 | esmrcp85 | ESM RCP8.5
+	cmip5 | historical | historical
+	cmip5 | historicalExt | historical simulation extended through year 2012
+	cmip5 | historicalGHG | historical, well-mixed greenhouse gases only
+	cmip5 | historicalMisc | historical simulation but with other individual forcing agents or combinations of forcings
+	cmip5 | historicalNat | historical, natural forcing only
+	cmip5 | lgm | last glacial maximum
+	cmip5 | midHolocene | mid-Holocene
+	cmip5 | noVolc1960 | volcano-free hindcasts initiated in 1960
+	cmip5 | noVolc1975 | volcano-free hindcasts initiated in 1975
+	cmip5 | noVolc1980 | volcano-free hindcasts initiated in 1980
+	cmip5 | noVolc1985 | volcano-free hindcasts initiated in 1985
+	cmip5 | noVolc1990 | volcano-free hindcasts initiated in 1990
+	cmip5 | past1000 | last millennium
+	cmip5 | piControl | pre-industrial control
+	cmip5 | rcp26 | RCP2.6
+	cmip5 | rcp45 | RCP4.5
+	cmip5 | rcp60 | RCP6
+	cmip5 | rcp85 | RCP8.5
+	cmip5 | sst2030 | 2030 time-slice
+	cmip5 | sstClim | control SST climatology
+	cmip5 | sstClim4xCO2 | CO2 forcing
+	cmip5 | sstClimAerosol | all aerosol forcing
+	cmip5 | sstClimSulfate | sulfate aerosol forcing
+	cmip5 | volcIn2010 | prediction with 2010 volcano
+
+-------------------------------------------------------------------------------------
+Institute
+
+Defined in esg.ini, in section [project:cmip5]
+
+institute_options =  BCC, CCCMA, CMCC, CNRM-CERFACS, CSIRO-BOM, CSIRO-QCCCE, EC-EARTH, FIO, GCESS, INM, IPSL, LASG-IAP, MIROC, MOHC, MPI-M, MRI, NASA-GISS, NASA-GMAO, NCAR, NCC, NCEP, NMR-KMA, NOAA-GFDL, RSMAS
+
+-------------------------------------------------------------------------------------
+Model
+
+Defined in esgcet_models_table.txt
+
+Format: project | model_id | URL | description
+
+  cmip5 | access1-0 | | ACCESS1.0, CSIRO/Bureau of Meteorology
+  cmip5 | bcc-csm1-1 | | BCC-CSM1.1, Beijing Climate Center, China Meteorological Administration
+  cmip5 | bnu-esm | | BNU-ESM, College of Global Change and Earth System Science, Beijing Normal University
+  cmip5 | canam4 | | CanAM4, Canadian Centre for Climate Modelling and Analysis
+  cmip5 | cancm4 | | CanCM4, Canadian Centre for Climate Modelling and Analysis
+  cmip5 | canesm2 | | CanESM2, Canadian Centre for Climate Modelling and Analysis
+  cmip5 | ccsm4 | | CCSM4, National Center for Atmospheric Research
+  cmip5 | ccsm4-rsmas | | University of Miami - RSMAS
+  cmip5 | cesm1-bgc | | CESM1(BGC), National Center for Atmospheric Research
+  cmip5 | cesm1-cam5 | | CESM1(CAM5), National Center for Atmospheric Research
+  cmip5 | cesm1-chem | | CESM1(CHEM), National Center for Atmospheric Research
+  cmip5 | cesm1-chem-cam5 | | CESM1(CHEM,CAM5), National Center for Atmospheric Research
+  cmip5 | cesm1-waccm | | CESM1(WACCM), National Center for Atmospheric Research
+  cmip5 | cfsv2-2011 | CFSv2-2011, National Centers for Environmental Prediction
+  cmip5 | cmcc-cesm | | CMCC-CESM, Centro Euro-Mediterraneo per I Cambiamenti Climatici
+  cmip5 | cmcc-cm | | CMCC-CM, Centro Euro-Mediterraneo per I Cambiamenti Climatici
+  cmip5 | cmcc-cms | | CMCC-CMS, Centro Euro-Mediterraneo per I Cambiamenti Climatici
+  cmip5 | cnrm-cm5 | | CNRM-CM5, Centre National de Recherches Meteorologiques / Centre Europeen de Recherche et Formation Avancees en Calcul Scientifique (CNRM/CERFACS)
+  cmip5 | csiro-mk3-6-0 | | CSIRO-Mk3.6, Commonwealth Scientific and Industrial Research Organization/Queensland Climate Change Centre of Excellence (CSIRO-QCCCE)
+  cmip5 | ec-earth | | EC-EARTH, EC-Earth consortium
+  cmip5 | fgoals-g2 | | FGOALS-g2, LASG, Institute of Atmospheric Physics, Chinese Academy of Sciences
+  cmip5 | fgoals-gl | | FGOALS-gl, LASG, Institute of Atmospheric Physics, Chinese Academy of Sciences
+  cmip5 | fgoals-s2 | | FGOALS-s2, LASG, Institute of Atmospheric Physics, Chinese Academy of Sciences
+  cmip5 | fio-esm | | FIO-ESM, The First Institute of Oceanography, SOA, China
+  cmip5 | geos-5 | | GEOS-5, NASA Global Modeling and Assimilation Office
+  cmip5 | gfdl-cm2p1 | | GFDL-CM2.1, NOAA Geophysical Fluid Dynamics Laboratory
+  cmip5 | gfdl-cm3 | | GFDL-CM3, NOAA Geophysical Fluid Dynamics Laboratory
+  cmip5 | gfdl-esm2g | | GFDL-ESM2G, NOAA Geophysical Fluid Dynamics Laboratory
+  cmip5 | gfdl-esm2m | | GFDL-ESM2M, NOAA Geophysical Fluid Dynamics Laboratory
+  cmip5 | gfdl-hiram-c180 | | GFDL-HIRAM-C180, NOAA Geophysical Fluid Dynamics Laboratory
+  cmip5 | gfdl-hiram-c360 | | GFDL-HIRAM-C360, NOAA Geophysical Fluid Dynamics Laboratory
+  cmip5 | giss-e2-h | | GISS-E2-H, NASA Goddard Institute for Space Studies
+  cmip5 | giss-e2-h-cc | | GISS-E2-H-CC, NASA Goddard Institute for Space Studies
+  cmip5 | giss-e2-r | | GISS-E2-R, NASA Goddard Institute for Space Studies
+  cmip5 | giss-e2-r-cc | | GISS-E2-R-CC, NASA Goddard Institute for Space Studies
+  cmip5 | giss-e2cs-h | | GISS-E2CS-h, NASA Goddard Institute for Space Studies
+  cmip5 | giss-e2cs-r | | GISS-E2CS-R, NASA Goddard Institute for Space Studies
+  cmip5 | hadcm3 | | HadCM3, Met Office Hadley Centre
+  cmip5 | hadcm3q | | HadCM3Q, Met Office Hadley Centre
+  cmip5 | hadgem2-ao | | HadGEM2-AO, National Institute of Meteorological Research/Korea Meteorological Administration
+  cmip5 | hadgem2-a | | HadGEM2-A, Met Office Hadley Centre
+  cmip5 | hadgem2-cc | | HadGEM2-CC, Met Office Hadley Centre
+  cmip5 | hadgem2-es | | HadGEM2-ES, Met Office Hadley Centre
+  cmip5 | higem1-2 | | HiGEM1.2, Natural and Environmental Research Council/Met Office Hadley Centre
+  cmip5 | inmcm4 | | INM-CM4, Institute for Numerical Mathematics
+  cmip5 | ipsl-cm5a-lr | | IPSL-CM5A-LR, Institut Pierre-Simon Laplace
+  cmip5 | ipsl-cm5a-mr | | IPSL-CM5A-MR, Institut Pierre-Simon Laplace
+  cmip5 | ipsl-cm5b | | IPSL-CM5B, Institut Pierre-Simon Laplace
+  cmip5 | miroc-esm | | MIROC-ESM, Atmosphere and Ocean Research Institute (The University of Tokyo), National Institute for Environmental Studies, and Japan Agency for Marine-Earth Science and Technology
+  cmip5 | miroc-esm-chem | | MIROC-ESM-CHEM, Atmosphere and Ocean Research Institute (The University of Tokyo), National Institute for Environmental Studies, and Japan Agency for Marine-Earth Science and Technology
+  cmip5 | miroc4h | | MIROC4h, Atmosphere and Ocean Research Institute (The University of Tokyo), National Institute for Environmental Studies, and Japan Agency for Marine-Earth Science and Technology
+  cmip5 | miroc4m | | MIROC4m, Atmosphere and Ocean Research Institute (The University of Tokyo), National Institute for Environmental Studies, and Japan Agency for Marine-Earth Science and Technology
+  cmip5 | miroc5 | | MIROC5, Atmosphere and Ocean Research Institute (The University of Tokyo), National Institute for Environmental Studies, and Japan Agency for Marine-Earth Science and Technology
+  cmip5 | mpi-esm-hr | | MPI-ESM-HR, Max Planck Institute for Meteorology
+  cmip5 | mpi-esm-mr | | MPI-ESM-MR, Max Planck Institute for Meteorology
+  cmip5 | mpi-esm-lr | | MPI-ESM-LR, Max Planck Institute for Meteorology
+  cmip5 | mpi-esm-p | | MPI-ESM-P, Max Planck Institute for Meteorology
+  cmip5 | mri-agcm3-2h | | MRI-AGCM3.2H, Meteorological Research Institute
+  cmip5 | mri-agcm3-2s | | MRI-AGCM3.2S, Meteorological Research Institute
+  cmip5 | mri-cgcm3 | | MRI-CGCM3, Meteorological Research Institute
+  cmip5 | mri-esm1 | | MRI-ESM1, Meteorological Research Institute
+  cmip5 | noresm-m | | NorESM-M, Norwegian Climate Centre (NorClim)
+
+-------------------------------------------------------------------------------------
+Product
+
+Defined in esg.ini, in section [project:cmip5]
+
+product_options = output1, output2, output
+
+-------------------------------------------------------------------------------------
+Project
+
+Defined in esg.ini, in the [DEFAULT] section
+
+Format: project_name | project_description | search_order
+
+project_options = 
+  cmip5 | CMIP5 | 1
+  ...
+
+-------------------------------------------------------------------------------------
+Realm
+
+Defined in esg.ini, in section [project:cmip5]
+
+realm_options = atmos, ocean, land, landIce, seaIce, aerosol, atmosChem, ocnBgchem
+
+-------------------------------------------------------------------------------------
+Time frequency
+
+Defined in esg.ini, in section [project:cmip5]
+
+time_frequency_options = yr, mon, day, 6hr, 3hr, subhr, monClim, fx
+
+-------------------------------------------------------------------------------------
+CMOR table
+
+Defined in esg.ini, in section [project:cmip5]
+
+cmor_table_options = 3hr, 6hrLev, 6hrPlev, Amon, LImon, Lmon, OImon, Oclim, Omon, Oyr, aero, cf3hr, cfDay, cfMon, cfOff, cfSites, day, fx, grids
