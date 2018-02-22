@@ -10,8 +10,9 @@ Name | Position | E-mail | Phone Number
 --- | --- | --- | --- | ---
 [Taylor, Karl][taylor] | Program Director |	taylor13@llnl.gov |	(925) 423-3623
 [Ames, Sasha][ames] | Computer Scientist | ames4@llnl.gov	| (925) 424-4644
+[Bogenschutz, Peter][bogenschutz] | Research Scientist | bogenschutz1@llnl.gov | 
 [Bonfils, Celine][bonfils] | Research Scientist | bonfils2@llnl.gov | (925) 423-9923
-[Caldwell, Peter][caldwell] | Research Scientist | caldwell19@llnl.gov | (925) 422 - 4197
+[Caldwell, Peter][caldwell] | Research Scientist | caldwell19@llnl.gov | (925) 422-4197
 [Covey, Curt][covey] | Research Scientist | covey1@llnl.gov	| (925) 422-1828
 [Doutriaux, Charles][doutriaux] | Computer Scientist	| doutriaux1@llnl.gov	| (925) 422-1487
 [Durack, Paul][durack] | Research Scientist	| durack1@llnl.gov	| (925) 422-5208
@@ -31,6 +32,7 @@ Name | Position | E-mail | Phone Number
 [taylor]: {{site.baseurl}}/staff/taylor/index.html
 [ames]: {{site.baseurl}}/staff/ames/index.html
 [bonfils]: {{site.baseurl}}/staff/bonfils/index.html
+[bogenschutz]: {{site.baseurl}}/staff/bogenschutz/index.html
 [caldwell]: {{site.baseurl}}/staff/caldwell/index.html
 [covey]: {{site.baseurl}}/staff/covey/index.html
 [doutriaux]: {{site.baseurl}}/staff/doutriaux/index.html
