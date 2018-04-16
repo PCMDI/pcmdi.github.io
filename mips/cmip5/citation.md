@@ -14,7 +14,7 @@ In order to document CMIP5’s impact and enable ongoing support of CMIP, you ar
 
 Where “*Table XX*” in your paper should list the models and modeling groups that provided the data you used.
 
-In addition it may be appropriate to cite one or more of the CMIP5 experiment design articles listed on the [CMIP5 reference page](http://pcmdi-cmip.llnl.gov/cmip5/cmip5_references.html).
+In addition it may be appropriate to cite one or more of the CMIP5 experiment design articles listed on the [CMIP5 reference page](https://pcmdi.llnl.gov/mips/cmip5/cmip5-references.html).
 
 Besides the above acknowledgement, you should register any journal articles (or other scientific documents) that are based on CMIP5 results at CMIP5 Publications. Registering your paper(s) will make IPCC authors as well as other researchers aware of your work. More importantly it will serve to document the scientific impact of CMIP5, which is of vital importance for securing future funding to support both the modeling groups and software infrastructure of CMIP. You should consider this an obligation if you have taken advantage of the CMIP5 archive, which represents the end product of considerable effort by the modeling groups and others.
 

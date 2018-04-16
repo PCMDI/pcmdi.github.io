@@ -8,7 +8,7 @@ title: PCMDI - CMIP5 Data Access
 <div id="main_container">
     <div id="main_text_area">
         <p>     
-            <i>All</i> model output in the CMIP5 archive is available for “non-commercial research and educational purposes.”  A <i> subset (about three-quarters of the models) </i> of the data has also been released for “unrestricted” use, see table in the document "<a href="docs/CMIP5_modeling_groups.pdf">Modeling Groups and their Terms of Use</a>" (<a href="docs/CMIP5_modeling_groups.docx">Word doc</a>) .  Users registering to access CMIP5 output will be granted access to some or all of the data, depending on which of the following terms of use are agreed to: 
+            <i>All</i> model output in the CMIP5 archive is available for “non-commercial research and educational purposes.”  A <i> subset (about three-quarters of the models) </i> of the data has also been released for “unrestricted” use, see table in the document "<a href="availability.html">Modeling Groups and their Terms of Use</a>" (<a href="docs/CMIP5_modeling_groups.docx">Word doc</a>) .  Users registering to access CMIP5 output will be granted access to some or all of the data, depending on which of the following terms of use are agreed to: 
         </p>
         <br>
         <p>Terms of use for data limited to non-commercial research and educational purposes</p>

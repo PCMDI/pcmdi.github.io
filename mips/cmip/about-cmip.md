@@ -29,7 +29,7 @@ CMIP3 output from coupled ocean-atmosphere model simulations of 20th - 22nd cent
 
 [Table of Participating Models]({{site.baseurl}}/mips/cmip/Table.pdf){: .indent}
 
-[Model/Experiment Documentation]({{site.baseurl}}/projects/modeldoc/cmip/index.html){: .indent}
+[Model/Experiment Documentation]({{site.baseurl}}/projects/modeldoc/cmip1/index.html){: .indent}
 
 [Diagnostic Subprojects for CMIP1, CMIP2, and CMIP2+]({{site.baseurl}}/mips/cmip/diagsub.html){: .indent}
 

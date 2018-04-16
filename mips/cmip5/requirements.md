@@ -30,7 +30,7 @@ The standard output document: standard_output (current version: 15 Aug 2013 ) is
 
 The list of variables appearing in the above document substantially augments the list of model output collected as part of CMIP3. The current list resulted from a long deliberation involving experts from various climate sub-disciplines and interest groups, including those in the "impacts, adaptation, and vulnerabilities" community. For example, the ocean variables were adopted almost entirely from a document prepared by the Working Group on Ocean Model Development (see Griffies et al., 2009: "Sampling Physical Ocean Fields in WCRP CMIP5 Simulations")
 
-Note also that some special "bias corrected" fields are requested for decadal prediction experiments as explained in http://eprints.soton.ac.uk/171975/1/150_Bias_Correction.pdf .
+Note also that some special "bias corrected" fields are requested for decadal prediction experiments as explained in [https://eprints.soton.ac.uk/171975/1/ICPO150_Bias.pdf] .
 
 
 ## 2. CMIP5 Data Reference Syntax (DRS) and Controlled Vocabulary.
@@ -43,7 +43,7 @@ Current version of Data Reference Syntax document ( 13 June 2012 ) [cmip5_data_r
 
 The data output should follow the standard NetCDF Climate and Forecast (CF) Metadata convention and specifically to adhere to the standard variable names, units, dimensions, axis, required 'coordinates' attribute, bounds and stored direction for overall intercomparability, see document in 'CMIP5 Model Output Format and Metadata Requirements' section below (section 3. below) .
 
-The common naming system should also be used in files, directories, metadata and URLs to facilitate standard identification of datasets. Refer to "CMIP5 Data Reference Syntax (DRS) and Controlled Vocabulary" document for the specifications.
+The common naming system should also be used in files, directories, metadata and URLs to facilitate standard identification of datasets. Refer to [CMIP5 Data Reference Syntax (DRS) and Controlled Vocabulary](ref) document for the specifications.
 
 The Climate Model Output Rewriter (CMOR) software can be used to produce such a CF-compliant output, or a model center can choose to write their own data output software.
 
@@ -52,7 +52,7 @@ The Climate Model Output Rewriter (CMOR) software can be used to produce such a 
 
  
 
-Model output requirements for structure, format and metadata ( new! 22 May 2014 ) CMIP5_output_metadata_requirements.pdf .
+Model output requirements for structure, format and metadata ( new! 22 May 2014 ) [CMIP5_output_metadata_requirements.pdf](docs/CMIP5_output_metadata_requirements.pdf).
 
  
 
