@@ -19,6 +19,10 @@ in [three guides][cmip6GuideHomepage], tailored to different groups:
 1. [Data managers][dataManagers] responsible for data node operations, and
 1. [Data users][dataUsers] analyzing and making use of CMIP6 model output
 
+## CMIP6 Endorsed MIPs:
+ * [WCRP Endorsed (Model Intercomparison Project) MIPs overview page][WCRPEndorsedMIPs]
+ * [CMIP6 Ocean Model Intercomparison Project (OMIP) overview page][OMIP]
+
 ## Additional information for CMIP6:
  * [CMIP6 license and terms of use][termsOfUse]
 
@@ -30,4 +34,6 @@ in [three guides][cmip6GuideHomepage], tailored to different groups:
 [modelers]: Guide/modelers.html
 [dataManagers]: Guide/dataManagers.html
 [dataUsers]: Guide/dataUsers.html
+[WCRPEndorsedMIPs]: https://www.wcrp-climate.org/modelling-wgcm-mip-catalogue/modelling-wgcm-cmip6-endorsed-mips
+[OMIP]: OMIP/
 [termsOfUse]: TermsOfUse/

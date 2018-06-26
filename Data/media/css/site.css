@@ -9,3 +9,11 @@ body{
 .indent{
 	margin-left: 20px;
 }
+
+.indent-15{
+	margin-left: 15px;
+}
+
+.txt-500{
+	font-weight: 500;
+}

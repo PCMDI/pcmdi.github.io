@@ -1,9 +1,9 @@
 ---
 layout: default
-title: CMIP6 Participation for modelers
+title: CMIP6 Participation Guidance for Modelers
 ---
 
-# CMIP6 Participation for modelers
+# CMIP6 Participation Guidance for Modelers
 ##### [Link back to guide homepage][guide]
 ##### Karl E. Taylor, Paul J. Durack, Mark Elkington, Eric Guilyardi, David Hassell, Michael Lautenschlager and Martina Stockhause
 
@@ -135,6 +135,8 @@ should be reported. It provides much of the variable-specific metadata that shou
 be stored along with the data. It also provides tools for estimating the data storage
 requirements for CMIP6.
 
+Additional information about the data request is available at https://www.earthsystemcog.org/projects/wip
+
 *[Further explanation will be added here.]*
 
 ## 5. Model output requirements
@@ -165,9 +167,7 @@ The CMIP6 data requirements are defined and discussed in the following documents
 * [Reference “controlled vocabularies” (CV’s) for CMIP6][cmip6Cvs]
 * [Specifications][cmip6GlobalAttGoogleDoc] for file names, directory structures,
  and CMIP6 Data Reference Syntax (DRS)
-* Specification of output file content, structure, and metadata (not yet available,
- but with notable exceptions will follow [CMIP5 requirements][cmip5outputMetadataRequirements]).
- Use of CMOR3 will ensure compliance
+* Specifications for output file content, structure, and metadata are available in [draft google doc](https://goo.gl/neswPr).  Use of CMOR3 will ensure compliance.
 * [Guidance on grid requirements][cmip6GridGoogleDoc]
 * [Information on pressure levels][cmip6PressureLevelsPdf] requested
 * [Guidance on time-averaging][cmip6TimeAveragesCog] (with masking)
@@ -371,7 +371,7 @@ Information is under preparation describing the governance of the following:
 ###### Document version: 13 September 2017
 
 [guide]: index.html
-[cmip6CvsRegistrationGuidance]: https://github.com/WCRP-CMIP/CMIP6_CVs/blob/master/.github/RegistrationGuidance.md
+[cmip6CvsRegistrationGuidance]: https://github.com/WCRP-CMIP/CMIP6_CVs/blob/master/.github/ISSUE_TEMPLATE.md
 [ESGFLlnlHome]: https://esgf-node.llnl.gov/projects/esgf-llnl/
 [institutionIdJson]: https://github.com/WCRP-CMIP/CMIP6_CVs/blob/master/CMIP6_institution_id.json
 [institutionIdHtml]: http://rawgit.com/WCRP-CMIP/CMIP6_CVs/master/src/CMIP6_institution_id.html
@@ -395,7 +395,6 @@ Information is under preparation describing the governance of the following:
 [cmip6DataRequestCog]: https://www.earthsystemcog.org/projects/wip/CMIP6DataRequest
 [cfConventionsPage]: http://cfconventions.org/
 [cmip6GlobalAttGoogleDoc]: http://goo.gl/v1drZl
-[cmip5outputMetadataRequirements]:http://cmip-pcmdi.llnl.gov/cmip5/docs/CMIP5_output_metadata_requirements.pdf
 [cmip6GridGoogleDoc]: http://goo.gl/1oA7bO
 [cmip6PressureLevelsPdf]: https://www.earthsystemcog.org/site_media/projects/wip/CMIP6_pressure_levels.pdf
 [cmip6TimeAveragesCog]: https://www.earthsystemcog.org/projects/wip/time_averages

@@ -58,7 +58,8 @@ Assessment Report on Climate Change][report], which is scheduled for publication
 [aims]: software/
 [cmf]:  https://pcmdi.llnl.gov/projects/modeldoc/index.html
 [WCRP]: http://www.wcrp-climate.org/
-[CMIP5]: http://pcmdi-cmip.llnl.gov/cmip5/index.html
+[CMIP5]: http://pcmdi.llnl.gov/mips/cmip5/index.html
 [ESGF]: http://esgf.llnl.gov/
 [report]: http://www.ipcc.ch/
 [DandA]: research/DandA/
+[test]: #

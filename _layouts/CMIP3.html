@@ -10,49 +10,26 @@ layout: default
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="{{site.baseurl}}/Data/media/css/contentMenu.css"/>
 </head>
-
-
-
-	<div data-spy="scroll" data-target="#myScrollspy" data-offset="20">
-			<div class="container">
-				<div class="row" >
-					<div class="span3"  >
-						<div class="well sidebar-nav" id="myScrollspy" position="center">
-
-
-							<ul style="list-style-type:none">
-
-								<a href="{{site.baseurl}}/mips/cmip3/"><button id = "tb" type="button" class="btn btn-primary btn-block btn-md" data-toggle="collapse" data-target="#demo">CMIP3 Home</button>
-
-									<a href="{{site.baseurl}}/mips/cmip3/overview.html">
-											<button id = "tb" type="button" class="btn btn-primary btn-block btn-md " datasrc="{{site.baseurl}}/mips/cmip5/news.html">Overview
-											</button>
-										</a>
-									<a href="{{site.baseurl}}/mips/cmip3/dataArchive.html">
-										<button id = "tb" type="button" class="btn btn-primary btn-block btn-md" data-toggle="collapse" data-target="#demo4">Data Archive</button>
-										</a>
-
-									<a href="{{site.baseurl}}/mips/cmip3/variableList.html">
-										<button id = "tb" type="button" class="btn btn-primary btn-block btn-md" data-toggle="collapse" data-target="#demo4">Variable List</button>
-										</a>
-
-									<a href="{{site.baseurl}}/mips/cmip3/data_status_tables.pdf">
-										<button id = "tb" type="button" class="btn btn-primary btn-block btn-md" data-toggle="collapse" data-target="#demo4">Data Availability</button>
-										</a>
-
-
-								<a href="{{site.baseurl}}/mips/cmip3/experiment.html">
-									<button id = "tb" type="button" class="btn btn-primary btn-block btn-md" data-toggle="collapse" data-target="#demo2">Experiment Design</button>
-								</a>
-
-							</ul>
-
-						</div>
-					</div>
-					<div class="span9" id="content">
-						<div class="row-fluid">
-						{{ content }}
-						</div>
-					</div>
+<div data-spy="scroll" data-target="#myScrollspy" data-offset="20">
+	<div class="container">
+		<div class="row" >
+			<div class="span3"  >
+				<div class="well sidebar-nav" id="myScrollspy" position="center">
+					<ul class="nav nav-list">
+						<a href="{{site.baseurl}}/mips/cmip3/"><h4>CMIP3 Home</h4></a>
+						<li><a href="{{site.baseurl}}/mips/cmip3/overview.html">Overview</a></li>
+						<li><a href="{{site.baseurl}}/mips/cmip3/dataArchive.html">Data Archive</a></li>
+						<li><a href="{{site.baseurl}}/mips/cmip3/variableList.html">Variable List</a></li>
+						<li><a href="{{site.baseurl}}/mips/cmip3/data_status_tables.pdf">Data Availability</a></li>
+						<li><a href="{{site.baseurl}}/mips/cmip3/experiment.html">Experiment Design</a></li>
+					</ul>
 				</div>
+			</div>
+			<div class="span9" id="content">
+				<div class="row-fluid">
+				{{ content }}
+				</div>
+			</div>
+		</div>
+	</div>
 </div>

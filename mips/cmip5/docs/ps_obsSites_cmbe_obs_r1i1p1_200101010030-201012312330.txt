@@ -1,0 +1,79 @@
+netcdf ps_obsSites_cmbe_obs_r1i1p1_200101010030-201012312330 {
+dimensions:
+	time = UNLIMITED ; // (87648 currently)
+	site = 1 ;
+	bnds = 2 ;
+variables:
+	double time(time) ;
+		time:bounds = "time_bnds" ;
+		time:units = "days since 2001-01-01 00.00, GMT" ;
+		time:calendar = "proleptic_gregorian" ;
+		time:axis = "T" ;
+		time:long_name = "time" ;
+		time:standard_name = "time" ;
+	double time_bnds(time, bnds) ;
+	int site(site) ;
+		site:units = "1" ;
+		site:long_name = "site index" ;
+	float lat(site) ;
+		lat:standard_name = "latitude" ;
+		lat:long_name = "Latitude" ;
+		lat:units = "degrees_north" ;
+		lat:cell_methods = "-90.0" ;
+	float lon(site) ;
+		lon:standard_name = "longitude" ;
+		lon:long_name = "Longitude" ;
+		lon:units = "degrees_east" ;
+		lon:cell_methods = "0.0" ;
+	float ps(time, site) ;
+		ps:standard_name = "surface_air_pressure" ;
+		ps:long_name = "Surface Air Pressure" ;
+		ps:comment = "not, in general, the same as mean sea-level pressure" ;
+		ps:units = "Pa" ;
+		ps:original_name = "p_sfc" ;
+		ps:original_units = "hPa" ;
+		ps:history = "2011-03-10T20:10:41Z altered by CMOR: Converted units from \'hPa\' to \'Pa\'. 2011-03-10T20:10:41Z altered by CMOR: replaced missing value flag (-9999) with standard missing value (1e+20)." ;
+		ps:cell_methods = "time: mean" ;
+		ps:cell_measures = "area: point" ;
+		ps:missing_value = 1.e+20f ;
+		ps:_FillValue = 1.e+20f ;
+		ps:associated_files = "gridspecFile: gridspec_atmos_fx_cmbe_obs_r0i0p0.nc point: point_fx_cmbe_obs_r0i0p0.nc" ;
+		ps:coordinates = "lat lon" ;
+
+// global attributes:
+		:institution = "ARM" ;
+		:institute_id = "ARM" ;
+		:experiment_id = "obs" ;
+		:source = "CMBE (Climate Modeling Best Estimate), ARM (Atmospheric Radiation Measurement Program)" ;
+		:model_id = "cmbe" ;
+		:contact = "cmbe: Renata McCoy, renata@llnl.gov, ARM Archive user services: armarchive@ornl.gov" ;
+		:initialization_method = 1 ;
+		:physics_version = 1 ;
+		:tracking_id = "15dbc37d-fe01-45ec-b943-de4594a7f1b0" ;
+		:source_title = "ARM Climate Modeling Best Estimate (CMBE) Product, atmospheric profiles: cmbe_atm" ;
+		:source_version = "cmbe_atm-v1.0" ;
+		:source_description = "Climate Modeling Best Estimate hourly averaged qc controlled product, derived from ARM observational Value Added Product data: met and soundings." ;
+		:source_project = "Atmospheric Radiation Measurements (ARM) Program, http://www.arm.gov" ;
+		:source_location = "Barrow ARM, NSA, C1; lon = 156.6 W, lat = 71.3 N, alt = 7.6 m MSL" ;
+		:source_datastream = "nsacmbe_atm_v1.0_C1.c1.*.cdf" ;
+		:source_url = "http://www.arm.gov/data/cmbe/" ;
+		:source_reference = "S. Xie, R.B. McCoy, S.A.Klein, et al., 2010: CLOUDS AND MORE: ARM Climate Modeling Best Estimate Data. Bull. Amer. Meteor. Soc., 91, 13-20. DOI: 10.1175/2009BAMS2891.1." ;
+		:agency = "DOE" ;
+		:obs_project = "ARM" ;
+		:obs_type = "in-situ_stations" ;
+		:instrument = "cmbe" ;
+		:location = "Barrow" ;
+		:version = "v1p1" ;
+		:product = "observations" ;
+		:experiment = "Observations" ;
+		:frequency = "1hr" ;
+		:creation_date = "2011-03-10T20:10:41Z" ;
+		:history = "2011-03-10T20:10:41Z CMOR rewrote data to comply with CF standards and obs4cmip5 requirements." ;
+		:Conventions = "CF-1.4" ;
+		:project_id = "obs4cmip5" ;
+		:table_id = "Table obsSites (22 February 2011) d38ff9d30d45aefbd9bbe0183ec385ee" ;
+		:title = "cmbe model output prepared for obs4cmip5 Observations" ;
+		:modeling_realm = "atmos" ;
+		:realization = 1 ;
+		:cmor_version = "2.5.7" ;
+}
