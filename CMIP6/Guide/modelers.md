@@ -48,7 +48,7 @@ model documentation should be provided as early as possible):
 
    As an example of information that will be recoverable through the citation service
    consider the input4MIPs data set which has been recorded at the citation service
-   at [http://cera-www.dkrz.de/WDCC/meta/CMIP6/input4MIPs.PCMDI.SSTsAndSeaIce.CMIP.PCMDI-AMIP-1-1-2][PCMDIAmipCitation].
+   at [https://doi.org/10.22033/ESGF/input4MIPs.2204][PCMDIAmipCitation].
 
 * If you are not yet included in the CMIP6-MODELGROUPS-SCI mail list, register your
  scientific contact with CMIP Panel Chair, Veronika Eyring (veronika.eyring@dlr.de)
@@ -379,7 +379,7 @@ Information is under preparation describing the governance of the following:
 [sourceIdHtml]: http://rawgit.com/WCRP-CMIP/CMIP6_CVs/master/src/CMIP6_source_id.html
 [dkrzCitationGUI]: http://cera-www.dkrz.de/citeXA
 [dkrzCitationGUIDoc]: http://cera-www.dkrz.de/docs/pdf/CMIP6_Citation_Userguide.pdf
-[PCMDIAmipCitation]: http://cera-www.dkrz.de/WDCC/meta/CMIP6/input4MIPs.PCMDI.SSTsAndSeaIce.CMIP.PCMDI-AMIP-1-1-2
+[PCMDIAmipCitation]: https://doi.org/10.22033/ESGF/input4MIPs.2204
 [DKRZ]: https://www.dkrz.de/
 [cmip6Cvs]: https://github.com/WCRP-CMIP/CMIP6_CVs
 [EndorsedMipMailingList]: https://www.wcrp-climate.org/modelling-wgcm-mip-catalogue/modelling-wgcm-cmip6-endorsed-mips
