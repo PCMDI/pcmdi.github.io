@@ -1,0 +1,227 @@
+<!DOCTYPE html PUBLIC "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+  <meta http-equiv="Content-Type"
+ content="text/html; charset=iso-8859-1">
+  <meta name="GENERATOR"
+ content="Mozilla/4.79 [en] (Windows NT 5.0; U) [Netscape]">
+  <title>GISS_MILLER Table Elaborations</title>
+</head>
+<body style="background-color: rgb(255, 255, 255);">
+<h1>
+<a name="Top of Page"></a></h1>
+<h1>
+Model GISS (Miller): Elaborations</h1>
+<h3>
+<hr width="100%"></h3>
+&nbsp;
+<h3><a name="Participation"></a>Participation</h3>
+Model GISS (Miller) is an entry in the CMIP1 intercomparison only.
+<h3><a name="Spinup/Initialization"></a>Spinup/Initialization</h3>
+The procedure for spinup/initialization to the simulation starting
+point
+of the coupled model is as follows (cf. <a
+ href="#Miller%20and%20Jiang%201996">Miller
+and Jiang 1996</a>):
+<ul>
+  <li>The atmospheric model was integrated for a decade with AMIP
+ocean/sea
+ice
+boundary conditions.</li>
+</ul>
+<ul>
+  <li>The computed surface winds then were used to force the ocean
+model,
+while
+restoring the SST and SSS to Levitus (1982) annual-mean values. The
+ocean
+model was integrated for 6000 x 365 ocean-tracer time steps (equivalent
+to 6000 years of the tracer field, with time step length of 1 day).</li>
+</ul>
+<ul>
+  <li>Seasonally varying values of SST and SSS then were used to force
+the
+ocean
+model for an additional 500 years, with the tracer time step reduced
+from
+1 day to 4 hours.</li>
+</ul>
+<ul>
+  <li>At this point, the globally integrated surface energy flux
+(proportional
+to the difference between the Levitus temperature and the first model
+layer
+temperature) was &lt; 0.001 W m-2, and the ocean and atmosphere models
+were coupled.</li>
+</ul>
+<ul>
+  <li>The coupled model was integrated for 110 years without flux
+adjustment.</li>
+</ul>
+<h3>
+<a name="Land Surface Processes"></a>Land Surface Processes</h3>
+<ul>
+  <li>Soil temperature is computed by solving a heat diffusion equation
+in
+six
+layers. The thickness of the top layer varies, but is approximately 0.1
+m. The thicknesses of deeper layers increase geometrically, with the
+bottom
+boundary of the soil column at a nominal bedrock depth of 3.444 m. The
+upper boundary condition is the balance of surface energy fluxes; at
+the
+bottom boundary, zero net heat flux is specified. The thermal
+conductivity
+and heat capacity of the ground vary with snow cover, as well as soil
+moisture
+amount and phase.</li>
+</ul>
+<ul>
+  <li> <font size="+0">Land-surface hydrology is treated after the
+physically based
+model of <a href="#Abramopoulos%20et%20al.%201988">Abramopoulos et al.
+(1988)</a>.
+The scheme includes a vegetation canopy, a composite over each grid box
+from the vegetation types of <a href="#Matthews%201983">Matthews
+(1983, 1984</a>),
+that intercepts precipitation and dew. Evaporation from the wet canopy
+and from bare soil is treated, as well as soil-moisture loss from
+transpiration
+according to moisture availability and variable vegetation resistance
+and
+root density. Diffusion of moisture is predicted in the six soil
+layers,
+accounting for spatially variable composite conductivities and matric
+potentials
+that depend on soil type and moisture content. Infiltration of
+precipitation
+and snowmelt is explicitly calculated, with surface runoff occurring
+when
+the uppermost soil layer is saturated; underground runoff that depends
+on topographic slope also is included.</font></li>
+</ul>
+<h3>
+<a name="Sea Ice"></a>Sea Ice</h3>
+<ul>
+  <li>Sea ice is represented by the two-layer model of <a
+ href="#Hansen%201983">Hansen
+et al. (1983)</a>, where the top layer simulates accumulating snow up
+to
+a depth of 0.1 m.&nbsp; When this threshold depth is exceeded, 0.01m of
+the snow is added to the lower layer as ice, thereby keeping the upper
+layer thin enough to simulate diurnal temperature changes. A fraction
+of
+an ocean grid square may be covered by ice at a thickness that is a
+function
+of the fractional coverage.</li>
+</ul>
+<ul>
+  <li>The snow-free albedo of sea ice is 0.55 in the visible
+(wavelengths
+&lt;
+0.7micrometers) and 0.3 in the near-infrared, resulting in a spectrally
+weighted ice albedo of 0.45.</li>
+</ul>
+<ul>
+  <li>Sea ice dynamics and rheology are neglected.</li>
+</ul>
+<h3>
+<a name="Diffs_AMIP"></a><font size="+1">Chief Differences from Closest
+AMIP
+Model</font></h3>
+The atmospheric component of the GISS (Miller) coupled model (internal
+designation: Model B122AM9) differs from AMIP model <a
+ href="https://pcmdi.llnl.gov/mips/amip/home/Documentation/20giss_ToC.html">GISS
+Model II Prime (4x5, L9) 1994</a> (internal designation: Model B150AM9)
+mainly in the following respects:
+<ul>
+  <a name="Horizontal Representation"></a><b><font size="+1">Horizontal
+Representation</font></b>
+  <p>A linear upstream scheme is used for the advection of tracers,
+rather
+than the <a
+ href="https://pcmdi.llnl.gov/mips/amip/home/Documentation/20giss.html#RTFToC7">AMIP
+model's</a> more accurate quadratic advection scheme. </p>
+  <p><a name="Chemistry"></a><b><font size="+1">Chemistry</font></b> </p>
+  <p>The<b><font size="+1"> </font></b>model lacks the improved
+aerosol climatology
+used in the <a
+ href="https://pcmdi.llnl.gov/mips/amip/home/Documentation/20giss.html#RTFToC23">AMIP
+model</a>. </p>
+  <p><a name="Radiation"></a><b><font size="+1">Radiation</font></b> </p>
+  <p>Rather than calculating radiative fluxes at every horizontal grid
+point
+as in the <a
+ href="https://pcmdi.llnl.gov/mips/amip/home/Documentation/20giss.html#RTFToC24">AMIP
+model</a>, these fluxes are computed only at every other horizontal
+grid
+point, using interpolation to obtain values at intermediate grid
+points. </p>
+  <p><a name="Diffs Land Surface Processes"></a><b><font size="+1">Land
+Surface
+Processes</font></b> </p>
+  <p>The <a href="#Land%20Surface%20Processes">land surface hydrology</a>
+scheme
+is somewhat less sophisticated than that of the <a
+ href="https://pcmdi.llnl.gov/mips/amip/home/Documentation/20giss.html#RTFToC35">AMIP
+model</a>.</p>
+</ul>
+<h3>
+&nbsp;<br>
+<a name="References"></a>References</h3>
+<a name="Abramopoulos et al. 1988"></a>Abramopoulos, F., C. Rosenzweig,
+and B. Choudhury, 1988: Improved ground hydrology calculations for
+global
+climate models (GCMs): Soil water movement and evapotranspiration. <i>J.
+Climate,</i> <b>1</b>, 921-941. (<a
+ href="http://www.giss.nasa.gov/GPOL/abstracts/88.AbramapoulosRosenzweig.abs.html">Abstract</a>)
+<p><a name="Hansen 1983"></a>Hansen, J., G. Russell, D. Rind, P. Stone,
+A, Lacis, S. Lebedeff, R. Ruedy, and L. Travis, 1983: Efficient
+three-dimensional
+global models for climate studies: Models I and II. Mon. Wea. Rev.,
+111,
+609-662.
+</p>
+<p><a name="Matthews 1983"></a>Matthews, E., 1983: Global vegetation
+and
+land use: New high-resolution data bases for climate studies. <i>J.
+Clim.
+Appl. Meteor.</i>, <b>22</b>, 474-487. (<a
+ href="http://www.giss.nasa.gov/GPOL/abstracts/83.Matthews.abs.html">Abstract</a>)
+</p>
+<p><a name="Matthews 1984"></a>Matthews, E., 1984: Vegetation,
+land-use,
+and seasonal albedo data sets: Documentation of archived data tape.
+NASA
+Tech. Memo. 86107, National Aeronautics and Space Administration,
+Washington,
+D.C., 20 pp.
+</p>
+<p><a name="Miller and Jiang 1996"></a>Miller, R.L., and X. Jiang,
+1996:
+Surface energy fluxes and coupled variability in the Tropics of a
+coupled
+General Circulation Model.&nbsp; <i>J. Climate</i>, <b>9</b>,
+1599-1620
+<br>
+&nbsp;
+<br>
+&nbsp;
+</p>
+<p><a href="#Top%20of%20Page">Top</a>
+</p>
+<p><a href="tables.html">CMIP Documentation Directory</a>
+</p>
+<hr width="100%">
+<p>Last update 15 May, 2002.&nbsp; This page is maintained by Tom
+Phillips
+(<a href="mailto:" phillips@pcmdi.llnl.gov="">phillips@pcmdi.llnl.gov</a>).
+<br>
+&nbsp;
+</p>
+<p><a href="http://www.llnl.gov/disclaimer.html">LLNL Disclaimers</a>
+</p>
+<p>UCRL-MI-126431
+</p>
+</body>
+</html>

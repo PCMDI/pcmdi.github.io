@@ -26,7 +26,7 @@ An overview of various aspects of CMIP5 is provided by:
 
 A fuller description (“lots of details”) of the experiments can be found in:
 
-[A Summary of the CMIP5 Experiment Design]({{site.baseurl}}/projects/cmip5/Taylor_CMIP5_design.pdf)
+[A Summary of the CMIP5 Experiment Design]({{site.baseurl}}/mips/cmip5/Taylor_CMIP5_design.pdf)
 {: .indent}
 
 
@@ -37,19 +37,19 @@ The objectives and strategy for the CMIP5 decadal predictions simulations is sum
 
 For further background and information, consult the following web page:
 
-[Experiment Design](http://cmip-pcmdi.llnl.gov/cmip5/experiment_design.html)
+[Experiment Design]({{site.baseurl}}/mips/cmip5/experiment_design.html)
 {: .indent}
 
 
 
-**“Official” Experiment Names. [cmip5_data_reference_Appendix1-1.doc](http://cmip-pcmdi.llnl.gov/cmip5/experiment_design.html) ([pdf format]({{site.baseurl}}/projects/cmip5/cmip5_data_reference_Appendix1-1.pdf)) (New 2013-03-28)**
+**“Official” Experiment Names. [cmip5_data_reference_Appendix1-1.doc]({{site.baseurl}}/mips/cmip5/experiment_design.html) ([pdf format]({{site.baseurl}}/mips/cmip5/cmip5_data_reference_Appendix1-1.pdf)) (New 2013-03-28)**
 
 
 ## CMIP5 Forcing Information:
 
 For simulations of the future, the primary references for the forcing (emissions/concentrations/land-use change can be found in a Special Issue of Climatic Change, which is described at:
 
-[Representative Concentration Pathways (RCP’s)]({{site.baseurl}}/projects/cmip5/RCP_journal_special.docx) ([pdf form]({{site.baseurl}}/projects/cmip5/RCP_journal_special.pdf)) RCP_special_journal
+[Representative Concentration Pathways (RCP’s)]({{site.baseurl}}/mips/cmip5/RCP_journal_special.docx) ([pdf form]({{site.baseurl}}/mips/cmip5/RCP_journal_special.pdf)) RCP_special_journal
 {: .indent}
 
 
@@ -63,13 +63,13 @@ For simulations of the historical period, references for the forcing (emissions/
 
 Additional datasets and references used in CMIP5 are described on the CMIP5 website at:
 
-<http://cmip-pcmdi.llnl.gov/cmip5/forcing.html>
+[https://pcmdi.llnl.gov/mips/cmip5/forcing.html]({{site.baseurl}}/mips/cmip5/forcing.html)
 {: .indent}
 
 
-For the "historicalMisc" simulations, modeling groups were asked to include only a subset of the forcing contributions. See the [historical_Misc_forcing.pdf]({{site.baseurl}}/projects/cmip5/historical_Misc_forcing.pdf) document for for the list of simulations forced by various combinations of anthropogenic or natural agents. The document was updated **2 Jan 2014** to include inadvertently omitted data from CCSM4 and new CESM1-CAM5 simulations"). For all CMIP5 simulations, a list of “forcings” that are active in each run is stored in each output file (in a global attributed called “forcing”) and the key to the abbreviations used in that list is available here:
+For the "historicalMisc" simulations, modeling groups were asked to include only a subset of the forcing contributions. See the [historical_Misc_forcing.pdf]({{site.baseurl}}/mips/cmip5/historical_Misc_forcing.pdf) document for for the list of simulations forced by various combinations of anthropogenic or natural agents. The document was updated **2 Jan 2014** to include inadvertently omitted data from CCSM4 and new CESM1-CAM5 simulations"). For all CMIP5 simulations, a list of “forcings” that are active in each run is stored in each output file (in a global attributed called “forcing”) and the key to the abbreviations used in that list is available here:
 
-List of abbreviations used to describe forcing [Appendix 1.2 of DRS document]({{site.baseurl}}/projects/cmip5/cmip5_data_reference_Appendix1-2.doc) ([pdf form]({{site.baseurl}}/projects/cmip5/cmip5_data_reference_Appendix1-2.pdf))
+List of abbreviations used to describe forcing [Appendix 1.2 of DRS document]({{site.baseurl}}/mips/cmip5/cmip5_data_reference_Appendix1-2.doc) ([pdf form]({{site.baseurl}}/mips/cmip5/cmip5_data_reference_Appendix1-2.pdf))
 {: .indent}
 
 
@@ -83,40 +83,40 @@ Additional information relevant to the development of the forcing datasets, as w
 
 The list of variables requested as part of CMIP5 is available in 2 formats:
 
-[standard_output.pdf]({{site.baseurl}}/projects/cmip5/standard_output.pdf)
+[standard_output.pdf]({{site.baseurl}}/mips/cmip5/standard_output.pdf)
 {: .indent}
 
-[standard_output.xls]({{site.baseurl}}/projects/cmip/standard_output.xls)
+[standard_output.xls]({{site.baseurl}}/mips/cmip/standard_output.xls)
 {: .indent}
 
 The output is stored in netCDF files and includes extensive metadata allowing automated processing.  The metadata requirements of CMIP5 are described in:
 
-[CMIP5_output_metadata_requirements.pdf]({{site.baseurl}}/projects/cmip5/CMIP5_output_metadata_requirements.pdf)
+[CMIP5_output_metadata_requirements.pdf]({{site.baseurl}}/mips/cmip5/CMIP5_output_metadata_requirements.pdf)
 {: .indent}
 
 A key to some of the controlled vocabulary applied to CMIP5 model output, which enables one to decipher the information contained in filenames and in some of the metadata is described in:
 
-[cmip5_data_reference_syntax.pdf]({{site.baseurl}}/projects/cmip5/cmip5_data_reference_syntax.pdf)
+[cmip5_data_reference_syntax.pdf]({{site.baseurl}}/mips/cmip5/cmip5_data_reference_syntax.pdf)
 {: .indent}
 
 All users of CMIP5 model output should be sure to properly cite and acknowledge the data: 
 
-[Citation/Acknowledgment]({{site.baseurl}}/projects/cmip5/citation.html)
+[Citation/Acknowledgment]({{site.baseurl}}/mips/cmip5/citation.html)
 {: .indent}
 
 
-“Official” Names of CMIP5 Models and Modeling Groups [CMIP5_modeling_groups]({{site.baseurl}}/projects/cmip5/cmip5_data_reference_syntax.pdf) ([pdf format]({{site.baseurl}}/projects/cmip5/CMIP5_modeling_groups.pdf)).
+**“Official” Names of CMIP5 Models and Modeling Groups [CMIP5_modeling_groups]({{site.baseurl}}/mips/cmip5/CMIP5_modeling_groups.pdf).**
 
 ## CMIP5 Model Output Archive:
 
 The process for registering and downloading CMIP5 model output is summarized in the
 
-[Getting Started Document]({{site.baseurl}}/projects/cmip5/data_getting_started.html)
+[Getting Started Document]({{site.baseurl}}/mips/cmip5/data-access-getting-started.html)
 {: .indent}
 
 An overview of currently available model output can be found at:
 
-[Current Availability of Output]({{site.baseurl}}/projects/cmip5/availability.html)
+[Current Availability of Output]({{site.baseurl}}/mips/cmip5/availability.html)
 {: .indent}
 
 The CMIP5 model output is served by the following ESGF Data Portals:
@@ -153,14 +153,14 @@ There are, of course, many additional datasets of interest to CMIP5 researchers.
 
 ClimateDataGuide: <http://climatedataguide.ucar.edu/>
 
-Downscaled Data Based on CMIP5:
+## Downscaled Data Based on CMIP5:
 
 The CORDEX project is a WCRP-coordinated exercise to regionally downscale climate model projection data.  The initial focus of this project is to downscale CMIP5 model output from the following CMIP5 simulations: historical, RCP4.5, RCP8.5, AMIP, and decadal prediction runs.  Further information is available at:
 
 <http://wcrp.ipsl.jussieu.fr/SF_RCD_CORDEX.html>
 
 
-Links to Projects and Sites with Close Ties to CMIP5:
+## Links to Projects and Sites with Close Ties to CMIP5:
 
 [CFMIP](http://cfmip.metoffice.com/) (Cloud Feedback Model Intercomparison Project)
 
@@ -178,7 +178,7 @@ Links to Projects and Sites with Close Ties to CMIP5:
 
 [METAFOR](http://metaforclimate.eu/) (Metadata For Climate Models)
 
-[Earth System Curator](http://www.earthsystemcurator.org/index.shtml)
+[Earth System Curator](https://www.earthsystemcog.org/projects/earthsystemcurator/)
 
 [WGCM](http://www.wcrp-climate.org/wgcm/) (Working Group on Coupled Modelling)
 

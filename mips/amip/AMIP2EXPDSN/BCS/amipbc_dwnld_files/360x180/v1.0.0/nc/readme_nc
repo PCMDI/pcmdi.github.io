@@ -2,13 +2,13 @@ README_nc
 
 The AMIP 2 boundary condition data are to be used in simulations as
 described in the document on the web: 
-http://www-pcmdi.llnl.gov/projects/amip/AMIP2EXPDSN/BCS/amip2bcs.php.  
+https://pcmdi.llnl.gov/mips/amip/AMIP2EXPDSN/BCS/amip2bcs.html.  
 This document has also been published as a PCMDI report:  Taylor, K.E., 
 D. Williamson and F. Zwiers, 2000: "The sea surface temperature and sea
 ice concentration boundary conditions for AMIP II simulations," PCMDI
 Report No. 60, Program for Climate Model Diagnosis and Intercomparison,
 Lawrence Livermore National Laboratory, 25 pp (available at
-http://www-pcmdi.llnl.gov/publications/ab60.html). These boundary
+https://pcmdi.llnl.gov/report/ab60.html). These boundary
 condition data sets are based on, but not the same as, the monthly mean
 data. 
 

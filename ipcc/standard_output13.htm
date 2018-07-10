@@ -53,16 +53,16 @@ to obtain a pdf version of this document.</font></p>
 <font size="+1">15 September 2005</font><HR>
 <h2><span style="font-size:14.0pt">Contents:</span></h2>
 <h2 style="text-indent: -.25in; margin-left: .5in; margin-top: 0; margin-bottom: 0">
-<span style="font-size: 12.0pt; font-family: Symbol; font-weight: normal">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<span style="font-size: 12.0pt; font-family: Symbol; font-weight: normal">ï¿½<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><span style="font-size:12.0pt">
 <a href="#Introduction">Introduction and format 
 requirements</a></span></h2>
 <h2 style="text-indent: -.25in; margin-left: .5in; margin-top: 0; margin-bottom: 0">
-<span style="font-size: 12.0pt; font-family: Symbol; font-weight: normal">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<span style="font-size: 12.0pt; font-family: Symbol; font-weight: normal">ï¿½<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><span style="font-size:12.0pt"><a href="#overview">
 Model output overview</a></span></h2>
 <h2 style="text-indent: -.25in; margin-left: .5in; margin-top: 0; margin-bottom: 0">
-<span style="font-size: 12.0pt; font-family: Symbol; font-weight: normal">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<span style="font-size: 12.0pt; font-family: Symbol; font-weight: normal">ï¿½<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><span style="font-size:12.0pt">
 <a href="#Highest_priority_output">Highest priority output fields</a></span></h2>
 <blockquote>
@@ -106,7 +106,7 @@ Model output overview</a></span></h2>
   (longitude, latitude, time:year) from Frich et al. (their Table 1)</p>
 </blockquote>
 <h2 style="text-indent: -.25in; margin-left: .5in; margin-top: 0; margin-bottom: 0">
-<span style="font-size: 12.0pt; font-family: Symbol; font-weight: normal">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<span style="font-size: 12.0pt; font-family: Symbol; font-weight: normal">ï¿½<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><span style="font-size:12.0pt">
 <a href="#Lower_priority_output">Lower priority output fields</a></span></h2>
 <blockquote>
@@ -131,11 +131,11 @@ Model output overview</a></span></h2>
   surface fields and prescribed land surface characteristics</p>
 </blockquote>
 <h2 style="text-indent: -.25in; margin-left: .5in; margin-top: 0; margin-bottom: 0">
-<span style="font-size: 12.0pt; font-family: Symbol; font-weight: normal">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<span style="font-size: 12.0pt; font-family: Symbol; font-weight: normal">ï¿½<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><span style="font-size:12.0pt"><a href="#Coordinate_dimensions.">
 Coordinate dimensions</a></span></h2>
 <h2 style="text-indent: -.25in; margin-left: .5in; margin-top: 0; margin-bottom: 0">
-<span style="font-size: 12.0pt; font-family: Symbol; font-weight: normal">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<span style="font-size: 12.0pt; font-family: Symbol; font-weight: normal">ï¿½<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><span style="font-size:12.0pt">
 <a href="#Experiments">
 Experiments and time periods for which data should be submitted</a></span></h2>
@@ -174,7 +174,7 @@ mean precisely by this quantity?", may be found on the Web at
            http://www.cgd.ucar.edu/cms/eaton/cf-metadata/standard_name.html.</a></p>
 <p>
 <b><i>The detailed requirements</i></b> for CMIP / IPCC contributions are contained in the document
-<a href="http://www-pcmdi.llnl.gov/ipcc/IPCC_output_requirements.htm">
+<a href="{{site.baseurl}}/ipcc/IPCC_output_requirements.htm">
 http://www-pcmdi.llnl.gov/ipcc/IPCC_output_requirements.htm.</a>
 This document should be read carefully before preparing contributions.
 Perhaps the easiest way to meet these requirements is to rewrite your model output through CMOR, 
@@ -200,16 +200,16 @@ contain all variables for a single time step. </p>
 <p>
 To facilitate adherence to these standards, the PCMDI has written (in FORTRAN 90) a standard output code 
 called CMOR (pronounced "see more"; see
-<a href="http://www-pcmdi.llnl.gov/software-portal/cmor">http://www-pcmdi.llnl.gov/software-portal/cmor</a>), which is now available as open source.
+<a href="https://pcmdi.github.io/cmor-site/">https://pcmdi.github.io/cmor-site/</a>), which is now available as open source.
 This code structures the data uniformly and writes netCDF files in full compliance with IPCC requirements.
 Use of CMOR is being encouraged (and in some cases required) by various ongoing model intercomparison 
 projects. <span style="font-size: 12.0pt; font-family: Times New Roman">The CMOR 
 documentation in pdf format is available at
-<a href="http://www-pcmdi.llnl.gov/software/cmor/cmor_users_guide.pdf" style="color: blue; text-decoration: underline; text-underline: single">
-http://www-pcmdi.llnl.gov/software/cmor/cmor_users_guide.pdf</a>, and the source
+<a href="{{site.baseurl}}/software/cmor/cmor_users_guide.pdf" style="color: blue; text-decoration: underline; text-underline: single">
+here</a>, and the source
 code is available at&nbsp;
-<a href="http://www-pcmdi.llnl.gov/software-portal/cmor/download" style="color: blue; text-decoration: underline; text-underline: single">
-http://www-pcmdi.llnl.gov/software-portal/cmor/download</a>. </span>For further information, contact
+<a href="https://pcmdi.github.io/cmor-site//download" style="color: blue; text-decoration: underline; text-underline: single">
+https://pcmdi.github.io/cmor-site//download</a>. </span>For further information, contact
 <a href="mailto:taylor13@llnl.gov"> taylor13@llnl.gov.</a></p>
 <p>The notes that appear in the following tables are meant to provide precise 
 definitions of the requested fields.&nbsp; Sometimes it may be impossible to 
@@ -227,13 +227,13 @@ to calculate (or lack of agreement as to calculation method), 2) nominated late,
 &quot;highest priority&quot; tables had been officially released, or 3) generally 
 perceived to be of somewhat less interest than other fields. </p>
 <p>Some of the variables in the tables below were required for the original 1997 version of
-<a href="http://www-pcmdi.llnl.gov/projects/cmip/announ.php">CMIP2</a> or  have been requested for contributions to the CMIP pilot project
+<a href=" {{site.baseurl}}/mips/cmip/announ.html">CMIP2</a> or  have been requested for contributions to the CMIP pilot project
 "20th Century Climate in Coupled Models"
-(<a href="http://www-pcmdi.llnl.gov/projects/cmip/ann_20c3m.php">20C3M</a>). Many of
+(<a href="{{site.baseurl}}/mips/cmip/ann_20c3m.html">20C3M</a>). Many of
 the additional fields were requested by AMIP, the atmosphere-only
 counterpart of CMIP in which ocean surface and sea ice boundary conditions are prescribed to
 match observations over the late 20th century (see
-<a href="http://www-pcmdi.llnl.gov/projects/amip/OUTPUT/AMIP2/outlist.php">AMIP2 standard output).
+<a href="{{site.baseurl}}/mips/amip/OUTPUT/AMIP2/outlist.html">AMIP2 standard output).
 </a>&nbsp;Suggestions for additions or 
 changes to these tables are welcome and will be considered for future model 
 intercomparison and IPCC exercises.</p>
@@ -2516,8 +2516,7 @@ practical, the clear-sky and all-sky shortwave and longwave radiative
 forcing.  These four fields should be a function of longitude latitude
 and time (monthly sampling).  No standard
 method for calculating radiative forcing has been agreed on by the
-WGCM, but one good option would be to follow the method suggested in Appendix A of a letter from the IPCC co-chairs 
-(see <a href="Appendix_A.php">http://www-pcmdi.llnl.gov/ipcc/Appendix_A.php</a>).  The
+WGCM, but one good option would be to follow the method suggested in <a href="{{site.baseurl}}/ipcc/Appendix_A.html">Appendix A</a> of a letter from the IPCC co-chairs.  The
 highest priority (and easiest) calculation of this kind is to calculate
 monthly-mean values of radiative forcing for doubled CO2.
 Calculation of clear-sky radiative forcing as well as all-sky forcing

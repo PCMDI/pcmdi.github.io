@@ -19,7 +19,7 @@ order to confidently use GCMs for simulation of putative global climate change.
 
 PCMDI's mission demands that we work on both scientific projects and infrastructural tasks. Our current scientific projects 
 focus on supporting [model intercomparison][mi], on developing a [model parameterization testbed][mpt], identification of robust [Cloud 
-Feedbacks][cf] in observations and models and on devising robust statistical methods for climate-change detection/attribution. 
+Feedbacks][cf] in observations and models and on devising robust statistical methods for climate-change [detection/attribution][DandA]. 
 Examples of ongoing infrastructural tasks include the development of [software][aims] for data management, visualization, and computation; 
 the assembly/organization of observational data sets for model validation; and the consistent documentation of [climate model 
 features][cmf]. Details of all this work are described in numerous publications, as well as on this website.    
@@ -48,16 +48,18 @@ Assessment Report on Climate Change][report], which is scheduled for publication
 
 [LLNL]: http://www.llnl.gov/
 [sf]:   location.html
-[RGCM]: #
+[RGCM]: https://science.energy.gov/ber/research/cesd/regional-and-global-modeling/
 [ASR]:  http://asr.science.energy.gov/
-[CESD]: #
-[BER]:  #
-[mi]:   projects/
-[mpt]:  #
-[cf]:   #
-[aims]: http://aims.llnl.gov/
-[cmf]:  http://www-pcmdi.llnl.gov/projects/modeldoc/index.php
+[CESD]: https://science.energy.gov/ber/research/cesd/
+[BER]:  https://science.energy.gov/ber/
+[mi]:   mips/
+[mpt]:  projects/capt/
+[cf]:   {{site.baseurl}}/projects/cloud_feedbacks/index.html
+[aims]: software/
+[cmf]:  https://pcmdi.llnl.gov/projects/modeldoc/index.html
 [WCRP]: http://www.wcrp-climate.org/
-[CMIP5]: http://pcmdi-cmip.llnl.gov/cmip5/index.html
+[CMIP5]: http://pcmdi.llnl.gov/mips/cmip5/index.html
 [ESGF]: http://esgf.llnl.gov/
 [report]: http://www.ipcc.ch/
+[DandA]: research/DandA/
+[test]: #

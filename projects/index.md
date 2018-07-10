@@ -68,26 +68,26 @@ input4MIPS (input datasets for Model Intercomparison Projects) is an activity to
 #### [Supplemental Material for Ken Sperber's Publication][KEN]
 
 
-[AMIP]:{{site.baseurl}}/projects/amip/amip.html
+[AMIP]:{{site.baseurl}}/mips/amip/amip.html
 [APE]:{{site.baseurl}}/projects/ape/index.html
 [ARM]:http://www.arm.gov/
 [ASR]:http://asr.science.energy.gov/
 [BER]:http://www.science.doe.gov/Program_Offices/BER.htm
 [CAPT]:{{site.baseurl}}/projects/capt/index.html
 [CMIP]:{{site.baseurl}}/projects/cmip/about-cmip.html
-[CMIP3]:{{site.baseurl}}/projects/cmip3/home.html
-[CMIP2]:{{site.baseurl}}/projects/cmip2/
-[CMIP5]:{{site.baseurl}}/projects/cmip5/
-[CMIP6]:{{site.baseurl}}/projects/cmip6/
-[CMD]:{{site.baseurl}}/projects/dcmp/index.html
-[DETC]:{{site.baseurl}}/projects/detection/index.html
-[DCMP]:{{site.baseurl}}/projects/model/index.html
+[CMIP3]:{{site.baseurl}}/mips/cmip3/
+[CMIP2]:{{site.baseurl}}/mips/cmip2/
+[CMIP5]:{{site.baseurl}}/mips/cmip5/
+[CMIP6]:{{site.baseurl}}/mips/cmip6/
+[CMD]:{{site.baseurl}}/research/diagnostics/index.html
+[DETC]:{{site.baseurl}}/research/DandA/index.html
+[DCMP]:{{site.baseurl}}/research/metrics/index.html
 [DOI1]:http://dx.doi.org/doi:10.1029/2011JD016263
 [DOI2]:http://dx.doi.org/10.1002/joc.1756
 [icmc]:http://www-pcmdi.llnl.gov/projects/amip/STATUS/incoming.html
-[ICME]:{{site.baseurl}}/projects/input4MIPs/index.html
-[KEN]:{{site.baseurl}}/about/staff/sperber/suplemental.html
-[OCME]:{{site.baseurl}}/projects/obs4MIPs/index.html
+[ICME]:{{site.baseurl}}/mips/input4MIPs/
+[KEN]:{{site.baseurl}}/staff/sperber/supplemental.html
+[OCME]:{{site.baseurl}}/mips/obs4MIPs/
 [PMIP]:http://www-lsce.cea.fr/pmip2/
 [PMIP1]:http://www-lsce.cea.fr/pmip/
 [PMIP2]:http://www-lsce.cea.fr/pmip2/

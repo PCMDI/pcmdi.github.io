@@ -1,0 +1,382 @@
+<!DOCTYPE html PUBLIC "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+  <meta http-equiv="Content-Type"
+ content="text/html; charset=iso-8859-1">
+  <meta name="GENERATOR"
+ content="Mozilla/4.79 [en] (Windows NT 5.0; U) [Netscape]">
+  <title>MPI (ECHAM1 + LSG) Table Elaborations</title>
+</head>
+<body style="background-color: rgb(255, 255, 255);">
+<h1>
+<a name="Top of Page"></a></h1>
+<h1>
+Model ECHAM1+LSG: Elaborations</h1>
+<hr width="100%">
+<p>Note: The ECHAM1 + LSG model was jointly sponsored by the Max Planck
+Institut f&uuml;r Meteorologie (MPI) and the Deutsches
+Klimarechenzentrum
+(<a href="http://www.dkrz.de/">DKRZ</a>).
+<br>
+&nbsp;
+</p>
+<h3><a name="Participation"></a>Participation</h3>
+Model ECHAM1+LSG is an entry in the CMIP1 intercomparison only.
+<br>
+&nbsp;
+<h3><a name="Spinup/Initialization"></a>Spinup/Initialization</h3>
+The procedure for spinup/initialization to the simulation starting
+point
+of the MPI (ECHAM1+LSG) coupled model is as follows (references:
+<a href="#Cubasch%20et%20al.%201992">Cubasch
+et al. 1992</a>,
+<a href="#von%20Storch%20et%20al.%201997">von Storch et al. 1997</a>,
+personal communication U. Cubasch):
+<ul>
+  <li>The atmospheric model was integrated with prescribed
+climatological
+SSTs
+and sea ice extents derived from the AMIP data until quasi-equilibrium
+was achieved.</li>
+</ul>
+<ul>
+  <li>The ocean model was integrated first with prescribed <a
+ href="#Hellerman%20and%20Rosenstein%201983">Hellerman
+and Rosenstein (1983)</a> wind stresses, and was relaxed toward surface
+salinity data of <a href="#Levitus%201982">Levitus (1982)</a>,
+together with
+a feedback to effective monthly mean surface air temperatures
+constructed
+from the COADS data set (cf. <a href="#Woodruff%20et%20al.%201987">Woodruff
+et
+al. 1987</a>). In a second stage, the diagnosed freshwater fluxes from
+this run, together with the same surface wind stresses and surface air
+temperatures then were used as external forcing (along with a mild
+relaxation
+to AMIP SSTs). In a third stage, the ocean model was integrated further
+with the forcings of the second stage, except for the additional
+application
+of monthly mean values of the daily forcing anomalies. The total length
+of the three stages was ~7,000 years.</li>
+</ul>
+<ul>
+  <li>The atmospheric model then was integrated again to
+quasi-equilibrium (a
+20-year run), with SSTs and sea ice extents derived from the third
+stage
+of the ocean-only run. Monthly mean flux corrections for heat,
+freshwater,
+momentum (surface wind stresses) were computed following the method of <a
+ href="#Sausen%20et%20al.%201988">Sausen
+et al. 1988</a>. The SSTs were also flux-corrected to adjust for the
+mean
+bias between the AMIP and COADS climatologies.</li>
+  <li>The atmospheric and oceanic models then were coupled and
+integrated
+with
+the application of these fixed monthly mean flux corrections.</li>
+</ul>
+<h3>
+<a name="Land Surface Processes"></a>Land Surface Processes</h3>
+<ul>
+  <li>Soil temperature is determined after <a
+ href="#Warrilow%20et%20al.%201986">Warrilow
+et al. (1986)</a> from the heat conduction in 5 layers (proceeding
+downward,
+layer thicknesses are 0.065, 0.254, 0.913, 2.902, and 5.70 m), with net
+surface heat fluxes as the upper boundary condition and zero heat flux
+as the lower boundary condition at 10 m depth.</li>
+</ul>
+<ul>
+  <li>Snow pack temperature is also computed from the soil heat
+equation
+using
+heat diffusivity/capacity for ice in regions of permanent continental
+ice,
+and for bare soil where water-equivalent snow depth is &lt;0.025 m. For
+snow of greater depth, the temperature of the middle of the snow pack
+is
+solved from an auxiliary heat conduction equation (cf. <a
+ href="#Bauer%20et%20al.%201985">Bauer
+et al. 1985</a>). The temperature at the upper surface is determined by
+extrapolation, but it is constrained not to exceed the snowmelt
+temperature
+of 0 degrees C.</li>
+</ul>
+<ul>
+  <li>There are separate prognostic moisture budgets for snow,
+vegetation
+canopy,
+and soil reservoirs. Snow cover is augmented by snowfall and is
+depleted
+by sublimation and melting. Snow melts (augmenting soil moisture) if
+the
+temperatures of the snow pack and of the uppermost soil layer exceed 0
+degrees C. The canopy intercepts precipitation and snow (proportional
+to
+the vegetated fraction of a grid box), which is then subject to
+immediate
+evaporation or melting.</li>
+</ul>
+<ul>
+  <li>Soil moisture is represented as a single-layer "bucket" model
+(cf. <a href="#Manabe%201969">Manabe
+1969)</a> with field capacity 0.20 m that is modified to account for
+vegetative
+and orographic effects. Direct evaporation of soil moisture from bare
+soil
+and from the wet vegetation canopy, as well as evapotranspiration via
+root
+uptake, are modeled. Surface runoff includes effects of subgrid-scale
+variations
+of field capacity related to the orographic variance; in addition,
+wherever
+the soil is frozen, moisture contributes to surface runoff instead of
+soil
+moisture. Deep runoff due to drainage processes also occurs
+independently
+of infiltration if the soil moisture is between 5 and 9 percent of
+field
+capacity (slow drainage), or is larger than 90 percent of field
+capacity
+(fast drainage). When the model atmosphere is coupled to a dynamical
+ocean,
+this source of freshwater is discharged at coastal points by means of a
+river transport model that uses local runoff as input. Cf. D&uuml;menil
+and Todini (1992) and <a href="#Sausen%20et%20al.%201994">Sausen et
+al. (1994)</a>
+for further details.</li>
+</ul>
+<h3>
+<a name="Sea Ice"></a>Sea Ice</h3>
+<ul>
+  <li>Only the thermodyamics of sea ice are represented. Ice forms when
+a net
+heat loss from the ocean would cause the SST to fall below the freezing
+point.&nbsp; Existing ice thickens/melts in relation to the available
+heat
+of fusion when the net heat flux is upward/downward. The heat flux is
+calculated
+from a surface energy balance which includes a conductive heat flux
+between
+the ocean and sea ice, based on the assumption of a linear temperature
+profile.&nbsp; The surface albedo of the ice is assumed to remain
+constant;
+solar penetration, brine pockets, or other internal heat capacities are
+not parameterized.</li>
+</ul>
+<ul>
+  <li>Snow cover is not represented and a modification of the heat flux
+by
+leads
+or partial ice cover is not accounted for.&nbsp; Salinity changes are
+associated
+with changes of the volume of the sea ice on the asumption of constant
+sea-ice salinity.</li>
+</ul>
+<h3>
+<a name="Diffs_AMIP"></a>Chief Differences from Closest AMIP Model</h3>
+<font size="+0">Aside from its use of coarser horizontal resolution,
+the
+atmospheric component of the MPI (ECHAM1 + LSG) coupled model differs
+from
+AMIP model <a
+ href="https://pcmdi.llnl.gov/mips/amip/home/Documentation/26mpi_ToC.html">MPI
+ECHAM3 (T42 L19) 1992</a> chiefly in the following respects (cf. <a
+ href="#Roeckner%20et%20al.%201992">Roeckner
+et al. 1992</a> for further details):</font>
+<ul>
+  <a name="Gravity-wave Drag"></a><b><font size="+0">Gravity-wave Drag</font></b>
+  <p><font size="+0">Gravity-wave drag does not include the Miller et
+al. (1989)
+modifications to the Palmer et al. (1986) parameterization, as in the <a
+ href="https://pcmdi.llnl.gov/mips/amip/home/Documentation/26mpi.html#RTFToC21">AMIP
+model</a>.</font></p>
+</ul>
+<ul>
+  <a name="Convection"></a><b>Convection</b>
+</ul>
+<ul>
+Instead of the Tiedtke (1989) mass-flux representation of deep
+convection
+in the <a
+ href="https://pcmdi.llnl.gov/mips/amip/home/Documentation/26mpi.html#RTFToC25">AMIP
+model</a>, a <a href="#Kuo%201974">Kuo (1974)</a> scheme is used.
+Penetrative
+convection is assumed to occur only in the presence of conditionally
+unstable
+layers in the vertical and large-scale net moisture convergence. In a
+vertical
+column, this total available moisture is divided between a fraction <b>b</b>
+that moistens the environment and the remainder <b>(1-b)</b> that
+contributes
+to the latent heating (rainfall) rate. <font size="+0">Shallow
+convection
+is parameterized in the same way as in the <a
+ href="https://pcmdi.llnl.gov/mips/amip/home/Documentation/26mpi.html#RTFToC25">AMIP
+model</a>, however.</font>
+  <p><a name="Cloud Formation"></a><b><font size="+0">Cloud Formation</font></b>
+  </p>
+  <p><font size="+0">In contrast to the <a
+ href="https://pcmdi.llnl.gov/mips/amip/home/Documentation/26mpi.html#RTFToC26">AMIP
+model</a>, the<b> </b>Roeckner et al. (1991) modifications of the the
+prognostic
+cloud-formation scheme<b> </b>are not included.</font> </p>
+  <p><a name="Orography"></a><b><font size="+0">Orography</font></b> </p>
+  <p><font size="+0">Enhanced<b> </b>(envelope) orography is used
+instead of
+the mean orography of the <a
+ href="https://pcmdi.llnl.gov/mips/amip/home/Documentation/26mpi.html#RTFToC29">AMIP
+model</a>.</font> </p>
+  <p><a name="Surface Fluxes"></a><b><font size="+0">Surface Fluxes</font></b>
+  </p>
+  <p><font size="+0">A low-wind correction to the surface fluxes
+involves imposition
+of a minimum wind speed rather than the Miller et al. (1992) approach
+followed
+in the <a
+ href="https://pcmdi.llnl.gov/mips/amip/home/Documentation/26mpi.html#RTFToC34">AMIP
+model</a>. The bulk Richardson number also does not include the effects
+of clouds on buoyancy.</font></p>
+</ul>
+<h3>
+<br>
+<br>
+<br>
+<a name="References"></a><font size="+1">References</font></h3>
+<a name="Bauer et al. 1985"></a>Bauer, H., E. Heise, J. Pfaendtner, and
+V. Renner, 1985: Development of an economical soil model for climate
+simulation.
+In <i>Current Issues in Climate Research</i> (Proceedings of the EC
+Climatology
+Programme Symposium, held 2-5 Oct. 1984, in Sophia Antipolis, France),
+A. Ghazi and R. Fantechi (eds.), D. Reidel, Dordrecht, 219-226.
+<p><a name="Cubasch et al. 1992"></a>Cubasch, U., K. Hasselmann, H.
+Hock,
+E. Maier-Reimer, U. Mikolajewicz, B.D. Santer, and R. Sausen,
+1992:&nbsp;
+Time-dependent greenhouse warming computations with a coupled
+ocean-atmosphere
+model.&nbsp; <i>Climate Dynamics</i>, <b>10</b>, 55-69.
+</p>
+<p><a name="D&uuml;menil and Todini 1992"></a>D&uuml;menil, L., and E.
+Todini,
+1992: A rainfall-runoff scheme for use in the Hamburg climate model. In
+<i>Advances
+in Theoretical Hydrology: A Tribute to James Dooge</i>, J.P. O'Kane
+(ed.),
+European Geophysical Society Series on Hydrological Sciences, Vol. 1,
+Elsevier
+Press, Amsterdam, 129-157.
+</p>
+<p><a name="Hellerman and Rosenstein 1983"></a>Hellerman, S., and M.
+Rosenstein,
+1983: Normal monthly wind stress over the world ocean with error
+estimates.
+<i>J.
+Phys. Oceanogr.</i>, <b>13</b>, 1093-1104.
+</p>
+<p><a name="Kuo 1974"></a>Kuo, H.L., 1974: Further studies of the
+parameterization
+of the influence of cumulus convection on large-scale flow. <i>J.
+Atmos.
+Sci</i>., <b>31</b>, 1232-1240.
+</p>
+<p><a name="Levitus 1982"></a>Levitus, S., 1982: Climatological atlas
+of
+the world's oceans. NOAA Professional Paper 13, 173 pp.
+</p>
+<p><a name="Manabe 1969"></a>Manabe, S., 1969: Climate and ocean
+circulation.
+1. The atmospheric circulation and the hydrology of the Earth's
+surface.
+<i>Mon.
+Wea. Rev</i>., <b>97</b>, 739-774.
+</p>
+<p><a name="Roeckner et al. 1992"></a>Roeckner, E., K. Arpe, L.
+Bengtsson,
+S. Brinkop, L. D&uuml;menil, M. Esch, E. Kirk, F. Lunkeit, M. Ponater,
+B. Rockel, R. Sausen, U. Schlese, S. Schubert, and M. Windelband, 1992:
+Simulation of present-day climate with the ECHAM model: Impact of model
+physics and resolution. MPI Report No. 93, ISSN 0937-1060,
+Max-Planck-Institut
+f&uuml;r Meteorologie, Hamburg, Germany, 171 pp.
+</p>
+<p><a name="Sausen et al. 1988"></a>Sausen, R., K. Barthels, and K.
+Hasselmann,
+1988: Coupled ocean-atmosphere models with flux correction. <i>Climate
+Dyn.</i>, <b>2</b>, 154-163.
+</p>
+<p><a name="Sausen et al. 1994"></a>Sausen, R., S. Schubert, and L.
+D&uuml;menil,
+1994: A model of the river runoff for use in coupled atmosphere-ocean
+models.
+<i>J.
+Hydrology</i>, <b>155</b>, 337-352.
+</p>
+<p><a name="von Storch et al. 1997"></a>von Storch, J-S., V.V. Kharin,
+U. Cubasch, G.C. Hegerl, D. Schriever, H. von Storch, and E. Zorita,
+1997:
+A description of a 1260-year control integration with the coupled
+ECHAM1/LSG
+general circulation model. <i>J. Climate</i>, <b>10</b>, 1525-1543.
+</p>
+<p><a name="Warrilow et al. 1986"></a>Warrilow, D.A., A.B. Sangster,
+and
+A. Slingo, 1986: Modelling of land surface processes and their
+influence
+on European climate. DCTN 38, Dynamical Climatology Branch, United
+Kingdom
+Meteorological Office, Bracknell, Berkshire RG12 2SZ, UK.
+</p>
+<p><a name="Woodruff et al. 1987"></a>Woodruff, S., R.J. Slutz, R.L.
+Jenne,
+and P. Steurer, 1987: A comprehensive ocean-atmosphere dataset. <i>Bull.
+Amer. Meteor. Soc</i>., <b>68</b>, 1239-1250.
+<br>
+&nbsp;
+<br>
+&nbsp;
+<br>
+</p>
+<p><br>
+</p>
+<p><br>
+</p>
+<p><br>
+</p>
+<p><br>
+</p>
+<p><br>
+</p>
+<p><br>
+</p>
+<p><br>
+</p>
+<p><br>
+</p>
+<p><br>
+</p>
+<p><br>
+</p>
+<p><br>
+</p>
+<p><br>
+</p>
+<p><a href="#Top%20of%20Page">Top</a>
+</p>
+<p><font size="+0"><a href="tables.html">CMIP Documentation Directory</a></font>
+</p>
+<hr>
+<p>Last update 15 May, 2002.&nbsp; This page is maintained by Tom
+Phillips
+(<a href="mailto:" phillips@pcmdi.llnl.gov="">phillips@pcmdi.llnl.gov</a>).
+<br>
+&nbsp;
+</p>
+<p><a href="http://www.llnl.gov/disclaimer.html">LLNL Disclaimers</a>
+</p>
+<p>UCRL-MI-126431
+</p>
+</body>
+</html>

@@ -1,0 +1,110 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="GENERATOR" content="Mozilla/4.79 [en] (Windows NT 5.0; U) [Netscape]">
+   <title>NRL Table Elaborations</title>
+</head>
+<body bgcolor="#FFFFFF">
+
+<h1>
+<a NAME="Top of Page"></a>Model NRL1: Elaborations</h1>
+
+<h3>
+
+<hr WIDTH="100%"></h3>
+
+<h3>
+<a NAME="Participation"></a>Participation</h3>
+Model NRL1 is an entry in the CMIP1 intercomparison only.
+<h3>
+<a NAME="Spinup/Initialization"></a>Spinup/Initialization</h3>
+The spinup/initialization procedure was as follows (cf. <a href="#Li and Hogan 1998">Li
+and Hogan 1998</a> for further details):
+<ul>
+<li>
+The atmospheric model was integrated for 5 years with prescribed seasonally
+varying SSTs, and the last 3 years were averaged to obtain an estimate
+of annual-mean surface conditions.</li>
+</ul>
+
+<ul>
+<li>
+The ocean model was integrated with these annual-mean forcings, while the
+SSTs were relaxed toward their observed annual- mean values, until a quasi-equilibrium
+state was achieved.</li>
+</ul>
+
+<ul>
+<li>
+Annual-mean flux corrections for heat and momentum (i.e., surface-wind
+forcing) to be supplied to the ocean model in coupled mode then were computed
+from the differences between the fields simulated by the atmospheric model
+with prescribed SSTs and the observations (for surface winds, the COADS
+data set--cf. <a href="#Sadler et al. 1987">Sadler et al. 1987</a>).</li>
+</ul>
+
+<ul>
+<li>
+The atmosphere and ocean were coupled and integrated for 40 years with
+application of these annual-mean flux corrections. Model data from the
+last 36 years of this simulation were supplied for the CMIP I intercomparison.</li>
+</ul>
+
+<h3>
+<a NAME="Land Surface Processes"></a>Land Surface Processes</h3>
+
+<ul>
+<li>
+Soil temperatures are computed from a surface energy balance that includes
+snowmelt as well as relaxation (with 100-hour time constant) to <a href="#FNOC 1986">FNOC
+(1986)</a> monthly climatological deep-ground temperatures. These deep
+temperatures are derived from observed surface atmospheric temperatures
+that are lagged by one month, with annual cycle reduced by 30 percent.
+The heat capacity specified for soil is also a nonlinear function of the
+ground wetness, and the thermal conductivity of snow-covered ground is
+set to about twice that of bare ground.</li>
+</ul>
+
+<ul>
+<li>
+Soil hydrology is determined from a modified bucket model. Continental
+runoff, which occurs locally when the moisture capacity of the bucket is
+exceeded, does not contribute to the freshwater flux into the ocean model.
+Cf. <a href="#Hogan and Rosmond 1991">Hogan and Rosmond (1991)</a> for
+further details.</li>
+</ul>
+
+<h3>
+<a NAME="Sea Ice"></a>Sea Ice</h3>
+Sea ice extents are prescribed, but some provision is made for predicting
+temperature. <i>More information needed.</i>
+<br>&nbsp;
+<br>&nbsp;
+<h3>
+<a NAME="References"></a>References</h3>
+<a NAME="FNOC 1986"></a>FNOC, 1986: <i>Fleet Numerical Oceanographic Center's
+Numerical Environmental Products Manual, Vols. I and II</i>. Fleet Numerical
+Oceanographic Center, Monterey, CA, 214 pp.
+<p><a NAME="Hogan and Rosmond 1991"></a>Hogan, T. F., and T. E. Rosmond,
+1991: The description of the Navy operational global atmospheric prediction
+system's spectral forecast model. <i>Mon. Wea. Rev</i>., <b>119</b>, 1786-1815.
+<p><a NAME="Li and Hogan 1998"></a>Li, T., and T.F. Hogan, 1998: The role
+of the annual mean climate on seasonal and interannual variability of the
+tropical Pacific in a coupled GCM. <i>J. Climate</i> (in press).
+<p><a NAME="Sadler et al. 1987"></a>Sadler, J.C., M.A. Lander, A.M. Hori,
+and L.K. Oda, 1987: Tropical marine climatic atlas. Vol. 2: Pacific Ocean.
+Report UHMET 87-02, Department of Meteorology, University of Hawaii, Honolulu,
+Hawaii, 27 pp.
+<br>&nbsp;
+<p><a href="#Top of Page">Top</a>
+<p><a href="tables.html">CMIP Documentation Directory</a>
+<p>
+<hr>
+<br>Last update 15 May, 2002.&nbsp; This page is maintained by Tom Phillips
+(<a href="mailto:" phillips@pcmdi.llnl.gov">phillips@pcmdi.llnl.gov</a>).
+<br>&nbsp;
+<p><a href="http://www.llnl.gov/disclaimer.html">LLNL Disclaimers</a>
+<p>UCRL-MI-126431
+</body>
+</html>

@@ -1,0 +1,424 @@
+<!DOCTYPE html PUBLIC "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+  <meta http-equiv="Content-Type"
+ content="text/html; charset=iso-8859-1">
+  <meta name="GENERATOR"
+ content="Mozilla/4.61 [en] (X11; I; SunOS 5.7 sun4u) [Netscape]">
+  <title>MPI (ECHAM4 + OPYC) Table Elaborations</title>
+</head>
+<body bgcolor="#ffffff">
+<h1>
+<a name="Top of Page"></a></h1>
+<h1>
+Model ECHAM4+HOPE-G (ECHO-G): Elaborations</h1>
+<h3>
+<hr width="100%"></h3>
+Note: The ECHAM4+HOPE-G (ECHO-G) model is sponsored by the Model and
+Data Group (<a href="http://www.mad.zmaw.de">M&amp;D</a>)
+at Max Planck Institut f&uuml;r Meteorologie (MPI).
+<br>
+&nbsp;
+<h3><a name="Participation"></a>Participation</h3>
+Model ECHO-G is an entry in CMIP2+ intercomparisons.<br>
+<br>
+<h3><a name="Greenhouse_Gas_Concentrations"></a>Greenhouse Gas
+Concentrations</h3>
+In the model control run, greenhouse gas concentrations are as follows:<br>
+<ul>
+  <li>CO<sub>2</sub>: 353 ppmv</li>
+  <li>CH<sub>4</sub>: 1.72 ppmv</li>
+  <li>N<sub>2</sub>O: 310ppbv</li>
+  <li>CFC11: 280 pptv</li>
+  <li>CFC12: 484 pptv</li>
+  <li>HCFC113: 60 pptv</li>
+  <li>CFC114: 15 pptv</li>
+  <li>CFC115: 5 pptv</li>
+  <li>HCFC22: 122 pptv</li>
+  <li>CCL4: 146 pptv<br>
+  </li>
+</ul>
+<h3><a name="Spinup/Initialization"></a>Spinup/Initialization</h3>
+The procedure for spinup/initialization was as follows :
+<ul>
+  <li>The atmospheric model was integrated for 18 years with prescribed
+climatological
+monthly mean AMIP SSTs and sea ice extents of the period 1979-1988
+until
+quasi-equilibrium was achieved. The climatology of ECHAM4 obtained with
+a T42 resolution and AMIP SSTs is described in <a
+ href="#Roeckner%20et%20al.%20%281996%29">Roeckner
+et al. (1996)</a>. ECHO-G uses a T30 grid for the atmosphere. The
+climatology
+in this resolution is contrasted with that of the T42 resolution in <a
+ href="#Stendel%20et%20al.%20%281998%29">Stendel
+and Roeckner (1998)</a>.</li>
+</ul>
+<ul>
+  <li>The uncoupled ocean model was spun up for 2034 years while being
+forced
+by surface daily fields as obtained in the last 15 years of the
+above&nbsp;
+described standalone ECHAM4/T42 integration with climatological AMIP
+SSTs.
+Freshwater, heat, and momentum fluxes were applied equatorwards of the
+climatological AMIP sea ice extents only. Poleward of the sea ice
+extents,
+near surface fields,&nbsp; obtained in the same ECHAM4 integration were
+used. The near surface fields (surface wind, dew point temperature,
+2m-temperature)
+were transformed into fluxes with bulk formulas as described in <a
+ href="#Parkinson%20and%20Washington%20%281979%29">Parkinson
+and Washington (1979)</a>. The 15-year daily forcing data were
+cyclically
+repeated over the spin-up period. In addition to this forcing the ocean
+SSTs and SSSs were relaxed to the climatological monthly AMIP SSTs
+which
+were used during the calculation of the atmospheric forcing data,
+assuming
+a heat flux of 40 W/(m**2K).&nbsp; SSSs were relaxed to the annual <a
+ href="#Levitus%20et%20al.%20%281994%29">Levitus
+et al. (1994)</a> climatology on the same time scale (30 days). More
+details
+are found in <a href="#Legutke%20and%20Maier-Reimer%20%281999%29">Legutke
+and Maier-Reimer
+(1999)</a>.</li>
+</ul>
+<ul>
+  <li>The atmospheric and oceanic models were coupled and integrated
+for 155
+years, while restoring SST and SSS toward climatological values. No
+relaxation
+fluxes were applied in the climatological sea ice regions. From the
+last
+100 years of this coupled integration, annual mean freshwater and heat
+fluxes were diagnosed from the relaxation terms. The fluxes were then
+globally
+normalized to zero. These fields were applied in the coupled
+experiments
+as flux corrections (see also&nbsp; <a
+ href="#Marsland%20et%20al.%20%282003%29">Marsland
+et al. (2003)</a> , <a href="#Min_et_al._2004">Min et al. 2004</a>,
+and <a href="#Min_et_al._2005a">Min et al. 2005a</a>, <a
+ href="#Min_et_al_2005b">b</a> for further
+details).</li>
+</ul>
+<h3>
+<a name="Land Surface Processes"></a>Land Surface Processes</h3>
+<ul>
+  <li>The treatment of land surface processes in the ECHAM4 model is
+the same
+as that in the ECHAM3 model, except that the heat capacity, thermal
+conductivity,
+and field capacity for soil moisture are prescribed according to
+geographically
+varying values derived from Food and Agriculture Organization (FAO)
+soil
+type distributions (cf. <a href="#Patterson%201990">Patterson 1990</a>,
+and <a href="#Zobler%201986">Zobler
+1986</a>).</li>
+</ul>
+<ul>
+  <li>Soil temperature is determined after <a
+ href="#Warrilow%20et%20al.%201986">Warrilow
+et al. (1986)</a> from the heat conduction in 5 layers (proceeding
+downward,
+layer thicknesses are 0.065, 0.254, 0.913, 2.902, and 5.70 m), with net
+surface heat fluxes as the upper boundary condition and zero heat flux
+as the lower boundary condition at 10 m depth.</li>
+</ul>
+<ul>
+  <li>Snow pack temperature is also computed from the soil heat
+equation
+using
+heat diffusivity/capacity for ice in regions of permanent continental
+ice,
+and for bare soil where water-equivalent snow depth is &lt;0.025 m. For
+snow of greater depth, the temperature of the middle of the snow pack
+is
+solved from an auxiliary heat conduction equation (cf. <a
+ href="#Bauer%20et%20al.%201985">Bauer
+et al. 1985</a>). The temperature at the upper surface is determined by
+extrapolation, but it is constrained not to exceed the snowmelt
+temperature
+of 0 degrees C.</li>
+</ul>
+<ul>
+  <li>There are separate prognostic moisture budgets for snow,
+vegetation
+canopy,
+and soil reservoirs. Snow cover is augmented by snowfall and is
+depleted
+by sublimation and melting. Snow melts (augmenting soil moisture) if
+the
+temperatures of the snow pack and of the uppermost soil layer exceed 0
+degrees C. The canopy intercepts precipitation and snow (proportional
+to
+the vegetated fraction of a grid box), which is then subject to
+immediate
+evaporation or melting.</li>
+</ul>
+<ul>
+  <li> <font size="+0">Soil moisture is represented as a single-layer
+"bucket" model
+(cf. <a href="#Manabe%201969">Manabe 1969</a>), but with field
+capacity that
+varies according to soil type (</font><a href="#Patterson%201990">Patterson
+1990)</a>. <font size="+0">Direct evaporation of soil moisture from
+bare
+soil and from the wet vegetation canopy, as well as evapotranspiration
+via root uptake, are modeled. Surface runoff includes effects of
+subgrid-scale
+variations of field capacity related to the orographic variance; in
+addition,
+wherever the soil is frozen, moisture contributes to surface runoff
+instead
+of soil moisture. Deep runoff due to drainage processes also occurs
+independently
+of infiltration if the soil moisture is between 5 and 9 percent of
+field
+capacity (slow drainage), or is larger than 90 percent of field
+capacity
+(fast drainage). When the model atmosphere is coupled to a dynamical
+ocean,
+this source of freshwater is discharged at coastal points by means of a
+river transport model that uses local runoff as input. Cf. <a
+ href="#D%FCmenil_and_Todini_1992_">D&uuml;menil
+and Todini (1992)</a> and <a href="#Sausen%20et%20al.%201994">Sausen
+et al. (1994)</a>
+for further details.</font></li>
+  <br>
+  <font size="+0">Since surface melt and accumulation of snow on
+continental
+ice sheets is not balanced, even for very long time scales, the ice
+sheets
+(of Greenland and Antarctica)&nbsp; serve as sinks of snow in the
+coupled
+model. In order to keep the heat and salt balance closed, the mass of
+the
+ice sheets is kept constant by routing the surplus of the mass balance
+into the ocean grid cells aroubd the coast. In addition a corresponding
+flux of latent heat of fusion is transfered into the ocean as well.
+This
+serves to simulate the effects of melt of ice shelves by sea water and
+the discharge of ice streams into the ocean.</font>
+</ul>
+<h3>
+<br>
+<a name="Sea Ice"></a>Sea Ice</h3>
+<ul>
+  <li>The dynamic part of the sea ice model is based on that of <a
+ href="#Hibler%201979">Hibler
+(1979)</a>, recoded on the ocean model grid (Arakawa-E). It predicts
+ice
+thickness and concentration, snow depth, ice/scnow cover momentum. The
+snow pack is accumulating on the ice according to the solid freshwater
+fluxes given to the ocean.&nbsp; Surface melt of snow or ice and bottom
+melt or ablation of ice is calculated from the residual surface fluxes
+on the snow/ice layer and the conductive fluxes through the snow/ice
+cover,
+which are both calculated in the atmosphere.&nbsp; Each ocean grid cell
+of the atmosphere grid can be partially covered by sea ice. All fluxes
+on these cells are calculated twice with the respective surface
+conditions
+of the sea ice and the open water (<a
+ href="#Groetzner%20et%20al.%20%281996%29">Groetzner
+et al. (1996)</a>) .The conversion from snow to ice also is
+parameterized.
+See <a href="#Wolff%20et%20al.%20%281997%29">Wolff et al. (1997)</a>
+for more details.</li>
+</ul>
+<ul>
+&nbsp;
+</ul>
+<h3>
+<a name="References"></a><b><font size="+1">References</font></b></h3>
+<p><br>
+<a name="Bauer et al. 1985"></a>Bauer, H., E. Heise, J. Pfaendtner,
+and V. Renner, 1985: Development of an economical soil model for
+climate
+simulation. In <i>Current Issues in Climate Research</i> (Proceedings
+of
+the EC Climatology Programme Symposium, held 2-5 Oct. 1984, in Sophia
+Antipolis,
+France), A. Ghazi and R. Fantechi (eds.), D. Reidel, Dordrecht,
+219-226.
+</p>
+<p><a name="D&uuml;menil_and_Todini_1992_"></a>D&uuml;menil, L., and E.
+Todini,
+1992: A rainfall-runoff scheme for use in the Hamburg climate model. In
+<i>Advances
+in Theoretical Hydrology: A Tribute to James Dooge</i>, J.P. O'Kane
+(ed.),
+European Geophysical Society Series on Hydrological Sciences, Vol. 1,
+Elsevier
+Press, Amsterdam, 129-157.
+</p>
+<p><a name="Groetzner et al. (1996)"></a>Groetzner, A., R. Sausen, and
+M. Clausen 1996: The impact of sub-grid scale sea-ice imhomogenities on
+the perfomance of the atmospheric general circulation model
+ECHAM3,.Climate
+Dynamics, 12, 477-496.
+</p>
+<p><a name="Hibler 1979"></a>Hibler, 1979: A dynamic-thermodynamic sea
+ice model. <i>J. Phys. Oceanogr</i>.,<b> 9</b>: 817-846.
+</p>
+<p><a name="Legutke and Maier-Reimer (1999)"></a>Legutke, S. and E.
+Maier-Reimer,
+1999: Climatology of the HOPE-G Global Ocean General Circulation Model.
+Technical report, No. 21, German Climate Computer Centre (DKRZ),
+Hamburg,
+90 pp (<a href="http://www.mad.zmaw.de/Pingo/repdl.html">http://www.mad.zmaw.de/Pingo/repdl.html</a>).
+</p>
+<p><a name="Levitus et al. (1994)"></a>Levitus, S., R. Burgett, and T.
+P. Boyer, 1994: World Ocean Atlas. 3, Salinity and Vol. 4, Temperature.
+NOAA Atlas NESDIS 3/4, U. S. Government Printing Office, Washington,
+DC.
+</p>
+<p><a name="Manabe 1969"></a>Manabe, S., 1969: Climate and ocean
+circulation.
+1. The atmospheric circulation and the hydrology of the Earth's surface.<i>Mon.
+Wea. Rev</i>., <b>97</b>, 739-774.
+</p>
+<p><a name="Marsland et al. (2003)"></a>Marsland, S. J., M. Latif and
+S.
+Legutke, 2003: Variability of the Antarctic Circumpolar Wave in a
+coupled
+ocean-atmosphere model. Ocean Dynamics, 53(4), 323-331.<br>
+</p>
+<p></p>
+<p><b style=""><span style="font-family: Times;"><a
+ name="Min_et_al._2004"></a></span></b><span style="font-family: Times;">Min,
+S-K., S. Legutke, A. Hense, and
+W-T. Kwon, 2004: Climatology and internal variability in a 1000-year
+control
+simulation with the coupled climate model ECHO-G.<span style="">&nbsp; </span>M&amp;D
+Technical Report No. 2, Modelle &amp;
+Daten, Hamburg, Germany, 67 pp.&nbsp;<span style="">&nbsp; </span>Accessible
+online at <a href="http://mad.zmaw.de/Pingo/reports/TeReport_Web02.pdf">http://mad.zmaw.de/Pingo/reports/TeReport_Web02.pdf.</a>&nbsp;
+<br>
+</span></p>
+<p><span style="font-family: Times;"><a name="Min_et_al._2005a"></a></span><span
+ style="font-family: Times;">Min,
+S-K., S. Legutke, A. Hense, and
+W-T. Kwon, 2005a: Internal variability in a 1000-year control
+simulation with the coupled climate model ECHO-G.&nbsp; Part I:&nbsp;
+near surface temperature, precipitation, and mean sea level
+pressure.&nbsp; <span style="font-style: italic;">Tellus </span>(in
+press).<br>
+</span></p>
+<span style="font-family: Times;"><a name="Min_et_al_2005b"></a> </span><span
+ style="font-family: Times;">Min,
+S-K., S. Legutke, A. Hense, and
+W-T. Kwon, 2005b: Internal variability in a 1000-year control
+simulation with the coupled climate model ECHO-G.&nbsp; Part&nbsp; II:
+ENSO and NAO. </span><span style="font-family: Times;"><span
+ style="font-style: italic;">Tellus </span>(in press).</span>
+<p></p>
+<p><a name="Parkinson and Washington (1979)"></a>Parkinson, C. L. and
+W.
+M. Washington, 1979: A large-scale numerical model of sea ice. J.
+Geophys.
+Res., 84(C1), 311-337.
+</p>
+<p><a name="Patterson 1990"></a>Patterson, K.A., 1990: Global
+distributions
+of total and total-available soil water-holding capacities. M.S.
+thesis,
+Department of Geography, University of Deleware, Newark, DE, 119 pp.
+</p>
+<p><a name="Roeckner et al. (1996)"></a>Roeckner, E., K. Arpe, L.
+Bengtsson,
+M. Christoph, M. Claussen, L. Duemenil, M. Esch, M. Giorgetta, U.
+Schlese,
+and U. Schulzweida, 1996: The atmospheric general circulation model
+ECHAM-4:
+Model description and simulation of present-day climate. Reports of the
+Max-Planck-Institute, Hamburg, No. 218, 90 pp.
+</p>
+<p><a name="Sausen et al. 1994"></a>Sausen, R. S., S. Schubert, and L.
+D&uuml;menil, 1994: A model of the river run-off for the use in coupled
+atmosphere-ocean models. J. Hydrology, 155, 337-352.
+</p>
+<p><a name="Stendel et al. (1998)"></a>Stendel, M. and E. Roeckner,
+1998:
+Impacts of horizontal resolution on simulated climate statistics in
+ECHAM4.
+Reports of the Max-Planck-Institute, Hamburg, No. 253, 57 pp (<a
+ href="http://www.mpimet.mpg.de/dynindex.php?s=http://mpi-web.dkrz.de/de/web/science/a_reports.php#">http://www.mpimet.mpg.de/dynindex.php?s=http://mpi-web.dkrz.de/de/web/science/a_reports.php#)</a>.
+</p>
+<p><a name="Warrilow et al. 1986"></a>Warrilow, D.A., A.B. Sangster,
+and
+A. Slingo, 1986: Modelling of land surface processes and their
+influence
+on European climate. DCTN 38, Dynamical Climatology Branch, United
+Kingdom
+Meteorological Office, Bracknell, Berkshire RG12 2SZ, UK.
+</p>
+<p><a name="Wolff et al. (1997)"></a>Wolff, J.-O., E. Maier-Reimer, and
+S. Legutke, 1997: The Hamburg Ocean Primitive Equation Model, Technical
+report, No. 13, German Climate Computer Center (DKRZ), Hamburg, 98 pp (<a
+ href="http://www.mad.zmaw.de/Pingo/repdl.html">http://www.mad.zmaw.de/Pingo/repdl.html</a>).
+</p>
+<p><a name="Zobler 1986"></a>Zobler, L., 1986: A world soil file for
+global
+climate modeling, NASA Technical Memorandum 87802, Washington, D.C., 32
+pp.
+<br>
+&nbsp;
+<br>
+&nbsp;
+<br>
+&nbsp;
+<br>
+</p>
+<p><br>
+</p>
+<p><br>
+</p>
+<p><br>
+</p>
+<p><br>
+</p>
+<p><br>
+</p>
+<p><br>
+</p>
+<p><br>
+</p>
+<p><br>
+</p>
+<p><br>
+</p>
+<p><br>
+</p>
+<p><br>
+</p>
+<p><br>
+</p>
+<p><br>
+</p>
+<p><br>
+</p>
+<p><br>
+</p>
+<p><br>
+</p>
+<p><a href="#Top%20of%20Page">Return to Top of Page</a>
+</p>
+<p><a href="tables.html">CMIP Documentation Directory</a>
+</p>
+<p></p>
+<hr>
+<p>Last update 2 December 2004.&nbsp; This page is maintained by Tom
+Phillips
+(<a href="mailto:" phillips@pcmdi.llnl.gov="">phillips@pcmdi.llnl.gov</a>).
+<br>
+&nbsp;
+</p>
+<p><a href="http://www.llnl.gov/disclaimer.html">LLNL Disclaimers</a>
+</p>
+<p>UCRL-MI-126431
+</p>
+</body>
+</html>

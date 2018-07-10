@@ -41,13 +41,13 @@ $errors = array();
 if ($ipcc_publication_id == '')
 {
     $error = 'ERROR: IPCC Publication ID not specified.<br>';
-    $error .= 'Please return to the <a href="diagnostic_subprojects.php">IPCC Subprojects page</a>, select a project, and edit a publication from within that project.';
+    $error .= 'Please return to the <a href="diagnostic_subprojects.html">IPCC Subprojects page</a>, select a project, and edit a publication from within that project.';
     $errors[] = $error;
 }
 else if ($ipcc_subproject_id == '')
 {
     $error = 'ERROR: IPCC Subproject ID not specified.<br>';
-    $error .= 'Please return to the <a herf="diagnostic_subprojects.php">IPCC Subprojects page</a>.';
+    $error .= 'Please return to the <a herf="diagnostic_subprojects.html">IPCC Subprojects page</a>.';
 
     $errors[] = $error;
 }

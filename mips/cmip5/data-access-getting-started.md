@@ -8,13 +8,12 @@ title: Getting Started
 <br>
 
 <div id="main_text_area" class="txt2">
-
     <!-- <p class="txt2"><em> Download it in pdf format: <a href="docs/data_getting_started.pdf">data_getting_started.pdf</a></em></p>  -->
     <span class="red_col">
         <strong>NOTES: </strong> 
         <div class="indent">
             <ul>
-                <li> Please use Firefox 7+, Safari 5+ or Chrome 16+ (see <a href="http://www.esgf.org/wiki/ESGF_Supported_Browsers">Supported Browsers</a>) to access the ESGF P2P </li>
+                <li> Please use Firefox 7+, Safari 5+ or Chrome 16+ (see <a href="https://github.com/ESGF/esgf.github.io/wiki/ESGF_Supported_Browsers">Supported Browsers</a>) to access the ESGF P2P </li>
                 <li> The old ESGF gateways ( 
                     PCMDI: <a href="http://pcmdi3.llnl.gov/esgcet">http://pcmdi3.llnl.gov/esgcet ,</a>  BADC: <a href="http://cmip-gw.badc.rl.ac.uk">http://cmip-gw.badc.rl.ac.uk ,</a> DKRZ: <a href="http://ipcc-ar5.dkrz.de">http://ipcc-ar5.dkrz.de</a>  ) are now  deprecated. The pcmdi3.llnl.gov gateway was shut down permanently on 11/20/2012. Please use new P2P (Peer-to-Peer, distributed federation of nodes) ESGF portals listed below in 2a. Refer to 2b for the registration and your openid on the new ESGF P2P system. 
                 </li>
@@ -74,12 +73,11 @@ title: Getting Started
         You can search for model output without registering as a user, but in order to download CMIP5 data you must both register (see step 2 above) and also enroll in a CMIP5 “group”.  One way to do this is as follows:    
         <div class="indent">
             <ol type="a">
-                <li> Access one of the portals (e.g., <a href="http://pcmdi9.llnl.gov">http://pcmdi9.llnl.gov</a>). <span class="red_col">Please use Firefox 7+, Safari 5+ or Chrome 16+ (see <a href="http://www.esgf.org/wiki/ESGF_Supported_Browsers">Supported Browsers</a>) to access the ESGF portal.</span></li>
+                <li> Access one of the portals (e.g., <a href="http://pcmdi9.llnl.gov">http://pcmdi9.llnl.gov</a>). <span class="red_col">Please use Firefox 7+, Safari 5+ or Chrome 16+ (see <a href="https://github.com/ESGF/esgf.github.io/wiki/ESGF_Supported_Browsers">Supported Browsers</a>) to access the ESGF portal.</span></li>
                 <li> Login with your OpenID and password. </li>
                 <li> Determine which of the two CMIP5 user groups you should belong to: the <em>“research”</em> group or the <em>“commercial”</em> group.  If you subscribe to the <em>“research”</em> group, you will gain access to all the CMIP5 data, but you may use it only for non-commercial educational and research purposes.  If you plan to use the data for other purposes, you should join the <em>“commercial”</em> group, and then you will be given access to output from a subset (about two-thirds) of the models, but your use of it is unrestricted.  The terms of use governing the CMIP5 data are spelled out in 
-                    <a href="terms.html"> Terms of Use</a>.
-                    A table provides the key to which models are available to the two CMIP5 groups: 
-                    <a href="docs/CMIP5_modeling_groups.pdf">CMIP5_modeling_groups.pdf</a>
+                    <a href="{{site.baseurl}}/mips/cmip5/terms-of-use.html"> Terms of Use</a>.
+                    A table provides the key to which models are available to the two CMIP5 groups <a href="availability.html">here.</a> 
                 </li>
                 <li> Select and attempt to download a file from one of the CMIP5 models designated as available for <em>“unrestricted”</em> use (through ESGF HTTP link in Data Cart after you expand the Dataset, see 5., for example INM-CM4 tas file, click this link <a href="http://pcmdi9.llnl.gov/thredds/fileServer/cmip5_data/cmip5/output1/INM/inmcm4/1pctCO2/day/atmos/day/r1i1p1/tas/1/tas_day_inmcm4_1pctCO2_r1i1p1_20900101-20991231.nc"> tas_day_inmcm4_1pctCO2_r1i1p1_20900101-20991231.nc </a>
                     ).  You will be invited to choose between joining either the <em>“commercial”</em> or <em>“research”</em> group.  Choose the one appropriate for your data usage.  Now you will be able to download data from all models available to the group you joined.    To declare your intended use of the CMIP5 output, click on the “Account” tab at the top of the web page.  Click on <em>“Apply for Group Membership”</em>.  There are a number of ESG member groups that will be listed.  Click on either <em>“CMIP5 Research”</em> or <em>“CMIP5 Commercial”</em>, depending on your intent (as described in 3d above), and then click on <em>“subscribe”</em>.
@@ -101,7 +99,7 @@ title: Getting Started
     <!-- --------------------------------- --> 
     <p class="txt2"><strong> 4. Find out what data are available.</strong></p>
     <div class="indent">
-        There are two primary ways to search the CMIP5 data archive: 1) there is a search API which is described at <a href="http://www.esgf.org/wiki/ESGF_Search_REST_API">ESGF Search RESTful API</a>, or 2) you can search from one of the ESG portal web interfaces (see <a href="http://www.esgf.org/wiki/fe-user-guide"> FE User Guide </a>) and described here.  <span class="red_col">Please use Firefox 7+, Safari 5+ or Chrome 16+ (see <a href="http://www.esgf.org/wiki/ESGF_Supported_Browsers">Supported Browsers</a>).</span>
+        There are two primary ways to search the CMIP5 data archive: 1) there is a search API which is described at <a href="http://www.esgf.org/wiki/ESGF_Search_REST_API">ESGF Search RESTful API</a>, or 2) you can search from one of the ESG portal web interfaces (see <a href="http://www.esgf.org/wiki/fe-user-guide"> FE User Guide </a>) and described here.  <span class="red_col">Please use Firefox 7+, Safari 5+ or Chrome 16+ (see <a href="https://github.com/ESGF/esgf.github.io/wiki/ESGF_Supported_Browsers">Supported Browsers</a>).</span>
         <div class="indent">
             <ol type="a">
                 <li>
@@ -144,7 +142,7 @@ title: Getting Started
                 <div class="indent">
                     <ol type="i">
                         <li>If you have included any files you are not authorized to download, your request will not be granted.  Instead you’ll learn how you might gain authorization by joining a new “users group”. For CMIP5, you only need to join a single group (i.e., either the CMIP5 “commercial” group or the “research” group).  If you are a member of the CMIP5 “commercial” group, and if the message suggests that you join the CMIP5 “research” group, you should decline. Datasets may be visible for certain models that have not been released for general access. Such models are listed at the bottom of the  <a href="availability.html"> CMIP5 availability </a> web page .  
-                            Before downloading any datasets, you will have to eliminate from your download request any model datasets you are not authorized to use.  If you do not know which models are only available for non-commercial educational and research purposes (i.e., the ones you must eliminate), see the table  <a href="docs/CMIP5_modeling_groups.pdf"> CMIP5_modeling_groups.pdf</a>.   Note that in the future there will be easier ways of sub-selecting only those files that you are authorized to download. 
+                            Before downloading any datasets, you will have to eliminate from your download request any model datasets you are not authorized to use.  If you do not know which models are only available for non-commercial educational and research purposes (i.e., the ones you must eliminate), see the table on the <a href="availability.html">availability page</a>.   Note that in the future there will be easier ways of sub-selecting only those files that you are authorized to download. 
                         </li>
                         <li>Similarly, if you attempt to access data from a model that has not yet been released for public analysis, you will be given an option to request permission to access that data (i.e., subscribe to a special group with access privileges).  You should <strong>not</strong> attempt to subscribe, since your request will not be granted. </li>
                         <li>If the datasets you have requested are hosted by a different portal, you may be asked to enter your OpenID, which you should do.</li>
@@ -220,7 +218,7 @@ title: Getting Started
             </div>
             <p></p>
         </li>
-        <li> Register and view CMIP5 publications based on for example specific model or experiment :  <a href="http://cmip.llnl.gov/cmip5/publications/publicationjournal"> CMIP5 Publications List </a></li>
+        <li> Register and view CMIP5 publications based on for example specific model or experiment :  <a href="https://cmip-publications.llnl.gov/"> CMIP5 Publications</a></li>
         <li> See also <a href="ipcc_ar5_timetable.html">IPCC AR5 timetable</a> for estimation of due dates for some AR5 activities. </li>
     </ul>
     <br>

@@ -1,0 +1,334 @@
+<!DOCTYPE html PUBLIC "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+  <meta http-equiv="Content-Type"
+ content="text/html; charset=iso-8859-1">
+  <meta name="GENERATOR"
+ content="Mozilla/4.79 [en] (Windows NT 5.0; U) [Netscape]">
+  <title>UKMO Table Elaborations</title>
+</head>
+<body style="background-color: rgb(255, 255, 255);">
+<h1>
+<a name="Top of Page"></a></h1>
+<h1>
+Model UKMO (HadCM2): Elaborations</h1>
+<h3>
+<hr width="100%"></h3>
+<h3>
+<a name="Participation"></a>Participation</h3>
+Model UKMO (HadCM2) is an entry in both the CMIP1 and CMIP2
+intercomparisons,
+and is providing an optional extended set of output data in compliance
+with the
+<a href="/mips/cmip/cmip2plusann.html">CMIP2+ initiative</a>.
+<h3><a name="Spinup/Initialization"></a>Spinup/Initialization</h3>
+Starting from <a href="#Levitus%201982">Levitus (1982) </a>climatological
+September values of oceanic potential temperature and salinity, the
+510-year
+spinup was implemented mostly in a fully coupled mode, alternating
+between
+relaxation boundary conditions on SST and SSS . Reference SST and SSS
+climatologies
+for the relaxation phases were based on <a href="#Levitus%201982">Levitus
+(1982)</a> monthly-mean surface conditions (but with some adjustments
+made
+in SSS near Antarctica during Austral winter). Flux adjustments for
+heat
+and fresh water, which were calibrated from 5-day mean differences
+between
+the modeled and reference SST and SSS averaged over a 25-year run in
+the
+preceding relaxation phase, also were applied as prescribed,
+noninteractive
+terms. Cf. <a href="#Johns%20et%20al.%201997">Johns et al. 1997</a>
+for further
+details.
+<br>
+&nbsp;
+<h3><a name="Land Surface Processes"></a>Land Surface Processes</h3>
+<ul>
+  <li>A vegetation canopy model (cf. <a
+ href="#Warrilow%20et%20al.%201986">Warrilow
+et al. 1986</a> and <a href="#Shuttleworth%201988">Shuttleworth 1988</a>)
+includes effects of moisture condensation, precipitation interception,
+direct evaporation from wet leaves and from surface ponding, and
+evapotranspiration
+via root uptake of soil moisture. The fractional coverage and
+water-storage
+capacity of the canopy vary spatially by vegetation type, with a small
+storage added to represent surface ponding. The canopy intercepts a
+portion
+of the precipitation, which is exponentially distributed over each grid
+box. Throughfall of canopy condensate and intercepted precipitation
+occurs
+in proportion to the degree of fullness of the canopy; evaporation from
+the wet canopy occurs in the same proportion, as a fraction of the
+local
+potential evaporation. Cf. <a href="#Gregory%20and%20Smith%201990">Gregory
+and
+Smith (1990)</a> for further details.</li>
+</ul>
+<ul>
+  <li>Soil moisture is predicted from a single-layer model with
+spatially
+nonuniform
+water-holding capacity; it is augmented by snowmelt, precipitation, and
+the throughfall of canopy condensate. This moisture infiltrates the
+soil
+at a rate depending on saturated soil hydraulic conductivity enhanced
+by
+effects of root systems that vary spatially by vegetation type. The
+noninfiltrated
+moisture is treated as surface runoff. Subsurface runoff from
+gravitational
+drainage is also parameterized as a function of spatially varying
+saturated
+soil hydraulic conductivity and of the ratio of soil moisture to its
+saturated
+value (cf. <a href="#Eagleson%201978">Eagleson 1978</a>). Surface and
+subsurface
+runoff are converted into river outflow using predefined geographical
+catchments
+over land and associated coastal outflow points defined relative to the
+model grid. Because river transport is not modeled explicitly, the
+runoff
+is distributed instantaneously to these outflow points.</li>
+</ul>
+<ul>
+  <li>Soil moisture is depleted by evaporation at a fraction <b>beta</b>
+of
+the
+local potential rate. The value of <b>beta</b> depends on the ratio of
+soil moisture to a spatially varying critical value, and on the ratio
+of
+the stomatal resistance to aerodynamic resistance (cf. <a
+ href="#Monteith%201965">Monteith
+1965</a>). The critical soil moisture and stomatal resistance vary
+spatially
+by
+soil/vegetation type. Cf. <a href="#Gregory%20and%20Smith%201990">Gregory
+and
+Smith (1990)</a> and <a href="#Smith%201990b">Smith (1990b)</a> for
+further
+details.</li>
+</ul>
+<ul>
+  <li>Soil temperature is predicted after <a
+ href="#Warrilow%20et%20al.%201986">Warrilow
+et al. (1986)</a> from heat conduction in four layers. The depth of the
+topmost soil layer is given by the penetration of the diurnal wave,
+which
+depends on the spatially varying soil heat conductivity/capacity. The
+lower
+soil layers are, respectively, about 3.9, 14.1, and 44.7 times the
+depth
+of this top layer. The top boundary condition for heat conduction is
+the
+net downward surface energy balance, including the latent heat of
+fusion
+for snowmelt; the bottom boundary condition is zero heat flux. Heat
+insulation
+by snow is modeled by reducing the thermal conductivity between the top
+two soil layers; however, subsurface moisture does not affect the
+thermodynamic
+properties of the soil. Cf. <a href="#Smith%201990b">Smith (1990b)</a>
+for
+further details.</li>
+</ul>
+<h3>
+<a name="Sea Ice"></a>Sea Ice</h3>
+<ul>
+  <li>Sea ice is assumed to have a constant salinity of 0.6
+percent.&nbsp;
+Ocean
+salinity is affected by sea ice formation and melt, sublimation,
+precipitation
+and snow melt, where the latter freshwater fluxes are assumed to pass
+directly
+through ice leads to the ocean below. The weight of snow accumulating
+on
+sea ice may force the ice-snow interface below the water line, thereby
+increasing the ice depth by the formation of "white ice" (cf. <a
+ href="#Ledley%201985">Ledley
+1985</a>). Snow cover does not affect the surface albedo of the ice,
+however.</li>
+</ul>
+<ul>
+  <li>Sea ice thermodynamics are based on the zero-layer model of <a
+ href="#Semtner%201976">Semtner
+(1976),</a> with the inclusion of an ice concentration parameter <b>A</b>
+after <a href="#Hibler%201979">Hibler (1979)</a>.&nbsp; (<b>A</b> has
+a maximum
+of 0.995 in the Arctic and 0.980 in the Antarctic, since completely
+unbroken
+ice cover is rarely observed.)&nbsp; Internal brine pockets are not
+represented.
+Atmospheric surface fluxes and temperatures are calculated separately
+over
+the ice and the leads, with a linear temperature profile assumed in the
+ice interior.&nbsp; Shortwave radiation does not penetrate the ice
+interior,
+but does warm the ocean where there are leads, just as it would at open
+ocean grid squares. All other surface heat fluxes into the leads are
+split,
+so that a fraction equal to the ice concentration is used to form/melt
+ice, with the remainder applied to the ocean model.&nbsp; The heat flux
+from the ocean below the ice is proportional to the difference between
+the temperature of the topmost ocean layer and that of the base of the
+ice&nbsp; (assumed to be -1.8 deg C).</li>
+</ul>
+<ul>
+  <li>Sea ice dynamics follow the simple free-drift parameterization of
+    <a href="#Bryan%201969b">Bryan
+(1969b)</a>,&nbsp; for which the ice internal pressure gradient is
+neglected.&nbsp;
+The current in the topmost ocean layer advects (by an upstream scheme)
+the ice thickness, concentration and snow depth.&nbsp; A rough
+representation
+of rheology prevents convergence of ice once its depth exceeds 4
+m.&nbsp;
+Mechanical energy due to wind mixing, applied under the ice, is
+calculated
+using the drag coefficient appropriate for leads; it is weighted by the
+leads fraction of each grid square.&nbsp; See <a
+ href="#Johns%20et%20al.%201996">Johns
+et al. (1996)</a> for further details.</li>
+</ul>
+<h3>
+<br>
+<a name="AMIP Diffs"></a><font size="+1">Chief Differences from Closest
+AMIP
+Model</font></h3>
+The atmospheric component of coupled model HadCM2 differs from features
+of the AMIP model <a
+ href="https://pcmdi.llnl.gov/mips/amip/home/Documentation/36ukmo_ToC.html">UKMO
+HadAM1 (2.5x3.75 L19) 1993</a> in the following respects:
+<ul>
+  <h3> <a name="Atmospheric Chemistry"></a><font size="+1">Chemistry</font></h3>
+Errors in horizontal interpolation of the ozone reference climatology
+that
+were present in the <a
+ href="https://pcmdi.llnl.gov/mips/amip/home/Documentation/36ukmo.html#RTFToC23">AMIP
+model</a> now are corrected. (The effect of these corrections is
+thought
+to be minor.)
+  <h3><a name="Convection"></a><font size="+1">Convection</font></h3>
+The calculation of forced detrainment in the <a
+ href="https://pcmdi.llnl.gov/mips/amip/home/Documentation/36ukmo.html#RTFToC25">AMIP
+model</a> is modified to ensure internal consistency with the cloud top
+and with the choice of reference level for the initial mass flux when a
+parcel becomes unsaturated due to the addition of latent heat.
+  <h3><a name="Cloud Formation"></a><font size="+1">Cloud Formation</font></h3>
+The parameterization of stratiform cloud formation is modified as
+follows.
+In the <a
+ href="https://pcmdi.llnl.gov/mips/amip/home/Documentation/36ukmo.html#RTFToC26">AMIP
+model</a>, the cloud condensate depends on the spatial fluctuations of
+temperature within the grid box, which are assumed to take the form of
+a "top-hat" probability distribution. In coupled model HadCM2, the
+cloud
+condensate depends instead on the spatial fluctuations of <i>liquid
+water</i>
+temperature, and these are assumed to follow a <i>triangular</i>
+probability
+distribution.
+  <h3><a name="Surface Characteristics"></a><font size="+1">Surface
+Characteristics</font></h3>
+The range and temperature-dependence of the albedo of sea ice differ
+from
+those of the <a
+ href="https://pcmdi.llnl.gov/mips/amip/home/Documentation/36ukmo.html#RTFToC33">AMIP
+model</a>. In coupled model HadCM2, the sea ice albedo varies from 0.80
+for ice surface temperatures at or below -10 deg C to 0.50 at 0 deg C
+(cf. <a href="#Johns%20et%20al.%201997">Johns
+et al. 1997</a>).
+</ul>
+<h3>
+<a name="References"></a>References</h3>
+<a name="Bryan 1969b"></a>Bryan, K., (1969b) Climate and ocean
+circulation.
+III The ocean model. Mon. Wea. Rev., 97: 806-827.
+<p><a name="Eagleson 1978"></a>Eagleson, P.S., 1978: Climate, soil and
+vegetation. <i>Water Resources Res</i>., 14, 705-776.
+</p>
+<p><a name="Gregory and Smith 1990"></a>Gregory, D., and R.N.B. Smith,
+1990: Canopy, surface, and soil hydrology. Unified Model Documentation
+Paper No. 25, United Kingdom Meteorological Office, Bracknell,
+Berkshire
+RG12 2SZ, UK.
+</p>
+<p><a name="Hibler 1979"></a>Hibler, 1979: A dynamic-thermodynamic sea
+ice model. J. Phys. Oceanogr., 9: 817-846.
+</p>
+<p><a name="Johns et al. 1996"></a>Johns. T.C., 1996: A description of
+the Second Hadley Centre Coupled Model (HadCM2). Climate Research
+Technical
+Note 71, Hadley Centre, United Kingdom Meteorological
+<br>
+Office, Bracknell Berkshire RG12 2SY, United Kingdom, 19 pp.
+</p>
+<p><a name="Johns et al. 1997"></a>Johns, T.C., R.E. Carnell, J.F.
+Crossley,
+J.M. Gregory, J.F.B. Mitchell, C.A. Senior, S.F.B. Tett, and R.A. Wood,
+1997: The second Hadley Centre coupled ocean-atmosphere GCM: Model
+description,
+spinup and validation. <i>Climate Dyn</i>., <b>13</b>, 103-134.
+</p>
+<p><a name="Ledley 1985"></a>Ledley, T.S.,&nbsp; (1985) Sea ice:
+multiyear
+cycles and white ice. J. Geophy. Res., 90, 5676-5686.
+</p>
+<p><a name="Levitus 1982"></a>Levitus, S., 1982: Climatological atlas
+of
+the world's oceans. NOAA Professional Paper 13, 173 pp.
+</p>
+<p><a name="Monteith 1965"></a>Monteith, J.L., 1965: Evaporation and
+environment.
+<i>Symp.
+Soc. Exptl. Biol.</i>, <b>19</b>, 205-234.
+</p>
+<p><a name="Semtner 1976"></a>Semtner, A.J., 1976: A model for the
+thermodynamic
+growth of sea ice in numerical investigations of climate.&nbsp; J.
+Phys.
+Oceanogr., 6, 379-389.
+</p>
+<p><a name="Shuttleworth 1988"></a>Shuttleworth, W.J., 1988:
+Macrohydrology:
+The new challenge for process hydrology. <i>J. Hydrol</i>., <b>100</b>,
+31-56.
+</p>
+<p><a name="Smith 1990b"></a>Smith, R.N.B., 1990b: Subsurface, surface,
+and boundary layer processes. Unified Model Documentation Paper No. 24,
+United Kingdom Meteorological Office, Bracknell, Berkshire RG12 2SZ,
+UK.
+</p>
+<p><a name="Warrilow et al. 1986"></a>Warrilow, D.A., A.B. Sangster,
+and
+A. Slingo, 1986: Modelling of land surface processes and their
+influence
+on European climate. DCTN 38, Dynamical Climatology Branch, United
+Kingdom
+Meteorological Office, Bracknell, Berkshire RG12 2SZ, UK.
+<br>
+&nbsp;
+</p>
+<p><a href="#Top%20of%20Page">Top</a>
+</p>
+<p><a href="tables.html">CMIP Documentation Directory</a>
+<br>
+</p>
+<hr><br>
+&nbsp;
+<p>Last update 15 May, 2002.&nbsp; This page is maintained by Tom
+Phillips
+(<a href="mailto:" phillips@pcmdi.llnl.gov="">phillips@pcmdi.llnl.gov</a>).
+<br>
+&nbsp;
+</p>
+<p><a href="http://www.llnl.gov/disclaimer.html">LLNL Disclaimers</a>
+</p>
+<p>UCRL-MI-126431
+</p>
+</body>
+</html>
