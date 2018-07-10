@@ -8,4 +8,17 @@ title: CMIP6 Participation Guidance for Data Managers
 
 ###### Document version: 13 September 2017
 
+ESGF node installation
+
+Refer to the installer wiki for information.  We support RHEL and CentOS  6 or 7.
+https://github.com/ESGF/esgf-installer/wiki
+
+ESGF Publication
+
+http://esgf.github.io/esg-publisher/
+
+General CMIP6 configuration, ie. the esg.cmip6.ini file is prepared.  If when preparing your data if your institution model is missing, please contact esgf-pwt@llnl.gov and we will update the file on github.  
+
+Configure your PID and cdf2cim information in esg.ini [config:cmip6] section
+
 [guide]: index.html
