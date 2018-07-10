@@ -29,7 +29,7 @@ If your data node does not run LAS, you will need to change the "las_configure" 
 
 Configure your PID and cdf2cim information in esg.ini [config:cmip6] section. 
 
-Contact mccoy20 or hoang1@llnl.gov for an account on the confluence server.  Please mention you institution.
+Contact Renata mccoy20@llnl.gov or Tony hoang1@llnl.gov for an account on the confluence server.  Please mention you institution.
 
 https://acme-climate.atlassian.net/wiki/spaces/ESGF/pages/369983978/RabbitMQ+server+config
 
