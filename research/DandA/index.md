@@ -8,6 +8,11 @@ title: PCMDI - Detection and Attribution
 
 ---
 
+### 2018
+#### [Human influence on the seasonal cycle of tropospheric temperature][msu2018]
+
+---
+
 ### 2017
 #### [Causes of differences in model in satellite tropospheric warming rates][NG2017]
 #### [Tropospheric Warming Over the Past Two Decades][msu2017]
@@ -48,4 +53,5 @@ To download the data used in the above article and read about the details on the
 [msu2008]: {{site.url}}/research/DandA/Synthetic%20Microwave%20Sounding%20Unit%20(MSU)%20temperatures/2008/index.html
 [msu2011]: {{site.url}}/research/DandA/Synthetic%20Microwave%20Sounding%20Unit%20(MSU)%20temperatures/2011/index.html
 [msu2017]: {{site.url}}/research/DandA/Synthetic%20Microwave%20Sounding%20Unit%20(MSU)%20temperatures/2017/Scientific_Reports/index.html
+[msu2018]: {{site.url}}/research/DandA/2018/index.html
 [NG2017]: {{site.url}}/research/DandA/Synthetic%20Microwave%20Sounding%20Unit%20(MSU)%20temperatures/2017/Nature_Geoscience/index.html

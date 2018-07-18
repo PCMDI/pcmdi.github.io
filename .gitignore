@@ -2,3 +2,5 @@ _site/
 *.DS_Store
 *.swp
 .idea/
+research/DandA/2018/**/*.nc
+research/DandA/2018/**/*.tar.gz
