@@ -40,21 +40,30 @@ This Cloud Feedback project is supported by the Regional and Global Climate Mode
 * [Peter Caldwell]({{site.baseurl}}/staff/caldwell/index.html)
 * [Mark Zelinka](https://markdzelinka.wordpress.com/)
 * [Yunyan Zhang](https://pls.llnl.gov/people/staff-bios/aeed/zhang-y)
-* [Anthony DeAngelis](http://www.atmos.ucla.edu/csrl/) (UCLA)
 * [Xin Qu](http://www.atmos.ucla.edu/csrl/) (UCLA) 
 
 **Former Participants:**
 
 * [Florent Brient](http://www.lmd.jussieu.fr/~fbrlmd/test_index_flo.html) (ETH Zurich)
+* [Anthony DeAngelis](https://science.gsfc.nasa.gov/sed/bio/anthony.deangelis) (NASA Goddard Space Flight Center)
 * Neil Gordon (Space and Naval Warfare Systems Command) 
 * [Christopher Terai](https://sites.google.com/site/christeraiatmos/) (UC Irvine)
-* [Chen Zhou](https://pls.llnl.gov/people/staff-bios/aeed/zhou-c)
+* [Chen Zhou](https://scholar.google.com/citations?user=Ot_6YukAAAAJ&hl=en) (Nanjing University)
 
 ---
 
 ### Research Highlights
 
 <ul>
+
+<!-- 2018-->
+<h4> 2018</h4>
+
+<ul>
+
+<li>Qu, X., A. Hall, A. M. DeAngelis, M. D. Zelinka, S. A. Klein, H. Su, B. Tian, and C. Zhai, 2018: <a href="https://climatemodeling.science.energy.gov/research-highlights/emergent-constraints-climate-sensitivity-are-linked-shortwave-cloud-feedback" rel="nofollow" target="_blank">The Emergent Constraints of Climate Sensitivity are Linked to Shortwave Cloud Feedback</a></li>
+
+</ul>
 
 <!-- 2017-->
 <h4> 2017</h4>
@@ -310,7 +319,15 @@ Zelinka, M. D., S. A. Klein, and D. L. Hartmann, 2012b: <a href="http://climatem
 
 <ul>
 
-<li>Po-Chedley, S., K. C. Armour, C. M. Bitz, M. D. Zelinka, B. D Santer, and Q. Fu, 2018: Sources of intermodel spread in the lapse rate and water vapor feedbacks. <em>J. Climate</em>, in press.</li>
+<li>Caldwell, P. M., M. D. Zelinka, and S. A. Klein, 2018: Evaluating Emergent Constraints on Equilibrium Climate Sensitivity, <em>J. Climate</em>, 31, 3921-3942, doi:<a href="https://journals.ametsoc.org/doi/abs/10.1175/JCLI-D-17-0631.1" rel="nofollow" target="_blank">10.1175/JCLI-D-17-0631.1</a>.</li>  
+
+<li>Po-Chedley, S., K. C. Armour, C. M. Bitz, M. D. Zelinka, B. D Santer, and Q. Fu, 2018: Sources of intermodel spread in the lapse rate and water vapor feedbacks, <em>J. Climate</em>, 31, 3187–3206, doi:<a href="http://journals.ametsoc.org/doi/abs/10.1175/JCLI-D-17-0674.1" rel="nofollow" target="_blank">10.1175/JCLI-D-17-0674.1</a>.</li>  
+
+<li>Qu, X., A. Hall, A. M. DeAngelis, M. D. Zelinka, S. A. Klein, H. Su, B. Tian, and C. Zhai, 2018: On the emergent constraints of climate sensitivity, <em>J. Climate</em>, 31, 863–875, doi:<a href="http://journals.ametsoc.org/doi/abs/10.1175/JCLI-D-17-0482.1" rel="nofollow" target="_blank">10.1175/JCLI-D-17-0482.1.</a>.</li>  
+
+<li>Santer, B. D., et al including M. D. Zelinka, 2018: Human influence on the seasonal cycle of tropospheric temperature, <em>Science</em>, in press.</li>
+
+<li>Zelinka, M. D., K. M. Grise, S. A. Klein, C. Zhou, A. M. DeAngelis, and M. W. Christensen, 2018: Drivers of the Low Cloud Response to Poleward Jet Shifts in the North Pacific in Observations and Models, <em>J. Climate</em>, in press.</li>
 
 </ul>
 <!-- 2017-->
@@ -321,8 +338,6 @@ Zelinka, M. D., S. A. Klein, and D. L. Hartmann, 2012b: <a href="http://climatem
 <li>Ceppi, P., F. Brient, M. D. Zelinka, and D. L. Hartmann, 2017: Cloud feedback mechanisms and their representation in global climate models. <em>WIREs Climate Change</em>, <strong>e465</strong>, doi:<a href="http://onlinelibrary.wiley.com/doi/10.1002/wcc.465/full" rel="nofollow" target="_blank">10.1002/wcc.465</a>.</li>
 
 <li>Klein, S. A., A. Hall, J. R. Norris, and R. Pincus, 2017: Low-Cloud Feedbacks from Cloud Controlling Factors: A Review. <em>Surv. Geophys.</em>, 38, 1307–1329, doi:<a href="https://link.springer.com/article/10.1007/s10712-017-9433-3" rel="nofollow" target="_blank">10.1007/s10712-017-9433-3</a>.</li>
-
-<li>Qu, X., A. Hall, A. M. DeAngelis, M. D. Zelinka, S. A. Klein, H. Su, B. Tian, and C. Zhai, 2017: On proposed emergent constraints of climate sensitivity, <em>J. Climate</em>, 31, 863–875, doi:<a href="http://journals.ametsoc.org/doi/abs/10.1175/JCLI-D-17-0482.1" rel="nofollow" target="_blank">10.1175/JCLI-D-17-0482.1</a>.</li>  
 
 <li>Tsushima, Y., F. Brient, S. A. Klein, D. Konsta, C. Nam, X. Qu, K. D. Williams, S. C. Sherwood, K. Suzuki, and M. D. Zelinka, 2017: The Cloud Feedback Model Intercomparison Project (CFMIP) Diagnostic Codes Catalogue – metrics, diagnostics and methodologies to evaluate, understand and improve the representation of clouds and cloud feedbacks in climate models, <em>Geosci. Model Dev.</em>, <strong>10</strong>, 4285-4305, <a href="https://www.geosci-model-dev.net/10/4285/2017/" rel="nofollow" target="_blank">https://doi.org/10.5194/gmd-10-4285-2017</a>.</li>
 
