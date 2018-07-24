@@ -23,7 +23,7 @@ ESGF Publication
 
 http://esgf.github.io/esg-publisher/
 
-General CMIP6 configuration, ie. the esg.cmip6.ini file is prepared, thus publisher are not required to make any changes.  If when preparing your data if your institution model is missing, please contact esgf-pwt@llnl.gov and we will update the file on github.  
+The CMIP6 publishing configuration, ie. the esg.cmip6.ini file is automatically generated and downloaded from github.com (using `esgfetchini`).  While preparing your data, if you discover that your source_id is missing, please contact esgf-pwt@llnl.gov and we will update the file on github.  
 
 If your data node does not run LAS, you will need to change the "las_configure" setting to "false".
 
