@@ -23,7 +23,7 @@ http://esgf.github.io/esgf-prepare/
 
 http://esgf.github.io/esg-publisher/
 
-General CMIP6 configuration, ie. the esg.cmip6.ini file is pre-populated based on centralized CV information and fetched to the node during installation, thus, the Data Managers are not required to make changes (see one exception below).  If when preparing your data if your institution model is missing, please:
+General CMIP6 configuration for publishing, ie. the esg.cmip6.ini file is pre-populated based on centralized CV information and fetched to the node during installation, thus, the Data Managers are not required to make changes (see one exception below).  If when preparing your data if your institution model is missing, please:
 
 1.  Re-run esgfetchini. If still missing,
 2.  Contact esgf-pwt@llnl.gov and we will update the file on github.  
