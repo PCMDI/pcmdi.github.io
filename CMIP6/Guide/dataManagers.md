@@ -33,5 +33,10 @@ Contact Renata mccoy20@llnl.gov or Tony hoang1@llnl.gov for an account on the c
 
 https://acme-climate.atlassian.net/wiki/spaces/ESGF/pages/369983978/RabbitMQ+server+config
 
+**Data Availability:** Node administrators need to insert a “policy” to make CMIP6 data. This can be accomplished by adding the following line to the esgf_policies_common.xml file (TBD: distributed in v2.6.9 ?)
+
+`    <policy resource=".*CMIP6.*" attribute_type="ANY" attribute_value="" action="Read"/>`
+
+
 
 [guide]: index.html
