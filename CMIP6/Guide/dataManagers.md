@@ -8,22 +8,25 @@ title: CMIP6 Participation Guidance for Data Managers
 
 ###### Document version: 13 September 2017
 
-ESGF node installation
+### ESGF node installation
 
 Refer to the installer wiki for information.  We support RHEL and CentOS  6 or 7.
 https://github.com/ESGF/esgf-installer/wiki
 
-Data preparation
+### Data preparation
 
 DRS tool (if data needs organization) and mapfile preparation.  See
 
 http://esgf.github.io/esgf-prepare/
 
-ESGF Publication
+### ESGF Publication
 
 http://esgf.github.io/esg-publisher/
 
-General CMIP6 configuration, ie. the esg.cmip6.ini file is prepared, thus publisher are not required to make any changes.  If when preparing your data if your institution model is missing, please contact esgf-pwt@llnl.gov and we will update the file on github.  
+General CMIP6 configuration, ie. the esg.cmip6.ini file is pre-populated based on centralized CV information and fetched to the node during installation, thus, the Data Managers are not required to make changes (see one exception below).  If when preparing your data if your institution model is missing, please:
+
+1.  Re-run esgfetchini. If still missing,
+2.  Contact esgf-pwt@llnl.gov and we will update the file on github.  
 
 If your data node does not run LAS, you will need to change the "las_configure" setting to "false".
 
