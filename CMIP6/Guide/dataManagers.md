@@ -10,12 +10,12 @@ title: CMIP6 Participation Guidance for Data Managers
 
 ### ESGF node installation
 
-Refer to the installer wiki for information.  We support RHEL and CentOS  6 or 7.
+Refer to the installer wiki for information.  We support RHEL 6 and CentOS 6 or 7.
 https://github.com/ESGF/esgf-installer/wiki
 
 ### Data preparation
 
-DRS tool (if data needs organization) and mapfile preparation.  See
+DRS tool (if data needs organization) and mapfile preparation.  See:
 
 http://esgf.github.io/esgf-prepare/
 
@@ -30,13 +30,14 @@ General CMIP6 configuration, ie. the esg.cmip6.ini file is pre-populated based o
 
 If your data node does not run LAS, you will need to change the "las_configure" setting to "false".
 
-Configure your PID and cdf2cim information in esg.ini [config:cmip6] section. 
-
-Contact Renata mccoy20@llnl.gov or Tony hoang1@llnl.gov for an account on the confluence server.  Please mention you institution.
+Configure your PID and cdf2cim information in esg.ini [config:cmip6] section. For PID configuration you'll need to add "shared secret" passwords for the RabbitMQ settings (see the publisher manual).  Contact Renata mccoy20@llnl.gov or Tony hoang1@llnl.gov for an account on the confluence server.  Please mention you institution.
 
 https://acme-climate.atlassian.net/wiki/spaces/ESGF/pages/369983978/RabbitMQ+server+config
 
-**Data Availability:** Node administrators need to insert a “policy” to make CMIP6 data. This can be accomplished by adding the following line to the esgf_policies_common.xml file (TBD: distributed in v2.6.9 ?)
+### Errata Service
+ (coming soon)
+
+**Data Availability:** Node administrators need to insert a “policy” to make CMIP6 data available to all users. This can be accomplished by adding the following line to the esgf_policies_common.xml file (TBD: distributed in v2.6.9 ?)
 
 `    <policy resource=".*CMIP6.*" attribute_type="ANY" attribute_value="" action="Read"/>`
 
