@@ -52,8 +52,8 @@ As indicated in the [guidance specifications for output grids][cmip6GridGoogleDo
 CMIP6 model output is available through a distributed data archive developed and operated by the [Earth System Grid Federation (ESGF)][ESGFHome].   [Balaji et al. (2018)][BalajiGMD] provide an overview of the design of additional infrastructure and the configuring of ESGF in supporting CMIP6.   The data are hosted on a collection of nodes located at modeling centers or data centers across the world.  The data can be accessed through any of the CMIP6 CoG web interfaces, which enable users to search across the entire distributed archive as if it were all centrally located.  
 
 Here are the currently active CMIP6 CoG sites (all data can be accessed via either one of these):
-* https://esgf-node.llnl.gov/projects/cmip6/
-* https://esgf-node.ipsl.upmc.fr/projects/cmip6-ipsl/
+* [https://esgf-node.llnl.gov/projects/cmip6/](https://esgf-node.llnl.gov/projects/cmip6/)
+* [https://esgf-node.ipsl.upmc.fr/projects/cmip6-ipsl/](https://esgf-node.ipsl.upmc.fr/projects/cmip6-ipsl/)
   
 To get to the search interface click on “More search options” under the large red text near the center of the page.  
 There are additional options for searching through the web interface (see “More Search Options” near the top right of the page) and there is also an API that can be used to perform searches.   [Tutorials][ESGFTutorial] are available by following the link labeled [“Technical Support”] [ESGFTechSupport] near the top right of the page.  Expert users may also want to use the [ESGF Search RESTful API][ESGFSearchapi].
@@ -105,18 +105,9 @@ Information is under preparation describing the governance of the following:
 ###### Document version: 31 July 2018
 
 [guide]: index.html
-[cmip6CvsRegistrationGuidance]: https://github.com/WCRP-CMIP/CMIP6_CVs/blob/master/.github/ISSUE_TEMPLATE.md
-[ESGFLlnlHome]: https://esgf-node.llnl.gov/projects/esgf-llnl/
-[institutionIdJson]: https://github.com/WCRP-CMIP/CMIP6_CVs/blob/master/CMIP6_institution_id.json
 [institutionIdHtml]: http://rawgit.com/WCRP-CMIP/CMIP6_CVs/master/src/CMIP6_institution_id.html
-[sourceIdJson]: https://github.com/WCRP-CMIP/CMIP6_CVs/blob/master/CMIP6_source_id.json
 [sourceIdHtml]: http://rawgit.com/WCRP-CMIP/CMIP6_CVs/master/src/CMIP6_source_id.html
-[dkrzCitationGUI]: http://cera-www.dkrz.de/citeXA
-[dkrzCitationGUIDoc]: http://cera-www.dkrz.de/docs/pdf/CMIP6_Citation_Userguide.pdf
-[PCMDIAmipCitation]: https://doi.org/10.22033/ESGF/input4MIPs.2204
-[DKRZ]: https://www.dkrz.de/
 [cmip6Cvs]: https://github.com/WCRP-CMIP/CMIP6_CVs
-[EndorsedMipMailingList]: https://www.wcrp-climate.org/modelling-wgcm-mip-catalogue/modelling-wgcm-cmip6-endorsed-mips
 [GMDSpecialIssue]: http://www.geosci-model-dev.net/special_issue590.html
 [EyringEtAl16]: http://doi.org/10.5194/gmd-9-1937-2016
 [CMIPPanel]: https://www.wcrp-climate.org/wgcm-cmip/cmip-panel
@@ -125,23 +116,13 @@ Information is under preparation describing the governance of the following:
 [experimentIdJson]: https://github.com/WCRP-CMIP/CMIP6_CVs/blob/master/CMIP6_experiment_id.json
 [experimentIdhtml]: http://rawgit.com/WCRP-CMIP/CMIP6_CVs/master/src/CMIP6_experiment_id.html
 [input4mipsCog]: https://esgf-node.llnl.gov/search/input4MIPs
-[input4mipsGoogleDoc]: http://goo.gl/r8up31
 [cmip6DataRequestCog]: https://www.earthsystemcog.org/projects/wip/CMIP6DataRequest
 [cfConventionsPage]: http://cfconventions.org/
 [cmip6GlobalAttGoogleDoc]: http://goo.gl/v1drZl
 [cmip6GridGoogleDoc]: http://goo.gl/1oA7bO
 [cmip6PressureLevelsPdf]: https://www.earthsystemcog.org/site_media/projects/wip/CMIP6_pressure_levels.pdf
 [cmip6TimeAveragesCog]: https://www.earthsystemcog.org/projects/wip/time_averages
-[cmip6CmorTables]: https://github.com/PCMDI/cmip6-cmor-tables/tree/master/Tables
 [esgfSearchRequirementsGoogleDoc]: https://docs.google.com/document/d/1jNBw2am28Hxux_YuCL_mYMi18EEGkJSGrtNntOs3PJo
-[cmorGithub]: https://github.com/PCMDI/cmor
-[cmorSite]: https://cmor.llnl.gov
-[preparePage]: https://github.com/PCMDI/cmor/tree/master/LibCV/PrePARE
-[cf-checkerGithub]: https://github.com/cedadev/cf-checker/wiki
-[ESGFDataNodeManagersAndOperators]: https://pcmdi.llnl.gov/CMIP6/Guide/dataManagers.html
-[ESGFDkrzHome]: https://esgf-data.dkrz.de/projects/esgf-dkrz/
-[ESGFIpslHome]: https://esgf-node.ipsl.upmc.fr/projects/esgf-ipsl/
-[ESGFCedaHome]: https://esgf-index1.ceda.ac.uk/projects/esgf-ceda/
 [es-docsExperiments]: https://es-doc.org/cmip6-experiments
 [es-docsModels]: https://es-doc.org/cmip6-models
 [es-docsEnsemblesConformance]: https://es-doc.org/cmip6-ensembles-conformance
