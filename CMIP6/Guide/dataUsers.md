@@ -79,7 +79,7 @@ The [controlled vocabularies][cmip6Cvs] contain basic information about the [mod
 * **[Computer hardware performance][es-docsPerformance]**: Information will also be provided by ES-DOC on the hardware used in running simulations (e.g. the number of cores) and also metrics describing the performance of each simulation on its machine (e.g. the number of simulated years per real day, etc.)
 
 ## 6. Reporting suspected errors
-Guidance will be forthcoming.
+The errata service is provided by ES-DOCs[ES-DOCErrataService], and will provide the ability to subset reported errors by experiment, model, institution etc. Further guidance will be forthcoming, in particular how a user can report issues with any particular dataset.
 
 ## 7. Registering published work based on CMIP6
 Please register on the [CMIP6 publication database][CMIP6pubs] any articles you publish that make use of CMIP6 output.  Further guidance will be forthcoming.
@@ -144,6 +144,7 @@ Information is under preparation describing the governance of the following:
 [ESGFSearchapi]: https://earthsystemcog.org/projects/cog/esgf_search_restful_api
 [cmip6cite]: https://redmine.dkrz.de/projects/cmip6-lta-and-data-citation/wiki
 [globusHome]: https://globus.org/
+[ES-DOCErrataService]: https://errata.es-doc.org/static
 [CMIP6pubs]: https://cmip-publications.llnl.gov/view/CMIP6/
 [termsOfUse]: https://pcmdi.llnl.gov/CMIP6/TermsOfUse
 [dataCitationGuide]: http://bit.ly/2gBCuqM
