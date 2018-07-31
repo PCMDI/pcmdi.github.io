@@ -99,7 +99,7 @@ Information is under preparation describing the governance of the following:
 * [Data citation][CMIP6Citation]
 * Long-term archival (LTA) and data quality assurance (QA)
 * Evaluation activities
-* [input4MIPs][input4mipsCog]
+* [input4MIPs][input4mipsHome]
 * [obs4MIPs][obs4mipsCog]
 
 ###### Document version: 31 July 2018
@@ -115,7 +115,6 @@ Information is under preparation describing the governance of the following:
 [activityIdJson]: https://github.com/WCRP-CMIP/CMIP6_CVs/blob/master/CMIP6_activity_id.json
 [experimentIdJson]: https://github.com/WCRP-CMIP/CMIP6_CVs/blob/master/CMIP6_experiment_id.json
 [experimentIdhtml]: http://rawgit.com/WCRP-CMIP/CMIP6_CVs/master/src/CMIP6_experiment_id.html
-[input4mipsCog]: https://esgf-node.llnl.gov/search/input4MIPs
 [cmip6DataRequestCog]: https://www.earthsystemcog.org/projects/wip/CMIP6DataRequest
 [cfConventionsPage]: http://cfconventions.org/
 [cmip6GlobalAttGoogleDoc]: http://goo.gl/v1drZl
