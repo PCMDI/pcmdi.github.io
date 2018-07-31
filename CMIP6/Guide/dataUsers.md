@@ -144,7 +144,7 @@ Information is under preparation describing the governance of the following:
 [ESGFSearchapi]: https://earthsystemcog.org/projects/cog/esgf_search_restful_api
 [cmip6cite]: https://redmine.dkrz.de/projects/cmip6-lta-and-data-citation/wiki
 [globusHome]: https://globus.org/
-[ES-DOCErrataService]: https://errata.es-doc.org/static
+[ES-DOCErrataService]: https://errata.es-doc.org/static/index.html
 [CMIP6pubs]: https://cmip-publications.llnl.gov/view/CMIP6/
 [termsOfUse]: https://pcmdi.llnl.gov/CMIP6/TermsOfUse
 [dataCitationGuide]: http://bit.ly/2gBCuqM
