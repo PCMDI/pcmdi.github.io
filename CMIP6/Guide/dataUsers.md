@@ -18,18 +18,35 @@ Document overview:
 1. [CMIP6 organization and governance](#8-CMIP6-organization-and-governance)
 
 ## 1. Experiment design
-
 The CMIP6 protocol and experiments are described in a [special issue][GMDSpecialIssue] of Geoscientific Model Development with an overview of the design and scientific strategy provided in the lead article of that issue by [Eyring et al. (2016)][EyringEtAl16]
 
 Each model participating in CMIP6 will contribute results from the four DECK experiments (piControl, AMIP, abrupt4xCO2, and 1pctCO2) and the CMIP6 historical simulation. These experiments are the only ones  directly overseen by the the [CMIP Panel][CMIPPanel], and together these constitute the ongoing (slowly evolving) “CMIP Activity”.  They are described in [Eyring et al. (2016)][EyringEtAl16]
 
 In addition to the DECK and historical simulations, each modeling group may choose to contribute to any of the [CMIP6 endorsed MIPs][CMIP6EndorsedMips].  See the [GMD Special CMIP6 Issue][GMDSpecialIssue] for descriptions of each MIP and its experiment specifications. The official names of the currently endorsed CMIP6 MIP activities are recorded in a [“json” file][activityIdJson].
 
-When called for by the experiment protocol, [standard forcing data sets](input4mips) have been used. Any deviation from the standard forcing are supposed to be clearly [documented](#5-model-and-experiment-documentation).
+When called for by the experiment protocol, [standard forcing data sets](input4mipsCog) have been used. Any deviation from the standard forcing are supposed to be clearly [documented](#5-model-and-experiment-documentation).
 
 Further documentation about CMIP6 experiments will be available from [ES-DOC][es-docsCmip6], and the reference controlled vocabularies used to define and identify these experiments are available in a [“json” file][experimentIdJson] and are also rendered in [table form][experimentIdhtml].
 
 ## 2. Model output specifications
+The [CMIP6 Data Request][cmip6DataRequestCog] defines the variables requested from each experiment and specifies the time intervals for which they are supposed to be reported. One option for perusing the lists of variables that should be available from at least some experiments is to display the [excel spreadsheet][variableListXls].
+
+CMIP6 model output includes metadata and is structured similar to CMIP5 output, but changes have been made to accommodate the more complex structure of CMIP6 and its data request. Some changes have been made to make it easier for users to find the data they need and to enable new services to be established providing, for example, model and experiment documentation and citation information.
+
+As in CMIP5, all CMIP6 output has been written to netCDF files with one variable stored per file. The data have been “cmorized” (i.e., written in conformance with the [CF-conventions][cfConventionsPage] and all the CMIP standards).  The CMIP6 data requirements are defined and discussed in the following documents:
+
+* [Definition of CMIP6 netCDF global attributes][cmip6GlobalAttGoogleDoc]
+* [Reference “controlled vocabularies” (CV’s) for CMIP6][cmip6Cvs]
+* [Specifications][cmip6GlobalAttGoogleDoc] for file names, directory structures,
+ and CMIP6 Data Reference Syntax (DRS)
+* Specifications for output file content, structure, and metadata are available in [draft google doc](https://goo.gl/neswPr).
+* [Guidance on grid requirements][cmip6GridGoogleDoc]
+* [Information on pressure levels][cmip6PressureLevelsPdf] requested
+* [Guidance on time-averaging][cmip6TimeAveragesCog] (with masking)
+
+Note that in the above, controlled vocabularies (CV’s) play a key role in ensuring uniformity in the description of data sets across all models. For all but variable-specific information, [reference CV’s][[cmip6Cvs] are being maintained by PCMDI.  These CV’s are relied on in constructing file names and directory structures, and they enable faceted searches of the CMIP6 archive as called for in the [search requirements document][esgfSearchRequirementsGoogleDoc].
+
+As indicated in the [guidance specifications for output grids][cmip6GridGoogleDoc], weights will be provided to regrid all output to a few standard grids (e.g., 1x1 degree). All regridding information (weights, lats, lons, etc.) will be stored consistent with a standard format approved by the WIP. 
 
 ## 3. Accessing model output
 
@@ -96,3 +113,4 @@ Further documentation about CMIP6 experiments will be available from [ES-DOC][es
 [cdnotGoogleDoc]: https://docs.google.com/document/d/1oRWqxtWWEfsucTVhk0G3bMqHC0BL4dJwADrOG8Ukj-g
 [obs4mipsCog]: https://www.earthsystemcog.org/projects/obs4mips/
 [CMIP6Citation]: http://cmip6cite.wdc-climate.de
+[variableListXls]: http://proj.badc.rl.ac.uk/svn/exarch/CMIP6dreq/tags/latest/dreqPy/docs/CMIP6_MIP_tables.xlsx
