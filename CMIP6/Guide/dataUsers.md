@@ -24,7 +24,7 @@ Each model participating in CMIP6 will contribute results from the four DECK exp
 
 In addition to the DECK and historical simulations, each modeling group may choose to contribute to any of the [CMIP6 endorsed MIPs][CMIP6EndorsedMips].  See the [GMD Special CMIP6 Issue][GMDSpecialIssue] for descriptions of each MIP and its experiment specifications. The official names of the currently endorsed CMIP6 MIP activities are recorded in a [“json” file][activityIdJson].
 
-When called for by the experiment protocol, [standard forcing data sets](input4mipsCog) have been used. Any deviation from the standard forcing are supposed to be clearly [documented](#5-model-and-experiment-documentation).
+When called for by the experiment protocol, [standard forcing data sets][input4mipsHome] have been used. Any deviation from the standard forcing are supposed to be clearly [documented](#5-model-and-experiment-documentation).
 
 Further documentation about CMIP6 experiments will be available from [ES-DOC][es-docsCmip6], and the reference controlled vocabularies used to define and identify these experiments are available in a [“json” file][experimentIdJson] and are also rendered in [table form][experimentIdhtml].
 
@@ -44,11 +44,21 @@ As in CMIP5, all CMIP6 output has been written to netCDF files with one variable
 * [Information on pressure levels][cmip6PressureLevelsPdf] requested
 * [Guidance on time-averaging][cmip6TimeAveragesCog] (with masking)
 
-Note that in the above, controlled vocabularies (CV’s) play a key role in ensuring uniformity in the description of data sets across all models. For all but variable-specific information, [reference CV’s][[cmip6Cvs] are being maintained by PCMDI.  These CV’s are relied on in constructing file names and directory structures, and they enable faceted searches of the CMIP6 archive as called for in the [search requirements document][esgfSearchRequirementsGoogleDoc].
+Note that in the above, controlled vocabularies (CV’s) play a key role in ensuring uniformity in the description of data sets across all models. For all but variable-specific information, [reference CV’s][cmip6Cvs] are being maintained by PCMDI.  These CV’s are relied on in constructing file names and directory structures, and they enable faceted searches of the CMIP6 archive as called for in the [search requirements document][esgfSearchRequirementsGoogleDoc].
 
 As indicated in the [guidance specifications for output grids][cmip6GridGoogleDoc], weights will be provided to regrid all output to a few standard grids (e.g., 1x1 degree). All regridding information (weights, lats, lons, etc.) will be stored consistent with a standard format approved by the WIP. 
 
 ## 3. Accessing model output
+CMIP6 model output is available through a distributed data archive developed and operated by the [Earth System Grid Federation (ESGF)][ESGFHome].   [Balaji et al. (2018)][BalajiGMD] provide an overview of the design of additional infrastructure and the configuring of ESGF in supporting CMIP6.   The data are hosted on a collection of nodes located at modeling centers or data centers across the world.  The data can be accessed through any of the CMIP6 CoG web interfaces, which enable users to search across the entire distributed archive as if it were all centrally located.  
+
+Here are the currently active CMIP6 CoG sites (all data can be accessed via either one of these):
+* https://esgf-node.llnl.gov/projects/cmip6/
+* https://esgf-node.ipsl.upmc.fr/projects/cmip6-ipsl/
+  
+To get to the search interface click on “More search options” under the large red text near the center of the page.  
+There are additional options for searching through the web interface (see “More Search Options” near the top right of the page) and there is also an API that can be used to perform searches.   [Tutorials][ESGFTutorial] are available by following the link labeled [“Technical Support”] [ESGFTechSupport] near the top right of the page.  Expert users may also want to use the [ESGF Search RESTful API][ESGFSearchapi].
+
+[Globus][globusHome] is available for downloading some datasets and will provide much better performance for large data volumes.   With the Globus Download option, ESGF will prepare a python script for batch downloads, or you can monitor transfers for a “Web Download”.  You can download an entire “data cart” in one step if all datasets in the cart are served by Globus.   The Globus option requires you to establish a user account on ESGF (see “create account” at top right of CoG pages).  Note also that a second logon with a Globus-enabled credential is required (nb.: Google ids in addition to many institutions are accepted).  
 
 ## 4. Terms of use and citation requirements
 
@@ -114,3 +124,10 @@ As indicated in the [guidance specifications for output grids][cmip6GridGoogleDo
 [obs4mipsCog]: https://www.earthsystemcog.org/projects/obs4mips/
 [CMIP6Citation]: http://cmip6cite.wdc-climate.de
 [variableListXls]: http://proj.badc.rl.ac.uk/svn/exarch/CMIP6dreq/tags/latest/dreqPy/docs/CMIP6_MIP_tables.xlsx
+[input4mipsHome]: https://esgf-node.llnl.gov/projects/input4mips/
+[ESGFHome]: https://esgf.llnl.gov/
+[BalajiGMD]: https://www.geosci-model-dev-discuss.net/gmd-2018-52/
+[ESGFTutorial]: http://www.earthsystemcog.org/projects/cog/tutorials_web
+[ESGFTechSupport]: https://www.earthsystemcog.org/projects/cog/contactus/
+[ESGFSearchapi]: https://earthsystemcog.org/projects/cog/esgf_search_restful_api
+[globusHome]: https://globus.org/
