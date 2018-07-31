@@ -14,8 +14,8 @@ Document overview:
 1. [Terms of use and citation requirements](#4-terms-of-use-and-citation-requirements)
 1. [Model and experiment documentation](#5-model-and-experiment-documentation)
 1. [Reporting suspected errors](#6-reporting-suspected-errors)
-1. [Registering published work based on CMIP6](#7-registering-published-work-based-on-CMIP6)
-1. [CMIP6 organization and governance](#8-CMIP6-organization-and-governance)
+1. [Registering published work based on CMIP6](#7-registering-published-work-based-on-cmip6)
+1. [CMIP6 organization and governance](#8-cmip6-organization-and-governance)
 
 ## 1. Experiment design
 The CMIP6 protocol and experiments are described in a [special issue][GMDSpecialIssue] of Geoscientific Model Development with an overview of the design and scientific strategy provided in the lead article of that issue by [Eyring et al. (2016)][EyringEtAl16]
