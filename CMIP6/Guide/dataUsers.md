@@ -61,14 +61,46 @@ There are additional options for searching through the web interface (see “Mor
 [Globus][globusHome] is available for downloading some datasets and will provide much better performance for large data volumes.   With the Globus Download option, ESGF will prepare a python script for batch downloads, or you can monitor transfers for a “Web Download”.  You can download an entire “data cart” in one step if all datasets in the cart are served by Globus.   The Globus option requires you to establish a user account on ESGF (see “create account” at top right of CoG pages).  Note also that a second logon with a Globus-enabled credential is required (nb.: Google ids in addition to many institutions are accepted).  
 
 ## 4. Terms of use and citation requirements
+To enable modeling groups and others who support CMIP6 to demonstrate its impact (and secure ongoing funding), you are required to cite and acknowledge those who have made CMIP6 possible. You also must abide by any licensing restrictions, which are recorded in each file as a  global attribute (named “license”). 
+
+<span style="color:red">Please carefully read and adhere to</span> the [CMIP6 Terms of Use][termsOfUse].  
+
+CMIP6 model output datasets and forcing datasets should, according to the terms of use, be cited by any publication that make use of them (see [Data Citation Guidelines][dataCitationGuide]). Further information on the data citation concept for CMIP6 is available at [cmip6cite.wdc-climate.de][cmip6cite] and described in [Stockhause and Lautenschlager (2017)][Stockhause2017].  
+
+Brief data citation information can be displayed  by clicking on “Show citation” next to datasets listed by the CMIP6 CoG search interface and then navigating to the “landing page”.  It is important to include the version (latest dataset version or if not available the latest data download date) in the data citation of the evolving CMIP6 data.
 
 ## 5. Model and experiment documentation
+The [controlled vocabularies][cmip6Cvs] contain basic information about the [models][sourceIdHtml], [institutions][institutionIdHtml], and [experiments][experimentIdhtml] in CMIP6.  The CMIP6 results will be fully documented and made accessible via the ES-DOC viewer and comparator interface ([https://search.es-doc.org](https://search.es-doc.org)). Each CMIP6 model output file includes a global attribute called “further_info_url” which will link to a signpost web page providing simulation/ensemble information, model configuration details, current contact details, data citation details etc. This link is also selectable next to each dataset returned by the CMIP6 CoG search interface.  ES-DOC will include documentation of:
+
+* **[Experiments][es-docsExperiments]**: The ES-DOC project has already recorded documentation of the CMIP6 experiments including lists of forcings, model configuration, numerical requirements, information about building the ensembles, links to citations and contact information of the principal investigators as well as text descriptions and information about the rationale behind each experiment
+* **[Models][es-docsModels]**: Models will be described on a realm-by-realm basis (i.e. atmosphere, ocean, sea ice, etc.) as well as the top level (coupled model configuration). ES-DOC provides a variety of tools (script-based, text-based, and form-based) for gathering this information from modeling groups, allowing for personal/institutional preference in the way in which documents are created
+* **[Experimental conformance][es-docsEnsemblesConformance]**: Each simulation should conform to a number of specific requirements established by the MIP leaders. For example, an experiment may have the requirement that all simulations must start and end on particular dates. The full set of experimental requirements for each experiment can be viewed at [https://search.es-doc.org](https://search.es-doc.org). Sometimes there could be more than one way to meet the requirements, so modeling groups will record information about how each simulation conforms to the specifications
+* **[Individual members of an ensemble][es-docsEnsemblesSimulations]**:. Some ensemble documentation is harvested by ES-DOC from published netCDF files, but additional information will be available in ES-DOC. In each model output file the “ripf” identifier is used to uniquely distinguish each member of an ensemble, but the differences between members may not always be clearly (or correctly) recorded in the “variant_info” global attribute. ES-DOC will therefore serve as the reference source for understanding differences between ensemble members. As described in more detail elsewhere ([Definition of CMIP6 netCDF global attributes][cmip6GlobalAttGoogleDoc] and [ES-DOC for CMIP6][es-docsCmip6]), there are 4 indices defining an ensemble member: “r” for realization, “i” for initialization, “p” for physics, and “f” for forcing. Modeling groups will record in ES-DOC the key to interpreting the differences between simulations identified by different indices. In particular for each forcing index, the list of forcing data sets applied in the simulation will be recorded
+* **[Computer hardware performance][es-docsPerformance]**: Information will also be provided by ES-DOC on the hardware used in running simulations (e.g. the number of cores) and also metrics describing the performance of each simulation on its machine (e.g. the number of simulated years per real day, etc.)
 
 ## 6. Reporting suspected errors
+Guidance will be forthcoming.
 
 ## 7. Registering published work based on CMIP6
+Please register on the [CMIP6 publication database][CMIP6pubs] any articles you publish that make use of CMIP6 output.  Further guidance will be forthcoming.
 
 ## 8. CMIP6 organization and governance
+The [CMIP Panel][CMIPPanel], which is a standing subcommittee of the WCRP’s [Working Group on Climate Modeling][wgcmSite] provides overall guidance and oversight of CMIP activities. Notably it determines which MIPs will participate in each phase of CMIP using the established selection criteria listed in Table 1 of [Eyring et al. (2016)][EyringEtAl16]. On [its webpages][wgcmCmip6] the CMIP Panel provides additional information that may be of interest to CMIP6 participants, but only the CMIP6 Guide (this document) provides definitive documentation of CMIP6 technical requirements.
+
+The [endorsed MIPs][CMIP6EndorsedMips] are managed by independent committees, but acceptance of endorsement obligates them to follow CMIP’s technical requirements. Thus across all MIPs, the modeling groups can prepare their model output following a common procedure.
+
+The CMIP Panel has delegated responsibility for most of the technical requirements of CMIP to the [WGCM Infrastructure Panel (WIP)][wipCog]. The mission, rationale and Terms of Reference for the panel can be found [here][wipMission]. The WIP has drafted a number of position papers summarizing CMIP6 requirements and specifications. Among these is the [CMIP6 reference specifications for global attributes, filenames, directory structure and Data Reference Syntax (DRS)][cmip6GlobalAttGoogleDoc]. The WIP has also set up a [CMIP Data Node Operations Team (CDNOT)][cdnotGoogleDoc] to interface with data node managers responsible for serving CMIP6 data. This team provides a direct link from the panels establishing data node requirements to those implementing the requirements. 
+
+Information is under preparation describing the governance of the following:
+
+* ESGF & CoG & major replication data centers
+* [CF-conventions][cfConventionsPage]
+* [ES-DOC][es-docsCmip6]
+* [Data citation][CMIP6Citation]
+* Long-term archival (LTA) and data quality assurance (QA)
+* Evaluation activities
+* [input4MIPs][input4mipsCog]
+* [obs4MIPs][obs4mipsCog]
 
 ###### Document version: 31 July 2018
 
@@ -130,4 +162,9 @@ There are additional options for searching through the web interface (see “Mor
 [ESGFTutorial]: http://www.earthsystemcog.org/projects/cog/tutorials_web
 [ESGFTechSupport]: https://www.earthsystemcog.org/projects/cog/contactus/
 [ESGFSearchapi]: https://earthsystemcog.org/projects/cog/esgf_search_restful_api
+[cmip6cite]: https://redmine.dkrz.de/projects/cmip6-lta-and-data-citation/wiki
 [globusHome]: https://globus.org/
+[CMIP6pubs]: https://cmip-publications.llnl.gov/view/CMIP6/
+[termsOfUse]: https://pcmdi.llnl.gov/CMIP6/TermsOfUse
+[dataCitationGuide]: http://bit.ly/2gBCuqM
+[Stockhause2017]: https://doi.org/10.5334/dsj-2017-030
