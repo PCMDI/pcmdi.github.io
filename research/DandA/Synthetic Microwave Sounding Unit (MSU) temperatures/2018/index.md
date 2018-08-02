@@ -13,6 +13,7 @@ title: PCMDI - Detection and Attribution
 </center>
 <br>
 
-* [hist_rcp85]({{site.url}}/research/DandA/2018/hist_rcp85/index.html)
-* [piControl]({{site.url}}/research/DandA/2018/piControl/index.html)
-* [satellite]({{site.url}}/research/DandA/2018/satellite/index.html)
+* [Santer_etal_Science_Data_31jul18.pdf](Santer_etal_Science_Data_31jul18.pdf)
+* [hist_rcp85](hist_rcp85/index.html)
+* [piControl](piControl/index.html)
+* [satellite](satellite/index.html)

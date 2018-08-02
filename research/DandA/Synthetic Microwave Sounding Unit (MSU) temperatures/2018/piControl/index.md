@@ -3,6 +3,16 @@ layout: default
 title: PCMDI - 2018 piControl Files
 ---
 
+<br>
+<center>
+    <p>
+        <h1>Description of Data used in:</h1>
+        <h3>Human influence on the seasonal cycle of tropospheric temperature</h3>
+    </p>
+    <p><em>(LLNL-MI-######)</em></p>
+</center>
+<br>
+
 filename | size
    ---   | ---:
 [Download All](2018_piControl.tar.gz) | 39G

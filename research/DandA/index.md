@@ -53,5 +53,5 @@ To download the data used in the above article and read about the details on the
 [msu2008]: {{site.url}}/research/DandA/Synthetic%20Microwave%20Sounding%20Unit%20(MSU)%20temperatures/2008/index.html
 [msu2011]: {{site.url}}/research/DandA/Synthetic%20Microwave%20Sounding%20Unit%20(MSU)%20temperatures/2011/index.html
 [msu2017]: {{site.url}}/research/DandA/Synthetic%20Microwave%20Sounding%20Unit%20(MSU)%20temperatures/2017/Scientific_Reports/index.html
-[msu2018]: {{site.url}}/research/DandA/2018/index.html
+[msu2018]: {{site.url}}/research/DandA/Synthetic%20Microwave%20Sounding%20Unit%20(MSU)%20temperatures/2018/index.html
 [NG2017]: {{site.url}}/research/DandA/Synthetic%20Microwave%20Sounding%20Unit%20(MSU)%20temperatures/2017/Nature_Geoscience/index.html

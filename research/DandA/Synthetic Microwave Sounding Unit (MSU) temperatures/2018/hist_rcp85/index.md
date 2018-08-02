@@ -3,6 +3,16 @@ layout: default
 title: PCMDI - 2018 hist_rcp85 Files
 ---
 
+<br>
+<center>
+    <p>
+        <h1>Description of Data used in:</h1>
+        <h3>Human influence on the seasonal cycle of tropospheric temperature</h3>
+    </p>
+    <p><em>(LLNL-MI-######)</em></p>
+</center>
+<br>
+
 filename | size
    ---   | ---:
 [Download All](2018_hist_rcp85.tar.gz) | 10G
