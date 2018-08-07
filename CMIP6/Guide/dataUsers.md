@@ -1,6 +1,6 @@
 ---
 layout: default
-title: CMIP6 Participation Guidance for Data Users
+title: CMIP6 Guidance for Data Users
 ---
 
 # CMIP6 Participation Guidance for Data Users
@@ -63,7 +63,7 @@ There are additional options for searching through the web interface (see “Mor
 ## 4. Terms of use and citation requirements
 To enable modeling groups and others who support CMIP6 to demonstrate its impact (and secure ongoing funding), you are required to cite and acknowledge those who have made CMIP6 possible. You also must abide by any licensing restrictions, which are recorded in each file as a  global attribute (named “license”). 
 
-<span style="color:red">Please carefully read and adhere to</span> the [CMIP6 Terms of Use][termsOfUse].  
+<span style="color:red;font-weight:bold">Please carefully read and adhere to</span> the [CMIP6 Terms of Use][termsOfUse].  
 
 CMIP6 model output datasets and forcing datasets should, according to the terms of use, be cited by any publication that make use of them (see [Data Citation Guidelines][dataCitationGuide]). Further information on the data citation concept for CMIP6 is available at [cmip6cite.wdc-climate.de][cmip6cite] and described in [Stockhause and Lautenschlager (2017)][Stockhause2017].  
 
