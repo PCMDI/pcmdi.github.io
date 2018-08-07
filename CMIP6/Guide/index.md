@@ -26,7 +26,6 @@ Here are links to the parts of the guide.
 1. Documentation process
 1. CMIP6 organization and governance
 
-
 ### [For CMIP6 ESGF data node managers and operators][dataManagers] (in preparation):
 
 1. Hardware requirements
@@ -34,15 +33,16 @@ Here are links to the parts of the guide.
 1. Publication procedure
 1. Software supporting publication/replication
 
-
 ### [For Users of CMIP6 model output][dataUsers]:
 
 1. Experiment design
 1. Model output specifications
 1. Accessing model output
 1. Terms of use and citation requirements
+1. Model and experiment documentation
 1. Reporting suspected errors
 1. Registering published work based on CMIP6
+1. CMIP6 organization and governance
 
 
 ###### Document version: 7 August 2018
