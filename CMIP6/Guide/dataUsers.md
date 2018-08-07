@@ -3,7 +3,7 @@ layout: default
 title: CMIP6 Guidance for Data Users
 ---
 
-# CMIP6 Participation Guidance for Data Users
+# CMIP6 Guidance for Data Users
 ##### [Link back to guide homepage][guide]
 ##### Karl E. Taylor, Paul J. Durack, Sasha Ames, Martina Stockhause, ...
 
