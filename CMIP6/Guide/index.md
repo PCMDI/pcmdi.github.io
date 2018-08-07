@@ -35,7 +35,7 @@ Here are links to the parts of the guide.
 1. Software supporting publication/replication
 
 
-### [For Users of CMIP6 model output][dataUsers] (in preparation):
+### [For Users of CMIP6 model output][dataUsers]:
 
 1. Experiment design
 1. Model output specifications
