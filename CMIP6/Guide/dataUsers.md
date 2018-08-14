@@ -80,6 +80,9 @@ The [controlled vocabularies][cmip6Cvs] contain basic information about the [mod
 
 ## 6. Reporting suspected errors
 Error information is captured by the [ES-DOCs Errata Service][ES-DOCErrataService], and will provide the ability to subset reported errors by experiment, model, institution etc. Further guidance will be forthcoming, in particular how a user can report issues with any particular dataset.
+* **[Command Line Client][errataCLC]**: Data managers can register new errata information through the ES-DOC errata command line client, available for download through pip and github.
+* **[Errata-forms][errataForms]**: Another, easier, more user-friendly way of interacting with the ES-DOC errata service.
+* **[PID search][errataPID]**: Each dataset and file's errata information are registered within their specific handles, a search interface provided on the errata front page can be used to retrace the entire dataset/file history with the declared errata for each version linked. 
 
 ## 7. Registering published work based on CMIP6
 Please register on the [CMIP6 publication database][CMIP6pubs] any articles you publish that make use of CMIP6 output.  Further guidance will be forthcoming.
@@ -128,6 +131,9 @@ Information is under preparation describing the governance of the following:
 [es-docsEnsemblesSimulations]: https://es-doc.org/cmip6-ensembles-simulations
 [es-docsPerformance]: https://es-doc.org/cmip6-performance
 [es-docsCmip6]: https://es-doc.org/cmip6
+[errataCLC]: https://github.com/ES-DOC/esdoc-errata-client
+[errataForms]: https://errata.es-doc.org/static/index.html
+[errataPID]: https://errata.es-doc.org/static/pid.html
 [wgcmSite]: https://www.wcrp-climate.org/wgcm-overview
 [wgcmCmip6]: https://www.wcrp-climate.org/wgcm-cmip/wgcm-cmip6
 [wipCog]: https://www.earthsystemcog.org/projects/wip
