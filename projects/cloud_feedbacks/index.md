@@ -41,6 +41,7 @@ This Cloud Feedback project is supported by the Regional and Global Climate Mode
 * [Mark Zelinka](https://markdzelinka.wordpress.com/)
 * [Yunyan Zhang](https://pls.llnl.gov/people/staff-bios/aeed/zhang-y)
 * [Xin Qu](http://www.atmos.ucla.edu/csrl/) (UCLA) 
+* [Tim Myers]
 
 **Former Participants:**
 
