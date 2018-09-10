@@ -239,7 +239,16 @@ coordinate check that the range is correct)
 Additional codes useful in preparing model output for CMIP6 include:
 
 * Code to create regridding weights: not yet available
-* Code to calculate nominal_resolution: not yet available
+* Code to calculate nominal_resolution: For the common case of a regular spherical coordinate 
+(latitude x longitude) global grid, the nominal_resolution can be calculated using a formula 
+given in Appendix 2 of the [CMIP6 netCDF global attributes document][cmip6GlobalAttGoogleDoc].  For 
+other grids, the nominal_resolution can be calculated with the following code:
+
+  * Code documentation: https://pcmdi.github.io/nominal_resolution/html/index.html. 
+  * The code can be obtained via a conda package: ``conda install -c pcmdi nominal_resolution``  
+  * The package repository is hosted on Github at: https://github.com/pcmdi/nominal_resolution  
+    * The library source (api.py) is in the lib directory.  
+    * The test codes reside in the tests directory.  
 
 ## 7. Archiving/publishing output
 The Earth System Grid Federation ([ESGF][ESGFLlnlHome]) will facilitate the global
