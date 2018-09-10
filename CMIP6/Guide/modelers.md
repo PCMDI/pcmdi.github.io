@@ -247,7 +247,7 @@ other grids, the nominal_resolution can be calculated with the following code:
   * Code documentation: [https://pcmdi.github.io/nominal_resolution/html/index.html][nominal_resol_doc]. 
   * The code can be obtained via a conda package: ``conda install -c pcmdi nominal_resolution``  
   * The package repository is hosted on Github at: [https://github.com/pcmdi/nominal_resolution][nominal_resol_git]
-  * The library source (api.py) is in the [lib directory][nominal_resol_lib].  
+    * The library source (api.py) is in the [lib directory][nominal_resol_lib].  
     * The test codes reside in the [tests directory][nominal_resol_tests].  
 
 ## 7. Archiving/publishing output
