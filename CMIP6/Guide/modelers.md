@@ -244,11 +244,11 @@ Additional codes useful in preparing model output for CMIP6 include:
 given in Appendix 2 of the [CMIP6 netCDF global attributes document][cmip6GlobalAttGoogleDoc].  For 
 other grids, the nominal_resolution can be calculated with the following code:
 
-  * Code documentation: https://pcmdi.github.io/nominal_resolution/html/index.html. 
+  * Code documentation: [https://pcmdi.github.io/nominal_resolution/html/index.html][nominal_resol_doc]. 
   * The code can be obtained via a conda package: ``conda install -c pcmdi nominal_resolution``  
-  * The package repository is hosted on Github at: https://github.com/pcmdi/nominal_resolution  
-    * The library source (api.py) is in the lib directory.  
-    * The test codes reside in the tests directory.  
+  * The package repository is hosted on Github at: [https://github.com/pcmdi/nominal_resolution][nominal_resol_git]
+  * The library source (api.py) is in the [lib directory][nominal_resol_lib].  
+    * The test codes reside in the [tests directory][nominal_resol_tests].  
 
 ## 7. Archiving/publishing output
 The Earth System Grid Federation ([ESGF][ESGFLlnlHome]) will facilitate the global
@@ -430,3 +430,7 @@ Information is under preparation describing the governance of the following:
 [cdnotGoogleDoc]: https://docs.google.com/document/d/1oRWqxtWWEfsucTVhk0G3bMqHC0BL4dJwADrOG8Ukj-g
 [obs4mipsCog]: https://www.earthsystemcog.org/projects/obs4mips/
 [CMIP6Citation]: http://cmip6cite.wdc-climate.de
+[nominal_resol_doc]: https://pcmdi.github.io/nominal_resolution/html/index.html
+[nominal_resol_git]: https://github.com/pcmdi/nominal_resolution
+[nominal_resol_lib]: https://github.com/pcmdi/nominal_resolution/blob/master/lib
+[nominal_resol_tests]: https://github.com/pcmdi/nominal_resolution/blob/master/tests
