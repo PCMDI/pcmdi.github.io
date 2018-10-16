@@ -70,15 +70,13 @@ model documentation should be provided as early as possible):
  sections [5](#5-model-output-requirements), [6](#6-software-for-preparingchecking-output),
  and [7](#7-archivingpublishing-output) below)
 
-* Correct published data when errors are discovered. This should be performed using the -now in production- errata 
-service. When an error is discovered by any party of the ESGF community, the data managers can use one of the clients
-put at their disposal to clearly and concisely depict the issue and through the PID integration, include all the 
-datasets/files affected.
-    * **[Command Line Client][errataCLC]**: Data managers can register new errata information through the ES-DOC errata 
-    command line client, available for download through pip and github.
-    * **[Errata-forms][errataForms]**: Another, easier, more user-friendly way of interacting with the ES-DOC errata service.
-    * **[Errata Clients Documentation][errataDocumentation]**: This is the documentation hub where all answers about how to 
-    interact with the errata server lie. 
+* Correct published data when errors are discovered. This should be performed using the **[ES-DOC Errata Service][ErrataService]**.
+When an error is discovered by any party of the ESGF community, the data managers can use **[the webforms][errataForms]**
+put at their disposal to clearly and concisely depict the issue. Through the PID integration, the errata service 
+includes all the datasets/files affected when listed properly.
+Data managers can aslo register errata using the **[ES-DOC Errata Command Line Client][errataCLC]** if they wish to do 
+so.
+Further information about the service is available in the **[Errata Clients Documentation][errataDocumentation]**.
 
 ## 2. Experiment design
 The CMIP6 protocol and experiments are described in a [special issue][GMDSpecialIssue]
@@ -429,5 +427,6 @@ Information is under preparation describing the governance of the following:
 [obs4mipsCog]: https://www.earthsystemcog.org/projects/obs4mips/
 [CMIP6Citation]: http://cmip6cite.wdc-climate.de
 [errataCLC]: https://github.com/ES-DOC/esdoc-errata-client
-[errataForms]: https://errata.es-doc.org/static/index.html
+[errataForms]: https://errata.es-doc.org/
 [errataDocumentation]: https://es-doc.github.io/esdoc-errata-client/
+[ErrataService]: https://errata.es-doc.org/
