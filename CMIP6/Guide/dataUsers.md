@@ -79,7 +79,7 @@ The [controlled vocabularies][cmip6Cvs] contain basic information about the [mod
 * **[Computer hardware performance][es-docsPerformance]**: Information will also be provided by ES-DOC on the hardware used in running simulations (e.g. the number of cores) and also metrics describing the performance of each simulation on its machine (e.g. the number of simulated years per real day, etc.)
 
 ## 6. Reporting suspected errors
-Error information is captured by the [ES-DOCs Errata Service][ES-DOCErrataService], and will provide the ability to subset reported errors by experiment, model, institution etc. Further guidance will be forthcoming, in particular how a user can report issues with any particular dataset.
+Error information is captured by the [ES-DOCs Errata Service][ES-DOCErrataService], and will provide the ability to subset reported errors by experiment, model, institution etc.
 * **[Command Line Client][errataCLC]**: Data managers can register new errata information through the ES-DOC errata command line client, available for download through pip and github.
 * **[Errata-forms][errataForms]**: Another, easier, more user-friendly way of interacting with the ES-DOC errata service.
 * **[PID search][errataPID]**: Each dataset and file's errata information are registered within their specific handles, a search interface provided on the errata front page can be used to retrace the entire dataset/file history with the declared errata for each version linked. 

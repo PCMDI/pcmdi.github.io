@@ -70,8 +70,15 @@ model documentation should be provided as early as possible):
  sections [5](#5-model-output-requirements), [6](#6-software-for-preparingchecking-output),
  and [7](#7-archivingpublishing-output) below)
 
-* Correct published data when errors are discovered... *[information forthcoming -
- this will be linked to ES-DOCS errata services]*
+* Correct published data when errors are discovered. This should be performed using the -now in production- errata 
+service. When an error is discovered by any party of the ESGF community, the data managers can use one of the clients
+put at their disposal to clearly and concisely depict the issue and through the PID integration, include all the 
+datasets/files affected.
+* **[Command Line Client][errataCLC]**: Data managers can register new errata information through the ES-DOC errata 
+command line client, available for download through pip and github.
+* **[Errata-forms][errataForms]**: Another, easier, more user-friendly way of interacting with the ES-DOC errata service.
+* **[Errata Clients Documentation][errataDocumentation]**: This is the documentation hub where all answers about how to 
+interact with the errata server lie. 
 
 ## 2. Experiment design
 The CMIP6 protocol and experiments are described in a [special issue][GMDSpecialIssue]
@@ -421,3 +428,6 @@ Information is under preparation describing the governance of the following:
 [cdnotGoogleDoc]: https://docs.google.com/document/d/1oRWqxtWWEfsucTVhk0G3bMqHC0BL4dJwADrOG8Ukj-g
 [obs4mipsCog]: https://www.earthsystemcog.org/projects/obs4mips/
 [CMIP6Citation]: http://cmip6cite.wdc-climate.de
+[errataCLC]: https://github.com/ES-DOC/esdoc-errata-client
+[errataForms]: https://errata.es-doc.org/static/index.html
+[errataDocumentation]: https://es-doc.github.io/esdoc-errata-client/
