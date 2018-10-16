@@ -74,11 +74,11 @@ model documentation should be provided as early as possible):
 service. When an error is discovered by any party of the ESGF community, the data managers can use one of the clients
 put at their disposal to clearly and concisely depict the issue and through the PID integration, include all the 
 datasets/files affected.
-* **[Command Line Client][errataCLC]**: Data managers can register new errata information through the ES-DOC errata 
-command line client, available for download through pip and github.
-* **[Errata-forms][errataForms]**: Another, easier, more user-friendly way of interacting with the ES-DOC errata service.
-* **[Errata Clients Documentation][errataDocumentation]**: This is the documentation hub where all answers about how to 
-interact with the errata server lie. 
+    * **[Command Line Client][errataCLC]**: Data managers can register new errata information through the ES-DOC errata 
+    command line client, available for download through pip and github.
+    * **[Errata-forms][errataForms]**: Another, easier, more user-friendly way of interacting with the ES-DOC errata service.
+    * **[Errata Clients Documentation][errataDocumentation]**: This is the documentation hub where all answers about how to 
+    interact with the errata server lie. 
 
 ## 2. Experiment design
 The CMIP6 protocol and experiments are described in a [special issue][GMDSpecialIssue]
