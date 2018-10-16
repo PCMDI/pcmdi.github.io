@@ -71,7 +71,7 @@ model documentation should be provided as early as possible):
  and [7](#7-archivingpublishing-output) below)
 
 * Correct published data when errors are discovered. This should be performed using the **[ES-DOC Errata Service][ErrataService]**.
-When an error is discovered by any party of the ESGF community, the data managers can use **[the webforms][errataForms]**
+When an error is discovered by any party of the ESGF community, the data managers can use **[the webforms][errataFormsCreate]**
 put at their disposal to clearly and concisely depict the issue. Through the PID integration, the errata service 
 includes all the datasets/files affected when listed properly.
 Data managers can aslo register errata using the **[ES-DOC Errata Command Line Client][errataCLC]** if they wish to do 
@@ -426,7 +426,7 @@ Information is under preparation describing the governance of the following:
 [cdnotGoogleDoc]: https://docs.google.com/document/d/1oRWqxtWWEfsucTVhk0G3bMqHC0BL4dJwADrOG8Ukj-g
 [obs4mipsCog]: https://www.earthsystemcog.org/projects/obs4mips/
 [CMIP6Citation]: http://cmip6cite.wdc-climate.de
-[errataCLC]: https://github.com/ES-DOC/esdoc-errata-client
-[errataForms]: https://errata.es-doc.org/
+[errataCLC]: https://es-doc.github.io/esdoc-errata-client/client.html
+[errataFormsCreate]: https://es-doc.github.io/esdoc-errata-client/create.html
 [errataDocumentation]: https://es-doc.github.io/esdoc-errata-client/
 [ErrataService]: https://errata.es-doc.org/

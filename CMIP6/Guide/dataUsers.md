@@ -79,11 +79,17 @@ The [controlled vocabularies][cmip6Cvs] contain basic information about the [mod
 * **[Computer hardware performance][es-docsPerformance]**: Information will also be provided by ES-DOC on the hardware used in running simulations (e.g. the number of cores) and also metrics describing the performance of each simulation on its machine (e.g. the number of simulated years per real day, etc.)
 
 ## 6. Reporting suspected errors
-Error information is captured by the [ES-DOCs Errata Service][ES-DOCErrataService], and will provide the ability to subset reported errors by experiment, model, institution etc.
-* **[Command Line Client][errataCLC]**: Data managers can register new errata information through the ES-DOC errata command line client, available for download through pip and github.
-* **[Errata-forms][errataForms]**: Another, easier, more user-friendly way of interacting with the ES-DOC errata service.
-* **[PID search][errataPID]**: Each dataset and file's errata information are registered within their specific handles, a search interface provided on the errata front page can be used to retrace the entire dataset/file history with the declared errata for each version linked. 
+Timely information about discovered issues of ESGF data is captured by the [ES-DOCs Errata Service][ES-DOCErrataService].
+The Errata Service provides the ability to query about modifications and/or corrections applied to their data in two ways:
+* A  **[user friendly filtered list of ESGF known issues][errataSearchUIDoc]**. 
+* A  **[search interface that helps retrace a specific dataset/file version history][errataPIDLookupDoc]**.
 
+Any ESGF users can report an error to the appropriate modeling group (see "contact" attribute in the netCDF files), or 
+through the [ESGF user mailing list <esgf-user@lists.llnl.gov>].
+From that point, the corresponding data managers can create new errata information using 
+[an easy and user-friendly form][errataFormCreateDoc]. 
+A [command line client][errataCLCDoc] is also put at their disposal to clearly and concisely depict the issue and 
+through the PID integration, include all the datasets/files affected.
 ## 7. Registering published work based on CMIP6
 Please register on the [CMIP6 publication database][CMIP6pubs] any articles you publish that make use of CMIP6 output.  Further guidance will be forthcoming.
 
@@ -134,6 +140,10 @@ Information is under preparation describing the governance of the following:
 [errataCLC]: https://github.com/ES-DOC/esdoc-errata-client
 [errataForms]: https://errata.es-doc.org/static/index.html
 [errataPID]: https://errata.es-doc.org/static/pid.html
+[errataSearchUIDoc]: https://es-doc.github.io/esdoc-errata-client/searchUI.html
+[errataPIDLookupDoc]: https://es-doc.github.io/esdoc-errata-client/lookup.html
+[errataFormCreateDoc]: https://es-doc.github.io/esdoc-errata-client/create.html
+[errataCLCDoc]: https://es-doc.github.io/esdoc-errata-client/client.html
 [wgcmSite]: https://www.wcrp-climate.org/wgcm-overview
 [wgcmCmip6]: https://www.wcrp-climate.org/wgcm-cmip/wgcm-cmip6
 [wipCog]: https://www.earthsystemcog.org/projects/wip
