@@ -79,7 +79,13 @@ The [controlled vocabularies][cmip6Cvs] contain basic information about the [mod
 * **[Computer hardware performance][es-docsPerformance]**: Information will also be provided by ES-DOC on the hardware used in running simulations (e.g. the number of cores) and also metrics describing the performance of each simulation on its machine (e.g. the number of simulated years per real day, etc.)
 
 ## 6. Reporting suspected errors
-Error information is captured by the [ES-DOCs Errata Service][ES-DOCErrataService], and will provide the ability to subset reported errors by experiment, model, institution etc. Further guidance will be forthcoming, in particular how a user can report issues with any particular dataset.
+Information about discovered issues of CMIP6 data is captured by the [ES-DOCs Errata Service][ES-DOCErrataService].
+The Errata Service provides the ability to query modifications and/or corrections applied to CMIP6 data in two ways:
+* A  **[user friendly filtered list of ESGF known issues][errataSearchUIDoc]**. 
+* A  **[search interface that helps retrace a specific dataset/file version history][errataPIDLookupDoc]**.
+
+Any ESGF user can report an error to the appropriate modeling group (see "contact" attribute in the netCDF files), or through the [ESGF user mailing list][ESGFUsersList]. After a report is received, the corresponding data manager can create a new errata entry using 
+[an easy and user-friendly form][errataFormCreateDoc]. A [command line client][errataCLCDoc] is also available. The aim is to clearly and concisely document the issue and through the PID integration, this errata service will include all the datasets/files affected when documentation is completed correctly.
 
 ## 7. Registering published work based on CMIP6
 Please register on the [CMIP6 publication database][CMIP6pubs] any articles you publish that make use of CMIP6 output.  Further guidance will be forthcoming.
@@ -102,7 +108,7 @@ Information is under preparation describing the governance of the following:
 * [input4MIPs][input4mipsHome]
 * [obs4MIPs][obs4mipsCog]
 
-###### Document version: 7 August 2018
+###### Document version: 17 October 2018
 
 [guide]: index.html
 [institutionIdHtml]: http://rawgit.com/WCRP-CMIP/CMIP6_CVs/master/src/CMIP6_institution_id.html
@@ -128,6 +134,14 @@ Information is under preparation describing the governance of the following:
 [es-docsEnsemblesSimulations]: https://es-doc.org/cmip6-ensembles-simulations
 [es-docsPerformance]: https://es-doc.org/cmip6-performance
 [es-docsCmip6]: https://es-doc.org/cmip6
+[errataCLC]: https://github.com/ES-DOC/esdoc-errata-client
+[errataForms]: https://errata.es-doc.org/static/index.html
+[errataPID]: https://errata.es-doc.org/static/pid.html
+[errataSearchUIDoc]: https://es-doc.github.io/esdoc-errata-client/searchUI.html
+[errataPIDLookupDoc]: https://es-doc.github.io/esdoc-errata-client/lookup.html
+[errataFormCreateDoc]: https://es-doc.github.io/esdoc-errata-client/create.html
+[errataCLCDoc]: https://es-doc.github.io/esdoc-errata-client/client.html
+[ESGFUsersList]: esgf-user@lists.llnl.gov
 [wgcmSite]: https://www.wcrp-climate.org/wgcm-overview
 [wgcmCmip6]: https://www.wcrp-climate.org/wgcm-cmip/wgcm-cmip6
 [wipCog]: https://www.earthsystemcog.org/projects/wip
