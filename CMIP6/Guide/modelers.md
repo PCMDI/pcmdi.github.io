@@ -76,7 +76,7 @@ put at their disposal to clearly and concisely depict the issue. Through the PID
 includes all the datasets/files affected when listed properly.
 Data managers can aslo register errata using the **[ES-DOC Errata Command Line Client][errataCLC]** if they wish to do 
 so.
-Further information about the service is available in the **[Errata Clients Documentation][errataDocumentation]**.
+Further information about the service is available in the **[Errata Service Documentation][errataDocumentation]**.
 
 ## 2. Experiment design
 The CMIP6 protocol and experiments are described in a [special issue][GMDSpecialIssue]

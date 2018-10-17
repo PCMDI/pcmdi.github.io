@@ -85,7 +85,7 @@ The Errata Service provides the ability to query about modifications and/or corr
 * A  **[search interface that helps retrace a specific dataset/file version history][errataPIDLookupDoc]**.
 
 Any ESGF users can report an error to the appropriate modeling group (see "contact" attribute in the netCDF files), or 
-through the [ESGF user mailing list <esgf-user@lists.llnl.gov>].
+through the [ESGF user mailing list][ESGFUsersList].
 From that point, the corresponding data managers can create new errata information using 
 [an easy and user-friendly form][errataFormCreateDoc]. 
 A [command line client][errataCLCDoc] is also put at their disposal to clearly and concisely depict the issue and 
@@ -144,6 +144,7 @@ Information is under preparation describing the governance of the following:
 [errataPIDLookupDoc]: https://es-doc.github.io/esdoc-errata-client/lookup.html
 [errataFormCreateDoc]: https://es-doc.github.io/esdoc-errata-client/create.html
 [errataCLCDoc]: https://es-doc.github.io/esdoc-errata-client/client.html
+[ESGFUsersList]: esgf-user@lists.llnl.gov
 [wgcmSite]: https://www.wcrp-climate.org/wgcm-overview
 [wgcmCmip6]: https://www.wcrp-climate.org/wgcm-cmip/wgcm-cmip6
 [wipCog]: https://www.earthsystemcog.org/projects/wip
