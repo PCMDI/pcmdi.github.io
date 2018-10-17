@@ -70,8 +70,15 @@ model documentation should be provided as early as possible):
  sections [5](#5-model-output-requirements), [6](#6-software-for-preparingchecking-output),
  and [7](#7-archivingpublishing-output) below)
 
-* Correct published data when errors are discovered... *[information forthcoming -
- this will be linked to ES-DOCS errata services]*
+* Correct published data when errors are discovered. This should be performed using the **[ES-DOC Errata Service][ErrataService]**.
+When an error is discovered, an ESGF data manager can use **[the webforms][errataFormsCreate]** to 
+clearly and concisely document the issue. Through the PID integration, this errata service will
+include all the datasets/files affected when documentation is completed correctly.
+
+Data managers can aslo register errata using the **[ES-DOC Errata Command Line Client][errataCLC]**
+if they wish to do so.
+
+Further information about the service is available in the **[Errata Service Documentation][errataDocumentation]**.
 
 ## 2. Experiment design
 The CMIP6 protocol and experiments are described in a [special issue][GMDSpecialIssue]
@@ -241,8 +248,8 @@ Additional codes useful in preparing model output for CMIP6 include:
 * Code to create regridding weights: not yet available
 * Code to calculate nominal_resolution: For the common case of a regular spherical coordinate 
 (latitude x longitude) global grid, the nominal_resolution can be calculated using a formula 
-given in Appendix 2 of the [CMIP6 netCDF global attributes document][cmip6GlobalAttGoogleDoc].  For 
-other grids, the nominal_resolution can be calculated with the following code:
+given in Appendix 2 of the [CMIP6 netCDF global attributes document][cmip6GlobalAttGoogleDoc].
+For other grids, the nominal_resolution can be calculated with the following code:
 
   * Code documentation: [https://pcmdi.github.io/nominal_resolution/html/index.html][nominal_resol_doc]. 
   * The code can be obtained via a conda package: ``conda install -c pcmdi nominal_resolution``  
@@ -377,7 +384,7 @@ Information is under preparation describing the governance of the following:
 * [obs4MIPs][obs4mipsCog]
 
 
-###### Document version: 13 September 2017
+###### Document version: 17 October 2018
 
 [guide]: index.html
 [cmip6CvsRegistrationGuidance]: https://github.com/WCRP-CMIP/CMIP6_CVs/blob/master/.github/ISSUE_TEMPLATE.md
@@ -434,3 +441,7 @@ Information is under preparation describing the governance of the following:
 [nominal_resol_git]: https://github.com/pcmdi/nominal_resolution
 [nominal_resol_lib]: https://github.com/pcmdi/nominal_resolution/blob/master/lib
 [nominal_resol_tests]: https://github.com/pcmdi/nominal_resolution/blob/master/tests
+[errataCLC]: https://es-doc.github.io/esdoc-errata-client/client.html
+[errataFormsCreate]: https://es-doc.github.io/esdoc-errata-client/create.html
+[errataDocumentation]: https://es-doc.github.io/esdoc-errata-client/
+[ErrataService]: https://errata.es-doc.org/
