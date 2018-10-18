@@ -32,7 +32,8 @@ model documentation should be provided as early as possible):
 
 * Request an account and then register contact information for person(s) responsible
  for entering and maintaining CMIP6 model output citation information in the [citation GUI][dkrzCitationGUI]
- [(Documentation of GUI)][dkrzCitationGUIDoc]. This information will be used by
+ [(Documentation of GUI)][dkrzCitationGUIDoc]. ***This data references should be provided before the data is 
+ published in the ESGF.*** Data references will be used by
  web-based services being developed and maintained at DKRZ to ensure that data
  produced by your center is properly cited. Data users will be able to access citation
  information by: 1) following the URL stored as a global attribute (*further_info_url*)
@@ -300,7 +301,7 @@ node site. Here is a summary of the main steps and requirements in the procedure
  *[DKRZ][ESGFDkrzHome]*, *[IPSL][ESGFIpslHome]*, *[CEDA][ESGFCedaHome]*, and others
 * **Data long-term archival**: A “snapshot” of CMIP6 data as it exists at the time
  of a deadline imposed by the IPCC’s 6th Assessment Report (IPCC-AR6) will be archived
- at the IPCC Data Distribution Centre (IPCC DDC, [http://ipcc-data.org](http://ipcc-data.org)
+ at the IPCC Data Distribution Centre (IPCC DDC, [http://ipcc-data.org](http://ipcc-data.org))
 
 ## 8. Documentation process
 Given the wide variety of users and the need for traceability, the CMIP6 results
