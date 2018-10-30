@@ -337,6 +337,8 @@ Zelinka, M. D., S. A. Klein, and D. L. Hartmann, 2012b: <a href="http://climatem
 
 <ul>
 
+<li>Bonfils, C., G. Anderson, B. D. Santer, T. J. Phillips, K. Taylor, M. Cuntz, M. D. Zelinka, K. Marvel, B. I. Cook, I. Cvijanovic, and P. Durack, 2017: Competing influences of anthropogenic warming, ENSO, and plant physiology on future terrestrial aridity, <em>J. Climate</em>, 30, 6883-6904, doi:<a href="http://journals.ametsoc.org/doi/abs/10.1175/JCLI-D-17-0005.1" rel="nofollow" target="_blank">10.1175/JCLI-D-17-0005.1</a>.</li>
+
 <li>Ceppi, P., F. Brient, M. D. Zelinka, and D. L. Hartmann, 2017: Cloud feedback mechanisms and their representation in global climate models. <em>WIREs Climate Change</em>, <strong>e465</strong>, doi:<a href="http://onlinelibrary.wiley.com/doi/10.1002/wcc.465/full" rel="nofollow" target="_blank">10.1002/wcc.465</a>.</li>
 
 <li>Klein, S. A., A. Hall, J. R. Norris, and R. Pincus, 2017: Low-Cloud Feedbacks from Cloud Controlling Factors: A Review. <em>Surv. Geophys.</em>, 38, 1307–1329, doi:<a href="https://link.springer.com/article/10.1007/s10712-017-9433-3" rel="nofollow" target="_blank">10.1007/s10712-017-9433-3</a>.</li>
@@ -365,6 +367,8 @@ Zelinka, M. D., S. A. Klein, and D. L. Hartmann, 2012b: <a href="http://climatem
 <li>Danco, J. F., A. M. DeAngelis, B. K. Raney, and A. J. Broccoli, 2016: Effects of a Warming Climate on Daily Snowfall Events in the Northern Hemisphere. <em>J. Climate,</em> <strong>29</strong>, 6295-6318, doi:<a href="http://dx.doi.org/10.1175/JCLI-D-15-0687.1" rel="nofollow" target="_blank">10.1175/JCLI-D-15-0687.1</a>.</li>
 
 <li>DeAngelis, A., X. Qu, M. D. Zelinka, and A. Hall, 2016: Corrigendum: An observational radiative constraint on hydrologic cycle intensification. <em>Nature</em>, doi:<a href="http://dx.doi.org/10.1038/nature17621" rel="nofollow" target="_blank">10.1038/nature17621</a>.</li>
+
+<li>DeAngelis A., X. Qu, and A. Hall, 2016: Importance of vegetation processes for model spread in the fast precipitation response to CO2 forcing. <em>Geophysical Research Letters</em>, 43, 12550-12559. doi:<a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2016GL071392" rel="nofollow" target="_blank">10.1002/2016GL071392</a>.</li>
 
 <li>Norris, J. R., R. J. Allen, A. T. Evan, M. D. Zelinka, C. W. O&rsquo;Dell, and S. A. Klein, 2016: Evidence for climate change in the satellite cloud record. <em>Nature,</em> <strong>536</strong>, 72-75, doi:<a href="http://dx.doi.org/10.1038/nature18273" rel="nofollow" target="_blank">10.1038/nature18273</a>.</li>
 
