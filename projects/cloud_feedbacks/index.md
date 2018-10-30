@@ -34,21 +34,22 @@ This Cloud Feedback project is supported by the Regional and Global Climate Mode
 
 ### Project Participants
 
-* Stephen A. Klein (Principal Investigator) 
-* [Karl Taylor]({{site.baseurl}}/staff/taylor/index.html) (co-Investigator)
+* [Stephen A. Klein](https://pls.llnl.gov/people/staff-bios/aeed/klein-s) (Principal Investigator) 
+* [Karl Taylor](https://pcmdi.llnl.gov/staff/taylor/karlcv.html) (co-Investigator)
 * [Alex Hall](http://www.atmos.ucla.edu/csrl/) (co-Investigator, UCLA) 
-* [Peter Caldwell]({{site.baseurl}}/staff/caldwell/index.html)
+* [Peter Caldwell](https://pcmdi.llnl.gov/staff/caldwell/index.html)
+* [Timothy Myers](https://sites.google.com/site/myerstimothy/)
+* [Xin Qu](http://www.atmos.ucla.edu/csrl/) (UCLA) 
 * [Mark Zelinka](https://markdzelinka.wordpress.com/)
 * [Yunyan Zhang](https://pls.llnl.gov/people/staff-bios/aeed/zhang-y)
-* [Anthony DeAngelis](http://www.atmos.ucla.edu/csrl/) (UCLA)
-* [Xin Qu](http://www.atmos.ucla.edu/csrl/) (UCLA) 
 
 **Former Participants:**
 
-* [Florent Brient](http://www.lmd.jussieu.fr/~fbrlmd/test_index_flo.html) (ETH Zurich)
+* [Florent Brient](https://climate-dynamics.org/people/florent-brient/) (Meteo-France)
+* [Anthony DeAngelis](https://scholar.google.com/citations?user=pzDevCsAAAAJ&hl=en) (NASA Goddard, GMAO)
 * Neil Gordon (Space and Naval Warfare Systems Command) 
 * [Christopher Terai](https://sites.google.com/site/christeraiatmos/) (UC Irvine)
-* [Chen Zhou](https://pls.llnl.gov/people/staff-bios/aeed/zhou-c)
+* [Chen Zhou](https://scholar.google.com/citations?user=Ot_6YukAAAAJ&hl=en) (Nanjing University)
 
 ---
 
