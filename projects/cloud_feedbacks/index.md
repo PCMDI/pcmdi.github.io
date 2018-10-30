@@ -327,6 +327,8 @@ Zelinka, M. D., S. A. Klein, and D. L. Hartmann, 2012b: <a href="http://climatem
 
 <li>Santer, B. D., et al including M. D. Zelinka, 2018: Human influence on the seasonal cycle of tropospheric temperature, <em>Science</em>, 361, eaas8806, doi:<a href="http://science.sciencemag.org/content/361/6399/eaas8806" rel="nofollow" target="_blank">10.1126/science.aas8806</a>.</li>
 
+<li>Thackeray, C. W., X. Qu, and A. Hall, 2018: Why do models produce spread in snow albedo feedback? <em>Geophysical Research Letters</em>, 45(12): 6223–6231. doi:<a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2018GL078493" rel="nofollow" target="_blank">10.1029/2018GL078493</a>.</li>
+
 <li>Zelinka, M. D., K. M. Grise, S. A. Klein, C. Zhou, A. M. DeAngelis, and M. W. Christensen, 2018: Drivers of the Low Cloud Response to Poleward Jet Shifts in the North Pacific in Observations and Models, <em>J. Climate</em>, 31, 7925–7947, doi:<a href="https://journals.ametsoc.org/doi/abs/10.1175/JCLI-D-18-0114.1" rel="nofollow" target="_blank">10.1175/JCLI-D-18-0114.1</a>.</li>
 
 </ul>
