@@ -311,9 +311,6 @@ Zelinka, M. D., S. A. Klein, and D. L. Hartmann, 2012b: <a href="http://climatem
 
 ### Publications
 
-<ul>
-
-
 <!-- 2018-->
 <h4> 2018</h4>
 
@@ -332,6 +329,7 @@ Zelinka, M. D., S. A. Klein, and D. L. Hartmann, 2012b: <a href="http://climatem
 <li>Zelinka, M. D., K. M. Grise, S. A. Klein, C. Zhou, A. M. DeAngelis, and M. W. Christensen, 2018: Drivers of the Low Cloud Response to Poleward Jet Shifts in the North Pacific in Observations and Models, <em>J. Climate</em>, 31, 7925–7947, doi:<a href="https://journals.ametsoc.org/doi/abs/10.1175/JCLI-D-18-0114.1" rel="nofollow" target="_blank">10.1175/JCLI-D-18-0114.1</a>.</li>
 
 </ul>
+
 <!-- 2017-->
 <h4> 2017</h4>
 
@@ -461,7 +459,5 @@ Zelinka, M. D., S. A. Klein, and D. L. Hartmann, 2012b: <a href="http://climatem
 <li>Zelinka, M. D., S. A. Klein, and D. L. Hartmann, 2012a: Computing and partitioning cloud feedbacks using cloud property histograms. Part I: Cloud radiative kernels.<em> J. Clim.</em>,<strong> 25</strong>, 3715 - 3735, doi: <a href="http://dx.doi.org/10.1175/JCLI-D-11-00248.1" rel="nofollow" target="_blank"> 10.1175/JCLI-D-11-00248.1</a>. </li>
     
 <li>Zelinka, M. D., S. A. Klein, and D. L. Hartmann, 2012b: Computing and partitioning cloud feedbacks using cloud property histograms. Part II: Attribution to changes in cloud amount, altitude, and optical depth. <em>J. Clim.</em>, <strong>25</strong>, 3736 - 3754, doi: <a href="http://dx.doi.org/10.1175/JCLI-D-11-00249.1" rel="nofollow" target="_blank"> 10.1175/JCLI-D-11-00249.1</a>. </li>
-  
-</ul>
 
 </ul>
