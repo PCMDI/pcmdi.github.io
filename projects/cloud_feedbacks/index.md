@@ -55,7 +55,13 @@ This Cloud Feedback project is supported by the Regional and Global Climate Mode
 
 ### Research Highlights
 
+<h4> 2018</h4>
+
 <ul>
+
+<li>Zelinka, M., K. Grise, S. Klein, C. Zhou, A. DeAngelis, and M. Christensen, 2018: <a href="https://climatemodeling.science.energy.gov/research-highlights/drivers-low-cloud-responses-poleward-jet-shifts-observations-models" rel="nofollow" target="_blank">Drivers of Low Cloud Responses to Poleward Jet Shifts in Observations & Models</a></li>
+
+</ul>
 
 <!-- 2017-->
 <h4> 2017</h4>
@@ -63,6 +69,8 @@ This Cloud Feedback project is supported by the Regional and Global Climate Mode
 <ul>
 
 <li>Ceppi, P., F. Brient, M. D. Zelinka, and D. L. Hartmann, 2017: <a href="https://climatemodeling.science.energy.gov/research-highlights/review-cloud-feedbacks-climate-models" rel="nofollow" target="_blank">Review of Cloud Feedbacks in Climate Models</a></li>
+
+<li>DeAngelis, A. M., X. Qu, and A. Hall, 2017: <a href="https://climatemodeling.science.energy.gov/research-highlights/model-spread-fast-response-global-precipitation" rel="nofollow" target="_blank">Model Spread in the Fast Response of Global Precipitation</a></li>
 
 <li>Klein, S. A., A. Hall, J. R. Norris, and R. Pincus, 2017:  <a href="https://climatemodeling.science.energy.gov/research-highlights/observations-indicate-low-cloud-feedback-positive" rel="nofollow" target="_blank">Observations Indicate that the Low-Cloud Feedback is Positive</a></li>
 
