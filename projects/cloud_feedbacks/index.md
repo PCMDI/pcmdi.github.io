@@ -319,15 +319,15 @@ Zelinka, M. D., S. A. Klein, and D. L. Hartmann, 2012b: <a href="http://climatem
 
 <ul>
 
-<li>Caldwell, P. M., M. D. Zelinka, and S. A. Klein, 2018: Evaluating Emergent Constraints on Equilibrium Climate Sensitivity, <em>J. Climate</em>, 31, 3921-3942, doi:<a href="https://journals.ametsoc.org/doi/abs/10.1175/JCLI-D-17-0631.1" rel="nofollow" target="_blank">10.1175/JCLI-D-17-0631.1.</li>
+<li>Caldwell, P. M., M. D. Zelinka, and S. A. Klein, 2018: Evaluating Emergent Constraints on Equilibrium Climate Sensitivity, <em>J. Climate</em>, 31, 3921-3942, doi:<a href="https://journals.ametsoc.org/doi/abs/10.1175/JCLI-D-17-0631.1" rel="nofollow" target="_blank">10.1175/JCLI-D-17-0631.1</a>.</li>
 
-<li>Po-Chedley, S., K. C. Armour, C. M. Bitz, M. D. Zelinka, B. D Santer, and Q. Fu, 2018: Sources of intermodel spread in the lapse rate and water vapor feedbacks, <em>J. Climate</em>, 31, 3187–3206, doi:<a href="http://journals.ametsoc.org/doi/abs/10.1175/JCLI-D-17-0674.1" rel="nofollow" target="_blank">10.1175/JCLI-D-17-0674.1.</li>
+<li>Po-Chedley, S., K. C. Armour, C. M. Bitz, M. D. Zelinka, B. D Santer, and Q. Fu, 2018: Sources of intermodel spread in the lapse rate and water vapor feedbacks, <em>J. Climate</em>, 31, 3187–3206, doi:<a href="http://journals.ametsoc.org/doi/abs/10.1175/JCLI-D-17-0674.1" rel="nofollow" target="_blank">10.1175/JCLI-D-17-0674.1</a>.</li>
 
-<li>Qu, X., A. Hall, A. M. DeAngelis, M. D. Zelinka, S. A. Klein, H. Su, B. Tian, and C. Zhai, 2018: On the emergent constraints of climate sensitivity, <em>J. Climate</em>, 31, 863–875, doi:<a href="http://journals.ametsoc.org/doi/abs/10.1175/JCLI-D-17-0482.1" rel="nofollow" target="_blank">10.1175/JCLI-D-17-0482.1.</li>
+<li>Qu, X., A. Hall, A. M. DeAngelis, M. D. Zelinka, S. A. Klein, H. Su, B. Tian, and C. Zhai, 2018: On the emergent constraints of climate sensitivity, <em>J. Climate</em>, 31, 863–875, doi:<a href="http://journals.ametsoc.org/doi/abs/10.1175/JCLI-D-17-0482.1" rel="nofollow" target="_blank">10.1175/JCLI-D-17-0482.1</a>.</li>
 
-<li>Santer, B. D., et al including M. D. Zelinka, 2018: Human influence on the seasonal cycle of tropospheric temperature, <em>Science</em>, 361, eaas8806, doi:<a href="http://science.sciencemag.org/content/361/6399/eaas8806" rel="nofollow" target="_blank">10.1126/science.aas8806.</li>
+<li>Santer, B. D., et al including M. D. Zelinka, 2018: Human influence on the seasonal cycle of tropospheric temperature, <em>Science</em>, 361, eaas8806, doi:<a href="http://science.sciencemag.org/content/361/6399/eaas8806" rel="nofollow" target="_blank">10.1126/science.aas8806</a>.</li>
 
-<li>Zelinka, M. D., K. M. Grise, S. A. Klein, C. Zhou, A. M. DeAngelis, and M. W. Christensen, 2018: Drivers of the Low Cloud Response to Poleward Jet Shifts in the North Pacific in Observations and Models, <em>J. Climate</em>, 31, 7925–7947, doi:<a href="https://journals.ametsoc.org/doi/abs/10.1175/JCLI-D-18-0114.1" rel="nofollow" target="_blank">10.1175/JCLI-D-18-0114.1.</li>
+<li>Zelinka, M. D., K. M. Grise, S. A. Klein, C. Zhou, A. M. DeAngelis, and M. W. Christensen, 2018: Drivers of the Low Cloud Response to Poleward Jet Shifts in the North Pacific in Observations and Models, <em>J. Climate</em>, 31, 7925–7947, doi:<a href="https://journals.ametsoc.org/doi/abs/10.1175/JCLI-D-18-0114.1" rel="nofollow" target="_blank">10.1175/JCLI-D-18-0114.1</a>.</li>
 
 </ul>
 <!-- 2017-->
