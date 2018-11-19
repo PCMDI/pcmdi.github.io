@@ -26,6 +26,7 @@ Name | Position | E-mail | Phone Number
 [Santer, Ben][santer] | Research Scientist | santer1@llnl.gov	|
 [Sperber, Ken][sperber] | Research Scientist | sperber1@llnl.gov | (925) 422-7720
 [Williams, Dean][williams] | Computer Scientist	| williams13@llnl.gov	| (925) 423-0145
+[Xie, Shaocheng][xie] | Research Scientist	| xie2@llnl.gov	| (925) 422-6023
 {: class="table table-striped"}
 
 [taylor]: {{site.baseurl}}/staff/taylor/index.html
@@ -46,3 +47,4 @@ Name | Position | E-mail | Phone Number
 [sperber]: {{site.baseurl}}/staff/sperber/index.html
 [williams]:{{site.baseurl}}/staff/williams/index.html
 [jefferson]: {{site.baseurl}}/staff/jefferson/index.html
+[xie]: {{site.baseurl}}/staff/Xie/index.html

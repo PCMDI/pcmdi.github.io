@@ -32,12 +32,13 @@ model documentation should be provided as early as possible):
 
 * Request an account and then register contact information for person(s) responsible
  for entering and maintaining CMIP6 model output citation information in the [citation GUI][dkrzCitationGUI]
- [(Documentation of GUI)][dkrzCitationGUIDoc]. This information will be used by
- web-based services being developed and maintained at DKRZ to ensure that data
- produced by your center is properly cited. Data users will be able to access citation
- information by: 1) following the URL stored as a global attribute (*further_info_url*)
- in each netCDF file, or 2) by following links to each dataset displayed by the
- ESGF search service.
+ [(Documentation of GUI)][dkrzCitationGUIDoc]. ***This data reference information should
+ be provided before the data is published in the ESGF.*** Data references that are generated
+ during the publication step will be used by web-based services being developed and maintained
+ at DKRZ to ensure that data produced by your center is properly cited. Data users will be
+ able to access citation information by: 1) following the URL stored as a global attribute
+ (*further_info_url*) in each netCDF file, or 2) by following links to each dataset
+ displayed by the ESGF search service.
 
    To request an account, provide the following to Martina Stockhause (stockhause@dkrz.de):
    * Person: name, email, ORCID (if available), affiliation and
@@ -48,7 +49,7 @@ model documentation should be provided as early as possible):
 
    As an example of information that will be recoverable through the citation service
    consider the input4MIPs data set which has been recorded at the citation service
-   at [http://cera-www.dkrz.de/WDCC/meta/CMIP6/input4MIPs.PCMDI.SSTsAndSeaIce.CMIP.PCMDI-AMIP-1-1-2][PCMDIAmipCitation].
+   at [https://doi.org/10.22033/ESGF/input4MIPs.2204][PCMDIAmipCitation].
 
 * If you are not yet included in the CMIP6-MODELGROUPS-SCI mail list, register your
  scientific contact with CMIP Panel Chair, Veronika Eyring (veronika.eyring@dlr.de)
@@ -70,8 +71,15 @@ model documentation should be provided as early as possible):
  sections [5](#5-model-output-requirements), [6](#6-software-for-preparingchecking-output),
  and [7](#7-archivingpublishing-output) below)
 
-* Correct published data when errors are discovered... *[information forthcoming -
- this will be linked to ES-DOCS errata services]*
+* Correct published data when errors are discovered. This should be performed using the **[ES-DOC Errata Service][ErrataService]**.
+When an error is discovered, an ESGF data manager can use **[the webforms][errataFormsCreate]** to 
+clearly and concisely document the issue. Through the PID integration, this errata service will
+include all the datasets/files affected when documentation is completed correctly.
+
+Data managers can aslo register errata using the **[ES-DOC Errata Command Line Client][errataCLC]**
+if they wish to do so.
+
+Further information about the service is available in the **[Errata Service Documentation][errataDocumentation]**.
 
 ## 2. Experiment design
 The CMIP6 protocol and experiments are described in a [special issue][GMDSpecialIssue]
@@ -239,7 +247,16 @@ coordinate check that the range is correct)
 Additional codes useful in preparing model output for CMIP6 include:
 
 * Code to create regridding weights: not yet available
-* Code to calculate nominal_resolution: not yet available
+* Code to calculate nominal_resolution: For the common case of a regular spherical coordinate 
+(latitude x longitude) global grid, the nominal_resolution can be calculated using a formula 
+given in Appendix 2 of the [CMIP6 netCDF global attributes document][cmip6GlobalAttGoogleDoc].
+For other grids, the nominal_resolution can be calculated with the following code:
+
+  * Code documentation: [https://pcmdi.github.io/nominal_resolution/html/index.html][nominal_resol_doc]. 
+  * The code can be obtained via a conda package: ``conda install -c pcmdi nominal_resolution``  
+  * The package repository is hosted on Github at: [https://github.com/pcmdi/nominal_resolution][nominal_resol_git]
+    * The library source (api.py) is in the [lib directory][nominal_resol_lib].  
+    * The test codes reside in the [tests directory][nominal_resol_tests].  
 
 ## 7. Archiving/publishing output
 The Earth System Grid Federation ([ESGF][ESGFLlnlHome]) will facilitate the global
@@ -284,7 +301,7 @@ node site. Here is a summary of the main steps and requirements in the procedure
  *[DKRZ][ESGFDkrzHome]*, *[IPSL][ESGFIpslHome]*, *[CEDA][ESGFCedaHome]*, and others
 * **Data long-term archival**: A “snapshot” of CMIP6 data as it exists at the time
  of a deadline imposed by the IPCC’s 6th Assessment Report (IPCC-AR6) will be archived
- at the IPCC Data Distribution Centre (IPCC DDC, [http://ipcc-data.org](http://ipcc-data.org)
+ at the IPCC Data Distribution Centre (IPCC DDC, [http://ipcc-data.org](http://ipcc-data.org))
 
 ## 8. Documentation process
 Given the wide variety of users and the need for traceability, the CMIP6 results
@@ -368,7 +385,7 @@ Information is under preparation describing the governance of the following:
 * [obs4MIPs][obs4mipsCog]
 
 
-###### Document version: 13 September 2017
+###### Document version: 17 October 2018
 
 [guide]: index.html
 [cmip6CvsRegistrationGuidance]: https://github.com/WCRP-CMIP/CMIP6_CVs/blob/master/.github/ISSUE_TEMPLATE.md
@@ -379,7 +396,7 @@ Information is under preparation describing the governance of the following:
 [sourceIdHtml]: http://rawgit.com/WCRP-CMIP/CMIP6_CVs/master/src/CMIP6_source_id.html
 [dkrzCitationGUI]: http://cera-www.dkrz.de/citeXA
 [dkrzCitationGUIDoc]: http://cera-www.dkrz.de/docs/pdf/CMIP6_Citation_Userguide.pdf
-[PCMDIAmipCitation]: http://cera-www.dkrz.de/WDCC/meta/CMIP6/input4MIPs.PCMDI.SSTsAndSeaIce.CMIP.PCMDI-AMIP-1-1-2
+[PCMDIAmipCitation]: https://doi.org/10.22033/ESGF/input4MIPs.2204
 [DKRZ]: https://www.dkrz.de/
 [cmip6Cvs]: https://github.com/WCRP-CMIP/CMIP6_CVs
 [EndorsedMipMailingList]: https://www.wcrp-climate.org/modelling-wgcm-mip-catalogue/modelling-wgcm-cmip6-endorsed-mips
@@ -421,3 +438,11 @@ Information is under preparation describing the governance of the following:
 [cdnotGoogleDoc]: https://docs.google.com/document/d/1oRWqxtWWEfsucTVhk0G3bMqHC0BL4dJwADrOG8Ukj-g
 [obs4mipsCog]: https://www.earthsystemcog.org/projects/obs4mips/
 [CMIP6Citation]: http://cmip6cite.wdc-climate.de
+[nominal_resol_doc]: https://pcmdi.github.io/nominal_resolution/html/index.html
+[nominal_resol_git]: https://github.com/pcmdi/nominal_resolution
+[nominal_resol_lib]: https://github.com/pcmdi/nominal_resolution/blob/master/lib
+[nominal_resol_tests]: https://github.com/pcmdi/nominal_resolution/blob/master/tests
+[errataCLC]: https://es-doc.github.io/esdoc-errata-client/client.html
+[errataFormsCreate]: https://es-doc.github.io/esdoc-errata-client/create.html
+[errataDocumentation]: https://es-doc.github.io/esdoc-errata-client/
+[ErrataService]: https://errata.es-doc.org/

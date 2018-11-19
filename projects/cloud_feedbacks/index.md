@@ -34,27 +34,34 @@ This Cloud Feedback project is supported by the Regional and Global Climate Mode
 
 ### Project Participants
 
-* Stephen A. Klein (Principal Investigator) 
-* [Karl Taylor]({{site.baseurl}}/staff/taylor/index.html) (co-Investigator)
+* [Stephen A. Klein](https://pls.llnl.gov/people/staff-bios/aeed/klein-s) (Principal Investigator) 
+* [Karl Taylor](https://pcmdi.llnl.gov/staff/taylor/karlcv.html) (co-Investigator)
 * [Alex Hall](http://www.atmos.ucla.edu/csrl/) (co-Investigator, UCLA) 
-* [Peter Caldwell]({{site.baseurl}}/staff/caldwell/index.html)
+* [Peter Caldwell](https://pcmdi.llnl.gov/staff/caldwell/index.html)
+* [Timothy Myers](https://sites.google.com/site/myerstimothy/)
+* [Xin Qu](http://www.atmos.ucla.edu/csrl/) (UCLA) 
 * [Mark Zelinka](https://markdzelinka.wordpress.com/)
 * [Yunyan Zhang](https://pls.llnl.gov/people/staff-bios/aeed/zhang-y)
-* [Anthony DeAngelis](http://www.atmos.ucla.edu/csrl/) (UCLA)
-* [Xin Qu](http://www.atmos.ucla.edu/csrl/) (UCLA) 
 
 **Former Participants:**
 
-* [Florent Brient](http://www.lmd.jussieu.fr/~fbrlmd/test_index_flo.html) (ETH Zurich)
+* [Florent Brient](https://climate-dynamics.org/people/florent-brient/) (Meteo-France)
+* [Anthony DeAngelis](https://scholar.google.com/citations?user=pzDevCsAAAAJ&hl=en) (NASA Goddard, GMAO)
 * Neil Gordon (Space and Naval Warfare Systems Command) 
 * [Christopher Terai](https://sites.google.com/site/christeraiatmos/) (UC Irvine)
-* [Chen Zhou](https://pls.llnl.gov/people/staff-bios/aeed/zhou-c)
+* [Chen Zhou](https://scholar.google.com/citations?user=Ot_6YukAAAAJ&hl=en) (Nanjing University)
 
 ---
 
 ### Research Highlights
 
+<h4> 2018</h4>
+
 <ul>
+
+<li>Zelinka, M., K. Grise, S. Klein, C. Zhou, A. DeAngelis, and M. Christensen, 2018: <a href="https://climatemodeling.science.energy.gov/research-highlights/drivers-low-cloud-responses-poleward-jet-shifts-observations-models" rel="nofollow" target="_blank">Drivers of Low Cloud Responses to Poleward Jet Shifts in Observations & Models</a></li>
+
+</ul>
 
 <!-- 2017-->
 <h4> 2017</h4>
@@ -62,6 +69,8 @@ This Cloud Feedback project is supported by the Regional and Global Climate Mode
 <ul>
 
 <li>Ceppi, P., F. Brient, M. D. Zelinka, and D. L. Hartmann, 2017: <a href="https://climatemodeling.science.energy.gov/research-highlights/review-cloud-feedbacks-climate-models" rel="nofollow" target="_blank">Review of Cloud Feedbacks in Climate Models</a></li>
+
+<li>DeAngelis, A. M., X. Qu, and A. Hall, 2017: <a href="https://climatemodeling.science.energy.gov/research-highlights/model-spread-fast-response-global-precipitation" rel="nofollow" target="_blank">Model Spread in the Fast Response of Global Precipitation</a></li>
 
 <li>Klein, S. A., A. Hall, J. R. Norris, and R. Pincus, 2017:  <a href="https://climatemodeling.science.energy.gov/research-highlights/observations-indicate-low-cloud-feedback-positive" rel="nofollow" target="_blank">Observations Indicate that the Low-Cloud Feedback is Positive</a></li>
 
@@ -302,21 +311,31 @@ Zelinka, M. D., S. A. Klein, and D. L. Hartmann, 2012b: <a href="http://climatem
 
 ### Publications
 
-<ul>
-
-
 <!-- 2018-->
 <h4> 2018</h4>
 
 <ul>
 
-<li>Po-Chedley, S., K. C. Armour, C. M. Bitz, M. D. Zelinka, B. D Santer, and Q. Fu, 2018: Sources of intermodel spread in the lapse rate and water vapor feedbacks. <em>J. Climate</em>, in press.</li>
+<li>Caldwell, P. M., M. D. Zelinka, and S. A. Klein, 2018: Evaluating Emergent Constraints on Equilibrium Climate Sensitivity, <em>J. Climate</em>, 31, 3921-3942, doi:<a href="https://journals.ametsoc.org/doi/abs/10.1175/JCLI-D-17-0631.1" rel="nofollow" target="_blank">10.1175/JCLI-D-17-0631.1</a>.</li>
+
+<li>Po-Chedley, S., K. C. Armour, C. M. Bitz, M. D. Zelinka, B. D Santer, and Q. Fu, 2018: Sources of intermodel spread in the lapse rate and water vapor feedbacks, <em>J. Climate</em>, 31, 3187–3206, doi:<a href="http://journals.ametsoc.org/doi/abs/10.1175/JCLI-D-17-0674.1" rel="nofollow" target="_blank">10.1175/JCLI-D-17-0674.1</a>.</li>
+
+<li>Qu, X., A. Hall, A. M. DeAngelis, M. D. Zelinka, S. A. Klein, H. Su, B. Tian, and C. Zhai, 2018: On the emergent constraints of climate sensitivity, <em>J. Climate</em>, 31, 863–875, doi:<a href="http://journals.ametsoc.org/doi/abs/10.1175/JCLI-D-17-0482.1" rel="nofollow" target="_blank">10.1175/JCLI-D-17-0482.1</a>.</li>
+
+<li>Santer, B. D., et al including M. D. Zelinka, 2018: Human influence on the seasonal cycle of tropospheric temperature, <em>Science</em>, 361, eaas8806, doi:<a href="http://science.sciencemag.org/content/361/6399/eaas8806" rel="nofollow" target="_blank">10.1126/science.aas8806</a>.</li>
+
+<li>Thackeray, C. W., X. Qu, and A. Hall, 2018: Why do models produce spread in snow albedo feedback? <em>Geophysical Research Letters</em>, 45(12): 6223–6231. doi:<a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2018GL078493" rel="nofollow" target="_blank">10.1029/2018GL078493</a>.</li>
+
+<li>Zelinka, M. D., K. M. Grise, S. A. Klein, C. Zhou, A. M. DeAngelis, and M. W. Christensen, 2018: Drivers of the Low Cloud Response to Poleward Jet Shifts in the North Pacific in Observations and Models, <em>J. Climate</em>, 31, 7925–7947, doi:<a href="https://journals.ametsoc.org/doi/abs/10.1175/JCLI-D-18-0114.1" rel="nofollow" target="_blank">10.1175/JCLI-D-18-0114.1</a>.</li>
 
 </ul>
+
 <!-- 2017-->
 <h4> 2017</h4>
 
 <ul>
+
+<li>Bonfils, C., G. Anderson, B. D. Santer, T. J. Phillips, K. Taylor, M. Cuntz, M. D. Zelinka, K. Marvel, B. I. Cook, I. Cvijanovic, and P. Durack, 2017: Competing influences of anthropogenic warming, ENSO, and plant physiology on future terrestrial aridity, <em>J. Climate</em>, 30, 6883-6904, doi:<a href="http://journals.ametsoc.org/doi/abs/10.1175/JCLI-D-17-0005.1" rel="nofollow" target="_blank">10.1175/JCLI-D-17-0005.1</a>.</li>
 
 <li>Ceppi, P., F. Brient, M. D. Zelinka, and D. L. Hartmann, 2017: Cloud feedback mechanisms and their representation in global climate models. <em>WIREs Climate Change</em>, <strong>e465</strong>, doi:<a href="http://onlinelibrary.wiley.com/doi/10.1002/wcc.465/full" rel="nofollow" target="_blank">10.1002/wcc.465</a>.</li>
 
@@ -346,6 +365,8 @@ Zelinka, M. D., S. A. Klein, and D. L. Hartmann, 2012b: <a href="http://climatem
 <li>Danco, J. F., A. M. DeAngelis, B. K. Raney, and A. J. Broccoli, 2016: Effects of a Warming Climate on Daily Snowfall Events in the Northern Hemisphere. <em>J. Climate,</em> <strong>29</strong>, 6295-6318, doi:<a href="http://dx.doi.org/10.1175/JCLI-D-15-0687.1" rel="nofollow" target="_blank">10.1175/JCLI-D-15-0687.1</a>.</li>
 
 <li>DeAngelis, A., X. Qu, M. D. Zelinka, and A. Hall, 2016: Corrigendum: An observational radiative constraint on hydrologic cycle intensification. <em>Nature</em>, doi:<a href="http://dx.doi.org/10.1038/nature17621" rel="nofollow" target="_blank">10.1038/nature17621</a>.</li>
+
+<li>DeAngelis A., X. Qu, and A. Hall, 2016: Importance of vegetation processes for model spread in the fast precipitation response to CO2 forcing. <em>Geophysical Research Letters</em>, 43, 12550-12559. doi:<a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2016GL071392" rel="nofollow" target="_blank">10.1002/2016GL071392</a>.</li>
 
 <li>Norris, J. R., R. J. Allen, A. T. Evan, M. D. Zelinka, C. W. O&rsquo;Dell, and S. A. Klein, 2016: Evidence for climate change in the satellite cloud record. <em>Nature,</em> <strong>536</strong>, 72-75, doi:<a href="http://dx.doi.org/10.1038/nature18273" rel="nofollow" target="_blank">10.1038/nature18273</a>.</li>
 
@@ -438,7 +459,5 @@ Zelinka, M. D., S. A. Klein, and D. L. Hartmann, 2012b: <a href="http://climatem
 <li>Zelinka, M. D., S. A. Klein, and D. L. Hartmann, 2012a: Computing and partitioning cloud feedbacks using cloud property histograms. Part I: Cloud radiative kernels.<em> J. Clim.</em>,<strong> 25</strong>, 3715 - 3735, doi: <a href="http://dx.doi.org/10.1175/JCLI-D-11-00248.1" rel="nofollow" target="_blank"> 10.1175/JCLI-D-11-00248.1</a>. </li>
     
 <li>Zelinka, M. D., S. A. Klein, and D. L. Hartmann, 2012b: Computing and partitioning cloud feedbacks using cloud property histograms. Part II: Attribution to changes in cloud amount, altitude, and optical depth. <em>J. Clim.</em>, <strong>25</strong>, 3736 - 3754, doi: <a href="http://dx.doi.org/10.1175/JCLI-D-11-00249.1" rel="nofollow" target="_blank"> 10.1175/JCLI-D-11-00249.1</a>. </li>
-  
-</ul>
 
 </ul>
