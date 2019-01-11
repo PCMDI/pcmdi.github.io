@@ -43,7 +43,6 @@ This Cloud Feedback project is supported by the Regional and Global Climate Mode
 * [Mark Zelinka](https://markdzelinka.wordpress.com/)
 * [Yunyan Zhang](https://pls.llnl.gov/people/staff-bios/aeed/zhang-y)
 * [Xin Qu](http://www.atmos.ucla.edu/csrl/) (UCLA) 
-* [Tim Myers]
 
 **Former Participants:**
 
@@ -196,8 +195,6 @@ Zelinka, M. D., S. A. Klein, and D. L. Hartmann, 2012a: <a href="http://climatem
 Zelinka, M. D., S. A. Klein, and D. L. Hartmann, 2012b: <a href="http://climatemodeling.science.energy.gov/research-highlights/illuminating-processes-contributing-cloud-feedback" rel="nofollow" target="_blank">Illuminating the Processes Contributing to Cloud Feedback
  </a>
 </li> 
-
-</ul>
 
 </ul>
 
