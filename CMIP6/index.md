@@ -19,6 +19,16 @@ in [three guides][cmip6GuideHomepage], tailored to different groups:
 1. [Data managers][dataManagers] responsible for data node operations, and
 1. [Data users][dataUsers] analyzing and making use of CMIP6 model output
 
+
+## Model output Access:
+  * First see the [Data Users Guide][dataUsers]
+  * **[Summary table][dataHoldings]** of currently available data
+  * The complete archive of CMIP6 output is accessible from any one of the following portals:
+       - USA, PCMDI/LLNL (California) - [https://esgf-node.llnl.gov/projects/cmip6/][llnlNode]
+       - France, IPSL - [https://esgf-node.ipsl.upmc.fr/projects/cmip6-ipsl/][ipslNode]
+       - Germany, DKRZ - [https://esgf-data.dkrz.de/projects/cmip6-dkrz/][dkrzNode]
+       - UK, CEDA - [https://esgf-index1.ceda.ac.uk/projects/cmip6-ceda/][cedaNode]
+
 ## CMIP6 Endorsed MIPs:
  * [WCRP Endorsed (Model Intercomparison Project) MIPs overview page][WCRPEndorsedMIPs]
  * [CMIP6 Ocean Model Intercomparison Project (OMIP) overview page][OMIP]
@@ -34,6 +44,11 @@ in [three guides][cmip6GuideHomepage], tailored to different groups:
 [modelers]: Guide/modelers.html
 [dataManagers]: Guide/dataManagers.html
 [dataUsers]: Guide/dataUsers.html
+[dataHoldings]: ArchiveStatistics/esgf_data_holdings
+[llnlNode]: https://esgf-node.llnl.gov/projects/cmip6/
+[ipslNode]: https://esgf-node.ipsl.upmc.fr/projects/cmip6-ipsl
+[dkrzNode]: https://esgf-data.dkrz.de/projects/cmip6-dkrz/
+[cedaNode]: https://esgf-index1.ceda.ac.uk/projects/cmip6-ceda/
 [WCRPEndorsedMIPs]: https://www.wcrp-climate.org/modelling-wgcm-mip-catalogue/modelling-wgcm-cmip6-endorsed-mips
 [OMIP]: OMIP/
 [termsOfUse]: TermsOfUse/
