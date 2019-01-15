@@ -44,7 +44,7 @@ in [three guides][cmip6GuideHomepage], tailored to different groups:
 [modelers]: Guide/modelers.html
 [dataManagers]: Guide/dataManagers.html
 [dataUsers]: Guide/dataUsers.html
-[dataHoldings]: ArchiveStatistics/esgf_data_holdings
+[dataHoldings]: ArchiveStatistics/esgf_data_holdings/
 [llnlNode]: https://esgf-node.llnl.gov/projects/cmip6/
 [ipslNode]: https://esgf-node.ipsl.upmc.fr/projects/cmip6-ipsl
 [dkrzNode]: https://esgf-data.dkrz.de/projects/cmip6-dkrz/

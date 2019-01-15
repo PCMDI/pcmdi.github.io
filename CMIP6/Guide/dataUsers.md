@@ -51,6 +51,8 @@ As indicated in the [guidance specifications for output grids][cmip6GridGoogleDo
 ## 3. Accessing model output
 CMIP6 model output is available through a distributed data archive developed and operated by the [Earth System Grid Federation (ESGF)][ESGFHome].   [Balaji et al. (2018)][BalajiGMD] provide an overview of the design of additional infrastructure and the configuring of ESGF in supporting CMIP6.   The data are hosted on a collection of nodes located at modeling centers or data centers across the world.  The data can be accessed through any of the CMIP6 CoG web interfaces, which enable users to search across the entire distributed archive as if it were all centrally located.  
 
+See this **[summary table][dataHoldings]** to view available experiments and models.
+
 Here are the currently active CMIP6 CoG sites (all data can be accessed via any one of these):
 * USA, PCMDI/LLNL (California) - [https://esgf-node.llnl.gov/projects/cmip6/](https://esgf-node.llnl.gov/projects/cmip6/)
 * France, IPSL - [https://esgf-node.ipsl.upmc.fr/projects/cmip6-ipsl/](https://esgf-node.ipsl.upmc.fr/projects/cmip6-ipsl/)
@@ -165,3 +167,4 @@ Information is under preparation describing the governance of the following:
 [termsOfUse]: https://pcmdi.llnl.gov/CMIP6/TermsOfUse
 [dataCitationGuide]: http://bit.ly/2gBCuqM
 [Stockhause2017]: https://doi.org/10.5334/dsj-2017-030
+[dataHoldings]: ArchiveStatistics/esgf_data_holdings/
