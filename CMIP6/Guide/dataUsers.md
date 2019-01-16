@@ -131,6 +131,7 @@ Information is under preparation describing the governance of the following:
 [cmip6GridGoogleDoc]: http://goo.gl/1oA7bO
 [cmip6PressureLevelsPdf]: https://www.earthsystemcog.org/site_media/projects/wip/CMIP6_pressure_levels.pdf
 [cmip6TimeAveragesCog]: https://www.earthsystemcog.org/projects/wip/time_averages
+[dataHoldings]: https://pcmdi.llnl.gov/CMIP6/ArchiveStatistics/esgf_data_holdings
 [esgfSearchRequirementsGoogleDoc]: https://docs.google.com/document/d/1jNBw2am28Hxux_YuCL_mYMi18EEGkJSGrtNntOs3PJo
 [es-docsExperiments]: https://es-doc.org/cmip6-experiments
 [es-docsModels]: https://es-doc.org/cmip6-models
@@ -167,4 +168,3 @@ Information is under preparation describing the governance of the following:
 [termsOfUse]: https://pcmdi.llnl.gov/CMIP6/TermsOfUse
 [dataCitationGuide]: http://bit.ly/2gBCuqM
 [Stockhause2017]: https://doi.org/10.5334/dsj-2017-030
-[dataHoldings]: ArchiveStatistics/esgf_data_holdings/
