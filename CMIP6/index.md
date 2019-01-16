@@ -36,6 +36,9 @@ in [three guides][cmip6GuideHomepage], tailored to different groups:
 ## Additional information for CMIP6:
  * [CMIP6 license and terms of use][termsOfUse]
 
+
+###### Document version: 15 January 2019
+
 [WCRP]: https://www.wcrp-climate.org
 [WGCM]: https://www.wcrp-climate.org/wgcm-overview
 [MIPs]: https://pcmdi.llnl.gov/mips
