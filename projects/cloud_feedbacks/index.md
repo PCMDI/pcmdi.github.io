@@ -1,4 +1,7 @@
---- layout: cloud_feedbacks title: Cloud Feedbacks ---
+--- 
+layout: cloud_feedbacks 
+title: Cloud Feedbacks 
+---
 
 ## Identifying Robust Cloud Feedbacks in Observations and Models
 ## 
