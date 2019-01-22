@@ -3,9 +3,8 @@ layout: cloud_feedbacks
 title: Cloud Feedbacks 
 ---
 
-## Identifying Robust Cloud Feedbacks in Observations and Models
-## 
-## 
+## Identifying Robust Cloud Feedbacks in Observations and Models ## 
+
 ![Average longwave (LW), shortwave (SW), and net cloud feedbacks as
 simulated by global climate
 models]({{site.baseurl}}/projects/cloud_feedbacks/cloud_feedback_200h.
@@ -13,8 +12,8 @@ png)
 
 ---
 
-### Introduction
-### 
+### Introduction ###
+
 For more than 30 years, scientists have known that the inability to
 predict how clouds will respond to a climate change hinders a confident
 prediction of the magnitude of global warming resulting from a given
@@ -81,32 +80,25 @@ Science/Biological and Environmental Research
 
 ---
 
-### Project Participants
-### 
-* [Stephen A.
-Klein](https://pls.llnl.gov/people/staff-bios/aeed/klein-s) (Principal
-Investigator) * [Karl
-Taylor](https://pcmdi.llnl.gov/staff/taylor/karlcv.html)
-(co-Investigator) * [Alex Hall](http://www.atmos.ucla.edu/csrl/)
-(co-Investigator, UCLA) * [Peter
-Caldwell](https://pcmdi.llnl.gov/staff/caldwell/index.html) * [Timothy
-Myers](https://sites.google.com/site/myerstimothy/) * [Xin
-Qu](http://www.atmos.ucla.edu/csrl/) (UCLA) * [Mark
-Zelinka](https://markdzelinka.wordpress.com/) * [Yunyan
-Zhang](https://pls.llnl.gov/people/staff-bios/aeed/zhang-y) * [Xin
-Qu](http://www.atmos.ucla.edu/csrl/) (UCLA)
+### Project Participants ###
+
+* [Stephen A. Klein](https://pls.llnl.gov/people/staff-bios/aeed/klein-s) (Principal Investigator) 
+* [Karl Taylor](https://pcmdi.llnl.gov/staff/taylor/karlcv.html) (co-Investigator) 
+* [Alex Hall](http://www.atmos.ucla.edu/csrl/) (co-Investigator, UCLA) 
+* [Peter Caldwell](https://pcmdi.llnl.gov/staff/caldwell/index.html) 
+* [Timothy Myers](https://sites.google.com/site/myerstimothy/) 
+* [Xin Qu](http://www.atmos.ucla.edu/csrl/) (UCLA) 
+* [Mark Zelinka](https://markdzelinka.wordpress.com/) 
+* [Yunyan Zhang](https://pls.llnl.gov/people/staff-bios/aeed/zhang-y) 
+* [Xin Qu](http://www.atmos.ucla.edu/csrl/) (UCLA)
 
 **Former Participants:**
 
-* [Florent Brient](https://climate-dynamics.org/people/florent-brient/)
-(Meteo-France) * [Anthony
-DeAngelis](https://scholar.google.com/citations?user=pzDevCsAAAAJ&hl=en)
-(NASA Goddard, GMAO) * Neil Gordon (Space and Naval Warfare Systems
-Command) * [Christopher
-Terai](https://sites.google.com/site/christeraiatmos/) (UC Irvine) *
-[Chen
-Zhou](https://scholar.google.com/citations?user=Ot_6YukAAAAJ&hl=en)
-(Nanjing University)
+* [Florent Brient](https://climate-dynamics.org/people/florent-brient/) (Meteo-France) 
+* [Anthony DeAngelis](https://scholar.google.com/citations?user=pzDevCsAAAAJ&hl=en) (NASA Goddard, GMAO) 
+* Neil Gordon (Space and Naval Warfare Systems Command) 
+* [Christopher Terai](https://sites.google.com/site/christeraiatmos/) (UC Irvine) 
+* [Chen Zhou](https://scholar.google.com/citations?user=Ot_6YukAAAAJ&hl=en) (Nanjing University)
 
 ---
 
@@ -381,8 +373,7 @@ Feedback </a> </li>
 
 ---
 
-### Publicity
-### 
+### Publicity ### 
 <ul> <!-- 2017--> <li> <a
 href="https://www.nature.com/scientificamerican/journal/v317/n6/full/
 scientificamerican1217-72.html" rel="nofollow" target="_blank"> The
@@ -465,8 +456,7 @@ climate debate </a> (September 2011, <em>Live Science</em>) </li> </ul>
 
 ---
 
-### Publications
-### 
+### Publications ### 
 
 <h4> 2018</h4>
 
