@@ -104,6 +104,15 @@ Science/Biological and Environmental Research
 
 ### Research Highlights ### 
 
+<h4> 2019</h4>
+
+<ul>
+
+<li>Caldwell, P. M., M. D. Zelinka, and S. A. Klein, 2019: <a
+href="https://climatemodeling.science.energy.gov/research-highlights/evaluation-proposed-emergent-constraints-climate-sensitivity" rel="nofollow" target="_blank">Evaluation of Proposed Emergent Constraints on Climate Sensitivity</a></li>
+
+</ul> 
+
 <h4> 2018</h4>
 
 <ul>
@@ -374,89 +383,132 @@ Feedback </a> </li>
 ---
 
 ### Publicity ### 
-<ul> <!-- 2017--> <li> <a
-href="https://www.nature.com/scientificamerican/journal/v317/n6/full/
+<ul> <!-- 2017--> 
+  
+<li> <a href="https://www.nature.com/scientificamerican/journal/v317/n6/full/
 scientificamerican1217-72.html" rel="nofollow" target="_blank"> The
 Cloud Conundrum </a> (December 2017, <em>Scientific American</em>) </li>
-<li> <a
-href="https://eos.org/research-spotlights/how-do-clouds-react-to-
+
+<li> <a href="https://eos.org/research-spotlights/how-do-clouds-react-to-
 regional-warming" rel="nofollow" target="_blank"> How Do Clouds React to
-Regional Warming? </a> (October 2017, <em>Eos</em>) </li> <li> <a
-href="https://www.ted.com/talks/
+Regional Warming? </a> (October 2017, <em>Eos</em>) </li> 
+
+<li> <a href="https://www.ted.com/talks/
 kate_marvel_can_clouds_buy_us_more_time_to_solve_climate_change"
 rel="nofollow" target="_blank"> Can clouds buy us more time to solve
 climate change? </a> (July 2017, <em>TED Talk by Kate Marvel</em>) </li>
-<!-- 2016--> <li> <a
-href="http://abc7news.com/weather/study-examines-migration-patterns-of-
+
+
+<!-- 2016--> 
+
+<li> <a href="http://abc7news.com/weather/study-examines-migration-patterns-of-
 clouds/1648684/" rel="nofollow" target="_blank"> Study examines
 migration patterns of clouds </a> (December 2016, <em>ABC7 News</em>)
-</li> <li> <a
-href="https://www.carbonbrief.org/clouds-dampened-warming-since1980s"
+</li> 
+
+<li> <a href="https://www.carbonbrief.org/clouds-dampened-warming-since1980s"
 rel="nofollow" target="_blank"> Clouds dampened warming since 1980s,
-study shows </a> (October 2016, <em>CarbonBrief</em>) </li> <li> <a
-href="http://arstechnica.com/science/2016/10/clouds-may-actually-have-
+study shows </a> (October 2016, <em>CarbonBrief</em>) </li> 
+
+<li> <a href="http://arstechnica.com/science/2016/10/clouds-may-actually-have-
 slowed-recent-warming-but-that-wont-last/" rel="nofollow"
 target="_blank"> Recent pattern of cloud cover may have masked some
-global warming </a> (October 2016, <em>Ars Technica</em>) </li> <li> <a
-href="https://eos.org/research-spotlights/eliminating-uncertainty-one-
+global warming </a> (October 2016, <em>Ars Technica</em>) </li> 
+
+<li> <a href="https://eos.org/research-spotlights/eliminating-uncertainty-one-
 cloud-at-a-time" rel="nofollow" target="_blank"> Eliminating Uncertainty
-One Cloud at a Times </a> (October 2016, <em>Eos</em>) </li> <li> <a
-href="http://www.npr.org/sections/thetwo-way/2016/07/11/485314321/
+One Cloud at a Times </a> (October 2016, <em>Eos</em>) </li> 
+
+<li> <a href="http://www.npr.org/sections/thetwo-way/2016/07/11/485314321/
 climate-change-may-already-be-shifting-clouds-toward-the-poles"
 rel="nofollow" target="_blank"> Climate Change May Already Be Shifting
 Clouds Toward The Poles </a> (July 2016, <em>National Public Radio</em>)
-</li> <li> <a
-href="https://www.sciencedaily.com/releases/2015/12/151210140516.htm"
+</li> 
+
+<li> <a href="https://www.sciencedaily.com/releases/2015/12/151210140516.htm"
 rel="nofollow" target="_blank"> Models overestimate rainfall increases
 due to climate change, experts say </a> (December 2015,
-<em>ScienceDaily</em>) </li> <!-- 2015--> <li> <a
-href="https://eos.org/research-spotlights/low-altitude-clouds-play-an-
+<em>ScienceDaily</em>) </li> 
+
+<!-- 2015--> 
+
+<li> <a href="https://eos.org/research-spotlights/low-altitude-clouds-play-an-
 important-role-in-a-changing-climate" rel="nofollow" target="_blank">
 Low-Altitude Clouds Play an Important Role in a Changing Climate </a>
-(November 2015, <em>Eos</em>) </li> <!-- 2014--> <li> <a
-href="http://agupubs.onlinelibrary.wiley.com/agu/article/10.1002/
+(November 2015, <em>Eos</em>) </li> 
+
+<!-- 2014--> 
+
+<li> <a href="http://agupubs.onlinelibrary.wiley.com/agu/article/10.1002/
 2013JD021052/editor-highlight/" rel="nofollow" target="_blank"> Cloud
 variations in current climate a guide to climate changes </a> (December
-2014. <em>AGU</em>) </li> <li> <a
-href="http://www.deutschlandfunk.de/klimaerwaermung-die-kuehlwirkung-von
+2014. <em>AGU</em>) </li> 
+
+<li> <a href="http://www.deutschlandfunk.de/klimaerwaermung-die-kuehlwirkung-von
 -wolken-laesst-nach.676.de.html?dram:article_id=300281" rel="nofollow"
 target="_blank"> The cooling effect of clouds diminishes </a> (October
 2014, <em>Deutschlandfunk</em>) ( <a
 href="V.Mrasek_Deutschlandfunk_2014.pdf" rel="nofollow" target="_blank">
-pdf </a>) </li> <li> <a
-href="https://www.llnl.gov/news/aroundthelab/2014/Apr/ATL041514_zelinka.
+pdf </a>) </li> 
+
+<li> <a href="https://www.llnl.gov/news/aroundthelab/2014/Apr/ATL041514_zelinka.
 html#.U4UL2FhdXdn" rel="nofollow" target="_blank"> Climate Scientist
 Aims to Clear the Air on Clouds </a> (April 2014, <em>LLNL</em>) </li>
+
 <li> <a href="https://www.sciencenews.org/article/cloudy-forecast"
 rel="nofollow" target="_blank"> Cloudy forecast: The biggest source of
 climate uncertainty is white and fluffy </a> (March 2014,
-<em>ScienceNews</em>) </li> <li> <a
-href="http://grist.org/climate-energy/the-madding-cloud-when-forecasting
+<em>ScienceNews</em>) </li> 
+
+<li> <a href="http://grist.org/climate-energy/the-madding-cloud-when-forecasting
 -the-future-scientists-blind-spot-is-above-them/" rel="nofollow"
 target="_blank"> The madding cloud: When forecasting the future,
 scientists' blind spot is above them </a> (January 2014, <em>Grist</em>)
-</li> <!-- 2013--> <li> <a
-href="https://news.agu.org/press-release/ozone-hole-might-slightly-warm-
+</li> 
+
+<!-- 2013--> 
+
+<li> <a href="https://news.agu.org/press-release/ozone-hole-might-slightly-warm-
 planet/" rel="nofollow" target="_blank"> Ozone hole might slightly warm
-planet </a> (August 2013, <em>AGU</em>) </li> <li> <a
-href="http://www.skepticalscience.com/reconciling-two-cloud-feedback-
+planet </a> (August 2013, <em>AGU</em>) </li> 
+
+<li> <a href="http://www.skepticalscience.com/reconciling-two-cloud-feedback-
 papers-dessler.html" rel="nofollow" target="_blank"> Reconciling Two New
 Cloud Feedback Papers </a> (February 2013, <em>SkepticalScience</em>)
-</li> <!-- 2012--> <li> <a
-href="http://www.eenews.net/stories/1059972878" rel="nofollow"
+</li> 
+
+<!-- 2012--> 
+
+<li> <a href="http://www.eenews.net/stories/1059972878" rel="nofollow"
 target="_blank"> Ocean clouds obscure warming's fate, create
 'fundamental problem' for models </a> (November 2012, <em>E&E News</em>)
-</li> <!-- 2011--> <li> <a
-href="http://www.llnl.gov/news/newsreleases/2011/Oct/NR-11-10-06.html"
+</li> 
+
+<!-- 2011--> 
+
+<li> <a href="http://www.llnl.gov/news/newsreleases/2011/Oct/NR-11-10-06.html"
 rel="nofollow" target="_blank"> New tool clears the air on cloud
-simulations </a> (October 2011, <em>LLNL</em>) </li> <li> <a
+simulations </a> (October 2011, <em>LLNL</em>) </li> 
+
+<li> <a
 href="http://www.livescience.com/16097-clouds-climate-change-debate.html
 " rel="nofollow" target="_blank"> Clouds confusion swirls at center of
-climate debate </a> (September 2011, <em>Live Science</em>) </li> </ul>
+climate debate </a> (September 2011, <em>Live Science</em>) </li> 
+
+</ul>
 
 ---
 
 ### Publications ### 
+
+<h4> 2019</h4>
+
+<ul>
+
+<li>Eyring, V., et al. including A. D. Hall and S. A. Klein, 2019: Taking climate model evaluation to the next level, <em>Nature Clim. Change</em>, doi:<a href="https://www.nature.com/articles/s41558-018-0355-y" rel="nofollow"
+target="_blank">10.1038/s41558-018-0355-y</a>.</li>
+
+</ul>
 
 <h4> 2018</h4>
 
