@@ -139,7 +139,7 @@ NCI: <http://esg2.nci.org.au>
 Model and experiment documentation is available through the the same ESG portals serving the model output (described immediately above).
 
 
-The documentation can also be accessed directly using a new ["comparator" tool](http://prod.static.esdoc.webfactional.com/js_client/demo/prod/comparator.html). To view documentation for a single model click on "view" next to the model name in the left hand column. You may also create a "table" comparing model properties using this tool.
+The documentation can also be accessed directly using a new ["comparator" tool](http://search.es-doc.org) (Now updated as ES-DOC). To view documentation for a single model click on "view" next to the model name in the left hand column. You may also create a "table" comparing model properties using this tool.
 
 
 The ES-DOC collaborative effort is responsible for this new and useful capability. Other tools developed by ES-DOC can be accessed from their [website](http://es-doc.org/).
