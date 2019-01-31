@@ -15,7 +15,6 @@ title: CMIP6 Participation Guidance for Data Managers
 This section describes the procedure a data node administrator have to follow to install or to update an ESGF data node.
 
 1. [Documentation](https://github.com/ESGF/esgf-installer/wiki)
-2. How to (ipython notebook)
 
 ## 2. Configuring data/metadata publication on the data node
 
@@ -60,7 +59,6 @@ This section describes how to configure the CoG front end so that the CMIP6 CoG 
 This section describes the usage of the ESGF test suite that will validate that a data or index node is working as expected. This test-suite should be run after the installation and configuration phase has been completed.
 
 1. [Documentation](https://github.com/ESGF/esgf-test-suite)
-2. How to (ipython notebook)
 
 ## 7. Configuring data access on the data node
 
@@ -126,7 +124,7 @@ This section describes how data providers can describe issues affecting datasets
 
 This section describes the step you need to follow to withdraw a CMIP6 dataset from ESGF.
 
-1. (Mandatory) [Follow errata workflow](https://docs.google.com/document/d/1y6Nd0Bea6VC6iTguFwHZr2uMM56VSpaqaXtQxCX5t-U/edit#heading=h.bu09kcyyw69m)
+1. (Mandatory) [Follow errata workflow](#12-describe-datasets-issues-and-errata-using-the-errata-service)
 2. [Unpublish a dataset](http://esgf.github.io/esg-publisher/usage.html#unpublication)
 3. [How to](https://github.com/ESGF/esg-publisher/blob/master/notebooks/data-retract.ipynb)
 
@@ -134,11 +132,11 @@ This section describes the step you need to follow to withdraw a CMIP6 dataset f
 
 This section describes the step you need to take to publish a new version of a CMIP6 dataset on ESGF. Old version will still be accessible but the latest version will appear  first by default.
 
-1. (Mandatory) [Create an errata explaining the reason of this new version](https://docs.google.com/document/d/1y6Nd0Bea6VC6iTguFwHZr2uMM56VSpaqaXtQxCX5t-U/edit#heading=h.fdv7vt46bwx5)
+1. (Mandatory) [Create an errata explaining the reason of this new version](#12-describe-datasets-issues-and-errata-using-the-errata-service)
 2. [List the new dataset version related to corrected files](http://esgf.github.io/esgf-prepare/drs.html#list-the-datasets-related-to-the-incoming-files)
 3. [Upgrade your DRS tree from latest version](http://esgf.github.io/esgf-prepare/drs.html#run-the-drs-upgrade-from-the-latest-version)
 4. [Generate new mapfiles](http://esgf.github.io/esgf-prepare/mapfiles.html)
-5. [Follow publication workflow a usual](https://docs.google.com/document/d/1y6Nd0Bea6VC6iTguFwHZr2uMM56VSpaqaXtQxCX5t-U/edit#heading=h.jsb9tnkrcf9s)
+5. [Follow publication workflow a usual](#10-preparing-directory-structure-and-files-organization-to-fulfill-cmip6)
 
 
 ###### Document version: 31 January 2019
