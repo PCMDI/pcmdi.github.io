@@ -28,20 +28,10 @@ Here are links to the parts of the guide.
 
 ### [For CMIP6 ESGF data node managers and operators][dataManagers]:
 
-1. ESGF stack installation & upgrade
-1. Configuring data/metadata publication on the data node
-1. Configuring data publication on the index node (Tiers 1 site only)
-1. Configuring ESGF data usage metrics through the esgf-dashboard
-1. Configuring CoG (Tiers 1 site only)
-1. Validation with ESGF test suite
-1. Configuring data access on the data node
-1. (Optional) Checking and fixing CMIP time coordinate
-1. (Optional) Running PrePARE standalone
-1. Preparing directory structure and files organization to fulfill CMIP6
-1. Publishing a CMIP6 dataset for the first time
-1. Describe datasets issues and errata using the errata service
-1. Unpublish data (before new version is ready)
-1. Publishing a new version of a CMIP6 dataset
+1. Installation and configuration
+1. Preparation for publication
+1. Dataset publication and retraction
+1. Errata and data versioning
 
 ### [For Users of CMIP6 model output][dataUsers]:
 
