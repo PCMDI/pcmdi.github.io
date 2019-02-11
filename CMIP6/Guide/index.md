@@ -26,26 +26,36 @@ Here are links to the parts of the guide.
 1. Documentation process
 1. CMIP6 organization and governance
 
+### [For CMIP6 ESGF data node managers and operators][dataManagers]:
 
-### [For CMIP6 ESGF data node managers and operators][dataManagers] (in preparation):
+1. ESGF stack installation & upgrade
+1. Configuring data/metadata publication on the data node
+1. Configuring data publication on the index node (Tiers 1 site only)
+1. Configuring ESGF data usage metrics through the esgf-dashboard
+1. Configuring CoG (Tiers 1 site only)
+1. Validation with ESGF test suite
+1. Configuring data access on the data node
+1. (Optional) Checking and fixing CMIP time coordinate
+1. (Optional) Running PrePARE standalone
+1. Preparing directory structure and files organization to fulfill CMIP6
+1. Publishing a CMIP6 dataset for the first time
+1. Describe datasets issues and errata using the errata service
+1. Unpublish data (before new version is ready)
+1. Publishing a new version of a CMIP6 dataset
 
-1. Hardware requirements
-1. Operational requirements/expectations
-1. Publication procedure
-1. Software supporting publication/replication
-
-
-### [For Users of CMIP6 model output][dataUsers] (in preparation):
+### [For Users of CMIP6 model output][dataUsers]:
 
 1. Experiment design
 1. Model output specifications
 1. Accessing model output
 1. Terms of use and citation requirements
+1. Model and experiment documentation
 1. Reporting suspected errors
 1. Registering published work based on CMIP6
+1. CMIP6 organization and governance
 
 
-###### Document version: 13 September 2017
+###### Document version: 7 August 2018
 
 [modelers]: modelers.html
 [dataManagers]: dataManagers.html
