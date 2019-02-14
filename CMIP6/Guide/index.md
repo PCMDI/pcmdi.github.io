@@ -44,12 +44,8 @@ Here are links to the parts of the guide.
 1. Registering published work based on CMIP6
 1. CMIP6 organization and governance
 
-### Map of CMIP6 Contributors
 
-<iframe src="https://www.google.com/maps/d/embed?mid=1LG_xEyEA-jlQIO7_Y5_3mGgMwK_8gqXU&hl=en" width="640" height="480"></iframe>
-
-
-###### Document version: 12 February 2019
+###### Document version: 13 February 2019
 
 [modelers]: modelers.html
 [dataManagers]: dataManagers.html
