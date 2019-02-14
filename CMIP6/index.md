@@ -41,7 +41,7 @@ in [three guides][cmip6GuideHomepage], tailored to different groups:
 <iframe src="https://www.google.com/maps/d/embed?mid=1LG_xEyEA-jlQIO7_Y5_3mGgMwK_8gqXU&hl=en&z=2" width="930" height="540"></iframe>
 
 
-###### Document version: 15 January 2019
+###### Document version: 13 February 2019
 
 [WCRP]: https://www.wcrp-climate.org
 [WGCM]: https://www.wcrp-climate.org/wgcm-overview
