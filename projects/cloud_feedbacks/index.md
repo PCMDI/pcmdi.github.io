@@ -384,18 +384,20 @@ Feedback </a> </li>
 ### Publicity ### 
 <ul> <!-- 2017--> 
   
+<li> <a href="https://www.quantamagazine.org/cloud-loss-could-add-8-degrees-to-global-warming-20190225/" rel="nofollow" target="_blank"> A World Without Clouds</a> (February 2019, <em>Quanta Magazine</em>) </li>
+  
 <li> <a href="https://www.nature.com/scientificamerican/journal/v317/n6/full/
-scientificamerican1217-72.html" rel="nofollow" target="_blank"> The
-Cloud Conundrum </a> (December 2017, <em>Scientific American</em>) </li>
+scientificamerican1217-72.html" rel="nofollow" target="_blank">The
+Cloud Conundrum</a> (December 2017, <em>Scientific American</em>) </li>
 
 <li> <a href="https://eos.org/research-spotlights/how-do-clouds-react-to-
-regional-warming" rel="nofollow" target="_blank"> How Do Clouds React to
-Regional Warming? </a> (October 2017, <em>Eos</em>) </li> 
+regional-warming" rel="nofollow" target="_blank">How Do Clouds React to
+Regional Warming?</a> (October 2017, <em>Eos</em>) </li> 
 
 <li> <a href="https://www.ted.com/talks/
 kate_marvel_can_clouds_buy_us_more_time_to_solve_climate_change"
-rel="nofollow" target="_blank"> Can clouds buy us more time to solve
-climate change? </a> (July 2017, <em>TED Talk by Kate Marvel</em>) </li>
+rel="nofollow" target="_blank">Can clouds buy us more time to solve
+climate change?</a> (July 2017, <em>TED Talk by Kate Marvel</em>) </li>
 
 
 <!-- 2016--> 
