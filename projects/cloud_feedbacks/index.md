@@ -503,9 +503,13 @@ climate debate </a> (September 2011, <em>Live Science</em>) </li>
 <h4> 2019</h4>
 
 <ul>
+  
+<li>Colman, R., J. R. Brown, C. Franklin, L. Hanson, H. Ye, and M. D. Zelinka, 2019: Evaluating cloud feedbacks and rapid responses in the ACCESS model, J. Geophys. Res., 124, doi:<a href="https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2018JD029189" rel="nofollow" target="_blank">10.1029/2018JD029189</a>.</li>
 
 <li>Eyring, V., et al. including A. D. Hall and S. A. Klein, 2019: Taking climate model evaluation to the next level, <em>Nature Clim. Change</em>, doi:<a href="https://www.nature.com/articles/s41558-018-0355-y" rel="nofollow"
 target="_blank">10.1038/s41558-018-0355-y</a>.</li>
+
+<li>Terai, C. R., Y. Zhang, S. A. Klein, M. D. Zelinka, J. C. Chiu, and Q. Min, 2019: Mechanisms behind the extratropical stratiform low‐cloud optical depth response to temperature in ARM site observations, J. Geophys. Res., 124, doi:<a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2018JD029359" rel="nofollow" target="_blank">10.1029/2018JD029359</a>.</li>
 
 </ul>
 
