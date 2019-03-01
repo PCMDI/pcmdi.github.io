@@ -110,6 +110,9 @@ Science/Biological and Environmental Research
 <li>Caldwell, P. M., M. D. Zelinka, and S. A. Klein, 2019: <a
 href="https://climatemodeling.science.energy.gov/research-highlights/evaluation-proposed-emergent-constraints-climate-sensitivity" rel="nofollow" target="_blank">Evaluation of Proposed Emergent Constraints on Climate Sensitivity</a></li>
 
+<li>Terai, C., Y. Zhang, S. Klein, M. Zelinka, C. Chiu, and Q. Min,  2019: <a
+href="https://climatemodeling.science.energy.gov/research-highlights/using-ground-based-observations-understand-how-low-cloud-reflectivity-responds" rel="nofollow" target="_blank">Using Ground-Based Observations to Understand How Low Cloud Reflectivity Responds to Warming</a></li>
+
 </ul> 
 
 <h4> 2018</h4>
