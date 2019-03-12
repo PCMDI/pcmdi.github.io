@@ -87,16 +87,15 @@ Science/Biological and Environmental Research
 * [Alex Hall](http://www.atmos.ucla.edu/csrl/) (co-Investigator, UCLA) 
 * [Peter Caldwell](https://pcmdi.llnl.gov/staff/caldwell/index.html) 
 * [Timothy Myers](https://sites.google.com/site/myerstimothy/) 
-* [Xin Qu](http://www.atmos.ucla.edu/csrl/) (UCLA) 
 * [Mark Zelinka](https://markdzelinka.wordpress.com/) 
 * [Yunyan Zhang](https://pls.llnl.gov/people/staff-bios/aeed/zhang-y) 
-* [Xin Qu](http://www.atmos.ucla.edu/csrl/) (UCLA)
 
 **Former Participants:**
 
 * [Florent Brient](https://climate-dynamics.org/people/florent-brient/) (Meteo-France) 
 * [Anthony DeAngelis](https://scholar.google.com/citations?user=pzDevCsAAAAJ&hl=en) (NASA Goddard, GMAO) 
 * Neil Gordon (Space and Naval Warfare Systems Command) 
+* [Xin Qu](https://scholar.google.com/citations?user=48Cp-LoAAAAJ&hl=en) (UCLA)
 * [Christopher Terai](https://sites.google.com/site/christeraiatmos/) (UC Irvine) 
 * [Chen Zhou](https://scholar.google.com/citations?user=Ot_6YukAAAAJ&hl=en) (Nanjing University)
 
@@ -110,6 +109,9 @@ Science/Biological and Environmental Research
 
 <li>Caldwell, P. M., M. D. Zelinka, and S. A. Klein, 2019: <a
 href="https://climatemodeling.science.energy.gov/research-highlights/evaluation-proposed-emergent-constraints-climate-sensitivity" rel="nofollow" target="_blank">Evaluation of Proposed Emergent Constraints on Climate Sensitivity</a></li>
+
+<li>Terai, C., Y. Zhang, S. Klein, M. Zelinka, C. Chiu, and Q. Min,  2019: <a
+href="https://climatemodeling.science.energy.gov/research-highlights/using-ground-based-observations-understand-how-low-cloud-reflectivity-responds" rel="nofollow" target="_blank">Using Ground-Based Observations to Understand How Low Cloud Reflectivity Responds to Warming</a></li>
 
 </ul> 
 
@@ -385,18 +387,20 @@ Feedback </a> </li>
 ### Publicity ### 
 <ul> <!-- 2017--> 
   
+<li> <a href="https://www.quantamagazine.org/cloud-loss-could-add-8-degrees-to-global-warming-20190225/" rel="nofollow" target="_blank"> A World Without Clouds</a> (February 2019, <em>Quanta Magazine</em>) </li>
+  
 <li> <a href="https://www.nature.com/scientificamerican/journal/v317/n6/full/
-scientificamerican1217-72.html" rel="nofollow" target="_blank"> The
-Cloud Conundrum </a> (December 2017, <em>Scientific American</em>) </li>
+scientificamerican1217-72.html" rel="nofollow" target="_blank">The
+Cloud Conundrum</a> (December 2017, <em>Scientific American</em>) </li>
 
 <li> <a href="https://eos.org/research-spotlights/how-do-clouds-react-to-
-regional-warming" rel="nofollow" target="_blank"> How Do Clouds React to
-Regional Warming? </a> (October 2017, <em>Eos</em>) </li> 
+regional-warming" rel="nofollow" target="_blank">How Do Clouds React to
+Regional Warming?</a> (October 2017, <em>Eos</em>) </li> 
 
 <li> <a href="https://www.ted.com/talks/
 kate_marvel_can_clouds_buy_us_more_time_to_solve_climate_change"
-rel="nofollow" target="_blank"> Can clouds buy us more time to solve
-climate change? </a> (July 2017, <em>TED Talk by Kate Marvel</em>) </li>
+rel="nofollow" target="_blank">Can clouds buy us more time to solve
+climate change?</a> (July 2017, <em>TED Talk by Kate Marvel</em>) </li>
 
 
 <!-- 2016--> 
@@ -504,9 +508,13 @@ climate debate </a> (September 2011, <em>Live Science</em>) </li>
 <h4> 2019</h4>
 
 <ul>
+  
+<li>Colman, R., J. R. Brown, C. Franklin, L. Hanson, H. Ye, and M. D. Zelinka, 2019: Evaluating cloud feedbacks and rapid responses in the ACCESS model, J. Geophys. Res., 124, doi:<a href="https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2018JD029189" rel="nofollow" target="_blank">10.1029/2018JD029189</a>.</li>
 
 <li>Eyring, V., et al. including A. D. Hall and S. A. Klein, 2019: Taking climate model evaluation to the next level, <em>Nature Clim. Change</em>, doi:<a href="https://www.nature.com/articles/s41558-018-0355-y" rel="nofollow"
 target="_blank">10.1038/s41558-018-0355-y</a>.</li>
+
+<li>Terai, C. R., Y. Zhang, S. A. Klein, M. D. Zelinka, J. C. Chiu, and Q. Min, 2019: Mechanisms behind the extratropical stratiform low‐cloud optical depth response to temperature in ARM site observations, J. Geophys. Res., 124, doi:<a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2018JD029359" rel="nofollow" target="_blank">10.1029/2018JD029359</a>.</li>
 
 </ul>
 
