@@ -385,10 +385,18 @@ Feedback </a> </li>
 ---
 
 ### Publicity ### 
-<ul> <!-- 2017--> 
+<ul>
+  
+ <!-- 2019-->   
+  
+<li> <a href="https://www.llnl.gov/news/new-climate-model-evaluation-method-can-help-predict-more-accurate-future-change" rel="nofollow" target="_blank">New climate model evaluation method can help to predict more accurate future change</a> (March 2019, <em>LLNL News</em>) </li> 
   
 <li> <a href="https://www.quantamagazine.org/cloud-loss-could-add-8-degrees-to-global-warming-20190225/" rel="nofollow" target="_blank"> A World Without Clouds</a> (February 2019, <em>Quanta Magazine</em>) </li>
-  
+ 
+ <!-- 2018-->  
+ 
+ <!-- 2017--> 
+ 
 <li> <a href="https://www.nature.com/scientificamerican/journal/v317/n6/full/
 scientificamerican1217-72.html" rel="nofollow" target="_blank">The
 Cloud Conundrum</a> (December 2017, <em>Scientific American</em>) </li>
@@ -509,12 +517,17 @@ climate debate </a> (September 2011, <em>Live Science</em>) </li>
 
 <ul>
   
-<li>Colman, R., J. R. Brown, C. Franklin, L. Hanson, H. Ye, and M. D. Zelinka, 2019: Evaluating cloud feedbacks and rapid responses in the ACCESS model, J. Geophys. Res., 124, doi:<a href="https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2018JD029189" rel="nofollow" target="_blank">10.1029/2018JD029189</a>.</li>
+<li>Colman, R., J. R. Brown, C. Franklin, L. Hanson, H. Ye, and M. D. Zelinka, 2019: Evaluating cloud feedbacks and rapid responses in the ACCESS model, <em>J. Geophys. Res.</em>, 124, doi:<a href="https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2018JD029189" rel="nofollow" target="_blank">10.1029/2018JD029189</a>.</li>
 
 <li>Eyring, V., et al. including A. D. Hall and S. A. Klein, 2019: Taking climate model evaluation to the next level, <em>Nature Clim. Change</em>, doi:<a href="https://www.nature.com/articles/s41558-018-0355-y" rel="nofollow"
 target="_blank">10.1038/s41558-018-0355-y</a>.</li>
 
-<li>Terai, C. R., Y. Zhang, S. A. Klein, M. D. Zelinka, J. C. Chiu, and Q. Min, 2019: Mechanisms behind the extratropical stratiform low‐cloud optical depth response to temperature in ARM site observations, J. Geophys. Res., 124, doi:<a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2018JD029359" rel="nofollow" target="_blank">10.1029/2018JD029359</a>.</li>
+<li>Golaz, J.-C., et al. including P. M. Caldwell, S. A. Klein, and M. D. Zelinka, 2019: The DOE E3SM coupled model version 1: Overview and evaluation at standard resolution, <em>J. Adv. Model. Earth Syst.</em>, 11, doi:<a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2018MS001603" rel="nofollow" target="_blank">10.1029/2018MS001603</a>.</li>
+
+<li>Hall, A. D., P. Cox, C. Huntingford, and S. A. Klein, 2019: Progressing emergent constraints on future climate change, <em>Nature Clim. Change</em>, doi:<a href="https://www.nature.com/articles/s41558-019-0436-6" rel="nofollow"
+target="_blank">10.1038/s41558-019-0436-6</a>.</li>
+
+<li>Terai, C. R., Y. Zhang, S. A. Klein, M. D. Zelinka, J. C. Chiu, and Q. Min, 2019: Mechanisms behind the extratropical stratiform low‐cloud optical depth response to temperature in ARM site observations, <em>J. Geophys. Res.</em>, 124, doi:<a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2018JD029359" rel="nofollow" target="_blank">10.1029/2018JD029359</a>.</li>
 
 </ul>
 
