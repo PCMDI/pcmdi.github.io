@@ -32,13 +32,13 @@ model documentation should be provided as early as possible):
 
 * Request an account and then register contact information for person(s) responsible
  for entering and maintaining CMIP6 model output citation information in the [citation GUI][dkrzCitationGUI]
- [(Documentation of GUI)][dkrzCitationGUIDoc]. ***This data references should be provided before the data is 
- published in the ESGF.*** Data references will be used by
- web-based services being developed and maintained at DKRZ to ensure that data
- produced by your center is properly cited. Data users will be able to access citation
- information by: 1) following the URL stored as a global attribute (*further_info_url*)
- in each netCDF file, or 2) by following links to each dataset displayed by the
- ESGF search service.
+ [(Documentation of GUI)][dkrzCitationGUIDoc]. ***This data reference information should
+ be provided before the data is published in the ESGF.*** Data references that are generated
+ during the publication step will be used by web-based services being developed and maintained
+ at DKRZ to ensure that data produced by your center is properly cited. Data users will be
+ able to access citation information by: 1) following the URL stored as a global attribute
+ (*further_info_url*) in each netCDF file, or 2) by following links to each dataset
+ displayed by the ESGF search service.
 
    To request an account, provide the following to Martina Stockhause (stockhause@dkrz.de):
    * Person: name, email, ORCID (if available), affiliation and
