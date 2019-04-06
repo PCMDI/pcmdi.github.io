@@ -200,25 +200,27 @@ Before I came to the United States, I had worked for 5 years at the National Met
 
 1.  Xie, S. C., 1991: A New Positive Definite Advection Scheme and its Application to the Moisture Equation. ACTA METEOROLOGICA SINICA, Vol.49, 11-20.
 
-## Other Peer-Reviewed Publications (79)
+## Other Peer-Reviewed Publications (80)
 
-79.	Rasch, P. J., S. Xie, P. Ma, W. Lin, et al. (2019): An Overview of the Atmospheric Component of the Energy Exascale Earth System Model. JAMES, submitted.
+80.	Rasch, P. J., S. Xie, P. Ma, W. Lin, et al. (2019): An Overview of the Atmospheric Component of the Energy Exascale Earth System Model. JAMES, submitted.
 
-78.	Zheng et al. 2019: The Summertime Precipitation Bias in E3SM Atmosphere Model Version 1 (EAMv1) over the Central United States. Submitted to JGR
+79.	Zheng et al. 2019: The Summertime Precipitation Bias in E3SM Atmosphere Model Version 1 (EAMv1) over the Central United States. Submitted to JGR
 
-77.	Tao, C., Y. Zhang, S. Tang, Q. Tang, H. Ma, S. Xie, and M. Zhang, 2019: Regional moisture budget and land-atmosphere coupling over the US Sothern Great Plains inferred from the ARM long-term observations.  JGR, Submitted.
+78.	Tao, C., Y. Zhang, S. Tang, Q. Tang, H. Ma, S. Xie, and M. Zhang, 2019: Regional moisture budget and land-atmosphere coupling over the US Sothern Great Plains inferred from the ARM long-term observations.  JGR, Submitted.
 
-76.	Zhang, M., X. Liu, et al. (including S. Xie), 2019: Impacts of Subgrid Mixing between Cloud Liquid and Ice on Arctic Mixed-Phase Clouds with NCAR CAM5. JGR, submitted.
+77.	Zhang, M., X. Liu, et al. (including S. Xie), 2019: Impacts of Subgrid Mixing between Cloud Liquid and Ice on Arctic Mixed-Phase Clouds with NCAR CAM5. JGR, submitted.
 
-75.  Golaz, J. C. et al. (including S. Xie) (2019): The DOE E3SM Coupled Model Version 1: Overview and Evaluation at Standard Resolution, JAMES, https://doi.org/10.1029/2018MS001603.
+76.  Golaz, J. C. et al. (including S. Xie) (2019): The DOE E3SM Coupled Model Version 1: Overview and Evaluation at Standard Resolution, JAMES, https://doi.org/10.1029/2018MS001603.
 
-74.	Tang, S., Xie, S., Zhang, M., Tang, Q., Zhang, Y., Klein, S. A., et al (2019). Differences in Eddy‐Correlation and Energy‐Balance Surface Turbulent Heat Flux Measurements and Their Impacts on the Large‐scale Forcing Fields at the ARM SGP Site. Journal of Geophysical Research: Atmospheres, 124. https://doi.org/10.1029/2018JD029689.
+75.	Tang, S., Xie, S., Zhang, M., Tang, Q., Zhang, Y., Klein, S. A., et al (2019). Differences in Eddy‐Correlation and Energy‐Balance Surface Turbulent Heat Flux Measurements and Their Impacts on the Large‐scale Forcing Fields at the ARM SGP Site. Journal of Geophysical Research: Atmospheres, 124. https://doi.org/10.1029/2018JD029689.
 
-73. Tang, Q., S. A. Klein, S. Xie, W. Lin, et al. (2019). Regionally refined capability in E3SM Atmosphere Model Version 1 (EAMv1) and applications for high-resolution modelling. Geosci. Model Dev. Discuss., https://doi.org/10.5194/gmd-2019-11.
+74. Tang, Q., S. A. Klein, S. Xie, W. Lin, et al. (2019). Regionally refined capability in E3SM Atmosphere Model Version 1 (EAMv1) and applications for high-resolution modelling. Geosci. Model Dev. Discuss., https://doi.org/10.5194/gmd-2019-11.
 
-72.	Jiang, T., Evans, K., Branstetter, M., et al. (including S. Xie) (2019). Northern Hemisphere blocking in ∼25‐km‐resolution E3SM v0.3 atmosphere‐land simulations. Journal of Geophysical Research: Atmospheres, 124. https://doi.org/10.1029/2018JD028892.
+73.	Jiang, T., Evans, K., Branstetter, M., et al. (including S. Xie) (2019). Northern Hemisphere blocking in ∼25‐km‐resolution E3SM v0.3 atmosphere‐land simulations. Journal of Geophysical Research: Atmospheres, 124. https://doi.org/10.1029/2018JD028892.
 
-71.	Qian, Y., and coauthors including S. Xie, 2018: Parametric Sensitivity and Uncertainty Quantification in the Version 1 of E3SM Atmosphere Model Based on Short Perturbed Parameter Ensemble Simulations. J. Geophys. Res. Atmos., https://doi.org/10.1029/2018JD028927.
+72.	Qian, Y., and coauthors including S. Xie, 2018: Parametric Sensitivity and Uncertainty Quantification in the Version 1 of E3SM Atmosphere Model Based on Short Perturbed Parameter Ensemble Simulations. J. Geophys. Res. Atmos., https://doi.org/10.1029/2018JD028927.
+
+71. Zhang, K., Rasch, P. J., Taylor, M. A., Wan, H., Leung, R., Ma, P.-L., Golaz, J.-C., Wolfe, J., Lin, W., Singh, B., Burrows, S., Yoon, J.-H., Wang, H., Qian, Y., Tang, Q., Caldwell, P., and Xie, S.: Impact of numerical choices on water conservation in the E3SM Atmosphere Model version 1 (EAMv1), Geosci. Model Dev., 11, 1971-1988, https://doi.org/10.5194/gmd-11-1971-2018, 2018
 
 70.	Zhang, T., Zhang, M., Lin, W., Lin, Y., Xue, W., Yu, H., He, J., Xin, X., Ma, H.-Y., Xie, S., and Zheng, W. 2018: Automatic tuning of the Community Atmospheric Model (CAM5) by using short-term hindcasts with an improved downhill simplex optimization method, Geosci. Model Dev., 11, 5189-5201, https://doi.org/10.5194/gmd-11-5189-2018. 
 
