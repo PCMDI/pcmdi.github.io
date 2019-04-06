@@ -696,7 +696,9 @@ rel="nofollow" target="_blank">10.1002/2016GL069917</a>.</li>
 
 <li>Zhou, C., M. D. Zelinka, and S. A. Klein, 2016: Impact of decadal
 cloud variations on the Earth's energy budget. <em>Nature
-Geoscience</em>, <strong>9</strong>, 871-874, doi:10.1038/ngeo2828.</li>
+Geoscience</em>, <strong>9</strong>, 871-874, doi:<a
+href="https://www.nature.com/articles/ngeo2828"
+rel="nofollow" target="_blank">10.1038/ngeo2828</a>.</li>
 
 </ul>
 
