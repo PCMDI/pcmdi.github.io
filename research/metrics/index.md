@@ -8,7 +8,7 @@ title: PCMDI - Metrics
 ### Extra-tropical Variability Modes
 Metrics for Modes of Variability Metrics for CMIP5/6 models. The Modes of Variability Metrics is developed at Program for Climate Model Diagnosis and Intercomparison (PCMDI) of Lawrence Livermore Natioanal Laboratory (LLNL). The metrics were developed by Jiwoo Lee, Ken Sperber, Peter Gleckler, Celine Bonfils, and Karl Taylor. 
 
-> [Lee et al. (2019) "Quantifying the agreement between observed and simulated extratropical modes of interannual variability" (Climate Dynamics)][lee2019].
+> [Lee et al. (2019) Quantifying the agreement between observed and simulated extratropical modes of interannual variability. Climate Dynamics][lee2019].
 ---
 
 ### Monsoon Precipitation: Fractional Accumulation
