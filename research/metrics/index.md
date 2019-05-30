@@ -8,7 +8,7 @@ title: PCMDI - Metrics
 ### Extra-tropical Variability Modes
 Metrics for Modes of Variability Metrics for CMIP5/6 models. The Modes of Variability Metrics is developed at Program for Climate Model Diagnosis and Intercomparison (PCMDI) of Lawrence Livermore Natioanal Laboratory (LLNL). The metrics were developed by Jiwoo Lee, Ken Sperber, Peter Gleckler, Celine Bonfils, and Karl Taylor. 
 
-> [Lee et al. (2019) Quantifying the agreement between observed and simulated extratropical modes of interannual variability. Climate Dynamics][lee2019].
+> Lee, J., Sperber, K.R., Gleckler, P.J., Bonfils, C.J. and Taylor, K.E., 2019. Quantifying the agreement between observed and simulated extratropical modes of interannual variability. Climate dynamics, 52: 4057-4089, [doi: 10.1007/s00382-018-4355-4][lee2019].
 
 #### [CMIP5 Historical, amplitude][CMIP5_variability_amplitude]
 #### [CMIP5 Historical, RMSE][CMIP5_variability_rmse]
@@ -19,7 +19,7 @@ Metrics for Modes of Variability Metrics for CMIP5/6 models. The Modes of Variab
 ### Monsoon Precipitation: Fractional Accumulation
 Monsoon metrics for CMIP5 models. The Metric is developed at Program for Climate Model Diagnosis and Intercomparison (PCMDI) of Lawrence Livermore Natioanal Laboratory (LLNL). The metrics were developed by Ken Sperber.
 
-> [Sperber, K.R. & Annamalai, H. Clim Dyn (2014) 43: 3219. The use of fractional accumulated precipitation for the evaluation of the annual cycle of monsoons][sperber2004]
+> Sperber, K.R. and Annamalai, H., 2014. The use of fractional accumulated precipitation for the evaluation of the annual cycle of monsoons. Climate dynamics, 43, 3219-3244, [doi:10.1007/s00382-014-2099-3][sperber2004]
 
 #### CMIP5 Historical: [onset][CMIP5_monsoon_sperber_onset] | [decay][CMIP5_monsoon_sperber_decay] | [duration][CMIP5_monsoon_sperber_duration]
 
