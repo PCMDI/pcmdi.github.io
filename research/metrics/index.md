@@ -11,7 +11,7 @@ Metrics for Modes of Variability Metrics for CMIP5/6 models. The Modes of Variab
 > Lee, J., Sperber, K.R., Gleckler, P.J., Bonfils, C.J. and Taylor, K.E., 2019. Quantifying the agreement between observed and simulated extratropical modes of interannual variability. Climate dynamics, 52: 4057-4089, [doi: 10.1007/s00382-018-4355-4][lee2019].
 
 #### CMIP5 Historical: [Amplitude][CMIP5_variability_amplitude] | [RMSE][CMIP5_variability_rmse]
-#### CMIP6 Historical [Amplitude][CMIP6_variability_amplitude] | [RMSE][CMIP6_variability_rmse]
+#### CMIP6 Historical: [Amplitude][CMIP6_variability_amplitude] | [RMSE][CMIP6_variability_rmse]
 ---
 
 ### Monsoon Precipitation: Fractional Accumulation
