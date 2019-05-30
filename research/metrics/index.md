@@ -10,10 +10,8 @@ Metrics for Modes of Variability Metrics for CMIP5/6 models. The Modes of Variab
 
 > Lee, J., Sperber, K.R., Gleckler, P.J., Bonfils, C.J. and Taylor, K.E., 2019. Quantifying the agreement between observed and simulated extratropical modes of interannual variability. Climate dynamics, 52: 4057-4089, [doi: 10.1007/s00382-018-4355-4][lee2019].
 
-#### [CMIP5 Historical, amplitude][CMIP5_variability_amplitude]
-#### [CMIP5 Historical, RMSE][CMIP5_variability_rmse]
-#### [CMIP6 Historical, amplitude][CMIP6_variability_amplitude]
-#### [CMIP6 Historical, RMSE][CMIP6_variability_rmse]
+#### CMIP5 Historical: [Amplitude][CMIP5_variability_amplitude] | [RMSE][CMIP5_variability_rmse]
+#### CMIP6 Historical [Amplitude][CMIP6_variability_amplitude] | [RMSE][CMIP6_variability_rmse]
 ---
 
 ### Monsoon Precipitation: Fractional Accumulation
@@ -21,7 +19,7 @@ Monsoon metrics for CMIP5 models. The Metric is developed at Program for Climate
 
 > Sperber, K.R. and Annamalai, H., 2014. The use of fractional accumulated precipitation for the evaluation of the annual cycle of monsoons. Climate dynamics, 43, 3219-3244, [doi:10.1007/s00382-014-2099-3][sperber2004]
 
-#### CMIP5 Historical: [onset][CMIP5_monsoon_sperber_onset] | [decay][CMIP5_monsoon_sperber_decay] | [duration][CMIP5_monsoon_sperber_duration]
+#### CMIP5 Historical: [Onset][CMIP5_monsoon_sperber_onset] | [Decay][CMIP5_monsoon_sperber_decay] | [Duration][CMIP5_monsoon_sperber_duration]
 
 ---
 
