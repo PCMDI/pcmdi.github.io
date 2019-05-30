@@ -5,6 +5,8 @@ title: PCMDI - Metrics
 
 # PCMDI Metrics Package: Preliminary Results
 
+The PCMDI Metrics Package (PMP) provides a diverse suite of objective summaries of Earth System Model agreement with observations.
+
 ### Extra-tropical Variability Modes
 Metrics for Modes of Variability Metrics for CMIP5/6 models. The Modes of Variability Metrics is developed at Program for Climate Model Diagnosis and Intercomparison (PCMDI) of Lawrence Livermore Natioanal Laboratory (LLNL). The metrics were developed by Jiwoo Lee, Ken Sperber, Peter Gleckler, Celine Bonfils, and Karl Taylor. 
 
