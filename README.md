@@ -1,7 +1,7 @@
 pcmdi.github.io
 ===============
 
-This repo is used for hosting the http://pcmdi.github.io web site. The official web site is available at https://pcmdi.llnl.gov/.
+This repo is used for hosting the http://pcmdi.github.io web site. The official web site is available at https://pcmdi.llnl.gov/.  Tmp viewing at: https://lee1043.github.io/research/metrics/
 
 ### Step by Step: How to contribute with content to PCMDI Website 
 *  [instructions](https://github.com/PCMDI/pcmdi.github.io/wiki/How-to-contribute-with-Content-----Step-by-Step)
