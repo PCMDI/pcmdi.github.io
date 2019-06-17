@@ -3,9 +3,8 @@ layout: default
 title: PCMDI - Metrics
 ---
 
-# PCMDI Metrics Package Preliminary Results (v1.0)
-
-The PCMDI Metrics Package (PMP) provides a diverse suite of objective summaries of Earth System Model agreement with observations. Simulation summary metrics listed below is version 1.0 released at 17 June 2019.
+# PCMDI Simulation Metrics (v1.0)
+The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) provides a diverse suite of objective summaries of Earth System Model agreement with observations. Simulation summary metrics listed below is our preliminary results marked as version 1.0 released at 17 June 2019.
 
 ---
 ## Extra-tropical Variability Modes
@@ -27,7 +26,7 @@ Monsoon metrics for CMIP5 models. The Metric is developed at Program for Climate
 - #### CMIP5 Historical: [Onset][CMIP5_monsoon_sperber_onset] | [Decay][CMIP5_monsoon_sperber_decay] | [Duration][CMIP5_monsoon_sperber_duration]
 
 ---
-## PCMDI Simulation Metrics Updates
+## Updates
 - v1.0: Summary statistics first released for extra-tropical variability modes for CMIP5 and CMIP6, and fractional accumulation for monsoon precipitation for CMIP5 (17 June 2019)
 
 
