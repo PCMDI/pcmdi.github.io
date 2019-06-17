@@ -4,7 +4,7 @@ title: PCMDI - Metrics
 ---
 
 # PCMDI Simulation Metrics (v1.0)
-The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) provides a diverse suite of objective summaries of Earth System Model agreement with observations. Simulation summary metrics listed below is our preliminary results marked as version 1.0 released at 17 June 2019.
+The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) provides a diverse suite of objective summaries of Earth System Model agreement with observations. Simulation summary metrics listed below is our preliminary results marked as version 1.0 released at 17 June 2019. Further update will follow.
 
 ---
 ## Extra-tropical Variability Modes
