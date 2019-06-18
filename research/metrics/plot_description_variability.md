@@ -2,7 +2,8 @@
 layout: default
 title: PCMDI - Metrics
 ---
-### RMSE Portrait Plots
+# Extra-tropical Variability Modes
+## RMSE Portrait Plots
 The RMSE Portrait Plots for the modes of variability are akin to Fig. 13a from Lee et al. (2018). For CMIP5 and CMIP6 they show the RMSE relative to the median RMSE of all respective simulations for each mode and season. The RMSE contains errors that arise both in terms of pattern error and amplitude error. The mode/season results for all models are organized by rows, whereas the results from individual realizations across all modes and seasons are isolated by columns. In each cell the normalized results are shown, with for example a result of 0.50 indicating the model RMSE is 50% greater than the median RMSE, whereas a result of −0.25 reflects an error that is 25% smaller than the median of all model results for that particular mode and season. Finally, the upper-left triangle in each cell depicts results based on our default reference (20CR for the sea-level pressure based modes, HadISSTv1.1 for the PDO and NPGO), whereas the results in the lower-right triangle are based on our first alternate source (ERA-20C for sea-level pressure based modes, HadISSTv2.1 for the PDO).
 
 For the RMSE, the advantage of the Portrait Plot is that (1) it allows us to show on a single plot the model performance irrespective of the units of the variable under consideration and/or where the range of the absolute RMSE is different between modes/seasons, (2) it preserves the relative model performance with respect to the observations, and (3) it gives an indication of how well a given model is performing in a multi-model context.
@@ -12,7 +13,7 @@ The Portrait Plots are interactive. Clicking on any cell triangle will give its 
 #### General Conclusions
 There are several general conclusions that we can draw from the RMSE Portrait Plots. Firstly, though the selection of a reference dataset is important, it does not radically impact the general conclusions about a particular model’s agreement with the observed EOF spatial pattern. Secondly, with some binning of the results (the color bar uses 10% increments), we see that in many cases the results for a given model’s relative performance is not very sensitive to which realization is examined. Our results are thus fairly robust to internal variability and selection of reference data. A more detailed discussion of the RMSE results are given in Lee et al. (2018).
 
-### Amplitude Portrait Plots
+## Amplitude Portrait Plots
 
 The amplitude Portrait Plots for the modes of variability are akin to Fig. 14 from Lee et al. (2018). It gives the standard deviation of the model CBF PC time series divided by the standard deviation of the observed PC time series such that values close to one indicate consistency between the models and observations.
 
