@@ -33,7 +33,7 @@ The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) provid
 [v1.0]: {{site.baseurl}}/research/metrics/index.html
 [v0.1]: {{site.baseurl}}/research/metrics/index_v0.1.html
 
-[description]: {{site.baseurl}}/research/metrics/plot_description.html
+[description]: {{site.baseurl}}/research/metrics/plot_description_variability.html
 
 [lee2019]: https://link.springer.com/article/10.1007/s00382-018-4355-4
 [sperber2004]: https://doi.org/10.1007/s00382-014-2099-3
