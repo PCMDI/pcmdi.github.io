@@ -2,7 +2,7 @@
 layout: default
 title: PCMDI - Metrics
 ---
-# Monsoon Onset, Decay, and Duration
+# Portrait Plots for Monsoon Onset, Decay, and Duration
 These results are based on the work of Sperber and Annamalai (2014) in which climatological pentads of precipitation were analyzed in observations and CMIP5 for 6 monsoon-related domains (AIR: All-India Rainfall, AUS: Australian Monsoon, GoG: Gulf of Guinea, NAM: North American Monsoon, SAM: South American Monsoon, and Sahel). In the Northern Hemisphere the 73 climatological pentads run from January-December, while in the Southern Hemisphere the climatological pentads run from July-June. For each domain the precipitation is accumulated at each subsequent pentad and then divided by the total precipitation to give the fractional accumulation of precipitation as a function of pentad. Except for GoG, onset (decay) of monsoon occurs for a fractional accumulation of 0.2 (0.8). Between these fractional accumulations the accumulation of precipitation is nearly linear as the monsoon season progresses.
 
 The monsoon Portrait Plots are interactive. Clicking on any cell gives the fractional accumulations for all monsoon domains for that model in comparison with two sets of observations. The plots are the same irrespective of whether one is looking at the plot of onset, decay, or duration. The only difference is that the numerical value of the metric for that cell and that Portrait Plot is given in the meta data.
