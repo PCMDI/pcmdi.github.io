@@ -20,8 +20,8 @@ The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a c
   > Lee, J., Sperber, K.R., Gleckler, P.J., Bonfils, C.J. and Taylor, K.E., 2019. Quantifying the agreement between observed and simulated extratropical modes of interannual variability. Climate Dynamics, 52: 4057-4089, [doi: 10.1007/s00382-018-4355-4][lee2019].
 
 - #### Summary statistics
-  - #### CMIP5 Historical: [Amplitude][CMIP5_variability_amplitude] | [RMSE][CMIP5_variability_rmse]
-  - #### CMIP6 Historical: [Amplitude][CMIP6_variability_amplitude] | [RMSE][CMIP6_variability_rmse]
+  - #### CMIP5 Historical: [RMSE][CMIP5_variability_rmse] | [Amplitude][CMIP5_variability_amplitude]
+  - #### CMIP6 Historical: [RMSE][CMIP6_variability_rmse] | [Amplitude][CMIP6_variability_amplitude]
 
 ---
 ## <a name="monsoon"></a>Monsoon Precipitation: Fractional Accumulation
