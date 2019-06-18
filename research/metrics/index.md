@@ -34,8 +34,8 @@ The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a c
 
 ---
 ## Updates
-- [v1.0][v1.0]: Release of summary statistics for extratropical modes of variability in CMIP5 and CMIP6, and for monsoon precipitation onset, decay, and duration in CMIP5 (18 June 2019)
-- [v0.1][v0.1]: Release of summary statistics for extratropical modes of variability in CMIP5 and CMIP6 (31 May 2019).
+- [**v1.0**][v1.0]: Release of summary statistics for extratropical modes of variability in CMIP5 and CMIP6, and for monsoon precipitation onset, decay, and duration in CMIP5 (18 June 2019)
+- [**v0.1**][v0.1]: Release of summary statistics for extratropical modes of variability in CMIP5 and CMIP6 (31 May 2019).
 
 [v1.0]: {{site.baseurl}}/research/metrics/index.html
 [v0.1]: {{site.baseurl}}/research/metrics/index_v0.1.html
