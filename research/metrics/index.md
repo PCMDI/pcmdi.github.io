@@ -18,7 +18,7 @@ The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) provid
 
 ---
 ## Monsoon Precipitation: Fractional Accumulation
-- Based on the work of Sperber and Annamalai (2014), we present skill metrics that indicate how well models simulate the onset, decay, and duration of monsoon based on the analysis of climatological pentads of precipitation. Using Historical simulations, the results are based on area-averaged data for All-India Rainfall (AIR), Sahel, Gulf of Guinea (GoG), North American Monsoon (NAM), South American Monsoon (SAM), and Northern Australia (AUS). For a brief description of the results, please click [here][description]. For more detailed information see:
+- Based on the work of Sperber and Annamalai (2014), we present skill metrics that indicate how well models simulate the onset, decay, and duration of monsoon based on the analysis of climatological pentads of precipitation. Using Historical simulations, the results are based on area-averaged data for All-India Rainfall (AIR), Sahel, Gulf of Guinea (GoG), North American Monsoon (NAM), South American Monsoon (SAM), and Northern Australia (AUS). For a brief description of the results, please click [here][description_monsoon]. For more detailed information see:
 
   > Sperber, K.R. and Annamalai, H., 2014. The use of fractional accumulated precipitation for the evaluation of the annual cycle of monsoons. Climate dynamics, 43, 3219-3244, [doi:10.1007/s00382-014-2099-3][sperber2004]
 
