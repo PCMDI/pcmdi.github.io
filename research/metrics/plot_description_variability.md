@@ -2,7 +2,7 @@
 layout: default
 title: PCMDI - Metrics
 ---
-# Extra-tropical Variability Modes
+# Portrait Plots for Extra-tropical Variability Modes
 ## RMSE Portrait Plots
 The RMSE Portrait Plots for the modes of variability are akin to Fig. 13a from Lee et al. (2018). For CMIP5 and CMIP6 they show the RMSE relative to the median RMSE of all respective simulations for each mode and season. The RMSE contains errors that arise both in terms of pattern error and amplitude error. The mode/season results for all models are organized by rows, whereas the results from individual realizations across all modes and seasons are isolated by columns. In each cell the normalized results are shown, with for example a result of 0.50 indicating the model RMSE is 50% greater than the median RMSE, whereas a result of −0.25 reflects an error that is 25% smaller than the median of all model results for that particular mode and season. Finally, the upper-left triangle in each cell depicts results based on our default reference (20CR for the sea-level pressure based modes, HadISSTv1.1 for the PDO and NPGO), whereas the results in the lower-right triangle are based on our first alternate source (ERA-20C for sea-level pressure based modes, HadISSTv2.1 for the PDO).
 
