@@ -28,7 +28,7 @@ The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) provid
 ---
 ## Updates
 - [v1.0][v1.0]: Summary statistics first released for extra-tropical variability modes for CMIP5 and CMIP6, and fractional accumulation for monsoon precipitation for CMIP5 (17 June 2019)
-- [v0.1][v0.1]: Test output listed.
+- [v0.1][v0.1]: Test output listed (31 May 2019).
 
 [v1.0]: {{site.baseurl}}/research/metrics/index.html
 [v0.1]: {{site.baseurl}}/research/metrics/index_v0.1.html
