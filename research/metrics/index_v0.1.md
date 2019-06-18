@@ -27,10 +27,7 @@ The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) provid
 
 [lee2019]: https://link.springer.com/article/10.1007/s00382-018-4355-4
 [sperber2004]: https://doi.org/10.1007/s00382-014-2099-3
-[CMIP5_variability_amplitude]: https://oceanonly.llnl.gov/lee1043/web/test_dir/ipp_test_variability_modes/cmip5_v20190512/clickable_portrait.html
-[CMIP5_variability_rmse]: https://oceanonly.llnl.gov/lee1043/web/test_dir/ipp_test_variability_modes/cmip5_v20190512_rmse/clickable_portrait.html
-[CMIP6_variability_amplitude]: https://oceanonly.llnl.gov/lee1043/web/test_dir/ipp_test_variability_modes/cmip6_v20190503/clickable_portrait.html
-[CMIP6_variability_rmse]: https://oceanonly.llnl.gov/lee1043/web/test_dir/ipp_test_variability_modes/cmip6_v20190503_rmse/clickable_portrait.html
-[CMIP5_monsoon_sperber_onset]: https://oceanonly.llnl.gov/lee1043/web/test_dir/ipp_test_monsoon_sperber/onset_index_rel2obs/clickable_portrait.html
-[CMIP5_monsoon_sperber_decay]: https://oceanonly.llnl.gov/lee1043/web/test_dir/ipp_test_monsoon_sperber/decay_index_rel2obs/clickable_portrait.html
-[CMIP5_monsoon_sperber_duration]: https://oceanonly.llnl.gov/lee1043/web/test_dir/ipp_test_monsoon_sperber/duration_rel2obs/clickable_portrait.html
+[CMIP5_variability_amplitude]: https://pcmdi.llnl.gov/pmp-preliminary-results/ipp_test_variability_modes/cmip5_v20190512/clickable_portrait.html
+[CMIP5_variability_rmse]: https://pcmdi.llnl.gov/pmp-preliminary-results/ipp_test_variability_modes/cmip5_v20190512_rmse/clickable_portrait.html
+[CMIP6_variability_amplitude]: https://pcmdi.llnl.gov/pmp-preliminary-results/ipp_test_variability_modes/cmip6_v20190503/clickable_portrait.html
+[CMIP6_variability_rmse]: https://pcmdi.llnl.gov/pmp-preliminary-results/ipp_test_variability_modes/cmip6_v20190503_rmse/clickable_portrait.html
