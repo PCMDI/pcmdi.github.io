@@ -4,11 +4,11 @@ title: PCMDI - Metrics
 ---
 
 # PCMDI Simulation Metrics ([v1.0][v1.0])
-The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) provides a diverse suite of objective summaries of Earth System Model agreement with observations. Simulation summary metrics listed below is our preliminary results marked as version 1.0 released at 17 June 2019. Further update will follow.
+The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) provides a diverse suite of objective summaries of Earth System Model agreement with observations. As additional objective summaries become available, this webpage will be updated.
 
 ---
 ## Extra-tropical Variability Modes
-- Metrics for Modes of Variability Metrics for CMIP5/6 models. The Modes of Variability Metrics is developed at Program for Climate Model Diagnosis and Intercomparison (PCMDI) of Lawrence Livermore Natioanal Laboratory (LLNL). The metrics were developed by Jiwoo Lee, Ken Sperber, Peter Gleckler, Celine Bonfils, and Karl Taylor. 
+- Based on the work of Lee et al. (2018), we present skill metrics for the Northern Annular Model (NAM), the North Atlantic Oscillation (NAO), the Southern Annular Mode (SAM), the Pacific North American pattern (PNA), the North Pacific Oscillation (NPO), the Pacific Decadal Oscillation (PDO), and the North Pacific Gyre Oscillation (NPGO). For NAM, NAO, SAM, PNA, and NPO the results are based on sea-level pressure, while the results for PDO and NPGO are based on sea surface temperature. Using the Historical simulations, the skill of the spatial patterns is given by the Root-Mean-Squared-Error (RMSE), and the Amplitude gives the standard deviation of the Principal Component time series. The skill metrics are calculated with respect to a primary and secondary sets of observations denoted by the triangles in each cell of the Portrait Plots. For a brief description of the results, please click [here][description]. For more detailed information see:
 
   > Lee, J., Sperber, K.R., Gleckler, P.J., Bonfils, C.J. and Taylor, K.E., 2019. Quantifying the agreement between observed and simulated extratropical modes of interannual variability. Climate dynamics, 52: 4057-4089, [doi: 10.1007/s00382-018-4355-4][lee2019].
 
@@ -18,7 +18,7 @@ The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) provid
 
 ---
 ## Monsoon Precipitation: Fractional Accumulation
-- Monsoon metrics for CMIP5 models. The Metric is developed at Program for Climate Model Diagnosis and Intercomparison (PCMDI) of Lawrence Livermore Natioanal Laboratory (LLNL). The metrics were developed by Ken Sperber.
+- Based on the work of Sperber and Annamalai (2014), we present skill metrics that indicate how well models simulate the onset, decay, and duration of monsoon based on the analysis of climatological pentads of precipitation. Using Historical simulations, the results are based on area-averaged data for All-India Rainfall (AIR), Sahel, Gulf of Guinea (GoG), North American Monsoon (NAM), South American Monsoon (SAM), and Northern Australia (AUS). For a brief description of the results, please click [here][description]. For more detailed information see:
 
   > Sperber, K.R. and Annamalai, H., 2014. The use of fractional accumulated precipitation for the evaluation of the annual cycle of monsoons. Climate dynamics, 43, 3219-3244, [doi:10.1007/s00382-014-2099-3][sperber2004]
 
@@ -27,11 +27,13 @@ The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) provid
 
 ---
 ## Updates
-- [v1.0][v1.0]: Additional summary statistics available for fractional accumulation for monsoon precipitation for CMIP5 (17 June 2019)
-- [v0.1][v0.1]: Summary statistics for extra-tropical variability modes for CMIP5 and CMIP6 (31 May 2019).
+- [v1.0][v1.0]: Release of summary statistics for extratropical modes of variability in CMIP5 and CMIP6, and for monsoon precipitation onset, decay, and duration in CMIP5 (17 June 2019)
+- [v0.1][v0.1]: Release of summary statistics for extratropical modes of variability in CMIP5 and CMIP6 (31 May 2019).
 
 [v1.0]: {{site.baseurl}}/research/metrics/index.html
 [v0.1]: {{site.baseurl}}/research/metrics/index_v0.1.html
+
+[description]: {{site.baseurl}}/research/metrics/plot_description.html
 
 [lee2019]: https://link.springer.com/article/10.1007/s00382-018-4355-4
 [sperber2004]: https://doi.org/10.1007/s00382-014-2099-3
