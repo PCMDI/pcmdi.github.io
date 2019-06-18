@@ -4,7 +4,7 @@ title: PCMDI - Metrics
 ---
 
 # PCMDI Simulation Summaries ([v1.0][v1.0])
-The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a capability that can be used to produce a diverse suite of objective summaries of Earth System Model agreement with observations. At PCMDI, we are routinely applying the PMP to multiple generations of CMIP, including the most recent results from CMIP6 as they become available.  The summaries available below will be regularly updated as new results become available.
+The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a capability that can be used to produce a diverse suite of objective summaries of Earth System Model agreement with observations. At PCMDI, we are routinely applying the PMP to multiple generations of CMIP, including the most recent results from CMIP6 as they become available. The summaries available below will be regularly updated as new results become available.
 
 - [Extratropical Modes of Variability](#variability)
 - [Monsoon Precipitation: Fractional Accumulation](#monsoon)
