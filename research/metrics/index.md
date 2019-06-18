@@ -3,7 +3,7 @@ layout: default
 title: PCMDI - Metrics
 ---
 
-# PCMDI Simulation Summaries ([v1.0][v1.0])
+# PCMDI Simulation Summaries ([v1.0.0-beta][v1.0.0-beta])
 The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a capability that can be used to produce a diverse suite of objective summaries of Earth System Model agreement with observations. At PCMDI, we are routinely applying the PMP to multiple generations of CMIP, including the most recent results from CMIP6 as they become available. The summaries available below will be regularly updated as new results become available.
 
 - [Extratropical Modes of Variability](#variability)
@@ -34,11 +34,11 @@ The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a c
 
 ---
 ## Updates
-- [**v1.0**][v1.0]: Release of summary statistics for extratropical modes of variability in CMIP5 and CMIP6, and for monsoon precipitation onset, decay, and duration in CMIP5 (18 June 2019)
-- [**v0.1**][v0.1]: Release of summary statistics for extratropical modes of variability in CMIP5 and CMIP6 (31 May 2019).
+- [**v1.0.0-beta**][v1.0.0-beta]: Release of summary statistics for extratropical modes of variability in CMIP5 and CMIP6, and for monsoon precipitation onset, decay, and duration in CMIP5 (18 June 2019)
+- [**v1.0.0-alpha**][v1.0.0-alpha]: Release of summary statistics for extratropical modes of variability in CMIP5 and CMIP6 (31 May 2019).
 
-[v1.0]: {{site.baseurl}}/research/metrics/index.html
-[v0.1]: {{site.baseurl}}/research/metrics/index_v0.1.html
+[v1.0.0-beta]: {{site.baseurl}}/research/metrics/index.html
+[v1.0.0-alpha]: {{site.baseurl}}/research/metrics/index_v1.0.0-alpha.html
 
 [description_variability]: {{site.baseurl}}/research/metrics/plot_description_variability.html
 [description_monsoon]: {{site.baseurl}}/research/metrics/plot_description_monsoon.html
