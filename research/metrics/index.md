@@ -6,11 +6,11 @@ title: PCMDI - Metrics
 # PCMDI Simulation Metrics ([v1.0][v1.0])
 The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) provides a diverse suite of objective summaries of Earth System Model agreement with observations. As additional objective summaries become available, this webpage will be updated.
 
-- [Extratropical Variability Modes](#variability)
+- [Extratropical Modes of Variability](#variability)
 - [Monsoon Precipitation: Fractional Accumulation](#monsoon)
 
 ---
-## <a name="variability"></a>Extratropical Variability Modes
+## <a name="variability"></a>Extratropical Modes of Variability
 - Based on the work of [Lee et al. (2019)][lee2019], we present skill metrics for the Northern Annular Model (NAM), the North Atlantic Oscillation (NAO), the Southern Annular Mode (SAM), the Pacific North American pattern (PNA), the North Pacific Oscillation (NPO), the Pacific Decadal Oscillation (PDO), and the North Pacific Gyre Oscillation (NPGO). For NAM, NAO, SAM, PNA, and NPO the results are based on sea-level pressure, while the results for PDO and NPGO are based on sea surface temperature. Our approach distinguishes itself from other studies that analyze modes of variability in that we use the Common Basis Function approach (CBF), in which model anomalies are projected onto the observed modes of variability. Using the Historical simulations, the skill of the spatial patterns is given by the Root-Mean-Squared-Error (RMSE), and the Amplitude gives the standard deviation of the Principal Component time series. The skill metrics are calculated with respect to a primary and secondary sets of observations denoted by the triangles in each cell of the Portrait Plots. For a brief description of the results, please click [here][description_variability]. For more detailed information see:
 
   > Lee, J., Sperber, K.R., Gleckler, P.J., Bonfils, C.J. and Taylor, K.E., 2019. Quantifying the agreement between observed and simulated extratropical modes of interannual variability. Climate dynamics, 52: 4057-4089, [doi: 10.1007/s00382-018-4355-4][lee2019].
