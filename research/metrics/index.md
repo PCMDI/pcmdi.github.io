@@ -4,7 +4,7 @@ title: PCMDI - Metrics
 ---
 
 
-# Metrics
+# Climate Model Metrics
 ---
 # _PCMDI Simulation Summaries ([v1.0.0-beta][v1.0.0-beta])_
 
