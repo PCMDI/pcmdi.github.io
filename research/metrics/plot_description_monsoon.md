@@ -10,8 +10,10 @@ The monsoon Portrait Plots are interactive. Clicking on any cell gives the fract
 #### General Results
 The results are presented in terms of the model pentad minus the observed pentad. Negative (positive) values indicate that the onset or decay in the model occurs earlier (later) than in observations. For duration, negative (positive) values indicate that for the model it takes fewer (more) pentads to progress from onset to decay compared to observations. For CMIP5 the main conclusion is that we find systematic errors in the phase of the annual cycle of rainfall. The models are delayed in the onset of summer rainfall over India, the Gulf of Guinea, and the South American Monsoon, with early onset prevalent for the Sahel and the North American Monsoon. The lack of consistency in the phase error across all domains suggests that a ‘‘global’’ approach to the study of monsoons may not be sufficient to rectify the regional differences. Rather, regional process studies are necessary for diagnosing the underlying causes of the regionally specific systematic model biases over the different monsoon domains.
 
-  > ## Reference
-  > Sperber, K.R. and Annamalai, H., 2014. The use of fractional accumulated precipitation for the evaluation of the annual cycle of monsoons. Climate Dynamics, 43, 3219-3244, [doi:10.1007/s00382-014-2099-3][sperber2004]
+---
+
+## Reference
+> Sperber, K.R. and Annamalai, H., 2014. The use of fractional accumulated precipitation for the evaluation of the annual cycle of monsoons. Climate Dynamics, 43, 3219-3244, [doi:10.1007/s00382-014-2099-3][sperber2004]
 
 
 [sperber2004]: https://doi.org/10.1007/s00382-014-2099-3
