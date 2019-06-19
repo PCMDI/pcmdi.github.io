@@ -7,6 +7,8 @@ title: PCMDI - Metrics
 - [RMSE Portrait Plots](#rmse)
 - [Amplitude Portrait Plots](#amplitude)
 
+---
+
 ## <a name="rmse"></a>RMSE Portrait Plots
 
 [<img src="https://pcmdi.llnl.gov/pmp-preliminary-results/ipp_test_variability_modes/cmip5_v20190512_rmse/clickable_portrait.png" alt="CMIP5 historical RMSE" width="500">][CMIP5_variability_rmse]
@@ -26,6 +28,8 @@ The Portrait Plots are interactive. Clicking on any cell triangle will give its 
 
 #### General Conclusions
 There are several general conclusions that we can draw from the RMSE Portrait Plots. Firstly, though the selection of a reference dataset is important, it does not radically impact the general conclusions about a particular model’s agreement with the observed EOF spatial pattern. Secondly, with some binning of the results (the color bar uses 10% increments), we see that in many cases the results for a given model’s relative performance is not very sensitive to which realization is examined. Our results are thus fairly robust to internal variability and selection of reference data. A more detailed discussion of the RMSE results are given in [Lee et al. (2019)][lee2019].
+
+---
 
 ## <a name="amplitude"></a>Amplitude Portrait Plots
 
