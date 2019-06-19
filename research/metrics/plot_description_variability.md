@@ -38,12 +38,12 @@ There are several general conclusions that we can draw from the RMSE Portrait Pl
 
 ## <a name="amplitude"></a>Amplitude Portrait Plots
 
-<div align="center">
-
+<p style="text-align: center;">
+  
 [<img src="https://pcmdi.llnl.gov/pmp-preliminary-results/ipp_test_variability_modes/cmip5_v20190512/clickable_portrait.png" alt="CMIP5 historical Amplitude" width="500">][CMIP5_variability_amplitude]
 
 (Click thumbnail image for the interactive version for CMIP5 historical)
-</div>
+</p>
 
 The amplitude Portrait Plots for the modes of variability are akin to Fig. 14 from [Lee et al. (2019)][lee2019]. It gives the standard deviation of the model CBF PC time series divided by the standard deviation of the observed PC time series such that values close to one indicate consistency between the models and observations.
 
