@@ -12,7 +12,7 @@ title: PCMDI - Metrics
 ## <a name="rmse"></a>RMSE Portrait Plots
 
 <div align="center">
-<a href="https://pcmdi.llnl.gov/pmp-preliminary-results/ipp_test_variability_modes/cmip5_v20190512_rmse/clickable_portrait.html" target="blank"><img src="https://pcmdi.llnl.gov/pmp-preliminary-results/ipp_test_variability_modes/cmip5_v20190512_rmse/clickable_portrait.png" alt="CMIP5 historical RMSE" width="500" height=auto></a><br>
+<a href="https://pcmdi.llnl.gov/pmp-preliminary-results/ipp_test_variability_modes/cmip5_v20190512_rmse/clickable_portrait.html" target="_blank"><img src="https://pcmdi.llnl.gov/pmp-preliminary-results/ipp_test_variability_modes/cmip5_v20190512_rmse/clickable_portrait.png" alt="CMIP5 historical RMSE" width="500" height=auto></a><br>
 (Click thumbnail image for the interactive version for CMIP5 historical)
 </div>
 
