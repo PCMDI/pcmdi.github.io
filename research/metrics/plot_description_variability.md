@@ -13,7 +13,7 @@ title: PCMDI - Metrics
 
 <div align="center">
   
-[<img src="https://pcmdi.llnl.gov/pmp-preliminary-results/ipp_test_variability_modes/cmip5_v20190512_rmse/clickable_portrait.png" alt="CMIP5 historical RMSE" width="500" height=auto>][CMIP5_variability_rmse]
+<a href="https://pcmdi.llnl.gov/pmp-preliminary-results/ipp_test_variability_modes/cmip5_v20190512_rmse/clickable_portrait.html"><img src="https://pcmdi.llnl.gov/pmp-preliminary-results/ipp_test_variability_modes/cmip5_v20190512_rmse/clickable_portrait.png" alt="CMIP5 historical RMSE" width="500" height=auto></a>
 
 (Click thumbnail image for the interactive version for CMIP5 historical)
 </div>
