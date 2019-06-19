@@ -13,6 +13,10 @@ For the RMSE, the advantage of the Portrait Plot is that:
 
 The Portrait Plots are interactive. Clicking on any cell triangle will give its associated value, the observed EOF’s using our primary and secondary observed datasets, EOF’s 1-3 of the model, the model CBF EOF, and the PC time series of the EOF’s and the CBF EOF. Clicking on a mode along the y-axis will give the associated Taylor Plot of all models for that mode/season.
 
+- #### Summary statistics in Portrait Plots
+  - #### CMIP5 Historical: [RMSE][CMIP5_variability_rmse]
+  - #### CMIP6 Historical: [RMSE][CMIP6_variability_rmse]
+
 #### General Conclusions
 There are several general conclusions that we can draw from the RMSE Portrait Plots. Firstly, though the selection of a reference dataset is important, it does not radically impact the general conclusions about a particular model’s agreement with the observed EOF spatial pattern. Secondly, with some binning of the results (the color bar uses 10% increments), we see that in many cases the results for a given model’s relative performance is not very sensitive to which realization is examined. Our results are thus fairly robust to internal variability and selection of reference data. A more detailed discussion of the RMSE results are given in [Lee et al. (2019)][lee2019].
 
@@ -21,6 +25,10 @@ There are several general conclusions that we can draw from the RMSE Portrait Pl
 The amplitude Portrait Plots for the modes of variability are akin to Fig. 14 from [Lee et al. (2019)][lee2019]. It gives the standard deviation of the model CBF PC time series divided by the standard deviation of the observed PC time series such that values close to one indicate consistency between the models and observations.
 
 The Portrait Plots are interactive. Clicking on any cell triangle will give its associated value, the observed EOF’s using our primary and secondary observed datasets, EOF’s 1-3 of the model, the model CBF EOF, and the PC time series of the EOF’s and the CBF EOF. Clicking on a mode along the y-axis will give the associated Taylor Plot of all models for that mode/season.
+
+- #### Summary statistics in Portrait Plots
+  - #### CMIP5 Historical: [Amplitude][CMIP5_variability_amplitude]
+  - #### CMIP6 Historical: [Amplitude][CMIP6_variability_amplitude]
 
 #### General Conclusions
 It is notable that for the majority of amplitude cells the model-to-observed reference ratios are within 0.9–1.1. There is substantial overlap between the RMSE Portrait Plots and the amplitude Portrait Plots. In particular, the amplitude outliers reinforce other [Lee et al. (2019)][lee2019] evidence that temporal amplitude errors dominate the RMSE in many cases. Additionally, the results indicate a systematic error in the season immediately following the dominant season during which nearly 80% or more of the models overestimate the temporal variability. The post-dominant season overestimate suggests that the dominant season (winter) mode is too persistent compared to observations, though this hypothesis requires further investigation.
@@ -31,3 +39,7 @@ It is notable that for the majority of amplitude cells the model-to-observed ref
 
 [lee2019]: https://link.springer.com/article/10.1007/s00382-018-4355-4
 
+[CMIP5_variability_amplitude]: https://pcmdi.llnl.gov/pmp-preliminary-results/ipp_test_variability_modes/cmip5_v20190512/clickable_portrait.html
+[CMIP5_variability_rmse]: https://pcmdi.llnl.gov/pmp-preliminary-results/ipp_test_variability_modes/cmip5_v20190512_rmse/clickable_portrait.html
+[CMIP6_variability_amplitude]: https://pcmdi.llnl.gov/pmp-preliminary-results/ipp_test_variability_modes/cmip6_v20190503/clickable_portrait.html
+[CMIP6_variability_rmse]: https://pcmdi.llnl.gov/pmp-preliminary-results/ipp_test_variability_modes/cmip6_v20190503_rmse/clickable_portrait.html
