@@ -46,8 +46,10 @@ The Portrait Plots are interactive. Clicking on any cell triangle will give its 
 #### General Conclusions
 It is notable that for the majority of amplitude cells the model-to-observed reference ratios are within 0.9–1.1. There is substantial overlap between the RMSE Portrait Plots and the amplitude Portrait Plots. In particular, the amplitude outliers reinforce other [Lee et al. (2019)][lee2019] evidence that temporal amplitude errors dominate the RMSE in many cases. Additionally, the results indicate a systematic error in the season immediately following the dominant season during which nearly 80% or more of the models overestimate the temporal variability. The post-dominant season overestimate suggests that the dominant season (winter) mode is too persistent compared to observations, though this hypothesis requires further investigation.
 
-  > ## Reference
-  > Lee, J., Sperber, K.R., Gleckler, P.J., Bonfils, C.J. and Taylor, K.E., 2019. Quantifying the agreement between observed and simulated extratropical modes of interannual variability. Climate Dynamics, 52: 4057-4089, [doi: 10.1007/s00382-018-4355-4][lee2019].
+---
+
+## Reference
+> Lee, J., Sperber, K.R., Gleckler, P.J., Bonfils, C.J. and Taylor, K.E., 2019. Quantifying the agreement between observed and simulated extratropical modes of interannual variability. Climate Dynamics, 52: 4057-4089, [doi: 10.1007/s00382-018-4355-4][lee2019].
 
 
 [lee2019]: https://link.springer.com/article/10.1007/s00382-018-4355-4
