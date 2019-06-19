@@ -22,7 +22,7 @@ For the RMSE, the advantage of the Portrait Plot is that:
 
 The Portrait Plots are interactive. Clicking on any cell triangle will give its associated value, the observed EOF’s using our primary and secondary observed datasets, EOF’s 1-3 of the model, the model CBF EOF, and the PC time series of the EOF’s and the CBF EOF. Clicking on a mode along the y-axis will give the associated Taylor Plot of all models for that mode/season.
 
-- #### Summary statistics in Portrait Plots
+#### Summary statistics in Portrait Plots
   - #### CMIP5 Historical: [RMSE][CMIP5_variability_rmse]
   - #### CMIP6 Historical: [RMSE][CMIP6_variability_rmse]
 
@@ -39,7 +39,7 @@ The amplitude Portrait Plots for the modes of variability are akin to Fig. 14 fr
 
 The Portrait Plots are interactive. Clicking on any cell triangle will give its associated value, the observed EOF’s using our primary and secondary observed datasets, EOF’s 1-3 of the model, the model CBF EOF, and the PC time series of the EOF’s and the CBF EOF. Clicking on a mode along the y-axis will give the associated Taylor Plot of all models for that mode/season.
 
-- #### Summary statistics in Portrait Plots
+#### Summary statistics in Portrait Plots
   - #### CMIP5 Historical: [Amplitude][CMIP5_variability_amplitude]
   - #### CMIP6 Historical: [Amplitude][CMIP6_variability_amplitude]
 
