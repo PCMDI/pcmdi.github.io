@@ -14,7 +14,7 @@ The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a c
 - [Monsoon Precipitation: Fractional Accumulation](#monsoon)
 
 ---
-## <a name="variability"></a>Extratropical Modes of Variability
+## <a name="variability"></a>[Extratropical Modes of Variability][description_variability]
 - Based on the work of [Lee et al. (2019)][lee2019], we present skill metrics for the _Northern Annular Model (NAM), the North Atlantic Oscillation (NAO), the Southern Annular Mode (SAM), the Pacific North American pattern (PNA), the North Pacific Oscillation (NPO), the Pacific Decadal Oscillation (PDO), and the North Pacific Gyre Oscillation (NPGO)_. For NAM, NAO, SAM, PNA, and NPO the results are based on sea-level pressure, while the results for PDO and NPGO are based on sea surface temperature. Our approach distinguishes itself from other studies that analyze modes of variability in that we use the Common Basis Function approach (CBF), in which model anomalies are projected onto the observed modes of variability. Using the Historical simulations, the skill of the spatial patterns is given by the Root-Mean-Squared-Error (RMSE), and the Amplitude gives the standard deviation of the Principal Component time series. The skill metrics are calculated with respect to a primary and secondary sets of observations denoted by the triangles in each cell of the Portrait Plots. 
 
   For a brief description of the results, please click [**here**][description_variability]. For more detailed information see:
@@ -26,7 +26,7 @@ The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a c
   - #### CMIP6 Historical: [RMSE][CMIP6_variability_rmse] | [Amplitude][CMIP6_variability_amplitude]
 
 ---
-## <a name="monsoon"></a>Monsoon Precipitation: Fractional Accumulation
+## <a name="monsoon"></a>[Monsoon Precipitation: Fractional Accumulation][description_monsoon]
 - Based on the work of [Sperber and Annamalai (2014)][sperber2004], we present skill metrics that indicate how well models simulate the _onset, decay, and duration of monsoon_ based on the analysis of climatological pentads of precipitation. Using Historical simulations, the results are based on area-averaged data for All-India Rainfall (AIR), Sahel, Gulf of Guinea (GoG), North American Monsoon (NAM), South American Monsoon (SAM), and Northern Australia (AUS). 
 
   For a brief description of the results, please click [**here**][description_monsoon]. For more detailed information see:
