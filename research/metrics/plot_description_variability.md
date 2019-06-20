@@ -2,6 +2,8 @@
 layout: default
 title: PCMDI - Metrics
 ---
+###### Research > Metrics[Metrics] > Extratropical Modes of Variability
+
 # Portrait Plots for Extratropical Modes of Variability
 
 - [RMSE Portrait Plots](#rmse)
@@ -56,6 +58,7 @@ It is notable that for the majority of amplitude cells the model-to-observed ref
 ## Reference
 > Lee, J., Sperber, K.R., Gleckler, P.J., Bonfils, C.J. and Taylor, K.E., 2019. Quantifying the agreement between observed and simulated extratropical modes of interannual variability. Climate Dynamics, 52: 4057-4089, [doi: 10.1007/s00382-018-4355-4][lee2019].
 
+[Metrics]:{{site.baseurl}}/research/metrics/index.html
 
 [lee2019]: https://link.springer.com/article/10.1007/s00382-018-4355-4
 
