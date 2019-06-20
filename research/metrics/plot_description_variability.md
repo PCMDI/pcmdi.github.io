@@ -2,7 +2,7 @@
 layout: default
 title: PCMDI - Metrics
 ---
-###### Research > Metrics[Metrics] > Extratropical Modes of Variability
+###### Research > [Metrics][Metrics] > Extratropical Modes of Variability
 
 # Portrait Plots for Extratropical Modes of Variability
 
