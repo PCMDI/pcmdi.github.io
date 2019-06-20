@@ -4,7 +4,7 @@ title: PCMDI - Metrics
 ---
 ###### Research > [Metrics][Metrics] > Extratropical Modes of Variability
 
-# Portrait Plots for Extratropical Modes of Variability
+# Extratropical Modes of Variability
 
 - [RMSE Portrait Plots](#rmse)
 - [Amplitude Portrait Plots](#amplitude)
