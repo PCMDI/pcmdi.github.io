@@ -3,6 +3,7 @@ layout: default
 title: PCMDI - Metrics
 ---
 ###### Research > [Metrics][Metrics] > Monsoon Onset, Decay, and Duration
+---
 
 # Monsoon Onset, Decay, and Duration
 These results are based on the work of [Sperber and Annamalai (2014)][sperber2004] in which climatological pentads of precipitation were analyzed in observations and CMIP5 for six monsoon-related domains (AIR: All-India Rainfall, AUS: Australian Monsoon, GoG: Gulf of Guinea, NAM: North American Monsoon, SAM: South American Monsoon, and Sahel). In the Northern Hemisphere the 73 climatological pentads run from January-December, while in the Southern Hemisphere the climatological pentads run from July-June. For each domain the precipitation is accumulated at each subsequent pentad and then divided by the total precipitation to give the fractional accumulation of precipitation as a function of pentad. Except for GoG, onset (decay) of monsoon occurs for a fractional accumulation of 0.2 (0.8). Between these fractional accumulations the accumulation of precipitation is nearly linear as the monsoon season progresses.
