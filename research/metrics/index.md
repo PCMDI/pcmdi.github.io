@@ -13,6 +13,7 @@ The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a c
 - Mean climate results (*coming soon*)
 - [Extratropical Modes of Variability](#variability)
 - [Monsoon Precipitation: Fractional Accumulation](#monsoon)
+- [Madden-Julian Oscillation (MJO)](#mjo)
 
 ---
 ## <a name="variability"></a>[Extratropical Modes of Variability][description_variability]
@@ -38,17 +39,23 @@ The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a c
   - #### CMIP5 Historical: [Onset][CMIP5_monsoon_sperber_onset] | [Decay][CMIP5_monsoon_sperber_decay] | [Duration][CMIP5_monsoon_sperber_duration]
 
 ---
+## <a name="mjo"></a>[Madden-Julian Oscillation (MJO)][description_mjo]
+- text text
+
+---
 ## Updates
+- **v1.X.X** (XX August 2019): MJO metrics added
 - [**v1.0.0**][v1.0.0] (20 June 2019): Initial public release
 - [**v1.0.0-beta**][v1.0.0-beta] (18 June 2019): Addition of monsoon precipitation onset, decay, and duration in CMIP5.
 - [**v1.0.0-alpha**][v1.0.0-alpha] (31 May 2019): Release of summary statistics for extratropical modes of variability in CMIP5 and CMIP6.
 
-[v1.0.0]: {{site.baseurl}}/research/metrics/index.html
+[v1.0.0]: {{site.baseurl}}/research/metrics/index_v1.0.0.html
 [v1.0.0-beta]: {{site.baseurl}}/research/metrics/index_v1.0.0-beta.html
 [v1.0.0-alpha]: {{site.baseurl}}/research/metrics/index_v1.0.0-alpha.html
 
 [description_variability]: {{site.baseurl}}/research/metrics/plot_description_variability.html
 [description_monsoon]: {{site.baseurl}}/research/metrics/plot_description_monsoon.html
+[description_mjo]: {{site.baseurl}}/research/metrics/plot_description_mjo.html
 
 
 [lee2019]: https://link.springer.com/article/10.1007/s00382-018-4355-4
