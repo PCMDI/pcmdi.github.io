@@ -40,18 +40,23 @@ The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a c
 - #### Summary statistics
   - #### CMIP5 Historical: [Onset][CMIP5_monsoon_sperber_onset] | [Decay][CMIP5_monsoon_sperber_decay] | [Duration][CMIP5_monsoon_sperber_duration]
 
-[Back to list](#top)
+<p align="right"><a href="#top">Back to List</a></p>
+
 ---
 ## <a name="mjo"></a>[Madden-Julian Oscillation (MJO)][description_mjo]
 - text text
 
-[Back to list](#top)
+<p align="right"><a href="#top">Back to List</a></p>
+
 ---
 ## Updates
 - **v1.X.X** (XX August 2019): MJO metrics added
 - [**v1.0.0**][v1.0.0] (20 June 2019): Initial public release
 - [**v1.0.0-beta**][v1.0.0-beta] (18 June 2019): Addition of monsoon precipitation onset, decay, and duration in CMIP5.
 - [**v1.0.0-alpha**][v1.0.0-alpha] (31 May 2019): Release of summary statistics for extratropical modes of variability in CMIP5 and CMIP6.
+
+<p align="right"><a href="#top">Back to List</a></p>
+
 
 [v1.0.0]: {{site.baseurl}}/research/metrics/index_v1.0.0.html
 [v1.0.0-beta]: {{site.baseurl}}/research/metrics/index_v1.0.0-beta.html
