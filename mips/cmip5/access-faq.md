@@ -24,7 +24,7 @@ title: FAQ
                 <li>BADC: <a href="http://esgf-index1.ceda.ac.uk" target="_blank">http://esgf-index1.ceda.ac.uk</a></li>
                 <li>DKRZ: <a href="http://esgf-data.dkrz.de" target="_blank">http://esgf-data.dkrz.de</a></li>
                 <!--  <li>NCAR: <a href="http://www.earthsystemgrid.org">http://www.earthsystemgrid.org</a></li>-->
-                <li>NCI: <a href="http://esg2.nci.org.au" target="_blank">http://esg2.nci.org.au</a> </li>
+                <li>NCI: <a href="http://esgf.nci.org.au" target="_blank">http://esgf.nci.org.au</a> </li>
             </ul>
         </div>
     </li>

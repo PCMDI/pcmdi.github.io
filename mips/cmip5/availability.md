@@ -10,7 +10,7 @@ PCMDI has established partnerships with other data centers so that all of the CM
 * PCMDI: <http://esgf-node.llnl.gov/>
 * BADC: <http://esgf-index1.ceda.ac.uk>
 * DKRZ: <http://esgf-data.dkrz.de>
-* NCI: <http://esg2.nci.org.au>
+* NCI: <http://esgf.nci.org.au>
 
 
 Important information concerning some models and simulations can be found by clicking on the "Modeling Center" name. 

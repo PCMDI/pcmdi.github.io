@@ -39,7 +39,7 @@ title: Getting Started
                         <li>PCMDI: <a href="http://esgf-node.llnl.gov/" target="_blank">http://esgf-node.llnl.gov/</a></li>
                         <li>BADC: <a href="http://esgf-index1.ceda.ac.uk" target="_blank">http://esgf-index1.ceda.ac.uk</a></li>
                         <li>DKRZ: <a href="http://esgf-data.dkrz.de" target="_blank">http://esgf-data.dkrz.de</a></li>
-                        <li>NCI: <a href="http://esg2.nci.org.au" target="_blank">http://esg2.nci.org.au</a></li>
+                        <li>NCI: <a href="http://esgf.nci.org.au" target="_blank">http://esgf.nci.org.au</a></li>
                     </ol>
                 </div>
                 The other nodes are listed on the home page of any of the above sites (in a box at the right of the page). 

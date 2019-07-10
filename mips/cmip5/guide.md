@@ -130,7 +130,7 @@ BADC: <http://esgf-index1.ceda.ac.uk>
 DKRZ: <http://esgf-data.dkrz.de>
 {: .indent}
 
-NCI: <http://esg2.nci.org.au>
+NCI: <http://esgf.nci.org.au>
 {: .indent}
 
 ## CMIP5 Model and Experiment Documentation:
