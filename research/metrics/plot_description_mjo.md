@@ -10,7 +10,7 @@ These results are based on the work of [Ahn et al. (2017)][ahn2017] in which tex
 
 text text for plot description text text
 
-#### Summary statistics in Portrait Plots
+#### Summary statistics in XXXX Plots
   - #### CMIP5 Historical: [EWP][CMIP5_ewp] | [EOP][CMIP5_eop]
 
 #### General Results
