@@ -14,7 +14,7 @@ The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a c
 - [**Extratropical Modes of Variability**](#variability)
 - [**Monsoon Precipitation: Fractional Accumulation**](#monsoon)
 - [**Madden-Julian Oscillation (MJO)**](#mjo)
-- [_Updates history_](#updates)
+- [_Update history_](#updates)
 
 ---
 ## <a name="variability"></a>[Extratropical Modes of Variability][description_variability]
@@ -50,7 +50,7 @@ The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a c
 <p align="right"><a href="#top">Back to List</a></p>
 
 ---
-## <a name="updates"></a>Updates
+## <a name="updates"></a>Update Histrory
 - **v1.X.X** (XX August 2019): MJO metrics added
 - [**v1.0.0**][v1.0.0] (20 June 2019): Initial public release
 - [**v1.0.0-beta**][v1.0.0-beta] (18 June 2019): Addition of monsoon precipitation onset, decay, and duration in CMIP5.
