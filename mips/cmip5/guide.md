@@ -121,7 +121,7 @@ An overview of currently available model output can be found at:
 
 The CMIP5 model output is served by the following ESGF Data Portals:
 
-PCMDI: <http://pcmdi9.llnl.gov/>
+PCMDI: <http://esgf-node.llnl.gov/>
 {: .indent}
 
 BADC: <http://esgf-index1.ceda.ac.uk>

@@ -36,7 +36,7 @@ title: Getting Started
                 All CMIP5 Model output can be accessed via any one of several websites serving as portals to the ESGF archive.  Note that these portals supersede the old gateways to CMIP3 data and also the ESG “gateways” originally used to access CMIP5 output that were deprecated in September 2012 (e.g., pcmdi3.llnl.gov).  Although nearly a dozen ESGF portals currently exist, the following sites provide the most reliable and complete access to CMIP5 output (as of November 2012):
                 <div class="indent">
                     <ol type="i">
-                        <li>PCMDI: <a href="http://pcmdi9.llnl.gov/" target="_blank">http://pcmdi9.llnl.gov/</a></li>
+                        <li>PCMDI: <a href="http://esgf-node.llnl.gov/" target="_blank">http://esgf-node.llnl.gov/</a></li>
                         <li>BADC: <a href="http://esgf-index1.ceda.ac.uk" target="_blank">http://esgf-index1.ceda.ac.uk</a></li>
                         <li>DKRZ: <a href="http://esgf-data.dkrz.de" target="_blank">http://esgf-data.dkrz.de</a></li>
                         <li>NCI: <a href="http://esg2.nci.org.au" target="_blank">http://esg2.nci.org.au</a></li>
@@ -46,12 +46,12 @@ title: Getting Started
             </li>
             <li>
                 Who should register?
-                <div class="indent txt2">Anyone not already registered to download CMIP5 output.  If you were previously registered to download CMIP3 output, but have not yet registered to obtain CMIP5 output, you will have to register.  Those of you already registered to download CMIP5 data (by registering at the now deprecated “gateways” referred to in 2a) may continue to do so without re-registering.  If you are one of these users, your registration has been transferred to the new system, and you have already been assigned a new openID, which is of the form  <b> https://pcmdi9.llnl.gov/esgf-idp/openid/[<em>your user name</em>] </b>
+                <div class="indent txt2">Anyone not already registered to download CMIP5 output.  If you were previously registered to download CMIP3 output, but have not yet registered to obtain CMIP5 output, you will have to register.  Those of you already registered to download CMIP5 data (by registering at the now deprecated “gateways” referred to in 2a) may continue to do so without re-registering.  If you are one of these users, your registration has been transferred to the new system, and you have already been assigned a new openID, which is of the form  <b> https://esgf-node.llnl.gov/esgf-idp/openid/[<em>your user name</em>] </b>
                     . You must use this new openID (and your original password) on the new portals listed in 2a. 
                 </div>
-                <!-- <div class="indent txt2"> Users who previously registered at PCMDI for the purpose of obtaining CMIP3 output will not be able to access CMIP5 output under that CMIP3 account.  Those users plus new users who don’t currently have an account at any of the ESGF gateways will need to register. If you register to the older ESGF Gateway    http://pcmdi3.llnl.gov/esgcet , you should be able to use the same openid and password, just substitute https://pcmdi3.llnl.gov/esgcet/myopenid/xxxxxx  with https://pcmdi9.llnl.gov/esgf-idp/openid/xxxxxx   </div> -->
+                <!-- <div class="indent txt2"> Users who previously registered at PCMDI for the purpose of obtaining CMIP3 output will not be able to access CMIP5 output under that CMIP3 account.  Those users plus new users who don’t currently have an account at any of the ESGF gateways will need to register. If you register to the older ESGF Gateway    http://pcmdi3.llnl.gov/esgcet , you should be able to use the same openid and password, just substitute https://pcmdi3.llnl.gov/esgcet/myopenid/xxxxxx  with https://esgf-node.llnl.gov/esgf-idp/openid/xxxxxx   </div> -->
             </li>
-            <li>To open an account, you should access one of the portals listed in 2a above.   If you are solely interested in CMIP5 output, it is recommended (as of September 2012) that you register at <strong>pcmdi9.llnl.gov</strong>. Once registered, you are free to access data through any of the portals in the federation. </li>
+            <li>To open an account, you should access one of the portals listed in 2a above.   If you are solely interested in CMIP5 output, it is recommended (as of September 2012) that you register at <strong>esgf-node.llnl.gov</strong>. Once registered, you are free to access data through any of the portals in the federation. </li>
             <li>
                 Portals have registration procedures that are not all identical but are all quite straightforward.  The following registration instructions apply specifically to the PCMDI portal.
                 <div class="indent">
@@ -73,7 +73,7 @@ title: Getting Started
         You can search for model output without registering as a user, but in order to download CMIP5 data you must both register (see step 2 above) and also enroll in a CMIP5 “group”.  One way to do this is as follows:    
         <div class="indent">
             <ol type="a">
-                <li> Access one of the portals (e.g., <a href="http://pcmdi9.llnl.gov">http://pcmdi9.llnl.gov</a>). <span class="red_col">Please use Firefox 7+, Safari 5+ or Chrome 16+ (see <a href="https://github.com/ESGF/esgf.github.io/wiki/ESGF_Supported_Browsers">Supported Browsers</a>) to access the ESGF portal.</span></li>
+                <li> Access one of the portals (e.g., <a href="http://esgf-node.llnl.gov">http://esgf-node.llnl.gov</a>). <span class="red_col">Please use Firefox 7+, Safari 5+ or Chrome 16+ (see <a href="https://github.com/ESGF/esgf.github.io/wiki/ESGF_Supported_Browsers">Supported Browsers</a>) to access the ESGF portal.</span></li>
                 <li> Login with your OpenID and password. </li>
                 <li> Determine which of the two CMIP5 user groups you should belong to: the <em>“research”</em> group or the <em>“commercial”</em> group.  If you subscribe to the <em>“research”</em> group, you will gain access to all the CMIP5 data, but you may use it only for non-commercial educational and research purposes.  If you plan to use the data for other purposes, you should join the <em>“commercial”</em> group, and then you will be given access to output from a subset (about two-thirds) of the models, but your use of it is unrestricted.  The terms of use governing the CMIP5 data are spelled out in 
                     <a href="{{site.baseurl}}/mips/cmip5/terms-of-use.html"> Terms of Use</a>.
