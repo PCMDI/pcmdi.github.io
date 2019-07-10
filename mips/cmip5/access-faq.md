@@ -28,13 +28,13 @@ title: FAQ
             </ul>
         </div>
     </li>
-    <li> <a href="http://www.esgf.org/wiki/ESGF_Data_Download">How to Register and Download Data from ESGF</a></li>
-    <li> <a href="http://www.esgf.org/wiki/ESGF_wget_FAQ">Running wget scripts in ESGF </a></li>
-    <li> <a href="http://www.esgf.org/wiki/ESGF_FAQs">More ESGF_FAQs</a></li>
-    <li> Detailed Info on Search API: <a href="http://www.esgf.org/wiki/ESGF_Search_REST_API">The ESGF Search RESTful API</a></li>
+    <li> <a href="https://github.com/ESGF/esgf.github.io/wiki/ESGF_Data_Download">How to Register and Download Data from ESGF</a></li>
+    <li> <a href="https://github.com/ESGF/esgf.github.io/wiki/ESGF_wget">Running wget scripts in ESGF </a></li>
+    <li> <a href="https://github.com/ESGF/esgf.github.io/wiki/ESGF_FAQs">More ESGF_FAQs</a></li>
+    <li> Detailed Info on Search API: <a href="https://github.com/ESGF/esgf.github.io/wiki/ESGF_Search_REST_API">The ESGF Search RESTful API</a></li>
     <li> Unrestricted versus Non-commercial-only Models listing: <a href="availability.html">CMIP5 - Data Access - Availability</a></li>
-    <li> Statistics of the CMIP5 nodes and the data they hold: <a href="http://www.esgf.org/wiki/Cmip5Status/P2PArchiveView"> P2P Archive View</a></li>
-    <li> Status of the CMIP5 nodes: <a href="http://www.esgf.org/wiki/Cmip5Status/CMIP5NodeStatus"> CMIP5 Node Status</a></li>
+    <li> Statistics of the CMIP5 nodes and the data they hold: <a href="https://github.com/ESGF/esgf.github.io/wiki/Cmip5Status/P2PArchiveView"> P2P Archive View</a></li>
+    <li> Status of the CMIP5 nodes: <a href="https://github.com/ESGF/esgf.github.io/wiki/Cmip5Status/CMIP5NodeStatus"> CMIP5 Node Status</a></li>
     <li>
         Quality Control Status LInks  
         <p>
