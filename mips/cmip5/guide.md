@@ -174,7 +174,7 @@ The CORDEX project is a WCRP-coordinated exercise to regionally downscale climat
 
 [TGICA & IPCC's DDC](http://www.ipcc-data.org/ddc_about.html) (Task Group on data and scenario support for Impact and Climate Analysis and the IPCC's Data Distribution Centre)
 
-[ESGF](http://esgf.org/) (Earth System Grid Federation)
+[ESGF](http://esgf.llnl.gov) (Earth System Grid Federation)
 
 [METAFOR](http://metaforclimate.eu/) (Metadata For Climate Models)
 
