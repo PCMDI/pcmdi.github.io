@@ -18,7 +18,10 @@ Preliminary findings: Panel A provides a comparison of the E/W ratio between the
 text text ...
 
 #### Summary statistics in XXXX Plots
-  - #### CMIP5 Historical: [EWP][CMIP5_ewp] | [EOP][CMIP5_eop]
+  - #### CMIP5 Historical: [EWR][CMIP5_ewr]
+  - #### CMIP6 Historical: [EWR][CMIP6_ewr]
+  - #### CMIP5 and 6 Historical: [EWR][CMIP56_ewr]
+  - #### CMIP5 and 6 Historical (sorted): [EWR][CMIP56_ewr_sorted]
 
 ---
 
@@ -39,7 +42,9 @@ text text ...
 
 [ahn2017]: https://doi.org/10.1007/s00382-017-3558-4
 
-[CMIP5_ewp]: https://pcmdi.llnl.gov/pmp-preliminary-results/ipp_test_monsoon_sperber/onset_index_rel2obs_v20190618/clickable_portrait.html
-[CMIP5_eop]: https://pcmdi.llnl.gov/pmp-preliminary-results/ipp_test_monsoon_sperber/decay_index_rel2obs_v20190618/clickable_portrait.html
+[CMIP5_ewr]: https://oceanonly.llnl.gov/lee1043/web/test_dir/mjo_metrics/mjo_ewr_cmip5_overlap_runs_average_standalone.html
+[CMIP6_ewr]: https://oceanonly.llnl.gov/lee1043/web/test_dir/mjo_metrics/mjo_ewr_cmip6_overlap_runs_average_standalone.html
+[CMIP56_ewr]: https://oceanonly.llnl.gov/lee1043/web/test_dir/mjo_metrics/mjo_ewr_cmip5and6_overlap_runs_average_standalone.html
+[CMIP56_ewr_sorted]: https://oceanonly.llnl.gov/lee1043/web/test_dir/mjo_metrics/mjo_ewr_cmip5and6_overlap_runs_average_sorted_standalone.html
 
 [Metrics]:{{site.baseurl}}/research/metrics/index.html
