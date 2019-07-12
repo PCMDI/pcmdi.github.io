@@ -35,12 +35,7 @@ text text ...
 
 > Madden, R. A., and P. R. Julian, 1994: Observations of the 40–50-day tropical oscillation—A review. Mon. Wea. Rev., 122, 814–837.
  
-
 ---
-
-## Reference
-> Ahn, M.S., Kim, D., Sperber, K.R., Kang, I.S., Maloney, E., Waliser, D. and Hendon, H., 2017. MJO simulation in CMIP5 climate models: MJO skill metrics and process-oriented diagnosis. Climate dynamics, 49, 4023-4045, [doi:10.1007/s00382-017-3558-4][ahn2017]
-
 
 [ahn2017]: https://doi.org/10.1007/s00382-017-3558-4
 
