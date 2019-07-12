@@ -17,7 +17,7 @@ Preliminary findings: Panel A provides a comparison of the E/W ratio between the
 #### General Results
 text text ...
 
-#### Summary statistics in XXXX Plots
+#### Summary statistics in Interactive Bar Charts
   - #### CMIP5 Historical: [EWR][CMIP5_ewr]
   - #### CMIP6 Historical: [EWR][CMIP6_ewr]
   - #### CMIP5 and 6 Historical: [EWR][CMIP56_ewr]
