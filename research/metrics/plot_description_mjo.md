@@ -35,7 +35,7 @@ text text ...
 
 > Madden, R. A., and P. R. Julian, 1994: Observations of the 40–50-day tropical oscillation—A review. Mon. Wea. Rev., 122, 814–837.
  
----
+
 
 [ahn2017]: https://doi.org/10.1007/s00382-017-3558-4
 
