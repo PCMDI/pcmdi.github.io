@@ -32,15 +32,18 @@ text text ...
 
 > Kim, D., K. R. Sperber, W. S. Stern, D. Waliser, I.-S. Kang, E. Maloney, W. Wang, K. Weickmann, J. Benedict, M. Khairoutdinov, M.-I. Lee, R. Neale, M. Suarez, K. Thayer-Calder, and G. Zhang, 2009: Application of MJO simulation diagnostics to climate models. J. Clim., 22, 6413-6436. https://doi.org/10.1175/2009JCLI3063.1.
 
-> Madden, R. A., and P. R. Julian, 1971: Detection of a 40–50 day oscillation in the zonal wind in the tropical Pacific. J. Atmos. Sci., 28, 702–708.
+> Madden, R. A., and P. R. Julian, 1971: Detection of a 40–50 day oscillation in the zonal wind in the tropical Pacific. J. Atmos. Sci., 28, 702–708. [https://doi.org/10.1175/1520-0469(1971)028<0702:DOADOI>2.0.CO;2][Madden1971]
 
-> Madden, R. A., and P. R. Julian, 1972: Description of global-scale circulation cells in the tropics with a 40–50 day period. J. Atmos. Sci., 29, 1109–1123.
+> Madden, R. A., and P. R. Julian, 1972: Description of global-scale circulation cells in the tropics with a 40–50 day period. J. Atmos. Sci., 29, 1109–1123. [https://doi.org/10.1175/1520-0469(1972)029<1109:DOGSCC>2.0.CO;2][Madden1972]
 
-> Madden, R. A., and P. R. Julian, 1994: Observations of the 40–50-day tropical oscillation—A review. Mon. Wea. Rev., 122, 814–837.
+> Madden, R. A., and P. R. Julian, 1994: Observations of the 40–50-day tropical oscillation—A review. Mon. Wea. Rev., 122, 814–837. [https://doi.org/10.1175/1520-0493(1994)122<0814:OOTDTO>2.0.CO;2][Madden1994]
  
 
 
 [ahn2017]: https://doi.org/10.1007/s00382-017-3558-4
+[Madden1971]: https://doi.org/10.1175/1520-0469(1971)028<0702:DOADOI>2.0.CO;2
+[Madden1972]: https://doi.org/10.1175/1520-0469(1972)029<1109:DOGSCC>2.0.CO;2
+[Madden1994]: https://doi.org/10.1175/1520-0493(1994)122<0814:OOTDTO>2.0.CO;2
 
 [CMIP5_ewr]: https://oceanonly.llnl.gov/lee1043/web/test_dir/mjo_metrics/mjo_ewr_cmip5_overlap_runs_average_standalone.html
 [CMIP6_ewr]: https://oceanonly.llnl.gov/lee1043/web/test_dir/mjo_metrics/mjo_ewr_cmip6_overlap_runs_average_standalone.html
