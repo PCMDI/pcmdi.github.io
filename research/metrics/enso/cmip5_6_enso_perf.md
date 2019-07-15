@@ -21,3 +21,6 @@ title: PCMDI - Metrics
 
 [Metrics]:{{site.baseurl}}/research/metrics/index.html
 [description_enso]: {{site.baseurl}}/research/metrics/plot_description_enso.html
+[rmse]: {{site.baseurl}}/research/metrics/enso/ENSO_perf_cmip_5and6_Rmse_PP_SidebySide_annotated.png
+[nonrmse]: {{site.baseurl}}/research/metrics/enso/ENSO_perf_cmip_5and6_nonRmse_PP_SidebySide_annotated.png
+
