@@ -47,7 +47,7 @@ The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a c
 ## <a name="mjo"></a>[Madden-Julian Oscillation (MJO)][description_mjo]
 - Based on the work of [Ahn et al. (2017)][ahn2017], we present skill metrics that indicate how well models simulate eastward propagation of MJO. We apply frequency-wavenumber decomposition to precipitation from observations (GPCP-based) and the CMIP5 and CMIP6 Historical simulations for 1985-2004.
 
-For a brief description of the results, please click [**here**][description_mjo]. For more detailed information see:
+  For a brief description of the results, please click [**here**][description_mjo]. For more detailed information see:
 
   > Ahn, M.-S., D. Kim, K. R. Sperber, I.-S. Kang, E. Maloney, D. Waliser, H. Hendon, 2017: MJO simulation in CMIP5 climate models: MJO skill metrics and process-oriented diagnosis. Clim. Dynam., 49, 4023-4045. [doi: 10.1007/s00382-017-3558-4][ahn2017].
   
