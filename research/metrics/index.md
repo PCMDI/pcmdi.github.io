@@ -6,7 +6,7 @@ title: PCMDI - Metrics
 
 # Climate Model Metrics
 ---
-# <a name="top"></a>_PCMDI Simulation Summaries (v1.X.X)_
+# <a name="top"></a>_PCMDI Simulation Summaries (v1.1.0)_
 
 The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a capability that can be used to produce a diverse suite of objective summaries of Earth System Model (ESM) agreement with observations. At PCMDI, we are routinely applying the PMP to multiple generations of CMIP, including the most recent results from CMIP6 as they become available. The summaries available below will be regularly updated with new and an expanding set of results.
 
@@ -45,13 +45,23 @@ The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a c
 
 ---
 ## <a name="mjo"></a>[Madden-Julian Oscillation (MJO)][description_mjo]
-- text text
+- Based on the work of [Ahn et al. (2017)][ahn2017], we present skill metrics that indicate how well models simulate eastward propagation of MJO. We apply frequency-wavenumber decomposition to precipitation from observations (GPCP-based) and the CMIP5 and CMIP6 Historical simulations for 1985-2004.
 
+For a brief description of the results, please click [**here**][description_mjo]. For more detailed information see:
+
+  > Ahn, M.-S., D. Kim, K. R. Sperber, I.-S. Kang, E. Maloney, D. Waliser, H. Hendon, 2017: MJO simulation in CMIP5 climate models: MJO skill metrics and process-oriented diagnosis. Clim. Dynam., 49, 4023-4045. [doi.org/10.1007/s00382-017-3558-4][ahn2017].
+  
+- #### Summary statistics in Interactive Bar Charts
+  - #### CMIP5 Historical: [EWR][CMIP5_ewr]
+  - #### CMIP6 Historical: [EWR][CMIP6_ewr]
+  - #### CMIP5 and 6 Historical: [EWR][CMIP56_ewr]
+  - #### CMIP5 and 6 Historical (sorted): [EWR][CMIP56_ewr_sorted]
+  
 <p align="right"><a href="#top">Back to List</a></p>
 
 ---
 ## <a name="updates"></a>Update Histrory
-- **v1.X.X** (XX August 2019): MJO metrics added
+- **v1.1.0** (XX July 2019): MJO metrics added
 - [**v1.0.0**][v1.0.0] (20 June 2019): Initial public release
 - [**v1.0.0-beta**][v1.0.0-beta] (18 June 2019): Addition of monsoon precipitation onset, decay, and duration in CMIP5.
 - [**v1.0.0-alpha**][v1.0.0-alpha] (31 May 2019): Release of summary statistics for extratropical modes of variability in CMIP5 and CMIP6.
@@ -70,10 +80,21 @@ The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a c
 
 [lee2019]: https://link.springer.com/article/10.1007/s00382-018-4355-4
 [sperber2004]: https://doi.org/10.1007/s00382-014-2099-3
+[ahn2017]: https://doi.org/10.1007/s00382-017-3558-4
+
+
 [CMIP5_variability_amplitude]: https://pcmdi.llnl.gov/pmp-preliminary-results/ipp_test_variability_modes/cmip5_v20190512/clickable_portrait.html
 [CMIP5_variability_rmse]: https://pcmdi.llnl.gov/pmp-preliminary-results/ipp_test_variability_modes/cmip5_v20190512_rmse/clickable_portrait.html
 [CMIP6_variability_amplitude]: https://pcmdi.llnl.gov/pmp-preliminary-results/ipp_test_variability_modes/cmip6_v20190503/clickable_portrait.html
 [CMIP6_variability_rmse]: https://pcmdi.llnl.gov/pmp-preliminary-results/ipp_test_variability_modes/cmip6_v20190503_rmse/clickable_portrait.html
+
+
 [CMIP5_monsoon_sperber_onset]: https://pcmdi.llnl.gov/pmp-preliminary-results/ipp_test_monsoon_sperber/onset_index_rel2obs_v20190618/clickable_portrait.html
 [CMIP5_monsoon_sperber_decay]: https://pcmdi.llnl.gov/pmp-preliminary-results/ipp_test_monsoon_sperber/decay_index_rel2obs_v20190618/clickable_portrait.html
 [CMIP5_monsoon_sperber_duration]: https://pcmdi.llnl.gov/pmp-preliminary-results/ipp_test_monsoon_sperber/duration_rel2obs_v20190618/clickable_portrait.html
+
+
+[CMIP5_ewr]: https://oceanonly.llnl.gov/lee1043/web/test_dir/mjo_metrics/mjo_ewr_cmip5_overlap_runs_average_standalone.html
+[CMIP6_ewr]: https://oceanonly.llnl.gov/lee1043/web/test_dir/mjo_metrics/mjo_ewr_cmip6_overlap_runs_average_standalone.html
+[CMIP56_ewr]: https://oceanonly.llnl.gov/lee1043/web/test_dir/mjo_metrics/mjo_ewr_cmip5and6_overlap_runs_average_standalone.html
+[CMIP56_ewr_sorted]: https://oceanonly.llnl.gov/lee1043/web/test_dir/mjo_metrics/mjo_ewr_cmip5and6_overlap_runs_average_sorted_standalone.html
