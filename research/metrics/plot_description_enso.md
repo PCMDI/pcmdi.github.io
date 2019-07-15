@@ -8,9 +8,7 @@ title: PCMDI - Metrics
 # El Niño-Southern Oscillation (ENSO)
 These results are based on the work of Blablablabla....
 
-The ENSO Portrait Plots are yet to be interactive. Text text text text...
-
-#### Summary statistics in Portrait Plots
+#### Summary statistics in Portrait Plots (Interactive version coming soon)
   - #### CMIP5 & 6 Historical: [Performance][CMIP5_6_enso_perf] | [Teleconnection][CMIP5_6_enso_tel] 
 
 #### General Results
