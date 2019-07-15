@@ -67,6 +67,7 @@ The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a c
 - [**v1.0.0-alpha**][v1.0.0-alpha] (31 May 2019): Release of summary statistics for extratropical modes of variability in CMIP5 and CMIP6.
 
 <p align="right"><a href="#top">Back to List</a></p>
+
 ---
 
 Any error found in the PCMDI Simulation Summaries should be reported to one of the [PCMDI Metrics Package liaisons](pcmdi-metrics@llnl.gov).
