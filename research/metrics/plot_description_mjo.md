@@ -6,7 +6,7 @@ title: PCMDI - Metrics
 ---
 
 # Madden-Julian Oscillation (MJO)
-These results are based on the work of [Ahn et al. (2017)][ahn2017] and collaboration with [Prof. Daehyun Kim][dhkim] and [his group][dhkimgroup] at University of Washington.
+These results are based on the work of [Ahn et al. (2017)][ahn2017], in collaboration with [Prof. Daehyun Kim][dhkim] and [his group][dhkimgroup] at the [University of Washington](https://www.washington.edu/).
  
 The MJO is a large-scale region of enhanced convection and associated circulation anomalies in the tropics that propagate eastward, mainly over the eastern hemisphere, with a time scale of ~30-70 days (Madden and Julian [1971][Madden1971], [1972][Madden1972], [1994][Madden1994]). Its large-scale nature and period are easily seen via frequency-wavenumber decomposition of near-equatorial data (10°S to 10°N), which partitions the propagation into eastward and westward components as a function of frequency (cycles/day). As such, frequency-wavenumber decomposition has been routinely used as an initial diagnostic/metric to assess if models properly represent this basic characteristic of the MJO (e.g., [CLIVAR MJO Working Group 2009][clivarmjo2009], [Kim et al. 2009][kim2009], and [Ahn et al. 2017][ahn2017]). The results presented here are and the implementation of these analysis into the PMP stem from a collaboration between PCMDI and Daehyun Kim and Min-Seop Ahn at U. of Washington and the WGNE MJO Task Force.
  
