@@ -7,14 +7,12 @@ title: PCMDI - Metrics
 
 # El Niño-Southern Oscillation (ENSO) Performance Metrics
 
-- [RMSE Portrait Plots](#rmse)
+- RMSE Portrait Plots
 
-<img src="ENSO_perf_cmip_5and6_Rmse_PP_SidebySide_annotated.png" width="350" title="hover text">
-![alt text]({{site.baseurl}}/research/metrics/enso/ENSO_perf_cmip_5and6_Rmse_PP_SidebySide_annotated.png)
+<img src="ENSO_perf_cmip_5and6_Rmse_PP_SidebySide_annotated.png">
 
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
-
-- [Non-RMSE Portrait Plots](#nonrmse)
+- Non-RMSE Portrait Plots
+<img src="ENSO_perf_cmip_5and6_nonRmse_PP_SidebySide_annotated.png">
 
 ---
 
