@@ -6,6 +6,7 @@ title: PCMDI - Metrics
 
 # Climate Model Metrics
 ---
+<<<<<<< HEAD
 # <a name="top"></a>_PCMDI Simulation Summaries (v1.1.0)_
 
 The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a capability that can be used to produce a diverse suite of objective summaries of Earth System Model (ESM) agreement with observations. At PCMDI, we are routinely applying the PMP to multiple generations of CMIP, including the most recent results from CMIP6 as they become available. The summaries available below will be regularly updated with new and an expanding set of results.
@@ -13,8 +14,18 @@ The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a c
 - **Mean climate results** (*coming soon*)
 - [**Extratropical Modes of Variability**](#variability)
 - [**Monsoon Precipitation: Fractional Accumulation**](#monsoon)
-- [**Madden-Julian Oscillation (MJO)**](#mjo)
+- [**El Niño–Southern Oscillation (ENSO)**](#enso)
 - [_Update history_](#updates)
+=======
+# _PCMDI Simulation Summaries ([v1.1.0][v1.1.0])_
+
+The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a capability that can be used to produce a diverse suite of objective summaries of Earth System Model (ESM) agreement with observations. At PCMDI, we are routinely applying the PMP to multiple generations of CMIP, including the most recent results from CMIP6 as they become available. The summaries available below will be regularly updated with new and an expanding set of results.
+
+- Mean climate results (*coming soon*)
+- [Extratropical Modes of Variability](#variability)
+- [Monsoon Precipitation: Fractional Accumulation](#monsoon)
+- [El Niño-Southern Oscillation (ENSO)](#enso)
+>>>>>>> 65f4a97883484b28f80524dca6803892593538c8
 
 ---
 ## <a name="variability"></a>[Extratropical Modes of Variability][description_variability]
@@ -39,19 +50,18 @@ The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a c
 <p align="right"><a href="#top">Back to List</a></p>
 
 ---
-## <a name="mjo"></a>[Madden-Julian Oscillation (MJO)][description_mjo]
-- Based on the work of [Ahn et al. (2017)][ahn2017], we present skill metrics that indicate how well models simulate eastward propagation of MJO. We apply frequency-wavenumber decomposition to precipitation from observations (GPCP-based) and the CMIP5 and CMIP6 Historical simulations for 1985-2004.
+## <a name="enso"></a>[El Niño-Southern Oscillation (ENSO)][description_enso]
+- Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text 
 
-- #### [Results][description_mjo]
-  For a brief description of the results, please click [**here**][description_mjo]. For more detailed information see:
+- #### [Results][description_monsoon]
+  For a brief description of the results, please click [**here**][description_enso]. For more detailed information see:
 
-  > Ahn, M.-S., D. Kim, K. R. Sperber, I.-S. Kang, E. Maloney, D. Waliser, H. Hendon, 2017: MJO simulation in CMIP5 climate models: MJO skill metrics and process-oriented diagnosis. Clim. Dynam., 49, 4023-4045. [doi: 10.1007/s00382-017-3558-4][ahn2017]. 
-  
+  > REFERENCE
+
 <p align="right"><a href="#top">Back to List</a></p>
-
 ---
 ## <a name="updates"></a>Update Histrory
-- **v1.1.0** (XX July 2019): MJO metrics added
+- [**v1.1.0**][v1.1.0] (XX XX 2019): ENSO added
 - [**v1.0.0**][v1.0.0] (20 June 2019): Initial public release
 - [**v1.0.0-beta**][v1.0.0-beta] (18 June 2019): Addition of monsoon precipitation onset, decay, and duration in CMIP5.
 - [**v1.0.0-alpha**][v1.0.0-alpha] (31 May 2019): Release of summary statistics for extratropical modes of variability in CMIP5 and CMIP6.
@@ -64,6 +74,9 @@ Any error found in the PCMDI Simulation Summaries should be reported to one of t
 
 
 
+=======
+
+[v1.1.0]: {{site.baseurl}}/research/metrics/index.html
 [v1.0.0]: {{site.baseurl}}/research/metrics/index_v1.0.0.html
 [v1.0.0-beta]: {{site.baseurl}}/research/metrics/index_v1.0.0-beta.html
 [v1.0.0-alpha]: {{site.baseurl}}/research/metrics/index_v1.0.0-alpha.html
@@ -71,6 +84,7 @@ Any error found in the PCMDI Simulation Summaries should be reported to one of t
 [description_variability]: {{site.baseurl}}/research/metrics/plot_description_variability.html
 [description_monsoon]: {{site.baseurl}}/research/metrics/plot_description_monsoon.html
 [description_mjo]: {{site.baseurl}}/research/metrics/plot_description_mjo.html
+[description_enso]: {{site.baseurl}}/research/metrics/plot_description_enso.html
 
 
 [lee2019]: https://link.springer.com/article/10.1007/s00382-018-4355-4
