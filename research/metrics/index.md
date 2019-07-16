@@ -6,7 +6,6 @@ title: PCMDI - Metrics
 
 # Climate Model Metrics
 ---
-<<<<<<< HEAD
 # <a name="top"></a>_PCMDI Simulation Summaries (v1.1.0)_
 
 The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a capability that can be used to produce a diverse suite of objective summaries of Earth System Model (ESM) agreement with observations. At PCMDI, we are routinely applying the PMP to multiple generations of CMIP, including the most recent results from CMIP6 as they become available. The summaries available below will be regularly updated with new and an expanding set of results.
@@ -16,16 +15,6 @@ The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a c
 - [**Monsoon Precipitation: Fractional Accumulation**](#monsoon)
 - [**El Niño–Southern Oscillation (ENSO)**](#enso)
 - [_Update history_](#updates)
-=======
-# _PCMDI Simulation Summaries ([v1.1.0][v1.1.0])_
-
-The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a capability that can be used to produce a diverse suite of objective summaries of Earth System Model (ESM) agreement with observations. At PCMDI, we are routinely applying the PMP to multiple generations of CMIP, including the most recent results from CMIP6 as they become available. The summaries available below will be regularly updated with new and an expanding set of results.
-
-- Mean climate results (*coming soon*)
-- [Extratropical Modes of Variability](#variability)
-- [Monsoon Precipitation: Fractional Accumulation](#monsoon)
-- [El Niño-Southern Oscillation (ENSO)](#enso)
->>>>>>> 65f4a97883484b28f80524dca6803892593538c8
 
 ---
 ## <a name="variability"></a>[Extratropical Modes of Variability][description_variability]
