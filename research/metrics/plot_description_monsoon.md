@@ -10,10 +10,10 @@ These results are based on the work of [Sperber and Annamalai (2014)][sperber200
 
 The monsoon Portrait Plots are interactive. Clicking on any cell gives the fractional accumulations for all monsoon domains for that model in comparison with two sets of observations. The plots are the same irrespective of whether one is looking at the plot of onset, decay, or duration. The only difference is that the numerical value of the metric for that cell and that Portrait Plot is given in the meta data.
 
-#### Summary statistics in Portrait Plots
+### Summary statistics in Portrait Plots
   - #### CMIP5 Historical: [Onset][CMIP5_monsoon_sperber_onset] | [Decay][CMIP5_monsoon_sperber_decay] | [Duration][CMIP5_monsoon_sperber_duration]
 
-#### General Results
+### General Results
 The results are presented in terms of the model pentad minus the observed pentad. Negative (positive) values indicate that the onset or decay in the model occurs earlier (later) than in observations. For duration, negative (positive) values indicate that for the model it takes fewer (more) pentads to progress from onset to decay compared to observations. For CMIP5 the main conclusion is that we find systematic errors in the phase of the annual cycle of rainfall. The models are delayed in the onset of summer rainfall over India, the Gulf of Guinea, and the South American Monsoon, with early onset prevalent for the Sahel and the North American Monsoon. The lack of consistency in the phase error across all domains suggests that a ‘‘global’’ approach to the study of monsoons may not be sufficient to rectify the regional differences. Rather, regional process studies are necessary for diagnosing the underlying causes of the regionally specific systematic model biases over the different monsoon domains.
 
 ---
