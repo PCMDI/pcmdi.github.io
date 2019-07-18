@@ -19,7 +19,7 @@ Here we apply the frequency-wavenumber decomposition method to precipitation fro
 
 ### Summary statistics in Interactive Bar Charts
   - #### A. CMIP5 and CMIP6 Historical (organized by modelling center): [EWR][CMIP56_ewr_models]
-  - #### B. CMIP5 and CMIP6 Historical (distinct groups): [EWR][CMIP56_mips]
+  - #### B. CMIP5 and CMIP6 Historical (distinct groups): [EWR][CMIP56_ewr_mips]
 
 
 ---
