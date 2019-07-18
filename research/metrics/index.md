@@ -60,8 +60,7 @@ The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a c
 
 ---
 
-Any error found in the PCMDI Simulation Summaries should be reported to one of the [PCMDI Metrics Package liaisons](pcmdi-metrics@llnl.gov).
-
+Questions or comments about the PCMDI Simulation Summaries should be sent to the [PMP team](pcmdi-metrics@llnl.gov).
 
 
 [v1.0.0]: {{site.baseurl}}/research/metrics/index_v1.0.0.html
