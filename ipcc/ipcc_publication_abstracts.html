@@ -8,6 +8,12 @@ title: PCMDI - IPCC
     $( document ).ready(function() {
         var urlParams = new URLSearchParams(window.location.search);
         var pubID = urlParams.get("ipcc_publication_id");
+
+        if(urlParams.has("ipcc_subproject_id")){
+            var projID = urlParams.get("ipcc_subproject_id");
+            $("#subproject_link").html("<a href=ipcc_subproject_details.html?ipcc_subproject_id="+projID+">\<\< Back to Subproject Details</a>");
+        }
+
         $.getJSON("subproject_publications.json", function (data) {
             var pub = data.ipcc_publications[pubID];
 
@@ -77,7 +83,7 @@ title: PCMDI - IPCC
     });
 </script>
 
-<br><br>
+<br /><br />
 
 <div style="font-size: 14pt">
 <ul style="list-style: none; margin-left: 0; padding-left: 1em; text-indent: -1em; margin-top: 0px; margin-bottom: 0px; padding-top: 0px; padding-bottom: 0px;">
@@ -97,3 +103,7 @@ title: PCMDI - IPCC
 <p>
 <div id="modified_datetime"></div>
 </p>
+
+<br />
+<div id="subproject_link"></div>
+<a href="subproject_publications.html"><< Back to WCRP CMIP3 Subprojects</a>

@@ -11,6 +11,8 @@ title: PCMDI - IPCC
         $.getJSON("subproject_publications.json", function (data) {
             var project = data.ipcc_subprojects[projID];
 
+            $("#title").html(project.title);
+
             var piNames = project.pi_first_name+" "+project.pi_last_name;
             if(project.additional_pis != ""){
                 piNames += "<br />"+project.additional_pis;
@@ -94,7 +96,9 @@ title: PCMDI - IPCC
     });
 </script>
 
-<br><br>
+<br /><br />
+
+<h3><div id="title"></div></h3>
 
 <table cellpadding="4">
     <tr>
@@ -136,3 +140,6 @@ title: PCMDI - IPCC
         </td>
     </tr>
 </table>
+
+<br />
+<a href="subproject_publications.html"><< Back to WCRP CMIP3 Subprojects</a>
