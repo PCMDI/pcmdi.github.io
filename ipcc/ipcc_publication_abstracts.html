@@ -1,0 +1,109 @@
+---
+layout: default
+title: PCMDI - IPCC
+---
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+<script>
+    $( document ).ready(function() {
+        var urlParams = new URLSearchParams(window.location.search);
+        var pubID = urlParams.get("ipcc_publication_id");
+
+        if(urlParams.has("ipcc_subproject_id")){
+            var projID = urlParams.get("ipcc_subproject_id");
+            $("#subproject_link").html("<a href=ipcc_subproject_details.html?ipcc_subproject_id="+projID+">\<\< Back to Subproject Details</a>");
+        }
+
+        $.getJSON("subproject_publications.json", function (data) {
+            var pub = data.ipcc_publications[pubID];
+
+            var citation = pub.authors + ", ";
+
+            if(pub.year != ""){
+                citation += pub.year + ", ";
+            }
+            
+            citation += pub.title + ", ";
+
+            if (pub.journal != "")
+            {
+                citation += "<i>" + pub.journal + "</i>";
+
+                if (pub.volume != "" || pub.pages != "" || pub.doi_id != "")
+                {
+                    if (pub.volume != "")
+                    {
+                        citation += ", <b>" + pub.volume + "</b>";
+                    }
+                    if (pub.pages != "")
+                    {
+                        citation += ", " + pub.pages;
+                    }
+                                
+                    if (pub.doi_id != "")
+                    {
+                        citation += ", " + pub.doi_id;
+                    }
+                                
+                    citation += ". ";
+                }
+                else 
+                {
+                    citation += ". ";
+                }   
+            }
+                        
+            if (pub.status == "in_preparation")
+            {
+                citation += "In preparation. ";
+            }
+            else if (pub.status == "submitted")
+            {
+                citation += "Submitted. ";
+            }
+            else if (pub.status == "accepted")
+            {
+                citation += "Accepted. ";
+            }
+            else if (pub.status == "in_press")
+            {
+                citation += "In press. ";
+            }
+
+            $("#citation").html(citation);
+
+            $("#abstract").html(pub.abstract.replace("\n", "<br />"));
+
+            if(pub.url != ""){
+                $("#url").html("<b>Full Article:</b>  <a href="+pub.url+">"+pub.url+"</a>");
+            }
+
+            $("#modified_datetime").html("Last Updated:  "+pub.modified_datetime);
+        });
+    });
+</script>
+
+<br /><br />
+
+<div style="font-size: 14pt">
+<ul style="list-style: none; margin-left: 0; padding-left: 1em; text-indent: -1em; margin-top: 0px; margin-bottom: 0px; padding-top: 0px; padding-bottom: 0px;">
+<li><div id="citation"></div></li>
+</ul>
+</div>
+
+<p>
+<div id="abstract"></div> 
+</p>
+<br />
+
+<p>
+<div id="url"></div>
+</p>
+
+<p>
+<div id="modified_datetime"></div>
+</p>
+
+<br />
+<div id="subproject_link"></div>
+<a href="subproject_publications.html"><< Back to WCRP CMIP3 Subprojects</a>
