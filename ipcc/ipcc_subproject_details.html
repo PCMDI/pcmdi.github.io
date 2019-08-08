@@ -11,6 +11,22 @@ title: PCMDI - IPCC
         $.getJSON("subproject_publications.json", function (data) {
             var project = data.ipcc_subprojects[projID];
 
+            var piNames = project.pi_first_name+" "+project.pi_last_name;
+            if(project.additional_pis != ""){
+                piNames += "<br />"+project.additional_pis;
+            }
+
+            $("#pi_names").html(piNames);
+
+            $("#institution").html(project.institution);
+
+            if(project.additional_investigators != ""){
+                $("#additional_investigators_label").html("<b>Additional Investigators: </b>");
+                $("#additional_investigators_value").html(project.additional_investigators);
+            }
+
+            $("#abstract").html(project.abstract.replace("\n", "<br />"));
+
             $.each(project.ipcc_publication_id, function(index, value) {
                 var pub = data.ipcc_publications[value];
                 var citation = pub.authors + ", ";
@@ -66,7 +82,6 @@ title: PCMDI - IPCC
                     citation += "In press. ";
                 }
 
-                $("#abstract").html(pub.abstract.replace("\n", "<br />"));
                 citation += "<a href='ipcc_publication_abstracts.html?ipcc_publication_id="+pub.ipcc_publication_id+"&ipcc_subproject_id="+projID+"'>Abstract</a>. ";
 
                 if(pub.url != ""){
@@ -82,6 +97,36 @@ title: PCMDI - IPCC
 <br><br>
 
 <table cellpadding="4">
+    <tr>
+        <td width="150"><b>PI: </b></td>
+        <td>
+            <div id="pi_names"></div>
+        </td>
+    </tr>
+
+    <tr>
+        <td><b>Institution: </b></td>
+        <td><div id="institution"></div></td>
+    </tr>
+
+    <tr>
+        <td><div id="additional_investigators_label"></div></td>
+        <td><div id="additional_investigators_value"></div></td>
+    </tr>
+
+    <tr>
+        <td colspan="2"><b>Abstract:</b></td>
+    </tr>
+
+    <tr>
+        <td colspan="2" style="padding-left: 10px;">
+            <div id="abstract"></div>
+        </td>
+    </tr>
+
+    <tr>
+        <td colspan="2"><b>Publications:</b></td>
+    </tr>
     <tr>
         <td colspan="2" style="padding-left: 10px;">
             <div id="publications">
