@@ -1,0 +1,93 @@
+---
+layout: default
+title: PCMDI - IPCC
+---
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+<script>
+    $( document ).ready(function() {
+        var urlParams = new URLSearchParams(window.location.search);
+        var projID = urlParams.get("ipcc_subproject_id");
+        $.getJSON("subproject_publications.json", function (data) {
+            var project = data.ipcc_subprojects[projID];
+
+            $.each(project.ipcc_publication_id, function(index, value) {
+                var pub = data.ipcc_publications[value];
+                var citation = pub.authors + ", ";
+
+                if(pub.year != ""){
+                    citation += pub.year + ", ";
+                }
+                
+                citation += pub.title + ", ";
+
+                if (pub.journal != "")
+                {
+                    citation += "<i>" + pub.journal + "</i>";
+
+                    if (pub.volume != "" || pub.pages != "" || pub.doi_id != "")
+                    {
+                        if (pub.volume != "")
+                        {
+                            citation += ", <b>" + pub.volume + "</b>";
+                        }
+                        if (pub.pages != "")
+                        {
+                            citation += ", " + pub.pages;
+                        }
+                                    
+                        if (pub.doi_id != "")
+                        {
+                            citation += ", " + pub.doi_id;
+                        }
+                                    
+                        citation += ". ";
+                    }
+                    else 
+                    {
+                        citation += ". ";
+                    }   
+                }
+                            
+                if (pub.status == "in_preparation")
+                {
+                    citation += "In preparation. ";
+                }
+                else if (pub.status == "submitted")
+                {
+                    citation += "Submitted. ";
+                }
+                else if (pub.status == "accepted")
+                {
+                    citation += "Accepted. ";
+                }
+                else if (pub.status == "in_press")
+                {
+                    citation += "In press. ";
+                }
+
+                $("#abstract").html(pub.abstract.replace("\n", "<br />"));
+                citation += "<a href='ipcc_publication_abstracts.html?ipcc_publication_id="+pub.ipcc_publication_id+"&ipcc_subproject_id="+projID+"'>Abstract</a>. ";
+
+                if(pub.url != ""){
+                    citation += "<a href="+pub.url+">Full Article</a>.";
+                }
+
+                $("#publications ul").append("<li>"+citation+"</li>");
+            });
+        });
+    });
+</script>
+
+<br><br>
+
+<table cellpadding="4">
+    <tr>
+        <td colspan="2" style="padding-left: 10px;">
+            <div id="publications">
+            <ul style="list-style: none; margin-left: 0; padding-left: 1em; text-indent: -1em; margin-top: 0px; margin-botom: 0px; padding-top: 0px; padding-bottom: 0px;">
+            </ul>
+            </div>
+        </td>
+    </tr>
+</table>
