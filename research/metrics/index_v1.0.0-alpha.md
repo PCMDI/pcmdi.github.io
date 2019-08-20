@@ -2,6 +2,8 @@
 layout: default
 title: PCMDI - Metrics
 ---
+###### Research > [Metrics][Metrics]
+---
 
 # Climate Model Metrics
 ---
@@ -39,3 +41,6 @@ The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) provid
 [CMIP5_variability_rmse]: https://pcmdi.llnl.gov/pmp-preliminary-results/ipp_test_variability_modes/cmip5_v20190512_rmse/clickable_portrait.html
 [CMIP6_variability_amplitude]: https://pcmdi.llnl.gov/pmp-preliminary-results/ipp_test_variability_modes/cmip6_v20190503/clickable_portrait.html
 [CMIP6_variability_rmse]: https://pcmdi.llnl.gov/pmp-preliminary-results/ipp_test_variability_modes/cmip6_v20190503_rmse/clickable_portrait.html
+
+[Metrics]:{{site.baseurl}}/research/metrics/index.html
+

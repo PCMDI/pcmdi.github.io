@@ -2,7 +2,8 @@
 layout: default
 title: PCMDI - Metrics
 ---
-
+###### Research > [Metrics][Metrics]
+---
 
 # Climate Model Metrics
 ---
@@ -60,3 +61,6 @@ The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a c
 [CMIP5_monsoon_sperber_onset]: https://pcmdi.llnl.gov/pmp-preliminary-results/ipp_test_monsoon_sperber/onset_index_rel2obs_v20190618/clickable_portrait.html
 [CMIP5_monsoon_sperber_decay]: https://pcmdi.llnl.gov/pmp-preliminary-results/ipp_test_monsoon_sperber/decay_index_rel2obs_v20190618/clickable_portrait.html
 [CMIP5_monsoon_sperber_duration]: https://pcmdi.llnl.gov/pmp-preliminary-results/ipp_test_monsoon_sperber/duration_rel2obs_v20190618/clickable_portrait.html
+
+[Metrics]:{{site.baseurl}}/research/metrics/index.html
+

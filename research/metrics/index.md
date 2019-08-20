@@ -2,7 +2,8 @@
 layout: default
 title: PCMDI - Metrics
 ---
-
+###### Research > [Metrics][Metrics]
+---
 
 # Climate Model Metrics
 ---
@@ -92,3 +93,5 @@ Questions or comments about the PCMDI Simulation Summaries should be sent to the
 [sperber2004]: https://doi.org/10.1007/s00382-014-2099-3
 [ahn2017]: https://doi.org/10.1007/s00382-017-3558-4
 [Bellenger2014]: https://doi.org/10.1007/s00382-013-1783-z
+
+[Metrics]:{{site.baseurl}}/research/metrics/index.html
