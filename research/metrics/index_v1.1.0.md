@@ -13,7 +13,7 @@ The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a c
 - **Mean climate results** (*coming soon*)
 - [**Extratropical Modes of Variability**](#variability)
 - [**Monsoon Precipitation: Fractional Accumulation**](#monsoon)
-- [**Madden-Julian Oscillation (MJO)**](#mjo)
+- [**El Niño–Southern Oscillation (ENSO)**](#enso)
 - [_Update history_](#updates)
 
 ---
@@ -39,19 +39,34 @@ The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a c
 <p align="right"><a href="#top">Back to List</a></p>
 
 ---
+<<<<<<< HEAD:research/metrics/index_v1.1.0.md
 ## <a name="mjo"></a>[Madden-Julian Oscillation (MJO)][description_mjo]
 - Based on the work of [Ahn et al. (2017)][ahn2017], we present skill metrics that indicate how well models simulate eastward propagation of the MJO. We apply frequency-wavenumber decomposition to precipitation from observations (GPCP-based; 1997-2010) and the CMIP5 and CMIP6 Historical simulations (1985-2004).
+=======
+## <a name="enso"></a>[El Niño-Southern Oscillation (ENSO)][description_enso]
+>>>>>>> enso_drafting:research/metrics/index.md
 
-- #### [Results][description_mjo]
-  For a brief description of the results, please click [**here**][description_mjo]. For more detailed information see:
+- El Niño-Southern Oscillation (ENSO) is the dominant mode of interannual variability in the tropical Pacific and has far reaching impacts on global climate. It is there therefore key to ensure its correct simulation in state-of-the-art climate models. Community-wide synthesis of metrics to evaluate the performance, teleconnections and processes of ENSO in coupled GCMs is proposed by the ENSO working group of the CLIVAR Pacific panel. The corresponding objective comparisons of simulations against observations shown here result from a collaboration between scientists at IPSL and PCMDI. This effort  strives to improve and expand upon the ENSO model performance tests proposed by Bellenger et al. (2014) for CMIP5. It will result in a “ENSO in CMIP6” publication in 2019 (Planton et al. 2019).
 
-  > Ahn, M.-S., D. Kim, K. R. Sperber, I.-S. Kang, E. Maloney, D. Waliser, H. Hendon, 2017: MJO simulation in CMIP5 climate models: MJO skill metrics and process-oriented diagnosis. Clim. Dynam., 49, 4023-4045. [doi: 10.1007/s00382-017-3558-4][ahn2017]. 
-  
+
+
+
+- #### [Preliminary results][description_enso]
+
+  > Bellenger, H., Guilyardi, E., Leloup, J. et al. Clim Dyn (2014) 42: 1999. https://doi.org/10.1007/s00382-013-1783-z
+
+  > Planton Y., E. Guilyardi, A. Wittenberg, J. Lee, P. Gleckler, S. Power, S. McGregor, T. Bayr (2019). ENSO in CMIP6. In preparation
+
 <p align="right"><a href="#top">Back to List</a></p>
 
 ---
 ## <a name="updates"></a>Update Histrory
+<<<<<<< HEAD:research/metrics/index_v1.1.0.md
 - **v1.1.0** (18 July 2019): MJO metrics added
+=======
+
+- [**v1.1.0**][v1.1.0] (XX XX 2019): ENSO added
+>>>>>>> enso_drafting:research/metrics/index.md
 - [**v1.0.0**][v1.0.0] (20 June 2019): Initial public release
 - [**v1.0.0-beta**][v1.0.0-beta] (18 June 2019): Addition of monsoon precipitation onset, decay, and duration in CMIP5.
 - [**v1.0.0-alpha**][v1.0.0-alpha] (31 May 2019): Release of summary statistics for extratropical modes of variability in CMIP5 and CMIP6.
@@ -63,6 +78,7 @@ The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a c
 Questions or comments about the PCMDI Simulation Summaries should be sent to the [PMP team](pcmdi-metrics@llnl.gov).
 
 
+[v1.1.0]: {{site.baseurl}}/research/metrics/index.html
 [v1.0.0]: {{site.baseurl}}/research/metrics/index_v1.0.0.html
 [v1.0.0-beta]: {{site.baseurl}}/research/metrics/index_v1.0.0-beta.html
 [v1.0.0-alpha]: {{site.baseurl}}/research/metrics/index_v1.0.0-alpha.html
@@ -70,6 +86,7 @@ Questions or comments about the PCMDI Simulation Summaries should be sent to the
 [description_variability]: {{site.baseurl}}/research/metrics/plot_description_variability.html
 [description_monsoon]: {{site.baseurl}}/research/metrics/plot_description_monsoon.html
 [description_mjo]: {{site.baseurl}}/research/metrics/plot_description_mjo.html
+[description_enso]: {{site.baseurl}}/research/metrics/plot_description_enso.html
 
 
 [lee2019]: https://link.springer.com/article/10.1007/s00382-018-4355-4
