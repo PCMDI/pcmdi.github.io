@@ -86,7 +86,7 @@ Questions or comments about the PCMDI Simulation Summaries should be sent to the
 [description_variability]: {{site.baseurl}}/research/metrics/plot_description_variability.html
 [description_monsoon]: {{site.baseurl}}/research/metrics/plot_description_monsoon.html
 [description_mjo]: {{site.baseurl}}/research/metrics/plot_description_mjo.html
-
+[description_enso]: {{site.baseurl}}/research/metrics/plot_description_enso.html
 
 [lee2019]: https://link.springer.com/article/10.1007/s00382-018-4355-4
 [sperber2004]: https://doi.org/10.1007/s00382-014-2099-3
