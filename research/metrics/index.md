@@ -40,12 +40,17 @@ The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a c
 
 ---
 ## <a name="enso"></a>[El Niño-Southern Oscillation (ENSO)][description_enso]
-- Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text 
 
-- #### [Results][description_monsoon]
-  For a brief description of the results, please click [**here**][description_enso]. For more detailed information see:
+- El Niño-Southern Oscillation (ENSO) is the dominant mode of interannual variability in the tropical Pacific and has far reaching impacts on global climate. It is there therefore key to ensure its correct simulation in state-of-the-art climate models. Community-wide synthesis of metrics to evaluate the performance, teleconnections and processes of ENSO in coupled GCMs is proposed by the ENSO working group of the CLIVAR Pacific panel. The corresponding objective comparisons of simulations against observations shown here result from a collaboration between scientists at IPSL and PCMDI. This effort  strives to improve and expand upon the ENSO model performance tests proposed by Bellenger et al. (2014) for CMIP5. It will result in a “ENSO in CMIP6” publication in 2019 (Planton et al. 2019).
 
-  > REFERENCE
+
+
+
+- #### [Preliminary results][description_enso]
+
+  > Bellenger, H., Guilyardi, E., Leloup, J. et al. Clim Dyn (2014) 42: 1999. https://doi.org/10.1007/s00382-013-1783-z
+
+  > Planton Y., E. Guilyardi, A. Wittenberg, J. Lee, P. Gleckler, S. Power, S. McGregor, T. Bayr (2019). ENSO in CMIP6. In preparation
 
 <p align="right"><a href="#top">Back to List</a></p>
 
