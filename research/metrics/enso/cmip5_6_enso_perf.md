@@ -13,10 +13,12 @@ title: PCMDI - Metrics
 
 ## <a name="rmse"></a>RMSE Portrait Plots
 <img src="ENSO_perf_cmip_5and6_Rmse_PP_SidebySide_annotated.png">
+- Models from CMIP5 and CMIP6(*)
 
 ---
 ## <a name="nonrmse"></a> Non-RMSE Portrait Plot
 <img src="ENSO_perf_cmip_5and6_nonRmse_PP_SidebySide_annotated.png">
+- Models from CMIP5 and CMIP6(*)
 
 
 
