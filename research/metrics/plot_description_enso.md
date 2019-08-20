@@ -35,10 +35,13 @@ These results are preliminary and the metrics used will change. The number of me
 ---
 
 ## Reference
-> REF
+
+  > Bellenger, H., Guilyardi, E., Leloup, J. et al. Clim Dyn (2014) 42: 1999. [doi: 10.1007/s00382-013-1783-z][Bellenger2014]
+
+  > Planton Y., E. Guilyardi, A. Wittenberg, J. Lee, P. Gleckler, S. Power, S. McGregor, T. Bayr (2019). ENSO in CMIP6. In preparation
 
 
-[sperber2004]: https://doi.org/10.1007/s00382-014-2099-3
+[Bellenger2014]: https://doi.org/10.1007/s00382-013-1783-z
 
 [CMIP5_6_enso_perf]: {{site.baseurl}}/research/metrics/enso/cmip5_6_enso_perf.html
 [CMIP5_6_enso_tel]: {{site.baseurl}}/research/metrics/enso/cmip5_6_enso_tel.html
