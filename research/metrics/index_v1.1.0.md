@@ -8,7 +8,7 @@ title: PCMDI - Metrics
 
 # Climate Model Metrics
 ---
-# <a name="top"></a>_PCMDI Simulation Summaries (v1.1.0)_
+# <a name="top"></a>_PCMDI Simulation Summaries (v1.1.0)_ [[Go to latest][latest]]
 
 The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a capability that can be used to produce a diverse suite of objective summaries of Earth System Model (ESM) agreement with observations. At PCMDI, we are routinely applying the PMP to multiple generations of CMIP, including the most recent results from CMIP6 as they become available. The summaries available below will be regularly updated with new and an expanding set of results.
 
@@ -65,6 +65,7 @@ The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a c
 Questions or comments about the PCMDI Simulation Summaries should be sent to the [PMP team](pcmdi-metrics@llnl.gov).
 
 
+[latest]: {{site.baseurl}}/research/metrics/index.html
 [v1.0.0]: {{site.baseurl}}/research/metrics/index_v1.0.0.html
 [v1.0.0-beta]: {{site.baseurl}}/research/metrics/index_v1.0.0-beta.html
 [v1.0.0-alpha]: {{site.baseurl}}/research/metrics/index_v1.0.0-alpha.html

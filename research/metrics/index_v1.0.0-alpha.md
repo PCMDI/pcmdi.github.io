@@ -7,7 +7,7 @@ title: PCMDI - Metrics
 
 # Climate Model Metrics
 ---
-# _PCMDI Simulation Metrics ([v1.0.0-alpha][v1.0.0-alpha])_[Go to latest][latest]
+# _PCMDI Simulation Metrics ([v1.0.0-alpha][v1.0.0-alpha])_ [[Go to latest][latest]]
 The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) provides a diverse suite of objective summaries of Earth System Model agreement with observations. Simulation summary metrics listed below is our preliminary results marked as version 0.1 released at 31 May 2019. Further update will follow.
 
 ---
