@@ -45,7 +45,7 @@ Here are links to the parts of the guide.
 1. CMIP6 organization and governance
 
 
-###### Document version: 7 August 2018
+###### Document version: 13 February 2019
 
 [modelers]: modelers.html
 [dataManagers]: dataManagers.html

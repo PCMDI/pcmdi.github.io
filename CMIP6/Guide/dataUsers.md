@@ -69,9 +69,12 @@ To enable modeling groups and others who support CMIP6 to demonstrate its impact
 
 <span style="color:red;font-weight:bold">Please carefully read and adhere to</span> the [CMIP6 Terms of Use][termsOfUse].  
 
-CMIP6 model output datasets and forcing datasets should, according to the terms of use, be cited by any publication that make use of them (see [Data Citation Guidelines][dataCitationGuide]). Further information on the data citation concept for CMIP6 is available at [cmip6cite.wdc-climate.de][cmip6cite] and described in [Stockhause and Lautenschlager (2017)][Stockhause2017].  
+CMIP6 model output datasets and forcing datasets should, according to the terms of use, be cited by any publication that make use of them (see [Data Citation Guidelines][dataCitationGuide]). It is important to include the version (latest dataset version or if not available the latest data download date) in the data citation of the evolving CMIP6 data. Further information on the data citation concept for CMIP6 is available at [cmip6cite.wdc-climate.de][cmip6cite] and described in [Stockhause and Lautenschlager (2017)][Stockhause2017].  
 
-Brief data citation information can be displayed  by clicking on “Show citation” next to datasets listed by the CMIP6 CoG search interface and then navigating to the “landing page”.  It is important to include the version (latest dataset version or if not available the latest data download date) in the data citation of the evolving CMIP6 data.
+Data references give credit to the data providers and enable the traceability of research findings (see [contribution to the CMIP6 Model Analysis Workshop][citemaws]). They are provided on two granuliarities: fine experiment (contribution by one model to one experiment) and coarse model/MIP (contribution by one model to one MIP). Data references can be found:
+* in the CMIP6 CoG sites (see list above): Brief data citation information can be displayed  by clicking on “Show citation” next to each dataset. The provided URL or DOI for the finer data reference for the experiment will direct you to the corresponding "landing page" with detailed information including the coarser model/MIP granularity.
+* using [Google's Dataset Search][gdatasetsearch]
+* via the global attribute "further_info_url" in the file and the ES-DOC page to the citation "landing page".
 
 ## 5. Model and experiment documentation
 The [controlled vocabularies][cmip6Cvs] contain basic information about the [models][sourceIdHtml], [institutions][institutionIdHtml], and [experiments][experimentIdhtml] in CMIP6.  The CMIP6 results will be fully documented and made accessible via the ES-DOC viewer and comparator interface ([https://search.es-doc.org](https://search.es-doc.org)). Each CMIP6 model output file includes a global attribute called “further_info_url” which will link to a signpost web page providing simulation/ensemble information, model configuration details, current contact details, data citation details etc. This link is also selectable next to each dataset returned by the CMIP6 CoG search interface.  ES-DOC will include documentation of:
@@ -168,3 +171,5 @@ Information is under preparation describing the governance of the following:
 [termsOfUse]: https://pcmdi.llnl.gov/CMIP6/TermsOfUse
 [dataCitationGuide]: http://bit.ly/2gBCuqM
 [Stockhause2017]: https://doi.org/10.5334/dsj-2017-030
+[gdatasetsearch]: https://toolbox.google.com/datasetsearch/
+[citemaws]: https://doi.org/10.5281/zenodo.2621084
