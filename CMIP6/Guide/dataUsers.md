@@ -155,14 +155,14 @@ Information is under preparation describing the governance of the following:
 [wipCog]: https://www.earthsystemcog.org/projects/wip
 [wipMission]: https://www.earthsystemcog.org/projects/wip/aboutus/
 [cdnotGoogleDoc]: https://docs.google.com/document/d/1oRWqxtWWEfsucTVhk0G3bMqHC0BL4dJwADrOG8Ukj-g
-[obs4mipsCog]: https://www.earthsystemcog.org/projects/obs4mips/
+[obs4mipsCog]: https://esgf-node.llnl.gov/projects/obs4mips/
 [CMIP6Citation]: http://cmip6cite.wdc-climate.de
 [variableListXls]: http://proj.badc.rl.ac.uk/svn/exarch/CMIP6dreq/tags/latest/dreqPy/docs/CMIP6_MIP_tables.xlsx
 [input4mipsHome]: https://esgf-node.llnl.gov/projects/input4mips/
 [ESGFHome]: https://esgf.llnl.gov/
 [BalajiGMD]: https://www.geosci-model-dev-discuss.net/gmd-2018-52/
-[ESGFTutorial]: http://www.earthsystemcog.org/projects/cog/tutorials_web
-[ESGFTechSupport]: https://www.earthsystemcog.org/projects/cog/contactus/
+[ESGFTutorial]: https://esgf.github.io/esgf-user-support/user_guide.html
+[ESGFTechSupport]: https://esgf-node.llnl.gov/projects/cmip6/contactus/
 [ESGFSearchapi]: https://earthsystemcog.org/projects/cog/esgf_search_restful_api
 [cmip6cite]: https://redmine.dkrz.de/projects/cmip6-lta-and-data-citation/wiki
 [globusHome]: https://globus.org/
