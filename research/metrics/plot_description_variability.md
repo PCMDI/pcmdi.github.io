@@ -7,9 +7,11 @@ title: PCMDI - Metrics
 
 # Extratropical Modes of Variability
 
+<br/>
 - [RMSE Portrait Plots](#rmse)
 - [Amplitude Portrait Plots](#amplitude)
 
+<br/>
 ---
 
 ## <a name="rmse"></a>RMSE Portrait Plots
@@ -22,10 +24,14 @@ title: PCMDI - Metrics
 
 The RMSE Portrait Plots for the modes of variability are akin to Fig. 13a from [Lee et al. (2019)][lee2019]. For CMIP5 and CMIP6 they show the RMSE relative to the median RMSE of all respective simulations for each mode and season. The RMSE contains errors that arise both in terms of pattern error and amplitude error. The mode/season results for all models are organized by rows, whereas the results from individual realizations across all modes and seasons are isolated by columns. In each cell the normalized results are shown, with for example a result of 0.50 indicating the model RMSE is 50% greater than the median RMSE, whereas a result of −0.25 reflects an error that is 25% smaller than the median of all model results for that particular mode and season. Finally, the upper-left triangle in each cell depicts results based on our default reference (20CR for the sea-level pressure based modes, HadISSTv1.1 for the PDO and NPGO), whereas the results in the lower-right triangle are based on our first alternate source (ERA-20C for sea-level pressure based modes, HadISSTv2.1 for the PDO).
 
+<br/>
+
 For the RMSE, the advantage of the Portrait Plot is that:
   1. It allows us to show on a single plot the model performance irrespective of the units of the variable under consideration and/or where the range of the absolute RMSE is different between modes/seasons
   2. It preserves the relative model performance with respect to the observations
   3. It gives an indication of how well a given model is performing in a multi-model context
+
+<br/>
 
 The Portrait Plots are interactive. Clicking on any cell triangle will give its associated value, the observed EOF’s using our primary and secondary observed datasets, EOF’s 1-3 of the model, the model CBF EOF, and the PC time series of the EOF’s and the CBF EOF. Clicking on a mode along the y-axis will give the associated Taylor Plot of all models for that mode/season.
 
@@ -41,6 +47,7 @@ The Portrait Plots are interactive. Clicking on any cell triangle will give its 
 There are several general conclusions that we can draw from the RMSE Portrait Plots. Firstly, though the selection of a reference dataset is important, it does not radically impact the general conclusions about a particular model’s agreement with the observed EOF spatial pattern. Secondly, with some binning of the results (the color bar uses 10% increments), we see that in many cases the results for a given model’s relative performance is not very sensitive to which realization is examined. Our results are thus fairly robust to internal variability and selection of reference data. A more detailed discussion of the RMSE results are given in [Lee et al. (2019)][lee2019].
 
 <br/>
+<br/>
 ---
 
 ## <a name="amplitude"></a>Amplitude Portrait Plots
@@ -52,6 +59,8 @@ There are several general conclusions that we can draw from the RMSE Portrait Pl
 
 
 The amplitude Portrait Plots for the modes of variability are akin to Fig. 14 from [Lee et al. (2019)][lee2019]. It gives the standard deviation of the model CBF PC time series divided by the standard deviation of the observed PC time series such that values close to one indicate consistency between the models and observations.
+
+<br/>
 
 The Portrait Plots are interactive. Clicking on any cell triangle will give its associated value, the observed EOF’s using our primary and secondary observed datasets, EOF’s 1-3 of the model, the model CBF EOF, and the PC time series of the EOF’s and the CBF EOF. Clicking on a mode along the y-axis will give the associated Taylor Plot of all models for that mode/season.
 
