@@ -14,7 +14,7 @@ The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a c
 - [**Mean Climate**](#mean)
 - [**Extratropical Modes of Variability**](#variability)
 - [**Monsoon Precipitation: Fractional Accumulation**](#monsoon)
-- **El Niño–Southern Oscillation (ENSO)**(coming soon)
+- **El Niño–Southern Oscillation (ENSO)** (_coming soon_)
 - [**Madden-Julian Oscillation (MJO)**](#mjo)
 - [_Update history_](#updates)
 
