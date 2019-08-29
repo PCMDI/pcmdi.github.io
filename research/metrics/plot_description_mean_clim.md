@@ -31,3 +31,6 @@ An interactive Portrait Plot shows results similar to those in the IPCP, but for
 
 [gleckler2008]: https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2007JD008972
 [taylor2001]: https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2000JD900719
+
+[Metrics]:{{site.baseurl}}/research/metrics/index.html
+
