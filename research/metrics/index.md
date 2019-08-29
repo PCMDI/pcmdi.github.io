@@ -11,12 +11,25 @@ title: PCMDI - Metrics
 
 The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a capability that can be used to produce a diverse suite of objective summaries of Earth System Model (ESM) agreement with observations. At PCMDI, we are routinely applying the PMP to multiple generations of CMIP, including the most recent results from CMIP6 as they become available. The summaries available below will be regularly updated with new and an expanding set of results.
 
-- **Mean climate results** (*coming soon*)
+- [**Mean Climate**](#mean)
 - [**Extratropical Modes of Variability**](#variability)
 - [**Monsoon Precipitation: Fractional Accumulation**](#monsoon)
 - [**El Niño–Southern Oscillation (ENSO)**](#enso)
 - [**Madden-Julian Oscillation (MJO)**](#mjo)
 - [_Update history_](#updates)
+
+---
+## <a name="mean"></a>[Mean Climate][description_mean_clim]
+- Using well-established statistics, we provide large-scale seasonal and mean state climatology comparisons between CMIP simulations and observationally-based data. These include traditional measures (e.g. bias, pattern correlation and root-mean-square error) for global, hemispheric, tropical, extra-tropical, and other selected domains using satellite data and atmospheric reanalysis as references. These statistics are routinely computed as part of model evaluation. We use summary diagrams developed by PCMDI scientists  ([Taylor 2001][taylor2001]; [Gleckler et al. 2008][gleckler2008]) to objectively compare the consistency between the observed and simulated climate.
+
+- #### [Results][description_mean_clim]
+For a brief description of the results, please click [**here**][description_mean_clim]. For more detailed information see:
+
+> Gleckler, P. J., K. E. Taylor, and C. Doutriaux, 2008: Performance metrics for model evaluation. J. Geophys. Res., 113, D06104, [doi: 10.1029/2007JD008972][gleckler2008].
+
+> Taylor, K. E., 2001: Summarizing multiple aspects of model performance in a single diagram. J. Geophys. Res., 106, 7183–7192, [doi: 10.1029/2000JD900719][taylor2001].
+
+<p align="right"><a href="#top">Back to List</a></p>
 
 ---
 ## <a name="variability"></a>[Extratropical Modes of Variability][description_variability]
@@ -66,7 +79,7 @@ The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a c
 
 ---
 ## <a name="updates"></a>Update Histrory
-- **v1.2.0** (20 Aug. 2019): ENSO metrics added
+- **v1.2.0** (20 Aug. 2019): Mean climate metrics added
 - [**v1.1.0**][v1.1.0] (18 July 2019): MJO metrics added
 - [**v1.0.0**][v1.0.0] (20 June 2019): Initial public release
 - [**v1.0.0-beta**][v1.0.0-beta] (18 June 2019): Addition of monsoon precipitation onset, decay, and duration in CMIP5.
@@ -84,6 +97,7 @@ Questions or comments about the PCMDI Simulation Summaries should be sent to the
 [v1.0.0-beta]: {{site.baseurl}}/research/metrics/index_v1.0.0-beta.html
 [v1.0.0-alpha]: {{site.baseurl}}/research/metrics/index_v1.0.0-alpha.html
 
+[description_mean_clim]: {{site.baseurl}}/research/metrics/plot_description_mean_clim.html
 [description_variability]: {{site.baseurl}}/research/metrics/plot_description_variability.html
 [description_monsoon]: {{site.baseurl}}/research/metrics/plot_description_monsoon.html
 [description_mjo]: {{site.baseurl}}/research/metrics/plot_description_mjo.html
@@ -93,5 +107,7 @@ Questions or comments about the PCMDI Simulation Summaries should be sent to the
 [sperber2004]: https://doi.org/10.1007/s00382-014-2099-3
 [ahn2017]: https://doi.org/10.1007/s00382-017-3558-4
 [Bellenger2014]: https://doi.org/10.1007/s00382-013-1783-z
+[gleckler2008]: https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2007JD008972
+[taylor2001]: https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2000JD900719
 
 [Metrics]:{{site.baseurl}}/research/metrics/index.html
