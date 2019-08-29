@@ -54,7 +54,7 @@ The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a c
 
 ---
 
-Questions or comments about the PCMDI Simulation Summaries should be sent to the [PMP team](pcmdi-metrics@llnl.gov).
+Questions or comments about the PCMDI Simulation Summaries should be sent to the [PMP team](mailto:pcmdi-metrics@llnl.gov).
 
 
 [v1.1.0]: {{site.baseurl}}/research/metrics/index_v1.1.0.html
