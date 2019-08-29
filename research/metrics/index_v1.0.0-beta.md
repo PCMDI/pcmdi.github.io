@@ -2,16 +2,20 @@
 layout: default
 title: PCMDI - Metrics
 ---
-
+###### Research > [Metrics][Metrics]
+---
 
 # Climate Model Metrics
 ---
-# _PCMDI Simulation Summaries ([v1.0.0-beta][v1.0.0-beta])_
+# _PCMDI Simulation Summaries ([v1.0.0-beta][v1.0.0-beta])_ [[Go to latest][latest]]
 
+<br/>
 The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a capability that can be used to produce a diverse suite of objective summaries of Earth System Model agreement with observations. At PCMDI, we are routinely applying the PMP to multiple generations of CMIP, including the most recent results from CMIP6 as they become available. The summaries available below will be regularly updated with new results.
 
 - [Extratropical Modes of Variability](#variability)
 - [Monsoon Precipitation: Fractional Accumulation](#monsoon)
+
+<br/>
 
 ---
 ## <a name="variability"></a>[Extratropical Modes of Variability][description_variability]
@@ -42,7 +46,12 @@ The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a c
 - [**v1.0.0-beta**][v1.0.0-beta] (18 June 2019): Preliminary Release of summary statistics for extratropical modes of variability in CMIP5 and CMIP6, and for monsoon precipitation onset, decay, and duration in CMIP5.
 - [**v1.0.0-alpha**][v1.0.0-alpha] (31 May 2019): Preliminary Release of summary statistics for extratropical modes of variability in CMIP5 and CMIP6.
 
-[v1.0.0]: {{site.baseurl}}/research/metrics/index.html
+---
+
+Questions or comments about the PCMDI Simulation Summaries should be sent to the [PMP team](mailto:pcmdi-metrics@llnl.gov).
+
+[latest]: {{site.baseurl}}/research/metrics/index.html
+[v1.0.0]: {{site.baseurl}}/research/metrics/index_v1.0.0.html
 [v1.0.0-beta]: {{site.baseurl}}/research/metrics/index_v1.0.0-beta.html
 [v1.0.0-alpha]: {{site.baseurl}}/research/metrics/index_v1.0.0-alpha.html
 
@@ -59,3 +68,6 @@ The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a c
 [CMIP5_monsoon_sperber_onset]: https://pcmdi.llnl.gov/pmp-preliminary-results/ipp_test_monsoon_sperber/onset_index_rel2obs_v20190618/clickable_portrait.html
 [CMIP5_monsoon_sperber_decay]: https://pcmdi.llnl.gov/pmp-preliminary-results/ipp_test_monsoon_sperber/decay_index_rel2obs_v20190618/clickable_portrait.html
 [CMIP5_monsoon_sperber_duration]: https://pcmdi.llnl.gov/pmp-preliminary-results/ipp_test_monsoon_sperber/duration_rel2obs_v20190618/clickable_portrait.html
+
+[Metrics]:{{site.baseurl}}/research/metrics/index.html
+
