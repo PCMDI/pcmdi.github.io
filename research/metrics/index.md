@@ -23,7 +23,7 @@ The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a c
 
 ---
 ## <a name="mean"></a>Mean Climate ([results][description_mean_clim])
-- Using well-established statistics, we provide large-scale seasonal and mean state climatology comparisons between CMIP simulations and observationally-based data. These include traditional measures (e.g. bias, pattern correlation and root-mean-square error) for global, hemispheric, tropical, extra-tropical, and other selected domains using satellite data and atmospheric reanalysis as references. These statistics are routinely computed as part of model evaluation. We use summary diagrams developed by PCMDI scientists  ([Taylor 2001][taylor2001]; [Gleckler et al. 2008][gleckler2008]) to objectively compare the consistency between the observed and simulated climate.
+- Using well-established statistics, we provide large-scale seasonal and mean state climatology comparisons between CMIP simulations and observationally-based data. These include traditional measures (e.g. bias, pattern correlation and root-mean-square error) for global, hemispheric, tropical, extra-tropical, and other selected domains using satellite data and atmospheric reanalysis as references. These statistics are routinely computed as part of model evaluation. We use summary diagrams developed by PCMDI scientists ([Taylor 2001][taylor2001]; [Gleckler et al. 2008][gleckler2008]) to objectively compare the consistency between the observed and simulated climate.
 
 <p align="right"><a href="#top">Back to List</a></p>
 
@@ -46,8 +46,8 @@ The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a c
 <p align="right"><a href="#top">Back to List</a></p>
 
 ---
-## <a name="updates"></a>Update Histrory
-- **v1.2.0** (29 Aug. 2019): Mean climate metrics added
+## <a name="updates"></a>Update History
+- **v1.2.0** (29 August 2019): Mean climate metrics added
 - [**v1.1.0**][v1.1.0] (18 July 2019): MJO metrics added
 - [**v1.0.0**][v1.0.0] (20 June 2019): Initial public release
 - [**v1.0.0-beta**][v1.0.0-beta] (18 June 2019): Addition of monsoon precipitation onset, decay, and duration in CMIP5.
