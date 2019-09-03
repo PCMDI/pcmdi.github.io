@@ -10,6 +10,8 @@ title: PCMDI - Metrics
 # _PCMDI Simulation Metrics ([v1.0.0-alpha][v1.0.0-alpha])_ [[Go to latest][latest]]
 The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) provides a diverse suite of objective summaries of Earth System Model agreement with observations. Simulation summary metrics listed below is our preliminary results marked as version 0.1 released at 31 May 2019. Further update will follow.
 
+<br/>
+
 ---
 ## Extra-tropical Variability Modes
 - Metrics for Modes of Variability Metrics for CMIP5/6 models. The Modes of Variability Metrics is developed at Program for Climate Model Diagnosis and Intercomparison (PCMDI) of Lawrence Livermore Natioanal Laboratory (LLNL). The metrics were developed by Jiwoo Lee, Ken Sperber, Peter Gleckler, Celine Bonfils, and Karl Taylor. 
@@ -25,6 +27,10 @@ The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) provid
 - [**v1.0.0**][v1.0.0] (20 June 2019): Release of summary statistics for extratropical modes of variability in CMIP5 and CMIP6, and for monsoon precipitation onset, decay, and duration in CMIP5.
 - [**v1.0.0-beta**][v1.0.0-beta] (18 June 2019): Preliminary Release of summary statistics for extratropical modes of variability in CMIP5 and CMIP6, and for monsoon precipitation onset, decay, and duration in CMIP5.
 - [**v1.0.0-alpha**][v1.0.0-alpha] (31 May 2019): Preliminary Release of summary statistics for extratropical modes of variability in CMIP5 and CMIP6.
+
+---
+
+Questions or comments about the PCMDI Simulation Summaries should be sent to the [PMP team](mailto:pcmdi-metrics@llnl.gov).
 
 [latest]: {{site.baseurl}}/research/metrics/index.html
 [v1.0.0]: {{site.baseurl}}/research/metrics/index_v1.0.0.html

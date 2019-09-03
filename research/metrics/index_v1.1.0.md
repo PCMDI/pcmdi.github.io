@@ -10,6 +10,7 @@ title: PCMDI - Metrics
 ---
 # <a name="top"></a>_PCMDI Simulation Summaries (v1.1.0)_ [[Go to latest][latest]]
 
+<br/>
 The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a capability that can be used to produce a diverse suite of objective summaries of Earth System Model (ESM) agreement with observations. At PCMDI, we are routinely applying the PMP to multiple generations of CMIP, including the most recent results from CMIP6 as they become available. The summaries available below will be regularly updated with new and an expanding set of results.
 
 - **Mean climate results** (*coming soon*)
@@ -17,6 +18,8 @@ The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a c
 - [**Monsoon Precipitation: Fractional Accumulation**](#monsoon)
 - [**Madden-Julian Oscillation (MJO)**](#mjo)
 - [_Update history_](#updates)
+
+<br/>
 
 ---
 ## <a name="variability"></a>[Extratropical Modes of Variability][description_variability]
@@ -62,7 +65,7 @@ The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a c
 
 ---
 
-Questions or comments about the PCMDI Simulation Summaries should be sent to the [PMP team](pcmdi-metrics@llnl.gov).
+Questions or comments about the PCMDI Simulation Summaries should be sent to the [PMP team](mailto:pcmdi-metrics@llnl.gov).
 
 
 [latest]: {{site.baseurl}}/research/metrics/index.html
