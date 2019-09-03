@@ -20,7 +20,7 @@ A paper documenting the package and its application to the CMIP6 simulations is 
 <br/>
 <br/>
 
-## Summary statistics in Portrait Plots (Interactive version coming soon)
+## Summary statistics in Portrait Plots (_Interactive version coming soon_)
 
 - #### CMIP5 & 6 Historical: [Performance][CMIP5_6_enso_perf] | [Teleconnection][CMIP5_6_enso_tel] 
 
