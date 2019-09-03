@@ -30,25 +30,26 @@ A paper documenting the package and its application to the CMIP6 simulations is 
 <br/>
 
 The ENSO performance metric collection is composed of 28 metrics designed to evaluate the models on three aspects:
-- Mean biases (double ITCZ, too cold cold tongue,...),
-- Mean ENSO statistics (amplitude, skewness and seasonality),
-- Mean ENSO events (anomalies during boreal winter, life-cycle, duration,...)
+- Mean biases (double ITCZ, too cold cold tongue,...)
+- Mean ENSO statistics (amplitude, skewness and seasonality)
+- Mean ENSO events (anomalies during boreal winter, life-cycle, duration, etc.)
 <br/>
 <br/>
 
 
 The ENSO teleconnection metric collection is composed of 19 metrics designed to evaluate the models on four aspects:
-- Mean ENSO SSTA along the equator during events,
-- Mean precipitation anomalies outside the equatorial Pacific during events,
-- Mean sea level pressure anomalies outside the equatorial Pacific during events,
-- Mean surface temperature anomalies outside the equatorial Pacific during events,
+- Mean ENSO SSTA along the equator during events
+- Mean precipitation anomalies outside the equatorial Pacific during events
+- Mean sea level pressure anomalies outside the equatorial Pacific during events
+- Mean surface temperature anomalies outside the equatorial Pacific during events
 <br/>
 <br/>
 
 The ENSO processes metric collection is composed of 8 metrics designed to evaluate the models on three aspects:
-- Mean ENSO amplitude,
-- Mean ENSO ocean-driven SST change,
+- Mean ENSO amplitude
+- Mean ENSO ocean-driven SST change
 - Feedbacks (SSH-SST, SST-heat fluxes, SST-Taux, Taux-SSH)
+
 These metrics are based on [Bayr et al. (2019)][Bayr2019].
 <br/>
 <br/>
