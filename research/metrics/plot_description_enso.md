@@ -12,13 +12,14 @@ The El Niño-Southern Oscillation (ENSO) is the dominant mode of interannual var
 <br>
 
 The corresponding objective comparisons of simulations against observations shown here result from a collaboration between scientists at [Institut Pierre Simon Laplace (IPSL)][ipsl] and [PCMDI][pcmdi]. This effort strives to improve and expand upon the ENSO model performance tests proposed by [Bellenger et al. (2014)][Bellenger2014] for CMIP5. This collaboration has already produced a new software package, written in Python, to facilitate multi-model diagnosis, evaluation, and intercomparison of ENSO simulations. The package assists in (1) identifying common model biases and their sources to guide model improvements; (2) assessing progress made from one generation of models to the next; (3) identifying models that are best suited for particular tasks; and (4) revealing emergent constraints among the diverse model responses to future climate change. The ENSO package is designed to interface with existing model evaluation software architectures, including the PCMDI Metrics Package. The capabilities of the package are demonstrated through application to the CMIP5 archive. 
-
 <br>
-A paper documenting the package and its application to the CMIP6 simulations is planned for the near future (Planton et al. 2019, in preparation).
 
+A paper documenting the package and its application to the CMIP6 simulations is planned for the near future (Planton et al. 2019, in preparation).
+<br>
 <br>
 
 #### Summary statistics in Portrait Plots (Interactive version coming soon)
+<br>
   - #### CMIP5 & 6 Historical: [Performance][CMIP5_6_enso_perf] | [Teleconnection][CMIP5_6_enso_tel] 
 
 <br>
@@ -30,22 +31,22 @@ The ENSO performance metric collection is composed of 28 metrics designed to eva
 - Mean biases (double ITCZ, too cold cold tongue,...),
 - Mean ENSO statistics (amplitude, skewness and seasonality),
 - Mean ENSO events (anomalies during boreal winter, life-cycle, duration,...)
-
 <br>
+
 The ENSO teleconnection metric collection is composed of 19 metrics designed to evaluate the models on four aspects:
 - Mean ENSO SSTA along the equator during events,
 - Mean precipitation anomalies outside the equatorial Pacific during events,
 - Mean sea level pressure anomalies outside the equatorial Pacific during events,
 - Mean surface temperature anomalies outside the equatorial Pacific during events,
-
 <br>
+
 The ENSO processes metric collection is composed of 8 metrics designed to evaluate the models on three aspects:
 - Mean ENSO amplitude,
 - Mean ENSO ocean-driven SST change,
 - Feedbacks (SSH-SST, SST-heat fluxes, SST-Taux, Taux-SSH)
 These metrics are based on [Bayr et al. (2019)][Bayr2019].
-
 <br>
+
 These results are preliminary and the metrics used will change. The number of metrics must be reduced so we are currently investigating the link between metrics to retain only the most scientifically relevant and statistically independent metrics. The definition of ENSO events is also evolving.
 
 ---
