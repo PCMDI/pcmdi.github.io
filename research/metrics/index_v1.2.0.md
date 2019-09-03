@@ -7,7 +7,7 @@ title: PCMDI - Metrics
 
 # Climate Model Metrics
 ---
-# <a name="top"></a>_PCMDI Simulation Summaries (v1.3.0)_
+# <a name="top"></a>_PCMDI Simulation Summaries (v1.2.0)_ [[Go to latest][latest]]
 
 <br/>
 The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a capability that can be used to produce a diverse suite of objective summaries of Earth System Model (ESM) agreement with observations. At PCMDI, we are routinely applying the PMP to multiple generations of CMIP, including the most recent results from CMIP6 as they become available. The summaries available below will be regularly updated with new and an expanding set of results.
@@ -15,7 +15,7 @@ The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a c
 - [**Mean Climate**](#mean)
 - [**Extratropical Modes of Variability**](#variability)
 - [**Monsoon Precipitation: Fractional Accumulation**](#monsoon)
-- [**El Niño–Southern Oscillation (ENSO)**](#enso)
+- **El Niño–Southern Oscillation (ENSO)** (_coming soon_)
 - [**Madden-Julian Oscillation (MJO)**](#mjo)
 - [_Update history_](#updates)
 
@@ -40,13 +40,6 @@ The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a c
 <p align="right"><a href="#top">Back to List</a></p>
 
 ---
-## <a name="enso"></a>El Niño-Southern Oscillation ([results][description_enso])
-
-- El Niño-Southern Oscillation (ENSO) is the dominant mode of interannual variability in the tropical Pacific and has far reaching impacts on global climate. It is there therefore key to ensure its correct simulation in state-of-the-art climate models. Community-wide synthesis of metrics to evaluate the performance, teleconnections and processes of ENSO in coupled GCMs is proposed by the ENSO working group of the CLIVAR Pacific panel. The corresponding objective comparisons of simulations against observations shown here result from a collaboration between scientists at IPSL and PCMDI. This effort  strives to improve and expand upon the ENSO model performance tests proposed by [Bellenger et al. (2014)][Bellenger2014] for CMIP5. It will result in a “ENSO in CMIP6” publication in 2019 (Planton et al. 2019, in preparation).
-
-<p align="right"><a href="#top">Back to List</a></p>
-
----
 ## <a name="mjo"></a>Madden-Julian Oscillation ([results][description_mjo])
 - Based on the work of [Ahn et al. (2017)][ahn2017], we present skill metrics that indicate how well models simulate eastward propagation of the MJO. We apply frequency-wavenumber decomposition to precipitation from observations (GPCP-based; 1997-2010) and the CMIP5 and CMIP6 Historical simulations (1985-2004).
 
@@ -54,8 +47,7 @@ The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a c
 
 ---
 ## <a name="updates"></a>Update Histrory
-- **v1.3.0** (6 Sep. 2019): ENSO metrics added
-- [**v1.2.0**] (29 Aug. 2019): Mean climate metrics added
+- **v1.2.0** (29 Aug. 2019): Mean climate metrics added
 - [**v1.1.0**][v1.1.0] (18 July 2019): MJO metrics added
 - [**v1.0.0**][v1.0.0] (20 June 2019): Initial public release
 - [**v1.0.0-beta**][v1.0.0-beta] (18 June 2019): Addition of monsoon precipitation onset, decay, and duration in CMIP5.
@@ -68,8 +60,6 @@ The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a c
 Questions or comments about the PCMDI Simulation Summaries should be sent to the [PMP team](mailto:pcmdi-metrics@llnl.gov).
 
 [latest]: {{site.baseurl}}/research/metrics/index.html
-
-[v1.2.0]: {{site.baseurl}}/research/metrics/index_v1.2.0.html
 [v1.1.0]: {{site.baseurl}}/research/metrics/index_v1.1.0.html
 [v1.0.0]: {{site.baseurl}}/research/metrics/index_v1.0.0.html
 [v1.0.0-beta]: {{site.baseurl}}/research/metrics/index_v1.0.0-beta.html
