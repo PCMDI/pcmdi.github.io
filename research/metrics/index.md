@@ -7,7 +7,7 @@ title: PCMDI - Metrics
 
 # Climate Model Metrics
 ---
-# <a name="top"></a>_PCMDI Simulation Summaries (v1.2.0)_
+# <a name="top"></a>_PCMDI Simulation Summaries (v1.3.0)_
 
 <br/>
 The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a capability that can be used to produce a diverse suite of objective summaries of Earth System Model (ESM) agreement with observations. At PCMDI, we are routinely applying the PMP to multiple generations of CMIP, including the most recent results from CMIP6 as they become available. The summaries available below will be regularly updated with new and an expanding set of results.
@@ -54,7 +54,8 @@ The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a c
 
 ---
 ## <a name="updates"></a>Update Histrory
-- **v1.2.0** (29 Aug. 2019): Mean climate metrics added
+- **v1.3.0** (6 Sep. 2019): ENSO metrics added
+- [**v1.2.0**] (29 Aug. 2019): Mean climate metrics added
 - [**v1.1.0**][v1.1.0] (18 July 2019): MJO metrics added
 - [**v1.0.0**][v1.0.0] (20 June 2019): Initial public release
 - [**v1.0.0-beta**][v1.0.0-beta] (18 June 2019): Addition of monsoon precipitation onset, decay, and duration in CMIP5.
@@ -68,6 +69,7 @@ Questions or comments about the PCMDI Simulation Summaries should be sent to the
 
 [latest]: {{site.baseurl}}/research/metrics/index.html
 
+[v1.2.0]: {{site.baseurl}}/research/metrics/index_v1.2.0.html
 [v1.1.0]: {{site.baseurl}}/research/metrics/index_v1.1.0.html
 [v1.0.0]: {{site.baseurl}}/research/metrics/index_v1.0.0.html
 [v1.0.0-beta]: {{site.baseurl}}/research/metrics/index_v1.0.0-beta.html
