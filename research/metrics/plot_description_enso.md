@@ -18,13 +18,12 @@ The corresponding objective comparisons of simulations against observations show
 A paper documenting the package and its application to the CMIP6 simulations is planned for the near future (Planton et al. 2019, in preparation).
 <br/>
 <br/>
+<br/>
 
 ## Summary statistics in Portrait Plots (Interactive version coming soon)
-<br/>
 
 - #### CMIP5 & 6 Historical: [Performance][CMIP5_6_enso_perf] | [Teleconnection][CMIP5_6_enso_tel] 
 
-<br/>
 <br/>
 
 ## General Results
