@@ -73,7 +73,7 @@ The ENSO processes metric collection is composed of 8 metrics designed to evalua
 [githubrepo]: https://github.com/eguil/ENSO_metrics/wiki
 [clivar_pacific]: http://www.clivar.org/clivar-panels/pacific
 [pcmdi]: https://pcmdi.llnl.gov/
-[ipsl]: https://www.ipsl.fr/
+[ipsl]: https://www.ipsl.fr/en/
 
 [Bayr2019]: https://doi.org/10.1007/s00382-018-4575-7
 [Bellenger2014]: https://doi.org/10.1007/s00382-013-1783-z
