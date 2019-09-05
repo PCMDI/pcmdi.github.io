@@ -6,8 +6,16 @@ title: PCMDI - Metrics
 ---
 
 # El Niño-Southern Oscillation (ENSO) Teleconnection Metrics
+<br/>
+
+**NOTE**: These results are preliminary and the metrics used will change. The number of metrics must be reduced so we are currently investigating the link between metrics to retain only the most scientifically relevant and statistically independent metrics. The definition of ENSO events is also evolving.
+
+<br/>
+
 - [RMSE Portrait Plots](#rmse)
 - [Non-RMSE Portrait Plots](#nonrmse)
+
+<br/>
 
 ---
 
