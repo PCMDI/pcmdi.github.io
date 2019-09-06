@@ -9,11 +9,11 @@ title: Data Portal
 
 ## CMIP5
 
-08/29/2012:      The new ESGF peer-to-peer (P2P) enterprise system (http://pcmdi9.llnl.gov) is now the official site for CMIP5 model output. The old gateway (http://pcmdi3.llnl.gov) is deprecated and now shut down permanently. Please send e-mail to esgf-user@lists.llnl.gov to report bugs and provide feedback.
+08/29/2012:      The new ESGF peer-to-peer (P2P) enterprise system (http://esgf-node.llnl.gov) is now the official site for CMIP5 model output. The old gateway (http://pcmdi3.llnl.gov) is deprecated and now shut down permanently. Please send e-mail to esgf-user@lists.llnl.gov to report bugs and provide feedback.
 
-The CMIP5 Data is now available through the new portal, the Earth System Grid - Center for Enabling Technologies (ESG-CET), on the page <http://pcmdi9.llnl.gov/> . 
+The CMIP5 Data is now available through the new portal, the Earth System Grid - Center for Enabling Technologies (ESG-CET), on the page <http://esgf-node.llnl.gov/> . 
 
-You may search or browse through the Earth System Grid data holdings, but you will need to [create an account](https://pcmdi9.llnl.gov/esgf-web-fe/createAccount) to download the data.
+You may search or browse through the Earth System Grid data holdings, but you will need to [create an account](https://esgf-node.llnl.gov/user/add/?next=https://esgf-node.llnl.gov/projects/esgf-llnl/) to download the data.
 
 It is highly recommended that you read the 'Getting started' page first.
 

@@ -121,7 +121,7 @@ An overview of currently available model output can be found at:
 
 The CMIP5 model output is served by the following ESGF Data Portals:
 
-PCMDI: <http://pcmdi9.llnl.gov/>
+PCMDI: <http://esgf-node.llnl.gov/>
 {: .indent}
 
 BADC: <http://esgf-index1.ceda.ac.uk>
@@ -130,7 +130,7 @@ BADC: <http://esgf-index1.ceda.ac.uk>
 DKRZ: <http://esgf-data.dkrz.de>
 {: .indent}
 
-NCI: <http://esg2.nci.org.au>
+NCI: <http://esgf.nci.org.au>
 {: .indent}
 
 ## CMIP5 Model and Experiment Documentation:
@@ -174,7 +174,7 @@ The CORDEX project is a WCRP-coordinated exercise to regionally downscale climat
 
 [TGICA & IPCC's DDC](http://www.ipcc-data.org/ddc_about.html) (Task Group on data and scenario support for Impact and Climate Analysis and the IPCC's Data Distribution Centre)
 
-[ESGF](http://esgf.org/) (Earth System Grid Federation)
+[ESGF](http://esgf.llnl.gov) (Earth System Grid Federation)
 
 [METAFOR](http://metaforclimate.eu/) (Metadata For Climate Models)
 
