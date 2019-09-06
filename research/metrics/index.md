@@ -53,9 +53,9 @@ The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a c
 <p align="right"><a href="#top">Back to List</a></p>
 
 ---
-## <a name="updates"></a>Update Histrory
-- **v1.3.0** (6 Sep. 2019): ENSO metrics added
-- [**v1.2.0**][v1.2.0] (29 Aug. 2019): Mean climate metrics added
+## <a name="updates"></a>Update History
+- **v1.3.0** (6 September 2019): ENSO metrics added
+- [**v1.2.0**][v1.2.0] (29 August 2019): Mean climate metrics added
 - [**v1.1.0**][v1.1.0] (18 July 2019): MJO metrics added
 - [**v1.0.0**][v1.0.0] (20 June 2019): Initial public release
 - [**v1.0.0-beta**][v1.0.0-beta] (18 June 2019): Monsoon precipitation onset, decay, and duration (CMIP5) added
