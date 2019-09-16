@@ -16,16 +16,16 @@ The MJO consists of large-scale regions of enhanced and suppressed convection, a
 Here we apply the frequency-wavenumber decomposition method to precipitation from observations (GPCP-based; 1997-2010) and the CMIP5 and CMIP6 Historical simulations for 1985-2004. For disturbances with wavenumbers 1-3 and frequencies corresponding to 30-60 days it is clear in observations that the eastward propagating signal dominates over its westward propagating counterpart. Thus, an important metric is the eastward/westward power ratio (EWR) for the above-mentioned wavenumbers and frequencies, which is about 2.5 in observations.
 
 <br/>
-### General Results
-- ***Preliminary findings***: [Panel A][CMIP56_ewr_models] provides a comparison of the EWR between the observations and CMIP5 and CMIP6. As presented, this plot facilitates comparison of the EWR by modelling center. [Panel B][CMIP56_ewr_mips] presents the same results, but for  CMIP5 and CMIP6 as distinct groups. The preliminary result is that the EWR is better simulated in CMIP6 compared to CMIP5.
-
-- ***Cautionary Note***: *The MJO frequency and wavenumber windowing is based on observations. Thus, while the EWR provides an initial evaluation of the propagation characteristics of the observed and simulated MJO, it is instructive to look at the frequency-wavenumber spectra, as in some cases the dominant periodicity in a model may be different than in observations.* ***Figures of the frequency-wavenumber power spectra are obtained by left-clicking on the statistics that pop-up when you hover your mouse over a histogram bar (mean over all realizations) or a dot (for an individual realization).***
-
-<br/>
 ### Summary statistics in Interactive Bar Charts
   - #### A. CMIP5 and CMIP6 Historical (organized by modelling center): [EWR][CMIP56_ewr_models]
   - #### B. CMIP5 and CMIP6 Historical (distinct groups): [EWR][CMIP56_ewr_mips]
 
+
+<br/>
+### General Results
+- ***Preliminary findings***: [Panel A][CMIP56_ewr_models] provides a comparison of the EWR between the observations and CMIP5 and CMIP6. As presented, this plot facilitates comparison of the EWR by modelling center. [Panel B][CMIP56_ewr_mips] presents the same results, but for  CMIP5 and CMIP6 as distinct groups. The preliminary result is that the EWR is better simulated in CMIP6 compared to CMIP5.
+
+- ***Cautionary Note***: *The MJO frequency and wavenumber windowing is based on observations. Thus, while the EWR provides an initial evaluation of the propagation characteristics of the observed and simulated MJO, it is instructive to look at the frequency-wavenumber spectra, as in some cases the dominant periodicity in a model may be different than in observations.* ***Figures of the frequency-wavenumber power spectra are obtained by left-clicking on the statistics that pop-up when you hover your mouse over a histogram bar (mean over all realizations) or a dot (for an individual realization).***
 
 ---
 
