@@ -8,6 +8,11 @@ title: PCMDI - Detection and Attribution
 
 ---
 
+### 2019
+#### [Quantifying stochastic uncertainty in detection time of human-caused climate signals][PNAS2019]
+
+---
+
 ### 2018
 #### [Human influence on the seasonal cycle of tropospheric temperature][msu2018]
 
@@ -55,3 +60,4 @@ To download the data used in the above article and read about the details on the
 [msu2017]: {{site.url}}/research/DandA/Synthetic%20Microwave%20Sounding%20Unit%20(MSU)%20temperatures/2017/Scientific_Reports/index.html
 [msu2018]: {{site.url}}/research/DandA/Synthetic%20Microwave%20Sounding%20Unit%20(MSU)%20temperatures/2018/index.html
 [NG2017]: {{site.url}}/research/DandA/Synthetic%20Microwave%20Sounding%20Unit%20(MSU)%20temperatures/2017/Nature_Geoscience/index.html
+[PNAS2019]: {{site.url}}/research/DandA/PNAS_2019/index.html
