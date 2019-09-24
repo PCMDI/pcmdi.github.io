@@ -10,6 +10,8 @@ title: PCMDI - Detection and Attribution
 
 ### 2019
 #### [Quantifying stochastic uncertainty in detection time of human-caused climate signals][PNAS2019]
+> Benjamin D. Santer, John C. Fyfe, Susan Solomon, Jeffrey F. Painter, Céline Bonfils, Giuliana Pallotta, Mark D. Zelinka 
+Proceedings of the National Academy of Sciences Sep 2019, 201904586; DOI: [10.1073/pnas.1904586116](http://doi.org/10.1073/pnas.1904586116)
 
 ---
 
