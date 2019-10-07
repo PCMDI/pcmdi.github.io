@@ -7,7 +7,7 @@ title: PCMDI - Metrics
 
 # Climate Model Metrics
 ---
-# <a name="top"></a>_PCMDI Simulation Summaries (v1.3.1)_
+# <a name="top"></a>_PCMDI Simulation Summaries (v1.3.0)_ [[Go to latest][latest]]
 
 <br/>
 The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a capability that can be used to produce a diverse suite of objective summaries of Earth System Model (ESM) agreement with observations. At PCMDI, we are routinely applying the PMP to multiple generations of CMIP, including the most recent results from CMIP6 as they become available. The summaries available below will be regularly updated with new and an expanding set of results.
@@ -54,8 +54,7 @@ The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a c
 
 ---
 ## <a name="updates"></a>Update History
-- **v1.3.1** (7 October 2019): Mean climate summaries updated with recent CMIP6 results 
-- [**v1.3.0**][v1.3.0] (6 September 2019): ENSO metrics added
+- **v1.3.0** (6 September 2019): ENSO metrics added
 - [**v1.2.0**][v1.2.0] (29 August 2019): Mean climate metrics added
 - [**v1.1.0**][v1.1.0] (18 July 2019): MJO metrics added
 - [**v1.0.0**][v1.0.0] (20 June 2019): Initial public release
@@ -70,14 +69,13 @@ Questions or comments about the PCMDI Simulation Summaries should be sent to the
 
 [latest]: {{site.baseurl}}/research/metrics/index.html
 
-[v1.3.0]: {{site.baseurl}}/research/metrics/index_v1.3.0.html
 [v1.2.0]: {{site.baseurl}}/research/metrics/index_v1.2.0.html
 [v1.1.0]: {{site.baseurl}}/research/metrics/index_v1.1.0.html
 [v1.0.0]: {{site.baseurl}}/research/metrics/index_v1.0.0.html
 [v1.0.0-beta]: {{site.baseurl}}/research/metrics/index_v1.0.0-beta.html
 [v1.0.0-alpha]: {{site.baseurl}}/research/metrics/index_v1.0.0-alpha.html
 
-[description_mean_clim]: {{site.baseurl}}/research/metrics/mean/plot_description_mean_clim_v1.3.1.html
+[description_mean_clim]: {{site.baseurl}}/research/metrics/mean/plot_description_mean_clim.html
 [description_variability]: {{site.baseurl}}/research/metrics/variability_modes/plot_description_variability.html
 [description_monsoon]: {{site.baseurl}}/research/metrics/monsoon/plot_description_monsoon.html
 [description_mjo]: {{site.baseurl}}/research/metrics/mjo/plot_description_mjo.html

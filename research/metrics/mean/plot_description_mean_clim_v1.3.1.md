@@ -5,7 +5,7 @@ title: PCMDI - Metrics
 ###### Research > [Metrics][Metrics] > Mean Climate
 ---
 
-# Mean Climate [[Go to latest][latest]]
+# Mean Climate
 <br/>
 The mean state results from the PCMDI Metrics Package (PMP) are used to produce summary diagrams for the CMIP muliti-model ensemble.   We provide two methods to interactively explore these results:
 
@@ -44,4 +44,4 @@ The mean state results from the PCMDI Metrics Package (PMP) are used to produce 
 [taylor2001]: https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2000JD900719
 
 [Metrics]:{{site.baseurl}}/research/metrics/index.html
-[latest]: {{site.baseurl}}/research/metrics/mean/plot_description_mean_clim_v1.3.1.html
+
