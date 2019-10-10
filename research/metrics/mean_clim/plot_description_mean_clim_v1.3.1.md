@@ -39,8 +39,8 @@ The mean state results from the PCMDI Metrics Package (PMP) are used to produce 
 
 
 [parallel_cmip5_6]: https://pcmdi-parallel-coordinates.herokuapp.com/
-[portrait_cmip5]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/portrait_plot/mean_clim/cmip5/historical/v20191003/clickable_portrait.html
-[portrait_cmip6]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/portrait_plot/mean_clim/cmip6/historical/v20191003/clickable_portrait.html
+[portrait_cmip5]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/portrait_plot/mean_clim/cmip5/historical/v20191010/clickable_portrait.html
+[portrait_cmip6]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/portrait_plot/mean_clim/cmip6/historical/v20191010/clickable_portrait.html
 
 [gleckler2008]: https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2007JD008972
 [taylor2001]: https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2000JD900719
