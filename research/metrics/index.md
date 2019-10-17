@@ -13,7 +13,7 @@ title: PCMDI - Metrics
 The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a capability that can be used to produce a diverse suite of objective summaries of Earth System Model (ESM) agreement with observations. At PCMDI, we are routinely applying the PMP to multiple generations of CMIP, including the most recent results from CMIP6 as they become available. The summaries available below will be regularly updated with new and an expanding set of results.
 
 - [**Mean Climate**](#mean_clim)
-- [**Extratropical Modes of Variability**](#variability)
+- [**Extratropical Modes of Variability**](#variability_modes)
 - [**Monsoon Precipitation: Fractional Accumulation**](#monsoon)
 - [**El Niño–Southern Oscillation (ENSO)**](#enso)
 - [**Madden-Julian Oscillation (MJO)**](#mjo)
@@ -28,7 +28,7 @@ The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a c
 <p align="right"><a href="#top">Back to List</a></p>
 
 ---
-## <a name="variability"></a>Extratropical Modes of Variability ([results][description_variability])
+## <a name="variability_modes"></a>Extratropical Modes of Variability ([results][description_variability])
 - Based on the work of [Lee et al. (2019)][lee2019], we present skill metrics for the _Northern Annular Model (NAM), the North Atlantic Oscillation (NAO), the Southern Annular Mode (SAM), the Pacific North American pattern (PNA), the North Pacific Oscillation (NPO), the Pacific Decadal Oscillation (PDO), and the North Pacific Gyre Oscillation (NPGO)_. For NAM, NAO, SAM, PNA, and NPO the results are based on sea-level pressure, while the results for PDO and NPGO are based on sea surface temperature. Our approach distinguishes itself from other studies that analyze modes of variability in that we use the Common Basis Function approach (CBF), in which model anomalies are projected onto the observed modes of variability. Using the Historical simulations, the skill of the spatial patterns is given by the Root-Mean-Squared-Error (RMSE), and the Amplitude gives the standard deviation of the Principal Component time series. The skill metrics are calculated with respect to a primary and secondary sets of observations denoted by the triangles in each cell of the Portrait Plots. 
 
 <p align="right"><a href="#top">Back to List</a></p>
