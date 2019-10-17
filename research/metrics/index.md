@@ -77,11 +77,11 @@ Questions or comments about the PCMDI Simulation Summaries should be sent to the
 [v1.0.0-beta]: {{site.baseurl}}/research/metrics/index_v1.0.0-beta.html
 [v1.0.0-alpha]: {{site.baseurl}}/research/metrics/index_v1.0.0-alpha.html
 
-[description_mean_clim]: {{site.baseurl}}/research/metrics/mean_clim/plot_description_mean_clim_v1.3.1.html
-[description_variability]: {{site.baseurl}}/research/metrics/variability_modes/plot_description_variability.html
-[description_monsoon]: {{site.baseurl}}/research/metrics/monsoon/plot_description_monsoon.html
-[description_mjo]: {{site.baseurl}}/research/metrics/mjo/plot_description_mjo.html
-[description_enso]: {{site.baseurl}}/research/metrics/enso/plot_description_enso.html
+[description_mean_clim]: {{site.baseurl}}/research/metrics/mean_clim/
+[description_variability]: {{site.baseurl}}/research/metrics/variability_modes/
+[description_monsoon]: {{site.baseurl}}/research/metrics/monsoon/
+[description_mjo]: {{site.baseurl}}/research/metrics/mjo/
+[description_enso]: {{site.baseurl}}/research/metrics/enso/
 
 [lee2019]: https://link.springer.com/article/10.1007/s00382-018-4355-4
 [sperber2004]: https://doi.org/10.1007/s00382-014-2099-3
