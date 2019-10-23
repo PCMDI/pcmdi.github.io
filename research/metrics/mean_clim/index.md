@@ -28,10 +28,10 @@ The mean state results from the PCMDI Metrics Package (PMP) are used to produce 
 
 <br/>
 
-## Reference datasets
+## Reference Observational Datasets
 <br/>
 
-- [Summary of the observationally-based reference data used in the above plots][obs_info]
+- ### [Summary of the observationally-based reference data used in the above plots][obs_info]
 
 
 
