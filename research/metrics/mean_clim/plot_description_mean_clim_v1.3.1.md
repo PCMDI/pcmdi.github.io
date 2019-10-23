@@ -28,6 +28,15 @@ The mean state results from the PCMDI Metrics Package (PMP) are used to produce 
 
 <br/>
 
+## Reference Observational Datasets
+<br/>
+
+- ### [Summary of the observationally-based reference data used in the above plots][obs_info]
+
+
+
+<br/>
+
 ---
 
 ## Reference
@@ -47,3 +56,4 @@ The mean state results from the PCMDI Metrics Package (PMP) are used to produce 
 
 [Metrics]:{{site.baseurl}}/research/metrics/index.html
 
+[obs_info]: {{site.baseurl}}/research/metrics/mean_clim/pcmdiobs_info_dictionary_v2.0.json
