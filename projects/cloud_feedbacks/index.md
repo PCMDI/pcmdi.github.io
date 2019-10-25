@@ -520,17 +520,30 @@ climate debate </a> (September 2011, <em>Live Science</em>) </li>
 
 <ul>
   
+<li>Chen, Y.-J., Y.-T. Hwang, M. D. Zelinka, and C. Zhou, 2019: Distinct patterns of cloud changes associated with decadal variability and their contribution to observed cloud cover trends, <em>J. Climate</em>, 32, 7281-7301, doi:<a href="https://journals.ametsoc.org/doi/full/10.1175/JCLI-D-18-0443.1" rel="nofollow" target="_blank">10.1175/JCLI-D-18-0443.1</a>.</li>
+
 <li>Colman, R., J. R. Brown, C. Franklin, L. Hanson, H. Ye, and M. D. Zelinka, 2019: Evaluating cloud feedbacks and rapid responses in the ACCESS model, <em>J. Geophys. Res.</em>, 124, doi:<a href="https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2018JD029189" rel="nofollow" target="_blank">10.1029/2018JD029189</a>.</li>
 
 <li>Eyring, V., et al. including A. D. Hall and S. A. Klein, 2019: Taking climate model evaluation to the next level, <em>Nature Clim. Change</em>, doi:<a href="https://www.nature.com/articles/s41558-018-0355-y" rel="nofollow"
 target="_blank">10.1038/s41558-018-0355-y</a>.</li>
 
-<li>Golaz, J.-C., et al. including P. M. Caldwell, S. A. Klein, and M. D. Zelinka, 2019: The DOE E3SM coupled model version 1: Overview and evaluation at standard resolution, <em>J. Adv. Model. Earth Syst.</em>, 11, doi:<a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2018MS001603" rel="nofollow" target="_blank">10.1029/2018MS001603</a>.</li>
+<li>Golaz, J.-C., et al. including P. M. Caldwell, S. A. Klein, and M. D. Zelinka, 2019: The DOE E3SM coupled model version 1: Overview and evaluation at standard resolution, <em>J. Adv. Model. Earth Syst.</em>, 11, 2089-2129, doi:<a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2018MS001603" rel="nofollow" target="_blank">10.1029/2018MS001603</a>.</li>
 
 <li>Hall, A. D., P. Cox, C. Huntingford, and S. A. Klein, 2019: Progressing emergent constraints on future climate change, <em>Nature Clim. Change</em>, doi:<a href="https://www.nature.com/articles/s41558-019-0436-6" rel="nofollow"
 target="_blank">10.1038/s41558-019-0436-6</a>.</li>
 
+<li>Po-Chedley, S., M. D. Zelinka, N. Jeevanjee, T. J. Thorsen, and B. D. Santer, 2019: Climatology explains intermodel spread in upper tropospheric cloud and relative humidity response to greenhouse warming, <em>Geophys. Res. Lett.</em>, in press.</li>
+
+<li>Santer, B. D., et al. including M. D. Zelinka, 2019: Celebrating the anniversary of three key events in climate change science, <em>Nature Clim. Change</em>, 9, 180-182, doi:<a href="" rel="nofollow" target="_blank">10.1038/s41558-019-0424-x</a>.</li>
+
+<li>Santer, B. D., et al. including M. D. Zelinka, 2019: Quantifying stochastic uncertainty in detection time of human-caused climate signals, <em>Proc. Natl. Acad. Sci.</em>, 116 (40) 19821-19827, doi:<a href="https://www.pnas.org/content/116/40/19821" rel="nofollow" target="_blank">10.1073/pnas.1904586116</a>.</li>
+
 <li>Terai, C. R., Y. Zhang, S. A. Klein, M. D. Zelinka, J. C. Chiu, and Q. Min, 2019: Mechanisms behind the extratropical stratiform low‐cloud optical depth response to temperature in ARM site observations, <em>J. Geophys. Res.</em>, 124, doi:<a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2018JD029359" rel="nofollow" target="_blank">10.1029/2018JD029359</a>.</li>
+
+<li>Zhang, Y., et al. including M. D. Zelinka, 2019: Evaluation of Clouds in Version 1 of the E3SM Atmosphere Model with Satellite Simulators, <em>J. Adv. Model. Earth Syst.</em>, 11, 1253-1268, doi:<a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2018MS001562" rel="nofollow" target="_blank">10.1029/2018MS001562</a>.</li>
+
+<li>Zhou, C., Y. Hu, J. Lu, and M. D. Zelinka, 2019: Responses of the Hadley Circulation to regional sea surface temperature changes, <em>J. Climate</em>, doi:<a href="https://journals.ametsoc.org/doi/abs/10.1175/JCLI-D-19-0315.1" rel="nofollow" target="_blank">10.1175/JCLI-D-19-0315.1</a>, in press.</li>
+
 
 </ul>
 
