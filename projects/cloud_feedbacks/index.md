@@ -532,7 +532,7 @@ target="_blank">10.1038/s41558-018-0355-y</a>.</li>
 <li>Hall, A. D., P. Cox, C. Huntingford, and S. A. Klein, 2019: Progressing emergent constraints on future climate change, <em>Nature Clim. Change</em>, doi:<a href="https://www.nature.com/articles/s41558-019-0436-6" rel="nofollow"
 target="_blank">10.1038/s41558-019-0436-6</a>.</li>
 
-<li>Po-Chedley, S., M. D. Zelinka, N. Jeevanjee, T. J. Thorsen, and B. D. Santer, 2019: Climatology explains intermodel spread in upper tropospheric cloud and relative humidity response to greenhouse warming, <em>Geophys. Res. Lett.</em>, in press.</li>
+<li>Po-Chedley, S., M. D. Zelinka, N. Jeevanjee, T. J. Thorsen, and B. D. Santer, 2019: Climatology explains intermodel spread in upper tropospheric cloud and relative humidity response to greenhouse warming, <em>Geophys. Res. Lett.</em>, doi:<a href="https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2019GL084786" rel="nofollow" target="_blank">10.1029/2019GL084786</a>, in press.</li>
 
 <li>Santer, B. D., et al. including M. D. Zelinka, 2019: Celebrating the anniversary of three key events in climate change science, <em>Nature Clim. Change</em>, 9, 180-182, doi:<a href="" rel="nofollow" target="_blank">10.1038/s41558-019-0424-x</a>.</li>
 
