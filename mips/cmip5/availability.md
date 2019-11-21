@@ -142,7 +142,7 @@ Important information concerning some models and simulations can be found by cli
         &nbsp; MIROC5 <br> 
     </td>
     <td>&nbsp; Atmosphere and Ocean Research Institute (The University of Tokyo), National Institute for Environmental Studies, and Japan Agency for Marine-Earth Science and Technology</td> 
-    <td>&nbsp;non-commercial only&nbsp;</td>
+    <td>&nbsp;urestricted&nbsp;;</td>
   </tr>   
   
   <tr>
@@ -151,7 +151,7 @@ Important information concerning some models and simulations can be found by cli
         &nbsp; MIROC-ESM-CHEM 
     </td>
     <td>&nbsp;Japan Agency for Marine-Earth Science and Technology, Atmosphere and Ocean Research Institute (The University of Tokyo), and National Institute for Environmental Studies</td> 
-    <td>&nbsp;non-commercial only&nbsp;</td>
+    <td>&nbsp;unrestricted&nbsp;</td>
   </tr>  
   
   <tr bgcolor="#FFFFFF">
@@ -224,7 +224,7 @@ Important information concerning some models and simulations can be found by cli
     <td>&nbsp; NICAM</td>
     <td>&nbsp; NICAM.09</td>
     <td>&nbsp; Nonhydrostatic Icosahedral Atmospheric Model Group  </td> 
-    <td>&nbsp;non-commercial only&nbsp;</td>
+    <td>&nbsp;unrestricted&nbsp;</td>
   </tr>  
   
   <tr bgcolor="#FFFFFF">
