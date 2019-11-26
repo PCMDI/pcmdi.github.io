@@ -7,10 +7,10 @@ title: Availablity
 
 PCMDI has established partnerships with other data centers so that all of the CMIP5 model output can now be accessed through any one of the following ESGF gateways:
 
-* PCMDI: <http://pcmdi9.llnl.gov/>
+* PCMDI: <http://esgf-node.llnl.gov/>
 * BADC: <http://esgf-index1.ceda.ac.uk>
 * DKRZ: <http://esgf-data.dkrz.de>
-* NCI: <http://esg2.nci.org.au>
+* NCI: <http://esgf.nci.org.au>
 
 
 Important information concerning some models and simulations can be found by clicking on the "Modeling Center" name. 
@@ -142,7 +142,7 @@ Important information concerning some models and simulations can be found by cli
         &nbsp; MIROC5 <br> 
     </td>
     <td>&nbsp; Atmosphere and Ocean Research Institute (The University of Tokyo), National Institute for Environmental Studies, and Japan Agency for Marine-Earth Science and Technology</td> 
-    <td>&nbsp;non-commercial only&nbsp;</td>
+    <td>&nbsp;unrestricted&nbsp;</td>
   </tr>   
   
   <tr>
@@ -151,7 +151,7 @@ Important information concerning some models and simulations can be found by cli
         &nbsp; MIROC-ESM-CHEM 
     </td>
     <td>&nbsp;Japan Agency for Marine-Earth Science and Technology, Atmosphere and Ocean Research Institute (The University of Tokyo), and National Institute for Environmental Studies</td> 
-    <td>&nbsp;non-commercial only&nbsp;</td>
+    <td>&nbsp;unrestricted&nbsp;</td>
   </tr>  
   
   <tr bgcolor="#FFFFFF">
@@ -224,7 +224,7 @@ Important information concerning some models and simulations can be found by cli
     <td>&nbsp; NICAM</td>
     <td>&nbsp; NICAM.09</td>
     <td>&nbsp; Nonhydrostatic Icosahedral Atmospheric Model Group  </td> 
-    <td>&nbsp;non-commercial only&nbsp;</td>
+    <td>&nbsp;unrestricted&nbsp;</td>
   </tr>  
   
   <tr bgcolor="#FFFFFF">

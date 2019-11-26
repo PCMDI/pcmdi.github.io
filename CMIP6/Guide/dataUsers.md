@@ -91,7 +91,7 @@ The Errata Service provides the ability to query modifications and/or correction
 * A  **[user friendly filtered list of ESGF known issues][errataSearchUIDoc]**. 
 * A  **[search interface that helps retrace a specific dataset/file version history][errataPIDLookupDoc]**.
 
-Any ESGF user can report an error to the appropriate modeling group (see "contact" attribute in the netCDF files), or through the [ESGF user mailing list][ESGFUsersList]. After a report is received, the corresponding data manager can create a new errata entry using 
+Any ESGF user can report an error to the appropriate modeling group (see "contact" attribute in the netCDF files), or through the <a href="mailto:esgf-user@llnl.gov">ESGF user mailing list</a>. After a report is received, the corresponding data manager can create a new errata entry using 
 [an easy and user-friendly form][errataFormCreateDoc]. A [command line client][errataCLCDoc] is also available. The aim is to clearly and concisely document the issue and through the PID integration, this errata service will include all the datasets/files affected when documentation is completed correctly.
 
 ## 7. Registering published work based on CMIP6
@@ -115,7 +115,7 @@ Information is under preparation describing the governance of the following:
 * [input4MIPs][input4mipsHome]
 * [obs4MIPs][obs4mipsCog]
 
-###### Document version: 15 January 2019
+###### Document version: 6 November 2019
 
 [guide]: index.html
 [institutionIdHtml]: http://rawgit.com/WCRP-CMIP/CMIP6_CVs/master/src/CMIP6_institution_id.html
@@ -155,14 +155,14 @@ Information is under preparation describing the governance of the following:
 [wipCog]: https://www.earthsystemcog.org/projects/wip
 [wipMission]: https://www.earthsystemcog.org/projects/wip/aboutus/
 [cdnotGoogleDoc]: https://docs.google.com/document/d/1oRWqxtWWEfsucTVhk0G3bMqHC0BL4dJwADrOG8Ukj-g
-[obs4mipsCog]: https://www.earthsystemcog.org/projects/obs4mips/
+[obs4mipsCog]: https://esgf-node.llnl.gov/projects/obs4mips/
 [CMIP6Citation]: http://cmip6cite.wdc-climate.de
 [variableListXls]: http://proj.badc.rl.ac.uk/svn/exarch/CMIP6dreq/tags/latest/dreqPy/docs/CMIP6_MIP_tables.xlsx
 [input4mipsHome]: https://esgf-node.llnl.gov/projects/input4mips/
 [ESGFHome]: https://esgf.llnl.gov/
 [BalajiGMD]: https://www.geosci-model-dev-discuss.net/gmd-2018-52/
-[ESGFTutorial]: http://www.earthsystemcog.org/projects/cog/tutorials_web
-[ESGFTechSupport]: https://www.earthsystemcog.org/projects/cog/contactus/
+[ESGFTutorial]: https://esgf.github.io/esgf-user-support/user_guide.html
+[ESGFTechSupport]: https://esgf-node.llnl.gov/projects/cmip6/contactus/
 [ESGFSearchapi]: https://earthsystemcog.org/projects/cog/esgf_search_restful_api
 [cmip6cite]: https://redmine.dkrz.de/projects/cmip6-lta-and-data-citation/wiki
 [globusHome]: https://globus.org/
