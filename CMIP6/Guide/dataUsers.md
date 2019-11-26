@@ -46,10 +46,10 @@ As in CMIP5, all CMIP6 output has been written to netCDF files with one variable
 
 Note that in the above, controlled vocabularies (CV’s) play a key role in ensuring uniformity in the description of data sets across all models. For all but variable-specific information, [reference CV’s][cmip6Cvs] are being maintained by PCMDI.  These CV’s are relied on in constructing file names and directory structures, and they enable faceted searches of the CMIP6 archive as called for in the [search requirements document][esgfSearchRequirementsGoogleDoc].
 
-As indicated in the [guidance specifications for output grids][cmip6GridGoogleDoc], weights will be provided to regrid all output to a few standard grids (e.g., 1x1 degree). All regridding information (weights, lats, lons, etc.) will be stored consistent with a standard format approved by the WIP. 
+As indicated in the [guidance specifications for output grids][cmip6GridGoogleDoc], weights will be provided to regrid all output to a few standard grids (e.g., 1x1 degree). All regridding information (weights, lats, lons, etc.) will be stored consistent with a standard format approved by the WIP.
 
 ## 3. Accessing model output
-CMIP6 model output is available through a distributed data archive developed and operated by the [Earth System Grid Federation (ESGF)][ESGFHome].   [Balaji et al. (2018)][BalajiGMD] provide an overview of the design of additional infrastructure and the configuring of ESGF in supporting CMIP6.   The data are hosted on a collection of nodes located at modeling centers or data centers across the world.  The data can be accessed through any of the CMIP6 CoG web interfaces, which enable users to search across the entire distributed archive as if it were all centrally located.  
+CMIP6 model output is available through a distributed data archive developed and operated by the [Earth System Grid Federation (ESGF)][ESGFHome].   [Balaji et al. (2018)][BalajiGMD] provide an overview of the design of additional infrastructure and the configuring of ESGF in supporting CMIP6.   The data are hosted on a collection of nodes located at modeling centers or data centers across the world.  The data can be accessed through any of the CMIP6 CoG web interfaces, which enable users to search across the entire distributed archive as if it were all centrally located.
 
 See this **[summary table][dataHoldings]** to view available experiments and models.
 
@@ -58,18 +58,18 @@ Here are the currently active CMIP6 CoG sites (all data can be accessed via any 
 * France, IPSL - [https://esgf-node.ipsl.upmc.fr/projects/cmip6-ipsl/](https://esgf-node.ipsl.upmc.fr/projects/cmip6-ipsl/)
 * Germany, DKRZ - [https://esgf-data.dkrz.de/projects/cmip6-dkrz/](https://esgf-data.dkrz.de/projects/cmip6-dkrz/)
 * UK, CEDA - [https://esgf-index1.ceda.ac.uk/projects/cmip6-ceda/](https://esgf-index1.ceda.ac.uk/projects/cmip6-ceda/)
-  
-To get to the search interface click on “More search options” under the large red text near the center of the page.  
+
+To get to the search interface click on “More search options” under the large red text near the center of the page.
 There are additional options for searching through the web interface (see “More Search Options” near the top right of the page) and there is also an API that can be used to perform searches.   [Tutorials][ESGFTutorial] are available by following the link labeled [“Technical Support”] [ESGFTechSupport] near the top right of the page.  Expert users may also want to use the [ESGF Search RESTful API][ESGFSearchapi].
 
-[Globus][globusHome] is available for downloading some datasets and will provide much better performance for large data volumes.   With the Globus Download option, ESGF will prepare a python script for batch downloads, or you can monitor transfers for a “Web Download”.  You can download an entire “data cart” in one step if all datasets in the cart are served by Globus.   The Globus option requires you to establish a user account on ESGF (see “create account” at top right of CoG pages).  Note also that a second logon with a Globus-enabled credential is required (nb.: Google ids in addition to many institutions are accepted).  
+[Globus][globusHome] is available for downloading some datasets and will provide much better performance for large data volumes.   With the Globus Download option, ESGF will prepare a python script for batch downloads, or you can monitor transfers for a “Web Download”.  You can download an entire “data cart” in one step if all datasets in the cart are served by Globus.   The Globus option requires you to establish a user account on ESGF (see “create account” at top right of CoG pages).  Note also that a second logon with a Globus-enabled credential is required (nb.: Google ids in addition to many institutions are accepted).
 
 ## 4. Terms of use and citation requirements
-To enable modeling groups and others who support CMIP6 to demonstrate its impact (and secure ongoing funding), you are required to cite and acknowledge those who have made CMIP6 possible. You also must abide by any licensing restrictions, which are recorded in each file as a  global attribute (named “license”). 
+To enable modeling groups and others who support CMIP6 to demonstrate its impact (and secure ongoing funding), you are required to cite and acknowledge those who have made CMIP6 possible. You also must abide by any licensing restrictions, which are recorded in each file as a  global attribute (named “license”).
 
-<span style="color:red;font-weight:bold">Please carefully read and adhere to</span> the [CMIP6 Terms of Use][termsOfUse].  
+<span style="color:red;font-weight:bold">Please carefully read and adhere to</span> the [CMIP6 Terms of Use][termsOfUse].
 
-CMIP6 model output datasets and forcing datasets should, according to the terms of use, be cited by any publication that make use of them (see [Data Citation Guidelines][dataCitationGuide]). It is important to include the version (latest dataset version or if not available the latest data download date) in the data citation of the evolving CMIP6 data. Further information on the data citation concept for CMIP6 is available at [cmip6cite.wdc-climate.de][cmip6cite] and described in [Stockhause and Lautenschlager (2017)][Stockhause2017].  
+CMIP6 model output datasets and forcing datasets should, according to the terms of use, be cited by any publication that make use of them (see [Data Citation Guidelines][dataCitationGuide]). It is important to include the version (latest dataset version or if not available the latest data download date) in the data citation of the evolving CMIP6 data. Further information on the data citation concept for CMIP6 is available at [cmip6cite.wdc-climate.de][cmip6cite] and described in [Stockhause and Lautenschlager (2017)][Stockhause2017].
 
 Data references give credit to the data providers and enable the traceability of research findings (see [contribution to the CMIP6 Model Analysis Workshop][citemaws]). They are provided on two granuliarities: fine experiment (contribution by one model to one experiment) and coarse model/MIP (contribution by one model to one MIP). Data references can be found:
 * in the CMIP6 CoG sites (see list above): Brief data citation information can be displayed  by clicking on “Show citation” next to each dataset. The provided URL or DOI for the finer data reference for the experiment will direct you to the corresponding "landing page" with detailed information including the coarser model/MIP granularity.
@@ -89,10 +89,10 @@ The [controlled vocabularies][cmip6Cvs] contain basic information about the [mod
 ## 6. Reporting suspected errors
 Information about discovered issues of CMIP6 data is captured by the [ES-DOCs Errata Service][ES-DOCErrataService].
 The Errata Service provides the ability to query modifications and/or corrections applied to CMIP6 data in two ways:
-* A  **[user friendly filtered list of ESGF known issues][errataSearchUIDoc]**. 
+* A  **[user friendly filtered list of ESGF known issues][errataSearchUIDoc]**.
 * A  **[search interface that helps retrace a specific dataset/file version history][errataPIDLookupDoc]**.
 
-Any ESGF user can report an error to the appropriate modeling group (see "contact" attribute in the netCDF files), or through the <a href="mailto:esgf-user@llnl.gov">ESGF user mailing list</a>. After a report is received, the corresponding data manager can create a new errata entry using 
+Any ESGF user can report an error to the appropriate modeling group (see "contact" attribute in the netCDF files), or through the <a href="mailto:esgf-user@llnl.gov">ESGF user mailing list</a>. After a report is received, the corresponding data manager can create a new errata entry using
 [an easy and user-friendly form][errataFormCreateDoc]. A [command line client][errataCLCDoc] is also available. The aim is to clearly and concisely document the issue and through the PID integration, this errata service will include all the datasets/files affected when documentation is completed correctly.
 
 ## 7. Registering published work based on CMIP6
@@ -103,7 +103,7 @@ The [CMIP Panel][CMIPPanel], which is a standing subcommittee of the WCRP’s [W
 
 The [endorsed MIPs][CMIP6EndorsedMips] are managed by independent committees, but acceptance of endorsement obligates them to follow CMIP’s technical requirements. Thus across all MIPs, the modeling groups can prepare their model output following a common procedure.
 
-The CMIP Panel has delegated responsibility for most of the technical requirements of CMIP to the [WGCM Infrastructure Panel (WIP)][wipCog]. The mission, rationale and Terms of Reference for the panel can be found [here][wipMission]. The WIP has drafted a number of position papers summarizing CMIP6 requirements and specifications. Among these is the [CMIP6 reference specifications for global attributes, filenames, directory structure and Data Reference Syntax (DRS)][cmip6GlobalAttGoogleDoc]. The WIP has also set up a [CMIP Data Node Operations Team (CDNOT)][cdnotGoogleDoc] to interface with data node managers responsible for serving CMIP6 data. This team provides a direct link from the panels establishing data node requirements to those implementing the requirements. 
+The CMIP Panel has delegated responsibility for most of the technical requirements of CMIP to the [WGCM Infrastructure Panel (WIP)][wipCog]. The mission, rationale and Terms of Reference for the panel can be found [here][wipMission]. The WIP has drafted a number of position papers summarizing CMIP6 requirements and specifications. Among these is the [CMIP6 reference specifications for global attributes, filenames, directory structure and Data Reference Syntax (DRS)][cmip6GlobalAttGoogleDoc]. The WIP has also set up a [CMIP Data Node Operations Team (CDNOT)][cdnotGoogleDoc] to interface with data node managers responsible for serving CMIP6 data. This team provides a direct link from the panels establishing data node requirements to those implementing the requirements.
 
 Information is under preparation describing the governance of the following:
 
@@ -116,7 +116,7 @@ Information is under preparation describing the governance of the following:
 * [input4MIPs][input4mipsHome]
 * [obs4MIPs][obs4mipsCog]
 
-###### Document version: 6 November 2019
+###### Document version: 26 November 2019
 
 [guide]: index.html
 [institutionIdHtml]: http://rawgit.com/WCRP-CMIP/CMIP6_CVs/master/src/CMIP6_institution_id.html
