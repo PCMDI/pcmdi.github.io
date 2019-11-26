@@ -20,9 +20,9 @@ Document overview:
 ## 1. Experiment design
 The CMIP6 protocol and experiments are described in a [special issue][GMDSpecialIssue] of Geoscientific Model Development with an overview of the design and scientific strategy provided in the lead article of that issue by [Eyring et al. (2016)][EyringEtAl16]
 
-Each model participating in CMIP6 will contribute results from the four DECK experiments (piControl, AMIP, abrupt4xCO2, and 1pctCO2) and the CMIP6 historical simulation. These experiments are the only ones  directly overseen by the the [CMIP Panel][CMIPPanel], and together these constitute the ongoing (slowly evolving) “CMIP Activity”.  They are described in [Eyring et al. (2016)][EyringEtAl16]
+Each model participating in CMIP6 will contribute results from the four DECK experiments (piControl, AMIP, abrupt4xCO2, and 1pctCO2) and the CMIP6 historical simulation. These experiments are the only ones  directly overseen by the the [CMIP Panel][CMIPPanel], and together these constitute the ongoing (slowly evolving) “CMIP Activity”. They are described in [Eyring et al. (2016)][EyringEtAl16]
 
-In addition to the DECK and historical simulations, each modeling group may choose to contribute to any of the [CMIP6 endorsed MIPs][CMIP6EndorsedMips].  See the [GMD Special CMIP6 Issue][GMDSpecialIssue] for descriptions of each MIP and its experiment specifications. The official names of the currently endorsed CMIP6 MIP activities are recorded in a [“json” file][activityIdJson].
+In addition to the DECK and historical simulations, each modeling group may choose to contribute to any of the [CMIP6 endorsed MIPs][CMIP6EndorsedMips]. See the [GMD Special CMIP6 Issue][GMDSpecialIssue] for descriptions of each MIP and its experiment specifications. The official names of the currently endorsed CMIP6 MIP activities are recorded in a [“json” file][activityIdJson].
 
 When called for by the experiment protocol, [standard forcing data sets][input4mipsHome] have been used. Any deviation from the standard forcing are supposed to be clearly [documented](#5-model-and-experiment-documentation).
 
@@ -33,7 +33,7 @@ The [CMIP6 Data Request][cmip6DataRequestCog] defines the variables requested fr
 
 CMIP6 model output includes metadata and is structured similar to CMIP5 output, but changes have been made to accommodate the more complex structure of CMIP6 and its data request. Some changes have been made to make it easier for users to find the data they need and to enable new services to be established providing, for example, model and experiment documentation and citation information.
 
-As in CMIP5, all CMIP6 output has been written to netCDF files with one variable stored per file. The data have been “cmorized” (i.e., written in conformance with the [CF-conventions][cfConventionsPage] and all the CMIP standards).  The CMIP6 data requirements are defined and discussed in the following documents:
+As in CMIP5, all CMIP6 output has been written to netCDF files with one variable stored per file. The data have been “cmorized” (i.e., written in conformance with the [CF-conventions][cfConventionsPage] and all the CMIP standards). The CMIP6 data requirements are defined and discussed in the following documents:
 
 * [Definition of CMIP6 netCDF global attributes][cmip6GlobalAttGoogleDoc]
 * [Reference “controlled vocabularies” (CV’s) for CMIP6][cmip6Cvs]
@@ -44,12 +44,12 @@ As in CMIP5, all CMIP6 output has been written to netCDF files with one variable
 * [Information on pressure levels][cmip6PressureLevelsPdf] requested
 * [Guidance on time-averaging][cmip6TimeAveragesCog] (with masking)
 
-Note that in the above, controlled vocabularies (CV’s) play a key role in ensuring uniformity in the description of data sets across all models. For all but variable-specific information, [reference CV’s][cmip6Cvs] are being maintained by PCMDI.  These CV’s are relied on in constructing file names and directory structures, and they enable faceted searches of the CMIP6 archive as called for in the [search requirements document][esgfSearchRequirementsGoogleDoc].
+Note that in the above, controlled vocabularies (CV’s) play a key role in ensuring uniformity in the description of data sets across all models. For all but variable-specific information, [reference CV’s][cmip6Cvs] are being maintained by PCMDI. These CV’s are relied on in constructing file names and directory structures, and they enable faceted searches of the CMIP6 archive as called for in the [search requirements document][esgfSearchRequirementsGoogleDoc].
 
 As indicated in the [guidance specifications for output grids][cmip6GridGoogleDoc], weights will be provided to regrid all output to a few standard grids (e.g., 1x1 degree). All regridding information (weights, lats, lons, etc.) will be stored consistent with a standard format approved by the WIP.
 
 ## 3. Accessing model output
-CMIP6 model output is available through a distributed data archive developed and operated by the [Earth System Grid Federation (ESGF)][ESGFHome].   [Balaji et al. (2018)][BalajiGMD] provide an overview of the design of additional infrastructure and the configuring of ESGF in supporting CMIP6.   The data are hosted on a collection of nodes located at modeling centers or data centers across the world.  The data can be accessed through any of the CMIP6 CoG web interfaces, which enable users to search across the entire distributed archive as if it were all centrally located.
+CMIP6 model output is available through a distributed data archive developed and operated by the [Earth System Grid Federation (ESGF)][ESGFHome]. [Balaji et al. (2018)][BalajiGMD] provide an overview of the design of additional infrastructure and the configuring of ESGF in supporting CMIP6. The data are hosted on a collection of nodes located at modeling centers or data centers across the world. The data can be accessed through any of the CMIP6 CoG web interfaces, which enable users to search across the entire distributed archive as if it were all centrally located.
 
 See this **[summary table][dataHoldings]** to view available experiments and models.
 
@@ -60,9 +60,9 @@ Here are the currently active CMIP6 CoG sites (all data can be accessed via any 
 * UK, CEDA - [https://esgf-index1.ceda.ac.uk/projects/cmip6-ceda/](https://esgf-index1.ceda.ac.uk/projects/cmip6-ceda/)
 
 To get to the search interface click on “More search options” under the large red text near the center of the page.
-There are additional options for searching through the web interface (see “More Search Options” near the top right of the page) and there is also an API that can be used to perform searches.   [Tutorials][ESGFTutorial] are available by following the link labeled [“Technical Support”] [ESGFTechSupport] near the top right of the page.  Expert users may also want to use the [ESGF Search RESTful API][ESGFSearchapi].
+There are additional options for searching through the web interface (see “More Search Options” near the top right of the page) and there is also an API that can be used to perform searches. [Tutorials][ESGFTutorial] are available by following the link labeled [“Technical Support”] [ESGFTechSupport] near the top right of the page. Expert users may also want to use the [ESGF Search RESTful API][ESGFSearchapi].
 
-[Globus][globusHome] is available for downloading some datasets and will provide much better performance for large data volumes.   With the Globus Download option, ESGF will prepare a python script for batch downloads, or you can monitor transfers for a “Web Download”.  You can download an entire “data cart” in one step if all datasets in the cart are served by Globus.   The Globus option requires you to establish a user account on ESGF (see “create account” at top right of CoG pages).  Note also that a second logon with a Globus-enabled credential is required (nb.: Google ids in addition to many institutions are accepted).
+[Globus][globusHome] is available for downloading some datasets and will provide much better performance for large data volumes. With the Globus Download option, ESGF will prepare a python script for batch downloads, or you can monitor transfers for a “Web Download”. You can download an entire “data cart” in one step if all datasets in the cart are served by Globus. The Globus option requires you to establish a user account on ESGF (see “create account” at top right of CoG pages). Note also that a second logon with a Globus-enabled credential is required (nb.: Google ids in addition to many institutions are accepted).
 
 ## 4. Terms of use and citation requirements
 To enable modeling groups and others who support CMIP6 to demonstrate its impact (and secure ongoing funding), you are required to cite and acknowledge those who have made CMIP6 possible. You also must abide by any licensing restrictions, which are recorded in each file as a  global attribute (named “license”).
@@ -78,7 +78,7 @@ Data references give credit to the data providers and enable the traceability of
 * following the global attribute "further_info_url" link in the file via the ES-DOC page to the citation "landing page".
 
 ## 5. Model and experiment documentation
-The [controlled vocabularies][cmip6Cvs] contain basic information about the [models][sourceIdHtml], [institutions][institutionIdHtml], and [experiments][experimentIdhtml] in CMIP6.  The CMIP6 results will be fully documented and made accessible via the ES-DOC viewer and comparator interface ([https://search.es-doc.org](https://search.es-doc.org)). Each CMIP6 model output file includes a global attribute called “further_info_url” which will link to a signpost web page providing simulation/ensemble information, model configuration details, current contact details, data citation details etc. This link is also selectable next to each dataset returned by the CMIP6 CoG search interface.  ES-DOC will include documentation of:
+The [controlled vocabularies][cmip6Cvs] contain basic information about the [models][sourceIdHtml], [institutions][institutionIdHtml], and [experiments][experimentIdhtml] in CMIP6. The CMIP6 results will be fully documented and made accessible via the ES-DOC viewer and comparator interface ([https://search.es-doc.org](https://search.es-doc.org)). Each CMIP6 model output file includes a global attribute called “further_info_url” which will link to a signpost web page providing simulation/ensemble information, model configuration details, current contact details, data citation details etc. This link is also selectable next to each dataset returned by the CMIP6 CoG search interface. ES-DOC will include documentation of:
 
 * **[Experiments][es-docsExperiments]**: The ES-DOC project has already recorded documentation of the CMIP6 experiments including lists of forcings, model configuration, numerical requirements, information about building the ensembles, links to citations and contact information of the principal investigators as well as text descriptions and information about the rationale behind each experiment
 * **[Models][es-docsModels]**: Models will be described on a realm-by-realm basis (i.e. atmosphere, ocean, sea ice, etc.) as well as the top level (coupled model configuration). ES-DOC provides a variety of tools (script-based, text-based, and form-based) for gathering this information from modeling groups, allowing for personal/institutional preference in the way in which documents are created
@@ -96,7 +96,7 @@ Any ESGF user can report an error to the appropriate modeling group (see "contac
 [an easy and user-friendly form][errataFormCreateDoc]. A [command line client][errataCLCDoc] is also available. The aim is to clearly and concisely document the issue and through the PID integration, this errata service will include all the datasets/files affected when documentation is completed correctly.
 
 ## 7. Registering published work based on CMIP6
-Please register on the [CMIP6 publication database][CMIP6pubs] any articles you publish that make use of CMIP6 output.  Further guidance will be forthcoming.
+Please register on the [CMIP6 publication database][CMIP6pubs] any articles you publish that make use of CMIP6 output. Further guidance will be forthcoming.
 
 ## 8. CMIP6 organization and governance
 The [CMIP Panel][CMIPPanel], which is a standing subcommittee of the WCRP’s [Working Group on Climate Modeling][wgcmSite] provides overall guidance and oversight of CMIP activities. Notably it determines which MIPs will participate in each phase of CMIP using the established selection criteria listed in Table 1 of [Eyring et al. (2016)][EyringEtAl16]. On [its webpages][wgcmCmip6] the CMIP Panel provides additional information that may be of interest to CMIP6 participants, but only the CMIP6 Guide (this document) provides definitive documentation of CMIP6 technical requirements.
