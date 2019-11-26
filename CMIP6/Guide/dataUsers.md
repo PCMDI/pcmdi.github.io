@@ -73,8 +73,9 @@ CMIP6 model output datasets and forcing datasets should, according to the terms 
 
 Data references give credit to the data providers and enable the traceability of research findings (see [contribution to the CMIP6 Model Analysis Workshop][citemaws]). They are provided on two granuliarities: fine experiment (contribution by one model to one experiment) and coarse model/MIP (contribution by one model to one MIP). Data references can be found:
 * in the CMIP6 CoG sites (see list above): Brief data citation information can be displayed  by clicking on “Show citation” next to each dataset. The provided URL or DOI for the finer data reference for the experiment will direct you to the corresponding "landing page" with detailed information including the coarser model/MIP granularity.
+* searching [DataCite's catalog][datacitecat]
 * using [Google's Dataset Search][gdatasetsearch]
-* via the global attribute "further_info_url" in the file and the ES-DOC page to the citation "landing page".
+* following the global attribute "further_info_url" link in the file via the ES-DOC page to the citation "landing page".
 
 ## 5. Model and experiment documentation
 The [controlled vocabularies][cmip6Cvs] contain basic information about the [models][sourceIdHtml], [institutions][institutionIdHtml], and [experiments][experimentIdhtml] in CMIP6.  The CMIP6 results will be fully documented and made accessible via the ES-DOC viewer and comparator interface ([https://search.es-doc.org](https://search.es-doc.org)). Each CMIP6 model output file includes a global attribute called “further_info_url” which will link to a signpost web page providing simulation/ensemble information, model configuration details, current contact details, data citation details etc. This link is also selectable next to each dataset returned by the CMIP6 CoG search interface.  ES-DOC will include documentation of:
@@ -134,6 +135,7 @@ Information is under preparation describing the governance of the following:
 [cmip6GridGoogleDoc]: http://goo.gl/1oA7bO
 [cmip6PressureLevelsPdf]: https://www.earthsystemcog.org/site_media/projects/wip/CMIP6_pressure_levels.pdf
 [cmip6TimeAveragesCog]: https://www.earthsystemcog.org/projects/wip/time_averages
+[datacitecat]: https://search.datacite.org/works?query=prefix:10.22033
 [dataHoldings]: https://pcmdi.llnl.gov/CMIP6/ArchiveStatistics/esgf_data_holdings
 [esgfSearchRequirementsGoogleDoc]: https://docs.google.com/document/d/1jNBw2am28Hxux_YuCL_mYMi18EEGkJSGrtNntOs3PJo
 [es-docsExperiments]: https://es-doc.org/cmip6-experiments
