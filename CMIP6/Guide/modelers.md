@@ -260,11 +260,13 @@ For other grids, the nominal_resolution can be calculated with the following cod
 
 ## 7. Archiving/publishing output
 The Earth System Grid Federation ([ESGF][ESGFLlnlHome]) will facilitate the global
-distribution of CMIP6 output. For CMIP6, certain ESGF data nodes (known as “Tier
-1 nodes”) will serve as the primary access points to the data. The model output
-will be “published” on these nodes and the data will be hosted on these and on
-additional nodes, many of which will be installed and maintained by the modeling
-centers themselves. As part of “publication”, certain conformance checks are performed,
+distribution of CMIP6 output. 
+
+For CMIP6, the original copies of data will be availble through the data nodes, many of which will be installed and maintained by the modeling centers themselves. Certain ESGF data nodes (known as “Tier
+1 nodes”) will serve as the primary access points to the data. A searchable record of model output: the access method and metadata,
+will be “published” to these nodes, and additionally, replicas of the data will be hosted on these nodes.
+
+As part of “publication”, certain conformance checks are performed,
 metadata are recorded in a catalog where it can be accessed by the other data nodes,
 and versioning is managed. The data provider (modeling center) will need to closely
 coordinate and cooperate with the ESGF data manager(s) of a specific ESGF data
