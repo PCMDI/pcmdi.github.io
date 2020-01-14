@@ -87,6 +87,7 @@ Science/Biological and Environmental Research
 * [Alex Hall](http://www.atmos.ucla.edu/csrl/) (co-Investigator, UCLA) 
 * [Peter Caldwell](https://pcmdi.llnl.gov/staff/caldwell/index.html) 
 * [Timothy Myers](https://sites.google.com/site/myerstimothy/) 
+* Yi Qin
 * [Mark Zelinka](https://markdzelinka.wordpress.com/) 
 * [Yunyan Zhang](https://pls.llnl.gov/people/staff-bios/aeed/zhang-y) 
 
@@ -102,6 +103,15 @@ Science/Biological and Environmental Research
 ---
 
 ### Research Highlights ### 
+
+<h4> 2020</h4>
+
+<ul>
+
+<li>Zelinka, M. D., T. A. Myers, D. T. McCoy, S. Po-Chedley, P. M. Caldwell, P. Ceppi, S. A. Klein, and K. E. Taylor, 2020: <a
+href="https://climatemodeling.science.energy.gov/research-highlights/latest-earth-system-models-predict-more-global-warming-their-predecessors" rel="nofollow" target="_blank">Latest Earth System Models Predict More Global Warming than their Predecessors</a></li>
+
+</ul> 
 
 <h4> 2019</h4>
 
@@ -390,7 +400,11 @@ Feedback </a> </li>
 ### Publicity ### 
 <ul>
   
- <!-- 2019-->   
+ <!-- 2020-->   
+  
+<li> <a href="https://arstechnica.com/science/2020/01/the-latest-generation-of-climate-models-is-running-hotter-heres-why" rel="nofollow" target="_blank">The latest generation of climate models is running hotter—here’s why</a> (January 2020, <em>arsTechnica</em>) </li> 
+  
+<!-- 2019-->   
   
 <li> <a href="https://www.llnl.gov/news/new-climate-model-evaluation-method-can-help-predict-more-accurate-future-change" rel="nofollow" target="_blank">New climate model evaluation method can help to predict more accurate future change</a> (March 2019, <em>LLNL News</em>) </li> 
   
@@ -516,6 +530,17 @@ climate debate </a> (September 2011, <em>Live Science</em>) </li>
 
 ### Publications ### 
 
+<h4> 2020</h4>
+
+<ul>
+  
+<li>Zelinka, M. D., T. A. Myers, D. T. McCoy, S. Po-Chedley, P. M. Caldwell, P. Ceppi, S. A. Klein, and K. E. Taylor, 2020: Causes of higher climate sensitivity in CMIP6 models, <em>Geophys. Res. Lett.</em>, doi:<a href="http://dx.doi.org/10.1029/2019gl085782" rel="nofollow" target="_blank">10.1029/2019GL085782</a>.</li>
+
+<li>Zhou, C., Y. Hu, J. Lu, and M. D. Zelinka, 2020: Responses of the Hadley Circulation to regional sea surface temperature changes, <em>J. Climate</em>, 33, 429-441, doi:<a href="https://journals.ametsoc.org/doi/abs/10.1175/JCLI-D-19-0315.1" rel="nofollow" target="_blank">10.1175/JCLI-D-19-0315.1</a>.</li>
+
+</ul>
+
+
 <h4> 2019</h4>
 
 <ul>
@@ -532,7 +557,7 @@ target="_blank">10.1038/s41558-018-0355-y</a>.</li>
 <li>Hall, A. D., P. Cox, C. Huntingford, and S. A. Klein, 2019: Progressing emergent constraints on future climate change, <em>Nature Clim. Change</em>, doi:<a href="https://www.nature.com/articles/s41558-019-0436-6" rel="nofollow"
 target="_blank">10.1038/s41558-019-0436-6</a>.</li>
 
-<li>Po-Chedley, S., M. D. Zelinka, N. Jeevanjee, T. J. Thorsen, and B. D. Santer, 2019: Climatology explains intermodel spread in upper tropospheric cloud and relative humidity response to greenhouse warming, <em>Geophys. Res. Lett.</em>, doi:<a href="https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2019GL084786" rel="nofollow" target="_blank">10.1029/2019GL084786</a>, in press.</li>
+<li>Po-Chedley, S., M. D. Zelinka, N. Jeevanjee, T. J. Thorsen, and B. D. Santer, 2019: Climatology explains intermodel spread in upper tropospheric cloud and relative humidity response to greenhouse warming, <em>Geophys. Res. Lett.</em>, 46, doi:<a href="https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2019GL084786" rel="nofollow" target="_blank">10.1029/2019GL084786</a>.</li>
 
 <li>Santer, B. D., et al. including M. D. Zelinka, 2019: Celebrating the anniversary of three key events in climate change science, <em>Nature Clim. Change</em>, 9, 180-182, doi:<a href="" rel="nofollow" target="_blank">10.1038/s41558-019-0424-x</a>.</li>
 
@@ -541,8 +566,6 @@ target="_blank">10.1038/s41558-019-0436-6</a>.</li>
 <li>Terai, C. R., Y. Zhang, S. A. Klein, M. D. Zelinka, J. C. Chiu, and Q. Min, 2019: Mechanisms behind the extratropical stratiform low‐cloud optical depth response to temperature in ARM site observations, <em>J. Geophys. Res.</em>, 124, doi:<a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2018JD029359" rel="nofollow" target="_blank">10.1029/2018JD029359</a>.</li>
 
 <li>Zhang, Y., et al. including M. D. Zelinka, 2019: Evaluation of Clouds in Version 1 of the E3SM Atmosphere Model with Satellite Simulators, <em>J. Adv. Model. Earth Syst.</em>, 11, 1253-1268, doi:<a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2018MS001562" rel="nofollow" target="_blank">10.1029/2018MS001562</a>.</li>
-
-<li>Zhou, C., Y. Hu, J. Lu, and M. D. Zelinka, 2019: Responses of the Hadley Circulation to regional sea surface temperature changes, <em>J. Climate</em>, doi:<a href="https://journals.ametsoc.org/doi/abs/10.1175/JCLI-D-19-0315.1" rel="nofollow" target="_blank">10.1175/JCLI-D-19-0315.1</a>, in press.</li>
 
 
 </ul>
