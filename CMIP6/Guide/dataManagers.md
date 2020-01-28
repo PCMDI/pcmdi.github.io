@@ -100,7 +100,7 @@ This section describes the usage of the esgprep tool. This tool will take of you
 
 This section describe steps required to publish the first version of a new CMIP6 dataset. After those steps your CMIP6 dataset will be findable and accessible from the ESGF portal.
 
-Note on publishing: please do not manually edit esg.cmip6.ini to add missing information if your data files won't publish.  In such a case, it is likely that either the model is unregistered (https://github.com/WCRP-CMIP/CMIP6_CVs/) or there is an error in the metadata that needs to be corrected.  Please contact (1) the modeling group to ensure all fields are properly registered ; (2) support from CDNOT to get the publisher config (esg.cmip6.ini file) updated.   
+Note on publishing: please do not manually edit esg.cmip6.ini to add missing information if your data files won't publish.  In such a case, it is likely that either the model is unregistered or there is an error in the metadata that needs to be corrected.  Please contact (1) the modeling group to ensure all fields are properly registered ; (2) support from CDNOT to get the publisher config (esg.cmip6.ini file) updated.  See (https://github.com/WCRP-CMIP/CMIP6_CVs/) for the most up-to-date catalog of registered entities (source_id, institution_id, etc.)
 
 1. [Check for the completion of data citation information](http://cmip6cite.wdc-climate.de/#Information-for-ESGF-Data-Node-Managers)
 2. (Optional) [Fetch project .ini files](http://esgf.github.io/esgf-prepare/fetchini.html)
