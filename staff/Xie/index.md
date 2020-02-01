@@ -111,6 +111,8 @@ Before I came to the United States, I had worked for 5 years at the National Met
 
 * Physical and Life Sciences Directorate Award for “Leadership and dedication to the DOE E3SM version 1 development”, LLNL, 2019
 
+* LLNL Deputy Director for Science and Technology Excellence in Publication Awards "The role of surface energy budget errors to the warm surface air temperatue error over teh central United States". LLNL, September 2019.
+
 * Physical and Life Sciences Directorate Award for Excellence in Publication “For improving our understanding of the role of clouds, radiation, and precipitation processes in contributing to surface temperature biases”, LLNL, 2018.
 
 * Physical and Life Sciences Directorate Mentor Award for “Outstanding Mentorship of Postdoctoral Staff”, Lawrence Livermore National Laboratory, 2016.
@@ -166,7 +168,7 @@ Before I came to the United States, I had worked for 5 years at the National Met
 
 ## First Author Peer-Reviewed Publications (17)
 
-17. Xie, S. et al. (2019): Improved Diurnal Cycle of Precipitation in E3SM with a Revised Convective Triggering Function. JAMES, Submitted.
+17. Xie, S. et al. (2019): Improved Diurnal Cycle of Precipitation in E3SM with a Revised Convective Triggering Function. Journal of Advances in Modeling Earth Systems, 11. https://doi.org/10.1029/2019MS001702.
 
 16.	Xie, S., Lin, W., Rasch, P. J., Ma, P.‐L., Neale, R., Larson, V. E., et al. (2018). Understanding cloud and convective characteristics in version 1 of the E3SM atmosphere model. Journal of Advances in Modeling Earth Systems, 10, 2618–2644. https://doi.org/10.1029/2018MS001350. 
 
@@ -202,13 +204,35 @@ Before I came to the United States, I had worked for 5 years at the National Met
 
 ## Other Peer-Reviewed Publications (80)
 
-80.	Rasch, P. J., S. Xie, P. Ma, W. Lin, et al. (2019): An Overview of the Atmospheric Component of the Energy Exascale Earth System Model. JAMES, submitted.
+91. Zhang, M., S. Xie, X. Liu, et al. (2019). Toward understanding the phase partitioning of Arctic mixed-phase clouds simulated in E3SM with ARM M-PACE observations. JAMES, submitted.
 
-79.	Zheng et al. 2019: The Summertime Precipitation Bias in E3SM Atmosphere Model Version 1 (EAMv1) over the Central United States. Submitted to JGR
+90.	Neale, R. B., W. Lin, S. Xie, C. Hannay, J. Bacmeister, 2019: Sub-Seasonal Tropical Variability in the DOE EarthEnergy Exascale System Model (E3SM) version 1. Submitted to JAMES.
 
-78.	Tao, C., Y. Zhang, S. Tang, Q. Tang, H. Ma, S. Xie, and M. Zhang, 2019: Regional moisture budget and land-atmosphere coupling over the US Sothern Great Plains inferred from the ARM long-term observations.  JGR, Submitted.
+89.	Ma, H.-Y., A. C. Siongco, S. A. Klein, S. Xie, A. R. Karspeck, K. Raeder, J. L. Anderson, J. Lee, B. P. Kirtman, W. J. Merryfield, H. Murakami, and J. J. Tribbia, 2019: On the correspondence between seasonal forecast and long-term climate errors in sea surface temperatures. J. Climate, submitted.
 
-77.	Zhang, M., X. Liu, et al. (including S. Xie), 2019: Impacts of Subgrid Mixing between Cloud Liquid and Ice on Arctic Mixed-Phase Clouds with NCAR CAM5. JGR, submitted.
+88.	Ma, H.-Y., C. Zhou, Y. Zhang, S. A. Klein, M. D. Zelinka, X. Zheng, S. Xie, W.-T. Chen, and C.-M. Wu, 2019: Evaluating climate model moist processes from diurnal to interannual time scales using a multi-year ensemble of short-range hindcasts. Geosci. Model Dev., submitted.
+
+87.	Wang, Y., and S. Xie (2020): Evaluation of an Improved Convective Trigger through Observational Studies and SCM Tests. Submitted to JGR.
+
+86.	Bogenschutz, P., S. Tang, P. Caldwell, S. Xie, W. Lin, and Y. Chen (2020): The E3SM Single Column Model. Submitted to GMD.
+
+85.	Tang, S., S. Xie, M. Zhang, and S. Endo, 2020:  Improvement of Atmospheric Objective Analysis over Sloping Terrain and Its Impact on Shallow-Cumulus Clouds in Large-Eddy Simulations. Submitted to JGR.
+
+84.	Zhang, C., S. Xie, C. Tao, S. Tang, T. Emmeneger, J. Neelin, K. Schiro, and W. Lin (2020): ARM Data-oriented Metrics and Diagnostics Package for Climate Models. To be submitted to BAMS.
+
+83. Siongco, A.C., H. Ma, S.A. Klein, S. Xie, A.R. Karspeck, K. Raeder, and J.L. Anderson, 2020: A Hindcast Approach to Diagnosing the Equatorial Pacific Cold Tongue SST Bias in CESM1. J. Climate, 33, 1437–1453, https://doi.org/10.1175/JCLI-D-19-0513.1.
+
+82. Caldwell, P. M., Mametjanov, A., Tang, Q., Van Roekel, L. P., Golaz, J.‐C., Lin, W. et al. ( 2019). The DOE E3SM coupled model version 1: Description and results at high resolution. Journal of Advances in Modeling Earth Systems, 11, 4095– 4146. https://doi.org/10.1029/2019MS001870.
+
+81. Wang, H., Easter, R. C., Zhang, R., Ma, P.‐L., Singh, B., Zhang, K., et al. ( 2020). Aerosols in the E3SM Version 1: New developments and their impacts on radiative forcing. Journal of Advances in Modeling Earth Systems, 12, e2019MS001851. https://doi.org/10.1029/2019MS001851.
+
+80.	Rasch, P. J., S. Xie, P. Ma, W. Lin, et al. (2019): An Overview of the Atmospheric Component of the Energy Exascale Earth System Model. Journal of Advances in Modeling Earth Systems, DOI:10.1029/2019MS001629.
+
+79.	 Zheng, X., Golaz, J.‐C., Xie, S., Tang, Q., Lin, W., Zhang, M., et al. ( 2019). The summertime precipitation bias in E3SM Atmosphere Model version 1 over the Central United States. Journal of Geophysical Research: Atmospheres, 124, 8935– 8952. https://doi.org/10.1029/2019JD030662.
+
+78.	 Tao, C., Zhang, Y., Tang, S., Tang, Q., Ma, H.‐Y., Xie, S., & Zhang, M. ( 2019). Regional moisture budget and land‐atmosphere coupling over the U.S. Southern Great Plains inferred from the ARM long‐term observations. Journal of Geophysical Research: Atmospheres, 124, 10091– 10108. https://doi.org/10.1029/2019JD030585.
+
+77.	Zhang, M., Liu, X., Diao, M., D'Alessandro, J. J., Wang, Y., Wu, C., et al ( 2019). Impacts of representing heterogeneous distribution of cloud liquid and Ice on phase partitioning of Arctic mixed‐phase clouds. Journal of Geophysical Research: Atmospheres, 124, 13071– 13090. https://doi.org/10.1029/2019JD030502.
 
 76.  Golaz, J. C. et al. (including S. Xie) (2019): The DOE E3SM Coupled Model Version 1: Overview and Evaluation at Standard Resolution, JAMES, https://doi.org/10.1029/2018MS001603.
 
@@ -226,7 +250,7 @@ Before I came to the United States, I had worked for 5 years at the National Met
 
 69.	Ma, H., C. Zhou, Y. Zhang, S. A. Klein, M. D. Zelinka, X. Zheng, S. Xie, W.-T. Chen, and C.-M. Wu, 2018: Insights into climate model moist processes errors from a multi-year ensemble of short-range hindcasts, to be re-submitted.
 
-68.	Zhang, Y. S. Xie, et al. 2018: Evaluation of Clouds in EAMv1 with Satellite and Ground-based Simulators. JGR, submitted.
+68.	Zhang, Y. S. Xie, et al. 2018: Evaluation of clouds in version 1 of the E3SM atmosphere model with satellite simulators. Journal of Advances in Modeling Earth Systems, 11. https://doi.org/10.1029/2018MS001562.
 
 67. Tang, Q., S. Xie, Y. Zhang, T. Phillips, J. Santanello, D. Cook, L. Riihimaki, and K. Gaustad, 2018: Heterogeneity in Warm-Season Land-Atmosphere Coupling over the U.S. Southern Great Plains.  J. Geophys. Res., (Atmospheres), https://doi.org/10.1029/2018JD028463. 
 
