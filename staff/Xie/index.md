@@ -111,7 +111,7 @@ Before I came to the United States, I had worked for 5 years at the National Met
 
 * Physical and Life Sciences Directorate Award for “Leadership and dedication to the DOE E3SM version 1 development”, LLNL, 2019
 
-* LLNL Deputy Director for Science and Technology Excellence in Publication Awards "The role of surface energy budget errors to the warm surface air temperatue error over teh central United States". LLNL, September 2019.
+* LLNL Deputy Director for Science and Technology Excellence in Publication Awards "The role of surface energy budget errors to the warm surface air temperature error over the central United States". LLNL, September 2019.
 
 * Physical and Life Sciences Directorate Award for Excellence in Publication “For improving our understanding of the role of clouds, radiation, and precipitation processes in contributing to surface temperature biases”, LLNL, 2018.
 
