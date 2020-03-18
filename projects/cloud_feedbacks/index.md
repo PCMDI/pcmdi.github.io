@@ -3,7 +3,7 @@ layout: cloud_feedbacks
 title: Cloud Feedbacks 
 ---
 
-## Identifying Robust Cloud Feedbacks in Observations and Models ## 
+# Identifying Robust Cloud Feedbacks in Observations and Models 
 
 ![Average longwave (LW), shortwave (SW), and net cloud feedbacks as
 simulated by global climate
@@ -12,7 +12,8 @@ png)
 
 ---
 
-### Introduction ###
+
+## Introduction
 
 For more than 30 years, scientists have known that the inability to
 predict how clouds will respond to a climate change hinders a confident
@@ -34,7 +35,7 @@ future climate made by the most recent climate models assessed by the
 Intergovernmental Panel on Climate Change to answer a variety of
 questions:
 
-* WHICH CLOUD TYPES MATTER FOR CLOUD FEEDBACK?
+## Which cloud types matter for cloud feedback?
 
 Cloud feedbacks are extremely variable between different climate models.
 However, it is not always clear what is the relative contribution of
@@ -45,8 +46,7 @@ have found that cloud feedbacks are not the result of a single cloud
 type but that we must consider the feedbacks from many cloud types
 including low clouds, high clouds, mid-latitude clouds and polar clouds.
 
-* WHAT ASPECTS OF CLOUD FEEDACK CAN BE CONSTRAINED WITH OBSERVATIONS WE
-HAVE TODAY?
+## What aspects of cloud feedback can be constrained with observations we have today?
 
 A key aspect of the project is the identification of cloud feedbacks
 where similarities are found in simulations of both current-climate
@@ -59,8 +59,7 @@ working to identify which cloud types exhibit time-scale invariance as
 well as the observations that can quantitatively constrain these
 feedbacks.
 
-* WHAT PHYSICAL PROCESSES CONTRIBUTE TO CLOUD FEEDBACK AND WHAT
-FEEDBACKS ARE CORRECT?
+## What physical processes contribute to cloud feedback and what feedbacks are correct?
 
 Our confidence in any given cloud feedback is dependent on our ability
 to understand the physical processes from which the feedbacks result and
@@ -71,23 +70,6 @@ accomplish this is the application of more realistic models of cloud
 processes to the changes in the large-scale environment predicted by
 global climate models.
 
-This Cloud Feedback project is supported by the Regional and Global
-Climate Modeling
-([RGCM](http://science.energy.gov/ber/research/cesd/regional-and-global-
-modeling/)) Programs of the U.S. Department of Energy's Office of
-Science/Biological and Environmental Research
-([BER](http://science.energy.gov/ber/)).
+This Cloud Feedback project is supported by the Regional and Global Model Analysis
+([RGMA](https://climatemodeling.science.energy.gov/program/regional-global-model-analysis)) Program of the U.S. Department of Energy's Office of Science Biological and Environmental Research ([BER](https://www.energy.gov/science/ber/biological-and-environmental-research)).
 
----
-
-### Project Participants ###
-
-insert link here
-
-### Research Highlights ### 
-
-insert link here
-
-### Publications ### 
-
-insert link here
