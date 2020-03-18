@@ -2,8 +2,9 @@
 layout: cloud_feedbacks 
 title: Cloud Feedbacks 
 ---
+# Identifying Robust Cloud Feedbacks in Observations and Models 
 
-### Project Participants ###
+## Project Participants
 
 * [Stephen A. Klein](https://pls.llnl.gov/people/staff-bios/aeed/klein-s) (Principal Investigator) 
 * [Karl Taylor](https://pcmdi.llnl.gov/staff/taylor/karlcv.html) (co-Investigator) 
@@ -14,7 +15,7 @@ title: Cloud Feedbacks
 * [Mark Zelinka](https://markdzelinka.wordpress.com/) 
 * [Yunyan Zhang](https://pls.llnl.gov/people/staff-bios/aeed/zhang-y) 
 
-**Former Participants:**
+## Former Participants
 
 * [Florent Brient](https://climate-dynamics.org/people/florent-brient/) (Meteo-France) 
 * [Anthony DeAngelis](https://scholar.google.com/citations?user=pzDevCsAAAAJ&hl=en) (NASA Goddard, GMAO) 
