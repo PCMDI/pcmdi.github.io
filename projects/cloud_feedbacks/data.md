@@ -2,7 +2,13 @@
 layout: cloud_feedbacks 
 title: Cloud Feedbacks 
 ---
+
 # Identifying Robust Cloud Feedbacks in Observations and Models 
+
+!({{site.baseurl}}/projects/cloud_feedbacks/binary.svg)
+
+---
+
 
 ## Data and Code 
 
