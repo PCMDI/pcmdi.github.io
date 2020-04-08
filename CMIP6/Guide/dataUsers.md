@@ -73,6 +73,7 @@ CMIP6 model output datasets and forcing datasets should, according to the terms 
 
 Data references give credit to the data providers and enable the traceability of research findings (see [contribution to the CMIP6 Model Analysis Workshop][citemaws]). They are provided on two granuliarities: fine experiment (contribution by one model to one experiment) and coarse model/MIP (contribution by one model to one MIP). Data references can be found:
 * in the CMIP6 CoG sites (see list above): Brief data citation information can be displayed  by clicking on “Show citation” next to each dataset. The provided URL or DOI for the finer data reference for the experiment will direct you to the corresponding "landing page" with detailed information including the coarser model/MIP granularity.
+* using the [Citation Service search][citesearch]
 * searching [DataCite's catalog][datacitecat]
 * using [Google's Dataset Search][gdatasetsearch]
 * following the global attribute "further_info_url" link in the file via the ES-DOC page to the citation "landing page".
@@ -175,3 +176,4 @@ Information is under preparation describing the governance of the following:
 [Stockhause2017]: https://doi.org/10.5334/dsj-2017-030
 [gdatasetsearch]: https://toolbox.google.com/datasetsearch/
 [citemaws]: https://doi.org/10.5281/zenodo.2621084
+[citesearch]: http://bit.ly/CMIP6_Citation_Search
