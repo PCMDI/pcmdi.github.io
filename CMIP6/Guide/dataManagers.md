@@ -32,7 +32,7 @@ This section describes the prerequisite steps that need to be carefully follow t
 This section describes the prerequisite steps that need to be carefully follow to configure CMIP6 data publication on the index node side.
 
 1. [Prepare user and permissions for publication](https://esgf.github.io/esg-publisher/configuration.html#prepare-user-and-permissions-for-publication)
-2. [Setup data access control](https://www.earthsystemcog.org/projects/cog/esgf_cog_data_access_control_setup)
+2. [Setup data access control](https://esgf.github.io/COG/manual/Data_Access_Control_setup.html)
 3. [How to](https://github.com/ESGF/esg-publisher/blob/master/notebooks/cmip6-config.ipynb)
 
 ## 4. Configuring ESGF data usage metrics through the esgf-dashboard
@@ -46,13 +46,13 @@ This section describes how to configure the metrics collection on the data node.
 
 This section describes how to configure the CoG front end so that the CMIP6 CoG pages and the associated search works as expected.
 
-1. [How to log onto CoG as Node administrator](https://www.earthsystemcog.org/projects/cog/esgf_cog_node_administrator_login)
-2. [How to set up the Node “home” project](https://www.earthsystemcog.org/projects/cog/esgf_cog_home_project_setup)
-3. [Example of Node home page](https://www.earthsystemcog.org/projects/cog/doc/home_project_example)
-4. [How to configure the search for a CoG project](https://www.earthsystemcog.org/projects/cog/esgf_cog_data_search_configuration)
-5. [How to configure your CoG to federate with other CoGs](https://www.earthsystemcog.org/projects/cog/doc/node_federation)
-6. [How to customize the CoG header and footer](https://www.earthsystemcog.org/projects/cog/header_footer)
-7. [How to post a header on top of CoG pages for a special announcement](https://www.earthsystemcog.org/projects/cog/doc/notification_header)
+1. [How to log onto CoG as Node administrator](https://esgf.github.io/COG/manual/Node_Administrator_Login.html)
+2. [How to set up the Node “home” project](https://esgf.github.io/COG/manual/Node_Home_Project_Setup.html)
+3. [Example of Node home page](https://esgf.github.io/COG/manual/Home_Page_Example.html)
+4. [How to configure the search for a CoG project](https://esgf.github.io/COG/manual/Data_Search_Configuration.html)
+5. [How to configure your CoG to federate with other CoGs](https://esgf.github.io/COG/manual/Node_Federation.html)
+6. [How to customize the CoG header and footer](https://esgf.github.io/COG/manual/Header_and_Footer.html)
+7. [How to post a header on top of CoG pages for a special announcement](https://esgf.github.io/COG/manual/Notification_Header.html)
 
 ## 6. Validation with ESGF test suite
 
@@ -64,7 +64,7 @@ This section describes the usage of the ESGF test suite that will validate that 
 
 This section describes prerequisite steps needed to apply the appropriate policies to the data access.
 
-1. [Documentation](https://www.earthsystemcog.org/projects/cog/esgf_cog_data_access_control_setup)
+1. [Documentation](https://esgf.github.io/COG/manual/Data_Access_Control_setup.html)
 2. [How to](https://github.com/ESGF/esg-publisher/blob/master/notebooks/cmip6-config.ipynb)
 
 ## 8. (Optional) Checking and fixing CMIP time coordinate
@@ -99,6 +99,8 @@ This section describes the usage of the esgprep tool. This tool will take of you
 ## 11. Publishing a CMIP6 dataset for the first time
 
 This section describe steps required to publish the first version of a new CMIP6 dataset. After those steps your CMIP6 dataset will be findable and accessible from the ESGF portal.
+
+Note on publishing: please do not manually edit esg.cmip6.ini to add missing information if your data files won't publish.  In such a case, it is likely that either the model is unregistered or there is an error in the metadata that needs to be corrected.  Please contact (1) the modeling group to ensure all fields are properly registered ; (2) support from CDNOT to get the publisher config (esg.cmip6.ini file) updated.  See (https://github.com/WCRP-CMIP/CMIP6_CVs/) for the most up-to-date catalog of registered entities (source_id, institution_id, etc.)
 
 1. [Check for the completion of data citation information](http://cmip6cite.wdc-climate.de/#Information-for-ESGF-Data-Node-Managers)
 2. (Optional) [Fetch project .ini files](http://esgf.github.io/esgf-prepare/fetchini.html)
@@ -138,7 +140,7 @@ This section describes the step you need to take to publish a new version of a C
 4. [Generate new mapfiles](http://esgf.github.io/esgf-prepare/mapfiles.html)
 5. [Follow publication workflow a usual](#10-preparing-directory-structure-and-files-organization-to-fulfill-cmip6)
 
+###### Document version: 29 January 2020
 
-###### Document version: 31 January 2019
 
 [guide]: index.html
