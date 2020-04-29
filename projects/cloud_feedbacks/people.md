@@ -4,6 +4,9 @@ title: Cloud Feedbacks
 ---
 # Identifying Robust Cloud Feedbacks in Observations and Models 
 
+![people]({{site.baseurl}}/projects/cloud_feedbacks/people.svg){:height="200px" width="200px" style="display: block; margin-left: auto; margin-right: auto;"}
+
+---
 ## Project Participants
 
 * [Stephen A. Klein](https://pls.llnl.gov/people/staff-bios/aeed/klein-s) (Principal Investigator) 
