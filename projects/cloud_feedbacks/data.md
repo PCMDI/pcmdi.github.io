@@ -5,7 +5,7 @@ title: Cloud Feedbacks
 
 # Identifying Robust Cloud Feedbacks in Observations and Models 
 
-!({{site.baseurl}}/projects/cloud_feedbacks/binary.svg)
+![binary]({{site.baseurl}}/projects/cloud_feedbacks/binary.svg)
 
 ---
 
