@@ -4,6 +4,9 @@ title: Cloud Feedbacks
 ---
 # Identifying Robust Cloud Feedbacks in Observations and Models 
 
+![news]({{site.baseurl}}/projects/cloud_feedbacks/news.svg){:height="200px" width="200px" style="display: block; margin-left: auto; margin-right: auto;"}
+
+---
 ## Press Coverage
 
 <ul>
