@@ -24,11 +24,10 @@ The mean state results from the PCMDI Metrics Package (PMP) are used to produce 
 - An interactive Portrait Plot shows results similar to those in the IPCP, but for each statistic, the results are normalized by the seasonal median error of results across all models (i.e., in a given column/triangle).  With errors expressed as relative to the typical (median error) in the mulit-model ensemble (see Gleckler et al., 2008), a common color scale can be used for all statistics.  For example, an error of -0.5 indicates a model’s error is 50% smaller than the typical error whereas an error of 0.5 is an error 50% larger than the typical error in the multi-model ensemble.   **This diagram can be used to navigate to additional results.  Hovering your mouse over a square or triangle will reveal the diagnostic plot from which the metrics were generated.  Additionally, hovering over the variables on the x-axis displays a [Taylor diagram](https://en.wikipedia.org/wiki/Taylor_diagram)**.   After hovering on either type of plot, the user can click a second time to get a full sized image.   
 
 - PCMDI’s Interactive Portrait Plots
-
--- ### [**CMIP5 historical simulations**][portrait_cmip5_hist]
--- ### [**CMIP6 historical simulations**][portrait_cmip6_hist]
--- ### [**CMIP5 AMIP simulations**][portrait_cmip5_amip]
--- ### [**CMIP6 AMIP simulations**][portrait_cmip6_amip]
+  - ### [**CMIP5 historical simulations**][portrait_cmip5_hist]
+  - ### [**CMIP6 historical simulations**][portrait_cmip6_hist]
+  - ### [**CMIP5 AMIP simulations**][portrait_cmip5_amip]
+  - ### [**CMIP6 AMIP simulations**][portrait_cmip6_amip]
 
 <br/>
 
