@@ -44,4 +44,4 @@ The mean state results from the PCMDI Metrics Package (PMP) are used to produce 
 [taylor2001]: https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2000JD900719
 
 [Metrics]:{{site.baseurl}}/research/metrics/index.html
-[latest]: {{site.baseurl}}/research/metrics/mean/index.html
+[latest]: {{site.baseurl}}/research/metrics/mean_clim/index.html
