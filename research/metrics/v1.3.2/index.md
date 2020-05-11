@@ -71,13 +71,13 @@ Questions or comments about the PCMDI Simulation Summaries should be sent to the
 
 [latest]: {{site.baseurl}}/research/metrics/index.html
 
-[v1.3.1]: {{site.baseurl}}/research/metrics/index_v1.3.1.html
-[v1.3.0]: {{site.baseurl}}/research/metrics/index_v1.3.0.html
-[v1.2.0]: {{site.baseurl}}/research/metrics/index_v1.2.0.html
-[v1.1.0]: {{site.baseurl}}/research/metrics/index_v1.1.0.html
-[v1.0.0]: {{site.baseurl}}/research/metrics/index_v1.0.0.html
-[v1.0.0-beta]: {{site.baseurl}}/research/metrics/index_v1.0.0-beta.html
-[v1.0.0-alpha]: {{site.baseurl}}/research/metrics/index_v1.0.0-alpha.html
+[v1.3.1]: {{site.baseurl}}/research/metrics/v1.3.1
+[v1.3.0]: {{site.baseurl}}/research/metrics/v1.3.0
+[v1.2.0]: {{site.baseurl}}/research/metrics/v1.2.0
+[v1.1.0]: {{site.baseurl}}/research/metrics/v1.1.0
+[v1.0.0]: {{site.baseurl}}/research/metrics/v1.0.0
+[v1.0.0-beta]: {{site.baseurl}}/research/metrics/v1.0.0-beta
+[v1.0.0-alpha]: {{site.baseurl}}/research/metrics/v1.0.0-alpha
 
 [description_mean_clim]: {{site.baseurl}}/research/metrics/mean_clim/
 [description_variability]: {{site.baseurl}}/research/metrics/variability_modes/
