@@ -16,6 +16,10 @@ title: Cloud Feedbacks
 <li>Zelinka, M. D., T. A. Myers, D. T. McCoy, S. Po-Chedley, P. M. Caldwell, P. Ceppi, S. A. Klein, and K. E. Taylor, 2020: <a
 href="https://climatemodeling.science.energy.gov/research-highlights/latest-earth-system-models-predict-more-global-warming-their-predecessors" rel="nofollow" target="_blank">Latest Earth System Models Predict More Global Warming than their Predecessors</a></li>
 
+<li>Zhou, C., J. Lu, Y. Hu, and M.D. Zelinka, 2020: <a
+href="https://climatemodeling.science.energy.gov/research-highlights/hadley-circulation-changes-depend-surface-temperature-anomaly-patterns" rel="nofollow" target="_blank">Hadley Circulation Changes Depend on Surface Temperature Anomaly Patterns</a></li>
+
+
 </ul> 
 
 <h4> 2019</h4>
@@ -25,6 +29,9 @@ href="https://climatemodeling.science.energy.gov/research-highlights/latest-eart
 <li>Caldwell, P. M., M. D. Zelinka, and S. A. Klein, 2019: <a
 href="https://climatemodeling.science.energy.gov/research-highlights/evaluation-proposed-emergent-constraints-climate-sensitivity" rel="nofollow" target="_blank">Evaluation of Proposed Emergent Constraints on Climate Sensitivity</a></li>
 
+<li>Chen, Y., Y. Hwang, M.D. Zelinka, and C. Zhou, 2019: <a
+href="https://climatemodeling.science.energy.gov/research-highlights/separating-natural-externally-forced-contributions-observed-cloud-cover-trends" rel="nofollow" target="_blank">Separating Natural From Externally-Forced Contributions to Observed Cloud Cover Trends</a></li>
+  
 <li>Hall, A., P. Cox, C. Huntingford, and S. A. Klein, 2019: <a
 href="https://climatemodeling.science.energy.gov/research-highlights/progressing-emergent-constraints-future-climate-change" rel="nofollow" target="_blank">Progressing Emergent Constraints on Future Climate Change</a></li>
 
