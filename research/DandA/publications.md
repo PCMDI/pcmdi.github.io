@@ -30,7 +30,7 @@ title: Detection & Attribution
   
 <li>Po-Chedley, S., M.D. Zelinka, N. Jeevanjee, T.J. Thorsen, and B.D. Santer, 2019: Climatology explains intermodel spread in upper tropospheric cloud and relative humidity response to greenhouse warming. <em>Geophysical Research Letters</em>, 49, 13399-13409. doi: <A href="https://doi.org/10.1029/2019GL084786">10.1029/2019GL084786</a>.</li>
 
-<li>Santer, B.D., J.C. Fyfe, S. Solomon, J.F. Painter, C. Bonfils, G. Pallotta, and M.D. Zelinka, 2019: Quantifying stochastic uncertainty in detection time of human-caused climate signals. <em>Proceedings of the National Academy of Sciences</em>, 116, 19821-19827. doi: <a href="www.pnas.org/cgi/doi/10.1073/pnas.1904586116">10.1073/pnas.1904586116</a>.</li>
+<li>Santer, B.D., J.C. Fyfe, S. Solomon, J.F. Painter, C. Bonfils, G. Pallotta, and M.D. Zelinka, 2019: Quantifying stochastic uncertainty in detection time of human-caused climate signals. <em>Proceedings of the National Academy of Sciences</em>, 116, 19821-19827. doi: <a href="https://doi.org/10.1038/s41558-019-0424-x">10.1073/pnas.1904586116</a>.</li>
 
 <li>Santer, B.D., C. Bonfils, Q. Fu, J.C. Fyfe, G.C. Hegerl, C. Mears, J.F. Painter, S. Po-Chedley, F.J. Wentz, M.D. Zelinka, and C.-Z. Zou, 2019: Celebrating the anniversary of three key events in climate. Nature Climate Change, 9, 180-182. <a href="https://doi.org/10.1038/s41558-019-0424-x">10.1038/s41558-019-0424-x</a>.</li>
 
@@ -66,7 +66,7 @@ title: Detection & Attribution
 
 <ul>
 
-<li>Solomon, S., D. Ivy, M. Gupta, J. Bandoro, B.D. Santer, Q. Fu, P. Lin, R.R. Garcia, D. Kinnison, and M. Mills, 2017: Mirrored changes in Antarctic ozone and stratospheric temperature in late 20th versus early 21st centuries. <em>Journal of Geophysical Research</em>, 122, 8940-8950, doi: <a href="10.1002/2017JD026719">10.1002/2017JD026719</a>.</li>
+<li>Solomon, S., D. Ivy, M. Gupta, J. Bandoro, B.D. Santer, Q. Fu, P. Lin, R.R. Garcia, D. Kinnison, and M. Mills, 2017: Mirrored changes in Antarctic ozone and stratospheric temperature in late 20th versus early 21st centuries. <em>Journal of Geophysical Research</em>, 122, 8940-8950, doi: <a href="https://doi.org/10.1002/2017JD026719">10.1002/2017JD026719</a>.</li>
 
 <li>Santer, B.D., J.C. Fyfe, G. Pallotta, G.M. Flato, G.A. Meehl, M.H. England, E. Hawkins, M.E. Mann, J.F. Painter, C. Bonfils, I. Cvijanovic, C. Mears, F.J. Wentz, S. Po-Chedley, Q. Fu, C.-Z. Zou, 2017c: Causes of differences between model and satellite tropospheric warming rates. <em>Nature Geoscience</em>, 10, 478-485, doi: <a href="https://doi.org/10.1038/ngeo2973">10.1038/ngeo2973</a>.</li> 
 
@@ -167,6 +167,6 @@ title: Detection & Attribution
 
 <li>Pierce, D.W., P.J. Gleckler, T.P. Barnett, B.D. Santer, and P. Durack, 2012: The fingerprint of human-induced changes in the ocean’s salinity and temperature fields. <em>Geophysical Research Letters</em>, 39, L21704, doi: <a href="https://doi.org/10.1029/2012GL053389">10.1029/2012GL053389</a>.</li>
 
-<li>Gleckler, P.J., B.D. Santer, C.M. Domingues, D.W. Pierce, T.P. Barnett, J.A. Church, K.E. Taylor, K.M. AchutaRao, T.P. Boyer, M. Ishii, and P.M. Caldwell, 2012: Robust evidence of human-induced global ocean warming on multi-decadal time scales. <em>Nature Climate Change</em>, 2, 524-529, doi: <a href="10.1038/nclimate1553">https://doi.org/10.1038/nclimate1553</a>.</li>
+<li>Gleckler, P.J., B.D. Santer, C.M. Domingues, D.W. Pierce, T.P. Barnett, J.A. Church, K.E. Taylor, K.M. AchutaRao, T.P. Boyer, M. Ishii, and P.M. Caldwell, 2012: Robust evidence of human-induced global ocean warming on multi-decadal time scales. <em>Nature Climate Change</em>, 2, 524-529, doi: <a href="https://doi.org/10.1038/nclimate1553">https://doi.org/10.1038/nclimate1553</a>.</li>
 
 </ul>
