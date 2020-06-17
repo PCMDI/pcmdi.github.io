@@ -30,7 +30,7 @@ title: Detection & Attribution
   
 <li>Po-Chedley, S., M.D. Zelinka, N. Jeevanjee, T.J. Thorsen, and B.D. Santer, 2019: Climatology explains intermodel spread in upper tropospheric cloud and relative humidity response to greenhouse warming. <em>Geophysical Research Letters</em>, 49, 13399-13409. doi: <A href="https://doi.org/10.1029/2019GL084786">10.1029/2019GL084786</a>.</li>
 
-<li>Santer, B.D., J.C. Fyfe, S. Solomon, J.F. Painter, C. Bonfils, G. Pallotta, and M.D. Zelinka, 2019: Quantifying stochastic uncertainty in detection time of human-caused climate signals. <em>Proceedings of the National Academy of Sciences</em>, 116, 19821-19827. doi: <a href="https://doi.org/10.1038/s41558-019-0424-x">10.1073/pnas.1904586116</a>.</li>
+<li>Santer, B.D., J.C. Fyfe, S. Solomon, J.F. Painter, C. Bonfils, G. Pallotta, and M.D. Zelinka, 2019: Quantifying stochastic uncertainty in detection time of human-caused climate signals. <em>Proceedings of the National Academy of Sciences</em>, 116, 19821-19827. doi: <a href="https://doi.org/10.1073/pnas.1904586116">10.1073/pnas.1904586116</a>.</li>
 
 <li>Santer, B.D., C. Bonfils, Q. Fu, J.C. Fyfe, G.C. Hegerl, C. Mears, J.F. Painter, S. Po-Chedley, F.J. Wentz, M.D. Zelinka, and C.-Z. Zou, 2019: Celebrating the anniversary of three key events in climate. Nature Climate Change, 9, 180-182. <a href="https://doi.org/10.1038/s41558-019-0424-x">10.1038/s41558-019-0424-x</a>.</li>
 
