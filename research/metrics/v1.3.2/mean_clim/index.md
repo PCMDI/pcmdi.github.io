@@ -22,7 +22,7 @@ The mean state results from the PCMDI Metrics Package (PMP) are used to produce 
   - [**CMIP6 AMIP simulations**][portrait_cmip6_amip]
 
 - ### (NEW) Additional Interactive Portrait Plots (Click links below):
-  - [**CMIP6 Historical**]
+  - **CMIP6 Historical**
     - Global: [rms_xyt][portrait_cmip6_hist_global_rms_xyt], [rms_xy][portrait_cmip6_hist_global_rms_xy]
     - Northern Hemisphere Extratropics (NHEX): [rms_xy][portrait_cmip6_hist_nhex_rms_xy]
     - Southern Hemisphere Extratropics (SHEX): [rms_xy][portrait_cmip6_hist_shex_rms_xy]
