@@ -78,7 +78,7 @@ Questions or comments about the PCMDI Simulation Summaries should be sent to the
 [v1.0.0-beta]: {{site.baseurl}}/research/metrics/v1.0.0-beta
 [v1.0.0-alpha]: {{site.baseurl}}/research/metrics/v1.0.0-alpha
 
-[description_mean_clim]: {{site.baseurl}}/research/metrics/v1.3.1/mean_clim/index_v1.3.1.html
+[description_mean_clim]: {{site.baseurl}}/research/metrics/v1.3.1/mean_clim/
 [description_variability]: {{site.baseurl}}/research/metrics/v1.3.1/variability_modes/
 [description_monsoon]: {{site.baseurl}}/research/metrics/v1.3.1/monsoon/
 [description_mjo]: {{site.baseurl}}/research/metrics/v1.3.1/mjo/
