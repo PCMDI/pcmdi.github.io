@@ -36,13 +36,12 @@ The mean state results from the PCMDI Metrics Package (PMP) are used to produce 
 
 - ### [**Go to PCMDI’s IPCP results for CMIP5 and CMIP6 historical simulations**][parallel_cmip5_6]
 
+<br/>
 
 ## Reference Observational Datasets
 <br/>
 
 - ### [Summary of the observationally-based reference data used in the above plots][obs_info]
-
-
 
 <br/>
 
