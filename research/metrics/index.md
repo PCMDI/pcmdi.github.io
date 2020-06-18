@@ -5,7 +5,7 @@ title: PCMDI - Metrics
 ###### Research > [Metrics][Metrics]
 ---
 
-# Climate Model Metrics
+# CMIP mean state and variability
 ---
 # <a name="top"></a>_PCMDI Simulation Summaries (v1.3.2)_
 
