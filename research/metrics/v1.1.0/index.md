@@ -70,19 +70,14 @@ Questions or comments about the PCMDI Simulation Summaries should be sent to the
 
 [latest]: {{site.baseurl}}/research/metrics/index.html
 
-[v1.3.1]: {{site.baseurl}}/research/metrics/v1.3.1
-[v1.3.0]: {{site.baseurl}}/research/metrics/v1.3.0
-[v1.2.0]: {{site.baseurl}}/research/metrics/v1.2.0
 [v1.1.0]: {{site.baseurl}}/research/metrics/v1.1.0
 [v1.0.0]: {{site.baseurl}}/research/metrics/v1.0.0
 [v1.0.0-beta]: {{site.baseurl}}/research/metrics/v1.0.0-beta
 [v1.0.0-alpha]: {{site.baseurl}}/research/metrics/v1.0.0-alpha
 
-[description_mean_clim]: {{site.baseurl}}/research/metrics/mean_clim/plot_description_mean_clim.html
-[description_variability]: {{site.baseurl}}/research/metrics/variability_modes/plot_description_variability.html
-[description_monsoon]: {{site.baseurl}}/research/metrics/monsoon/plot_description_monsoon.html
-[description_mjo]: {{site.baseurl}}/research/metrics/mjo/plot_description_mjo.html
-[description_enso]: {{site.baseurl}}/research/metrics/enso/plot_description_enso.html
+[description_variability]: {{site.baseurl}}/research/metrics/v1.1.0/variability_modes/plot_description_variability.html
+[description_monsoon]: {{site.baseurl}}/research/metrics/v1.1.0/monsoon/plot_description_monsoon.html
+[description_mjo]: {{site.baseurl}}/research/metrics/mjo/v1.1.0/plot_description_mjo.html
 
 
 [lee2019]: https://link.springer.com/article/10.1007/s00382-018-4355-4
