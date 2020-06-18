@@ -1,14 +1,14 @@
 # How to update
 
-## 1. Copy the latest version directory to a new version directory
+### 1. Copy the latest version directory to a new version directory
 For example, let's say old: v1.3.1 and new: v1.3.2
 ```cp -r ./v1.3.1 ./v1.3.2```
 
-## 2. Make update under the new directory
+### 2. Make update under the new directory
 Make change under `./v1.3.2`
 
-## 3. Update symlink
+### 3. Update symlink
 ```ln -sf v1.3.2 latest```
 
-## 4. Update (overwrite) `index.md`
+### 4. Update (overwrite) `index.md`
 ```cp ./v1.3.2/index.md .```
