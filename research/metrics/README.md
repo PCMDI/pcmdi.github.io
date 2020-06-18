@@ -1,3 +1,10 @@
+# Contents
+
+- `v?.?.?`: Directories with version (major/minor/trivial update)
+- symlinks 
+  - `latest`: to latest version directory
+  - `enso`, `mean_clim`, `mjo`, `variability_modes`: to directory under latest directory
+
 # How to update
 
 ### 1. Copy the latest version directory to a new version directory
