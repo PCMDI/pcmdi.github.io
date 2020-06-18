@@ -42,7 +42,6 @@ The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a c
 
 ---
 ## Updates
-- [**v1.0.0**][v1.0.0] (20 June 2019): Release of summary statistics for extratropical modes of variability in CMIP5 and CMIP6, and for monsoon precipitation onset, decay, and duration in CMIP5.
 - [**v1.0.0-beta**][v1.0.0-beta] (18 June 2019): Preliminary Release of summary statistics for extratropical modes of variability in CMIP5 and CMIP6, and for monsoon precipitation onset, decay, and duration in CMIP5.
 - [**v1.0.0-alpha**][v1.0.0-alpha] (31 May 2019): Preliminary Release of summary statistics for extratropical modes of variability in CMIP5 and CMIP6.
 
@@ -52,16 +51,11 @@ Questions or comments about the PCMDI Simulation Summaries should be sent to the
 
 [latest]: {{site.baseurl}}/research/metrics/index.html
 
-[v1.3.1]: {{site.baseurl}}/research/metrics/v1.3.1
-[v1.3.0]: {{site.baseurl}}/research/metrics/v1.3.0
-[v1.2.0]: {{site.baseurl}}/research/metrics/v1.2.0
-[v1.1.0]: {{site.baseurl}}/research/metrics/v1.1.0
-[v1.0.0]: {{site.baseurl}}/research/metrics/v1.0.0
 [v1.0.0-beta]: {{site.baseurl}}/research/metrics/v1.0.0-beta
 [v1.0.0-alpha]: {{site.baseurl}}/research/metrics/v1.0.0-alpha
 
-[description_variability]: {{site.baseurl}}/research/metrics/v1.0.0-beta/variability_modes/plot_description_variability.html
-[description_monsoon]: {{site.baseurl}}/research/metrics/monsoon/v1.0.0-beta/plot_description_monsoon.html
+[description_variability]: {{site.baseurl}}/research/metrics/v1.0.0-beta/variability_modes/
+[description_monsoon]: {{site.baseurl}}/research/metrics/monsoon/v1.0.0-beta/monsoon/
 
 
 [lee2019]: https://link.springer.com/article/10.1007/s00382-018-4355-4
