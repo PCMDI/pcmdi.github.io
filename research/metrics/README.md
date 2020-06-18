@@ -4,6 +4,7 @@
 - symlinks 
   - `latest`: to latest version directory
   - `enso`, `mean_clim`, `mjo`, `variability_modes`: to directory under latest directory
+- `index.md`: copy of `index.md` in the `latest` directory
 
 # How to update
 
@@ -18,4 +19,4 @@ Make change under `./v1.3.2`
 ```ln -sf v1.3.2 latest```
 
 ### 4. Update (overwrite) `index.md`
-```cp ./v1.3.2/index.md .```
+```cp ./latest/index.md .```
