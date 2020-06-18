@@ -75,9 +75,9 @@ Questions or comments about the PCMDI Simulation Summaries should be sent to the
 [v1.0.0-beta]: {{site.baseurl}}/research/metrics/v1.0.0-beta
 [v1.0.0-alpha]: {{site.baseurl}}/research/metrics/v1.0.0-alpha
 
-[description_variability]: {{site.baseurl}}/research/metrics/v1.1.0/variability_modes/plot_description_variability.html
-[description_monsoon]: {{site.baseurl}}/research/metrics/v1.1.0/monsoon/plot_description_monsoon.html
-[description_mjo]: {{site.baseurl}}/research/metrics/mjo/v1.1.0/plot_description_mjo.html
+[description_variability]: {{site.baseurl}}/research/metrics/v1.1.0/variability_modes/
+[description_monsoon]: {{site.baseurl}}/research/metrics/v1.1.0/monsoon/
+[description_mjo]: {{site.baseurl}}/research/metrics/mjo/v1.1.0/mjo
 
 
 [lee2019]: https://link.springer.com/article/10.1007/s00382-018-4355-4
