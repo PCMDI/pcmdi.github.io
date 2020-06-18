@@ -77,7 +77,7 @@ Questions or comments about the PCMDI Simulation Summaries should be sent to the
 
 [description_variability]: {{site.baseurl}}/research/metrics/v1.1.0/variability_modes/
 [description_monsoon]: {{site.baseurl}}/research/metrics/v1.1.0/monsoon/
-[description_mjo]: {{site.baseurl}}/research/metrics/mjo/v1.1.0/mjo
+[description_mjo]: {{site.baseurl}}/research/metrics/mjo/v1.1.0/mjo/
 
 
 [lee2019]: https://link.springer.com/article/10.1007/s00382-018-4355-4
