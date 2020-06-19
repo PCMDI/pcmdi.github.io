@@ -41,4 +41,4 @@ Name | Position | E-mail | Phone Number
 [santer]: {{site.baseurl}}/staff/santer/index.html
 [sperber]: {{site.baseurl}}/staff/sperber/index.html
 [jefferson]: {{site.baseurl}}/staff/jefferson/index.html
-[xie]: {{site.baseurl}}/staff/Xie/index.html
+[xie]: {{site.baseurl}}/staff/xie/index.html
