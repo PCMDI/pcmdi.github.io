@@ -1,14 +1,13 @@
 ---
 layout: default
-title: Physical mean climate and variability
+title: PCMDI - Metrics
 ---
-
 ###### Research > [Metrics][Metrics]
 ---
 
-# CMIP mean state and variability
+# Climate Model Metrics
 ---
-# <a name="top"></a>_PCMDI Simulation Summaries (v1.3.2)_
+# <a name="top"></a>_PCMDI Simulation Summaries (v1.3.1)_[[Go to latest][latest]]
 
 <br/>
 The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a capability that can be used to produce a diverse suite of objective summaries of Earth System Model (ESM) agreement with observations. At PCMDI, we are routinely applying the PMP to multiple generations of CMIP, including the most recent results from CMIP6 as they become available. The summaries available below will be regularly updated with new and an expanding set of results.
@@ -43,7 +42,7 @@ The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a c
 ---
 ## <a name="enso"></a>El Niño-Southern Oscillation ([results][description_enso])
 
-- El Niño-Southern Oscillation (ENSO) is the dominant mode of interannual variability in the tropical Pacific and has far reaching impacts on global climate. It is there therefore key to ensure its correct simulation in state-of-the-art climate models. Community-wide synthesis of metrics to evaluate the performance, teleconnections and processes of ENSO in coupled GCMs is proposed by the ENSO working group of the CLIVAR Pacific panel. The corresponding objective comparisons of simulations against observations shown here result from a collaboration between scientists at IPSL and PCMDI. This effort  strives to improve and expand upon the ENSO model performance tests proposed by [Bellenger et al. (2014)][Bellenger2014] for CMIP5. It will result in a “ENSO in CMIP6” publication in 2019 (Planton et al. 2020, BAMS, under review).
+- El Niño-Southern Oscillation (ENSO) is the dominant mode of interannual variability in the tropical Pacific and has far reaching impacts on global climate. It is there therefore key to ensure its correct simulation in state-of-the-art climate models. Community-wide synthesis of metrics to evaluate the performance, teleconnections and processes of ENSO in coupled GCMs is proposed by the ENSO working group of the CLIVAR Pacific panel. The corresponding objective comparisons of simulations against observations shown here result from a collaboration between scientists at IPSL and PCMDI. This effort  strives to improve and expand upon the ENSO model performance tests proposed by [Bellenger et al. (2014)][Bellenger2014] for CMIP5. It will result in a “ENSO in CMIP6” publication in 2019 (Planton et al. 2019, in preparation).
 
 <p align="right"><a href="#top">Back to List</a></p>
 
@@ -55,8 +54,7 @@ The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a c
 
 ---
 ## <a name="updates"></a>Update History
-- **v1.3.2** (19 June 2020): Mean climate summaries updated with recent CMIP6 results with OBS info updated using PCMDIobs2
-- [**v1.3.1**][v1.3.1] (7 October 2019): Mean climate summaries updated with recent CMIP6 results 
+- **v1.3.1** (7 October 2019): Mean climate summaries updated with recent CMIP6 results 
 - [**v1.3.0**][v1.3.0] (6 September 2019): ENSO metrics added
 - [**v1.2.0**][v1.2.0] (29 August 2019): Mean climate metrics added
 - [**v1.1.0**][v1.1.0] (18 July 2019): MJO metrics added
@@ -80,11 +78,11 @@ Questions or comments about the PCMDI Simulation Summaries should be sent to the
 [v1.0.0-beta]: {{site.baseurl}}/research/metrics/v1.0.0-beta
 [v1.0.0-alpha]: {{site.baseurl}}/research/metrics/v1.0.0-alpha
 
-[description_mean_clim]: {{site.baseurl}}/research/metrics/mean_clim/
-[description_variability]: {{site.baseurl}}/research/metrics/variability_modes/
-[description_monsoon]: {{site.baseurl}}/research/metrics/monsoon/
-[description_mjo]: {{site.baseurl}}/research/metrics/mjo/
-[description_enso]: {{site.baseurl}}/research/metrics/enso/
+[description_mean_clim]: {{site.baseurl}}/research/metrics/v1.3.1/mean_clim/
+[description_variability]: {{site.baseurl}}/research/metrics/v1.3.1/variability_modes/
+[description_monsoon]: {{site.baseurl}}/research/metrics/v1.3.1/monsoon/
+[description_mjo]: {{site.baseurl}}/research/metrics/v1.3.1/mjo/
+[description_enso]: {{site.baseurl}}/research/metrics/v1.3.1/enso/
 
 [lee2019]: https://link.springer.com/article/10.1007/s00382-018-4355-4
 [sperber2004]: https://doi.org/10.1007/s00382-014-2099-3
