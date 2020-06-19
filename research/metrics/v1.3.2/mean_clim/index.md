@@ -42,7 +42,7 @@ Mean state results from the PCMDI Metrics Package (PMP) are used to produce "qui
 ## Reference Observational Datasets
 <br/>
 
-- ### [Summary of the observationally-based reference data used in the above plots][obs_info]
+- ### [Summary of the "default" observationally-based reference data used in the above plots][obs_info]
 
 <br/>
 
@@ -74,5 +74,4 @@ Mean state results from the PCMDI Metrics Package (PMP) are used to produce "qui
 
 [Metrics]:{{site.baseurl}}/research/metrics/index.html
 
-[obs_info]: {{site.baseurl}}/research/metrics/mean_clim/pcmdiobs2_clims_byVar_catalogue_v20200421.json
-
+[obs_info]: https://github.com/PCMDI/PCMDIobs-cmor-tables/blob/master/catalogue/pcmdiobs2_clims_byVar_catalogue_v20200615.json
