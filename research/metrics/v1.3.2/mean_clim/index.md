@@ -15,13 +15,13 @@ Mean state results from the PCMDI Metrics Package (PMP) are used to produce "qui
 <br/>
 - Interactive Portrait Plots (IPP) show results that are normalized by the median RMS error across all models (rows), as described in Gleckler et al. (2008).  This normalization enables a common color scale to be used for all statistics and highlights the relative strengths and weakness of different models.  With this normalization an error of -0.5 indicates a model’s error is 50% smaller than the typical (median) error across all models, whereas an error of 0.5 is an error 50% larger than the typical error in the multi-model ensemble.   **This diagram can be used to navigate to additional results.  Hovering your mouse over a square or triangle will reveal the diagnostic plot from which the metrics were generated.  Additionally, hovering over the variables on the x-axis displays a [Taylor diagram](https://en.wikipedia.org/wiki/Taylor_diagram)**.   After hovering on either type of plot, the user can click a second time to get a full sized image.   
 
-- ### PCMDI’s Interactive Portrait Plots (Click links below):
+- ### PCMDI’s Interactive Portrait Plots
   - [**CMIP5 historical simulations**][portrait_cmip5_hist] (updated 6 May 2020)
   - [**CMIP6 historical simulations**][portrait_cmip6_hist] (updated 18 June 2020)
   - [**CMIP5 AMIP simulations**][portrait_cmip5_amip] (updated 6 May 2020)
   - [**CMIP6 AMIP simulations**][portrait_cmip6_amip] (updated 6 May 2020)
 
-- ### (NEW) Additional Interactive Portrait Plots (Click links below):
+- ### (NEW) Additional Interactive Portrait Plots
   - **CMIP6 Historical**
     - Global space-time (Gleckler et al., 2008): [rms_xyt][portrait_cmip6_hist_global_rms_xyt]
     - Global annual mean: [rms_xy][portrait_cmip6_hist_global_rms_xy]
