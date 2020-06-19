@@ -74,4 +74,4 @@ Mean state results from the PCMDI Metrics Package (PMP) are used to produce "qui
 
 [Metrics]:{{site.baseurl}}/research/metrics/index.html
 
-[obs_info]: https://github.com/PCMDI/PCMDIobs-cmor-tables/blob/master/catalogue/pcmdiobs2_clims_byVar_catalogue_v20200615.json
+[obs_info]: https://raw.githubusercontent.com/PCMDI/PCMDIobs-cmor-tables/master/catalogue/pcmdiobs2_clims_byVar_catalogue_v20200615.json
