@@ -15,7 +15,7 @@ The corresponding objective comparisons of simulations against observations show
 <br/>
 <br/>
 
-A paper documenting the package and its application to the CMIP6 simulations is planned for the near future (Planton et al. 20202, BAMS, under review).
+A paper documenting the package and its application to the CMIP6 simulations is planned for the near future (Planton et al. 2020, BAMS, under review).
 <br/>
 <br/>
 <br/>
