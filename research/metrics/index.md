@@ -54,7 +54,8 @@ The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a c
 
 ---
 ## <a name="updates"></a>Update History
-- **v1.3.2** (19 June 2020): Mean climate summaries updated with recent CMIP6 results with OBS info updated using PCMDIobs2
+- **v1.4.0** (XX July 2020): ENSO Metrics updated with Interactive Portrait Plot with recent CMIP6 results
+- [**v1.3.2**][v1.3.2] (19 June 2020): Mean climate summaries updated with recent CMIP6 results with OBS info updated using PCMDIobs2
 - [**v1.3.1**][v1.3.1] (7 October 2019): Mean climate summaries updated with recent CMIP6 results 
 - [**v1.3.0**][v1.3.0] (6 September 2019): ENSO metrics added
 - [**v1.2.0**][v1.2.0] (29 August 2019): Mean climate metrics added
@@ -69,8 +70,9 @@ The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a c
 
 Questions or comments about the PCMDI Simulation Summaries should be sent to the [PMP team](mailto:pcmdi-metrics@llnl.gov).
 
-[latest]: {{site.baseurl}}/research/metrics/index.html
+[latest]: {{site.baseurl}}/research/metrics/
 
+[v1.3.2]: {{site.baseurl}}/research/metrics/v1.3.2
 [v1.3.1]: {{site.baseurl}}/research/metrics/v1.3.1
 [v1.3.0]: {{site.baseurl}}/research/metrics/v1.3.0
 [v1.2.0]: {{site.baseurl}}/research/metrics/v1.2.0
@@ -92,4 +94,4 @@ Questions or comments about the PCMDI Simulation Summaries should be sent to the
 [gleckler2008]: https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2007JD008972
 [taylor2001]: https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2000JD900719
 
-[Metrics]:{{site.baseurl}}/research/metrics/index.html
+[Metrics]:{{site.baseurl}}/research/metrics/
