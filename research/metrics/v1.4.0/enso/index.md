@@ -69,7 +69,7 @@ The ENSO processes metric collection is composed of 8 metrics designed to evalua
   > Planton Y., E. Guilyardi, A. Wittenberg, J. Lee, P. Gleckler, S. Power, S. McGregor, T. Bayr (2019). ENSO in CMIP6. In preparation
 
 
-[githubrepo]: https://github.com/eguil/ENSO_metrics/wiki
+[githubrepo]: https://github.com/CLIVAR-PRP/CLIVAR2020-ENSO-metrics/wiki
 [clivar_pacific]: http://www.clivar.org/clivar-panels/pacific
 [pcmdi]: https://pcmdi.llnl.gov/
 [ipsl]: https://www.ipsl.fr/en/
