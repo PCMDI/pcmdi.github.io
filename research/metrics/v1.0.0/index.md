@@ -51,10 +51,10 @@ The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a c
 
 Questions or comments about the PCMDI Simulation Summaries should be sent to the [PMP team](mailto:pcmdi-metrics@llnl.gov).
 
-[latest]: {{site.baseurl}}/research/metrics/index.html
-[v1.0.0]: {{site.baseurl}}/research/metrics/index_v1.0.0.html
-[v1.0.0-beta]: {{site.baseurl}}/research/metrics/index_v1.0.0-beta.html
-[v1.0.0-alpha]: {{site.baseurl}}/research/metrics/index_v1.0.0-alpha.html
+[latest]: {{site.baseurl}}/research/metrics/
+[v1.0.0]: {{site.baseurl}}/research/metrics/v1.0.0/
+[v1.0.0-beta]: {{site.baseurl}}/research/metrics/v1.0.0-beta/
+[v1.0.0-alpha]: {{site.baseurl}}/research/metrics/v1.0.0-alpha/
 
 [description_variability]: {{site.baseurl}}/research/metrics/v1.0.0/variability_modes/
 [description_monsoon]: {{site.baseurl}}/research/metrics/v1.0.0/monsoon/

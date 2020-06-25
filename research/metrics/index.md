@@ -70,7 +70,7 @@ The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a c
 
 Questions or comments about the PCMDI Simulation Summaries should be sent to the [PMP team](mailto:pcmdi-metrics@llnl.gov).
 
-[latest]: {{site.baseurl}}/research/metrics/index.html
+[latest]: {{site.baseurl}}/research/metrics/
 
 [v1.3.1]: {{site.baseurl}}/research/metrics/v1.3.1
 [v1.3.0]: {{site.baseurl}}/research/metrics/v1.3.0
@@ -93,4 +93,4 @@ Questions or comments about the PCMDI Simulation Summaries should be sent to the
 [gleckler2008]: https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2007JD008972
 [taylor2001]: https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2000JD900719
 
-[Metrics]:{{site.baseurl}}/research/metrics/index.html
+[Metrics]:{{site.baseurl}}/research/metrics/

@@ -16,6 +16,7 @@ For example, let's say old: v1.3.1 and new: v1.3.2
 Make change under `./v1.3.2`
 
 ### 3. Update symlink
+```rm latest```
 ```ln -sf v1.3.2 latest```
 
 ### 4. Update (overwrite) `index.md`
