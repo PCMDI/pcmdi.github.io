@@ -15,7 +15,7 @@ The corresponding objective comparisons of simulations against observations show
 <br/>
 <br/>
 
-A paper documenting the package and its application to the CMIP6 simulations is planned for the near future (Planton et al. 2020, BAMS, under review).
+This effort is described in detail in the following manuscript:  Planton, Y., E. Guilyardi, A. T. Wittenberg, J. Lee, P. J. Gleckler, T. Bayr, S. McGregor, M. J. McPhaden, S. Power, R. Roehrig, J. Vialard, A Voldoire, 2020: **Evaluating climate models with the CLIVAR 2020 ENSO metrics package**, _Bulletin of the American Meteorological Society_, in review.
 <br/>
 <br/>
 <br/>
@@ -63,10 +63,10 @@ The ENSO processes metric collection is composed of 8 metrics designed to evalua
 <!--
   > Bayr, T., C. Wengel, M. Latif, D. Dommenget, J. Lübbecke, W. Park (2019). Error compensation of ENSO atmospheric feedbacks in climate models and its influence on simulated ENSO dynamics. Clim. Dyn., 53 [doi: 10.1007/s00382-018-4575-7][Bayr2019]
 -->
-
+  > Planton, Y., E. Guilyardi, A. T. Wittenberg, J. Lee, P. J. Gleckler, T. Bayr, S. McGregor, M. J. McPhaden, S. Power, R. Roehrig, J. Vialard, A Voldoire, 2020: **Evaluating climate models with the CLIVAR 2020 ENSO metrics package**, _Bulletin of the American Meteorological Society_, in review.
+  
   > Bellenger, H., Guilyardi, E., Leloup, J. et al. Clim Dyn (2014) 42: 1999. [doi: 10.1007/s00382-013-1783-z][Bellenger2014]
 
-  > Planton Y., E. Guilyardi, A. Wittenberg, J. Lee, P. Gleckler, S. Power, S. McGregor, T. Bayr (2019). ENSO in CMIP6. In preparation
 
 
 [githubrepo]: https://github.com/CLIVAR-PRP/CLIVAR2020-ENSO-metrics/wiki
