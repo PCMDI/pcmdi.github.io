@@ -49,20 +49,13 @@ The ENSO processes metric collection is composed of 8 metrics designed to evalua
 - Mean ENSO ocean-driven SST change
 - Feedbacks (SSH-SST, SST-heat fluxes, SST-Taux, Taux-SSH)
 
-<!--These metrics are based on [Bayr et al. (2019)][Bayr2019].-->
 <br/>
 <br/>
-
-**NOTE**: These results are preliminary and the metrics used will change. The number of metrics must be reduced so we are currently investigating the link between metrics to retain only the most scientifically relevant and statistically independent metrics. The definition of ENSO events is also evolving.
 
 ---
 
 ## Reference
 <br/>
-
-<!--
-  > Bayr, T., C. Wengel, M. Latif, D. Dommenget, J. Lübbecke, W. Park (2019). Error compensation of ENSO atmospheric feedbacks in climate models and its influence on simulated ENSO dynamics. Clim. Dyn., 53 [doi: 10.1007/s00382-018-4575-7][Bayr2019]
--->
   > Planton, Y., E. Guilyardi, A. T. Wittenberg, J. Lee, P. J. Gleckler, T. Bayr, S. McGregor, M. J. McPhaden, S. Power, R. Roehrig, J. Vialard, A Voldoire, 2020: **Evaluating climate models with the CLIVAR 2020 ENSO metrics package**, _Bulletin of the American Meteorological Society_, in review.
   
   > Bellenger, H., Guilyardi, E., Leloup, J. et al. Clim Dyn (2014) 42: 1999. [doi: 10.1007/s00382-013-1783-z][Bellenger2014]
