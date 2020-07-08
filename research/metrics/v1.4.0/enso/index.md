@@ -21,7 +21,7 @@ This effort is described in detail in the following manuscript:  Planton, Y., E.
 <br/>
 
 ## Summary statistics in Interactive Portrait Plots
-- #### [CMIP5 & 6 Historical][ipp_enso] (updated 23 June 2020)
+- #### [CMIP5 & 6 Historical][ipp_enso] (updated 1 July 2020)
 
 <br/>
 
@@ -71,6 +71,6 @@ The ENSO processes metric collection is composed of 8 metrics designed to evalua
 [Bayr2019]: https://doi.org/10.1007/s00382-018-4575-7
 [Bellenger2014]: https://doi.org/10.1007/s00382-013-1783-z
 
-[ipp_enso]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/portrait_plot/enso_metric/enso_metrics_interactive_portrait_plots_v20200623.html
+[ipp_enso]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/portrait_plot/enso_metric/enso_metrics_interactive_portrait_plots_v20200701.html
 
 [Metrics]:{{site.baseurl}}/research/metrics/index.html
