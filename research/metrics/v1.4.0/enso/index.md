@@ -28,26 +28,20 @@ This effort is described in detail in the following manuscript:  Planton, Y., E.
 ## General Results
 <br/>
 
-The ENSO performance metric collection is composed of 28 metrics designed to evaluate the models on three aspects:
-- Mean biases (double ITCZ, too cold cold tongue,...)
-- Mean ENSO statistics (amplitude, skewness and seasonality)
-- Mean ENSO events (anomalies during boreal winter, life-cycle, duration, etc.)
-<br/>
-<br/>
+The ENSO performance metric collection is composed of 15 metrics designed to evaluate the models on three aspects:
+- Background climatology: double ITCZ, equator too dry, too cold cold tongue, shifted trade winds (mean biases and seasonal cycles)
+- Basic ENSO characteristics: amplitude, skewness, seasonality, SSTA pattern, lifecycle, duration, diversity
 
+The ENSO teleconnection metric collection is composed of 7 metrics designed to evaluate the models on four aspects:
+- Basic ENSO characteristics: amplitude, seasonality, SSTA pattern
+- ENSO-related anomalies outside the equatorial Pacific during events: precipitation and surface temperature (boreal winter and summer)
 
-The ENSO teleconnection metric collection is composed of 19 metrics designed to evaluate the models on four aspects:
-- Mean ENSO SSTA along the equator during events
-- Mean precipitation anomalies outside the equatorial Pacific during events
-- Mean sea level pressure anomalies outside the equatorial Pacific during events
-- Mean surface temperature anomalies outside the equatorial Pacific during events
-<br/>
-<br/>
-
-The ENSO processes metric collection is composed of 8 metrics designed to evaluate the models on three aspects:
-- Mean ENSO amplitude
-- Mean ENSO ocean-driven SST change
+The ENSO processes metric collection is composed of 11 metrics designed to evaluate the models on three aspects:
+- Background climatology: too cold cold tongue, shifted trade winds (mean biases)
+- Basic ENSO characteristics: amplitude, skewness, seasonality, SSTA pattern
 - Feedbacks (SSH-SST, SST-heat fluxes, SST-Taux, Taux-SSH)
+- Ocean-driven SST change
+
 
 <br/>
 <br/>
@@ -63,7 +57,7 @@ The ENSO processes metric collection is composed of 8 metrics designed to evalua
 
 
 
-[githubrepo]: https://github.com/CLIVAR-PRP/CLIVAR2020-ENSO-metrics/wiki
+[githubrepo]: https://github.com/CLIVAR-PRP/enso_metrics
 [clivar_pacific]: http://www.clivar.org/clivar-panels/pacific
 [pcmdi]: https://pcmdi.llnl.gov/
 [ipsl]: https://www.ipsl.fr/en/
