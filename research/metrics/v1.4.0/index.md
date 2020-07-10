@@ -10,7 +10,7 @@ title: PCMDI - Metrics
 # <a name="top"></a>_PCMDI Simulation Summaries (v1.4.0)_
 
 <br/>
-The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a capability that can be used to produce a diverse suite of objective summaries of Earth System Model (ESM) agreement with observations. At PCMDI, we are routinely applying the PMP to multiple generations of CMIP, including the most recent results from CMIP6 as they become available. The summaries available below will be regularly updated with new and an expanding set of results.
+The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a capability that can be used to produce a diverse suite of objective summaries of Earth System Model (ESM) agreement with observations. At PCMDI, we are routinely applying the PMP to multiple generations of CMIP, including the most recent results from CMIP6 as they become available. The summaries available below will be regularly updated with new and an expanding set of results. The contents is also accessible from the [Coordinated Model Evaluation Capabilities (CMEC) website][cmec].
 
 - [**Mean Climate**](#mean_clim)
 - [**El Niño–Southern Oscillation (ENSO)**](#enso)
@@ -116,4 +116,4 @@ The efforts of the authors are supported by the [Regional and Global Climate Mod
 [clivar_pacific]: http://www.clivar.org/clivar-panels/pacific
 [pcmdi]: https://pcmdi.llnl.gov/
 [ipsl]: https://www.ipsl.fr/en/
-
+[cmec]: https://cmec.llnl.gov/results/physical.html
