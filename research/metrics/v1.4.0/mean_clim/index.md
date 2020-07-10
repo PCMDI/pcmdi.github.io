@@ -21,7 +21,7 @@ Mean state results from the PCMDI Metrics Package (PMP) are used to produce "qui
   - [**CMIP5 AMIP simulations**][portrait_cmip5_amip] (updated 6 May 2020)
   - [**CMIP6 AMIP simulations**][portrait_cmip6_amip] (updated 6 May 2020)
 
-- ### (NEW) Additional Interactive Portrait Plots
+- ### (NEW) Additional Interactive Portrait Plots for CMIP6 Models
   - **CMIP6 Historical**
     - Global space-time (Gleckler et al., 2008): [rms_xyt][portrait_cmip6_hist_global_rms_xyt]
     - Global annual mean: [rms_xy][portrait_cmip6_hist_global_rms_xy]
@@ -35,14 +35,14 @@ Mean state results from the PCMDI Metrics Package (PMP) are used to produce "qui
 <br/>
 - An interactive Parallel Coordinate Plot (IPCP) is used to dynamically visualize the mean climate statistics generated with the PMP. In an IPCP, each vertical axis represents a different scalar measure gauging some aspect of model fidelity. The results displayed in the IPCP are absolute error measures, i.e., they are not normalized as in the IPP.  Under the default configuration, results from each model are displayed as symbols. **The user can highlight a given model by selecting a symbol on the plot or from the table below the plot. By selecting the symbols representing two versions of the same model, the version differences can be contrasted against the backdrop of results from the multi-model ensemble (symbols).**  The current release allows the user to display CMIP5 and CMIP6 results as: a) All variables for a given season, or b) All seasons for a given variable.
 
-- ### [**Go to PCMDI’s IPCP results for CMIP5 and CMIP6 historical simulations**][parallel_cmip5_6]
+- [**Go to PCMDI’s IPCP results for CMIP5 and CMIP6 historical simulations**][parallel_cmip5_6]
 
 <br/>
 
 ## Reference Observational Datasets
 <br/>
 
-- ### [Summary of the "default" observationally-based reference data used in the above plots][obs_info]
+- [**Summary of the "default" observationally-based reference data used in the above plots**][obs_info]
 
 <br/>
 
