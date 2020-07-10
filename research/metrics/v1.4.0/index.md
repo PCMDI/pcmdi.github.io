@@ -57,7 +57,7 @@ The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a c
 
 ---
 ## <a name="updates"></a>Update History
-- [**v1.4.0**][v1.4.0] (XX July 2020): ENSO Metrics updated with Interactive Portrait Plot with recent CMIP6 results
+- [**v1.4.0**][v1.4.0] (10 July 2020): ENSO Metrics updated with Interactive Portrait Plot with recent CMIP6 results
 - [**v1.3.2**][v1.3.2] (19 June 2020): Mean climate summaries updated with recent CMIP6 results with OBS info updated using PCMDIobs2
 - [**v1.3.1**][v1.3.1] (7 October 2019): Mean climate summaries updated with recent CMIP6 results 
 - [**v1.3.0**][v1.3.0] (6 September 2019): ENSO metrics added
