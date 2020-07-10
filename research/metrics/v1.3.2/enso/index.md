@@ -5,7 +5,7 @@ title: PCMDI - Metrics
 ###### Research > [Metrics][Metrics] > El Niño-Southern Oscillation (ENSO)
 ---
 
-# El Niño-Southern Oscillation (ENSO)
+# El Niño-Southern Oscillation (ENSO) [[Go to latest][latest]]
 <br/>
 The El Niño-Southern Oscillation (ENSO) is the dominant mode of interannual variability in the tropical Pacific and has far-reaching impacts on climate around the world. It is therefore key to ensure the correct simulation of ENSO in state-of-the-art climate models. A community-wide synthesis of metrics to evaluate the performance, teleconnections and processes of ENSO in coupled GCMs is now underway, led by the ENSO Metrics Working Group of the [International CLIVAR Pacific Panel][clivar_pacific]. 
 <br/>
@@ -81,4 +81,5 @@ The ENSO processes metric collection is composed of 8 metrics designed to evalua
 [CMIP5_6_enso_perf]: {{site.baseurl}}/research/metrics/enso/cmip5_6_enso_perf.html
 [CMIP5_6_enso_tel]: {{site.baseurl}}/research/metrics/enso/cmip5_6_enso_tel.html
 
-[Metrics]:{{site.baseurl}}/research/metrics/index.html
+[Metrics]:{{site.baseurl}}/research/metrics/
+[latest]: {{site.baseurl}}/research/metrics/enso/
