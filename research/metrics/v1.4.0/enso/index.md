@@ -21,7 +21,7 @@ This effort is described in detail in the following manuscript:  Planton, Y., E.
 <br/>
 
 ## Summary statistics in Interactive Portrait Plots
-- #### [CMIP5 & 6 Historical][ipp_enso] (updated 10 July 2020)
+- [**CMIP5 & 6 Historical**][ipp_enso] (updated 10 July 2020)
 [<img src="https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/portrait_plot/enso_metric/raw_values/enso_metrics_interactive_portrait_plots_v20200710.png" alt="Interactive Portrait Plot" title="Interactive Portrait Plot" width="200">][ipp_enso]
 
 <br/>

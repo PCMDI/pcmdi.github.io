@@ -21,7 +21,7 @@ Mean state results from the PCMDI Metrics Package (PMP) are used to produce "qui
   - [**CMIP5 AMIP simulations**][portrait_cmip5_amip] (updated 6 May 2020)
   - [**CMIP6 AMIP simulations**][portrait_cmip6_amip] (updated 6 May 2020)
 
-- ### (NEW) Additional Interactive Portrait Plots
+- ### (NEW) Additional Interactive Portrait Plots for CMIP6 Models
   - **CMIP6 Historical**
     - Global space-time (Gleckler et al., 2008): [rms_xyt][portrait_cmip6_hist_global_rms_xyt]
     - Global annual mean: [rms_xy][portrait_cmip6_hist_global_rms_xy]
