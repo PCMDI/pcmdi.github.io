@@ -16,7 +16,7 @@ title: PCMDI - Metrics
 
 ## <a name="rmse"></a>RMSE Portrait Plots
 
-[<img src="https://pcmdi.llnl.gov/pmp-preliminary-results/ipp_test_variability_modes/cmip5_v20190512_rmse/clickable_portrait.png" alt="CMIP5 historical RMSE" width="200">][CMIP5_variability_rmse]
+[<img src="https://pcmdi.llnl.gov/pmp-preliminary-results/ipp_test_variability_modes/cmip5_v20190512_rmse/clickable_portrait.png" alt="Interactive Portrait Plot (CMIP5)" title="Interactive Portrait Plot (CMIP5)" width="200">][CMIP5_variability_rmse]
 
 #### (Click thumbnail image for the interactive version for CMIP5 historical)
 <br/>
@@ -52,7 +52,7 @@ There are several general conclusions that we can draw from the RMSE Portrait Pl
 
 ## <a name="amplitude"></a>Amplitude Portrait Plots
  
-[<img src="https://pcmdi.llnl.gov/pmp-preliminary-results/ipp_test_variability_modes/cmip5_v20190512/clickable_portrait.png" alt="CMIP5 historical Amplitude" width="200">][CMIP5_variability_amplitude]
+[<img src="https://pcmdi.llnl.gov/pmp-preliminary-results/ipp_test_variability_modes/cmip5_v20190512/clickable_portrait.png" alt="Interactive Portrait Plot (CMIP5)" title="Interactive Portrait Plot (CMIP5)" width="200">][CMIP5_variability_amplitude]
 
 #### (Click thumbnail image for the interactive version for CMIP5 historical)
 <br/>
