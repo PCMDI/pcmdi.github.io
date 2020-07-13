@@ -21,7 +21,7 @@ This effort is described in detail in the following manuscript:  Planton, Y., E.
 <br/>
 
 ## Summary statistics in Interactive Portrait Plots
-- [**CMIP5 & 6 Historical**][ipp_enso] (updated 10 July 2020)
+- [**CMIP5 & 6 Historical**][ipp_enso] (updated 10 July 2020. _NOTE: Currently it does_ **NOT** _supported by_ **Microsoft Internet Explorer**_. While we are working on to fix it, please consider using another internet browser such as_ [**Chrome**][chrome] _or_ [**Firefox**][firefox]. _Sorry for the inconvenience._)
 
 [<img src="https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/portrait_plot/enso_metric/raw_values/enso_metrics_interactive_portrait_plots_v20200710.png" alt="Interactive Portrait Plot" title="Interactive Portrait Plot" width="200">][ipp_enso]
 
