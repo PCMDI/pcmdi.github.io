@@ -18,6 +18,7 @@ The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a c
 - [**Extratropical Modes of Variability**](#variability_modes)
 - [**Madden-Julian Oscillation (MJO)**](#mjo)
 - [**Monsoon Precipitation: Fractional Accumulation**](#monsoon)
+- [**Benchmarking Precipitation](#precip)
 - [_Update history_](#updates)
 
 <br/>
@@ -33,7 +34,7 @@ The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a c
 
 ## <a name="enso"></a>El Niño-Southern Oscillation ([results][description_enso])
 
-- El Niño-Southern Oscillation (ENSO) is the dominant mode of interannual variability in the tropical Pacific and has far reaching impacts on global climate. It is there therefore key to ensure its correct simulation in state-of-the-art climate models. Community-wide synthesis of metrics to evaluate the performance, teleconnections and processes of ENSO in coupled GCMs is proposed by the ENSO working group of the [International CLIVAR Pacific panel][clivar_pacific]. The corresponding objective comparisons of simulations against observations shown here result from a collaboration between scientists at [Institut Pierre Simon Laplace (IPSL)][ipsl] and [PCMDI][pcmdi]. This effort strives to improve and expand upon the ENSO model performance tests proposed by [Bellenger et al. (2014)][Bellenger2014] for CMIP5. The metrics are demonstrated through application to the CMIP archive following works of Planton et al. (2020, BAMS, under review).
+- El Niño-Southern Oscillation (ENSO) is the dominant mode of interannual variability in the tropical Pacific and has far reaching impacts on global climate. It is there therefore key to ensure its correct simulation in state-of-the-art climate models. Community-wide synthesis of metrics to evaluate the performance, teleconnections and processes of ENSO in coupled GCMs is proposed by the ENSO working group of the [International CLIVAR Pacific panel][clivar_pacific]. The corresponding objective comparisons of simulations against observations shown here result from a collaboration between scientists at [Institut Pierre Simon Laplace (IPSL)][ipsl] and [PCMDI][pcmdi]. This effort strives to improve and expand upon the ENSO model performance tests proposed by [Bellenger et al. (2014)][Bellenger2014] for CMIP5. The metrics are demonstrated through application to the CMIP archive following works of Planton et al. (2020, BAMS, under review).
 
 <p align="right"><a href="#top">Back to List</a></p>
 
@@ -53,6 +54,12 @@ The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a c
 ---
 ## <a name="monsoon"></a>Monsoon Precipitation: Fractional Accumulation ([results][description_monsoon])
 - Based on the work of [Sperber and Annamalai (2014)][sperber2004], we present skill metrics that indicate how well models simulate the _onset, decay, and duration of monsoon_ based on the analysis of climatological pentads of precipitation. Using Historical simulations, the results are based on area-averaged data for All-India Rainfall (AIR), Sahel, Gulf of Guinea (GoG), North American Monsoon (NAM), South American Monsoon (SAM), and Northern Australia (AUS). 
+
+<p align="right"><a href="#top">Back to List</a></p>
+
+---
+## <a name="precip"></a>Benchmarking Precipitation ([results][description_precip])
+- Based on the work of .... 
 
 <p align="right"><a href="#top">Back to List</a></p>
 
@@ -101,6 +108,7 @@ The efforts of the authors are supported by the [Regional and Global Climate Mod
 [description_monsoon]: monsoon
 [description_mjo]: mjo
 [description_enso]: enso
+[description_precip]: precip
 
 [lee2019]: https://link.springer.com/article/10.1007/s00382-018-4355-4
 [sperber2004]: https://doi.org/10.1007/s00382-014-2099-3
