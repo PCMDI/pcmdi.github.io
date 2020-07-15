@@ -18,7 +18,7 @@ The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a c
 - [**Extratropical Modes of Variability**](#variability_modes)
 - [**Madden-Julian Oscillation (MJO)**](#mjo)
 - [**Monsoon Precipitation: Fractional Accumulation**](#monsoon)
-- [**Benchmarking Precipitation](#precip)
+- [**Benchmarking Precipitation**](#precip)
 - [_Update history_](#updates)
 
 <br/>
