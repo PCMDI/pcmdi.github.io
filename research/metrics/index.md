@@ -59,7 +59,7 @@ The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a c
 
 ---
 ## <a name="precip"></a>Benchmarking Precipitation ([results][description_precip])
-- Based on the work of .... 
+- Based on the work of .... PJG test 2
 
 <p align="right"><a href="#top">Back to List</a></p>
 
