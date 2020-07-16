@@ -75,13 +75,6 @@ on the seasonal cycle of tropospheric temperature, <em>Science</em>,
 href="http://science.sciencemag.org/content/361/6399/eaas8806"
 rel="nofollow" target="_blank">10.1126/science.aas8806</a>.
 
-* Thackeray, C. W., X. Qu, and A. Hall, 2018: Why do models produce
-spread in snow albedo feedback? <em>Geophysical Research Letters</em>,
-45(12): 6223–6231. doi:<a
-href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/
-2018GL078493" rel="nofollow"
-target="_blank">10.1029/2018GL078493</a>.
-
 * Zelinka, M. D., K. M. Grise, S. A. Klein, C. Zhou, A. M. DeAngelis,
 and M. W. Christensen, 2018: Drivers of the Low Cloud Response to
 Poleward Jet Shifts in the North Pacific in Observations and Models,
