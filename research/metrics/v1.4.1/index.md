@@ -57,16 +57,16 @@ The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a c
 
 ---
 ## <a name="updates"></a>Update History
-- [**v1.4.1**][v1.4.1] (20 July 2020): MJO metrics with recent CMIP6 results
-- [**v1.4.0**][v1.4.0] (10 July 2020): ENSO Metrics updated with Interactive Portrait Plot with recent CMIP6 results
-- [**v1.3.2**][v1.3.2] (19 June 2020): Mean climate summaries updated with recent CMIP6 results with OBS info updated using PCMDIobs2
-- [**v1.3.1**][v1.3.1] (7 October 2019): Mean climate summaries updated with recent CMIP6 results 
-- [**v1.3.0**][v1.3.0] (6 September 2019): ENSO metrics added
-- [**v1.2.0**][v1.2.0] (29 August 2019): Mean climate metrics added
-- [**v1.1.0**][v1.1.0] (18 July 2019): MJO metrics added
-- [**v1.0.0**][v1.0.0] (20 June 2019): Initial public release
-- [**v1.0.0-beta**][v1.0.0-beta] (18 June 2019): Monsoon precipitation onset, decay, and duration (CMIP5) added
-- [**v1.0.0-alpha**][v1.0.0-alpha] (31 May 2019): Test release: Extratropical Modes of Variability (CMIP5 and CMIP6)
+- [**v1.4.1**][v1.4.1] (2020-07-20): MJO metrics with recent CMIP6 results
+- [**v1.4.0**][v1.4.0] (2020-07-10): ENSO Metrics updated with Interactive Portrait Plot with recent CMIP6 results
+- [**v1.3.2**][v1.3.2] (2020-06-19): Mean climate summaries updated with recent CMIP6 results with OBS info updated using PCMDIobs2
+- [**v1.3.1**][v1.3.1] (2019-10-07): Mean climate summaries updated with recent CMIP6 results
+- [**v1.3.0**][v1.3.0] (2019-09-06): ENSO metrics added
+- [**v1.2.0**][v1.2.0] (2019-08-29): Mean climate metrics added
+- [**v1.1.0**][v1.1.0] (2019-07-18): MJO metrics added
+- [**v1.0.0**][v1.0.0] (2019-06-20): Initial public release
+- [**v1.0.0-beta**][v1.0.0-beta] (2019-06-18): Monsoon precipitation onset, decay, and duration (CMIP5) added
+- [**v1.0.0-alpha**][v1.0.0-alpha] (2019-05-31): Test release: Extratropical Modes of Variability (CMIP5 and CMIP6)
 
 <p align="right"><a href="#top">Back to List</a></p>
 
