@@ -22,7 +22,7 @@ Here we apply the frequency-wavenumber decomposition method to precipitation fro
 
 <br/>
 ### General Results
-- ***Preliminary findings***: The [Interactive Bar Chart][ewribc] provides a comparison of the EWR between the observations and CMIP5 and CMIP6. As presented, this plot facilitates comparison of the EWR by modelling center or CMIP5 and CMIP6 as distinct groups. The preliminary result is that the EWR is better simulated in CMIP6 compared to CMIP5.
+- ***Preliminary findings***: The [Interactive Bar Chart][ewribc] provides a comparison of the EWR among the observations, CMIP5, and CMIP6. As presented, this plot facilitates comparison of the EWR by CMIP5 and CMIP6 groups, by modelling center, and by the ascending order of the value.
 
 - ***Cautionary Note***: *The MJO frequency and wavenumber windowing is based on observations. Thus, while the EWR provides an initial evaluation of the propagation characteristics of the observed and simulated MJO, it is instructive to look at the frequency-wavenumber spectra, as in some cases the dominant periodicity in a model may be different than in observations.* ***Figures of the frequency-wavenumber power spectra are obtained by left-clicking on the statistics that pop-up when you hover your mouse over a histogram bar (mean over all realizations) or a dot (for an individual realization).***
 
