@@ -8,7 +8,7 @@ title: Physical mean climate and variability
 
 # CMIP mean state and variability
 ---
-# <a name="top"></a>_PCMDI Simulation Summaries (v1.4.0)_
+# <a name="top"></a>_PCMDI Simulation Summaries (v1.4.1)_
 
 <br/>
 The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a capability that can be used to produce a diverse suite of objective summaries of Earth System Model (ESM) agreement with observations. At PCMDI, we are routinely applying the PMP to multiple generations of CMIP, including the most recent results from CMIP6 as they become available. The summaries available below will be regularly updated with new and an expanding set of results. The contents are also accessible from the [Coordinated Model Evaluation Capabilities (CMEC) website][cmec].
@@ -58,15 +58,16 @@ The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a c
 
 ---
 ## <a name="updates"></a>Update History
-- [**v1.4.0**][v1.4.0] (10 July 2020): ENSO Metrics updated with Interactive Portrait Plot with recent CMIP6 results
-- [**v1.3.2**][v1.3.2] (19 June 2020): Mean climate summaries updated with recent CMIP6 results with OBS info updated using PCMDIobs2
-- [**v1.3.1**][v1.3.1] (7 October 2019): Mean climate summaries updated with recent CMIP6 results 
-- [**v1.3.0**][v1.3.0] (6 September 2019): ENSO metrics added
-- [**v1.2.0**][v1.2.0] (29 August 2019): Mean climate metrics added
-- [**v1.1.0**][v1.1.0] (18 July 2019): MJO metrics added
-- [**v1.0.0**][v1.0.0] (20 June 2019): Initial public release
-- [**v1.0.0-beta**][v1.0.0-beta] (18 June 2019): Monsoon precipitation onset, decay, and duration (CMIP5) added
-- [**v1.0.0-alpha**][v1.0.0-alpha] (31 May 2019): Test release: Extratropical Modes of Variability (CMIP5 and CMIP6)
+- [**v1.4.1**][v1.4.1] (2020-07-20): MJO metrics with recent CMIP6 results
+- [**v1.4.0**][v1.4.0] (2020-07-10): ENSO Metrics updated with Interactive Portrait Plot with recent CMIP6 results
+- [**v1.3.2**][v1.3.2] (2020-06-19): Mean climate summaries updated with recent CMIP6 results with OBS info updated using PCMDIobs2
+- [**v1.3.1**][v1.3.1] (2019-10-07): Mean climate summaries updated with recent CMIP6 results
+- [**v1.3.0**][v1.3.0] (2019-09-06): ENSO metrics added
+- [**v1.2.0**][v1.2.0] (2019-08-29): Mean climate metrics added
+- [**v1.1.0**][v1.1.0] (2019-07-18): MJO metrics added
+- [**v1.0.0**][v1.0.0] (2019-06-20): Initial public release
+- [**v1.0.0-beta**][v1.0.0-beta] (2019-06-18): Monsoon precipitation onset, decay, and duration (CMIP5) added
+- [**v1.0.0-alpha**][v1.0.0-alpha] (2019-05-31): Test release: Extratropical Modes of Variability (CMIP5 and CMIP6)
 
 <p align="right"><a href="#top">Back to List</a></p>
 
@@ -78,6 +79,7 @@ The efforts of the authors are supported by the [Regional and Global Climate Mod
 
 [latest]: {{site.baseurl}}/research/metrics/
 
+[v1.4.1]: {{site.baseurl}}/research/metrics/v1.4.1
 [v1.4.0]: {{site.baseurl}}/research/metrics/v1.4.0
 [v1.3.2]: {{site.baseurl}}/research/metrics/v1.3.2
 [v1.3.1]: {{site.baseurl}}/research/metrics/v1.3.1
