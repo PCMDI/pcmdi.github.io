@@ -18,8 +18,7 @@ TEXT TEXT TEXT
 
 <br/>
 ### Summary statistics in Interactive Bar Charts
-  - **A. CMIP5 and CMIP6 Historical (organized by modelling center):** [EWR][CMIP56_ewr_models]
-  - **B. CMIP5 and CMIP6 Historical (distinct groups):** [EWR][CMIP56_ewr_mips]
+  - [**bar chart**][bar]
 
 
 <br/>
@@ -49,8 +48,7 @@ TEXT TEXT TEXT
 [Madden1972]: https://doi.org/10.1175/1520-0469(1972)029<1109:DOGSCC>2.0.CO;2
 [Madden1994]: https://doi.org/10.1175/1520-0493(1994)122<0814:OOTDTO>2.0.CO;2
 
-[CMIP56_ewr_models]: https://pcmdi.llnl.gov/pmp-preliminary-results/mjo_metrics/mjo_ewr_cmip5and6_overlap_runs_average_sorted_standalone.html
-[CMIP56_ewr_mips]: https://pcmdi.llnl.gov/pmp-preliminary-results/mjo_metrics/mjo_ewr_cmip5and6_overlap_runs_average_standalone.html
+[bar]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/precip/diurnal/pr_diurnal.cycle_rms.bar_all.loc.mod_interactive.html
 
 
-[Metrics]:{{site.baseurl}}/research/metrics/index.html
+[Metrics]:{{site.baseurl}}/research/metrics/
