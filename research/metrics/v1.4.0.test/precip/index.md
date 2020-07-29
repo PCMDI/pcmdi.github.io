@@ -17,6 +17,7 @@ TEXT TEXT TEXT
 TEXT TEXT TEXT
 
 <br/>
+
 ### Summary statistics in Interactive Bar Charts
 
   - [**bar chart**][bar]
