@@ -34,11 +34,9 @@ TEXT TEXT TEXT
 
 ## References
 <br/>
-> Ahn, M.-S., D. Kim, K. R. Sperber, I.-S. Kang, E. Maloney, D. Waliser, H. Hendon, 2017: MJO simulation in CMIP5 climate models: MJO skill metrics and process-oriented diagnosis. Clim. Dynam., 49, 4023-4045. [doi: 10.1007/s00382-017-3558-4][ahn2017].
+> Tang, Shuaiqi, Peter Gleckler, Shaocheng Xie, Jiwoo Lee, Curt Covey, Chengzhu Zhang, and Min-Seop Ahn, 2020: Evaluating Diurnal and Semi-Diurnal Cycle of Precipitation in CMIP6 Models Using Satellite- and Ground-Based Observations. Submitted to J. Climate.
 
-> CLIVAR Madden-Julian Oscillation Working Group (Waliser, D., K. Sperber, H. Hendon, D. Kim, E. Maloney, M. Wheeler, K. Weickmann,, C. Zhang, L. Donner, J. Gottschalck, W. Higgins, I.-S. Kang, D. Legler, M. Moncrieff, S. Schubert, W. Stern, F. Vitart, B. Wang, W. Wang, and S. Woolnough), 2009: MJO simulation diagnostics. J. Clim., 22, 3006-3029. [doi: 10.1175/2008JCLI2731.1][clivarmjo2009].
 
- 
 
 [dhkim]: https://atmos.uw.edu/faculty-and-research/core-faculty/daehyun-kim/
 [dhkimgroup]: https://sites.google.com/uw.edu/kimresearchgroup
