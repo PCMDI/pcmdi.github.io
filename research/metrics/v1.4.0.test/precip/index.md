@@ -20,7 +20,7 @@ TEXT TEXT TEXT
 
 ### Summary statistics in Interactive Bar Charts
 
-  - [**RMS/RMSC of diurnal cycle**][bar]
+  - [**RMS and RMSC of diurnal cycle**][bar]
 
 
 <br/>
