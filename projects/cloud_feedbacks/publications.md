@@ -11,6 +11,8 @@ title: Cloud Feedbacks
 
 ### 2020
   
+* Bretherton, C. S., and P. M. Caldwell, 2020: Combining Emergent Constraints for Climate Sensitivity, <em>J. Climate</em>, 33, 7413–7430, doi:[10.1175/JCLI-D-19-0911.1](https://doi.org/10.1175/JCLI-D-19-0911.1).  
+
 * Scott, R. C., T. A. Myers, J. R. Norris, M. D. Zelinka, S. A. Klein, M. Sun, and D. R. Doelling, 2020: Observed Sensitivity of Low Cloud Radiative Effects to Meteorological Perturbations over the Global Oceans, <em>J. Climate</em>, doi:[10.1175/JCLI-D-19-1028.1](https://journals.ametsoc.org/jcli/article/doi/10.1175/JCLI-D-19-1028.1/348639/Observed-Sensitivity-of-Low-Cloud-Radiative).
 
 * Sherwood, S., et al. including S. A. Klein and M. D. Zelinka, 2020: An assessment of Earth's climate sensitivity using multiple lines of evidence, <em>Rev. Geophys.</em>, 58, e2019RG000678, doi:[10.1029/2019RG000678](https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2019RG000678).
