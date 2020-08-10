@@ -10,6 +10,8 @@ title: Cloud Feedbacks
 ## Press Coverage
 
 ### 2020
+* [Worst- and Best-Case Scenarios for Warming Less Likely, Groundbreaking Study Finds](https://www.scientificamerican.com/article/worst-and-best-case-scenarios-for-warming-less-likely-groundbreaking-study-finds/) (July 2020, <em>Scientific American</em>)
+
 * [Why Is Climate More Sensitive in the Latest Earth System Models?](https://eos.org/research-spotlights/why-is-climate-more-sensitive-in-the-latest-earth-system-models) (March 2020, <em>Eos</em>)
 * [Latest Earth System Models predict more global warming than their predecessors.](https://usclivar.org/research-highlights/latest-earth-system-models-predict-more-global-warming-their-predecessors) (March 2020, <em>US-CLIVAR Research Highlight</em>)
 * [Climate Change Predictions Have Suddenly Gone Catastrophic. This Is Why](https://www.vice.com/en_uk/article/9393jd/climate-change-predictions-have-suddenly-gone-catastrophic-this-is-why), (February 2020, <em>Vice</em>)
