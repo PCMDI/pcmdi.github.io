@@ -11,9 +11,13 @@ title: Cloud Feedbacks
 
 
 ### 2020
+* Bretherton, C. and P. Caldwell, 2020: [Uncertainty in Future Warming is Reduced by Combining Emergent Constraints](https://climatemodeling.science.energy.gov/research-highlights/uncertainty-future-warming-reduced-combining-emergent-constraints)
+
 * Dong, Y. K. C. Armour, M. D. Zelinka, C. Proistosescu, D. S. Battisti, C. Zhou, and T. Andrews, 2020: [On the Evolution of Climate Feedbacks and Implied Climate Sensitivity Over Time in Earth System Model Simulations](https://climatemodeling.science.energy.gov/research-highlights/evolution-climate-feedbacks-and-implied-climate-sensitivity-over-time-earth)
 
 * Scott, R. C., T. A. Myers, J. R. Norris, M. D. Zelinka, S. A. Klein, M. Sun, and D. R. Doelling, 2020: [Observed Sensitivity of Low Cloud Radiative Effects to Meteorological Perturbations over the Global Oceans](https://climatemodeling.science.energy.gov/research-highlights/observed-sensitivity-low-cloud-radiative-effects-meteorological-perturbations)
+
+* Sherwood, S. C., et al. including S. A. Klein and M. D. Zelinka, 2020: [International Analysis Narrows Range of Climate's Sensitivity to CO2](https://climatemodeling.science.energy.gov/research-highlights/international-analysis-narrows-range-climate%E2%80%99s-sensitivity-co2) 
 
 * Zelinka, M. D., T. A. Myers, D. T. McCoy, S. Po-Chedley, P. M. Caldwell, P. Ceppi, S. A. Klein, and K. E. Taylor, 2020: [Latest Earth System Models Predict More Global Warming than their Predecessors](https://climatemodeling.science.energy.gov/research-highlights/latest-earth-system-models-predict-more-global-warming-their-predecessors)
 
