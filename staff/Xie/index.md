@@ -65,7 +65,7 @@ Before I came to the United States, I had worked for 5 years at the National Met
 
 ## Leadership in Major US DOE Climate Projects
 
-***Climate Modeling and Evaluation 
+***Climate Modeling and Evaluation*** 
 
 *   US DOE Energy Exascale Earth System Model (E3SM) subproject leader and council member (2018 - )
 
