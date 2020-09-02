@@ -79,7 +79,7 @@ Before I came to the United States, I had worked for 5 years at the National Met
 
 *   Co-PI for the DOE Cloud-Associated Parameterizations Testbed (CAPT) project at LLNL, which use the weather forecast technique to diagnose and understand climate model errors (2010 –2015)
 
-***Atmospheric Radiation Measurement (ARM) and Atmospheric System Research (ASR)
+***Atmospheric Radiation Measurement (ARM) and Atmospheric System Research (ASR)***
 
 *   Member of the DOE ARM-ASR Coordination Team (AACT), a constituent group that includes members from both ARM and ASR leadership (2019 – )
 
