@@ -12,6 +12,8 @@ title: PCMDI - Metrics
 
 ## Seasonal Cycle
 
+>>- [**Seasonal cycle with monthly mean** (Ocean/Land regions in Tropics, NHEX, and SHEX)][bar]
+>>- [**RMS and RMSC of seasonal cycle** (Ocean/Land regions in Tropics, NHEX, and SHEX)][bar]
 
 ## Variability Across Timescales
 
@@ -19,6 +21,7 @@ title: PCMDI - Metrics
 
 >### Diurnal cycle - phase and amplitude
 
+>>- [**Diurnal cycle with 3-hourly mean** (Ocean/Land regions in Tropics, NHEX, and SHEX)][bar]
 >>- [**RMS and RMSC of diurnal cycle** (Ocean/Land regions in Tropics, NHEX, and SHEX)][bar]
 >>- [**RMS and RMSC of diurnal cycle** (Specific sites used in Fig. 13 of Tang et al. 2020)][bar]
 
