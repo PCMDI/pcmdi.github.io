@@ -14,12 +14,12 @@ title: PCMDI - Metrics
 
 ## Seasonal Cycle
 
->>- [**Seasonal cycle with monthly mean**][bar]
->>- [**RMS and RMSC of the seasonal cycle**][bar]
+>>- [**Area averaged seasonal cycle with monthly mean**][bar]
+>>- [**Bar chart of RMS and RMSC for the seasonal cycle**][bar]
 
-## Variability Across Timescales
+## Variability Across Timescales (Sub-daily, Daily, Monthly, 3-Monthly, Yearly, and 3-Yearly)
 
->### Standard deviation at differnt timescales (Sub-daily, Daily, Monthly, 3-Monthly, Yearly, and 3-Yearly)
+>### Standard deviation at differnt timescales
 
 >>- [**Bar chart of area averaged STD across timescales**][bar]
 >>- [**Portrait chart of area averaged STD across timescales**][bar]
@@ -27,9 +27,9 @@ title: PCMDI - Metrics
 
 >### Diurnal cycle - phase and amplitude
 
->>- [**Diurnal cycle with 3-hourly mean** (Ocean/Land regions in Tropics, NHEX, and SHEX)][bar]
->>- [**RMS and RMSC of the diurnal cycle** (Ocean/Land regions in Tropics, NHEX, and SHEX)][bar]
->>- [**RMS and RMSC of the diurnal cycle** (Specific sites used in Fig. 13 of Tang et al. 2020)][bar]
+>>- [**Area averaged Diurnal cycle with 3-hourly mean** (Ocean/Land regions in Tropics, NHEX, and SHEX)][bar]
+>>- [**Bar chart of RMS and RMSC for the diurnal cycle** (Ocean/Land regions in Tropics, NHEX, and SHEX)][bar]
+>>- [**Bar chart of RMS and RMSC for the diurnal cycle** (Specific sites used in Fig. 13 of Tang et al. 2020)][bar]
 
 
 
