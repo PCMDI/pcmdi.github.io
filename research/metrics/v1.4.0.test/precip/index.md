@@ -6,6 +6,33 @@ title: PCMDI - Metrics
 ---
 
 # Benchmarking Precipitation
+
+## Spatial Distribution of Mean State
+
+
+## Seasonal Cycle
+
+
+## Variability Across Timescales
+
+### Standard deviation at differnt timescales
+
+### Diurnal cycle - phase and amplitude
+
+#### Summary statistics in Interactive Bar Charts
+  - [**RMS and RMSC of diurnal cycle** (Fig. 13 of Tang et al. 2020)][bar]
+
+
+
+## Intensity/Frequency Distribution
+
+
+## Extremes
+
+
+## Drought
+
+
 <br/>
 These results are based on ... bla bla bla
 <br/>
@@ -34,7 +61,7 @@ TEXT TEXT TEXT
 
 ## References
 <br/>
-> Tang, Shuaiqi, Peter Gleckler, Shaocheng Xie, Jiwoo Lee, Curt Covey, Chengzhu Zhang, and Min-Seop Ahn, 2020: Evaluating Diurnal and Semi-Diurnal Cycle of Precipitation in CMIP6 Models Using Satellite- and Ground-Based Observations. Submitted to J. Climate.
+Tang, Shuaiqi, Peter Gleckler, Shaocheng Xie, Jiwoo Lee, Curt Covey, Chengzhu Zhang, and Min-Seop Ahn, 2020: Evaluating Diurnal and Semi-Diurnal Cycle of Precipitation in CMIP6 Models Using Satellite- and Ground-Based Observations. Submitted to J. Climate.
 
 
 
