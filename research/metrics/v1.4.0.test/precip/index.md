@@ -15,12 +15,12 @@ title: PCMDI - Metrics
 
 ## Variability Across Timescales
 
-### Standard deviation at differnt timescales
+>### Standard deviation at differnt timescales
 
-### Diurnal cycle - phase and amplitude
+>### Diurnal cycle - phase and amplitude
 
-#### Summary statistics in Interactive Bar Charts
-  - [**RMS and RMSC of diurnal cycle** (Fig. 13 of Tang et al. 2020)][bar]
+>>#### Summary statistics in Interactive Bar Charts
+>>- [**RMS and RMSC of diurnal cycle** (Fig. 13 of Tang et al. 2020)][bar]
 
 
 
