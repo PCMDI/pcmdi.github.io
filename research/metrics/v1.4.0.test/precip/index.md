@@ -31,7 +31,7 @@ title: PCMDI - Metrics
 
 >>- [**Area averaged Diurnal cycle with 3-hourly mean** (CMIP6)][bar]
 >>- [**Bar chart of RMS and RMSC for the diurnal cycle** (CMIP6)][bar]
->>- [**Bar chart of RMS and RMSC for the diurnal cycle** (CMIP6)(Specific sites used in Fig. 13 of Tang et al. 2020)][bar]
+>>- [**Bar chart of RMS and RMSC for the diurnal cycle** (CMIP6) (Specific sites used in Fig. 13 of Tang et al. 2020)][bar]
 
 
 
