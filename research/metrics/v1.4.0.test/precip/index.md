@@ -7,23 +7,29 @@ title: PCMDI - Metrics
 
 # Benchmarking Precipitation
 
-## Spatial Distribution of Mean State
+## Mean State
+
+>>- [**Taylor diagram of spatial distribution**][bar]
 
 
 ## Seasonal Cycle
 
->>- [**Seasonal cycle with monthly mean** (Ocean/Land regions in Tropics, NHEX, and SHEX)][bar]
->>- [**RMS and RMSC of seasonal cycle** (Ocean/Land regions in Tropics, NHEX, and SHEX)][bar]
+>>- [**Seasonal cycle with monthly mean**][bar]
+>>- [**RMS and RMSC of the seasonal cycle**][bar]
 
 ## Variability Across Timescales
 
->### Standard deviation at differnt timescales
+>### Standard deviation at differnt timescales (Sub-daily, Daily, Monthly, 3-Monthly, Yearly, and 3-Yearly)
+
+>>- [**Bar chart of area averaged STD across timescales**][bar]
+>>- [**Portrait chart of area averaged STD across timescales**][bar]
+
 
 >### Diurnal cycle - phase and amplitude
 
 >>- [**Diurnal cycle with 3-hourly mean** (Ocean/Land regions in Tropics, NHEX, and SHEX)][bar]
->>- [**RMS and RMSC of diurnal cycle** (Ocean/Land regions in Tropics, NHEX, and SHEX)][bar]
->>- [**RMS and RMSC of diurnal cycle** (Specific sites used in Fig. 13 of Tang et al. 2020)][bar]
+>>- [**RMS and RMSC of the diurnal cycle** (Ocean/Land regions in Tropics, NHEX, and SHEX)][bar]
+>>- [**RMS and RMSC of the diurnal cycle** (Specific sites used in Fig. 13 of Tang et al. 2020)][bar]
 
 
 
