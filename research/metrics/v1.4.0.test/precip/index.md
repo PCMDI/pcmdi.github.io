@@ -19,7 +19,8 @@ title: PCMDI - Metrics
 
 >### Diurnal cycle - phase and amplitude
 
->>- [**RMS and RMSC of diurnal cycle** (Fig. 13 of Tang et al. 2020)][bar]
+>>- [**RMS and RMSC of diurnal cycle** (Ocean/Land regions in Tropics, NHEX, and SHEX)][bar]
+>>- [**RMS and RMSC of diurnal cycle** (Specific sites used in Fig. 13 of Tang et al. 2020)][bar]
 
 
 
