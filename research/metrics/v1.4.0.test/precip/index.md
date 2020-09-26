@@ -67,8 +67,15 @@ TEXT TEXT TEXT
 
 ## References
 <br/>
-Tang, Shuaiqi, Peter Gleckler, Shaocheng Xie, Jiwoo Lee, Curt Covey, Chengzhu Zhang, and Min-Seop Ahn, 2020: Evaluating Diurnal and Semi-Diurnal Cycle of Precipitation in CMIP6 Models Using Satellite- and Ground-Based Observations. Submitted to J. Climate.
 
+Pendergrass, A.G. and D.L. Hartmann, 2014: Two modes of change of the 
+distribution of rain. Journal of Climate, 27, 8357-8371. 
+doi:10.1175/JCLI-D-14-00182.1.
+
+<br/>
+
+Tang, Shuaiqi, Peter Gleckler, Shaocheng Xie, Jiwoo Lee, Curt Covey, Chengzhu Zhang, and Min-Seop Ahn, 2020: Evaluating Diurnal and Semi-Diurnal Cycle of Precipitation in CMIP6 Models Using Satellite- and Ground-Based Observations. Submitted to J. Climate.
+<br/>
 
 
 [dhkim]: https://atmos.uw.edu/faculty-and-research/core-faculty/daehyun-kim/
