@@ -9,37 +9,37 @@ title: PCMDI - Metrics
 
 ## Mean State
 
->>- [**Taylor diagram of spatial distribution** (CMIP6)][bar]
+- [**Taylor diagram of spatial distribution** (CMIP6)][bar]
 
 
 ## Seasonal Cycle
 
->>- [**Area averaged seasonal cycle with monthly mean** (CMIP6)][bar]
->>- [**Bar chart of RMS and RMSC for the seasonal cycle** (CMIP6)][bar]
+- [**Area averaged seasonal cycle with monthly mean** (CMIP6)][bar]
+- [**Bar chart of RMS and RMSC for the seasonal cycle** (CMIP6)][bar]
 
 ## Variability Across Timescales (Sub-daily, Daily, Monthly, 3-Monthly, Yearly, and 3-Yearly)
 
->### Standard deviation at differnt timescales
+### Standard deviation at differnt timescales
 
->>- [**Bar chart of area averaged STD across timescales** (CMIP5)][bar]
->>- [**Bar chart of area averaged STD across timescales** (CMIP6)][bar]
->>- [**Portrait chart of area averaged STD across timescales** (CMIP5)][bar]
->>- [**Portrait chart of area averaged STD across timescales** (CMIP6)][bar]
+- [**Bar chart of area averaged STD across timescales** (CMIP5)][bar]
+- [**Bar chart of area averaged STD across timescales** (CMIP6)][bar]
+- [**Portrait chart of area averaged STD across timescales** (CMIP5)][bar]
+- [**Portrait chart of area averaged STD across timescales** (CMIP6)][bar]
 
 
->### Diurnal cycle - phase and amplitude
+### Diurnal cycle - phase and amplitude
 
->>- [**Area averaged diurnal cycle with 3-hourly mean** (CMIP6)][bar]
->>- [**Bar chart of RMS and RMSC for the diurnal cycle** (CMIP6)][bar]
->>- [**Bar chart of RMS and RMSC for the diurnal cycle** (CMIP6) (Specific sites used in Fig. 13 of Tang et al. 2020)][bar]
+- [**Area averaged diurnal cycle with 3-hourly mean** (CMIP6)][bar]
+- [**Bar chart of RMS and RMSC for the diurnal cycle** (CMIP6)][bar]
+- [**Bar chart of RMS and RMSC for the diurnal cycle** (CMIP6) (Specific sites used in Fig. 13 of Tang et al. 2020)][bar]
 
 
 
 ## Intensity/Frequency Distribution
 
->### Unevenness
+### Unevenness
 
->>- [**Bar chart of area averaged Unevenness** (CMIP5)][bar]
+- [**Bar chart of area averaged Unevenness** (CMIP5)][bar]
 
 
 
