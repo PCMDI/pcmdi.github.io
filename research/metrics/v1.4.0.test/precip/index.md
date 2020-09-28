@@ -49,24 +49,6 @@ title: PCMDI - Metrics
 ## Drought
 
 
-<br/>
-These results are based on ... bla bla bla
-<br/>
-
-<br/>
-TEXT TEXT TEXT
- 
-<br/>
-TEXT TEXT TEXT
-
-<br/>
-
-<br/>
-### General Results
-
-- TEXT TEXT TEXT 
-
-- TEXT TEXT TEXT 
 
 ---
 
@@ -87,9 +69,6 @@ Pendergrass, A. P. J. Gleckler, L. Ruby Leung, and C. Jakob, 2020: Benchmarking 
 <br/>
 
 
-[dhkim]: https://atmos.uw.edu/faculty-and-research/core-faculty/daehyun-kim/
-[dhkimgroup]: https://sites.google.com/uw.edu/kimresearchgroup
-[mjotaskforce]: http://www.wmo.int/pages/prog/arep/wwrp/new/MJO_Task_Force_index.html
 
 [ahn2017]: https://doi.org/10.1007/s00382-017-3558-4
 [clivarmjo2009]: https://doi.org/10.1175/2008JCLI2731.1
