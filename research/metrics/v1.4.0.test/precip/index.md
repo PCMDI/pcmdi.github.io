@@ -82,7 +82,8 @@ Pendergrass, A. P. J. Gleckler, L. Ruby Leung, and C. Jakob, 2020: Benchmarking 
 Tang, Shuaiqi, Peter Gleckler, Shaocheng Xie, Jiwoo Lee, Curt Covey, Chengzhu Zhang, and Min-Seop Ahn, 2020: Evaluating Diurnal and Semi-Diurnal Cycle of Precipitation in CMIP6 Models Using Satellite- and Ground-Based Observations. Submitted to J. Climate.
 
 Wehner, M., P. Gleckler, J. Lee: Characterization of long period return values of extreme daily precipitation and temperature in the CMIP6 models. Weather and Climate Extremes, submitted.
-5.	Pendergrass, A. P. J. Gleckler, L. Ruby Leung, and C. Jakob, 2020: Benchmarking simulated precipitation in Earth System Models. BAMS, doi: 10.1175/BAMS-D-19-0318.1.
+
+Pendergrass, A. P. J. Gleckler, L. Ruby Leung, and C. Jakob, 2020: Benchmarking simulated precipitation in Earth System Models. BAMS, doi: 10.1175/BAMS-D-19-0318.1.
 <br/>
 
 
