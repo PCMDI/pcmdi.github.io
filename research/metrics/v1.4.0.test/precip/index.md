@@ -14,22 +14,22 @@ title: PCMDI - Metrics
 
 ## Seasonal Cycle
 
-- [**Area averaged seasonal cycle with monthly mean** (CMIP6)][bar]
+- [**Line graph of domain averaged seasonal cycle with monthly mean** (CMIP6)][bar]
 - [**Bar chart of RMS and RMSC for the seasonal cycle** (CMIP6)][bar]
 
 ## Variability Across Timescales (Sub-daily, Daily, Monthly, 3-Monthly, Yearly, and 3-Yearly)
 
 ### Standard deviation at differnt timescales
 
-- [**Bar chart of area averaged STD across timescales** (CMIP5)][bar]
-- [**Bar chart of area averaged STD across timescales** (CMIP6)][bar]
-- [**Portrait chart of area averaged STD across timescales** (CMIP5)][bar]
-- [**Portrait chart of area averaged STD across timescales** (CMIP6)][bar]
+- [**Bar chart of domain averaged STD across timescales** (CMIP5)][bar]
+- [**Bar chart of domain averaged STD across timescales** (CMIP6)][bar]
+- [**Portrait chart of domain averaged STD across timescales** (CMIP5)][bar]
+- [**Portrait chart of domain averaged STD across timescales** (CMIP6)][bar]
 
 
 ### Diurnal cycle - phase and amplitude
 
-- [**Area averaged diurnal cycle with 3-hourly mean** (CMIP6)][bar]
+- [**Line graph of domain averaged diurnal cycle with 3-hourly mean** (CMIP6)][bar]
 - [**Bar chart of RMS and RMSC for the diurnal cycle** (CMIP6)][bar]
 - [**Bar chart of RMS and RMSC for the diurnal cycle** (CMIP6) (Specific sites used in Fig. 13 of Tang et al. 2020)][bar]
 
@@ -39,7 +39,7 @@ title: PCMDI - Metrics
 
 ### Unevenness
 
-- [**Bar chart of area averaged Unevenness** (CMIP5)][bar]
+- [**Bar chart of domain averaged Unevenness** (CMIP5)][bar]
 
 
 
