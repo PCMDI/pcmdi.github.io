@@ -23,8 +23,8 @@ title: PCMDI - Metrics
 
 - [**Bar chart of domain averaged STD across timescales** (CMIP5)][Bar_VAC-1]
 - [**Bar chart of domain averaged STD across timescales** (CMIP6)][Bar_VAC-2]
-- [**Portrait chart of domain averaged STD across timescales** (CMIP5)][Port_VAC-1]
-- [**Portrait chart of domain averaged STD across timescales** (CMIP6)][Port_VAC-2]
+- [**Portrait chart of domain averaged STD across timescales** (CMIP5)][Port_VAC-1...on going]
+- [**Portrait chart of domain averaged STD across timescales** (CMIP6)][Port_VAC-2...on going]
 
 
 ### Diurnal cycle - phase and amplitude
