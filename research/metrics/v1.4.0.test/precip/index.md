@@ -83,8 +83,8 @@ Pendergrass, A. P. J. Gleckler, L. Ruby Leung, and C. Jakob, 2020: Benchmarking 
 
 [Bar_VAC-1]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/precip/variability_across_timescales/pr_STD.amean_interactive_regrid.180x90_cmip5.html
 [Bar_VAC-2]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/precip/variability_across_timescales/pr_STD.amean_interactive_regrid.180x90_cmip6.html
-[Port_VAC-1]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/precip/pr_STD.amean_portrait_interactive_regrid.180x90_cmip5.html
-[Port_VAC-2]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/precip/pr_STD.amean_portrait_interactive_regrid.180x90_cmip6.html
+[Port_VAC-1]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/precip/variability_across_timescales/pr_STD.amean_portrait_interactive_regrid.180x90_cmip5.html
+[Port_VAC-2]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/precip/variability_across_timescales/pr_STD.amean_portrait_interactive_regrid.180x90_cmip6.html
 
 [bar]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/precip/diurnal/pr_diurnal.cycle_rms.bar_all.loc.mod_interactive.html
 
