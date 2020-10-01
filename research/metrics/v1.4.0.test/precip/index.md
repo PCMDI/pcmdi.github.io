@@ -105,4 +105,4 @@ Wehner, M., P. Gleckler, J. Lee: Characterization of long period return values o
 [bar]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/precip/diurnal/pr_diurnal.cycle_rms.bar_all.loc.mod_interactive.html
 
 
-[Metrics]:{{site.baseurl}}/research/metrics/
+[Metrics]:{{site.baseurl}}/research/metrics/. 
