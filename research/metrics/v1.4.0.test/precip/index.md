@@ -56,7 +56,7 @@ alt="PMP EOS article">
 
 ## Drought
 
-
+Comming soon:  Frequency of SPI spells and consecutive dry days.   
 
 ---
 
