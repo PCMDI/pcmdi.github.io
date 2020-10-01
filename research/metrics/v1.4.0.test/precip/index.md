@@ -7,6 +7,9 @@ title: PCMDI - Metrics
 
 # Benchmarking Precipitation
 
+Welcome to the results site for benchmarking simulated precipitation in Earth System Models (ESMs).  
+
+
 ## Mean State
 
 - [**Taylor diagram of spatial distribution** (CMIP6)][TD_MS-1]
