@@ -58,13 +58,24 @@ Welcome to the results site for benchmarking simulated precipitation in Earth Sy
 ## References
 <br/>
 
+
+Covey, C, PJ Gleckler, C Doutriaux, DN Williams, A Dai, J Fasullo, K Trenberth, and  A Berg. 2016. ”Metrics for the diurnal cycle of precipitation: Toward routine benchmarks for climate models.”  Journal of Climate 29(12): 4461–4471,  https://doi.org/10.1175/JCLI-D-15-0664.1
+
+Covey, C, C Doutriaux, PJ Gleckler, KE Taylor, KE Trenberth, and Y Zhang. 2018. “High-frequency intermittency in observed and model-simulated precipitation.” Geophysical Research Letters 45(22), https://doi.org/10.1029/2018GL078926
+
 Pendergrass, A.G. and D.L. Hartmann, 2014: Two modes of change of the 
 distribution of rain. Journal of Climate, 27, 8357-8371. 
 doi:10.1175/JCLI-D-14-00182.1.
 
+Pendergrass, AG, and C Deser. 2017. “Climatological characteristics of typical daily precipitation.” Journal of Climate 30(15): 5985–6003, https://doi.org/10.1175/JCLI-D-16-0684.1
+
 Pendergrass, A. P. J. Gleckler, L. Ruby Leung, and C. Jakob, 2020: Benchmarking simulated precipitation in Earth System Models. BAMS, doi: 10.1175/BAMS-D-19-0318.1.
 
+Perkins, SE, AJ Pitman, NJ Holbrook, and J McAneney. 2007. “Evaluation of the AR4 Climate Models' Simulated Daily Maximum Precipitation over Australia Using Probability Density Functions.” Journal of Climate 20(17): 4356–4376, https://doi.org/10.1175/JCLI4253.1
+
 Tang, S., P. Gleckler, S. Xie, J. Lee, C. Covey, C. Zhang, and M. Ahn, 2020: Evaluating Diurnal and Semi-Diurnal Cycle of Precipitation in CMIP6 Models Using Satellite- and Ground-Based Observations. Submitted to J. Climate.
+
+M Wehner, P Gleckler, J Lee, 2020: Characterization of long period return values of extreme daily temperature and precipitation in the CMIP6 models: Part 1, model evaluation.  Weather and Climate Extremes, 100283
 
 Wehner, M., P. Gleckler, J. Lee: Characterization of long period return values of extreme daily precipitation and temperature in the CMIP6 models. Weather and Climate Extremes, submitted.
 
