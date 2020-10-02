@@ -2,5 +2,4 @@ _site/
 *.DS_Store
 *.swp
 .idea/
-research/DandA/Synthetic\ Microwave\ Sounding\ Unit\ (MSU)\ temperatures/2018/**/*.nc
-research/DandA/Synthetic\ Microwave\ Sounding\ Unit\ (MSU)\ temperatures/2018/**/*.tar.gz
+.jekyll-cache/
