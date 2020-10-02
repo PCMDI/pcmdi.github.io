@@ -105,7 +105,7 @@ All users of CMIP5 model output should be sure to properly cite and acknowledge 
 {: .indent}
 
 
-**“Official” Names of CMIP5 Models and Modeling Groups [CMIP5_modeling_groups]({{site.baseurl}}mips/cmip5/availability.html).**
+**“Official” Names of CMIP5 Models and Modeling Groups [CMIP5_modeling_groups]({{site.baseurl}}/mips/cmip5/availability.html).**
 
 ## CMIP5 Model Output Archive:
 
