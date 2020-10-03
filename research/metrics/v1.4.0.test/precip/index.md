@@ -16,9 +16,11 @@ alt="PMP EOS article">
 
 
 
+
 ## Mean State
 
 - [**Taylor diagram of spatial distribution** (CMIP6)][TD_MS-1]  
+
 
 
 
@@ -26,6 +28,7 @@ alt="PMP EOS article">
 
 - [**Line graph of domain averaged seasonal cycle with monthly mean** (CMIP6)][Line_SC-1]
 - [**Bar chart of RMS and RMSC for the seasonal cycle** (CMIP6)][Bar_SC-1]  
+
 
 
 
@@ -46,6 +49,7 @@ alt="PMP EOS article">
 
 
 
+
 ## Intensity/Frequency Distribution
 
 ### - Unevenness
@@ -54,13 +58,16 @@ alt="PMP EOS article">
 
 
 
+
 ## Extremes  
+
 
 
 
 ## Drought
 
 Comming soon:  Frequency of SPI spells and consecutive dry days.  
+
 
 
 
