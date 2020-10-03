@@ -60,7 +60,6 @@ alt="PMP EOS article">
 
 
 ## Extremes  
-
 <br/>
 
 
