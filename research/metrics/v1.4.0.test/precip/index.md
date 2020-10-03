@@ -44,7 +44,7 @@ alt="PMP EOS article">
 
 ## Intensity/Frequency Distribution
 
-### Unevenness
+>### Unevenness
 
 - [**Bar chart of domain averaged Unevenness** (CMIP5)][Bar_DC-2]
 
