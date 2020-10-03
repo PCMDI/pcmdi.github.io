@@ -27,7 +27,7 @@ alt="PMP EOS article">
 
 ## Variability Across Timescales (Sub-daily, Daily, Monthly, 3-Monthly, Yearly, and 3-Yearly)
 
-### Standard deviation at differnt timescales
+>### Standard deviation at differnt timescales
 
 - [**Bar chart of domain averaged STD across timescales** (CMIP5)][Bar_VAC-1]
 - [**Bar chart of domain averaged STD across timescales** (CMIP6)][Bar_VAC-2]
@@ -35,7 +35,7 @@ alt="PMP EOS article">
 - [**Portrait chart of domain averaged STD across timescales** (CMIP6)][Port_VAC-2]
 
 
-### Diurnal cycle - phase and amplitude
+>### Diurnal cycle - phase and amplitude
 
 - [**Bar chart of RMS and RMSC for the diurnal cycle** (CMIP6)][Bar_DC-1]
 - [**Bar chart of RMS and RMSC for the diurnal cycle** (CMIP6) (Specific sites used in Fig. 13 of Tang et al. 2020)][Bar_DC-2]
@@ -46,7 +46,7 @@ alt="PMP EOS article">
 
 ### Unevenness
 
-- [**Bar chart of domain averaged Unevenness** (CMIP5)][bar]
+- [**Bar chart of domain averaged Unevenness** (CMIP5)][Bar_DC-2]
 
 
 
