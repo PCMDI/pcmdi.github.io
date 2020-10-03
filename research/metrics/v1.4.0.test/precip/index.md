@@ -18,14 +18,16 @@ alt="PMP EOS article">
 
 ## Mean State
 
-- [**Taylor diagram of spatial distribution** (CMIP6)][TD_MS-1]  <br/>
+- [**Taylor diagram of spatial distribution** (CMIP6)][TD_MS-1]  
+<br/>
 
 
 
 ## Seasonal Cycle
 
 - [**Line graph of domain averaged seasonal cycle with monthly mean** (CMIP6)][Line_SC-1]
-- [**Bar chart of RMS and RMSC for the seasonal cycle** (CMIP6)][Bar_SC-1]  <br/>
+- [**Bar chart of RMS and RMSC for the seasonal cycle** (CMIP6)][Bar_SC-1]  
+<br/>
 
 
 
@@ -42,7 +44,8 @@ alt="PMP EOS article">
 ### - Diurnal cycle - phase and amplitude
 
 - [**Bar chart of RMS and RMSC for the diurnal cycle** (CMIP6)][Bar_DC-1]
-- [**Bar chart of RMS and RMSC for the diurnal cycle** (CMIP6) (Specific sites used in Fig. 13 of Tang et al. 2020)][Bar_DC-2]  <br/>
+- [**Bar chart of RMS and RMSC for the diurnal cycle** (CMIP6) (Specific sites used in Fig. 13 of Tang et al. 2020)][Bar_DC-2]  
+<br/>
 
 
 
@@ -50,7 +53,8 @@ alt="PMP EOS article">
 
 ### - Unevenness
 
-- [**Bar chart of domain averaged Unevenness** (CMIP5)][Bar_DC-2]  <br/>
+- [**Bar chart of domain averaged Unevenness** (CMIP5)][Bar_DC-2]  
+<br/>
 
 
 
@@ -60,7 +64,8 @@ alt="PMP EOS article">
 
 ## Drought
 
-Comming soon:  Frequency of SPI spells and consecutive dry days.  <br/>
+Comming soon:  Frequency of SPI spells and consecutive dry days.  
+<br/>
 
 
 ---
