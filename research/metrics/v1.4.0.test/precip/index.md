@@ -10,7 +10,7 @@ title: PCMDI - Metrics
 Welcome to the results site for benchmarking simulated precipitation in Earth System Models (ESMs)! This effort has been inspired by the outcomes of a July 2019 DOE workshop (Pendergrass, et al., 2019).  That workshop was motivated by discussions that have taken place in recent years in various working groups of the WCRP including the Working Group on Numerical Experimentation (WGNE) and Working Group on Coupled Models (WGCM).  This site was initially made public 2020/10/10 and will be regularly updated as our efforts advance, so check back here soon to see progress.      
 
 <center>
-<img style="border:0px" src="{{site.baseurl}}/research/metrics/v1.4.0.test/precip/PR_benchmarking_FIG4_v2.png"
+<img style="border:0px" src="{{site.baseurl}}/research/metrics/v1.4.0.test/precip/PR_benchmarking_FIG4.png"
 alt="PMP EOS article">
 </center>
 
