@@ -44,6 +44,7 @@ alt="PMP EOS article">
 
 ### - Diurnal cycle - phase and amplitude
 
+- [**Line graph of domain averaged diurnal cycle** (CMIP6)][Line_DC-1]
 - [**Bar chart of RMS and RMSC for the diurnal cycle** (CMIP6)][Bar_DC-1]
 - [**Bar chart of RMS and RMSC for the diurnal cycle** (CMIP6) (Specific sites used in Fig. 13 of Tang et al. 2020)][Bar_DC-2]  
 <br/>
@@ -107,6 +108,7 @@ Wehner, M., P. Gleckler, J. Lee: Characterization of long period return values o
 [Madden1994]: https://doi.org/10.1175/1520-0493(1994)122<0814:OOTDTO>2.0.CO;2
 
 [TD_MS-1]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/precip/mean_state/TD.pr.clim.ann.cmip6.historical.regrid2.2p5x2p5.png
+
 [Line_SC-1]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/precip/seasonal_cycle/pr_annual.cycle_all.loc.mod_interactive.html
 [Bar_SC-1]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/precip/seasonal_cycle/pr_annual.cycle_rms.bar_all.loc.mod_interactive.html
 
@@ -115,6 +117,7 @@ Wehner, M., P. Gleckler, J. Lee: Characterization of long period return values o
 [Port_VAC-1]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/precip/variability_across_timescales/STD_across_timescales/pr_STD.amean_portrait_interactive_regrid.180x90_cmip5.html
 [Port_VAC-2]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/precip/variability_across_timescales/STD_across_timescales/pr_STD.amean_portrait_interactive_regrid.180x90_cmip6.html
 
+[Line_DC-1]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/precip/variability_across_timescales/diurnal_cycle/pr_diurnal.cycle_all.loc.mod_interactive.html
 [Bar_DC-1]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/precip/variability_across_timescales/diurnal_cycle/pr_diurnal.cycle_rms.bar_all.loc.mod_interactive.html
 [Bar_DC-2]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/precip/diurnal/pr_diurnal.cycle_rms.bar_all.loc.mod_interactive.html
 
