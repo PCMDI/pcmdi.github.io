@@ -62,7 +62,7 @@ alt="PMP EOS article">
 
 ## Extremes  
 <br/>
-
+- [Precipitation extreme from CMIP5/6][extreme]
 
 
 ## Drought
@@ -116,3 +116,4 @@ Wehner, M., P. Gleckler, J. Lee: Characterization of long period return values o
 
 
 [Metrics]:{{site.baseurl}}/research/metrics/
+[extreme]:{{site.baseurl}}/research/metrics/precip/extreme
