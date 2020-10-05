@@ -61,9 +61,9 @@ alt="PMP EOS article">
 
 
 ## Extremes  
-<br/>
-- [Precipitation extreme from CMIP5/6][extreme]
 
+- [Precipitation extreme from CMIP5/6][extreme]
+<br/>
 
 ## Drought
 
