@@ -13,6 +13,7 @@ We deliberately choose the Expert Team on Climate Change Detection Indices ([ETC
 
 Following Taylor diagrams (equivalent to Fig. 8 of [Wehner et al. 2020](#wehner2020)) are measuring model performance of simulating annual [Rx1day](#rx1day) and its [20 year return value](#return). The radial axis is normalized standard deviation while the angular axis is the centered pattern correlation. The reference data set is REGEN (black square). The concentric circles show the models’ centered RMSE. CMIP5 models are shown in red. CMIP6 models are shown in blue. Multi-model averages are denoted as “cmip5” and “cmip6” in the legend.
 
+<br/>
 
 ## <a name="rx1day"></a>Rx1day
 
