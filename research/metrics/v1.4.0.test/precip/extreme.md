@@ -32,7 +32,6 @@ Following Taylor diagrams (Fig. 8 of [Wehner et al. 2020][wehner2020]) are measu
 ---
 
 ## References
-<br/>
 
 Wehner, M., P Gleckler, J Lee, 2020: Characterization of long period return values of extreme daily temperature and precipitation in the CMIP6 models: Part 1, model evaluation.  Weather and Climate Extremes, 100283, https://doi.org/10.1016/j.wace.2020.100283
 
