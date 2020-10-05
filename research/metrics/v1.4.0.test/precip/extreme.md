@@ -13,7 +13,7 @@ We deliberately choose the Expert Team on Climate Change Detection Indices (ETCC
 
 We evaluate these extreme variables and their return values by comparing CMIP5/6 model simulations to gridded observations on the observational products' grids. Annual maxima of daily precipitation are obtained by extraction from the REGEN (Rainfall Estimates on a Gridded Network) gridded daily precipitation at a resolution of 1ox1o (Contractor et al., 2019). 
 
-Following Taylor diagrams (Fig. 8 of [Wehner et al. 2020][wehner2020]) are measuring model performance of simulating annual [Rx1day](#rx1day) and its [20 year return value](#return). The radial axis is normalized standard deviation while the angular axis is the centered pattern correlation. The reference data set is REGEN (black square). The concentric circles show the models’ centered RMSE. CMIP5 models are shown in red. CMIP6 models are shown in blue. Multi-model averages are denoted as “cmip5” and “cmip6” in the legend.
+Following Taylor diagrams (Fig. 8 of [Wehner et al. 2020](#wehner2020)) are measuring model performance of simulating annual [Rx1day](#rx1day) and its [20 year return value](#return). The radial axis is normalized standard deviation while the angular axis is the centered pattern correlation. The reference data set is REGEN (black square). The concentric circles show the models’ centered RMSE. CMIP5 models are shown in red. CMIP6 models are shown in blue. Multi-model averages are denoted as “cmip5” and “cmip6” in the legend.
 
 ## <a name="rx1day"></a>Rx1day
 
@@ -33,7 +33,7 @@ Following Taylor diagrams (Fig. 8 of [Wehner et al. 2020][wehner2020]) are measu
 
 ## References
 
-Wehner, M., P Gleckler, J Lee, 2020: Characterization of long period return values of extreme daily temperature and precipitation in the CMIP6 models: Part 1, model evaluation.  Weather and Climate Extremes, 100283, https://doi.org/10.1016/j.wace.2020.100283
+<a name="wehner2020"></a>Wehner, M., P Gleckler, J Lee, 2020: Characterization of long period return values of extreme daily temperature and precipitation in the CMIP6 models: Part 1, model evaluation.  Weather and Climate Extremes, 100283, https://doi.org/10.1016/j.wace.2020.100283
 
 Wehner, M., P. Gleckler, J. Lee: Characterization of long period return values of extreme daily precipitation and temperature in the CMIP6 models. Weather and Climate Extremes, submitted.
 
