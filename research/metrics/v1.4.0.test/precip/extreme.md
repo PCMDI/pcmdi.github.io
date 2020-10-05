@@ -9,6 +9,8 @@ title: PCMDI - Metrics
 
 Using a non-stationary Generalized Extreme Value statistical method, we calculate selected extreme daily temperature and precipitation indices and their 20 year return values from the CMIP5 and CMIP6 historically forced climate models. We evaluate model performance of these indices and their return values in replicating similar quantities calculated from gridded land based daily observations. We find that at their standard resolutions, there are no meaningful differences between the two generations of models in their quality of simulated extreme daily temperature and precipitation.
 
+Below: Taylor diagram measuring model performance of simulating annual Rx1day and its 20 year return value. The radial axis is normalized standard deviation while the angular axis is the centered pattern correlation. The reference data set is REGEN (black square). The concentric circles show the models’ centered RMSE. CMIP5 models are shown in red. CMIP6 models are shown in blue. Multi-model averages are denoted as “cmip5” and “cmip6” in the legend.
+
 ## Rx1day
 
 <img src="taylor_diagram_cmip5and6_historical_Rx1day_annual.png" alt="Rx1day">
