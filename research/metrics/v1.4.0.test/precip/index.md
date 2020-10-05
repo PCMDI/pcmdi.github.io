@@ -94,18 +94,11 @@ Perkins, SE, AJ Pitman, NJ Holbrook, and J McAneney. 2007. “Evaluation of the 
 
 Tang, S., P. Gleckler, S. Xie, J. Lee, C. Covey, C. Zhang, and M. Ahn, 2020: Evaluating Diurnal and Semi-Diurnal Cycle of Precipitation in CMIP6 Models Using Satellite- and Ground-Based Observations. Submitted to J. Climate.
 
-M Wehner, P Gleckler, J Lee, 2020: Characterization of long period return values of extreme daily temperature and precipitation in the CMIP6 models: Part 1, model evaluation.  Weather and Climate Extremes, 100283
+Wehner, M., P Gleckler, J Lee, 2020: Characterization of long period return values of extreme daily temperature and precipitation in the CMIP6 models: Part 1, model evaluation.  Weather and Climate Extremes, 100283, https://doi.org/10.1016/j.wace.2020.100283
 
 Wehner, M., P. Gleckler, J. Lee: Characterization of long period return values of extreme daily precipitation and temperature in the CMIP6 models. Weather and Climate Extremes, submitted.
 
 
-
-[ahn2017]: https://doi.org/10.1007/s00382-017-3558-4
-[clivarmjo2009]: https://doi.org/10.1175/2008JCLI2731.1
-[kim2009]: https://doi.org/10.1175/2009JCLI3063.1
-[Madden1971]: https://doi.org/10.1175/1520-0469(1971)028<0702:DOADOI>2.0.CO;2
-[Madden1972]: https://doi.org/10.1175/1520-0469(1972)029<1109:DOGSCC>2.0.CO;2
-[Madden1994]: https://doi.org/10.1175/1520-0493(1994)122<0814:OOTDTO>2.0.CO;2
 
 [TD_MS-1]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/precip/mean_state/TD.pr.clim.ann.cmip6.historical.regrid2.2p5x2p5.png
 
@@ -122,4 +115,4 @@ Wehner, M., P. Gleckler, J. Lee: Characterization of long period return values o
 [Bar_DC-2]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/precip/diurnal/pr_diurnal.cycle_rms.bar_all.loc.mod_interactive.html
 
 
-[Metrics]:{{site.baseurl}}/research/metrics/. 
+[Metrics]:{{site.baseurl}}/research/metrics/
