@@ -113,4 +113,4 @@ Wehner, M., P Gleckler, J Lee, 2020: Characterization of long period return valu
 
 
 [Metrics]:{{site.baseurl}}/research/metrics/
-[extreme]:{{site.baseurl}}/research/metrics/precip/extreme
+[extreme]:{{site.baseurl}}/research/metrics/precip/extreme.html
