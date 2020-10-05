@@ -96,9 +96,6 @@ Tang, S., P. Gleckler, S. Xie, J. Lee, C. Covey, C. Zhang, and M. Ahn, 2020: Eva
 
 Wehner, M., P Gleckler, J Lee, 2020: Characterization of long period return values of extreme daily temperature and precipitation in the CMIP6 models: Part 1, model evaluation.  Weather and Climate Extremes, 100283, https://doi.org/10.1016/j.wace.2020.100283
 
-Wehner, M., P. Gleckler, J. Lee: Characterization of long period return values of extreme daily precipitation and temperature in the CMIP6 models. Weather and Climate Extremes, submitted.
-
-
 
 [TD_MS-1]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/precip/mean_state/TD.pr.clim.ann.cmip6.historical.regrid2.2p5x2p5.png
 
