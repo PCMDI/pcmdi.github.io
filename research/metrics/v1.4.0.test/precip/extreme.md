@@ -11,7 +11,7 @@ Using a non-stationary Generalized Extreme Value statistical method, we calculat
 
 We deliberately choose the Expert Team on Climate Change Detection Indices ([ETCCDI](http://etccdi.pacificclimate.org/)) indices that are “block” extrema. “Wet days” are represented by Rx1day, the annual seasonal maxima of daily total precipitation.
 
-We evaluate these extreme variables and their return values by comparing CMIP5/6 model simulations to gridded observations on the observational products' grids. Annual maxima of daily precipitation are obtained by extraction from the REGEN (Rainfall Estimates on a Gridded Network) gridded daily precipitation at a resolution of 1 deg x 1 deg ([Contractor et al. 2019](https://hess.copernicus.org/articles/24/919/2020/)). 
+We evaluate these extreme variables and their return values by comparing CMIP5/6 model simulations to gridded observations on the observational products' grids. Annual maxima of daily precipitation are obtained by extraction from the [REGEN](https://hess.copernicus.org/articles/24/919/2020/) (Rainfall Estimates on a Gridded Network) gridded daily precipitation at a resolution of 1 deg x 1 deg.
 
 Following Taylor diagrams (Fig. 8 of [Wehner et al. 2020](#wehner2020)) are measuring model performance of simulating annual [Rx1day](#rx1day) and its [20 year return value](#return). The radial axis is normalized standard deviation while the angular axis is the centered pattern correlation. The reference data set is REGEN (black square). The concentric circles show the models’ centered RMSE. CMIP5 models are shown in red. CMIP6 models are shown in blue. Multi-model averages are denoted as “cmip5” and “cmip6” in the legend.
 
