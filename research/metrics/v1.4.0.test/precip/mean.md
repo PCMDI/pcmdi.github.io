@@ -9,11 +9,9 @@ title: PCMDI - Metrics
 
 *Coming soon:* We will be providing a variety of objective comparisons of simulated precipitation and observations including those [used for other variables.][pmpmean]        
 
-<br/>
 
 <center>
-## <a name="rx1day"></a>Sample Taylor Diagrams ##
-
+##Sample Taylor Diagrams##
 ###CMIP6 results for different regions###
 </center>
 
