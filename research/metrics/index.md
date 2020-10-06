@@ -62,12 +62,6 @@ The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a c
 <p align="right"><a href="#top">Back to List</a></p>
 
 ---
-## <a name="precip"></a>Benchmarking Precipitation ([results][description_precip])
-- Inspired by the outcomes of a [July 2019 DOE workshop][doeworkshop2019] [(Pendergrass, et al., 2019)][pendergrass2020] 
-
-<p align="right"><a href="#top">Back to List</a></p>
-
----
 ## <a name="updates"></a>Update History
 - [**v1.4.0**][v1.4.0] (10 July 2020): ENSO Metrics updated with Interactive Portrait Plot with recent CMIP6 results
 - [**v1.3.2**][v1.3.2] (19 June 2020): Mean climate summaries updated with recent CMIP6 results with OBS info updated using PCMDIobs2
