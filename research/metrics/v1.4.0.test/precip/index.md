@@ -23,7 +23,7 @@ alt="PMP EOS article">
 
 ## Spatial Distribution of Mean State
 
-- [**Taylor diagram of spatial distribution** (CMIP6)][mean]
+- [**Taylor diagrams of spatial distribution** (CMIP6)][mean]
 
 <br/>
 
