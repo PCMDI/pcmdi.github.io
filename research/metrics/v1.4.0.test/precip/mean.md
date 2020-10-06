@@ -9,11 +9,12 @@ title: PCMDI - Metrics
 
 *Coming soon:* We will be providing a variety of objective comparisons of simulated precipitation and observations including those [used for other variables.][pmpmean]        
 
-
+---
 <center>
 ## Sample Taylor Diagrams 
 ### CMIP6 results for different regions
 </center>
+---
 
 <img src="https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/precip/mean_state/TD.pr.clim.ann.cmip6.historical.regrid2.2p5x2p5.png">
 
