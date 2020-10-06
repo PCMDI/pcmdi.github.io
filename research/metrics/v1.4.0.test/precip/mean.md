@@ -7,23 +7,20 @@ title: PCMDI - Metrics
 
 # Precipitation Mean State
 
-We will be 
-Taylor Diagrams provide convienent way to compare model results with observations, compactly showing results for three well-established statistics including pattern correlation, centered root-mean-square error, and standard deviation.  
+*Coming soon:* We will be providing a variety of objective comparisons of simulated precipitation and observations including those [used for other variables.][pmpmean]        
 
 <br/>
 
-## <a name="rx1day"></a>Taylor Diagrams
+<c>
+## <a name="rx1day"></a>Sample Taylor Diagrams
 
-CMIP6 results for different regions
+###CMIP6 results for different regions###
+</c>
 
 <img src="https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/precip/mean_state/TD.pr.clim.ann.cmip6.historical.regrid2.2p5x2p5.png">
 
 ---
 
-## References
-
-TEXT
-
-
 [Metrics]:{{site.baseurl}}/research/metrics
 [precip]:{{site.baseurl}}/research/metrics/precip
+[pmpmean]: https://cmec.llnl.gov/results/mean_clim
