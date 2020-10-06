@@ -11,7 +11,9 @@ title: PCMDI - Metrics
 
 ---
 <center>
+  
 ## Sample Taylor Diagrams 
+  
 ### CMIP6 results for different regions
 </center>
 ---
