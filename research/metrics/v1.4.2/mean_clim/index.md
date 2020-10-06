@@ -30,8 +30,8 @@ Mean state results from the PCMDI Metrics Package (PMP) are used to produce "qui
   - [**CMIP6 AMIP simulations**][portrait_cmip6_amip] (updated 6 May 2020)
   - [**CMIP5 AMIP simulations**][portrait_cmip5_amip] (updated 6 May 2020)
 
-  - **Additional decompositions for CMIP6 Historical**
-    - [Global space-time (Gleckler et al., 2008): rms_xyt][portrait_cmip6_hist_global_rms_xyt]
+  - **Additional decompositions for CMIP6 Historical** (updated 17 June 2020)
+    - [Global space-time (Gleckler et al. 2008): rms_xyt][portrait_cmip6_hist_global_rms_xyt]
     - [Global annual mean: rms_xy][portrait_cmip6_hist_global_rms_xy]
     - [Northern Hemisphere Extratropics 4 Seasons (NHEX): rms_xy][portrait_cmip6_hist_nhex_rms_xy]
     - [Southern Hemisphere Extratropics 4 Seasons (SHEX): rms_xy][portrait_cmip6_hist_shex_rms_xy]
