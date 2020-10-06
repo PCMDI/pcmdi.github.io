@@ -25,7 +25,6 @@ Mean state results from the PCMDI Metrics Package (PMP) are used to produce "qui
 <br/>
 - Interactive Portrait Plots (IPP) show results that are normalized by the median RMS error across all models (rows), as described in Gleckler et al. (2008).  This normalization enables a common color scale to be used for all statistics and highlights the relative strengths and weakness of different models.  With this normalization an error of -0.5 indicates a model’s error is 50% smaller than the typical (median) error across all models, whereas an error of 0.5 is an error 50% larger than the typical error in the multi-model ensemble.   **This diagram can be used to navigate to additional results.  Hovering your mouse over a square or triangle will reveal the diagnostic plot from which the metrics were generated.  Additionally, hovering over the variables on the x-axis displays a [Taylor diagram](https://en.wikipedia.org/wiki/Taylor_diagram)**.   After hovering on either type of plot, the user can click a second time to get a full sized image.   
 
-- ### PCMDI’s Interactive Portrait Plots
   - [**CMIP6 historical simulations**][portrait_cmip6_hist] (updated 18 June 2020)
   - [**CMIP5 historical simulations**][portrait_cmip5_hist] (updated 6 May 2020)
   - [**CMIP6 AMIP simulations**][portrait_cmip6_amip] (updated 6 May 2020)
@@ -50,7 +49,7 @@ Mean state results from the PCMDI Metrics Package (PMP) are used to produce "qui
 
 ---
 
-## Reference
+## References
 <br/>
 
   > Gleckler, P. J., K. E. Taylor, and C. Doutriaux, 2008: Performance metrics for model evaluation. J. Geophys. Res., 113, D06104, [doi: 10.1029/2007JD008972][gleckler2008].
