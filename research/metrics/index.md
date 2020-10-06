@@ -59,7 +59,7 @@ The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a c
 
 ---
 ## <a name="precip"></a>Benchmarking Precipitation ([results][description_precip])
-- Inspired by the outcomes of a July 2019 DOE workshop [(Pendergrass, et al., 2019)][pendergrass2020] 
+- Inspired by the outcomes of a [July 2019 DOE workshop][doeworkshop2019] [(Pendergrass, et al., 2019)][pendergrass2020] 
 
 <p align="right"><a href="#top">Back to List</a></p>
 
@@ -117,6 +117,7 @@ The efforts of the authors are supported by the [Regional and Global Climate Mod
 [gleckler2008]: https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2007JD008972
 [taylor2001]: https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2000JD900719
 [pendergrass2020]: https://doi.org/10.1175/BAMS-D-19-0318.1
+[doeworkshop2019]: https://climatemodeling.science.energy.gov/news/doe-hosts-precipitation-metrics-workshop
 
 [Metrics]:{{site.baseurl}}/research/metrics/
 
