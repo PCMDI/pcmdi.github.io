@@ -14,11 +14,11 @@ title: Physical mean climate and variability
 The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a capability that can be used to produce a diverse suite of objective summaries of Earth System Model (ESM) agreement with observations. At PCMDI, we are routinely applying the PMP to multiple generations of CMIP, including the most recent results from CMIP6 as they become available. The summaries available below will be regularly updated with new and an expanding set of results. The contents are also accessible from the [Coordinated Model Evaluation Capabilities (CMEC) website][cmec].
 
 - [**Mean Climate**](#mean_clim)
+- [**Benchmarking Precipitation**](#precip)
 - [**El Niño–Southern Oscillation (ENSO)**](#enso)
 - [**Extratropical Modes of Variability**](#variability_modes)
 - [**Madden-Julian Oscillation (MJO)**](#mjo)
 - [**Monsoon characteristics (example)**](#monsoon)
-- [**Benchmarking Precipitation**](#precip)
 - [_Update history_](#updates)
 
 <br/>
@@ -29,7 +29,11 @@ The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a c
 
 <p align="right"><a href="#top">Back to List</a></p>
 
+---
+## <a name="precip"></a>Benchmarking Precipitation ([results][description_precip])
+- Inspired by the outcomes of a [July 2019 DOE workshop][doeworkshop2019] [(Pendergrass, et al., 2019)][pendergrass2020] 
 
+<p align="right"><a href="#top">Back to List</a></p>
 ---
 
 ## <a name="enso"></a>El Niño-Southern Oscillation ([results][description_enso])
