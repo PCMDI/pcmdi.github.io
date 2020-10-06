@@ -11,11 +11,11 @@ title: PCMDI - Metrics
 
 <br/>
 
-<c>
-## <a name="rx1day"></a>Sample Taylor Diagrams
+<center>
+## <a name="rx1day"></a>Sample Taylor Diagrams ##
 
 ###CMIP6 results for different regions###
-</c>
+</center>
 
 <img src="https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/precip/mean_state/TD.pr.clim.ann.cmip6.historical.regrid2.2p5x2p5.png">
 
