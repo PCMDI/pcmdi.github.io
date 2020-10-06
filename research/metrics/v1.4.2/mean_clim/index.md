@@ -15,7 +15,7 @@ Mean state results from the PCMDI Metrics Package (PMP) are used to produce "qui
 <br/>
 - An interactive Parallel Coordinate Plot (IPCP) is used to dynamically visualize the mean climate statistics generated with the PMP. In an IPCP, each vertical axis represents a different scalar measure gauging some aspect of model fidelity. The results displayed in the IPCP are absolute error measures, i.e., they are not normalized as in the IPP.  Under the default configuration, results from each model are displayed as symbols. **The user can highlight a given model by selecting a symbol on the plot or from the table below the plot. By selecting the symbols representing two versions of the same model, the version differences can be contrasted against the backdrop of results from the multi-model ensemble (symbols).**  The current release allows the user to display CMIP5 and CMIP6 results as: a) All variables for a given season, or b) All seasons for a given variable.
 
-- [**Go to PCMDI’s IPCP results for CMIP5 and CMIP6 historical simulations**][parallel_cmip5_6]
+- [**CMIP6 historical simulations**][parallel_cmip6] (updated 6 Oct 2020)
 
 <br/>
 
@@ -69,7 +69,7 @@ Mean state results from the PCMDI Metrics Package (PMP) are used to produce "qui
 [portrait_cmip6_hist_shex_rms_xy]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/portrait_plot/mean_clim/cmip6/historical/v20200617/SHEX/rms_xy/clickable_portrait.html
 [portrait_cmip6_hist_tropics_rms_xy]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/portrait_plot/mean_clim/cmip6/historical/v20200617/TROPICS/rms_xy/clickable_portrait.html
 
-[parallel_cmip5_6]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/mean_climate/parallel_coordinate/v20201006/cover.html
+[parallel_cmip6]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/mean_climate/parallel_coordinate/v20201006/cover.html
 
 [gleckler2008]: https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2007JD008972
 [taylor2001]: https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2000JD900719
