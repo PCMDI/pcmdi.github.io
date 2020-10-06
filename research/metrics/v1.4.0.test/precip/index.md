@@ -28,8 +28,6 @@ alt="PMP EOS article">
 <br/>
 
 
-
-
 ## Seasonal Cycle
 
 - [**Line graph of domain averaged seasonal cycle with monthly mean** (CMIP6)][Line_SC-1]
@@ -71,6 +69,7 @@ alt="PMP EOS article">
 ## Extremes  
 
 - [**Precipitation extremes from CMIP5/6**][extreme]
+
 <br/>
 
 
