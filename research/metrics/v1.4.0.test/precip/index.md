@@ -10,16 +10,16 @@ title: PCMDI - Metrics
 Welcome to the results site for benchmarking simulated precipitation in Earth System Models (ESMs)! This effort has been inspired by the outcomes of a July 2019 DOE workshop (Pendergrass, et al., 2019).  That workshop was motivated by discussions that have taken place in recent years in various working groups of the WCRP including the Working Group on Numerical Experimentation (WGNE) and Working Group on Coupled Models (WGCM).  This site was initially made public 2020/10/10 and will be regularly updated as our efforts advance, so check back here soon to see progress.      
 
 <center>
-<img style="border:0px" src="{{site.baseurl}}/research/metrics/v1.4.0.test/precip/PR_benchmarking_FIG4.png"
+<img style="border:0px" src="PR_benchmarking_FIG4.png"
 alt="PMP EOS article">
 </center>
 <br/>
 
 
 
-## Mean State
+## Spatial Distribution of Mean State
 
-- [**Taylor diagram of spatial distribution** (CMIP6)][TD_MS-1]  
+- [**Taylor diagram of spatial distribution** (CMIP6)][mean]
 <br/>
 
 
@@ -32,7 +32,9 @@ alt="PMP EOS article">
 
 
 
-## Variability Across Timescales (Sub-daily, Daily, Monthly, 3-Monthly, Yearly, and 3-Yearly)
+## Variability Across Timescales 
+
+(Sub-daily, Daily, Monthly, 3-Monthly, Yearly, and 3-Yearly)
 
 ### - Standard deviation at differnt timescales
 
@@ -64,6 +66,7 @@ alt="PMP EOS article">
 
 - [**Precipitation extreme from CMIP5/6**][extreme]
 <br/>
+
 
 ## Drought
 
@@ -97,8 +100,6 @@ Tang, S., P. Gleckler, S. Xie, J. Lee, C. Covey, C. Zhang, and M. Ahn, 2020: Eva
 Wehner, M., P Gleckler, J Lee, 2020: Characterization of long period return values of extreme daily temperature and precipitation in the CMIP6 models: Part 1, model evaluation.  Weather and Climate Extremes, 100283, [https://doi.org/10.1016/j.wace.2020.100283](https://doi.org/10.1016/j.wace.2020.100283)
 
 
-[TD_MS-1]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/precip/mean_state/TD.pr.clim.ann.cmip6.historical.regrid2.2p5x2p5.png
-
 [Line_SC-1]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/precip/seasonal_cycle/pr_annual.cycle_all.loc.mod_interactive.html
 [Bar_SC-1]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/precip/seasonal_cycle/pr_annual.cycle_rms.bar_all.loc.mod_interactive.html
 
@@ -113,4 +114,5 @@ Wehner, M., P Gleckler, J Lee, 2020: Characterization of long period return valu
 
 
 [Metrics]:{{site.baseurl}}/research/metrics/
-[extreme]:{{site.baseurl}}/research/metrics/precip/extreme.html
+[extreme]: extreme.html
+[mean]: mean.html
