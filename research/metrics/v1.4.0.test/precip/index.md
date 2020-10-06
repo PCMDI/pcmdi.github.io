@@ -70,7 +70,7 @@ alt="PMP EOS article">
 
 ## Extremes  
 
-- [**Precipitation extreme from CMIP5/6**][extreme]
+- [**Precipitation extremes from CMIP5/6**][extreme]
 <br/>
 
 
