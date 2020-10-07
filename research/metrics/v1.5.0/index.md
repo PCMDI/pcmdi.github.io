@@ -30,7 +30,7 @@ The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a c
 
 ---
 ## <a name="precip"></a>Benchmarking Precipitation ([results][description_precip])
-- Inspired by the outcomes of a [July 2019 DOE workshop][doeworkshop2019] [(Pendergrass, et al., 2019)][pendergrass2020]
+- Inspired by the outcomes of a [July 2019 DOE workshop][doeworkshop2019] ([Pendergrass, et al., 2019][pendergrass2020]_
 
 <p align="right"><a href="#top">Back to List</a></p>
 
@@ -100,6 +100,7 @@ The efforts of the authors are supported by the [Regional and Global Climate Mod
 [description_monsoon]: monsoon
 [description_mjo]: mjo
 [description_enso]: enso
+[description_precip]: precip
 
 [lee2019]: https://link.springer.com/article/10.1007/s00382-018-4355-4
 [sperber2004]: https://doi.org/10.1007/s00382-014-2099-3
