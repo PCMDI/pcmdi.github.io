@@ -30,7 +30,7 @@ The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a c
 
 ---
 ## <a name="precip"></a>Benchmarking Precipitation ([results][description_precip])
-- Inspired by the outcomes of a [July 2019 DOE workshop][doeworkshop2019] ([Pendergrass, et al., 2019][pendergrass2020])
+- Inspired by the outcomes of a [July 2019 DOE workshop][doeworkshop2019] ([Pendergrass, et al. 2019][pendergrass2020])
 
 <p align="right"><a href="#top">Back to List</a></p>
 
