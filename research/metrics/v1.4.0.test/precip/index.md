@@ -125,7 +125,7 @@ Wehner, M., P Gleckler, J Lee, 2020: Characterization of long period return valu
 [Bar_DC-1]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/precip/variability_across_timescales/diurnal_cycle/pr_diurnal.cycle_rms.bar_all.loc.mod_interactive.html
 [Bar_DC-2]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/precip/diurnal/pr_diurnal.cycle_rms.bar_all.loc.mod_interactive.html
 
-[Bar_SDI-1]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/precip/intermittency/pr_intermittency.amean_interactive.html
+[Bar_SDI-1]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/precip/variability_across_timescales/intermittency/pr_intermittency.amean_interactive.html
 
 [Bar_IFD-1]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/precip/intensity.frequency_distribution/unevenness/pr_unevenness.amean_interactive.html
 
