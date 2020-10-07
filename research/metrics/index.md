@@ -7,17 +7,17 @@ title: PCMDI - Metrics
 
 # CMIP mean state and variability
 ---
-# <a name="top"></a>_PCMDI Simulation Summaries (v1.4.2)_
+# <a name="top"></a>_PCMDI Simulation Summaries (v1.5.0)_
 
 <br/>
 The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a capability that can be used to produce a diverse suite of objective summaries of Earth System Model (ESM) agreement with observations. At PCMDI, we are routinely applying the PMP to multiple generations of CMIP, including the most recent results from CMIP6 as they become available. The summaries available below will be regularly updated with new and an expanding set of results. The contents are also accessible from the [Coordinated Model Evaluation Capabilities (CMEC) website][cmec].
 
 - [**Mean Climate**](#mean_clim)
+- [**Benchmarking Precipitation**](#precip)
 - [**El Niño–Southern Oscillation (ENSO)**](#enso)
 - [**Extratropical Modes of Variability**](#variability_modes)
 - [**Madden-Julian Oscillation (MJO)**](#mjo)
 - [**Seasonal Monsoon (example)**](#monsoon)
-- **Benchmarking Simulated Precipitation** (coming soon)
 - [_Update history_](#updates)
 
 <br/>
@@ -28,9 +28,13 @@ The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a c
 
 <p align="right"><a href="#top">Back to List</a></p>
 
+---
+## <a name="precip"></a>Benchmarking Precipitation ([results][description_precip])
+- Inspired by the outcomes of a [July 2019 DOE workshop][doeworkshop2019] [(Pendergrass, et al., 2019)][pendergrass2020]
+
+<p align="right"><a href="#top">Back to List</a></p>
 
 ---
-
 ## <a name="enso"></a>El Niño-Southern Oscillation ([results][description_enso])
 
 - El Niño-Southern Oscillation (ENSO) is the dominant mode of interannual variability in the tropical Pacific and has far reaching impacts on global climate. It is there therefore key to ensure its correct simulation in state-of-the-art climate models. Community-wide synthesis of metrics to evaluate the performance, teleconnections and processes of ENSO in coupled GCMs is proposed by the ENSO working group of the [International CLIVAR Pacific panel][clivar_pacific]. The corresponding objective comparisons of simulations against observations shown here result from a collaboration between scientists at [Institut Pierre Simon Laplace (IPSL)][ipsl] and [PCMDI][pcmdi]. This effort strives to improve and expand upon the ENSO model performance tests proposed by [Bellenger et al. (2014)][Bellenger2014] for CMIP5. The metrics are demonstrated through application to the CMIP archive following works of Planton et al. (2020, BAMS, under review).
@@ -44,7 +48,6 @@ The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a c
 <p align="right"><a href="#top">Back to List</a></p>
 
 ---
-
 ## <a name="mjo"></a>Madden-Julian Oscillation ([results][description_mjo])
 - Based on the work of [Ahn et al. (2017)][ahn2017], we present skill metrics that indicate how well models simulate eastward propagation of the MJO. We apply frequency-wavenumber decomposition to precipitation from observations (GPCP-based; 1997-2010) and the CMIP5 and CMIP6 Historical simulations (1985-2004).
 
@@ -58,7 +61,7 @@ The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a c
 
 ---
 ## <a name="updates"></a>Update History
-- [**v1.4.2**][v1.4.2] (2020-10-06): Mean climate parallel coordinate plot updated.
+- [**v1.5.0**][v1.5.0] (2020-10-06): Precipitation benchmarking newly added and Mean climate parallel coordinate plots updated.
 - [**v1.4.1**][v1.4.1] (2020-07-20): MJO metrics with recent CMIP6 results
 - [**v1.4.0**][v1.4.0] (2020-07-10): ENSO Metrics updated with Interactive Portrait Plot with recent CMIP6 results
 - [**v1.3.2**][v1.3.2] (2020-06-19): Mean climate summaries updated with recent CMIP6 results with OBS info updated using PCMDIobs2
@@ -80,7 +83,7 @@ The efforts of the authors are supported by the [Regional and Global Climate Mod
 
 [latest]: {{site.baseurl}}/research/metrics/
 
-[v1.4.2]: {{site.baseurl}}/research/metrics/v1.4.2
+[v1.5.0]: {{site.baseurl}}/research/metrics/v1.5.0
 [v1.4.1]: {{site.baseurl}}/research/metrics/v1.4.1
 [v1.4.0]: {{site.baseurl}}/research/metrics/v1.4.0
 [v1.3.2]: {{site.baseurl}}/research/metrics/v1.3.2
@@ -91,14 +94,6 @@ The efforts of the authors are supported by the [Regional and Global Climate Mod
 [v1.0.0]: {{site.baseurl}}/research/metrics/v1.0.0
 [v1.0.0-beta]: {{site.baseurl}}/research/metrics/v1.0.0-beta
 [v1.0.0-alpha]: {{site.baseurl}}/research/metrics/v1.0.0-alpha
-
-<!--
-[description_mean_clim]: {{site.baseurl}}/research/metrics/mean_clim/
-[description_variability]: {{site.baseurl}}/research/metrics/variability_modes/
-[description_monsoon]: {{site.baseurl}}/research/metrics/monsoon/
-[description_mjo]: {{site.baseurl}}/research/metrics/mjo/
-[description_enso]: {{site.baseurl}}/research/metrics/enso/
--->
 
 [description_mean_clim]: mean_clim
 [description_variability]: variability_modes
@@ -112,6 +107,8 @@ The efforts of the authors are supported by the [Regional and Global Climate Mod
 [Bellenger2014]: https://doi.org/10.1007/s00382-013-1783-z
 [gleckler2008]: https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2007JD008972
 [taylor2001]: https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2000JD900719
+[pendergrass2020]: https://doi.org/10.1175/BAMS-D-19-0318.1
+[doeworkshop2019]: https://climatemodeling.science.energy.gov/news/doe-hosts-precipitation-metrics-workshop
 
 [Metrics]:{{site.baseurl}}/research/metrics/
 
