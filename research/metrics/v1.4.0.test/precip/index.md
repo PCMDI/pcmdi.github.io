@@ -63,7 +63,7 @@ alt="PMP EOS article">
 
 ### - Unevenness
 
-- [**Bar chart of domain averaged Unevenness** (CMIP5)][Bar_IFD-1]
+- [**Bar chart of domain averaged Unevenness** (CMIP6)][Bar_IFD-1]
 
 <br/>
 
