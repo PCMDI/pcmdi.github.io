@@ -38,7 +38,6 @@ alt="PMP EOS article">
 
 
 ## Variability Across Timescales 
-
 (Sub-daily, Daily, Monthly, 3-Monthly, Yearly, and 3-Yearly)
 
 ### - Standard deviation at differnt timescales
@@ -54,6 +53,11 @@ alt="PMP EOS article">
 - [**Line graph of domain averaged diurnal cycle** (CMIP6)][Line_DC-1]
 - [**Bar chart of RMS and RMSC for the diurnal cycle** (CMIP6)][Bar_DC-1]
 - [**Bar chart of RMS and RMSC for the diurnal cycle** (CMIP6) (Specific sites used in Fig. 13 of Tang et al. 2020)][Bar_DC-2]
+
+
+### - Sub-daily intermittency
+
+- [**Bar chart of sub-daily intermittency** (CMIP6)]
 
 <br/>
 
