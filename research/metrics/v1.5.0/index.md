@@ -17,7 +17,7 @@ The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a c
 - [**El Niño–Southern Oscillation (ENSO)**](#enso)
 - [**Extratropical Modes of Variability**](#variability_modes)
 - [**Madden-Julian Oscillation (MJO)**](#mjo)
-- [**Seasonal Monsoon (example)**](#monsoon)
+- [**Monsoon Characteristics (example)**](#monsoon)
 - [_Update history_](#updates)
 
 <br/>
@@ -30,7 +30,7 @@ The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a c
 
 ---
 ## <a name="precip"></a>Benchmarking Precipitation ([results][description_precip])
-- Inspired by the outcomes of a [July 2019 DOE workshop][doeworkshop2019] ([Pendergrass, et al. 2019][pendergrass2020])
+- These results were inspired by the outcomes of a [July 2019 DOE workshop][doeworkshop2019]. Several teams were established at this workshop with one group tasked to incorporate an initial set of benchmarks into a common analysis framework and applying it to CMIP6 and earlier generations of climate models ([Pendergrass, et al., 2019][pendergrass2020]). The results presented here illustrate the progress of this benchmarking effort. In parallel, a second group continues to develop exploratory metrics.  Ultimately, this effort aims to provide a guide to modelers as they strive to improve simulated precipitation.
 
 <p align="right"><a href="#top">Back to List</a></p>
 
@@ -54,7 +54,7 @@ The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a c
 <p align="right"><a href="#top">Back to List</a></p>
 
 ---
-## <a name="monsoon"></a>Seasonal Monsoon (example) ([results][description_monsoon])
+## <a name="monsoon"></a>Monsoon Characteristics (example) ([results][description_monsoon])
 - Based on the work of [Sperber and Annamalai (2014)][sperber2004], we present skill metrics that indicate how well models simulate the _onset, decay, and duration of monsoon_ based on the analysis of climatological pentads of precipitation. Using Historical simulations, the results are based on area-averaged data for All-India Rainfall (AIR), Sahel, Gulf of Guinea (GoG), North American Monsoon (NAM), South American Monsoon (SAM), and Northern Australia (AUS). 
 
 <p align="right"><a href="#top">Back to List</a></p>
