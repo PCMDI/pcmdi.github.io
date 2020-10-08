@@ -15,8 +15,8 @@ Mean state results from the PCMDI Metrics Package (PMP) are used to produce "qui
 <br/>
 - Interactive Parallel Coordinate Plots (IPCPs) are used to dynamically visualize the mean climate statistics generated with the PMP. In an IPCP, each vertical axis represents a different scalar measure gauging some aspect of model fidelity. The results displayed in the IPCP are <b>absolute error measures</b>, i.e., they are not normalized as in the portrait plots (below).  Under the default configuration, results from each model are displayed as symbols. <b><i>To facilitate comparison of a subset of models, the user can highlight individual models by selecting a symbol on the plot or from the legend. A common application is to select two versions of the same (or different) model to enable their performance differences to be contrasted against the backdrop of results from the multi-model ensemble (symbols).</i></b>  The current release allows the user to display CMIP5 and CMIP6 results as for different statistics and regions.
 
-  - [**CMIP6 historical simulations**][parallel_cmip6] (updated 6 Oct 2020)
-  - [**CMIP5 historical simulations**][parallel_cmip5] (updated 6 Oct 2020)
+  - [**CMIP6 historical simulations**][parallel_cmip6] (updated 8 Oct 2020)
+  - [**CMIP5 historical simulations**][parallel_cmip5] (updated 8 Oct 2020)
 
 <br/>
 
@@ -68,8 +68,8 @@ Mean state results from the PCMDI Metrics Package (PMP) are used to produce "qui
 [portrait_cmip6_hist_shex_rms_xy]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/portrait_plot/mean_clim/cmip6/historical/v20200617/SHEX/rms_xy/clickable_portrait.html
 [portrait_cmip6_hist_tropics_rms_xy]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/portrait_plot/mean_clim/cmip6/historical/v20200617/TROPICS/rms_xy/clickable_portrait.html
 
-[parallel_cmip6]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/mean_climate/parallel_coordinate/v20201006/cover_cmip6.html
-[parallel_cmip5]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/mean_climate/parallel_coordinate/v20201006/cover_cmip5.html
+[parallel_cmip6]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/mean_climate/parallel_coordinate/v20201008/cover_cmip6.html
+[parallel_cmip5]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/mean_climate/parallel_coordinate/v20201008/cover_cmip5.html
 
 [gleckler2008]: https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2007JD008972
 [taylor2001]: https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2000JD900719
