@@ -5,7 +5,7 @@ title: PCMDI - Metrics
 ###### Research > [Metrics][Metrics] > Benchmarking Precipitation
 ---
 
-# Benchmarking Precipitation
+# Benchmarking Simulated Precipitation
 
 <br/>
 
@@ -109,6 +109,8 @@ Pendergrass, A. P. J. Gleckler, L. Ruby Leung, and C. Jakob, 2020: Benchmarking 
 Perkins, SE, AJ Pitman, NJ Holbrook, and J McAneney. 2007. “Evaluation of the AR4 Climate Models' Simulated Daily Maximum Precipitation over Australia Using Probability Density Functions.” Journal of Climate 20(17): 4356–4376, https://doi.org/10.1175/JCLI4253.1
 
 Tang, S., P. Gleckler, S. Xie, J. Lee, C. Covey, C. Zhang, and M. Ahn, 2020: Evaluating Diurnal and Semi-Diurnal Cycle of Precipitation in CMIP6 Models Using Satellite- and Ground-Based Observations. Submitted to J. Climate.
+
+Trenberth, K. E., Zhang, Y., & Gehne, M. (2017). Intermittency in precipitation: Duration, frequency, intensity, and amounts using hourly data. Journal of Hydrometeorology, 18(5), 1393–1412. https://doi.org/10.1175/JHM-D-16-0263.1
 
 Wehner, M., P Gleckler, J Lee, 2020: Characterization of long period return values of extreme daily temperature and precipitation in the CMIP6 models: Part 1, model evaluation.  Weather and Climate Extremes, 100283, [https://doi.org/10.1016/j.wace.2020.100283](https://doi.org/10.1016/j.wace.2020.100283)
 
