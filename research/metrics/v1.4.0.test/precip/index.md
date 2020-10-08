@@ -75,7 +75,7 @@ alt="PMP EOS article">
 
 ## Extremes  
 
-- [**Precipitation extremes from CMIP5/6**][extreme]
+- [**Precipitation extremes** (CMIP5&6-histotical)][extreme]
 
 <br/>
 
