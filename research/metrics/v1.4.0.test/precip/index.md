@@ -5,7 +5,7 @@ title: PCMDI - Metrics
 ###### Research > [Metrics][Metrics] > Benchmarking Precipitation
 ---
 
-# Benchmarking Precipitation
+# Benchmarking Simulated Precipitation
 
 <br/>
 
