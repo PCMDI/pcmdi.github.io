@@ -13,6 +13,8 @@ title: Physical mean climate and variability
 <br/>
 The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a capability that is used to produce a diverse suite of "quick-look" objective summaries of Earth System Model (ESM) agreement with observations. At PCMDI, we are routinely applying the PMP to multiple generations of CMIP, including the most recent results from CMIP6 as they become available. These results are regularly updated with as additional simulations become available, new analysis are included, and as presentation improvements and corrections are made. All results are version controlled.  The contents are also accessible from the [Coordinated Model Evaluation Capabilities (CMEC) website][cmec].
 
+## Quick-look summary statistics with interactive navigation to underlying diagnostics from which they were derived
+
 - [**Mean Climate**](#mean_clim)
 - [**Benchmarking Precipitation**](#precip)
 - [**El Niño–Southern Oscillation (ENSO)**](#enso)
