@@ -23,15 +23,15 @@ alt="PMP EOS article">
 
 ## Spatial Distribution of Mean State
 
-- [**Taylor diagrams of spatial distribution** (CMIP6)][mean]
+- [**Taylor diagrams of spatial distribution** (CMIP6-histotical)][mean]
 
 <br/>
 
 
 ## Seasonal Cycle
 
-- [**Line graph of domain averaged seasonal cycle with monthly mean** (CMIP6)][Line_SC-1]
-- [**Bar chart of RMS and RMSC for the seasonal cycle** (CMIP6)][Bar_SC-1]
+- [**Line graph of domain averaged seasonal cycle with monthly mean** (CMIP6-histotical)][Line_SC-1]
+- [**Bar chart of RMS and RMSC for the seasonal cycle** (CMIP6-histotical)][Bar_SC-1]
 
 <br/>
 
@@ -42,22 +42,22 @@ alt="PMP EOS article">
 
 ### - Standard deviation at differnt timescales
 
-- [**Bar chart of domain averaged STD across timescales** (CMIP5)][Bar_VAC-1]
-- [**Bar chart of domain averaged STD across timescales** (CMIP6)][Bar_VAC-2]
-- [**Portrait chart of domain averaged STD across timescales** (CMIP5)][Port_VAC-1]
-- [**Portrait chart of domain averaged STD across timescales** (CMIP6)][Port_VAC-2]
+- [**Bar chart of domain averaged STD across timescales** (CMIP5-histotical)][Bar_VAC-1]
+- [**Bar chart of domain averaged STD across timescales** (CMIP6-histotical)][Bar_VAC-2]
+- [**Portrait chart of domain averaged STD across timescales** (CMIP5-histotical)][Port_VAC-1]
+- [**Portrait chart of domain averaged STD across timescales** (CMIP6-histotical)][Port_VAC-2]
 
 
 ### - Diurnal cycle - phase and amplitude
 
-- [**Line graph of domain averaged diurnal cycle** (CMIP6)][Line_DC-1]
-- [**Bar chart of RMS and RMSC for the diurnal cycle** (CMIP6)][Bar_DC-1]
-- [**Bar chart of RMS and RMSC for the diurnal cycle** (CMIP6) (Specific sites used in Fig. 13 of Tang et al. 2020)][Bar_DC-2]
+- [**Line graph of domain averaged diurnal cycle** (CMIP6-amip)][Line_DC-1]
+- [**Bar chart of RMS and RMSC for the diurnal cycle** (CMIP6-amip)][Bar_DC-1]
+- [**Bar chart of RMS and RMSC for the diurnal cycle** (CMIP6-amip) (Specific ARM sites used in Fig. 13 of Tang et al. 2020)][Bar_DC-2]
 
 
 ### - Sub-daily intermittency
 
-- [**Bar chart of domain averaged sub-daily intermittency** (CMIP6)][Bar_SDI-1]
+- [**Bar chart of domain averaged sub-daily intermittency** (CMIP6-amip)][Bar_SDI-1]
 
 <br/>
 
@@ -67,7 +67,7 @@ alt="PMP EOS article">
 
 ### - Unevenness
 
-- [**Bar chart of domain averaged Unevenness** (CMIP6)][Bar_IFD-1]
+- [**Bar chart of domain averaged Unevenness** (CMIP6-histotical)][Bar_IFD-1]
 
 <br/>
 
@@ -75,7 +75,7 @@ alt="PMP EOS article">
 
 ## Extremes  
 
-- [**Precipitation extremes from CMIP5/6**][extreme]
+- [**Precipitation extremes** (CMIP5&6-histotical)][extreme]
 
 <br/>
 
