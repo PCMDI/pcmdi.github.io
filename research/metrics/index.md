@@ -11,7 +11,7 @@ title: Physical mean climate and variability
 # <a name="top"></a>_PCMDI Simulation Summaries (v1.4.0.test)_
 
 <br/>
-The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a capability that can be used to produce a diverse suite of objective summaries of Earth System Model (ESM) agreement with observations. At PCMDI, we are routinely applying the PMP to multiple generations of CMIP, including the most recent results from CMIP6 as they become available. The summaries available below will be regularly updated with new and an expanding set of results. The contents are also accessible from the [Coordinated Model Evaluation Capabilities (CMEC) website][cmec].
+The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a capability that is used to produce a diverse suite of "quick-look" objective summaries of Earth System Model (ESM) agreement with observations. At PCMDI, we are routinely applying the PMP to multiple generations of CMIP, including the most recent results from CMIP6 as they become available. These results are regularly updated with as additional simulations become available, new analysis are included, and as presentation improvements and corrections are made. All results are version controlled.  The contents are also accessible from the [Coordinated Model Evaluation Capabilities (CMEC) website][cmec].
 
 - [**Mean Climate**](#mean_clim)
 - [**Benchmarking Precipitation**](#precip)
@@ -31,7 +31,7 @@ The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a c
 
 ---
 ## <a name="precip"></a>Benchmarking Precipitation ([results][description_precip])
-- Inspired by the outcomes of a [July 2019 DOE workshop][doeworkshop2019] [(Pendergrass, et al., 2019)][pendergrass2020] 
+- These results were inspired by the outcomes of a [July 2019 DOE workshop][doeworkshop2019]. Several teams were established at this workshop with one group tasked to incorporate an initial set of benchmarks into a common analysis framework and applying it to CMIP6 and earlier generations of climate models [(Pendergrass, et al., 2019)][pendergrass2020]. The results presented here illustrate the progress of this benchmarking effort. In parallel, a second group continues to develop exploratory metrics.  Ultimately, this effort aims to provide a guide to modelers as they strive to improve simulated precipitation. 
 
 <p align="right"><a href="#top">Back to List</a></p>
 ---
