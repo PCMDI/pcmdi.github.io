@@ -1,8 +1,7 @@
 ---
 layout: default
-title: Physical mean climate and variability
+title: PCMDI - Metrics
 ---
-
 ###### Research > [Metrics][Metrics]
 ---
 
