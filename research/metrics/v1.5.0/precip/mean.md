@@ -2,7 +2,7 @@
 layout: default
 title: PCMDI - Metrics
 ---
-###### Research > [Metrics][Metrics] > [Benchmarking Precipitation][precip] > Mean State
+###### Research > [Metrics][Metrics] > [Benchmarking Simulated Precipitation][precip] > Mean State
 ---
 
 # Precipitation Mean State
