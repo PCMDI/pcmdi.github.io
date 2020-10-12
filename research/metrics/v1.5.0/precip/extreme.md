@@ -2,7 +2,7 @@
 layout: default
 title: PCMDI - Metrics
 ---
-###### Research > [Metrics][Metrics] > [Benchmarking Precipitation][precip] > Extreme
+###### Research > [Metrics][Metrics] > [Benchmarking Simulated Precipitation][precip] > Extreme
 ---
 
 # Precipitation Extremes 
