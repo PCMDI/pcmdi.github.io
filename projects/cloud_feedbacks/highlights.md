@@ -9,6 +9,8 @@ title: Cloud Feedbacks
 ---
 ## Research Highlights
 
+### 2021
+* Zhou, C., M. D. Zelinka, A. Dessler, and M. Wang, 2021: [Greater Committed Warming After Accounting for the Pattern Effect](https://climatemodeling.science.energy.gov/research-highlights/greater-committed-warming-after-accounting-pattern-effect)
 
 ### 2020
 * Bretherton, C. and P. Caldwell, 2020: [Uncertainty in Future Warming is Reduced by Combining Emergent Constraints](https://climatemodeling.science.energy.gov/research-highlights/uncertainty-future-warming-reduced-combining-emergent-constraints)
