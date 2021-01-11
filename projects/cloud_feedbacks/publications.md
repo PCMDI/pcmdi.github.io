@@ -25,6 +25,8 @@ title: Cloud Feedbacks
   
 * Zelinka, M. D., T. A. Myers, D. T. McCoy, S. Po-Chedley, P. M. Caldwell, P. Ceppi, S. A. Klein, and K. E. Taylor, 2020: Causes of higher climate sensitivity in CMIP6 models, <em>Geophys. Res. Lett.</em>, 47, doi:<a href="http://dx.doi.org/10.1029/2019gl085782" rel="nofollow" target="_blank">10.1029/2019GL085782</a>.
 
+* Zelinka, M. D., M. A. A. Rugenstein, S. A. Klein, 2020: [A more confident view of Earth’s climate sensitivity](https://higherlogicdownload.s3.amazonaws.com/APS/69e619fa-6812-4295-b8b5-b6dfb5ebe1d5/UploadedImages/GPC_newsletter-Oct2020.pdf), <em>American Physical Society Topical Group on the Physics of Climate Newsletter</em>.
+
 * Zhou, C., Y. Hu, J. Lu, and M. D. Zelinka, 2020: Responses of the Hadley Circulation to regional sea surface temperature changes, <em>J. Climate</em>, 33, 429-441, doi:<a href="https://journals.ametsoc.org/doi/abs/10.1175/JCLI-D-19-0315.1" rel="nofollow" target="_blank">10.1175/JCLI-D-19-0315.1</a>.
 
 
