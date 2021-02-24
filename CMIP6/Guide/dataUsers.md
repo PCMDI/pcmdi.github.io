@@ -166,7 +166,7 @@ Information is under preparation describing the governance of the following:
 [BalajiGMD]: https://www.geosci-model-dev-discuss.net/gmd-2018-52/
 [ESGFTutorial]: https://esgf.github.io/esgf-user-support/user_guide.html
 [ESGFTechSupport]: https://esgf-node.llnl.gov/projects/cmip6/contactus/
-[ESGFSearchapi]: https://earthsystemcog.org/projects/cog/esgf_search_restful_api
+[ESGFSearchapi]: https://esgf.github.io/esgf-user-support/user_guide.html#the-esgf-search-restful-api
 [cmip6cite]: https://redmine.dkrz.de/projects/cmip6-lta-and-data-citation/wiki
 [globusHome]: https://globus.org/
 [ES-DOCErrataService]: https://errata.es-doc.org/static/index.html
