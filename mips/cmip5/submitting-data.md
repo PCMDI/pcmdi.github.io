@@ -49,7 +49,7 @@ As with CMIP3, PCMDI is charged with facilitating access to a unified database o
 
  
 
-A single CMIP5 model will typically produce tens of terabytes of the requested standard output [http://cmip-pcmdi.llnl.gov/cmip5/data_description.html][http://cmip-pcmdi.llnl.gov/cmip5/data_description.html], which will all be made available to the scientific community by the ESG Federation.  A substantial fraction of the requested standard output will comprise what is called the “core data” [1] , and this core data, because it is expected to be in relatively high demand, will be replicated, at least at five sites (PCMDI, BADC, WDCC, ANU, and University of Tokyo/JAMSTEC), referred to here as “Core Data Nodes”. The final list of core data is in preparation.
+A single CMIP5 model will typically produce tens of terabytes of the requested standard output [https://pcmdi.llnl.gov/mips/cmip5/data_description.html][https://pcmdi.llnl.gov/mips/cmip5/data_description.html], which will all be made available to the scientific community by the ESG Federation.  A substantial fraction of the requested standard output will comprise what is called the “core data” [1] , and this core data, because it is expected to be in relatively high demand, will be replicated, at least at five sites (PCMDI, BADC, WDCC, ANU, and University of Tokyo/JAMSTEC), referred to here as “Core Data Nodes”. The final list of core data is in preparation.
 
  
 
@@ -76,7 +76,7 @@ Special CMIP5 Data Considerations
 
 ## The complete requirements for preparing CMIP5 output are not included in this document, but notably:
 
-Model output will not be made available until the CMIP5 metadata questionnaire has been completed. The questionnaire will be used to obtain model documentation and also documentation of each simulation performed by the model.  The questionnaire will be linked from the CMIP5 web page at http://cmip-pcmdi.llnl.gov/cmip5/. (The questionnaire is scheduled to be available by December 2009).
+Model output will not be made available until the CMIP5 metadata questionnaire has been completed. The questionnaire will be used to obtain model documentation and also documentation of each simulation performed by the model.  The questionnaire will be linked from the CMIP5 web page at https://pcmdi.llnl.gov/mips/cmip5/. (The questionnaire is scheduled to be available by December 2009).
 The file and directory structure and names must be constructed consistent with the requirements of the “Data Reference Syntax” (DRS).
 (See [cmip5_data_reference_syntax.pdf][docs/cmip5_data_reference_syntax.pdf])
     The data must be written in conformance with CF-metadata standards and the requirements for metadata imposed by CMOR2; it is highly recommended that CMOR2 be used to rewrite model output.
@@ -91,11 +91,11 @@ CMIP5 modeling groups are encouraged to install an ESG Data Node and archive the
 
  
 
-Deploying an ESG Data Node is not difficult and has been completed in one case (involving an amateur user no less) in less than an hour.  The difficulty in installing a Data Node will depend, however, on whether the prerequisite operating system software and support tools have already been installed.  There are also minimum requirements for system hardware capabilities which must be met.  A full description of the procedure and requirements for deploying an ESG data node can be found in a companion document, “Taking Part in ESG: Data Node Installation.” This accompanying document can be on the CMIP5 web page at http://cmip-pcmdi.llnl.gov/cmip5/.
+Deploying an ESG Data Node is not difficult and has been completed in one case (involving an amateur user no less) in less than an hour.  The difficulty in installing a Data Node will depend, however, on whether the prerequisite operating system software and support tools have already been installed.  There are also minimum requirements for system hardware capabilities which must be met.  A full description of the procedure and requirements for deploying an ESG data node can be found in a companion document, “Taking Part in ESG: Data Node Installation.” This accompanying document can be on the CMIP5 web page at https://pcmdi.llnl.gov/mips/cmip5/.
 
  
 
-As model output is produced for each CMIP5 simulation, the modeling group will store it, and after checking it for errors, they will “publish” it to their ESG Data Node, thereby making it visible to the CMIP5 Gateways and enabling its delivery to end-users.  The “publishing” procedure is straightforward and can be scripted, as described in “Publishing Data to the ESG Federation”. (See http://cmip-pcmdi.llnl.gov/cmip5/)
+As model output is produced for each CMIP5 simulation, the modeling group will store it, and after checking it for errors, they will “publish” it to their ESG Data Node, thereby making it visible to the CMIP5 Gateways and enabling its delivery to end-users.  The “publishing” procedure is straightforward and can be scripted, as described in “Publishing Data to the ESG Federation”. (See https://pcmdi.llnl.gov/mips/cmip5/)
 
  
 
@@ -153,7 +153,7 @@ Once a Core Data Center receives model output (directly) from a modeling group, 
 
  
 
-[1] The “core data” will be extracted from all the simulations performed as part of CMIP5, not just output from the so-called “core experiments” referred to in Taylor (2008; http://cmip-pcmdi.llnl.gov/cmip5/docs/Taylor_CMIP5_design.pdf).
+[1] The “core data” will be extracted from all the simulations performed as part of CMIP5, not just output from the so-called “core experiments” referred to in Taylor (2008; https://pcmdi.llnl.gov/mips/cmip5/docs/Taylor_CMIP5_design.pdf).
 
 [2]    For all UK modeling groups, for IPSL, and for EC-Earth, data will be sent to BADC.  For all German modeling groups, WDCC will take the data. BADC and WDCC will ensure the data is then ingested into the ESG federated delivery system.
 
