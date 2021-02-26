@@ -46,7 +46,7 @@ Assessment Report on Climate Change][report], which is scheduled for publication
 </div>
 
 
-[LLNL]: http://www.llnl.gov/
+[LLNL]: https://www.llnl.gov/
 [sf]:   location.html
 [RGCM]: https://science.energy.gov/ber/research/cesd/regional-and-global-modeling/
 [ASR]:  http://asr.science.energy.gov/
