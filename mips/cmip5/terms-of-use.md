@@ -67,7 +67,7 @@ title: PCMDI - CMIP5 Data Access
         <ul>
             <li>
                 <p>
-                    d) I understand that Digital Object Identifiers (DOI’s used, for example, in  journal citations) will be assigned to various subsets of the CMIP5 multi-model dataset, and when available and as appropriate, I will cite these references in my publications.  I will consult the CMIP5 website (<a href="http://cmip-pcmdi.llnl.gov/cmip5/">http://cmip-pcmdi.llnl.gov/cmip5/</a>) to learn how to do this. 
+                    d) I understand that Digital Object Identifiers (DOI’s used, for example, in  journal citations) will be assigned to various subsets of the CMIP5 multi-model dataset, and when available and as appropriate, I will cite these references in my publications.  I will consult the CMIP5 website (<a href="https://pcmdi.llnl.gov/mips/cmip5/">https://pcmdi.llnl.gov/mips/cmip5/</a>) to learn how to do this. 
                 </p>
             </li>
             <li>
@@ -134,7 +134,7 @@ title: PCMDI - CMIP5 Data Access
                 </li>
                 <li>
                     <p>
-                        Require users to agree to the "terms of use" and "acknowledgement" statements found at:  <a href="http://cmip-pcmdi.llnl.gov/cmip5/terms.html">http://cmip-pcmdi.llnl.gov/cmip5/terms.html</a> . 
+                        Require users to agree to the "terms of use" and "acknowledgement" statements found at:  <a href="https://pcmdi.llnl.gov/mips/cmip5/terms.html">https://pcmdi.llnl.gov/mips/cmip5/terms.html</a> . 
                     </p>
                 </li>
                 <li>

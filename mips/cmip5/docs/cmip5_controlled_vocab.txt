@@ -11,7 +11,7 @@ configuration. The components described are:
 - time frequency
 - CMOR table
 
-See http://cmip-pcmdi.llnl.gov/cmip5/docs/cmip5_data_reference_syntax.pdf
+See https://pcmdi.llnl.gov/mips/cmip5/docs/cmip5_data_reference_syntax.pdf
 
 -------------------------------------------------------------------------------------
 Experiment
