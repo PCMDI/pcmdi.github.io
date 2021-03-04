@@ -5,24 +5,12 @@ title: Data Portal
 
 # CMIP5 - Data Access - Data Portal
 
+## CMIP5 (also CMIP3)
 
+The ESGF enterprise system (http://esgf-node.llnl.gov) is the official site for CMIP3/5 model output. The old gateway (http://pcmdi3.llnl.gov) and [Earth System Grid (ESG)](https://esg.llnl.gov:8443/) are deprecated and now shut down permanently. Please send e-mail to esgf-user@lists.llnl.gov to report bugs and provide feedback.
 
-## CMIP5
+The CMIP3/5 Data is available through the portal Earth System Grid Federation COG, on the page <http://esgf-node.llnl.gov/>. 
 
-08/29/2012:      The new ESGF peer-to-peer (P2P) enterprise system (http://esgf-node.llnl.gov) is now the official site for CMIP5 model output. The old gateway (http://pcmdi3.llnl.gov) is deprecated and now shut down permanently. Please send e-mail to esgf-user@lists.llnl.gov to report bugs and provide feedback.
-
-The CMIP5 Data is now available through the new portal, the Earth System Grid - Center for Enabling Technologies (ESG-CET), on the page <http://esgf-node.llnl.gov/> . 
-
-You may search or browse through the Earth System Grid data holdings, but you will need to [create an account](https://esgf-node.llnl.gov/user/add/?next=https://esgf-node.llnl.gov/projects/esgf-llnl/) to download the data.
-
-It is highly recommended that you read the 'Getting started' page first.
+It is highly recommended that you read the User Tutorials and FAQ pages first (linked on the site landing page).
 
 See also [IPCC AR5 timetable](ipcc_ar5_timetable.html) for estimation of due dates for some IPCC"s Fifth Assessment Report (AR5) activities.
-
-
-## CMIP3
-
-If you would like to check the CMIP3 data portal, it is available throught the [Earth System Grid (ESG)](https://esg.llnl.gov:8443/) portal.
-
-You may search or browse through the Earth System Grid data holdings, but [registration](https://esg.llnl.gov:8443/security/accountRequestData.do) **is required to download data**.
-
