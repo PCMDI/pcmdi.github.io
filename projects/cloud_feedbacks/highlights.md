@@ -10,6 +10,8 @@ title: Cloud Feedbacks
 ## Research Highlights
 
 ### 2021
+* Thackeray, C. W., A. Hall, M. D. Zelinka, and C. G. Fletcher, 2021: [Assessing Prior Emergent Constraints on Surface Albedo Feedback in the Latest Earth System Models](https://climatemodeling.science.energy.gov/research-highlights/assessing-prior-emergent-constraints-surface-albedo-feedback-latest-earth-system)
+
 * Zhou, C., M. D. Zelinka, A. Dessler, and M. Wang, 2021: [Greater Committed Warming After Accounting for the Pattern Effect](https://climatemodeling.science.energy.gov/research-highlights/greater-committed-warming-after-accounting-pattern-effect)
 
 ### 2020
