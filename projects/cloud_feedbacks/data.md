@@ -15,3 +15,4 @@ title: Cloud Feedbacks
 * [Cloud Error Metrics](https://github.com/mzelinka/klein2013-cloud-error-metrics) (Klein et al. 2013) 
 * [CMIP5 & CMIP6 Forcings, Feedbacks, and ECS](https://github.com/mzelinka/cmip56_forcing_feedback_ecs) (Zelinka et al. 2020) 
 * [Green's Functions](https://github.com/mzelinka/greens-function) (Zhou et al. 2017) 
+* [Meteorological Cloud Radiative Kernels](https://github.com/tamyers87/meteorological_cloud_radiative_kernels) (Scott et al. 2020)
