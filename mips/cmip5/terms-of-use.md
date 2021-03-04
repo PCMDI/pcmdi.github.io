@@ -8,7 +8,7 @@ title: PCMDI - CMIP5 Data Access
 <div id="main_container">
     <div id="main_text_area">
         <p>     
-            <i>All</i> model output in the CMIP5 archive is available for “non-commercial research and educational purposes.”  A <i> subset (about three-quarters of the models) </i> of the data has also been released for “unrestricted” use, see table in the document "<a href="availability.html">Modeling Groups and their Terms of Use</a>" (<a href="docs/CMIP5_modeling_groups.docx">Word doc</a>) .  Users registering to access CMIP5 output will be granted access to some or all of the data, depending on which of the following terms of use are agreed to: 
+            <i>All</i> model output in the CMIP5 archive is available for “non-commercial research and educational purposes.”  A <i> subset (about three-quarters of the models) </i> of the data has also been released for “unrestricted” use, see table in the document "<a href="availability.html">Modeling Groups and their Terms of Use</a>".  Users registering to access CMIP5 output will be granted access to some or all of the data, depending on which of the following terms of use are agreed to: 
         </p>
         <br>
         <p>Terms of use for data limited to non-commercial research and educational purposes</p>
@@ -67,7 +67,7 @@ title: PCMDI - CMIP5 Data Access
         <ul>
             <li>
                 <p>
-                    d) I understand that Digital Object Identifiers (DOI’s used, for example, in  journal citations) will be assigned to various subsets of the CMIP5 multi-model dataset, and when available and as appropriate, I will cite these references in my publications.  I will consult the CMIP5 website (<a href="http://cmip-pcmdi.llnl.gov/cmip5/">http://cmip-pcmdi.llnl.gov/cmip5/</a>) to learn how to do this. 
+                    d) I understand that Digital Object Identifiers (DOI’s used, for example, in  journal citations) will be assigned to various subsets of the CMIP5 multi-model dataset, and when available and as appropriate, I will cite these references in my publications.  I will consult the CMIP5 website (<a href="https://pcmdi.llnl.gov/mips/cmip5/">https://pcmdi.llnl.gov/mips/cmip5/</a>) to learn how to do this. 
                 </p>
             </li>
             <li>
@@ -134,7 +134,7 @@ title: PCMDI - CMIP5 Data Access
                 </li>
                 <li>
                     <p>
-                        Require users to agree to the "terms of use" and "acknowledgement" statements found at:  <a href="http://cmip-pcmdi.llnl.gov/cmip5/terms.html">http://cmip-pcmdi.llnl.gov/cmip5/terms.html</a> . 
+                        Require users to agree to the "terms of use" and "acknowledgement" statements found at:  <a href="https://pcmdi.llnl.gov/mips/cmip5/terms.html">https://pcmdi.llnl.gov/mips/cmip5/terms.html</a> . 
                     </p>
                 </li>
                 <li>
