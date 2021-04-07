@@ -14,11 +14,11 @@ title: Cloud Feedbacks
 
 * Pihl, E. and co-authors including M. D. Zelinka, 2021: 10 new insights in climate science 2020 - a horizon scan. <em>Global Sustainability</em>, 1-65, doi:[10.1017/sus.2021.2](https://www.cambridge.org/core/journals/global-sustainability/article/10-new-insights-in-climate-science-2020-a-horizon-scan/02F477AAABBD220523748C654EBD6F15).
 
-* Po-Chedley, S., B. D. Santer, S. Fueglistaler, M. D. Zelinka, P. J. Cameron-Smith, J. F. Painter, and Q. Fu, 2021: Natural variability can explain model-satellite differences in tropical tropospheric warming, <em>Proc. Natl. Acad. Sci.</em>, in press.
+* Po-Chedley, S., B. D. Santer, S. Fueglistaler, M. D. Zelinka, P. J. Cameron-Smith, J. F. Painter, and Q. Fu, 2021: Natural variability can explain model-satellite differences in tropical tropospheric warming, <em>Proc. Natl. Acad. Sci.</em>, doi:[10.1073/pnas.2020962118](https://www.pnas.org/content/118/13/e2020962118).
 
 * Thackeray, C. W., A. Hall, M. D. Zelinka, and C. G. Fletcher, 2021: Assessing prior emergent constraints on surface albedo feedback in CMIP6, <em>J. Climate</em>, 34(10), 3889-3905, doi:[10.1175/JCLI-D-20-0703.1](https://journals.ametsoc.org/view/journals/clim/aop/JCLI-D-20-0703.1/JCLI-D-20-0703.1.xml).
 
-* Zhou, C., M. D. Zelinka, A. E. Dessler, and M. Wang, 2021: Greater committed warming after accounting for the SST pattern effect, <em>Nature Clim. Change</em>,11, 132-136, doi:[10.1038/s41558-020-00955-x](https://www.nature.com/articles/s41558-020-00955-x).
+* Zhou, C., M. D. Zelinka, A. E. Dessler, and M. Wang, 2021: Greater committed warming after accounting for the SST pattern effect, <em>Nature Clim. Change</em>, 11, 132-136, doi:[10.1038/s41558-020-00955-x](https://www.nature.com/articles/s41558-020-00955-x).
   
 
 ### 2020
