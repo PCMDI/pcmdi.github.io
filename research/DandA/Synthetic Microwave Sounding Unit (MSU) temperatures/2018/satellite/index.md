@@ -9,7 +9,7 @@ title: PCMDI - 2018 satellite Files
         <h1>Description of Data used in:</h1>
         <h3>Human influence on the seasonal cycle of tropospheric temperature</h3>
     </p>
-    <p><em>(LLNL-MI-######)</em></p>
+    <p><em>(LLNL-IM-######)</em></p>
 </center>
 <br>
 

@@ -8,6 +8,12 @@ title: Detection and Attribution
 
 ---
 
+### 2021
+#### [Natural variability contributes to model-satellite differences in tropical tropospheric warming][PNAS2021]
+> Po-Chedley, S., B. D. Santer, S. Fueglistaler, M. D. Zelinka, P. J. Cameron-Smith, J. F. Painter, Q. Fu, 2021:  Proceedings of the National Academy of Sciences, DOI: [10.1073/pnas.2020962118](http://doi.org/10.1073/pnas.2020962118)
+
+---
+
 ### 2019
 #### [Quantifying stochastic uncertainty in detection time of human-caused climate signals][PNAS2019]
 > Benjamin D. Santer, John C. Fyfe, Susan Solomon, Jeffrey F. Painter, Céline Bonfils, Giuliana Pallotta, Mark D. Zelinka 
@@ -63,3 +69,4 @@ To download the data used in the above article and read about the details on the
 [msu2018]: {{site.url}}/research/DandA/Synthetic%20Microwave%20Sounding%20Unit%20(MSU)%20temperatures/2018/index.html
 [NG2017]: {{site.url}}/research/DandA/Synthetic%20Microwave%20Sounding%20Unit%20(MSU)%20temperatures/2017/Nature_Geoscience/index.html
 [PNAS2019]: {{site.url}}/research/DandA/PNAS_2019/index.html
+[PNAS2021]: {{site.url}}/research/DandA/PNAS_2021/index.html

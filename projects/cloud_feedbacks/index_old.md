@@ -515,7 +515,7 @@ target="_blank"> Ocean clouds obscure warming's fate, create
 
 <!-- 2011--> 
 
-<li> <a href="http://www.llnl.gov/news/newsreleases/2011/Oct/NR-11-10-06.html"
+<li> <a href="https://www.llnl.gov/news/newsreleases/2011/Oct/NR-11-10-06.html"
 rel="nofollow" target="_blank"> New tool clears the air on cloud
 simulations </a> (October 2011, <em>LLNL</em>) </li> 
 
