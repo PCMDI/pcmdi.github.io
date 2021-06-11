@@ -8,17 +8,19 @@ title: Physical mean climate and variability
 
 # CMIP mean state and variability
 ---
-# <a name="top"></a>_PCMDI Simulation Summaries (v1.4.0)_
+# <a name="top"></a>_PCMDI Simulation Summaries (v1.4.0.test)_
 
 <br/>
-The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a capability that can be used to produce a diverse suite of objective summaries of Earth System Model (ESM) agreement with observations. At PCMDI, we are routinely applying the PMP to multiple generations of CMIP, including the most recent results from CMIP6 as they become available. The summaries available below will be regularly updated with new and an expanding set of results. The contents are also accessible from the [Coordinated Model Evaluation Capabilities (CMEC) website][cmec].
+The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a capability that is used to produce a diverse suite of "quick-look" objective summaries of Earth System Model (ESM) agreement with observations. At PCMDI, we are routinely applying the PMP to multiple generations of CMIP, including the most recent results from CMIP6 as they become available. These results are regularly updated with as additional simulations become available, new analysis are included, and as presentation improvements and corrections are made. All results are version controlled.  The contents are also accessible from the [Coordinated Model Evaluation Capabilities (CMEC) website][cmec].
+
+## Quick-look summary statistics with interactive navigation to underlying diagnostics 
 
 - [**Mean Climate**](#mean_clim)
+- [**Benchmarking Precipitation**](#precip)
 - [**El Niño–Southern Oscillation (ENSO)**](#enso)
 - [**Extratropical Modes of Variability**](#variability_modes)
 - [**Madden-Julian Oscillation (MJO)**](#mjo)
-- [**Monsoon Precipitation: Fractional Accumulation**](#monsoon)
-- [**Benchmarking Precipitation**](#precip)
+- [**Monsoon characteristics (example)**](#monsoon)
 - [_Update history_](#updates)
 
 <br/>
@@ -29,6 +31,11 @@ The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a c
 
 <p align="right"><a href="#top">Back to List</a></p>
 
+---
+## <a name="precip"></a>Benchmarking Precipitation ([results][description_precip])
+- These results were inspired by the outcomes of a [July 2019 DOE workshop][doeworkshop2019]. Several teams were established at this workshop with one group tasked to incorporate an initial set of benchmarks into a common analysis framework and applying it to CMIP6 and earlier generations of climate models [(Pendergrass, et al., 2019)][pendergrass2020]. The results presented here illustrate the progress of this benchmarking effort. In parallel, a second group continues to develop exploratory metrics.  Ultimately, this effort aims to provide a guide to modelers as they strive to improve simulated precipitation. 
+
+<p align="right"><a href="#top">Back to List</a></p>
 
 ---
 
@@ -52,14 +59,8 @@ The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a c
 <p align="right"><a href="#top">Back to List</a></p>
 
 ---
-## <a name="monsoon"></a>Monsoon Precipitation: Fractional Accumulation ([results][description_monsoon])
+## <a name="monsoon"></a>Monsoon characteristics (example) ([results][description_monsoon])
 - Based on the work of [Sperber and Annamalai (2014)][sperber2004], we present skill metrics that indicate how well models simulate the _onset, decay, and duration of monsoon_ based on the analysis of climatological pentads of precipitation. Using Historical simulations, the results are based on area-averaged data for All-India Rainfall (AIR), Sahel, Gulf of Guinea (GoG), North American Monsoon (NAM), South American Monsoon (SAM), and Northern Australia (AUS). 
-
-<p align="right"><a href="#top">Back to List</a></p>
-
----
-## <a name="precip"></a>Benchmarking Precipitation ([results][description_precip])
-- Based on the work of .... 
 
 <p align="right"><a href="#top">Back to List</a></p>
 
@@ -116,6 +117,8 @@ The efforts of the authors are supported by the [Regional and Global Climate Mod
 [Bellenger2014]: https://doi.org/10.1007/s00382-013-1783-z
 [gleckler2008]: https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2007JD008972
 [taylor2001]: https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2000JD900719
+[pendergrass2020]: https://doi.org/10.1175/BAMS-D-19-0318.1
+[doeworkshop2019]: https://climatemodeling.science.energy.gov/news/doe-hosts-precipitation-metrics-workshop
 
 [Metrics]:{{site.baseurl}}/research/metrics/
 

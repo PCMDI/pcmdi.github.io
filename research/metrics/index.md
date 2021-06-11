@@ -8,14 +8,22 @@ title: Physical mean climate and variability
 
 # CMIP mean state and variability
 ---
+<<<<<<< HEAD
 # <a name="top"></a>_PCMDI Simulation Summaries (v1.5.0)_
 
 <br/>
 The PCMDI Metrics Package ([PMP][pmp]) is a capability that is used to produce a diverse suite of "quick-look" objective summaries of Earth System Model (ESM) agreement with observations. The [PMP][pmp] is routinely applied to multiple generations of CMIP, including the most recent results from CMIP6 as they become available. These results are regularly updated as additional simulations become available, new analysis are included, and as presentation improvements and corrections are made. All results are version controlled.  The contents are also accessible from the [Coordinated Model Evaluation Capabilities (CMEC) website][cmec].
+=======
+# <a name="top"></a>_PCMDI Simulation Summaries (v1.4.0.test)_
+
+<br/>
+The [PCMDI Metrics Package (PMP)](https://github.com/PCMDI/pcmdi_metrics) is a capability that is used to produce a diverse suite of "quick-look" objective summaries of Earth System Model (ESM) agreement with observations. At PCMDI, we are routinely applying the PMP to multiple generations of CMIP, including the most recent results from CMIP6 as they become available. These results are regularly updated with as additional simulations become available, new analysis are included, and as presentation improvements and corrections are made. All results are version controlled.  The contents are also accessible from the [Coordinated Model Evaluation Capabilities (CMEC) website][cmec].
+>>>>>>> 7054808a671ed77b8a5d911f34c0188ffb7e6840
 
 ## Quick-look summary statistics with interactive navigation to underlying diagnostics 
 
 - [**Mean Climate**](#mean_clim)
+<<<<<<< HEAD
 - [**Benchmarking Simulated Precipitation**](#precip)
 - [**El Niño–Southern Oscillation (ENSO)**](#enso)
 - [**Extratropical Modes of Variability**](#variability_modes)
@@ -26,6 +34,13 @@ The PCMDI Metrics Package ([PMP][pmp]) is a capability that is used to produce a
 =======
 - [**Monsoon Characteristics (example)**](#monsoon)
 >>>>>>> upstream/master
+=======
+- [**Benchmarking Precipitation**](#precip)
+- [**El Niño–Southern Oscillation (ENSO)**](#enso)
+- [**Extratropical Modes of Variability**](#variability_modes)
+- [**Madden-Julian Oscillation (MJO)**](#mjo)
+- [**Monsoon characteristics (example)**](#monsoon)
+>>>>>>> 7054808a671ed77b8a5d911f34c0188ffb7e6840
 - [_Update history_](#updates)
 
 <br/>
@@ -36,6 +51,15 @@ The PCMDI Metrics Package ([PMP][pmp]) is a capability that is used to produce a
 
 <p align="right"><a href="#top">Back to List</a></p>
 
+<<<<<<< HEAD
+=======
+---
+## <a name="precip"></a>Benchmarking Precipitation ([results][description_precip])
+- These results were inspired by the outcomes of a [July 2019 DOE workshop][doeworkshop2019]. Several teams were established at this workshop with one group tasked to incorporate an initial set of benchmarks into a common analysis framework and applying it to CMIP6 and earlier generations of climate models [(Pendergrass, et al., 2019)][pendergrass2020]. The results presented here illustrate the progress of this benchmarking effort. In parallel, a second group continues to develop exploratory metrics.  Ultimately, this effort aims to provide a guide to modelers as they strive to improve simulated precipitation. 
+
+<p align="right"><a href="#top">Back to List</a></p>
+
+>>>>>>> 7054808a671ed77b8a5d911f34c0188ffb7e6840
 ---
 ## <a name="precip"></a>Benchmarking Simulated Precipitation ([results][description_precip])
 - These results were inspired by the outcomes of a [July 2019 DOE workshop][doeworkshop2019]. Several teams were established at this workshop with one group tasked to incorporate an initial set of benchmarks into a common analysis framework and applying it to CMIP6 and earlier generations of climate models ([Pendergrass, et al., 2019][pendergrass2020]). The results presented here illustrate the progress of this benchmarking effort. In parallel, a second group continues to develop exploratory metrics.  Ultimately, this effort aims to provide a guide to modelers as they strive to improve simulated precipitation.
@@ -62,14 +86,12 @@ The PCMDI Metrics Package ([PMP][pmp]) is a capability that is used to produce a
 <p align="right"><a href="#top">Back to List</a></p>
 
 ---
+<<<<<<< HEAD
 ## <a name="monsoon"></a>Monsoon Characteristics (example) ([results][description_monsoon])
+=======
+## <a name="monsoon"></a>Monsoon characteristics (example) ([results][description_monsoon])
+>>>>>>> 7054808a671ed77b8a5d911f34c0188ffb7e6840
 - Based on the work of [Sperber and Annamalai (2014)][sperber2004], we present skill metrics that indicate how well models simulate the _onset, decay, and duration of monsoon_ based on the analysis of climatological pentads of precipitation. Using Historical simulations, the results are based on area-averaged data for All-India Rainfall (AIR), Sahel, Gulf of Guinea (GoG), North American Monsoon (NAM), South American Monsoon (SAM), and Northern Australia (AUS). 
-
-<p align="right"><a href="#top">Back to List</a></p>
-
----
-## <a name="precip"></a>Benchmarking Precipitation ([results][description_precip])
-- Based on the work of .... 
 
 <p align="right"><a href="#top">Back to List</a></p>
 
