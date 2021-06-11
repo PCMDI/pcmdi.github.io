@@ -37,22 +37,27 @@ alt="PMP EOS article">
 
 
 
-## Variability Across Timescales 
-(Sub-daily, Daily, Monthly, 3-Monthly, Yearly, and 3-Yearly)
+## Variability Across Timescales (from Sub-daily to Interannual) 
 
-### - Standard deviation at differnt timescales
+### - Standard deviation at differnt timescales 
 
-- [**Bar chart of domain averaged STD across timescales** (CMIP5-histotical)][Bar_VAC-1]
-- [**Bar chart of domain averaged STD across timescales** (CMIP6-histotical)][Bar_VAC-2]
-- [**Portrait chart of domain averaged STD across timescales** (CMIP5-histotical)][Port_VAC-1]
-- [**Portrait chart of domain averaged STD across timescales** (CMIP6-histotical)][Port_VAC-2]
+- [**Bar chart of domain averaged STD** (CMIP5-histotical)][Bar_VAC-1]
+- [**Bar chart of domain averaged STD** (CMIP6-histotical)][Bar_VAC-2]
+- [**Portrait chart of domain averaged STD** (CMIP5-histotical)][Port_VAC-1]
+- [**Portrait chart of domain averaged STD** (CMIP6-histotical)][Port_VAC-2]
+
+
+### - Spectral power at differnt timescales 
+
+- [**Portrait chart of domain and frequency averaged spectral power** (CMIP5-histotical)][Port_PS-1]
+- [**Portrait chart of domain and frequency averaged spectral power** (CMIP6-histotical)][Port_PS-2]
 
 
 ### - Diurnal cycle - phase and amplitude
 
 - [**Line graph of domain averaged diurnal cycle** (CMIP6-amip)][Line_DC-1]
 - [**Bar chart of RMS and RMSC for the diurnal cycle** (CMIP6-amip)][Bar_DC-1]
-- [**Bar chart of RMS and RMSC for the diurnal cycle** (CMIP6-amip) (Specific ARM sites used in Fig. 13 of Tang et al. 2020)][Bar_DC-2]
+- [**Bar chart of RMS and RMSC for the diurnal cycle** (CMIP6-amip) (Specific ARM sites used in Fig. 10 of Tang et al. 2021)][Bar_DC-2]
 
 
 ### - Sub-daily intermittency
@@ -94,6 +99,8 @@ Comming soon:  Frequency of SPI spells and consecutive dry days.
 <br/>
 
 
+Ahn, Min-Seop, Peter J. Gleckler, Jiwoo Lee, Angeline G. Pendergrass, and Christian Jakob: Benchmarking Simulated Precipitation Variability across Timescales, in preparation
+
 Covey, C, PJ Gleckler, C Doutriaux, DN Williams, A Dai, J Fasullo, K Trenberth, and  A Berg. 2016. ”Metrics for the diurnal cycle of precipitation: Toward routine benchmarks for climate models.”  Journal of Climate 29(12): 4461–4471,  https://doi.org/10.1175/JCLI-D-15-0664.1
 
 Covey, C, C Doutriaux, PJ Gleckler, KE Taylor, KE Trenberth, and Y Zhang. 2018. “High-frequency intermittency in observed and model-simulated precipitation.” Geophysical Research Letters 45(22), https://doi.org/10.1029/2018GL078926
@@ -108,7 +115,7 @@ Pendergrass, A. P. J. Gleckler, L. Ruby Leung, and C. Jakob, 2020: Benchmarking 
 
 Perkins, SE, AJ Pitman, NJ Holbrook, and J McAneney. 2007. “Evaluation of the AR4 Climate Models' Simulated Daily Maximum Precipitation over Australia Using Probability Density Functions.” Journal of Climate 20(17): 4356–4376, https://doi.org/10.1175/JCLI4253.1
 
-Tang, S., P. Gleckler, S. Xie, J. Lee, C. Covey, C. Zhang, and M. Ahn, 2020: Evaluating Diurnal and Semi-Diurnal Cycle of Precipitation in CMIP6 Models Using Satellite- and Ground-Based Observations. Submitted to J. Climate.
+Tang, S., P. Gleckler, S. Xie, J. Lee, M.-S. Ahn, C. Covey, and C. Zhang, 2021: Evaluating Diurnal and Semi-Diurnal Cycle of Precipitation in CMIP6 Models Using Satellite- and Ground-Based Observations. J. Clim., 1–56, https://doi.org/10.1175/JCLI-D-20-0639.1.
 
 Trenberth, K. E., Zhang, Y., & Gehne, M. (2017). Intermittency in precipitation: Duration, frequency, intensity, and amounts using hourly data. Journal of Hydrometeorology, 18(5), 1393–1412. https://doi.org/10.1175/JHM-D-16-0263.1
 
@@ -122,6 +129,9 @@ Wehner, M., P Gleckler, J Lee, 2020: Characterization of long period return valu
 [Bar_VAC-2]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/precip/variability_across_timescales/STD_across_timescales/pr_STD.amean_interactive_regrid.180x90_cmip6.html
 [Port_VAC-1]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/precip/variability_across_timescales/STD_across_timescales/pr_STD.amean_portrait_interactive_regrid.180x90_cmip5.html
 [Port_VAC-2]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/precip/variability_across_timescales/STD_across_timescales/pr_STD.amean_portrait_interactive_regrid.180x90_cmip6.html
+
+[Port_PS-1]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/precip/variability_across_timescales/PS_across_timescales/portrait_PS_pr.3hr_ratio_regrid.180x90_cmip5_ensmean_obsmean_woSD_interactive.html
+[Port_PS-2]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/precip/variability_across_timescales/PS_across_timescales/portrait_PS_pr.3hr_ratio_regrid.180x90_cmip6_ensmean_obsmean_woSD_interactive.html
 
 [Line_DC-1]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/precip/variability_across_timescales/diurnal_cycle/pr_diurnal.cycle_all.loc.mod_interactive.html
 [Bar_DC-1]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/precip/variability_across_timescales/diurnal_cycle/pr_diurnal.cycle_rms.bar_all.loc.mod_interactive.html
