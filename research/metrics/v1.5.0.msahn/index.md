@@ -7,7 +7,7 @@ title: PCMDI - Metrics
 
 # CMIP mean state and variability
 ---
-# <a name="top"></a>_PCMDI Simulation Summaries (v1.5.0)_
+# <a name="top"></a>_PCMDI Simulation Summaries (v1.5.0.msahn.update)_
 
 <br/>
 The PCMDI Metrics Package ([PMP][pmp]) is a capability that is used to produce a diverse suite of "quick-look" objective summaries of Earth System Model (ESM) agreement with observations. The [PMP][pmp] is routinely applied to multiple generations of CMIP, including the most recent results from CMIP6 as they become available. These results are regularly updated as additional simulations become available, new analysis are included, and as presentation improvements and corrections are made. All results are version controlled.  The contents are also accessible from the [Coordinated Model Evaluation Capabilities (CMEC) website][cmec].
@@ -39,7 +39,7 @@ The PCMDI Metrics Package ([PMP][pmp]) is a capability that is used to produce a
 ---
 ## <a name="enso"></a>El Niño-Southern Oscillation ([results][description_enso])
 
-- El Niño-Southern Oscillation (ENSO) is the dominant mode of interannual variability in the tropical Pacific and has far reaching impacts on global climate. It is there therefore key to ensure its correct simulation in state-of-the-art climate models. Community-wide synthesis of metrics to evaluate the performance, teleconnections and processes of ENSO in coupled GCMs is proposed by the ENSO working group of the [International CLIVAR Pacific panel][clivar_pacific]. The corresponding objective comparisons of simulations against observations shown here result from a collaboration between scientists at [Institut Pierre Simon Laplace (IPSL)][ipsl] and [PCMDI][pcmdi]. This effort strives to improve and expand upon the ENSO model performance tests proposed by [Bellenger et al. (2014)][Bellenger2014] for CMIP5. The metrics are demonstrated through application to the CMIP archive following works of Planton et al. (2020, BAMS, under review).
+- El Niño-Southern Oscillation (ENSO) is the dominant mode of interannual variability in the tropical Pacific and has far reaching impacts on global climate. It is there therefore key to ensure its correct simulation in state-of-the-art climate models. Community-wide synthesis of metrics to evaluate the performance, teleconnections and processes of ENSO in coupled GCMs is proposed by the ENSO working group of the [International CLIVAR Pacific panel][clivar_pacific]. The corresponding objective comparisons of simulations against observations shown here result from a collaboration between scientists at [Institut Pierre Simon Laplace (IPSL)][ipsl] and [PCMDI][pcmdi]. This effort strives to improve and expand upon the ENSO model performance tests proposed by [Bellenger et al. (2014)][Bellenger2014] for CMIP5. The metrics are demonstrated through application to the CMIP archive following works of Planton et al. (2020, BAMS, under review).
 
 <p align="right"><a href="#top">Back to List</a></p>
 
