@@ -36,17 +36,6 @@ Questions or comments about the PCMDI Simulation Summaries should be sent to the
 
 The efforts of the authors are supported by the [Regional and Global Climate Modeling Program][RGMA] of the [United States Department of Energy's Office of Science][DOEOS]. This work is funded by the Climate and Environmental Sciences Division of the DOE Office of Science and is performed under the auspices of the U.S. Department of Energy by [Lawrence Livermore National Laboratory][LLNL] under contract DE-AC52-07NA27344. LLNL-WEB-812310
 
-[latest]: {{site.baseurl}}/research/metrics/
-
-[lee2019]: https://link.springer.com/article/10.1007/s00382-018-4355-4
-[sperber2004]: https://doi.org/10.1007/s00382-014-2099-3
-[ahn2017]: https://doi.org/10.1007/s00382-017-3558-4
-[Bellenger2014]: https://doi.org/10.1007/s00382-013-1783-z
-[gleckler2008]: https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2007JD008972
-[taylor2001]: https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2000JD900719
-[pendergrass2020]: https://doi.org/10.1175/BAMS-D-19-0318.1
-[doeworkshop2019]: https://climatemodeling.science.energy.gov/news/doe-hosts-precipitation-metrics-workshop
-
 [Metrics]:{{site.baseurl}}/research/metrics/
 
 [RGMA]: https://climatemodeling.science.energy.gov/program/regional-global-model-analysis
