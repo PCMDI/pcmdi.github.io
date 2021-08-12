@@ -15,7 +15,7 @@ The PCMDI Metrics Package ([PMP][pmp]) is a capability that is used to produce a
 
 <br/>
 
-**The contents are accessible from the [Coordinated Model Evaluation Capabilities (CMEC) website][cmec].**
+**All results are accessible from the [Coordinated Model Evaluation Capabilities (CMEC) website][cmec].**
 
 
 ---
