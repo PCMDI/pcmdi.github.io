@@ -14,23 +14,7 @@ title: Physical mean climate and variability
 The PCMDI Metrics Package ([PMP][pmp]) is a capability that is used to produce a diverse suite of "quick-look" objective summaries of Earth System Model (ESM) agreement with observations. The [PMP][pmp] is routinely applied to multiple generations of CMIP, including the most recent results from CMIP6 as they become available. These results are regularly updated as additional simulations become available, new analysis are included, and as presentation improvements and corrections are made. 
 <br/>
 
-**All results are accessible from the [Coordinated Model Evaluation Capabilities (CMEC) website][cmec].**
-
----
-## <a name="updates"></a>Update History
-- 2020-10-08: Precipitation benchmarking newly added and Mean climate parallel coordinate and portrait plots updated.
-- 2020-07-20: MJO metrics with recent CMIP6 results
-- 2020-07-10: ENSO Metrics updated with Interactive Portrait Plot with recent CMIP6 results
-- 2020-06-19: Mean climate summaries updated with recent CMIP6 results with OBS info updated using PCMDIobs2
-- 2019-10-07: Mean climate summaries updated with recent CMIP6 results
-- 2019-09-06: ENSO metrics added
-- 2019-08-29: Mean climate metrics added
-- 2019-07-18: MJO metrics added
-- 2019-06-20: Initial public release
-- 2019-06-18: Monsoon precipitation onset, decay, and duration (CMIP5) added
-- 2019-05-31: Test release: Extratropical Modes of Variability (CMIP5 and CMIP6)
-
-<p align="right"><a href="#top">Back to List</a></p>
+**Results are accessible from the [Coordinated Model Evaluation Capabilities (CMEC) website][cmec].**
 
 ---
 
