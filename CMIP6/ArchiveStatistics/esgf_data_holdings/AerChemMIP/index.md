@@ -3,7 +3,7 @@ layout: default
 title: ESGF CMIP6 AerChemMIP Data Holdings
 ---
 
-## ESGF CMIP6 AerChemMIP Data Holdings
+# ESGF CMIP6 AerChemMIP Data Holdings
 
 [Print-Friendly View](print_view.html)
 
