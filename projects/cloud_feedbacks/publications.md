@@ -10,11 +10,20 @@ title: Cloud Feedbacks
 ## Publications
 
 ### 2021
+
+* Hahn L. C., K. C. Armour, M. D. Zelinka, C. M. Bitz, and A. Donohoe, 2021: Contributions to Polar Amplification in CMIP5 and CMIP6 Models. <em>Front. Earth Sci.</em> 9:710036. doi:[10.3389/feart.2021.710036](https://www.frontiersin.org/articles/10.3389/feart.2021.710036/full).
+
+* Ma, H.-Y., et al. including S. A. Klein and M. D. Zelinka, 2021: A multi-year short-range hindcast experiment with CESM1 for evaluating climate model moist processes from diurnal to interannual timescales, </em>Geosci. Model Dev.</em>, 14, 73–90, doi:[10.5194/gmd-14-73-2021](https://gmd.copernicus.org/articles/14/73/2021/#section9).
+
+* Myers, T. A., R. C. Scott, M. D. Zelinka, S. A. Klein, J. R. Norris, and P. M. Caldwell, 2021: Observational Constraints on Low Cloud Feedback Reduce Uncertainty of Climate Sensitivity, <em>Nature Clim. Change</em>, doi:[10.1038/s41558-021-01039-0](https://www.nature.com/articles/s41558-021-01039-0).
+
 * Norris, J., Hall, A., Neelin, J. D., Thackeray, C. W., & Chen, D., 2021: Evaluation of the Tail of the Probability Distribution of Daily and Subdaily Precipitation in CMIP6 Models, <em>J. Climate</em>, 34(7), 2701-2721, doi:[10.1175/JCLI-D-20-0182.1](https://journals.ametsoc.org/view/journals/clim/aop/JCLI-D-20-0182.1/JCLI-D-20-0182.1.xml)
 
-* Pihl, E. and co-authors including M. D. Zelinka, 2021: 10 new insights in climate science 2020 - a horizon scan. <em>Global Sustainability</em>, 1-65, doi:[10.1017/sus.2021.2](https://www.cambridge.org/core/journals/global-sustainability/article/10-new-insights-in-climate-science-2020-a-horizon-scan/02F477AAABBD220523748C654EBD6F15).
+* Pihl, E. et al. including M. D. Zelinka, 2021: 10 new insights in climate science 2020 - a horizon scan. <em>Global Sustainability</em>, 1-65, doi:[10.1017/sus.2021.2](https://www.cambridge.org/core/journals/global-sustainability/article/10-new-insights-in-climate-science-2020-a-horizon-scan/02F477AAABBD220523748C654EBD6F15).
 
 * Po-Chedley, S., B. D. Santer, S. Fueglistaler, M. D. Zelinka, P. J. Cameron-Smith, J. F. Painter, and Q. Fu, 2021: Natural variability can explain model-satellite differences in tropical tropospheric warming, <em>Proc. Natl. Acad. Sci.</em>, doi:[10.1073/pnas.2020962118](https://www.pnas.org/content/118/13/e2020962118).
+
+* Santer, B. D., et al. including M. D. Zelinka, 2021: Using climate model simulations to constrain observations, <em>J. Climate</em>, doi:[10.1175/JCLI-D-20-0768.1](https://journals.ametsoc.org/view/journals/clim/aop/JCLI-D-20-0768.1/JCLI-D-20-0768.1.xml).
 
 * Thackeray, C. W., A. Hall, M. D. Zelinka, and C. G. Fletcher, 2021: Assessing prior emergent constraints on surface albedo feedback in CMIP6, <em>J. Climate</em>, 34(10), 3889-3905, doi:[10.1175/JCLI-D-20-0703.1](https://journals.ametsoc.org/view/journals/clim/aop/JCLI-D-20-0703.1/JCLI-D-20-0703.1.xml).
 
@@ -25,11 +34,11 @@ title: Cloud Feedbacks
   
 * Bretherton, C. S., and P. M. Caldwell, 2020: Combining Emergent Constraints for Climate Sensitivity, <em>J. Climate</em>, 33, 7413–7430, doi:[10.1175/JCLI-D-19-0911.1](https://doi.org/10.1175/JCLI-D-19-0911.1).  
 
+* Dong, Y. K. C. Armour, M. D. Zelinka, C. Proistosescu, D. S. Battisti, C. Zhou, and T. Andrews, 2020: Inter-model spread in the pattern effect and its contribution to climate sensitivity in CMIP5 and CMIP6 models, <em>J. Climate</em>, 33, 7755–7775, doi:[10.1175/JCLI-D-19-1011.1](https://journals.ametsoc.org/jcli/article/doi/10.1175/JCLI-D-19-1011.1/348590/Inter-model-spread-in-the-pattern-effect-and-its).  
+ 
 * Scott, R. C., T. A. Myers, J. R. Norris, M. D. Zelinka, S. A. Klein, M. Sun, and D. R. Doelling, 2020: Observed Sensitivity of Low Cloud Radiative Effects to Meteorological Perturbations over the Global Oceans, <em>J. Climate</em>, 33, 7717–7734, doi:[10.1175/JCLI-D-19-1028.1](https://journals.ametsoc.org/jcli/article/doi/10.1175/JCLI-D-19-1028.1/348639/Observed-Sensitivity-of-Low-Cloud-Radiative).
 
 * Sherwood, S., et al. including S. A. Klein and M. D. Zelinka, 2020: An assessment of Earth's climate sensitivity using multiple lines of evidence, <em>Rev. Geophys.</em>, 58, e2019RG000678, doi:[10.1029/2019RG000678](https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2019RG000678).
-
-* Dong, Y. K. C. Armour, M. D. Zelinka, C. Proistosescu, D. S. Battisti, C. Zhou, and T. Andrews, 2020: Inter-model spread in the pattern effect and its contribution to climate sensitivity in CMIP5 and CMIP6 models, <em>J. Climate</em>, 33, 7755–7775, doi:[10.1175/JCLI-D-19-1011.1](https://journals.ametsoc.org/jcli/article/doi/10.1175/JCLI-D-19-1011.1/348590/Inter-model-spread-in-the-pattern-effect-and-its).  
   
 * Zelinka, M. D., T. A. Myers, D. T. McCoy, S. Po-Chedley, P. M. Caldwell, P. Ceppi, S. A. Klein, and K. E. Taylor, 2020: Causes of higher climate sensitivity in CMIP6 models, <em>Geophys. Res. Lett.</em>, 47, doi:<a href="http://dx.doi.org/10.1029/2019gl085782" rel="nofollow" target="_blank">10.1029/2019GL085782</a>.
 
