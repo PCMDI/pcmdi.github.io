@@ -10,7 +10,19 @@ title: Cloud Feedbacks
 ## Research Highlights
 
 ### 2021
+* Hahn, L., K. Armour, M. D. Zelinka, C. Bitz, and A. Donohoe, 2021: [Causes of Polar Amplification in Earth System Models](https://climatemodeling.science.energy.gov/research-highlights/causes-polar-amplification-earth-system-models)
+
+* Myers, T. A., R. C. Scott, M. D. Zelinka, S. A. Klein, J. R. Norris, and P. M. Caldwell, 2021: [Observational Constraints on Low Cloud Feedback Reduce Uncertainty of Climate Sensitivity](https://climatemodeling.science.energy.gov/research-highlights/observational-constraints-low-cloud-feedback-reduce-uncertainty-climate)
+
+* Norris, J., A. Hall, J. D. Neelin, C. W. Thackeray, & D. Chen, 2021: [Climate Models Simulate Extreme Precipitation With Sharply Contrasting Physical Mechanisms](https://climatemodeling.science.energy.gov/research-highlights/climate-models-simulate-extreme-precipitation-sharply-contrasting-physical)
+
+* Norris, J, A Hall, D Chen, C Thackeray, and G Madakumbura, 2021: [Climate Models Underestimate Diversity of Synoptic Conditions Associated With Extreme Precipitation Over California](https://climatemodeling.science.energy.gov/research-highlights/climate-models-underestimate-diversity-synoptic-conditions-associated-extreme)
+
+* Pihl, E., et al. including M. D. Zelinka, 2021: [New Insights in Climate Science in 2020](https://climatemodeling.science.energy.gov/research-highlights/new-insights-climate-science-2020)
+
 * Thackeray, C. W., A. Hall, M. D. Zelinka, and C. G. Fletcher, 2021: [Assessing Prior Emergent Constraints on Surface Albedo Feedback in the Latest Earth System Models](https://climatemodeling.science.energy.gov/research-highlights/assessing-prior-emergent-constraints-surface-albedo-feedback-latest-earth-system)
+
+* Williamson, M. S., C. W. Thackeray, P. M. Cox, A. Hall, C. Huntingford, and F. J. Nijsse, 2021: [Emergent Constraints on Climate Sensitivities](https://climatemodeling.science.energy.gov/research-highlights/emergent-constraints-climate-sensitivities)
 
 * Zhou, C., M. D. Zelinka, A. Dessler, and M. Wang, 2021: [Greater Committed Warming After Accounting for the Pattern Effect](https://climatemodeling.science.energy.gov/research-highlights/greater-committed-warming-after-accounting-pattern-effect)
 
