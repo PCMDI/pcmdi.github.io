@@ -8,7 +8,16 @@ title: PCMDI - CMIP5 Data Access
 <div id="main_container">
     <div id="main_text_area">
         <p>
-            <i><b>Updated May 2020:</b></i> All CMIP5 model output is now available without restriction, and there is no requirement to register for access or to use these data (please disregard the obsolete references below). The latest CMIP5 datasets available can be downloaded from <a href=https://esgf-node.llnl.gov/search/cmip5/>https://esgf-node.llnl.gov/search/cmip5</a>.
+            <i><b>Updated May 2020:</b></i> All CMIP5 model output is now
+            available without restriction, and there is no requirement to
+            register for access or to use these data (please disregard the
+            obsolete references below). The latest CMIP5 datasets available
+            can be downloaded from <a href=https://esgf-node.llnl.gov/search/cmip5/>https://esgf-node.llnl.gov/search/cmip5</a>.
+            When using any CMIP3, 5 or 6 dataset, we recommend that the
+            citation and acknowledgement guidance that is documented on the
+            <a href=https://pcmdi.llnl.gov/CMIP6/TermsOfUse/>https://pcmdi.llnl.gov/CMIP6/TermsOfUse/</a>
+            page is followed, however with references amended to accurately
+            reflect the contributing model, institution and CMIP era.
         </p>
         <p>
             <i>All</i> model output in the CMIP5 archive is available for “non-commercial research and educational purposes.”  A <i> subset (about three-quarters of the models) </i> of the data has also been released for “unrestricted” use, see table in the document "<a href="availability.html">Modeling Groups and their Terms of Use</a>".  Users registering to access CMIP5 output will be granted access to some or all of the data, depending on which of the following terms of use are agreed to:
