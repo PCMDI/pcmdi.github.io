@@ -7,8 +7,11 @@ title: PCMDI - CMIP5 Data Access
 
 <div id="main_container">
     <div id="main_text_area">
-        <p>     
-            <i>All</i> model output in the CMIP5 archive is available for “non-commercial research and educational purposes.”  A <i> subset (about three-quarters of the models) </i> of the data has also been released for “unrestricted” use, see table in the document "<a href="availability.html">Modeling Groups and their Terms of Use</a>".  Users registering to access CMIP5 output will be granted access to some or all of the data, depending on which of the following terms of use are agreed to: 
+        <p>
+            <i><b>Updated May 2020:</b></i> All CMIP5 model output is now available without restriction, and there is no requirement to register for access or to use these data (please disregard the obsolete references below). The latest CMIP5 datasets available can be downloaded from <a href=https://esgf-node.llnl.gov/search/cmip5/>https://esgf-node.llnl.gov/search/cmip5</a>.
+        </p>
+        <p>
+            <i>All</i> model output in the CMIP5 archive is available for “non-commercial research and educational purposes.”  A <i> subset (about three-quarters of the models) </i> of the data has also been released for “unrestricted” use, see table in the document "<a href="availability.html">Modeling Groups and their Terms of Use</a>".  Users registering to access CMIP5 output will be granted access to some or all of the data, depending on which of the following terms of use are agreed to:
         </p>
         <br>
         <p>Terms of use for data limited to non-commercial research and educational purposes</p>
@@ -16,14 +19,14 @@ title: PCMDI - CMIP5 Data Access
         <ul>
             <li>
                 <p>
-                    a) I agree to restrict my use of CMIP5 model output <span class="red">for non-commercial research and educational purposes <i>only</i></span>. 
+                    a) I agree to restrict my use of CMIP5 model output <span class="red">for non-commercial research and educational purposes <i>only</i></span>.
                 </p>
                 <br>
-                <p> 
-                    Results from non-commercial research are expected to be made 
-                    generally available through open publication and must not be 
-                    considered proprietary.  Materials prepared for educational purposes 
-                    cannot be sold.  These restrictions may only be relaxed by permission 
+                <p>
+                    Results from non-commercial research are expected to be made
+                    generally available through open publication and must not be
+                    considered proprietary.  Materials prepared for educational purposes
+                    cannot be sold.  These restrictions may only be relaxed by permission
                     of the individual modeling groups responsible for the simulations.
                 </p>
             </li>
@@ -36,7 +39,7 @@ title: PCMDI - CMIP5 Data Access
         <ul>
             <li>
                 <p>
-                    a) I understand that the subset of CMIP5 model output that will be made accessible to this group has been designated <span class="red">for "unrestricted" use</span>. 
+                    a) I understand that the subset of CMIP5 model output that will be made accessible to this group has been designated <span class="red">for "unrestricted" use</span>.
                 </p>
             </li>
         </ul>
@@ -51,14 +54,14 @@ title: PCMDI - CMIP5 Data Access
             </li>
             <li>
                 <p>
-                    c) In publications that rely on the CMIP5 model output, I will appropriately credit the data providers by an acknowledgment similar to the following: 
+                    c) In publications that rely on the CMIP5 model output, I will appropriately credit the data providers by an acknowledgment similar to the following:
                 </p>
                 <br>
-                <p class="indent">  
+                <p class="indent">
                     “We acknowledge the World Climate Research Programme's Working Group on Coupled Modelling, which is responsible for CMIP, and we thank the climate modeling groups (listed in Table XX of this paper) for producing and making available their model output.  For CMIP the U.S. Department of Energy's Program for Climate Model Diagnosis and Intercomparison provides coordinating support and led development of software infrastructure in partnership with the Global Organization for Earth System Science Portals.”
                 </p>
                 <br>
-                <p>  
+                <p>
                     where <em>“Table XX”</em> in your paper should list the models and modeling groups that provided the data you used.
                 </p>
                 <br>
@@ -67,7 +70,7 @@ title: PCMDI - CMIP5 Data Access
         <ul>
             <li>
                 <p>
-                    d) I understand that Digital Object Identifiers (DOI’s used, for example, in  journal citations) will be assigned to various subsets of the CMIP5 multi-model dataset, and when available and as appropriate, I will cite these references in my publications.  I will consult the CMIP5 website (<a href="https://pcmdi.llnl.gov/mips/cmip5/">https://pcmdi.llnl.gov/mips/cmip5/</a>) to learn how to do this. 
+                    d) I understand that Digital Object Identifiers (DOI’s used, for example, in  journal citations) will be assigned to various subsets of the CMIP5 multi-model dataset, and when available and as appropriate, I will cite these references in my publications.  I will consult the CMIP5 website (<a href="https://pcmdi.llnl.gov/mips/cmip5/">https://pcmdi.llnl.gov/mips/cmip5/</a>) to learn how to do this.
                 </p>
             </li>
             <li>
@@ -77,7 +80,7 @@ title: PCMDI - CMIP5 Data Access
             </li>
             <li>
                 <p>
-                    f) I understand that although the model output has been subjected to a quality control procedure, unrecognized errors almost certainly remain.  
+                    f) I understand that although the model output has been subjected to a quality control procedure, unrecognized errors almost certainly remain.
                 </p>
             </li>
             <li>
@@ -112,34 +115,34 @@ title: PCMDI - CMIP5 Data Access
             </li>
         </ul>
         <p>
-            If despite the above arguments against it, you wish to redistribute CMIP5 data to others, there are specific conditions that must be     met.  In addition to abiding by the terms of use (see above), anyone redistributing CMIP5 output (beyond their close collaborators) is required to:
+            If despite the above arguments against it, you wish to redistribute CMIP5 data to others, there are specific conditions that must be met.  In addition to abiding by the terms of use (see above), anyone redistributing CMIP5 output (beyond their close collaborators) is required to:
         </p>
         <br>
         <div style="margin-left:20pt">
             <ol>
                 <li>
                     <p>
-                        Seek permission to proceed by contacting PCMDI (<a href="mailto:taylor13@llnl.gov">taylor13@llnl.gov</a>, <a href="mailto:williams13@llnl.gov">williams13@llnl.gov</a>).
+                        Seek permission to proceed by contacting PCMDI (<a href="mailto:pcmdi-cmip@llnl.gov">pcmdi-cmip@llnl.gov</a>), and the WCRP Infrastructure Panel <a href="mailto:wgcm-wip@wcrp-climate.org">wgcm-wip@wcrp-climate.org</a>).
                     </p>
                 </li>
                 <li>
                     <p>
-                        Record contact information for all users downloading CMIP5 output.  These records must be sent to PCMDI quarterly in a format     acceptable to PCMDI.  These records will be used 1) to inform users when flaws in model output are discovered, and 2)  to gauge the impact of CMIP5 results through the collection of usage statistics, as requested by the modeling groups.
+                        Record contact information for all users downloading CMIP5 output.  These records must be sent to PCMDI quarterly in a format acceptable to PCMDI.  These records will be used 1) to inform users when flaws in model output are discovered, and 2)  to gauge the impact of CMIP5 results through the collection of usage statistics, as requested by the modeling groups.
                     </p>
                 </li>
                 <li>
                     <p>
-                        Continually update data holdings to accurately reflect the CMIP5 archive.  This will prevent known flawed data from being distributed.  
+                        Continually update data holdings to accurately reflect the CMIP5 archive. This will prevent known flawed data from being distributed.
                     </p>
                 </li>
                 <li>
                     <p>
-                        Require users to agree to the "terms of use" and "acknowledgement" statements found at:  <a href="https://pcmdi.llnl.gov/mips/cmip5/terms.html">https://pcmdi.llnl.gov/mips/cmip5/terms.html</a> . 
+                        Require users to agree to the "terms of use" and "acknowledgement" statements found at:  <a href="https://pcmdi.llnl.gov/mips/cmip5/terms.html">https://pcmdi.llnl.gov/mips/cmip5/terms.html</a> .
                     </p>
                 </li>
                 <li>
                     <p>
-                        Display a prominent banner showing the source of the data (CMIP5) and indicating that the original CMIP5 data can be accessed through the ESGF data portals (see <a href="http://pcmdi-cmip.llnl.gov/cmip5/availability.html">http://pcmdi-cmip.llnl.gov/cmip5/availability.html</a>). 
+                        Display a prominent banner showing the source of the data (CMIP5) and indicating that the original CMIP5 data can be accessed through the ESGF data portals (see <a href="http://pcmdi-cmip.llnl.gov/cmip5/availability.html">http://pcmdi-cmip.llnl.gov/cmip5/availability.html</a>).
                     </p>
                 </li>
                 <li>
@@ -152,18 +155,19 @@ title: PCMDI - CMIP5 Data Access
             </ol>
         </div>
         <br>
-        <p> 
+        <p>
             In general, the operation of ESGF and its performance in serving other users must not be adversely affected.
         </p>
         <br>
-        <p> 
+        <p>
             Note that commercial use of all but "unrestricted" data is strictly forbidden.  In particular, paid advertisements must not appear on websites providing access to data (or derived data products) from CMIP5 models that have been designated as being available only for "non-commercial research and educational purposes".
         </p>
+        <h6 id="document-version-22-September-2021">Document version: 22 September 2021</h6>
         <br>
         <br>
         <div class="bar">   </div>
         <br>
-        <br> 
+        <br>
         <br>
     </div>
     <!--  id="main_text_area" -->
