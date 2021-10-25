@@ -102,15 +102,24 @@ This section describe steps required to publish the first version of a new CMIP6
 
 Note on publishing: please do not manually edit esg.cmip6.ini to add missing information if your data files won't publish.  In such a case, it is likely that either the model is unregistered or there is an error in the metadata that needs to be corrected.  Please contact (1) the modeling group to ensure all fields are properly registered ; (2) support from CDNOT to get the publisher config (esg.cmip6.ini file) updated.  See (https://github.com/WCRP-CMIP/CMIP6_CVs/) for the most up-to-date catalog of registered entities (source_id, institution_id, etc.)
 
+
+
 1. [Check for the completion of data citation information](http://cmip6cite.wdc-climate.de/#Information-for-ESGF-Data-Node-Managers)
 2. (Optional) [Fetch project .ini files](http://esgf.github.io/esgf-prepare/fetchini.html)
 3. [Generate mapfiles](http://esgf.github.io/esgf-prepare/mapfiles.html)
-4. [Check the [config:cmip6] section of your esg.ini file](http://esgf.github.io/esg-publisher/configuration.html#the-default-config-file-esg-ini)
-5. [Generate certificate for publication](http://esgf.github.io/esg-publisher/configuration.html#myproxy-logon)
+4. [Generate certificate for publication](http://esgf.github.io/esg-publisher/configuration.html#myproxy-logon)
+
+The following steps are for users of the esgpublisher version(s) 4.x and older.  If you have upgraded esg-publisher (esgcet) to v5.x or interested in doing so, then skip to the last step (j.).  
+
+5. [Check the [config:cmip6] section of your esg.ini file](http://esgf.github.io/esg-publisher/configuration.html#the-default-config-file-esg-ini)
 6. [Publish to local PostgreSQL database](http://esgf.github.io/esg-publisher/usage.html#publish-to-local-postgres-database)
 7. [Publish to local THREDDS server](http://esgf.github.io/esg-publisher/usage.html#publish-to-local-thredds-server)
 8. [Publish to the index node](http://esgf.github.io/esg-publisher/usage.html#publish-to-index-node)
 9. [How to](https://github.com/ESGF/esg-publisher/blob/master/notebooks/cmip6-publishing.ipynb)
+
+For users who have upgraded to version 5.x or plan to, installation, configuration and usage are covered here:
+
+10. [Publishing using the v5.x version of esg-publisher / esgpublish](https://esg-publisher.readthedocs.io/en/latest/)
 
 ## 12. Describe datasets issues and errata using the errata service
 
