@@ -3,3 +3,5 @@ _site/
 *.swp
 .idea/
 .jekyll-cache/
+.bundle/
+vendor/bundle
