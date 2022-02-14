@@ -9,11 +9,17 @@ title: Cloud Feedbacks
 ---
 ## Publications
 
+### 2022
+
+* Qin, Y., M. D. Zelinka, and S. A. Klein, 2022: On the Correspondence between Atmosphere-Only and Coupled Simulations for Radiative Feedbacks and Forcing from CO2, <em>J. Geophys. Res.</em>, 127, e2021JD035460. doi:[10.1029/2021JD035460](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2021JD035460).
+
+* Zelinka, M. D., S. A. Klein, Y. Qin, and T. A. Myers, 2022: Evaluating climate models’ cloud feedbacks against expert judgement, <em>J. Geophys. Res.</em>, 127, e2021JD035198, doi:[10.1029/2021JD035198](https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2021JD035198).
+
 ### 2021
 
 * Hahn L. C., K. C. Armour, M. D. Zelinka, C. M. Bitz, and A. Donohoe, 2021: Contributions to Polar Amplification in CMIP5 and CMIP6 Models. <em>Front. Earth Sci.</em> 9:710036. doi:[10.3389/feart.2021.710036](https://www.frontiersin.org/articles/10.3389/feart.2021.710036/full).
 
-* Ma, H.-Y., et al. including S. A. Klein and M. D. Zelinka, 2021: A multi-year short-range hindcast experiment with CESM1 for evaluating climate model moist processes from diurnal to interannual timescales, </em>Geosci. Model Dev.</em>, 14, 73–90, doi:[10.5194/gmd-14-73-2021](https://gmd.copernicus.org/articles/14/73/2021/#section9).
+* Ma, H.-Y., et al. including S. A. Klein and M. D. Zelinka, 2021: A multi-year short-range hindcast experiment with CESM1 for evaluating climate model moist processes from diurnal to interannual timescales, <em>Geosci. Model Dev.</em>, 14, 73–90, doi:[10.5194/gmd-14-73-2021](https://gmd.copernicus.org/articles/14/73/2021/#section9).
 
 * Myers, T. A., R. C. Scott, M. D. Zelinka, S. A. Klein, J. R. Norris, and P. M. Caldwell, 2021: Observational Constraints on Low Cloud Feedback Reduce Uncertainty of Climate Sensitivity, <em>Nature Clim. Change</em>, doi:[10.1038/s41558-021-01039-0](https://www.nature.com/articles/s41558-021-01039-0).
 
