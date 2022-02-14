@@ -9,6 +9,9 @@ title: Cloud Feedbacks
 ---
 ## Press Coverage
 
+### 2021
+* [Study shows faster payoff for reaching net-zero by 2050](https://www.mprnews.org/episode/2021/02/04/study-shows-faster-payoff-for-reaching-netzero-by-2050) (February 2021, <em>Minnesota Public Radio</em>)
+
 ### 2020
 * [Worst- and Best-Case Scenarios for Warming Less Likely, Groundbreaking Study Finds](https://www.scientificamerican.com/article/worst-and-best-case-scenarios-for-warming-less-likely-groundbreaking-study-finds/) (July 2020, <em>Scientific American</em>)
 
