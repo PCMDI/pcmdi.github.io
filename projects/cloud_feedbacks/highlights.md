@@ -9,6 +9,9 @@ title: Cloud Feedbacks
 ---
 ## Research Highlights
 
+### 2022
+* Zelinka, M. D., S. A. Klein, Y. Qin, and T. A. Myers., 2022: [Evaluating Climate Models’ Cloud Feedbacks Against Expert Judgment](https://climatemodeling.science.energy.gov/research-highlights/evaluating-climate-models-cloud-feedbacks-against-expert-judgment)
+
 ### 2021
 * Hahn, L., K. Armour, M. D. Zelinka, C. Bitz, and A. Donohoe, 2021: [Causes of Polar Amplification in Earth System Models](https://climatemodeling.science.energy.gov/research-highlights/causes-polar-amplification-earth-system-models)
 
