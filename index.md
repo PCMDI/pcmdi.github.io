@@ -19,7 +19,7 @@ focus on supporting [model intercomparison][mi], on developing a [model paramete
 Feedbacks][cf] in observations and models and on devising robust statistical methods for climate-change [detection/attribution][DandA]. 
 Examples of ongoing infrastructural tasks include the development of [software][aims] for data management, visualization, and computation; 
 the assembly/organization of observational data sets for model validation; and the consistent documentation of [climate model 
-features][cmf]. Details of all this work are described in numerous publications, as well as on this website.    
+features][cmf]. Details of all this work are described in our [publications](https://pcmdi.llnl.gov/publications.html) and [research highlights](https://pcmdi.llnl.gov/research/researchHighlights.html).        
 
 We now also are applying our collective expertise to support modeling studies initiated by the World Climate Research Programme 
 ([WCRP]). Notably, we are currently providing leadership in managing the Coupled Model Intercomparison Project, Phase 5 ([CMIP5]). 
