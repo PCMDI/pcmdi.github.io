@@ -12,7 +12,7 @@ funded by the Regional and Global Model Analysis ([RGMA](https://climatemodeling
 The PCMDI mission is to develop advanced methods and tools for the diagnosis and intercomparison and improvement of Global Climate Models
 (GCMs). The need for innovative analysis of GCM simulations is apparent, as increasingly
 more complex models are developed. At the same time, disagreements among these simulations relative to observations and in their predictions of climate change remain 
-significant and incompletely understood. Through PCMDI's efforts, GCMs will advance so that they are capable to addressing the important questions that policy makers and society have about global climate change.    
+significant and incompletely understood. Through PCMDI's efforts, GCMs will advance so that they are capable of addressing the important questions that policy makers and society have about global climate change.    
 
 PCMDI's mission demands that we work on both scientific projects and infrastructural tasks. Our current scientific projects 
 focus on developing [perfomance metrics for GCMs](https://pcmdi.llnl.gov/research/metrics/), identifying robust [Cloud 
