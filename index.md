@@ -22,11 +22,11 @@ the assembly/organization of observational data sets for model validation; and t
 features][cmf]. Details of PCMDI's work are described in our [publications](https://pcmdi.llnl.gov/publications.html) and [research highlights](https://pcmdi.llnl.gov/research/researchHighlights.html).        
 
 We now also are applying our collective expertise to support modeling studies initiated by the World Climate Research Programme 
-([WCRP]). Notably, we are currently providing leadership in managing the Coupled Model Intercomparison Project, Phase 5 ([CMIP5]). 
-Among PCMDI's role in CMIP5 is responsibility for leading the Earth System Grid Federation ([ESGF]) which stores and distributes 
+([WCRP]). Notably, we are currently providing leadership in managing the Coupled Model Intercomparison Project, Phase 6 ([CMIP6](https://pcmdi.llnl.gov/CMIP6/)). 
+Among PCMDI's role in CMIP6 is responsibility for leading the Earth System Grid Federation ([ESGF]) which stores and distributes 
 terrascale data sets from multiple coupled ocean-atmosphere global climate model simulations. Extensive analysis of these 
-simulations by members of the international climate community will provide an important scientific basis for the [IPCC's Fifth 
-Assessment Report on Climate Change][report], which is scheduled for publication in 2013.     
+simulations by members of the international climate community provided an important scientific basis for the [IPCC's Sixth 
+Assessment Report on Climate Change][report], which was published in 2021.     
 
 <div class="span12">
   <h3> U.S. Sponsors</h3>
