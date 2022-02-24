@@ -9,11 +9,10 @@ PCMDI was established in 1989 at the Lawrence Livermore National Laboratory ([LL
 in California][sf]. Participants in PCMDI include research scientists and computer scientists at LLNL, other research laboratories and universities. PCMDI is 
 funded by the Regional and Global Model Analysis ([RGMA](https://climatemodeling.science.energy.gov/program-area/regional-global-model-analysis)) Program Area of the United States's Department of Energy's Earth and Environmental Systems Modeling ([EESM](https://climatemodeling.science.energy.gov)) Program.  The EESM is a component of the Earth and Environmental Systems Sciences Division ([EESSD](https://science.osti.gov/ber/Research/eessd)) which is within the Biological and Environmental Research ([BER](https://www.energy.gov/science/ber/biological-and-environmental-research)) Program Office of the United States's Department of Energy's [Office of Science](https://www.energy.gov/science/office-science).  
 
-The PCMDI mission is to develop improved methods and tools for the diagnosis and intercomparison of general circulation models 
-(GCMs) that simulate the global climate. The need for innovative analysis of GCM climate simulations is apparent, as increasingly
-more complex models are developed, while the disagreements among these simulations and relative to climate observations remain 
-significant and poorly understood. The nature and causes of these disagreements must be accounted for in a systematic fashion in
-order to confidently use GCMs for simulation of putative global climate change.    
+The PCMDI mission is to develop advanced methods and tools for the diagnosis and intercomparison and improvement of Global Climate Models
+(GCMs). The need for innovative analysis of GCM simulations is apparent, as increasingly
+more complex models are developed. At the same time, disagreements among these simulations relative to observations and in their predictions of climate change remain 
+significant and incompletely understood. Through PCMDI's efforts, GCMs will advance so that they are capable to addressing the important questions that policy makers and society have about global climate change.    
 
 PCMDI's mission demands that we work on both scientific projects and infrastructural tasks. Our current scientific projects 
 focus on supporting [model intercomparison][mi], on developing a [model parameterization testbed][mpt], identification of robust [Cloud 
