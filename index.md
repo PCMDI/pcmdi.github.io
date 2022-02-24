@@ -6,10 +6,8 @@ group: "navigation"
 {% include hero.html %}
 
 PCMDI was established in 1989 at the Lawrence Livermore National Laboratory ([LLNL]), located in the [San Francisco Bay area, 
-in California][sf]. Our staff includes research scientists, computer scientists, and diverse support personnel. We are primarily 
-funded by the Regional and Global Climate Modeling ([RGCM]) Program and the Atmospheric System Research ([ASR]) Program of the 
-[Climate and Environmental Sciences Division][CESD] of the U.S. Department of Energy's Office of Science, Biological and Environmental 
-Research ([BER]) program.     
+in California][sf]. Participants in PCMDI include research scientists and computer scientists at LLNL, other research laboratories and universities. PCMDI is 
+funded by the Regional and Global Model Analysis ([RGMA](https://climatemodeling.science.energy.gov/program-area/regional-global-model-analysis)) Program Area of the United States's Department of Energy's Earth and Environmental Systems Modeling ([EESM](https://climatemodeling.science.energy.gov)) Program.  The EESM is a component of the Earth and Environmental Systems Sciences Division ([EESSD](https://science.osti.gov/ber/Research/eessd)) which is within the Biological and Environmental Research ([BER](https://www.energy.gov/science/ber/biological-and-environmental-research)) Program Office of the United States's Department of Energy's [Office of Science](https://www.energy.gov/science/office-science).  
 
 The PCMDI mission is to develop improved methods and tools for the diagnosis and intercomparison of general circulation models 
 (GCMs) that simulate the global climate. The need for innovative analysis of GCM climate simulations is apparent, as increasingly
