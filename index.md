@@ -73,9 +73,10 @@ climate community anchored much of the scientific basis for the
     </div>
   </div>
 </div>
-<br><br>
+
 
 ###### Document version: 25 February 2022
+
 
 [LLNL]: https://www.llnl.gov/
 [SF]: {{site.baseurl}}/location.html
