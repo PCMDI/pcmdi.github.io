@@ -41,15 +41,18 @@ Intercomparison Project (CMIP) phases. We describe details of PCMDI's work in ou
 [publications] and [research highlights][researchhighlights].
 
 We are also applying our collective expertise to support modeling studies initiated
-by the World Climate Research Programme ([WCRP]). Notably, we lead aspects of the
-Coupled Model Intercomparison Project, Phase 6 ([CMIP6]). PCMDI is responsible
-for leading the WCRP Working Group on Coupled Modelling ([WGCM]) Infrastructure
-Panel ([WIP]), which coordinates infrastructure support for CMIP. This effort includes
-coordination with the Earth System Grid Federation ([ESGF]) project, which stores
-and distributes petabyte-scale data sets from multiple MIP phases. Extensive analysis
-of the latest CMIP6 simulations by the international climate community anchored
-much of the scientific basis for the
-[IPCC's Sixth Assessment Report on Climate Change][ar6], published in August 2021.
+by the World Climate Research Programme ([WCRP]) and to contribution requests for
+the Intergovernmental Panel on Climate Change [(IPCC) Assessment Reports][IPCC].
+PCMDI has been invited to contribute to every report from the First Assessment
+(FAR) in 1990 to the most recent Sixth Assessment (AR6) published in August 2021.
+Notably, we lead aspects of the Coupled Model Intercomparison Project, Phase 6
+([CMIP6]). PCMDI is responsible for leading the WCRP Working Group on Coupled Modelling
+([WGCM]) Infrastructure Panel ([WIP]), which coordinates infrastructure support
+for CMIP. This effort includes coordination with the Earth System Grid Federation
+([ESGF]) project, which stores and distributes petabyte-scale data sets from multiple
+MIP phases. Extensive analysis of the latest CMIP6 simulations by the international
+climate community anchored much of the scientific basis for the
+[IPCC's Sixth Assessment Report on Climate Change][AR6], published in 2021/22.
 
 <div class="span12">
   <h3>Sponsors</h3>
@@ -87,8 +90,9 @@ much of the scientific basis for the
 [publications]: {{site.baseurl}}/publications.html
 [researchhighlights]: {{site.baseurl}}/research/researchHighlights.html
 [WCRP]: http://www.wcrp-climate.org/
+[IPCC]: https://www.ipcc.ch/reports/
 [CMIP6]: {{site.baseurl}}/CMIP6
 [WGCM]: https://www.wcrp-climate.org/wgcm-overview
 [WIP]: https://www.wcrp-climate.org/wgcm-cmip/wip
 [ESGF]: http://esgf.llnl.gov/
-[ar6]: https://www.ipcc.ch/report/ar6/wg1/#FullReport
+[AR6]: https://www.ipcc.ch/report/ar6/wg1/#FullReport
