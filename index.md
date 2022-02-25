@@ -27,7 +27,7 @@ have about ongoing global and regional climate change.
 
 PCMDI's mission demands that we work on scientific projects and infrastructural
 tasks. Our current scientific projects focus on developing
-[performance metrics for ESMs][metrics], identifying robust [Cloud Feedbacks][cf]
+[ESM performance metrics][metrics], identifying robust [Cloud Feedbacks][cf]
 in observations and models, devising robust statistical methods for climate change
 [Detection and Attribution][DandA], and understanding ESM errors through a
 [model parameterization testbed][mpt]. Examples of ongoing infrastructure tasks
@@ -37,8 +37,11 @@ intercomparison project (MIP) data management, data creation, and computation;
 3) the assembly and curation of forcing data sets for ESMs [input4MIPs]; and 4)
 the consistent documentation of [climate model features][cmf] across the numerous
 eras of the Atmospheric Model Intercomparison Project (AMIP) and Coupled Model
-Intercomparison Project (CMIP) phases. We describe details of PCMDI's work in our
-[publications] and [research highlights][researchhighlights].
+Intercomparison Project (CMIP) phases. PCMDI is also incorporating the PCMDI metrics
+Package ([PMP]) into the Coordinated Model Evaluation Capabilities ([CMEC]), a
+platform for collective use of various diagnostics packages. CMEC aims to unify
+model evaluation efforts across the EESM program. We describe details of PCMDI's
+work in our [publications] and [research highlights][researchhighlights].
 
 We are also applying our collective expertise to support modeling studies initiated
 by the World Climate Research Programme ([WCRP]) and to contribution requests for
@@ -71,6 +74,7 @@ climate community anchored much of the scientific basis for the
   </div>
 </div>
 
+###### Document version: 25 February 2022
 
 [LLNL]: https://www.llnl.gov/
 [SF]: {{site.baseurl}}/location.html
@@ -87,6 +91,8 @@ climate community anchored much of the scientific basis for the
 [obs4MIPs]: https://esgf-node.llnl.gov/projects/obs4mips/
 [input4MIPs]: https://esgf-node.llnl.gov/projects/input4mips/
 [cmf]: {{site.baseurl}}/projects
+[PMP]: https://cmec.llnl.gov/pmp.html
+[CMEC]: https://cmec.llnl.gov/
 [publications]: {{site.baseurl}}/publications.html
 [researchhighlights]: {{site.baseurl}}/research/researchHighlights.html
 [WCRP]: http://www.wcrp-climate.org/
