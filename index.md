@@ -5,7 +5,7 @@ group: "navigation"
 ---
 <img src="{{site.baseurl}}/Data/media/images/220224_durack1_PCMDILogoWithText-trim-940Wpx-png8.png"
      alt="PCMDI Earth System Model Evaluation Project - logo"
-     style="border:0px;">
+     style="margin-top:3em;margin-bottom:2em;">
 
 PCMDI was established in 1989 at the Lawrence Livermore National Laboratory ([LLNL]),
 located in the [San Francisco Bay Area][SF], in California. PCMDI participants
