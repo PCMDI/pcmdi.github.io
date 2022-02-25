@@ -3,10 +3,12 @@ layout: default
 title: Home
 group: "navigation"
 ---
-{% include hero.html %}
+<img src="{{site.baseurl}}/Data/media/images/220224_durack1_PCMDILogoWithText-trim-940Wpx-png8.png"
+     alt="PCMDI Earth System Model Evaluation Project - logo"
+     style="margin-top:3em;margin-bottom:2em;">
 
 PCMDI was established in 1989 at the Lawrence Livermore National Laboratory ([LLNL]),
-located in the [San Francisco Bay Area][SF], in California. PCMDI pParticipants
+located in the [San Francisco Bay Area][SF], in California. PCMDI participants
 include research scientists and computer scientists at LLNL, other research laboratories,
 and universities. PCMDI is funded by the Regional and Global Model Analysis
 ([RGMA][RGMA]) Program Area of the United States Department of Energy's (DOE) Earth
@@ -22,13 +24,13 @@ more complex models are developed. At the same time, disagreements among these
 simulations relative to observations and in their predictions of climate change
 remain significant and incompletely understood. Through PCMDI's efforts, ESMs will
 advance so that they are capable of addressing the important questions that policy
-makers and society have about ongoing global climate change.
+makers and society have about ongoing global and regional climate change.
 
 PCMDI's mission demands that we work on both scientific projects and infrastructural
 tasks. Our current scientific projects focus on developing
 [performance metrics for ESMs][metrics], identifying robust [Cloud Feedbacks][cf]
-in observations and models, devising robust statistical methods for climate-change
-[detection/attribution][DandA], and understanding ESM errors through a
+in observations and models, devising robust statistical methods for climate change
+[Detection and Attribution][DandA], and understanding ESM errors through a
 [model parameterization testbed][mpt]. Examples of ongoing infrastructural tasks
 include the development of [software and data standards][software] for model intercomparison
 project (MIP) data management, data creation and computation; the assembly/organization
@@ -42,7 +44,7 @@ Project (CMIP) phases. Details of PCMDI's work are described in our
 We are also applying our collective expertise to support modeling studies initiated
 by the World Climate Research Programme ([WCRP]). Notably, we lead aspects of
 the Coupled Model Intercomparison Project, Phase 6 ([CMIP6][CMIP6]). Among PCMDI's
-CMIP6 role is the responsibility for leading the WCRP Working Group on Coupled
+role is the responsibility for leading the WCRP Working Group on Coupled
 Modelling [WGCM][WGCM] which coordinates infrastructure support for CMIP, including
 interactions with the Earth System Grid Federation ([ESGF]) project which stores
 and distributes petabyte-scale data sets from multiple MIP phases. Extensive analysis
@@ -51,13 +53,16 @@ much of the scientific basis for the
 [IPCC's Sixth Assessment Report on Climate Change][ar6], published in August 2021.
 
 <div class="span12">
-  <h3>U.S. Sponsors</h3>
+  <h3>Sponsors</h3>
   <div class="span12">
     <div class="row">
       <div class="span3">
         <a target="_blank" href="http://energy.gov">
-          <h4 class="muted">DOE</h4>
-          <img src="{{site.baseurl}}/Data/media/images/doe.svg" class="thumbnail" style="width:154px;height:128px;border:0px;">
+          <h4 class="muted">U.S. Department of Energy (DOE)</h4>
+          <img src="{{site.baseurl}}/Data/media/images/doe.svg"
+               alt="U.S. Department of Energy - logo"
+               class="thumbnail"
+               style="width:154px;height:128px;border:0px;">
         </a>
       </div>
     </div>
