@@ -34,7 +34,7 @@ Publications 2003-2021
 
 ### 2020
 
-*   **Covey, Curt, Peter J. Gleckler, Charles Doutriaux,** Dean N. Williams, Aiguo Dai, John Fasullo, Kevin Trenberth and Alexis Berg, 2016: Metrics for the diurnal cycle of precipitation: Toward routine benchmarks for climate models. _Journal of Climate_, **29** (12), 4461-4471. doi: [10.1175/JCLI-D-15-0664.1](http://dx.doi.org/10.1175/JCLI-D-15-0664.1)
+*   **Covey, Curt, Peter J. Gleckler, Charles Doutriaux,** Dean N. Williams, Aiguo Dai, John Fasullo, Kevin Trenberth and Alexis Berg, 2016: Metrics for the cycle of precipitation: Toward routine benchmarks for climate models. _Journal of Climate_, **29** (12), 4461-4471. doi: [10.1175/JCLI-D-15-0664.1](http://dx.doi.org/10.1175/JCLI-D-15-0664.1)
 
 * * *
 
