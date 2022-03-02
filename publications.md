@@ -29,6 +29,7 @@ Publications 2003-2021
 *   **Po-Chedley, S.**, **B. D. Santer**, S. Fueglistaler, **M. D. Zelinka**, P. J. Cameron-Smith, J. Painter, and Q. Fu, 2021: Natural variability contributes to model-satellite differences in tropical tropospheric warming, _Proc. Nat. Acad. Sci._, **118**, e2020962118, doi: [10.1073/pnas.2020962118.](https://www.pnas.org/doi/10.1073/pnas.2020962118)
 *   **Po-Chedley, S.**, J. R. Christy, L. Haimberger, and C. A. Mears, 2021: Tropospheric Temperature \[in “ State of the Climate in 2020"\], _Bull. Amer. Meteor. Soc._, **102**, S57 - S60, [https://doi.org/10.1175/BAMS-D-21-0098.1.](https://journals.ametsoc.org/view/journals/bams/102/8/BAMS-D-21-0098.1.xml)
 *   **Thackeray, C.** **W.**,**A. Hall**, **M. D. Zelinka**, and C. G. Fletcher, 2021: Assessing prior emergent constraints on surface albedo feedback in CMIP6. _J. Climate_, **34**, 3889-3905, doi: [10.1175/JCLI-D-20-0703.1.](https://journals.ametsoc.org/view/journals/clim/34/10/JCLI-D-20-0703.1.xml)
+*   Caldwell, P. M., and coauthors including **H.-Y. Ma**, 2021: Convection-permitting simulations with the E3SM global atmosphere model. _J. Adv. Model. Earth Sys._, doi: [10.1029/2021MS002544](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2021MS002544). 
 
 * * *
 
