@@ -58,7 +58,34 @@ Publications 2003-2021
 
 ### 2020
 
-*   **Covey, Curt, Peter J. Gleckler, Charles Doutriaux,** Dean N. Williams, Aiguo Dai, John Fasullo, Kevin Trenberth and Alexis Berg, 2016: Metrics for the cycle of precipitation: Toward routine benchmarks for climate models. _Journal of Climate_, **29** (12), 4461-4471. doi: [10.1175/JCLI-D-15-0664.1](http://dx.doi.org/10.1175/JCLI-D-15-0664.1)
+*   **Ahn, M.-S.**, D. Kim, **J. Lee**, **K. R. Sperber**, **P. J. Gleckler**, X. Jiang, Y.-G. Ham, and H. Kim, 2020: MJO propagation across the Maritime Continent: Are CMIP6 models better than CMIP5 models? _Geophys. Res. Lett._, **47**, e2020GL087250, doi: [10.1029/2020GL087250](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2020GL087250). 
+*   Bonfils, C., B. D. Santer, J. Fyfe, K. Marvel, T. Phillips, S. Zimmerman, 2020: Human influence on joint changes in temperature, rainfall, and continental aridity. Nature Clim. Change, 10, 726–731, doi: 10.1038/s41558-020-0821-1. 
+*   Ma, H.-Y., and Coauthors including J. Lee, A. C. Siongco and S. A. Klein, 2020: On the correspondence between seasonal forecast biases and long-term climate biases in sea surface temperature. J. Climate, 34, 427–446, doi: 10.1175/JCLI-D-20-0338.1. 
+*  	Pallotta, G. and B. D. Santer, 2020: Multi-frequency analysis of simulated versus observed variability in tropospheric temperature. J. Climate, 33, 10383–10402, https://doi.org/10.1175/jcli-d-20-0023.1. 
+*   Siongco, A. C., H.-Y. Ma, S. A. Klein, S. Xie, A. Karspeck, J. L. Anderson, K. Raeder, 2020: A hindcast approach to diagnosing the equatorial Pacific cold tongue SST bias in CESM1. J. Climate, 33, 1437–1453, doi: 10.1175/JCLI-D-19-0513.1.  
+* 	Sperber, K. R., H. Annamalai, and G. Pallotta, 2020: CMIP5: A Monte Carlo assessment of changes in summertime precipitation characteristics under RCP8.5-sensitivity to annual cycle fidelity, overconfidence, and Gaussianity. Clim. Dyn., 54, 1699–1727, doi: 10.1007/s00382-019-05082-8. 
+*  	Zelinka, M. D., T. A. Myers, D. T. McCoy, S. Po-Chedley, P. M. Caldwell, P. Ceppi, S. A. Klein, and K. E. Taylor, 2020: Causes of higher climate sensitivity in CMIP6 models. Geophys. Res. Lett., 47, e2019GL085782, doi: 10.1029/2019GL085782. 
+* 	Bretherton, C. S. and P. M. Caldwell, 2020: Combining emergent constraints for climate sensitivity. J. Climate, 33, 7413–7430, doi: 10.1175/JCLI-D-19-0911.1. 
+*   Dong, Y. K. C. Armour, M. D. Zelinka, C. Proistosescu, D. S. Battisti, C. Zhou, and T. Andrews, 2020: Inter-model spread in the pattern effect and its contribution to climate sensitivity in CMIP5 and CMIP6 models. J. Climate, 33, 7755–7775, doi: 10.1175/JCLI-D-19-1011.1. 
+*   Juckes, M., K. E. Taylor, P. J. Durack, B. Lawrence, M. S. Mizielinski, A. Pamment, J.-Y. Peterschmitt, M. Rixen, and S. Senesi, 2020: The CMIP6 Data Request (DREQ, version 01.00.31). Geosci. Model Dev., 13, 201–224, doi: 10.5194/gmd-13-201-2020. 
+* 	Kang, D., D. Kim, M.-S. Ahn, R. Neale, J. Lee, and P. J. Gleckler, 2020: The role of the mean state on MJO simulation in CESM2 ensemble simulation. Geophys. Res. Lett., 47, e2020GL089824, https://doi.org/10.1029/2020GL089824. 
+*   Marvel, K., M. Biasutti, and C. Bonfils, 2020: Fingerprints of external forcings on Sahel rainfall: aerosols, greenhouse gases, and model-observation discrepancies. Environ. Res. Lett., 15, 084023, doi: 10.1088/1748-9326/ab858e. 
+* 	Meehl, G. E., C. A. Senior, V. Eyring, G. Flato, J.-F. Lamarque, R. J. Stouffer, K. E. Taylor, and M. Schlund, 2020: Context for interpreting equilibrium climate sensitivity and transient climate response from the CMIP6 earth system models. Science Advances, 6, eaba1981, doi: 10.1126/sciadv.aba1981. 
+* 	Orbe, C., and co-authors including P. J. Gleckler, J. Lee, and K. Sperber, 2020: Representation of Modes of Variability in 6 U.S. Climate Models. J. Climate, 33, 7591–7617, doi: 10.1175/JCLI-D-19-0956.1. 
+* 	Pascoe, C., B. N. Lawrence, E. Guilyardi, M. Juckes, and K. E. Taylor, 2020: Designing and documenting experiments in CMIP6. Geosci. Model Dev., 13, 2149–2167, doi: 10.5194/gmd-13-2149-2020. 
+* 	Pendergrass, A., P. J. Gleckler, L. Ruby Leung, and C. Jakob, 2020: Benchmarking simulated precipitation in Earth System Models. Bull. Amer. Met. Soc., 101, E814–E816, doi: 10.1175/BAMS-D-19-0318.1. 
+* 	Pendergrass, A. and co-authors including C. Bonfils, 2020: Flash droughts present a new challenge for subseasonal-to-seasonal prediction. Nature Clim. Change, 10, 191–199, doi: 10.1038/s41558-020-0709-0. 
+* 	Qian, Y. and co-authors including H.-Y. Ma, 2020: Neglecting irrigation contributes to the simulated summertime warm-and-dry bias in the central United States. npj Clim. Atmos. Sci., 3, 31, doi: 10.1038/s41612-020-00135-w. 
+* 	Rieger, L. A., and co-authors including P. J. Durack and S. Po-Chedley, 2020: Quantifying CanESM5 and EAMv1 sensitivities to volcanic forcing for the CMIP6 historical experiment. Geosci. Model Dev., 13, 4831–4843, doi: 10.5194/gmd-2019-381. 
+*  	Scott, R. C., T. A. Myers, J. R. Norris, M. D. Zelinka, S. A. Klein, M. Sun, and D. R. Doelling, 2020: Observed sensitivity of low cloud radiative effects to meteorological perturbations over the global oceans, J. Climate, 33, 7717–7734, doi: 10.1175/JCLI-D-19-1028.1. 
+* 	Silvy, Y., E. Guilyardi, J.-B. Sallee, and P. J. Durack, 2020: Human-induced changes to the global ocean water-masses and their time of emergence. Nature Clim. Change, 10, 1030–1036, doi: 10.1038/s41558-020-0878-x. 
+* 	Sherwood, S., and co-authors including S. A. Klein and M. D. Zelinka, 2020: An assessment of Earth’s climate sensitivity using multiple lines of evidence. Rev. Geophys., 58, e2019RG000678, doi: 10.1029/2019RG000678. 
+* 	Steiner, A., and co-authors including B. D. Santer, 2020: Observed temperature changes in the troposphere and stratosphere from 1979 to 2018. J. Climate, 33, 8165–8194, doi: 10.1175/JCLI-D-19-0998.1. 
+* 	Stephens, G. L., J. M. Slingo, E. Rignot, J. T. Reager, M. Z. Hakuba, P. J. Durack, and J. Worden, 2020: Earth's water reservoirs in a changing climate. Proc. Roy. Soc. A, 476: 20190458, doi: 10.1098/rspa.2019.0458. 
+* 	Waliser, D., and co-authors including P. J. Gleckler, K. E. Taylor, S. Ames, and P. J. Durack, 2020: Observations for Model Intercomparison Project (Obs4MIPs): Status for CMIP6. Geosci. Model Dev., 13, 2945–2958, doi: 10.5194/gmd-2019-268. 
+*   Wehner, M., P. J. Gleckler, and J. Lee, 2020: Characterization of long period return values of extreme daily precipitation and temperature in the CMIP6 models. Weather and Climate Extremes, 30, 100283, doi: 10.1016/j.wace.2020.100283. 
+*  	Zhang, M. S. Xie, X. Liu, W. Lin, K. Zhang, H.-Y. Ma, X. Zheng, and Y. Zhang, 2020: Toward understanding the simulated phase partitioning of Arctic single-layer mixed-phase clouds in E3SM. Earth and Space Science, 7, e2020EA001125, doi: 10.1029/2020EA001125. 
+*  	Zhou, C., Y. Hu, J. Lu, and M. D. Zelinka, 2020: Responses of the Hadley Circulation to regional sea surface temperature changes, J. Climate, 33, 429–441, doi: 10.1175/JCLI-D-19-0315.1. 
 
 * * *
 
