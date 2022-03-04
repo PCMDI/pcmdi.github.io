@@ -17,7 +17,7 @@ Name | Position | E-mail | Phone Number
 [Gleckler, Peter][gleckler] | Research Scientist | gleckler1@llnl.gov | (925) 422-7631
 [Lee, Jiwoo][lee] | Research Scientist | lee1043@llnl.gov | (925) 422-0932
 [Ma, Hsi-Yen][ma] | Research Scientist | ma21@llnl.gov | (925) 422-5958
-[Mauzey, Christopher][mauzey] | Computer Scientist | mauzey1@llnl.gov | (925) 424-4644
+[Mauzey, Christopher][mauzey] | Computer Scientist | mauzey1@llnl.gov | (925) 422-6970
 [Pallotta, Giuliana][pallotta] | Research Scientist | pallottagold1@llnl.gov | (925) 422-2778
 [Po-Chedley, Stephen][pochedley] | Research Scientist | pochedley1@llnl.gov | (925) 422-3421
 [Taylor, Karl][taylor] | Research Scientist | taylor13@llnl.gov | (925) 423-3623
@@ -25,11 +25,15 @@ Name | Position | E-mail | Phone Number
 {: class="table table-striped"}
 
 ## Funded collaborators
+
+--- | --- | --- | --- | ---
 [Hoang, Anthony][hoang] | Systems Manager | hoang1@llnl.gov | (925) 423-6733
 [Jefferson, Angela][jefferson] | Program Administrator | jefferson9@llnl.gov | (925) 422-5932
 {: class="table table-striped"}
 
 ## Project collaborators
+
+--- | --- | --- | --- | ---
 [Caldwell, Peter][caldwell] | Research Scientist | caldwell19@llnl.gov | (925) 422-4197
 [Covey, Curt][covey] | Research Scientist | covey1@llnl.gov | (925) 422-1828
 [Doutriaux, Charles][doutriaux] | Computer Scientist | doutriaux1@llnl.gov | (925) 422-1487
@@ -42,6 +46,8 @@ Name | Position | E-mail | Phone Number
 {: class="table table-striped"}
 
 ## Former participants
+
+--- | --- | --- | --- | ---
 [Harris, Matthew][harris] | Computer Scientist | harris112@llnl.gov | (925) 423-8978
 [Sperber, Ken][sperber] | Research Scientist | |
 {: class="table table-striped"}
@@ -59,12 +65,13 @@ Name | Position | E-mail | Phone Number
 [hoang]: {{site.baseurl}}/staff/hoang
 [klein]: https://people.llnl.gov/klein21
 [lee]: {{site.baseurl}}/staff/lee
-[ma]:
-[mauzey]:
+[ma]: https://people.llnl.gov/ma21
+[mauzey]: https://people.llnl.gov/mauzey1
 [nadeau]: {{site.baseurl}}/staff/nadeau
 [painter]: {{site.baseurl}}/staff/painter
+[pallotta]: https://people.llnl.gov/pallottagold1
 [phillips]: {{site.baseurl}}/staff/phillips
-[pochedley]:
+[pochedley]: https://people.llnl.gov/pochedley1
 [santer]: {{site.baseurl}}/staff/santer
 [sperber]: {{site.baseurl}}/staff/sperber
 [taylor]: {{site.baseurl}}/staff/taylor
