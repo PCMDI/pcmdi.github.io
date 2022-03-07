@@ -10,8 +10,8 @@ group: "navigation"
 
 Name | Position | E-mail | Phone Number
 --- | --- | --- | --- | ---
-[Klein, Steve][klein] | Projector Leader | klein21@llnl.gov |
-[Ahn, Min-Seop][ames] | Post-Doctoral Research Scientist | ahn6@llnl.gov | (925) 423-2121
+[Klein, Steve][klein] | Project Leader | klein21@llnl.gov |
+[Ahn, Min-Seop][ahn] | Post-Doctoral Research Scientist | ahn6@llnl.gov | (925) 423-2121
 [Ames, Sasha][ames] | Computer Scientist | ames4@llnl.gov | (925) 424-4644
 [Bonfils, Celine][bonfils] | Research Scientist | bonfils2@llnl.gov | (925) 423-9923
 [Durack, Paul][durack] | Research Scientist | durack1@llnl.gov | (925) 422-5208
@@ -61,7 +61,7 @@ Name | Position | E-mail | Phone Number
 ###### Document version: 7 March 2022
 
 
-[ahn]: {{site.baseurl}}/staff/ahn6
+[ahn]: https://people.llnl.gov/ahn6
 [ames]: {{site.baseurl}}/staff/ames
 [bonfils]: {{site.baseurl}}/staff/bonfils
 [caldwell]: {{site.baseurl}}/staff/caldwell
@@ -72,7 +72,7 @@ Name | Position | E-mail | Phone Number
 [harris]: {{site.baseurl}}/staff/harris
 [hoang]: {{site.baseurl}}/staff/hoang
 [klein]: https://people.llnl.gov/klein21
-[lee]: {{site.baseurl}}/staff/lee1043
+[lee]: {{site.baseurl}}/staff/lee
 [ma]: https://people.llnl.gov/ma21
 [mauzey]: https://people.llnl.gov/mauzey1
 [ordonez]: https://people.llnl.gov/ordonez4
