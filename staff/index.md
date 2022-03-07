@@ -45,7 +45,6 @@ Name | Position | E-mail | Phone Number
 [Ullrich, Paul][ullrich] | | |
 [Han, Yushan][hany] | | |
 [Chen, Hongyu][chenh] | | |
-
   | | |
 [Ma, Po-Lun][mapnnl] | | |
 {: class="table table-striped"}
@@ -61,13 +60,12 @@ Name | Position | E-mail | Phone Number
 [Painter, Jeff][painter] | Computer Scientist | |
 [Santer, Ben][santer] | Research Scientist | |
 [Xie, Shaocheng][xie] | Research Scientist | xie2@llnl.gov | (925) 422-6023
-[Zhang, Chengzhu][zhangc] | Research Scientist | zhang40@llnl.gov | (925) 424-4573
+[Zhang, Chengzhu][zhang40] | Research Scientist | zhang40@llnl.gov | (925) 424-4573
 {: class="table table-striped"}
 
 ## Former participants
 
 --- | --- | --- | --- | ---
-[Chen, Di][chen] | | |
 [Doutriaux, Charles][doutriaux] | Computer Scientist | doutriaux1@llnl.gov | (925) 422-1487
 [Harris, Matthew][harris] | Computer Scientist | harris112@llnl.gov | (925) 423-8978
 [Phillips, Tom][phillips] | Research Scientist | phillips14@llnl.gov | (925) 422-0072
@@ -114,7 +112,6 @@ Name | Position | E-mail | Phone Number
 [norris]: https://dept.atmos.ucla.edu/alexhall/people/jesse-norris
 [thackeray]: https://dept.atmos.ucla.edu/alexhall/people/chad-thackeray
 [madakumbura]: https://dept.atmos.ucla.edu/alexhall/people/gavin-dayanga
-[chend]: https://dept.atmos.ucla.edu/alexhall/people/di-chen
 
 [barnes]: https://www.atmos.colostate.edu/people/faculty/barnes/
 [arcodia]: https://sites.google.com/view/barnesgroup-csu/group
