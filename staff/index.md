@@ -4,7 +4,7 @@ title:  Staff
 group: "navigation"
 ---
 
-# Participant directory
+# The PCMDI Community
 
 ## Project staff at LLNL
 
@@ -17,7 +17,7 @@ Name | Position | E-mail | Phone Number
 [Durack, Paul][durack] | Research Scientist | durack1@llnl.gov | (925) 422-5208
 [Gleckler, Peter][gleckler] | Research Scientist | gleckler1@llnl.gov | (925) 422-7631
 [Hoang, Anthony][hoang] | Systems Manager | hoang1@llnl.gov | (925) 423-6733
-[Jefferson, Angela][jefferson] | Program Administrator | jefferson9@llnl.gov | (925) 422-5932
+[Jefferson, Angela][jefferson] | Project Administrator | jefferson9@llnl.gov | (925) 422-5932
 [Lee, Jiwoo][lee] | Research Scientist | lee1043@llnl.gov | (925) 422-0932
 [Ma, Hsi-Yen][ma] | Research Scientist | ma21@llnl.gov | (925) 422-5958
 [Mauzey, Christopher][mauzey] | Computer Scientist | mauzey1@llnl.gov | (925) 422-6970
@@ -33,8 +33,18 @@ Name | Position | E-mail | Phone Number
 ## Collaborators @ other institutions
 
 --- | --- | --- | --- | ---
-[Hoang, Anthony][hoang] | Systems Manager | hoang1@llnl.gov | (925) 423-6733
-[Jefferson, Angela][jefferson] | Program Administrator | jefferson9@llnl.gov | (925) 422-5932
+[Hall, Alex][hall] | | |
+[Norris, Jesse][norris] | | |
+[Thackeray, Chad][thackeray] | | |
+[Madakumbura, Gavin][madakumbura] | | |
+  | | |
+[Barnes, Elizabeth][barnes] | | |
+[Arcodia, Marybeth][arcodia] | | |
+[Valkonen, Elina][valkonen] | | |
+  | | |
+[Ullrich, Paul][ullrich] | | |
+[Han, Yushan][hany] | | |
+[Chen, Hongyu][chenh] | | |
 {: class="table table-striped"}
 
 ## Affiliated contributors
@@ -54,12 +64,12 @@ Name | Position | E-mail | Phone Number
 ## Former participants
 
 --- | --- | --- | --- | ---
+[Chen, Di][chen] | | |
 [Harris, Matthew][harris] | Computer Scientist | harris112@llnl.gov | (925) 423-8978
 [Sperber, Ken][sperber] | Research Scientist | |
 {: class="table table-striped"}
 
 ###### Document version: 7 March 2022
-
 
 [ahn]: https://people.llnl.gov/ahn6
 [ames]: {{site.baseurl}}/staff/ames
@@ -90,3 +100,17 @@ Name | Position | E-mail | Phone Number
 [jefferson]: {{site.baseurl}}/staff/jefferson
 [xie]: {{site.baseurl}}/staff/Xie
 [zelinka]: https://markdzelinka.wordpress.com/
+
+[hall]: https://dept.atmos.ucla.edu/alexhall/people/alex-hall
+[norris]: https://dept.atmos.ucla.edu/alexhall/people/jesse-norris
+[thackeray]: https://dept.atmos.ucla.edu/alexhall/people/chad-thackeray
+[madakumbura]: https://dept.atmos.ucla.edu/alexhall/people/gavin-dayanga
+[chend]: https://dept.atmos.ucla.edu/alexhall/people/di-chen
+
+[barnes]: https://www.atmos.colostate.edu/people/faculty/barnes/
+[arcodia]: https://sites.google.com/view/barnesgroup-csu/group
+[valkonen]: https://sites.google.com/view/barnesgroup-csu/group
+
+[ullrich]: https://climate.ucdavis.edu/people.php
+[chenh]: https://climate.ucdavis.edu/people.php
+[hany]: https://climate.ucdavis.edu/people.php
