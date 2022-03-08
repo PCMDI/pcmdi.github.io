@@ -54,6 +54,13 @@ UC Davis |  |  |
 [Chen, Hongyu][chenh] | | |
 {: class="table table-striped"}
 
+Princeton University/NOAA-GFDL |  |  |
+--- | --- | --- | ---
+[Tesdal, Jan-Erik][tesdal] | | |
+[Griffies, Stephen][griffies] | | |
+[Krasting, John][krasting] | | |
+{: class="table table-striped"}
+
 Pacific Northwest National Laboratory |  |  |
 --- | --- | --- | ---
 [Ma, Po-Lun][mapnnl] | | |
@@ -130,5 +137,9 @@ Pacific Northwest National Laboratory |  |  |
 [ullrich]: https://climate.ucdavis.edu/people.php
 [chenh]: https://climate.ucdavis.edu/people.php
 [hany]: https://climate.ucdavis.edu/people.php
+
+[tesdal]: https://aos.princeton.edu/people/jan-erik-tesdal
+[griffies]: https://www.gfdl.noaa.gov/stephen-griffies-homepage/
+[krasting]: https://www.gfdl.noaa.gov/john-krasting-homepage/
 
 [mapnnl]: https://www.pnnl.gov/science/staff/staff_info.asp?staff_num=7579
