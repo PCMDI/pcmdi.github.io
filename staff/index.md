@@ -32,20 +32,30 @@ Name | Position | E-mail | Phone Number
 
 ## Collaborators @ other institutions
 
---- | --- | --- | --- | ---
+UCLA |  |  |
+--- | --- | --- | ---
 [Hall, Alex][hall] | | |
 [Norris, Jesse][norris] | | |
 [Thackeray, Chad][thackeray] | | |
 [Madakumbura, Gavin][madakumbura] | | |
-  | | |
+{: class="table table-striped"}
+
+Colorado State University |  |  |
+--- | --- | --- | ---
 [Barnes, Elizabeth][barnes] | | |
 [Arcodia, Marybeth][arcodia] | | |
 [Valkonen, Elina][valkonen] | | |
-  | | |
+{: class="table table-striped"}
+
+UC Davis |  |  |
+--- | --- | --- | ---
 [Ullrich, Paul][ullrich] | | |
 [Han, Yushan][hany] | | |
 [Chen, Hongyu][chenh] | | |
-  | | |
+{: class="table table-striped"}
+
+Pacific Northwest National Laboratory |  |  |
+--- | --- | --- | ---
 [Ma, Po-Lun][mapnnl] | | |
 {: class="table table-striped"}
 
