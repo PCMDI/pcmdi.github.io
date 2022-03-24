@@ -73,8 +73,6 @@ Pacific Northwest National Laboratory |  |  |
 [Caldwell, Peter][caldwell] | Research Scientist | caldwell19@llnl.gov | (925) 422-4197
 [Covey, Curt][covey] | Research Scientist | covey1@llnl.gov | (925) 422-1828
 [Golaz, Chris][golaz] | Research Scientist | golaz1@llnl.gov | (925) 423-6912
-[Nadeau, Denis][nadeau] | Computer Scientist | |
-[Painter, Jeff][painter] | Computer Scientist | |
 [Santer, Ben][santer] | Research Scientist | |
 [Xie, Shaocheng][xie] | Research Scientist | xie2@llnl.gov | (925) 422-6023
 [Zhang, Chengzhu][zhang40] | Research Scientist | zhang40@llnl.gov | (925) 424-4573
@@ -85,6 +83,8 @@ Pacific Northwest National Laboratory |  |  |
 --- | --- | --- | --- | ---
 [Doutriaux, Charles][doutriaux] | Computer Scientist | doutriaux1@llnl.gov | (925) 422-1487
 [Harris, Matthew][harris] | Computer Scientist | harris112@llnl.gov | (925) 423-8978
+[Nadeau, Denis][nadeau] | Computer Scientist | |
+[Painter, Jeff][painter] | Computer Scientist | |
 [Phillips, Tom][phillips] | Research Scientist | phillips14@llnl.gov | (925) 422-0072
 [Sperber, Ken][sperber] | Research Scientist | |
 [Williams, Dean][williams] | Computer Scientist	 | |
