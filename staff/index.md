@@ -105,7 +105,7 @@ Pacific Northwest National Laboratory |  |  |
 [harris]: {{site.baseurl}}/staff/harris
 [hoang]: {{site.baseurl}}/staff/hoang
 [klein]: https://people.llnl.gov/klein21
-[lee]: {{site.baseurl}}/staff/lee
+[lee]: https://people.llnl.gov/lee1043
 [ma]: https://people.llnl.gov/ma21
 [mauzey]: https://people.llnl.gov/mauzey1
 [ordonez]: https://people.llnl.gov/ordonez4
