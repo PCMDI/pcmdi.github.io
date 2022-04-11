@@ -120,8 +120,8 @@ Information is under preparation describing the governance of the following:
 ###### Document version: 09 April 2020
 
 [guide]: index.html
-[institutionIdHtml]: http://rawgit.com/WCRP-CMIP/CMIP6_CVs/master/src/CMIP6_institution_id.html
-[sourceIdHtml]: http://rawgit.com/WCRP-CMIP/CMIP6_CVs/master/src/CMIP6_source_id.html
+[institutionIdHtml]: https://wcrp-cmip.github.io/CMIP6_CVs/docs/CMIP6_institution_id.html
+[sourceIdHtml]: https://wcrp-cmip.github.io/CMIP6_CVs/docs/CMIP6_source_id.html
 [cmip6Cvs]: https://github.com/WCRP-CMIP/CMIP6_CVs
 [GMDSpecialIssue]: http://www.geosci-model-dev.net/special_issue590.html
 [EyringEtAl16]: http://doi.org/10.5194/gmd-9-1937-2016
@@ -129,7 +129,7 @@ Information is under preparation describing the governance of the following:
 [CMIP6EndorsedMips]: https://www.wcrp-climate.org/modelling-wgcm-mip-catalogue/modelling-wgcm-cmip6-endorsed-mips
 [activityIdJson]: https://github.com/WCRP-CMIP/CMIP6_CVs/blob/master/CMIP6_activity_id.json
 [experimentIdJson]: https://github.com/WCRP-CMIP/CMIP6_CVs/blob/master/CMIP6_experiment_id.json
-[experimentIdhtml]: http://rawgit.com/WCRP-CMIP/CMIP6_CVs/master/src/CMIP6_experiment_id.html
+[experimentIdhtml]: https://wcrp-cmip.github.io/CMIP6_CVs/docs/CMIP6_experiment_id.html
 [cmip6DataRequestCog]: https://www.earthsystemcog.org/projects/wip/CMIP6DataRequest
 [cfConventionsPage]: http://cfconventions.org/
 [cmip6GlobalAttGoogleDoc]: http://goo.gl/v1drZl
