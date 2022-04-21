@@ -260,11 +260,13 @@ For other grids, the nominal_resolution can be calculated with the following cod
 
 ## 7. Archiving/publishing output
 The Earth System Grid Federation ([ESGF][ESGFLlnlHome]) will facilitate the global
-distribution of CMIP6 output. For CMIP6, certain ESGF data nodes (known as “Tier
-1 nodes”) will serve as the primary access points to the data. The model output
-will be “published” on these nodes and the data will be hosted on these and on
-additional nodes, many of which will be installed and maintained by the modeling
-centers themselves. As part of “publication”, certain conformance checks are performed,
+distribution of CMIP6 output. 
+
+For CMIP6, the original copies of data will be availble through the data nodes, many of which will be installed and maintained by the modeling centers themselves. Certain ESGF data nodes (known as “Tier
+1 nodes”) will serve as the primary access points to the data. A searchable record of model output: the access method and metadata,
+will be “published” to these nodes, and additionally, replicas of the data will be hosted on these nodes.
+
+As part of “publication”, certain conformance checks are performed,
 metadata are recorded in a catalog where it can be accessed by the other data nodes,
 and versioning is managed. The data provider (modeling center) will need to closely
 coordinate and cooperate with the ESGF data manager(s) of a specific ESGF data
@@ -391,9 +393,9 @@ Information is under preparation describing the governance of the following:
 [cmip6CvsRegistrationGuidance]: https://github.com/WCRP-CMIP/CMIP6_CVs/blob/master/.github/ISSUE_TEMPLATE.md
 [ESGFLlnlHome]: https://esgf-node.llnl.gov/projects/esgf-llnl/
 [institutionIdJson]: https://github.com/WCRP-CMIP/CMIP6_CVs/blob/master/CMIP6_institution_id.json
-[institutionIdHtml]: http://rawgit.com/WCRP-CMIP/CMIP6_CVs/master/src/CMIP6_institution_id.html
+[institutionIdHtml]: https://wcrp-cmip.github.io/CMIP6_CVs/docs/CMIP6_institution_id.html
 [sourceIdJson]: https://github.com/WCRP-CMIP/CMIP6_CVs/blob/master/CMIP6_source_id.json
-[sourceIdHtml]: http://rawgit.com/WCRP-CMIP/CMIP6_CVs/master/src/CMIP6_source_id.html
+[sourceIdHtml]: https://wcrp-cmip.github.io/CMIP6_CVs/docs/CMIP6_source_id.html
 [dkrzCitationGUI]: http://cera-www.dkrz.de/citeXA
 [dkrzCitationGUIDoc]: http://cera-www.dkrz.de/docs/pdf/CMIP6_Citation_Userguide.pdf
 [PCMDIAmipCitation]: https://doi.org/10.22033/ESGF/input4MIPs.2204
@@ -406,7 +408,7 @@ Information is under preparation describing the governance of the following:
 [CMIP6EndorsedMips]: https://www.wcrp-climate.org/modelling-wgcm-mip-catalogue/modelling-wgcm-cmip6-endorsed-mips
 [activityIdJson]: https://github.com/WCRP-CMIP/CMIP6_CVs/blob/master/CMIP6_activity_id.json
 [experimentIdJson]: https://github.com/WCRP-CMIP/CMIP6_CVs/blob/master/CMIP6_experiment_id.json
-[experimentIdhtml]: http://rawgit.com/WCRP-CMIP/CMIP6_CVs/master/src/CMIP6_experiment_id.html
+[experimentIdhtml]: https://wcrp-cmip.github.io/CMIP6_CVs/docs/CMIP6_experiment_id.html
 [input4mipsCog]: https://esgf-node.llnl.gov/search/input4MIPs
 [input4mipsGoogleDoc]: http://goo.gl/r8up31
 [cmip6DataRequestCog]: https://www.earthsystemcog.org/projects/wip/CMIP6DataRequest

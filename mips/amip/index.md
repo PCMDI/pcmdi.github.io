@@ -17,27 +17,12 @@ The proper citation for the boundary condition data is the following report: Tay
 
 Note that earlier versions (prior to 2007) of the observational dataset on which the boundary conditions are based were prepared following a different procedure described [here]({{site.baseurl}}/mips/amip/amip2). There are differences between the earlier dataset and the present one which are generally small but not entirely negligible.
 
-<center> 
-<p><a href="{{site.baseurl}}/mips/amip/AMIP2EXPDSN/BCS/bcsregist.html">Please register</a> so that we can contact you with information concerning these data sets.</p>
+<center>
+<p>Please <a href="mailto:PCMDI-AMIPBCS-request@listserv.llnl.gov">subscribe to the pcmdi-amipbcs mailing list</a> so that we can contact you with information concerning these data sets.</p>
 <p><a href="{{site.baseurl}}/mips/amip/AMIP2EXPDSN/BCS/amipbc_dwnld_files/360x180/v1.0.0/nc/readme_nc">README</a></p>
-<p><b>Current version: PCMDI-AMIP-1.1.4 (27 April 2018; Data coverage 1870-1-1 to 2017-12-31)</b></p>
-<p>Please see the input4MIPs website at <a href="https://esgf-node.llnl.gov/search/input4mips/?institution_id=PCMDI&source_version=1.1.4" target="_blank">http://esgf-node.llnl.gov/search/input4mips/</a></p>
+<p><b>Current version: PCMDI-AMIP-1.1.7 (1 February 2022; Data coverage 1870-1-1 to 2021-06-30)</b></p>
+<p>Please see the input4MIPs website at <a href="https://esgf-node.llnl.gov/search/input4mips/?institution_id=PCMDI&source_version=1.1.7" target="_blank">http://esgf-node.llnl.gov/search/input4mips/</a></p>
 </center>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+###### Document version: 2 February 2022

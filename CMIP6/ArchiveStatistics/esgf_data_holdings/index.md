@@ -3,8 +3,8 @@ layout: default
 title: ESGF CMIP6 Data Holdings
 ---
 
-## ESGF CMIP6 Data Holdings
+# ESGF CMIP6 Data Holdings
 
-<div style="overflow-x:auto;">
-{% include esgf_cmip6.html %}
-</div>
+[Print-Friendly View](print_view.html)
+
+{% include esgf_cmip6_holdings/CMIP6_esgf_holdings.html %}

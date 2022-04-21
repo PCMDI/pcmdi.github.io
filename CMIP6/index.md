@@ -36,8 +36,12 @@ in [three guides][cmip6GuideHomepage], tailored to different groups:
 ## Additional information for CMIP6:
  * [CMIP6 license and terms of use][termsOfUse]
 
+### CMIP6 Modeling Groups (click on flags to reveal identity)
 
-###### Document version: 15 January 2019
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1cPCfAqvlJTcYPmuOfWju-WMnRZOC14wx&ll=20%2C20&z=2" width="100%" height="540"></iframe>
+
+
+###### Document version: 13 February 2019
 
 [WCRP]: https://www.wcrp-climate.org
 [WGCM]: https://www.wcrp-climate.org/wgcm-overview

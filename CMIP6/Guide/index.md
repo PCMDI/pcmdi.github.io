@@ -26,12 +26,12 @@ Here are links to the parts of the guide.
 1. Documentation process
 1. CMIP6 organization and governance
 
-### [For CMIP6 ESGF data node managers and operators][dataManagers] (in preparation):
+### [For CMIP6 ESGF data node managers and operators][dataManagers]:
 
-1. Hardware requirements
-1. Operational requirements/expectations
-1. Publication procedure
-1. Software supporting publication/replication
+1. Installation and configuration
+1. Preparation for publication
+1. Dataset publication and retraction
+1. Errata and data versioning
 
 ### [For Users of CMIP6 model output][dataUsers]:
 
@@ -45,7 +45,7 @@ Here are links to the parts of the guide.
 1. CMIP6 organization and governance
 
 
-###### Document version: 7 August 2018
+###### Document version: 13 February 2019
 
 [modelers]: modelers.html
 [dataManagers]: dataManagers.html

@@ -105,7 +105,7 @@ All users of CMIP5 model output should be sure to properly cite and acknowledge 
 {: .indent}
 
 
-**“Official” Names of CMIP5 Models and Modeling Groups [CMIP5_modeling_groups]({{site.baseurl}}/mips/cmip5/CMIP5_modeling_groups.pdf).**
+**“Official” Names of CMIP5 Models and Modeling Groups [CMIP5_modeling_groups]({{site.baseurl}}/mips/cmip5/availability.html).**
 
 ## CMIP5 Model Output Archive:
 
@@ -121,7 +121,7 @@ An overview of currently available model output can be found at:
 
 The CMIP5 model output is served by the following ESGF Data Portals:
 
-PCMDI: <http://pcmdi9.llnl.gov/>
+PCMDI: <http://esgf-node.llnl.gov/>
 {: .indent}
 
 BADC: <http://esgf-index1.ceda.ac.uk>
@@ -130,7 +130,7 @@ BADC: <http://esgf-index1.ceda.ac.uk>
 DKRZ: <http://esgf-data.dkrz.de>
 {: .indent}
 
-NCI: <http://esg2.nci.org.au>
+NCI: <http://esgf.nci.org.au>
 {: .indent}
 
 ## CMIP5 Model and Experiment Documentation:
@@ -139,7 +139,7 @@ NCI: <http://esg2.nci.org.au>
 Model and experiment documentation is available through the the same ESG portals serving the model output (described immediately above).
 
 
-The documentation can also be accessed directly using a new ["comparator" tool](http://prod.static.esdoc.webfactional.com/js_client/demo/prod/comparator.html). To view documentation for a single model click on "view" next to the model name in the left hand column. You may also create a "table" comparing model properties using this tool.
+The documentation can also be accessed directly using a new ["comparator" tool](http://search.es-doc.org) (Now updated as ES-DOC). To view documentation for a single model click on "view" next to the model name in the left hand column. You may also create a "table" comparing model properties using this tool.
 
 
 The ES-DOC collaborative effort is responsible for this new and useful capability. Other tools developed by ES-DOC can be accessed from their [website](http://es-doc.org/).
@@ -174,7 +174,7 @@ The CORDEX project is a WCRP-coordinated exercise to regionally downscale climat
 
 [TGICA & IPCC's DDC](http://www.ipcc-data.org/ddc_about.html) (Task Group on data and scenario support for Impact and Climate Analysis and the IPCC's Data Distribution Centre)
 
-[ESGF](http://esgf.org/) (Earth System Grid Federation)
+[ESGF](http://esgf.llnl.gov) (Earth System Grid Federation)
 
 [METAFOR](http://metaforclimate.eu/) (Metadata For Climate Models)
 

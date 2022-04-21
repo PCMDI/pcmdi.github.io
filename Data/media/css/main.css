@@ -607,7 +607,6 @@ span.showto {
 }
 #footer-slim.footer a { 
   float:left;
-  margin-right:16px;
 }
 .subfooter {    
   font-size:10px;
@@ -616,18 +615,22 @@ span.showto {
 .subfooter span { 
   float:left; 
 }
-.subfooter a {  
-  float:left; 
+
+#footer-slim.footer .llnl {
+  margin-right:16px;
 }
 #footer-slim.footer .nnsa {
   margin-top:5px;
   margin-left:2px;
+  margin-right:16px;
 }
 #footer-slim.footer .doe {
   margin-top:0px;
+  margin-right:16px;
 }
 #footer-slim.footer .llns {
   margin-top:5px;
+  margin-right:16px;
 }
 .footernav {
     list-style: none;
