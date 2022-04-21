@@ -14,6 +14,8 @@ title: Cloud Feedbacks
 
 * Samset, B. H., C. Zhou, J. S. Fuglestvedt, M. T. Lund, J. Marotzke, and M. D. Zelinka, 2022: [Speeding up Detection of Climate Response to Emission Reductions](https://climatemodeling.science.energy.gov/research-highlights/speeding-detection-climate-response-emission-reductions)
 
+* Thackeray, C. W., A. Hall, J. Norris, and D. Chen, 2022: [Constraining The Increased Frequency Of Global Precipitation Extremes Under Warming](https://climatemodeling.science.energy.gov/research-highlights/constraining-increased-frequency-global-precipitation-extremes-under-warming)
+
 * Zelinka, M. D., S. A. Klein, Y. Qin, and T. A. Myers, 2022: [Evaluating Climate Models’ Cloud Feedbacks Against Expert Judgment](https://climatemodeling.science.energy.gov/research-highlights/evaluating-climate-models-cloud-feedbacks-against-expert-judgment)
 
 ### 2021
