@@ -71,6 +71,24 @@ MIP phases. Extensive analysis of the latest CMIP6 simulations by the internatio
 climate community anchored much of the scientific basis for the
 [IPCC's Sixth Assessment Report on Climate Change][AR6], published in 2021/22.
 
+
+<div class="span12">
+  <h3>Sponsors</h3>
+  <div class="span12">
+    <div class="row">
+      <div class="span3">
+        <a target="_blank" href="http://energy.gov">
+          <h4 class="muted">U.S. Department of Energy (DOE)</h4>
+          <img src="{{site.baseurl}}/Data/media/images/doe.svg"
+               alt="U.S. Department of Energy - logo"
+               class="thumbnail"
+               style="width:154px;height:128px;border:0px;">
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
 [LLNL]: https://www.llnl.gov/
 [SF]: {{site.baseurl}}/location.html
 [RGMA]: https://climatemodeling.science.energy.gov/program-area/regional-global-model-analysis
