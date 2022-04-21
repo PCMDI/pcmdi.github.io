@@ -11,7 +11,13 @@ title: Cloud Feedbacks
 
 ### 2022
 
+* Ma, P.-L., et al. including S. A. Klein and M. D. Zelinka, 2022: Better calibration of cloud parameterizations and subgrid effects increases the fidelity of E3SM Atmosphere Model version 1, <em>Geosci. Model Dev.</em>, doi:[10.5194/gmd-2021-298](https://gmd.copernicus.org/preprints/gmd-2021-298/).
+
 * Qin, Y., M. D. Zelinka, and S. A. Klein, 2022: On the Correspondence between Atmosphere-Only and Coupled Simulations for Radiative Feedbacks and Forcing from CO2, <em>J. Geophys. Res.</em>, 127, e2021JD035460. doi:[10.1029/2021JD035460](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2021JD035460).
+
+* Samset, B., C. Zhou, J. Fuglestvedt, M. Lund, J. Marotzke, M. D. Zelinka, 2022: Earlier emergence of a temperature response to mitigation by filtering annual variability, <em>Nat Commun.</em>, 13, 1578, doi:[10.1038/s41467-022-29247-y](https://www.nature.com/articles/s41467-022-29247-y).
+
+* Thackeray, C.W., A. Hall, J. Norris, and D. Chen, 2022: Constraining the increased frequency of global precipitation extremes under warming. <em>Nat. Clim. Chang.</em>, doi:[10.1038/s41558-022-01329-1](https://www.nature.com/articles/s41558-022-01329-1).
 
 * Zelinka, M. D., S. A. Klein, Y. Qin, and T. A. Myers, 2022: Evaluating Climate Models’ Cloud Feedbacks Against Expert Judgment, <em>J. Geophys. Res.</em>, 127, e2021JD035198, doi:[10.1029/2021JD035198](https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2021JD035198).
 
