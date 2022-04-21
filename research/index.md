@@ -39,5 +39,5 @@ PCMDI conducts extensive research to try and reduce uncertainty in climate sensi
 [DandA]:{{site.baseurl}}/research/DandA/index.html
 [Diagnosis]:{{site.baseurl}}/research/diagnostics/index.html
 [Metrics]:{{site.baseurl}}/research/metrics/index.html
-[CloudFeedbacks]:{{site.baseurl}}/projects/cloud_feedbacks/index.md
+[CloudFeedbacks]:{{site.baseurl}}/projects/cloud_feedbacks/index.html
 [KEN]:{{site.baseurl}}/staff/sperber/supplemental.html
