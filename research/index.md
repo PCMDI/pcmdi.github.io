@@ -25,6 +25,13 @@ The PCMDI metrics package is used to objectively compare results from climate mo
 
 ---
 
+# Cloud Feedbacks
+
+#### [Cloud Feedbacks and Climte Sensitivity Research][CloudFeedbacks]
+PCMDI conducts extensive research to try and reduce uncertainty in climate sensitivity, with a focus on its primary driver, cloud feedback. 
+
+---
+
 # Supplemental Material
 
 #### [Supplemental Material for Ken Sperber's Publication][KEN]
@@ -32,4 +39,5 @@ The PCMDI metrics package is used to objectively compare results from climate mo
 [DandA]:{{site.baseurl}}/research/DandA/index.html
 [Diagnosis]:{{site.baseurl}}/research/diagnostics/index.html
 [Metrics]:{{site.baseurl}}/research/metrics/index.html
+[CloudFeedbacks]:{{site.baseurl}}/projects/cloud_feedbacks/index.html
 [KEN]:{{site.baseurl}}/staff/sperber/supplemental.html
