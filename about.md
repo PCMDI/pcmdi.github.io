@@ -89,6 +89,7 @@ climate community anchored much of the scientific basis for the
   </div>
 </div>
 
+###### Document version: 21 April 2022
 [LLNL]: https://www.llnl.gov/
 [SF]: {{site.baseurl}}/location.html
 [RGMA]: https://climatemodeling.science.energy.gov/program-area/regional-global-model-analysis
