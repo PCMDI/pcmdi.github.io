@@ -13,15 +13,15 @@ title: Cloud Feedbacks
 * [Karl Taylor](https://pcmdi.llnl.gov/staff/taylor/karlcv.html) (LLNL, co-Investigator) 
 * [Alex Hall](https://dept.atmos.ucla.edu/alexhall) (UCLA, co-Investigator) 
 * [Peter Caldwell](https://pcmdi.llnl.gov/staff/caldwell/index.html) (LLNL)
-* [Di Chen](https://dept.atmos.ucla.edu/alexhall/people/di-chen) (UCLA) 
 * [Jesse Norris](https://dept.atmos.ucla.edu/alexhall/people/jesse-norris) (UCLA) 
 * [Yi Qin](https://people.llnl.gov/qin4) (LLNL)
-* [Mark Zelinka](https://markdzelinka.wordpress.com/) (LLNL) 
+* [Mark Zelinka](https://mzelinka.github.io) (LLNL) 
 * [Yunyan Zhang](https://pls.llnl.gov/people/staff-bios/aeed/zhang-y) (LLNL) 
 
 ## Former Participants
 
 * [Florent Brient](http://www.umr-cnrm.fr/spip.php?article1046&lang=fr) (Meteo-France) 
+* [Di Chen](https://scholar.google.com/citations?hl=en&user=s9OnuRMAAAAJ) 
 * [Anthony DeAngelis](https://scholar.google.com/citations?user=pzDevCsAAAAJ&hl=en) (NASA Goddard, GMAO) 
 * Neil Gordon (Space and Naval Warfare Systems Command) 
 * [Timothy Myers](https://sites.google.com/site/myerstimothy/) (NOAA Cooperative Institute for Research in Environmental Sciences / CU Boulder) 
