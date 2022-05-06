@@ -11,6 +11,8 @@ title: Cloud Feedbacks
 
 ### 2022
 
+* Hausfather, Z., K. Marvel, G. A. Schmidt, J. W. Nielsen-Gammon, and M. D. Zelinka, 2022: Climate simulations: recognize the ‘hot model’ problem, <em>Nature</em>, doi:[10.1038/d41586-022-01192-2](https://www.nature.com/articles/d41586-022-01192-2).
+
 * Ma, P.-L., et al. including S. A. Klein and M. D. Zelinka, 2022: Better calibration of cloud parameterizations and subgrid effects increases the fidelity of E3SM Atmosphere Model version 1, <em>Geosci. Model Dev.</em>, doi:[10.5194/gmd-2021-298](https://gmd.copernicus.org/preprints/gmd-2021-298/).
 
 * Qin, Y., M. D. Zelinka, and S. A. Klein, 2022: On the Correspondence between Atmosphere-Only and Coupled Simulations for Radiative Feedbacks and Forcing from CO2, <em>J. Geophys. Res.</em>, 127, e2021JD035460. doi:[10.1029/2021JD035460](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2021JD035460).
@@ -23,13 +25,17 @@ title: Cloud Feedbacks
 
 ### 2021
 
+* Chen, D., J. Norris, N. Goldenson, C. Thackeray, and A. Hall, 2021: A distinct atmospheric mode for California precipitation. <em>J. Geophys. Res.</em>, 126, e2020JD034403, doi:[10.1029/2020JD034403](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2020JD034403).
+
 * Hahn L. C., K. C. Armour, M. D. Zelinka, C. M. Bitz, and A. Donohoe, 2021: Contributions to Polar Amplification in CMIP5 and CMIP6 Models. <em>Front. Earth Sci.</em> 9:710036. doi:[10.3389/feart.2021.710036](https://www.frontiersin.org/articles/10.3389/feart.2021.710036/full).
 
 * Ma, H.-Y., et al. including S. A. Klein and M. D. Zelinka, 2021: A multi-year short-range hindcast experiment with CESM1 for evaluating climate model moist processes from diurnal to interannual timescales, <em>Geosci. Model Dev.</em>, 14, 73–90, doi:[10.5194/gmd-14-73-2021](https://gmd.copernicus.org/articles/14/73/2021/#section9).
 
 * Myers, T. A., R. C. Scott, M. D. Zelinka, S. A. Klein, J. R. Norris, and P. M. Caldwell, 2021: Observational Constraints on Low Cloud Feedback Reduce Uncertainty of Climate Sensitivity, <em>Nature Clim. Change</em>, doi:[10.1038/s41558-021-01039-0](https://www.nature.com/articles/s41558-021-01039-0).
 
-* Norris, J., Hall, A., Neelin, J. D., Thackeray, C. W., & Chen, D., 2021: Evaluation of the Tail of the Probability Distribution of Daily and Subdaily Precipitation in CMIP6 Models, <em>J. Climate</em>, 34(7), 2701-2721, doi:[10.1175/JCLI-D-20-0182.1](https://journals.ametsoc.org/view/journals/clim/aop/JCLI-D-20-0182.1/JCLI-D-20-0182.1.xml)
+* Norris, J., Hall, A., Neelin, J. D., Thackeray, C. W., and Chen, D., 2021: Evaluation of the Tail of the Probability Distribution of Daily and Subdaily Precipitation in CMIP6 Models, <em>J. Climate</em>, 34(7), 2701-2721, doi:[10.1175/JCLI-D-20-0182.1](https://journals.ametsoc.org/view/journals/clim/aop/JCLI-D-20-0182.1/JCLI-D-20-0182.1.xml).
+
+* Norris, J., A. Hall, D. Chen, C. Thackeray, and G. Madakumbura, 2021: Assessing the Representation of Synoptic Variability Associated With California Extreme Precipitation in CMIP6 Models,  <em>J. Geophys. Res.</em>, 126, doi:[10.1029/2020jd033938](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2020JD033938).
 
 * Pihl, E. et al. including M. D. Zelinka, 2021: 10 new insights in climate science 2020 - a horizon scan. <em>Global Sustainability</em>, 1-65, doi:[10.1017/sus.2021.2](https://www.cambridge.org/core/journals/global-sustainability/article/10-new-insights-in-climate-science-2020-a-horizon-scan/02F477AAABBD220523748C654EBD6F15).
 
@@ -38,6 +44,8 @@ title: Cloud Feedbacks
 * Santer, B. D., et al. including M. D. Zelinka, 2021: Using climate model simulations to constrain observations, <em>J. Climate</em>, doi:[10.1175/JCLI-D-20-0768.1](https://journals.ametsoc.org/view/journals/clim/aop/JCLI-D-20-0768.1/JCLI-D-20-0768.1.xml).
 
 * Thackeray, C. W., A. Hall, M. D. Zelinka, and C. G. Fletcher, 2021: Assessing prior emergent constraints on surface albedo feedback in CMIP6, <em>J. Climate</em>, 34(10), 3889-3905, doi:[10.1175/JCLI-D-20-0703.1](https://journals.ametsoc.org/view/journals/clim/aop/JCLI-D-20-0703.1/JCLI-D-20-0703.1.xml).
+
+* Williamson, M. S., C. W. Thackeray, P. M. Cox, A. Hall, C. Huntingford, and F. J. M. M. Nijsse, 2021: Emergent constraints on climate sensitivities. Rev. Mod. Phys., 93, 025004, doi:[10.1103/RevModPhys.93.025004](https://journals.aps.org/rmp/abstract/10.1103/RevModPhys.93.025004).
 
 * Zhou, C., M. D. Zelinka, A. E. Dessler, and M. Wang, 2021: Greater committed warming after accounting for the SST pattern effect, <em>Nature Clim. Change</em>, 11, 132-136, doi:[10.1038/s41558-020-00955-x](https://www.nature.com/articles/s41558-020-00955-x).
   
