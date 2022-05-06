@@ -122,7 +122,7 @@ Pacific Northwest National Laboratory |  |  |
 [williams]:{{site.baseurl}}/staff/williams
 [jefferson]: {{site.baseurl}}/staff/jefferson
 [xie]: {{site.baseurl}}/staff/Xie
-[zelinka]: https://markdzelinka.wordpress.com/
+[zelinka]: https://mzelinka.github.io
 [zhang40]: https://people.llnl.gov/zhang40
 
 [hall]: https://dept.atmos.ucla.edu/alexhall/people/alex-hall
