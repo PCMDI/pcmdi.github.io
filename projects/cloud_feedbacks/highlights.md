@@ -19,6 +19,8 @@ title: Cloud Feedbacks
 * Zelinka, M. D., S. A. Klein, Y. Qin, and T. A. Myers, 2022: [Evaluating Climate Models’ Cloud Feedbacks Against Expert Judgment](https://climatemodeling.science.energy.gov/research-highlights/evaluating-climate-models-cloud-feedbacks-against-expert-judgment)
 
 ### 2021
+* Chen, D., J. Norris, N. Goldenson, C. Thackeray, and A. Hall, 2021: [A distinct atmospheric mode for California precipitation](https://climatemodeling.science.energy.gov/research-highlights/distinct-atmospheric-mode-california-precipitation)
+
 * Hahn, L., K. Armour, M. D. Zelinka, C. Bitz, and A. Donohoe, 2021: [Causes of Polar Amplification in Earth System Models](https://climatemodeling.science.energy.gov/research-highlights/causes-polar-amplification-earth-system-models)
 
 * Myers, T. A., R. C. Scott, M. D. Zelinka, S. A. Klein, J. R. Norris, and P. M. Caldwell, 2021: [Observational Constraints on Low Cloud Feedback Reduce Uncertainty of Climate Sensitivity](https://climatemodeling.science.energy.gov/research-highlights/observational-constraints-low-cloud-feedback-reduce-uncertainty-climate)
