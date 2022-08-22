@@ -2,7 +2,7 @@
 layout: default
 title: ENSO Metrics
 ---
-###### [Research][results] > [Metrics][metrics] > ENSO
+###### [Research][research] > [Metrics][metrics] > ENSO
 ---
 
 # El Niño-Southern Oscillation (ENSO)

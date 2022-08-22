@@ -12,15 +12,15 @@ title: Metrics
 The PCMDI Metrics Package ([PMP][pmp]) is a capability that is used to produce a diverse suite of "quick-look" objective summaries of Earth System Model (ESM) agreement with observations. The [PMP][pmp] is routinely applied to multiple generations of CMIP, including the most recent results from CMIP6 as they become available. These results are regularly updated as additional simulations become available, new analysis are included, and as presentation improvements and corrections are made. 
 <br/>
 
-* [CMIP mean state and variability](physical.html "CMIP mean state and variability")
-  - [Mean Climate][mean_clim]
-  - [Benchmarking Simulated Precipitation][precip]
-  - [El Niño–Southern Oscillation (ENSO)][enso]
-  - [Extratropical Modes of Variability][variability_modes]
-  - [Madden-Julian Oscillation (MJO)][mjo]
-  - [Monsoon Characteristics (example)][monsoon]
+* [Mean Climate][mean_clim]
+* [Benchmarking Simulated Precipitation][precip]
+* [El Niño–Southern Oscillation (ENSO)][enso]
+* [Extratropical Modes of Variability][variability_modes]
+* [Madden-Julian Oscillation (MJO)][mjo]
+* [Monsoon Characteristics (example)][monsoon]
 
-**Results are also accessible from the [Coordinated Model Evaluation Capabilities (CMEC) website][cmec].**
+
+Results are also accessible from the [Coordinated Model Evaluation Capabilities (CMEC)][cmec] website.
 
 ---
 
