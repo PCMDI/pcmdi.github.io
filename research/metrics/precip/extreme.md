@@ -2,7 +2,7 @@
 layout: default
 title: Precipitation
 ---
-###### [Results][results] > [CMIP mean state and variability][mean_and_variability_index_page] > [Benchmarking Simulated Precipitation][precip] > Extreme
+###### [Research][results] > [Metrics][metrics] > [Benchmarking Simulated Precipitation][precip]  >Extreme 
 ---
 
 # Precipitation Extremes 
@@ -39,5 +39,6 @@ Following Taylor diagrams (equivalent to Fig. 8 of [Wehner et al. 2020](#wehner2
 [wehner2020]: https://doi.org/10.1016/j.wace.2020.100283
 
 [precip]:{{site.baseurl}}/results/precip
-[mean_and_variability_index_page]: {{site.baseurl}}/results/physical.html
-[results]:{{site.baseurl}}/results
+
+[research]:{{site.baseurl}}/research
+[metrics]:{{site.baseurl}}/research/metrics

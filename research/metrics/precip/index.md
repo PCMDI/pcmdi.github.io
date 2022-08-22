@@ -2,7 +2,7 @@
 layout: default
 title: Precipitation
 ---
-###### [Results][results] > [CMIP mean state and variability][mean_and_variability_index_page] > Benchmarking Simulated Precipitation
+###### [Research][results] > [Metrics][metrics] > Benchmarking Simulated Precipitation
 ---
 
 # Benchmarking Simulated Precipitation
@@ -115,5 +115,5 @@ Wehner, M., P Gleckler, J Lee, 2020: Characterization of long period return valu
 [extreme]: extreme.html
 [mean]: mean.html
 
-[results]:{{site.baseurl}}/results
-[mean_and_variability_index_page]: {{site.baseurl}}/results/physical.html
+[research]:{{site.baseurl}}/research
+[metrics]:{{site.baseurl}}/research/metrics

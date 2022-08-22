@@ -2,7 +2,7 @@
 layout: default
 title: Mean Climate
 ---
-###### [Results][results] > [CMIP mean state and variability][mean_and_variability_index_page] > Mean Climate
+###### [Research][results] > [Metrics][metrics] > Mean Climate
 ---
 
 # Mean Climate
@@ -76,5 +76,5 @@ Taylor, K. E., 2001: Summarizing multiple aspects of model performance in a sing
 
 [obs_info]: https://raw.githubusercontent.com/PCMDI/PCMDIobs-cmor-tables/master/catalogue/pcmdiobs2_clims_byVar_catalogue_v20200615.json
 
-[results]:{{site.baseurl}}/results
-[mean_and_variability_index_page]: {{site.baseurl}}/results/physical.html
+[research]:{{site.baseurl}}/research
+[metrics]:{{site.baseurl}}/research/metrics
