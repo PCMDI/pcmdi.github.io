@@ -2,7 +2,7 @@
 layout: default
 title: MJO
 ---
-###### [Research][results] > [Metrics][metrics] > MJO
+###### [Research][research] > [Metrics][metrics] > MJO
 ---
 
 # Madden-Julian Oscillation (MJO)

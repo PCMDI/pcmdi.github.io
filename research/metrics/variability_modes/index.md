@@ -2,7 +2,7 @@
 layout: default
 title: Extratropical Modes of Variability
 ---
-###### [Research][results] > [Metrics][metrics] > Extratropical Modes of Variability
+###### [Research][research] > [Metrics][metrics] > Extratropical Modes of Variability
 ---
 
 # Extratropical Modes of Variability

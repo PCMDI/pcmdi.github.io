@@ -2,7 +2,7 @@
 layout: default
 title: Mean Climate
 ---
-###### [Research][results] > [Metrics][metrics] > Mean Climate
+###### [Research][research] > [Metrics][metrics] > Mean Climate
 ---
 
 # Mean Climate
