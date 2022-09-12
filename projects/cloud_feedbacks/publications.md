@@ -11,6 +11,8 @@ title: Cloud Feedbacks
 
 ### 2022
 
+* Zelinka, M. D., I. Tan, L. Oreopoulos, G. Tselioudis, 2022: Detailing Cloud Property Feedbacks with a Regime-Based Decomposition, <em>Clim Dyn.</em>, doi:[10.1007/s00382-022-06488-7](https://link.springer.com/article/10.1007/s00382-022-06488-7).
+
 * Hausfather, Z., K. Marvel, G. A. Schmidt, J. W. Nielsen-Gammon, and M. D. Zelinka, 2022: Climate simulations: recognize the ‘hot model’ problem, <em>Nature</em>, doi:[10.1038/d41586-022-01192-2](https://www.nature.com/articles/d41586-022-01192-2).
 
 * Ma, P.-L., et al. including S. A. Klein and M. D. Zelinka, 2022: Better calibration of cloud parameterizations and subgrid effects increases the fidelity of E3SM Atmosphere Model version 1, <em>Geosci. Model Dev.</em>, doi:[10.5194/gmd-2021-298](https://gmd.copernicus.org/preprints/gmd-2021-298/).
