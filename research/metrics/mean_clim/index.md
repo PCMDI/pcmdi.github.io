@@ -23,7 +23,8 @@ Mean state results from the PCMDI Metrics Package (PMP) are used to produce "qui
 
 ## Interactive Portrait Plot
 <br/>
-- Interactive Portrait Plots (IPP) show results that are normalized by the median RMS error across all models (rows), as described in [Gleckler et al. (2008)][gleckler2008].  This normalization enables a common color scale to be used for all statistics and highlights the <b>relative strengths and weakness of different models</b>.  With this normalization an error of -0.5 indicates a model’s error is 50% smaller than the typical (median) error across all models, whereas an error of 0.5 is an error 50% larger than the typical error in the multi-model ensemble.   <b><i>This diagram can be used to navigate to additional results.  Hovering your mouse over a square or triangle will reveal the diagnostic plot from which the metrics were generated.  Additionally, hovering over the variables on the x-axis displays a [Taylor diagram][taylor2001]</i></b>.   After hovering on either type of plot, the user can click a second time to get a full sized image.
+- Interactive Portrait Plots (IPP) show results that are normalized by the median RMS error across all models (rows), as described in [Gleckler et al. (2008)][gleckler2008].  This normalization enables a common color scale to be used for all statistics and highlights the <b>relative strengths and weakness of different models</b>.  With this normalization an error of -0.5 indicates a model’s error is 50% smaller than the typical (median) error across all models, whereas an error of 0.5 is an error 50% larger than the typical error in the multi-model ensemble.   <b><i>This diagram can be used to navigate to additional results.  Hovering your mouse over a square or triangle will reveal the diagnostic plot from which the metrics were generated. </i></b>.   After hovering on either type of plot, the user can click to get a full sized image.
+- NOTE: Supported browsers are Chrome, Firefox, Safari, and Microsoft Edge. Microsoft Internet Explorer is no longer supported.
 
   - [**CMIP6 historical simulations**][portrait_cmip6_hist]
   - [**CMIP5 historical simulations**][portrait_cmip5_hist]
@@ -56,11 +57,15 @@ Gleckler, P. J., K. E. Taylor, and C. Doutriaux, 2008: Performance metrics for m
 
 Taylor, K. E., 2001: Summarizing multiple aspects of model performance in a single diagram. J. Geophys. Res., 106, 7183–7192, [doi: 10.1029/2000JD900719][taylor2001].
 
+[portrait_cmip6_hist]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/portrait_plot/mean_clim/cmip6/historical/v20220919/mean_clim_portrait_plot_4seasons_cmip6_historical_rms_xy_v20220919.html 
+[portrait_cmip5_hist]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/portrait_plot/mean_clim/cmip6/historical/v20220919/mean_clim_portrait_plot_4seasons_cmip5_historical_rms_xy_v20220919.html
+[portrait_cmip6_amip]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/portrait_plot/mean_clim/cmip6/historical/v20220919/mean_clim_portrait_plot_4seasons_cmip6_amip_rms_xy_v20220919.html
+[portrait_cmip5_amip]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/portrait_plot/mean_clim/cmip6/historical/v20220919/mean_clim_portrait_plot_4seasons_cmip5_amip_rms_xy_v20220919.html
 
-[portrait_cmip6_hist]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/portrait_plot/mean_clim/cmip6/historical/v20201008/global/rms_xy_season/clickable_portrait.html
-[portrait_cmip5_hist]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/portrait_plot/mean_clim/cmip5/historical/v20200506/clickable_portrait.html
-[portrait_cmip6_amip]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/portrait_plot/mean_clim/cmip6/amip/v20200506/clickable_portrait.html
-[portrait_cmip5_amip]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/portrait_plot/mean_clim/cmip5/amip/v20200506/clickable_portrait.html
+[portrait_cmip6_hist_old]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/portrait_plot/mean_clim/cmip6/historical/v20201008/global/rms_xy_season/clickable_portrait.html
+[portrait_cmip5_hist_old]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/portrait_plot/mean_clim/cmip5/historical/v20200506/clickable_portrait.html
+[portrait_cmip6_amip_old]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/portrait_plot/mean_clim/cmip6/amip/v20200506/clickable_portrait.html
+[portrait_cmip5_amip_old]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/portrait_plot/mean_clim/cmip5/amip/v20200506/clickable_portrait.html
 
 [portrait_cmip6_hist_global_rms_xyt]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/portrait_plot/mean_clim/cmip6/historical/v20201008/global/rms_xyt/clickable_portrait.html
 [portrait_cmip6_hist_global_rms_xy]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/portrait_plot/mean_clim/cmip6/historical/v20201008/global/rms_xy/clickable_portrait.html
