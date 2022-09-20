@@ -18,6 +18,8 @@ title: Cloud Feedbacks
 
 * Zelinka, M. D., S. A. Klein, Y. Qin, and T. A. Myers, 2022: [Evaluating Climate Models’ Cloud Feedbacks Against Expert Judgment](https://climatemodeling.science.energy.gov/research-highlights/evaluating-climate-models-cloud-feedbacks-against-expert-judgment)
 
+* Zelinka, M. D., I. Tan, L. Oreopoulos, G. Tselioudis, 2022: [Detailing Cloud Property Feedbacks with a Regime-Based Decomposition](https://climatemodeling.science.energy.gov/research-highlights/detailing-cloud-property-feedbacks-regime-based-decomposition)
+
 ### 2021
 * Chen, D., J. Norris, N. Goldenson, C. Thackeray, and A. Hall, 2021: [A distinct atmospheric mode for California precipitation](https://climatemodeling.science.energy.gov/research-highlights/distinct-atmospheric-mode-california-precipitation)
 
