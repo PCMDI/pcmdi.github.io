@@ -56,11 +56,15 @@ Gleckler, P. J., K. E. Taylor, and C. Doutriaux, 2008: Performance metrics for m
 
 Taylor, K. E., 2001: Summarizing multiple aspects of model performance in a single diagram. J. Geophys. Res., 106, 7183–7192, [doi: 10.1029/2000JD900719][taylor2001].
 
+[portrait_cmip6_hist]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/portrait_plot/mean_clim/cmip6/historical/v20220919/mean_clim_portrait_plot_4seasons_cmip6_historical_rms_xy_v20220919.html 
+[portrait_cmip5_hist]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/portrait_plot/mean_clim/cmip6/historical/v20220919/mean_clim_portrait_plot_4seasons_cmip5_historical_rms_xy_v20220919.html
+[portrait_cmip6_amip]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/portrait_plot/mean_clim/cmip6/historical/v20220919/mean_clim_portrait_plot_4seasons_cmip6_amip_rms_xy_v20220919.html
+[portrait_cmip5_amip]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/portrait_plot/mean_clim/cmip6/historical/v20220919/mean_clim_portrait_plot_4seasons_cmip5_amip_rms_xy_v20220919.html
 
-[portrait_cmip6_hist]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/portrait_plot/mean_clim/cmip6/historical/v20201008/global/rms_xy_season/clickable_portrait.html
-[portrait_cmip5_hist]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/portrait_plot/mean_clim/cmip5/historical/v20200506/clickable_portrait.html
-[portrait_cmip6_amip]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/portrait_plot/mean_clim/cmip6/amip/v20200506/clickable_portrait.html
-[portrait_cmip5_amip]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/portrait_plot/mean_clim/cmip5/amip/v20200506/clickable_portrait.html
+[portrait_cmip6_hist_old]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/portrait_plot/mean_clim/cmip6/historical/v20201008/global/rms_xy_season/clickable_portrait.html
+[portrait_cmip5_hist_old]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/portrait_plot/mean_clim/cmip5/historical/v20200506/clickable_portrait.html
+[portrait_cmip6_amip_old]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/portrait_plot/mean_clim/cmip6/amip/v20200506/clickable_portrait.html
+[portrait_cmip5_amip_old]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/portrait_plot/mean_clim/cmip5/amip/v20200506/clickable_portrait.html
 
 [portrait_cmip6_hist_global_rms_xyt]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/portrait_plot/mean_clim/cmip6/historical/v20201008/global/rms_xyt/clickable_portrait.html
 [portrait_cmip6_hist_global_rms_xy]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/portrait_plot/mean_clim/cmip6/historical/v20201008/global/rms_xy/clickable_portrait.html
