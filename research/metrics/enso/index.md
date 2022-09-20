@@ -22,7 +22,8 @@ This effort is described in detail in the following manuscript:  Planton, Y., E.
 
 ## Summary statistics in Interactive Portrait Plots
 - [**CMIP5 & 6 Historical**][ipp_enso] 
-- **NOTE**: _Currently the interactive plot is_ **NOT** _supported by_ **Microsoft Internet Explorer**_. While we are working on to fix it, please consider using another internet browser such as_ [**Chrome**][chrome] _or_ [**Firefox**][firefox]. _Sorry for the inconvenience._
+- NOTE: Supported browsers are Chrome, Firefox, Safari, and Microsoft Edge. Microsoft Internet Explorer is no longer supported.
+
 
 [<img src="https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/portrait_plot/enso_metric/raw_values/enso_metrics_interactive_portrait_plots_v20210723.png" alt="Interactive Portrait Plot" title="Interactive Portrait Plot" width="200">][ipp_enso]
 
