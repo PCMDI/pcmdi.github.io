@@ -18,6 +18,7 @@ The EWR results are based on the work of [Ahn et al. (2017)][ahn2017]. Implement
 <br/>
 ### Summary statistics in Interactive Bar Charts
   - **[EWR for CMIP5 and CMIP6 Historical][ewribc]**
+  - NOTE: Supported browsers are Chrome, Firefox, Safari, and Microsoft Edge. Microsoft Internet Explorer is no longer supported.
 
 <br/>
 ### General Results
