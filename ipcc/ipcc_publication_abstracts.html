@@ -7,11 +7,11 @@ title: PCMDI - IPCC
 <script>
     $( document ).ready(function() {
         var urlParams = new URLSearchParams(window.location.search);
-        var pubID = urlParams.get("ipcc_publication_id");
+        var pubID = parseInt(urlParams.get("ipcc_publication_id"));
 
         if(urlParams.has("ipcc_subproject_id")){
-            var projID = urlParams.get("ipcc_subproject_id");
-            $("#subproject_link").html("<a href=ipcc_subproject_details.html?ipcc_subproject_id="+projID+">\<\< Back to Subproject Details</a>");
+            var projID = parseInt(urlParams.get("ipcc_subproject_id"));
+            document.getElementById("subproject_link").innerHTML="<a href=ipcc_subproject_details.html?ipcc_subproject_id="+projID+">\<\< Back to Subproject Details</a>";
         }
 
         $.getJSON("subproject_publications.json", function (data) {
@@ -70,15 +70,15 @@ title: PCMDI - IPCC
                 citation += "In press. ";
             }
 
-            $("#citation").html(citation);
+            document.getElementById("citation").innerHTML = citation;
 
-            $("#abstract").html(pub.abstract.replace("\n", "<br />"));
+            document.getElementById("abstract").innerHTML = pub.abstract.replace("\n", "<br />");
 
             if(pub.url != ""){
-                $("#url").html("<b>Full Article:</b>  <a href="+pub.url+">"+pub.url+"</a>");
+                document.getElementById("url").innerHTML = "<b>Full Article:</b>  <a href="+pub.url+">"+pub.url+"</a>";
             }
 
-            $("#modified_datetime").html("Last Updated:  "+pub.modified_datetime);
+            document.getElementById("modified_datetime").innerHTML = "Last Updated:  "+pub.modified_datetime;
         });
     });
 </script>
