@@ -7,27 +7,27 @@ title: PCMDI - IPCC
 <script>
     $( document ).ready(function() {
         var urlParams = new URLSearchParams(window.location.search);
-        var projID = urlParams.get("ipcc_subproject_id");
+        var projID = parseInt(urlParams.get("ipcc_subproject_id"));
         $.getJSON("subproject_publications.json", function (data) {
             var project = data.ipcc_subprojects[projID];
 
-            $("#title").html(project.title);
+            document.getElementById("title").innerHTML = project.title;
 
             var piNames = project.pi_first_name+" "+project.pi_last_name;
             if(project.additional_pis != ""){
                 piNames += "<br />"+project.additional_pis;
             }
 
-            $("#pi_names").html(piNames);
+            document.getElementById("pi_names").innerHTML = piNames;
 
-            $("#institution").html(project.institution);
+            document.getElementById("institution").innerHTML = project.institution;
 
             if(project.additional_investigators != ""){
-                $("#additional_investigators_label").html("<b>Additional Investigators: </b>");
-                $("#additional_investigators_value").html(project.additional_investigators);
+                document.getElementById("additional_investigators_label").innerHTML = "<b>Additional Investigators: </b>";
+                document.getElementById("additional_investigators_value").innerHTML = project.additional_investigators;
             }
 
-            $("#abstract").html(project.abstract.replace("\n", "<br />"));
+            document.getElementById("abstract").innerHTML = project.abstract.replace("\n", "<br />");
 
             $.each(project.ipcc_publication_id, function(index, value) {
                 var pub = data.ipcc_publications[value];
@@ -90,7 +90,9 @@ title: PCMDI - IPCC
                     citation += "<a href="+pub.url+">Full Article</a>.";
                 }
 
-                $("#publications ul").append("<li>"+citation+"</li>");
+                citation_element = document.createElement("li");
+                citation_element.innerHTML = citation;
+                document.getElementById("publications").appendChild(citation_element);
             });
         });
     });
@@ -133,10 +135,8 @@ title: PCMDI - IPCC
     </tr>
     <tr>
         <td colspan="2" style="padding-left: 10px;">
-            <div id="publications">
-            <ul style="list-style: none; margin-left: 0; padding-left: 1em; text-indent: -1em; margin-top: 0px; margin-bottom: 0px; padding-top: 0px; padding-bottom: 0px;">
+            <ul id="publications" style="list-style: none; margin-left: 0; padding-left: 1em; text-indent: -1em; margin-top: 0px; margin-bottom: 0px; padding-top: 0px; padding-bottom: 0px;">
             </ul>
-            </div>
         </td>
     </tr>
 </table>
