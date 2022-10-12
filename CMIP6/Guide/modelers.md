@@ -387,7 +387,7 @@ Information is under preparation describing the governance of the following:
 * [obs4MIPs][obs4mips]
 
 
-###### Document version: 17 October 2018
+###### Document version: 12 October 2022
 
 [guide]: index.html
 [cmip6CvsRegistrationGuidance]: https://github.com/WCRP-CMIP/CMIP6_CVs/blob/master/.github/ISSUE_TEMPLATE.md

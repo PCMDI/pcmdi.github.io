@@ -116,7 +116,8 @@ Information is under preparation describing the governance of the following:
 * [input4MIPs][input4mipsHome]
 * [obs4MIPs][obs4mips]
 
-###### Document version: 09 April 2020
+
+###### Document version: 12 October 2022
 
 [guide]: index.html
 [institutionIdHtml]: https://wcrp-cmip.github.io/CMIP6_CVs/docs/CMIP6_institution_id.html
