@@ -7,6 +7,30 @@ title: Detection & Attribution
 ---
 ## Publications
 
+<h4> 2022</h4>
+ 
+<ul>
+  
+<li>Po-Chedley, S., J.T. Fasullo, N. Siler, Z.M. Labe, E.A. Barnes, C.J.W. Bonfils, B.D. Santer, 2022: "Internal variability and forcing influence model-satellite differences in the rate of tropical tropospheric warming," <em>Proceedings of the National Academy of Sciences</em>, in press.</li>
+ 
+<li>Wang, Y., J. Mao, F.M. Hoffman, C.J.W. Bonfils, H. Douville, M. Jin, P.E. Thornton, D.M. Ricciuto, X. Shi, H. Chen, S.D. Wullschleger, S. Piao, Y. Dai, 2022: Quantification of human contribution to soil moisture–based droughts, <em>Nature Communications</em> (accepted).</li>
+
+<li>Santer, B. D., S. Po-Chedley, N. Feldl, J.C. Fyfe, Q. Fu, S. Solomon, M. England, K.B. Rodgers, M.F. Stuecker, C. Mears, C. Zou, C.J.W. Bonfils, G. Pallotta, M.D. Zelinka, N. Rosenbloom, J. Edwards, (2022): "Robust Anthropogenic Signal Identified in the Seasonal Cycle of Tropospheric Temperature," <em>J. Clim.</em>, 35(18), 6075-6100, doi: <a href="https://journals.ametsoc.org/view/journals/clim/35/18/JCLI-D-21-0766.1.xml">10.1175/JCLI-D-21-0766.1</a>.</li>
+  
+<li>Peace, A.H., B.B.B. Booth, L.A. Regayre, K.S. Carslaw, D.M.H. Sexton, C.J.W. Bonfils, and J.W. Rostron, 2022: "Evaluating Uncertainty in Aerosol Forcing of Tropical Precipitation Shifts," <em>Earth System Dynamics</em>, 13, 1215–1232, 2022. doi: <a href="https://esd.copernicus.org/articles/13/1215/2022/">10.5194/esd-13-1215-2022</a>.</li>
+
+</ul>
+
+<h4> 2021</h4>
+ 
+<ul>
+ 
+<li>Santer, B. D., S. Po-Chedley., C. Mears, J. C. Fyfe, N. Gillett, Q. Fu, J. F. Painter, S. Solomon, A. K. Steiner, F. J. Wentz, M. D. Zelinka, C.-Z. Zou, 2021: "Using climate model simulations to constrain observations," <em>J. Clim.</em>, 34, 6281 – 6301, doi: <a href="https://journals.ametsoc.org/view/journals/clim/34/15/JCLI-D-20-0768.1.xml">10.1175/JCLI-D-20-0768.1</a>.</li>
+
+<li>Po-Chedley, S., B. D. Santer, S. Fueglistaler, M. D. Zelinka, P. J. Cameron-Smith, J. F. Painter, Q. Fu, 2021: "Natural variability contributes to model-satellite differences in tropical tropospheric warming," <em>Proceedings of the National Academy of Sciences</em>, 118 (13) e2020962118, doi: <a href="https://www.pnas.org/doi/10.1073/pnas.2020962118">10.1073/pnas.2020962118</a>.</li>
+
+</ul>
+
 <h4> 2020</h4>
 
 <ul>
