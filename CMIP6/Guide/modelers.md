@@ -145,8 +145,6 @@ requirements for CMIP6.
 
 Additional information about the data request is available at https://cmip6dr.github.io/Data_Request_Home
 
-*[Further explanation will be added here.]*
-
 ## 5. Model output requirements
 CMIP6 model output requirements are similar to those in CMIP5, but changes have
 been made to accommodate the more complex structure of CMIP6 and its data request.
@@ -387,7 +385,7 @@ Information is under preparation describing the governance of the following:
 * [obs4MIPs][obs4mips]
 
 
-###### Document version: 12 October 2022
+###### Document version: 19 October 2022
 
 [guide]: index.html
 [cmip6CvsRegistrationGuidance]: https://github.com/WCRP-CMIP/CMIP6_CVs/blob/master/.github/ISSUE_TEMPLATE.md
@@ -416,7 +414,7 @@ Information is under preparation describing the governance of the following:
 [cmip6GlobalAttGoogleDoc]: http://goo.gl/v1drZl
 [cmip6GridGoogleDoc]: http://goo.gl/1oA7bO
 [cmip6PressureLevelsPdf]: https://cmip6dr.github.io/Data_Request_Home/Documents/CMIP6_pressure_levels.pdf
-[cmip6TimeAveragesCog]: https://web.archive.org/web/20201020095856/https://www.earthsystemcog.org/projects/wip/time_averages
+[cmip6TimeAveragesCog]: https://wcrp-cmip.github.io/WGCM_Infrastructure_Panel/CMIP6/time_and_area_averaging.html
 [cmip6CmorTables]: https://github.com/PCMDI/cmip6-cmor-tables/tree/master/Tables
 [esgfSearchRequirementsGoogleDoc]: https://docs.google.com/document/d/1jNBw2am28Hxux_YuCL_mYMi18EEGkJSGrtNntOs3PJo
 [cmorGithub]: https://github.com/PCMDI/cmor
