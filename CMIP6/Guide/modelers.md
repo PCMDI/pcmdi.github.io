@@ -72,7 +72,7 @@ model documentation should be provided as early as possible):
  and [7](#7-archivingpublishing-output) below)
 
 * Correct published data when errors are discovered. This should be performed using the **[ES-DOC Errata Service][ErrataService]**.
-When an error is discovered, an ESGF data manager can use **[the webforms][errataFormsCreate]** to 
+When an error is discovered, an ESGF data manager can use **[the webforms][errataFormsCreate]** to
 clearly and concisely document the issue. Through the PID integration, this errata service will
 include all the datasets/files affected when documentation is completed correctly.
 
@@ -137,15 +137,13 @@ be available soon. Any changes made to a released dataset will be documented in
 the [summary][input4mipsGoogleDoc].
 
 ## 4. Model output fields
-The [CMIP6 Data Request][cmip6DataRequestCog] defines the variables that should
+The [CMIP6 Data Request][cmip6DataRequest] defines the variables that should
 be archived for each experiment and specifies the time intervals for which they
 should be reported. It provides much of the variable-specific metadata that should
 be stored along with the data. It also provides tools for estimating the data storage
 requirements for CMIP6.
 
-Additional information about the data request is available at https://www.earthsystemcog.org/projects/wip
-
-*[Further explanation will be added here.]*
+Additional information about the data request is available at https://cmip6dr.github.io/Data_Request_Home
 
 ## 5. Model output requirements
 CMIP6 model output requirements are similar to those in CMIP5, but changes have
@@ -181,7 +179,7 @@ The CMIP6 data requirements are defined and discussed in the following documents
 * [Guidance on time-averaging][cmip6TimeAveragesCog] (with masking)
 
 Additional metadata requirements are imposed on a variable by variable basis as
-specified in the [CMIP6 Data Request][cmip6DataRequestCog]. Many of these are recognized
+specified in the [CMIP6 Data Request][cmip6DataRequest]. Many of these are recognized
 by CMOR (through input via the [CMIP6 CMOR Tables][cmip6CmorTables]), which will
 ensure compliance.
 
@@ -191,7 +189,7 @@ information, [reference CV’s][cmip6Cvs] are being maintained by PCMDI against 
 all quality assurance checks will be performed. These CV’s will be relied on in
 constructing file names and directory structures, and they will enable faceted
 searches of the CMIP6 archive as called for in the [search requirements document][esgfSearchRequirementsGoogleDoc].
-Additional, variable-specific CVs are part of the [CMIP6 Data Request][cmip6DataRequestCog].
+Additional, variable-specific CVs are part of the [CMIP6 Data Request][cmip6DataRequest].
 These CV’s are structured in a way that makes clear relationships between certain
 items appearing in separate CV’s. For example, the CV for model names (“*[source_id][sourceIdJson]*”)
 indicates which institutions are authorized to run each model, and the complete
@@ -247,20 +245,20 @@ coordinate check that the range is correct)
 Additional codes useful in preparing model output for CMIP6 include:
 
 * Code to create regridding weights: not yet available
-* Code to calculate nominal_resolution: For the common case of a regular spherical coordinate 
-(latitude x longitude) global grid, the nominal_resolution can be calculated using a formula 
+* Code to calculate nominal_resolution: For the common case of a regular spherical coordinate
+(latitude x longitude) global grid, the nominal_resolution can be calculated using a formula
 given in Appendix 2 of the [CMIP6 netCDF global attributes document][cmip6GlobalAttGoogleDoc].
 For other grids, the nominal_resolution can be calculated with the following code:
 
-  * Code documentation: [https://pcmdi.github.io/nominal_resolution/html/index.html][nominal_resol_doc]. 
-  * The code can be obtained via a conda package: ``conda install -c pcmdi nominal_resolution``  
+  * Code documentation: [https://pcmdi.github.io/nominal_resolution/html/index.html][nominal_resol_doc].
+  * The code can be obtained via a conda package: ``conda install -c pcmdi nominal_resolution``
   * The package repository is hosted on Github at: [https://github.com/pcmdi/nominal_resolution][nominal_resol_git]
-    * The library source (api.py) is in the [lib directory][nominal_resol_lib].  
-    * The test codes reside in the [tests directory][nominal_resol_tests].  
+    * The library source (api.py) is in the [lib directory][nominal_resol_lib].
+    * The test codes reside in the [tests directory][nominal_resol_tests].
 
 ## 7. Archiving/publishing output
 The Earth System Grid Federation ([ESGF][ESGFLlnlHome]) will facilitate the global
-distribution of CMIP6 output. 
+distribution of CMIP6 output.
 
 For CMIP6, the original copies of data will be availble through the data nodes, many of which will be installed and maintained by the modeling centers themselves. Certain ESGF data nodes (known as “Tier
 1 nodes”) will serve as the primary access points to the data. A searchable record of model output: the access method and metadata,
@@ -365,8 +363,8 @@ Thus across all MIPs, the modeling groups can prepare their model output followi
 a common procedure.
 
 The CMIP Panel has delegated responsibility for most of the technical requirements
-of CMIP to the [WGCM Infrastructure Panel (WIP)][wipCog]. The mission, rationale
-and Terms of Reference for the panel can be found [here][wipMission]. The WIP has
+of CMIP to the [WGCM Infrastructure Panel (WIP)][wip]. The mission, rationale
+and Terms of Reference for the panel can be found [here][wip]. The WIP has
 drafted a number of position papers summarizing CMIP6 requirements and specifications.
 Among these is the [CMIP6 reference specifications for global attributes, filenames, directory structure and Data Reference Syntax (DRS)][cmip6GlobalAttGoogleDoc].
 The WIP has also set up a [CMIP Data Node Operations Team (CDNOT)][cdnotGoogleDoc]
@@ -384,10 +382,10 @@ Information is under preparation describing the governance of the following:
 * Long-term archival (LTA) and data quality assurance (QA)
 * Evaluation activities
 * [input4MIPs][input4mipsCog]
-* [obs4MIPs][obs4mipsCog]
+* [obs4MIPs][obs4mips]
 
 
-###### Document version: 17 October 2018
+###### Document version: 19 October 2022
 
 [guide]: index.html
 [cmip6CvsRegistrationGuidance]: https://github.com/WCRP-CMIP/CMIP6_CVs/blob/master/.github/ISSUE_TEMPLATE.md
@@ -411,12 +409,12 @@ Information is under preparation describing the governance of the following:
 [experimentIdhtml]: https://wcrp-cmip.github.io/CMIP6_CVs/docs/CMIP6_experiment_id.html
 [input4mipsCog]: https://esgf-node.llnl.gov/search/input4MIPs
 [input4mipsGoogleDoc]: http://goo.gl/r8up31
-[cmip6DataRequestCog]: https://www.earthsystemcog.org/projects/wip/CMIP6DataRequest
+[cmip6DataRequest]: https://cmip6dr.github.io/Data_Request_Home
 [cfConventionsPage]: http://cfconventions.org/
 [cmip6GlobalAttGoogleDoc]: http://goo.gl/v1drZl
 [cmip6GridGoogleDoc]: http://goo.gl/1oA7bO
-[cmip6PressureLevelsPdf]: https://www.earthsystemcog.org/site_media/projects/wip/CMIP6_pressure_levels.pdf
-[cmip6TimeAveragesCog]: https://www.earthsystemcog.org/projects/wip/time_averages
+[cmip6PressureLevelsPdf]: https://cmip6dr.github.io/Data_Request_Home/Documents/CMIP6_pressure_levels.pdf
+[cmip6TimeAveragesCog]: https://wcrp-cmip.github.io/WGCM_Infrastructure_Panel/CMIP6/time_and_area_averaging.html
 [cmip6CmorTables]: https://github.com/PCMDI/cmip6-cmor-tables/tree/master/Tables
 [esgfSearchRequirementsGoogleDoc]: https://docs.google.com/document/d/1jNBw2am28Hxux_YuCL_mYMi18EEGkJSGrtNntOs3PJo
 [cmorGithub]: https://github.com/PCMDI/cmor
@@ -435,10 +433,9 @@ Information is under preparation describing the governance of the following:
 [es-docsCmip6]: https://es-doc.org/cmip6
 [wgcmSite]: https://www.wcrp-climate.org/wgcm-overview
 [wgcmCmip6]: https://www.wcrp-climate.org/wgcm-cmip/wgcm-cmip6
-[wipCog]: https://www.earthsystemcog.org/projects/wip
-[wipMission]: https://www.earthsystemcog.org/projects/wip/aboutus/
+[wip]: https://wcrp-cmip.github.io/WGCM_Infrastructure_Panel
 [cdnotGoogleDoc]: https://docs.google.com/document/d/1oRWqxtWWEfsucTVhk0G3bMqHC0BL4dJwADrOG8Ukj-g
-[obs4mipsCog]: https://www.earthsystemcog.org/projects/obs4mips/
+[obs4mips]: https://pcmdi.github.io/obs4MIPs
 [CMIP6Citation]: http://cmip6cite.wdc-climate.de
 [nominal_resol_doc]: https://pcmdi.github.io/nominal_resolution/html/index.html
 [nominal_resol_git]: https://github.com/pcmdi/nominal_resolution
