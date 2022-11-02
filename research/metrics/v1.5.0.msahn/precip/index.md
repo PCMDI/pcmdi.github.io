@@ -39,7 +39,7 @@ alt="PMP EOS article">
 
 ## Variability Across Timescales (from Sub-daily to Interannual) 
 
-### - Standard deviation at differnt timescales 
+### - Standard deviation at different timescales 
 
 - [**Bar chart of domain averaged STD** (CMIP5-histotical)][Bar_VAC-1]
 - [**Bar chart of domain averaged STD** (CMIP6-histotical)][Bar_VAC-2]
@@ -47,7 +47,7 @@ alt="PMP EOS article">
 - [**Portrait chart of domain averaged STD** (CMIP6-histotical)][Port_VAC-2]
 
 
-### - Spectral power at differnt timescales 
+### - Spectral power at different timescales 
 
 - [**Portrait chart of domain and frequency averaged spectral power** (CMIP5-histotical)][Port_PS-1]
 - [**Portrait chart of domain and frequency averaged spectral power** (CMIP6-histotical)][Port_PS-2]
