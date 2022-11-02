@@ -99,7 +99,7 @@ Comming soon:  Frequency of SPI spells and consecutive dry days.
 <br/>
 
 
-Ahn, Min-Seop, Peter J. Gleckler, Jiwoo Lee, Angeline G. Pendergrass, and Christian Jakob: Benchmarking Simulated Precipitation Variability across Timescales, in preparation
+Ahn, Min-Seop, Peter J. Gleckler, Jiwoo Lee, Angeline G. Pendergrass, and Christian Jakob, 2022: Benchmarking Simulated Precipitation Variability Amplitude across Timescales, Jornal of Climate, 35, 3173–3196, https://doi.org/10.1175/JCLI-D-21-0542.1
 
 Covey, C, PJ Gleckler, C Doutriaux, DN Williams, A Dai, J Fasullo, K Trenberth, and  A Berg. 2016. ”Metrics for the diurnal cycle of precipitation: Toward routine benchmarks for climate models.”  Journal of Climate 29(12): 4461–4471,  https://doi.org/10.1175/JCLI-D-15-0664.1
 
