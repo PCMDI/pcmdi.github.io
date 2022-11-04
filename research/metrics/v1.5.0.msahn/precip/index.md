@@ -41,16 +41,16 @@ alt="PMP EOS article">
 
 ### - Standard deviation at different timescales 
 
-- [**Bar chart of domain averaged STD** (CMIP5-histotical)][Bar_VAC-1]
 - [**Bar chart of domain averaged STD** (CMIP6-histotical)][Bar_VAC-2]
-- [**Portrait chart of domain averaged STD** (CMIP5-histotical)][Port_VAC-1]
+- [**Bar chart of domain averaged STD** (CMIP5-histotical)][Bar_VAC-1]
 - [**Portrait chart of domain averaged STD** (CMIP6-histotical)][Port_VAC-2]
+- [**Portrait chart of domain averaged STD** (CMIP5-histotical)][Port_VAC-1]
 
 
 ### - Spectral power at different timescales 
 
-- [**Portrait chart of domain and frequency averaged spectral power** (CMIP5-histotical)][Port_PS-1]
 - [**Portrait chart of domain and frequency averaged spectral power** (CMIP6-histotical)][Port_PS-2]
+- [**Portrait chart of domain and frequency averaged spectral power** (CMIP5-histotical)][Port_PS-1]
 
 
 ### - Diurnal cycle - phase and amplitude
