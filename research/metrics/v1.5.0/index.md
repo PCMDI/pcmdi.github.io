@@ -2,25 +2,27 @@
 layout: default
 title: PCMDI - Metrics
 ---
-
-###### [Research][research] > [Metrics][metrics]
+###### Research > [Metrics][Metrics]
 ---
 
-# PCMDI Simulation Summaries: CMIP mean state and variability (v1.5.1)<a name="top"></a>
+# CMIP mean state and variability
+---
+# <a name="top"></a>_PCMDI Simulation Summaries (v1.5.0)_
 
 <br/>
-The PCMDI Metrics Package ([PMP][pmp]) is a capability that is used to produce a diverse suite of "quick-look" objective summaries of Earth System Model (ESM) agreement with observations. The [PMP][pmp] is routinely applied to multiple generations of CMIP, including the most recent results from CMIP6 as they become available. These results are regularly updated as additional simulations become available, new analysis are included, and as presentation improvements and corrections are made. 
+The PCMDI Metrics Package ([PMP][pmp]) is a capability that is used to produce a diverse suite of "quick-look" objective summaries of Earth System Model (ESM) agreement with observations. The [PMP][pmp] is routinely applied to multiple generations of CMIP, including the most recent results from CMIP6 as they become available. These results are regularly updated as additional simulations become available, new analysis are included, and as presentation improvements and corrections are made. All results are version controlled.  The contents are also accessible from the [Coordinated Model Evaluation Capabilities (CMEC) website][cmec].
+
+## Quick-look summary statistics with interactive navigation to underlying diagnostics 
+
+- [**Mean Climate**](#mean_clim)
+- [**Benchmarking Simulated Precipitation**](#precip)
+- [**El Niño–Southern Oscillation (ENSO)**](#enso)
+- [**Extratropical Modes of Variability**](#variability_modes)
+- [**Madden-Julian Oscillation (MJO)**](#mjo)
+- [**Monsoon Characteristics (example)**](#monsoon)
+- [_Update history_](#updates)
+
 <br/>
-
-* [Mean Climate][mean_clim]
-* [Benchmarking Simulated Precipitation][precip]
-* [El Niño–Southern Oscillation (ENSO)][enso]
-* [Extratropical Modes of Variability][variability_modes]
-* [Madden-Julian Oscillation (MJO)][mjo]
-* [Monsoon Characteristics (example)][monsoon]
-* [_Update history_](#updates)
-
-Results are also accessible from the [Coordinated Model Evaluation Capabilities (CMEC)][cmec] website.
 
 ---
 ## <a name="mean_clim"></a>Mean Climate ([results][description_mean_clim])
@@ -43,7 +45,7 @@ Results are also accessible from the [Coordinated Model Evaluation Capabilities 
 
 ---
 ## <a name="variability_modes"></a>Extratropical Modes of Variability ([results][description_variability])
-- Based on the work of [Lee et al. (2019)][lee2019], we present skill metrics for the _Northern Annular Model (NAM), the North Atlantic Oscillation (NAO), the Southern Annular Mode (SAM), the Pacific North American pattern (PNA), the North Pacific Oscillation (NPO), the Pacific Decadal Oscillation (PDO), and the North Pacific Gyre Oscillation (NPGO)_. For NAM, NAO, SAM, PNA, and NPO the results are based on sea-level pressure, while the results for PDO and NPGO are based on sea surface temperature. Our approach distinguishes itself from other studies that analyze modes of variability in that we use the Common Basis Function approach (CBF), in which model anomalies are projected onto the observed modes of variability. Using the Historical simulations, the skill of the spatial patterns is given by the Root-Mean-Squared-Error (RMSE), and the Amplitude gives the standard deviation of the Principal Component time series. The skill metrics are calculated with respect to a primary and secondary sets of observations denoted by the triangles in each cell of the Portrait Plots.
+- Based on the work of [Lee et al. (2019)][lee2019], we present skill metrics for the _Northern Annular Model (NAM), the North Atlantic Oscillation (NAO), the Southern Annular Mode (SAM), the Pacific North American pattern (PNA), the North Pacific Oscillation (NPO), the Pacific Decadal Oscillation (PDO), and the North Pacific Gyre Oscillation (NPGO)_. For NAM, NAO, SAM, PNA, and NPO the results are based on sea-level pressure, while the results for PDO and NPGO are based on sea surface temperature. Our approach distinguishes itself from other studies that analyze modes of variability in that we use the Common Basis Function approach (CBF), in which model anomalies are projected onto the observed modes of variability. Using the Historical simulations, the skill of the spatial patterns is given by the Root-Mean-Squared-Error (RMSE), and the Amplitude gives the standard deviation of the Principal Component time series. The skill metrics are calculated with respect to a primary and secondary sets of observations denoted by the triangles in each cell of the Portrait Plots. 
 
 <p align="right"><a href="#top">Back to List</a></p>
 
@@ -55,13 +57,12 @@ Results are also accessible from the [Coordinated Model Evaluation Capabilities 
 
 ---
 ## <a name="monsoon"></a>Monsoon Characteristics (example) ([results][description_monsoon])
-- Based on the work of [Sperber and Annamalai (2014)][sperber2004], we present skill metrics that indicate how well models simulate the _onset, decay, and duration of monsoon_ based on the analysis of climatological pentads of precipitation. Using Historical simulations, the results are based on area-averaged data for All-India Rainfall (AIR), Sahel, Gulf of Guinea (GoG), North American Monsoon (NAM), South American Monsoon (SAM), and Northern Australia (AUS).
+- Based on the work of [Sperber and Annamalai (2014)][sperber2004], we present skill metrics that indicate how well models simulate the _onset, decay, and duration of monsoon_ based on the analysis of climatological pentads of precipitation. Using Historical simulations, the results are based on area-averaged data for All-India Rainfall (AIR), Sahel, Gulf of Guinea (GoG), North American Monsoon (NAM), South American Monsoon (SAM), and Northern Australia (AUS). 
 
 <p align="right"><a href="#top">Back to List</a></p>
 
 ---
 ## <a name="updates"></a>Update History
-- [**v1.5.1**][v1.5.1] (2022-11-04): Mean climate interactive portrait plot updated and precipitation variability across timescale portrait plot newly added.
 - [**v1.5.0**][v1.5.0] (2020-10-08): Precipitation benchmarking newly added and Mean climate parallel coordinate and portrait plots updated.
 - [**v1.4.1**][v1.4.1] (2020-07-20): MJO metrics with recent CMIP6 results
 - [**v1.4.0**][v1.4.0] (2020-07-10): ENSO Metrics updated with Interactive Portrait Plot with recent CMIP6 results
@@ -78,15 +79,12 @@ Results are also accessible from the [Coordinated Model Evaluation Capabilities 
 
 ---
 
-
-
 Questions or comments about the PCMDI Simulation Summaries should be sent to the [PMP team](mailto:pcmdi-metrics@llnl.gov).
 
 The efforts of the authors are supported by the [Regional and Global Climate Modeling Program][RGMA] of the [United States Department of Energy's Office of Science][DOEOS]. This work is funded by the Climate and Environmental Sciences Division of the DOE Office of Science and is performed under the auspices of the U.S. Department of Energy by [Lawrence Livermore National Laboratory][LLNL] under contract DE-AC52-07NA27344. LLNL-WEB-812310
 
 [latest]: {{site.baseurl}}/research/metrics/
 
-[v1.5.1]: {{site.baseurl}}/research/metrics/v1.5.0
 [v1.5.0]: {{site.baseurl}}/research/metrics/v1.5.0
 [v1.4.1]: {{site.baseurl}}/research/metrics/v1.4.1
 [v1.4.0]: {{site.baseurl}}/research/metrics/v1.4.0
@@ -115,15 +113,7 @@ The efforts of the authors are supported by the [Regional and Global Climate Mod
 [pendergrass2020]: https://doi.org/10.1175/BAMS-D-19-0318.1
 [doeworkshop2019]: https://climatemodeling.science.energy.gov/news/doe-hosts-precipitation-metrics-workshop
 
-[research]:{{site.baseurl}}/research
-[metrics]:{{site.baseurl}}/research/metrics/
-
-[mean_clim]: mean_clim
-[enso]: enso
-[variability_modes]: variability_modes
-[mjo]: mjo
-[monsoon]: monsoon
-[precip]: precip
+[Metrics]:{{site.baseurl}}/research/metrics/
 
 [RGMA]: https://climatemodeling.science.energy.gov/program/regional-global-model-analysis
 [DOEOS]: https://www.energy.gov/science/office-science

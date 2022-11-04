@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Precipitation
+title: PCMDI - Metrics
 ---
-###### [Research][research] > [Metrics][metrics] > [Benchmarking Simulated Precipitation][precip]  >Extreme 
+###### Research > [Metrics][Metrics] > [Benchmarking Simulated Precipitation][precip] > Extreme
 ---
 
 # Precipitation Extremes 
@@ -38,7 +38,5 @@ Following Taylor diagrams (equivalent to Fig. 8 of [Wehner et al. 2020](#wehner2
 
 [wehner2020]: https://doi.org/10.1016/j.wace.2020.100283
 
-[precip]:{{site.baseurl}}/results/precip
-
-[research]:{{site.baseurl}}/research
-[metrics]:{{site.baseurl}}/research/metrics
+[Metrics]:{{site.baseurl}}/research/metrics
+[precip]:{{site.baseurl}}/research/metrics/precip
