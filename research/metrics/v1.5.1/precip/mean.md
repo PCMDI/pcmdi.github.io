@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Precipitation
+title: PCMDI - Metrics
 ---
-###### [Research][research] > [Metrics][metrics] > [Benchmarking Simulated Precipitation][precip] > Mean State
+###### Research > [Metrics][Metrics] > [Benchmarking Simulated Precipitation][precip] > Mean State
 ---
 
 # Precipitation Mean State
@@ -21,8 +21,6 @@ title: Precipitation
 
 ---
 
-[precip]:{{site.baseurl}}/results/precip
-[pmpmean]: {{site.baseurl}}/results/mean_clim
-
-[research]:{{site.baseurl}}/research
-[metrics]:{{site.baseurl}}/research/metrics
+[Metrics]:{{site.baseurl}}/research/metrics
+[precip]:{{site.baseurl}}/research/metrics/precip
+[pmpmean]: https://cmec.llnl.gov/results/mean_clim
