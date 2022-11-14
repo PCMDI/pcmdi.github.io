@@ -1,5 +1,3 @@
-name: PCMDI
-author: webshootertk
+title: PCMDI
+author: PCMDI
 markdown: kramdown
-
-baseurl: ""
