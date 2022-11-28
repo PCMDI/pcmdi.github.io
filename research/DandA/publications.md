@@ -11,9 +11,9 @@ title: Detection & Attribution
  
 <ul>
   
-<li>Po-Chedley, S., J.T. Fasullo, N. Siler, Z.M. Labe, E.A. Barnes, C.J.W. Bonfils, B.D. Santer, 2022: "Internal variability and forcing influence model-satellite differences in the rate of tropical tropospheric warming," <em>Proceedings of the National Academy of Sciences</em>, in press.</li>
+<li>Po-Chedley, S., J.T. Fasullo, N. Siler, Z.M. Labe, E.A. Barnes, C.J.W. Bonfils, B.D. Santer, 2022: "Internal variability and forcing influence model-satellite differences in the rate of tropical tropospheric warming," <em>Proceedings of the National Academy of Sciences</em>, 118 (45), e2111875118, doi: <a href="https://www.pnas.org/doi/10.1073/pnas.2111875118">10.1073/pnas.2111875118</a>.</li>
  
-<li>Wang, Y., J. Mao, F.M. Hoffman, C.J.W. Bonfils, H. Douville, M. Jin, P.E. Thornton, D.M. Ricciuto, X. Shi, H. Chen, S.D. Wullschleger, S. Piao, Y. Dai, 2022: Quantification of human contribution to soil moisture–based droughts, <em>Nature Communications</em> (accepted).</li>
+<li>Wang, Y., J. Mao, F.M. Hoffman, C.J.W. Bonfils, H. Douville, M. Jin, P.E. Thornton, D.M. Ricciuto, X. Shi, H. Chen, S.D. Wullschleger, S. Piao, Y. Dai, 2022: Quantification of human contribution to soil moisture–based droughts, <em>Nature Communications</em>, 13, 6848, doi: <a href="https://www.nature.com/articles/s41467-022-34071-5">10.1038/s41467-022-34071-5</a>.</li>
 
 <li>Santer, B. D., S. Po-Chedley, N. Feldl, J.C. Fyfe, Q. Fu, S. Solomon, M. England, K.B. Rodgers, M.F. Stuecker, C. Mears, C. Zou, C.J.W. Bonfils, G. Pallotta, M.D. Zelinka, N. Rosenbloom, J. Edwards, (2022): "Robust Anthropogenic Signal Identified in the Seasonal Cycle of Tropospheric Temperature," <em>J. Clim.</em>, 35(18), 6075-6100, doi: <a href="https://journals.ametsoc.org/view/journals/clim/35/18/JCLI-D-21-0766.1.xml">10.1175/JCLI-D-21-0766.1</a>.</li>
   
