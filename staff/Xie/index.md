@@ -6,11 +6,10 @@ title: Shaocheng Xie
 <p> 
     <a href="xie.jpg"><img src="xie.jpg" align="RIGHT" border="1" width="300"></a>
     <h1>Dr. Shaocheng Xie<br></h1>
-    <h2>Research Scientist, Group Leader</h2>
-    <h2>Cloud Processes Research and Modeling</h2>
+    <h2>Research Scientist, Section Head</h2>
+    <h2>Climate Science Section</h2>
 </p>
 <p>
-    Atmospheric, Earth & Energy Division (L103) <br>
     Lawrence Livermore National Laboratory<br>
     7000 East Avenue, L-103<br>
     Livermore, CA 94551<br>
@@ -29,25 +28,27 @@ M.S., 1988, Chinese Academy of Meteorological Sciences. Beijing, China.
 
 B.S., 1985, Nanjing Institute of Meteorology, Nanjing, China.
 
-## Research Interest
+## Professional Experience
 
-My research interests include climate model development and validation, cloud and convection parameterization developments, and objective data analysis. I work with the DOE Energy Exascale Earth System Model (E3SM) and the NSF/DOE Community Atmospheric Model (CAM). I use a hierarchy process modeling approach, including single-column model (SCM), cloud-resolving model (CRM), and the Cloud-Associated Parameterizations Testbed (CAPT), to test existing and new parameterizations with both field data and satellite observations.
+My research interests include climate model development and validation, cloud and convection parameterization developments, and objective data analysis. I work with the DOE Energy Exascale Earth System Model (E3SM) and the NSF/DOE Community Atmospheric Model (CAM). I use a hierarchy process modeling approach, including single-column model (SCM), cloud-resolving model (CRM), and the short-range hindcast approach (e.g., Cloud-Associated Parameterizations Testbed (CAPT)), to test existing and new parameterizations with both field data and satellite observations.
 
-As a co-Chair for the E3SM Atmospheric Group, I co-led the development of the first generation of E3SM Atmosphere Model (EAMv1). I am currently leading the development of atmospheric physics for the next generation of E3SM. Specific emphasis is to integrate and assess various improvements in atmospheric chemistry, aerosol, clouds, and convection in E3SM.
-
-My research associated with CAPT, which utilizes the short-range weather forecast technique in diagnosing climate model errors, is to systematically explore the correspondence between short- and long-timescale systematic errors in current climate models and clarify over what timescales model systematic errors develop. The goal is to provide essential clue to the origins of these errors. 
+As a lead for the E3SM Atmospheric Group, I led/co-led the development of the first generation of E3SM Atmosphere Model (EAMv1) and its the next generation development of atmospheric physics for EAMv3. I am currently leading the development of EAMv3 with the specific emphasis on integrating and assessing various improvements in atmospheric chemistry, aerosol, clouds, and convection in E3SM.
 
 My research on parameterization developments is mainly focused on convective trigger/closure for deep convection. Specifically, I would like to understand what physical processes and large-scale dynamic and thermodynamic control of cumulus convection and how these processes can be appropriately parameterized in climate models. Currently I emphasize on improving the diurnal cycle of model precipitation, particularly the nocturnal elevated  convection over lands, through improving convective triggering mechanisms. I am leading a Global Atmospheric System Studies (GASS) project on modeling diurnal and semi-diurnal cycle of precipitation in different climate regimes.
 
-For the field data analysis, the goal is to develop necessary data products with advanced data analysis methods and quantify their uncertainty in support of cloud modeling study and climate model development. I have been heavily involved in the DOE Atmospheric Radiation Measurement (ARM) program since 1998. One of my responsibilities is to transform the detailed ARM observations into a form that can be easily used by the climate modeling community. Some widely used data products from my ARM science infrastructure group include the ARM best estimate dataset (ARMBE) and the variational analysis derived large-scale forcing data for SCM/CRM/LES studies. We also develop tools to promote ARM data particularly to the climate modeling community, which includes the ongoing effort to develop an ARM radar simulator and an ARM-oriented process diagnostics package for GCMs. We also explore the machine learning approach to help identify data quality issues with ARM observations.
+For the field data analysis, the goal is to develop necessary data products with advanced data analysis methods and quantify their uncertainty in support of cloud modeling study and climate model development. I have been heavily involved in the DOE Atmospheric Radiation Measurement (ARM) program since 1998. One of my responsibilities is to transform the detailed ARM observations into a form that can be easily used by the climate modeling community. Some widely used data products from my ARM science infrastructure group include the ARM best estimate dataset (ARMBE) and the variational analysis derived large-scale forcing data for SCM/CRM/LES studies. We also develop tools to promote ARM data particularly to the climate modeling community, which includes the ongoing effort to develop an ARM radar simulator and an ARM-oriented process diagnostics package for GCMs. 
 
-Before I came to the United States, I had worked for 5 years at the National Meteorological Center of China. My research was in the development of numerical weather forecast model for medium-range weather forecasts, which included the development of numerical methods for calculating large-scale advection terms and testing various parameterizations of cumulus convection.
+In recent years, I have started to explore the machine learning approach to help climate model developments and address data quality issues with ARM observations.
+
+Before I came to the United States, I had worked for 5 years at the National Meteorological Center of China. My research was in the development of numerical weather forecast model for medium-range weather forecasts, which included the development of numerical methods for calculating large-scale advection terms and testing various parameterizations of cumulus convection. I was the major project leader for the development of the second generation of the Chinese Medium-range Weather Forecast Model.
 
 ## Professional Employment
 
 ***Jun 2001- Present: Research Scientist, Lawrence Livermore National Laboratory (LLNL), Livermore, CA.***
 
-*   Group leader for the Cloud Processes Research and Modeling group (2013 - )
+*   Section Head for Climate Science Section, (2022 - )
+
+*   Group leader for the Cloud Processes Research and Modeling group (2013 - 2022)
 
 *   LLNL Climate Program Leadership Team Member (2013 - )   
 
@@ -59,19 +60,17 @@ Before I came to the United States, I had worked for 5 years at the National Met
 
 ***Jul 1988 - Aug. 1993: Research scientist/Senior Research Scientist, Numerical Weather Prediction Division, National Meteorological Center, Beijing, China.***
 
-*   Deputy group leader for the Medium-range Weather Forecast Modeling Group, National Meteorological Center, China (1992-1993).
-
 *   Technical Leader for developing the second generation of the Chinese medium-range weather forecast model
 
 ## Leadership in Major US DOE Climate Projects
 
 ***Climate Modeling and Evaluation*** 
 
-*   US DOE Energy Exascale Earth System Model (E3SM) subproject leader and council member (2018 - )
+*   Council Member of the US DOE Energy Exascale Earth System Model (E3SM) (2018 - )
 
-*   Lead for E3SM Next Generation Development (NGD) - Atmospheric Physics (2018 - )
+*   Leader for E3SM Phase 3 Atmosphere Group (2022 - )
 
-*   LLNL PI for two DOE funded Earth System Modeling Projects on improving cumulus convection for E3SM. (2018-2021).
+*   Leader for E3SM Next Generation Development (NGD) - Atmospheric Physics (2018 - 2022)
 
 *   Co-Lead of the E3SM Atmospheric Group for developing the first generation of E3SM Atmosphere Model (EAMv1) (2015 - 2018)
 
@@ -81,24 +80,24 @@ Before I came to the United States, I had worked for 5 years at the National Met
 
 ***Atmospheric Radiation Measurement (ARM) and Atmospheric System Research (ASR)***
 
-*   Member of the DOE ARM-ASR Coordination Team (AACT), a constituent group that includes members from both ARM and ASR leadership (2019 – )
+*   Leader for the DOE ARM data infrastructure project at LLNL for modeling data support (2008 – )
 
-*   Lead ARM Translator (liaisons between the scientific community and ARM infrastructure staff members) (2019 – ) 
+*   Modeling Lead of the DOE ARM Architecture and Services Strategy Team (ASST) (2012 – )
 
-*   Member of the DOE ARM Architecture and Services Strategy Team (ASST) (2012 – )
+*   Member of the DOE ARM-ASR Coordination Team (AACT), a constituent group that includes members from both ARM and ASR leadership (2019 – 2021)
 
-*   PI for the DOE ARM data infrastructure project at LLNL for modeling data support (2008 – )
+*   Lead ARM Translator (liaisons between the scientific community and ARM infrastructure staff members) (2019 – 2021) 
 
-*   PI for the DOE ARM Machine Learning Project at LLNL (2018 - 2019)
+*   Leader for the DOE ARM Machine Learning Project at LLNL (2018 - 2019)
 
 
 ## Research Highlights
 
-* Developed the first generation of the DOE E3SM atmosphere model (EAMv1) (Co-lead)
+* Led/Co-Led the development of the DOE E3SM atmosphere model version 1 (2018) and the next generation development of atmospheric physics for E3SM version 3 (2022)
 
 * Major developer/played leading role in developing the second generation of Chinese medium-range weather forecast model (1993). The work received the first place award of the Chinese Meteorological Administration (CMA) Science and Technology Award in 1994, the most prestigious award in CMA.
 
-* The convective triggering mechnaism developed in Xie et al. (2019) will be used in E3SM version 2 for improving its precipitation distribution and diurnal cycle. The work is highlighted by eos: https://eos.org/research-spotlights/one-step-closer-to-a-milestone-in-climate-modeling
+* The convective triggering mechnaism developed in Xie et al. (2019) has been used in E3SM version 2 for improving its precipitation distribution and diurnal cycle. The work is highlighted by eos: https://eos.org/research-spotlights/one-step-closer-to-a-milestone-in-climate-modeling
 
 * The new convective triggering mechanism developed in Xie and Zhang (2000) has been used in the operational weather prediction model of the Japanese Meteorological Agency (JMA) to improve its precipitation forecast in 2008. Relevant studies were highlighted in both “Our Changing Planet - The U.S. Climate Change Science Program for Fiscal Year 2006” and the “DOE ARM Notable Research Findings for the Past Five Years”.
 
@@ -136,6 +135,7 @@ Before I came to the United States, I had worked for 5 years at the National Met
 
 ***Professional Activities and Leadership Roles (Selected)***
 
+* Co-Lead of the Climate Science Working Group of the DOE BER Advisory Committee (BERAC) Subcommittee on International Benchmarking for BER (2022)
 * Member of the GEWEX Global Atmospheric System Studies (GASS) Panel (GASS), (2018 – )
 * Lead for the GASS diurnal cycle of precipitation project, (2018 - )
 * Co-Chair for the US ARM-EU Collaboration Working Group in identifying and sharing initial and evaluation datasets for Large Eddy Simulations (LES) and Global Climate Models (GCMs) (2013).
@@ -153,8 +153,15 @@ Before I came to the United States, I had worked for 5 years at the National Met
 * Journal article reviews (> 100) for Journal of Geophysical Research, Geophysical Research Letter, Journal of Climate, Monthly Weather Review, Climate Dynamics, Journal of Atmospheric Science, Quarterly Journal of the Royal Meteorological Society, Meteorology and Atmospheric Physics, International Journal of Climatology, Atmospheric Research, Journal of the Meteorological Society of Japan, Terr. Atmos. Ocean. Sci. Journal, and The Open Atmospheric Science Journal.
 
 
-## Invited/Plenary Presentations in Recent Years (2011-2019)
+## Invited/Plenary Presentations in Recent Years (Selected)
 
+1. Presenter on the "DOE National Lab Day on Capitol Hill": "Climate Science". Presented along with Bill Collins (BNL) and Ian Kraucunas (PNNL), Sept. 16, 2014, Washington D. C., USA.
+2. Invited talk: “Improved Treatment of Clouds and Convection for the DOE Energy Exascale Earth System Model (E3SM) Atmospheric Model Version 3”. AGU fall meeting, Dec. 9-13, 2013, San Francisco, CA, USA. AGU Fall Meeting, Dec. 12-16, 2022, Chicago, IL. 
+3	Invited Seminar: “Development of Atmospheric Physics for Next Generations of E3SM”, NOAA Geophysical Fluid Dynamics Laboratory, Oct. 2021, Virtual visit.
+23	Invited Seminar: “Toward Improving the Representation of Diurnal Cycle of Precipitation in Climate Models”, NASA GSFC-Climate and Radiation Laboratory. April 21, 2021. Virtual Seminar.
+22	Invited Seminar: “Atmospheric Physics Development for the Next Generation E3SM”, NOAA EMC Model Physics meetings. March 25, 2021. Virtual Seminar.
+21	Panel Remarks on “Key processes critical to precipitation biases” session of the NOAA-DOE Precipitation Processes and Predictability Workshop, Nov. 30 - Dec. 2, 2020, virtual meeting.  
+20	Invited article for 2020 GEWEX QUARTERLY “Improving the Simulation of Diurnal Precipitation over Monsoon Regimes. Dec. 2020. https://www.gewex.org/gewex-content/uploads/2020/12/Q42020.pdf.
 19.	“The E3SM Next Generation Development of Atmospheric Physics”, Invited speaker, the DOE ARM/ASR annual PI meeting, June 10-13, 2019, Maryland, US.
 18. Xie, S. 2018: "Toward Bridging Field Observations and Climate Model Developments: The U. S. DOE Modeling Testbeds", Invited Seminar, University of Arizona. Oct. 2018, Tucson, AZ. 
 17.	Xie, S. 2018: “The Cloud-Associated Parameterizations Testbed (CAPT) – Diagnosing Climate Model Errors with Weather Forecast Technique”, ZiJing Forum, Tsinghua University. May 2018, Beijing, China.
@@ -175,7 +182,11 @@ Before I came to the United States, I had worked for 5 years at the National Met
 2. Xie, S. et al., 2011: Development of the Large-Scale Forcing Data to Support MC3E Cloud Modeling Studies. Invited speaker, AGU fall meeting, Dec. 5-9, 2011, San Francisco, CA, USA.
 1. Xie, S., 2011: Transform Detailed ARM Observations into An Useful Climate Modeling dataset. Invited Speaker, DOE ARM Data Developer Meeting. July 16 – 17, 2011, Oak Ridge, TN, USA.
 
-## First Author Peer-Reviewed Publications (17)
+## Publications (Total 137 published, H-Index = 47 with 20 Papers with over 100 citations, source: google scholar)
+
+## First Author Peer-Reviewed Publications (18)
+
+1.	 Xie et al. (2020) “Improving the Simulation of Diurnal Precipitation over Monsoon Regimes. Invited article for 2020 quarter 4 GEWEX QUARTERLY. https://www.gewex.org/gewex-content/uploads/2020/12/Q42020.pdf.
 
 17. Xie, S. et al. (2019): Improved Diurnal Cycle of Precipitation in E3SM with a Revised Convective Triggering Function. Journal of Advances in Modeling Earth Systems, 11. https://doi.org/10.1029/2019MS001702. 
 
@@ -211,31 +222,77 @@ Before I came to the United States, I had worked for 5 years at the National Met
 
 1.  Xie, S. C., 1991: A New Positive Definite Advection Scheme and its Application to the Moisture Equation. ACTA METEOROLOGICA SINICA, Vol.49, 11-20.
 
-## Other Peer-Reviewed Publications (96)
+## Other Peer-Reviewed Publications (119)
 
-96. Tang, S., P. Gleckler, S. Xie, et al. (2020): Evaluating Diurnal and Semi-Diurnal Cycle of Precipitation in CMIP6 Models Using Satellite- and Ground-Based Observations. Submitted to J. Climate.
+1.	Dong, X., Zheng, X., Xi, B., & Xie, S. (2023). A Climatology of Midlatitude Maritime Cloud Fraction and Radiative Effect Derived from the ARM ENA Ground-Based Observations, Journal of Climate, 36(2), 531-546. Retrieved Jan 25, 2023, from https://journals.ametsoc.org/view/journals/clim/36/2/JCLI-D-22-0290.1.xml.
 
-95. Tang, Q., M. J. Prather, J. Hsu, D. Ruiz, P. Cameron-Smith, S. Xie, and J. C. Golaz (2020): Evaluation of the interactive stratospheric ozone for E3SM version 2. Submitted to GMD.
+119.	Tao, C., Xie, S., Tang, S. et al. Diurnal cycle of precipitation over global monsoon systems in CMIP6 simulations. Clim Dyn (2022). https://doi.org/10.1007/s00382-022-06546-0
 
-94. Lin, W. and S. Xie (2020): Frameworks for Testing and Evaluating Fast Physics Parameterizations in Climate and Weather Forecasting Models. Submitted to AGU Books. In revision.
+118.	Zhang, M., Xie, S., Liu, X., Lin, W., Zheng, X., Golaz, J.-C., & Zhang, Y. (2022). Cloud phase simulation at high latitudes in EAMv2: Evaluation using CALIPSO observations and comparison with EAMv1. Journal of Geophysical Research: Atmospheres, 127, e2022JD037100. https://doi.org/10.1029/2022JD037100
 
-93. Wang Y., W. Xia, X. Liu, S. Xie, et al. (2020): Correcting a Common Rainfall Intensity Bias in Climate Models Elevates Aerosol Burden and its Associated Climate Forcing and Implied Human Health Risks. Submitted to Natura Geoscience, revised.
+117.	Golaz, J.-C., Van Roekel, L. P., Zheng, X., Roberts, A. F., Wolfe, J. D., Lin, W., et al. (2022). The DOE E3SM Model version 2: Overview of the physical model and initial model evaluation. Journal of Advances in Modeling Earth Systems, 14, e2022MS003156. https://doi.org/10.1029/2022MS003156 
 
-92. Wang Y., G. Zhang, S. Xie, W. Lin, et al. (2020): Effects of Coupling a Stochastic Convective Parameterization with Zhang-McFarlane Scheme on Precipitation Simulation in the DOE E3SMv1 Atmosphere Model. Submitted to GMD.
+116.	Zhang, C. et al. (2022). The E3SM Diagnostics Package (E3SM Diags v2.7): a Python-based diagnostics package for Earth system model evaluation. Geosci. Model Dev., 15, 9031–9056, 2022. https://doi.org/10.5194/gmd-15-9031-2022.
 
-91.	Tao, C., et al. (including S. Xie), 2020: Land-atmosphere coupling over the US Southern Great Plains: A comparison on local convective regimes between ARM observations, reanalysis, and climate model simulations. Submitted to J. Hydrometerorology, in revision.
+115.	Wu, M., Wang, H., Easter, R. C., Lu, Z., Liu, X., Singh, B., et al. (2022). Development and evaluation of E3SM-MOSAIC: Spatial distributions and radiative effects of nitrate aerosol. Journal of Advances in Modeling Earth Systems, 14, e2022MS003157. https://doi.org/10.1029/2022MS003157 
+
+114.	Xue, Y., Diallo, I., Boone, A. A., Yao, T., Zhang, Y., Zeng, X., Neelin, J. D., et al.  (2022). Spring Land Temperature in Tibetan Plateau and Global-Scale Summer Precipitation: Initialization and Improved Prediction, Bulletin of the American Meteorological Society, 103(12), E2756-E2767. Retrieved Jan 25, 2023, from https://journals.ametsoc.org/view/journals/bams/103/12/BAMS-D-21-0270.1.xml.
+
+113.	Leung, L. R., et al. (including S. Xie) (2022): Exploratory precipitation metrics: spatiotemporal characteristics, process-oriented, and phenomena-based, Journal of Climate. https://journals.ametsoc.org/view/journals/clim/aop/JCLI-D-21-0590.1/JCLI-D-21-0590.1.xml.
+
+112.	Feng, Y., Wang, H., Rasch, P. J., Zhang, K., Lin, W., Tang, Q., et al. (2022). Global dust cycle and direct radiative effect in E3SM version 1: Impact of increasing model resolution. Journal of Advances in Modeling Earth Systems, 14, e2021MS002909. https://doi.org/10.1029/2021MS002909 
+
+111.	Zhang, K.,et al. (including S. Xie) (2022): Effective radiative forcing of anthropogenic aerosols in E3SMv1: historical changes, causality, decomposition, and parameterization sensitivities, Atmos. Chem. Phys. Discuss. [preprint], https://doi.org/10.5194/acp-2021-1087, 2022
+
+110.	Voldoire, A., Roehrig, R., Giordani, H., Waldman, R., Zhang, Y., Xie, S., and Bouin, M.-N.(2022) : Assessment of the sea surface temperature diurnal cycle in CNRM-CM6-1 based on its 1D coupled configuration, Geosci. Model Dev., 15, 3347–3370, https://doi.org/10.5194/gmd-15-3347-2022, 2022.
+
+109.	Emmenegger, T., Kuo, Y., Xie, S., Zhang, C., Tao, C., & Neelin, J. D. (2022). Evaluating Tropical Precipitation Relations in CMIP6 Models with ARM Data, Journal of Climate, 35(19), 2743-2760. Retrieved Jan 25, 2023, from https://journals.ametsoc.org/view/journals/clim/35/19/JCLI-D-21-0386.1.xml 
+
+108.	Ma, P.-L., et al. (including S. Xie) (2022): Better calibration of cloud parameterizations and subgrid effects increases the fidelity of the E3SM Atmosphere Model version 1, Geosci. Model Dev., 15, 2881–2916, https://doi.org/10.5194/gmd-15-2881-2022, 2022.
+
+107.	Tang, S., Xie, S., Guo, Z., Hong, S.-Y., Khouider, B., Klocke, D., et al. (2021) Long-term single-column model intercomparison of diurnal cycle of precipitation over midlatitude and tropical land. Q J R Meteorol Soc, 1– 29. Available from: https://doi.org/10.1002/qj.4222.
+
+106.	Ma, H.-Y., Zhang, K., Tang, S., Xie, S., & Fu, R. (2021). Evaluation of the causes of wet-season dry biases over Amazonia in CAM5. Journal of Geophysical Research: Atmospheres, 126, e2020JD033859. https://doi.org/10.1029/2020JD033859.
+
+105.	Wang, J, J Fan, Z Feng, K Zhang, E Roesler, B Hillman, J Shpund, W Lin, and S Xie.  2021.  "Impact of a New Cloud Microphysics Parameterization on the Simulations of Mesoscale Convective Systems in E3SM."  Journal of Advances in Modeling Earth Systems 13(11).  https://doi.org/10.1029/2021ms002628.
+
+104.	Chen, H., Jin, F.-F., Zhao, S., Wittenbert, A. T., and Xie, S., (2021): ENSO Dynamics in the E3SM-1-0, CESM2, and GFDL-CM4 Climate Models. J. Climate, 34(23), 9365-9384. https://doi.org/10.1175/JCLI-D-21-0355.1.
+
+103.	Zhang, T., Lin, W., Vogelmann, A. M., Zhang, M., Xie, S., Qin, Y., & Golaz, J.-C. (2021). Improving convection trigger functions in deep convective parameterization schemes using machine learning. Journal of Advances in Modeling Earth Systems, 13, e2020MS002365. https://doi.org/10.1029/2020MS002365 
+
+102.	Ciesielski, P. E., Johnson, R. H., Tang, S., Zhang, Y., & Xie, S. (2021). Comparison of conventional and constrained variational methods for computing large-scale budgets and forcing fields. Journal of Geophysical Research: Atmospheres, 126, e2021JD035183. https://doi.org/10.1029/2021JD035183
+
+101.	Xue, Y., et al. (including S. Xie) (2021): Impact of Initialized Land Surface Temperature and Snowpack on Subseasonal to Seasonal Prediction Project, Phase I (LS4P-I): Organization and Experimental design, Geosci. Model Dev. Discuss. [preprint], https://doi.org/10.5194/gmd-2020-329, Accepted.
+
+100.	Chen, C.-C., et al. (including S. Xie) (2021). Effects of organized convection parameterization on the MJO and precipitation in E3SMv1. Part I: Mesoscale heating. Journal of Advances in Modeling Earth Systems, 13, e2020MS002401. https://doi.org/10.1029/2020MS002401.
+
+99.	Cui, Z., G. Zhang, Y. Wang, and S. Xie (2021): Understanding the Roles of Convective Trigger Functions in the Diurnal Cycle of Precipitation in the NCAR CAM5. J. Climate. https://doi.org/10.1175/JCLI-D-20-0699.1.
+
+96. Tang, S., P. Gleckler, S. Xie, et al. (2021): Evaluating the Diurnal and Semidiurnal Cycle of Precipitation in CMIP6 Models Using Satellite- and Ground-Based Observations, Journal of Climate, 34(8), 3189-3210.  https://doi.org/10.1175/JCLI-D-20-0639.1.
+
+95. Tang, Q., M. J. Prather, J. Hsu, D. Ruiz, P. Cameron-Smith, S. Xie, and J. C. Golaz (2021): Evaluation of the interactive stratospheric ozone (O3v2) module in the E3SM version 1 Earth system model, Geosci. Model Dev., 14, 1219–1236, https://doi.org/10.5194/gmd-14-1219-2021, 2021. 
+
+93. Wang Y., W. Xia, X. Liu, S. Xie, et al. (2021): Disproportionate control on aerosol burden by light rain. Nat. Geosci. 14, 72–76 (2021). https://doi.org/10.1038/s41561-020-00675-z.
+
+92. Wang Y., G. Zhang, S. Xie, W. Lin, et al. (2021): Effects of coupling a stochastic convective parameterization with the Zhang–McFarlane scheme on precipitation simulation in the DOE E3SMv1.0 atmosphere model, Geosci. Model Dev., 14, 1575–1593, https://doi.org/10.5194/gmd-14-1575-2021, 2021.
+
+91.	Tao, C., et al. (including S. Xie), 2021: Land–Atmosphere Coupling at the U.S. Southern Great Plains: A Comparison on Local Convective Regimes between ARM Observations, Reanalysis, and Climate Model Simulations, Journal of Hydrometeorology, 22(2), 463-481. https://doi.org/10.1175/JHM-D-20-0078.1
+
+88.	Ma, H.-Y., A. C. Siongco, S. A. Klein, S. Xie, A. R. Karspeck, K. Raeder, J. L. Anderson, J. Lee, B. P. Kirtman, W. J. Merryfield, H. Murakami, and J. J. Tribbia, 2021: On the Correspondence between Seasonal Forecast Biases and Long-Term Climate Biases in Sea Surface Temperature, Journal of Climate, 34(1), 427-446. https://doi.org/10.1175/JCLI-D-20-0338.1.
+
+87.	Ma, H.-Y., C. Zhou, Y. Zhang, S. A. Klein, M. D. Zelinka, X. Zheng, S. Xie, W.-T. Chen, and C.-M. Wu, 2021: Evaluating climate model moist processes from diurnal to interannual time scales using a multi-year ensemble of short-range hindcasts. Geosci. Model Dev., 14, 73–90, 2021. https://doi.org/10.5194/gmd-14-73-2021.
+
+98.	Wang, H., Easter, R. C., Zhang, R., Ma, P.‐L., Singh, B., Zhang, K., et al. ( 2020). Aerosols in the E3SM Version 1: New developments and their impacts on radiative forcing. Journal of Advances in Modeling Earth Systems, 12, e2019MS001851. https://doi.org/10.1029/2019MS001851.
+
+94. Lin, W. and S. Xie (2020): Chapter on Frameworks for Testing and Evaluating Fast Physics Parameterizations in Climate and Weather Forecasting Models (accepted), in the book Fast Physics in Large Scale Atmospheric Models: Parameterization, Evaluation, and Observations, edited by Y. Liu, P. Kollias and L. J. Donner.
 
 90. Zhang, M., S. Xie, X. Liu, et al. (2020). Toward Understanding the Simulated Phase Partitioning of Arctic Single-Layer Mixed-Phase Clouds in E3SM. Earth and Space Science, https://doi.org/10.1002/essoar.10502164.1. 
 
 89.	Neale, R. B., W. Lin, S. Xie, C. Hannay, J. Bacmeister, 2020: Sub-Seasonal Tropical Variability in the DOE EarthEnergy Exascale System Model (E3SM) version 1. Submitted to JAMES.
 
-88.	Ma, H.-Y., A. C. Siongco, S. A. Klein, S. Xie, A. R. Karspeck, K. Raeder, J. L. Anderson, J. Lee, B. P. Kirtman, W. J. Merryfield, H. Murakami, and J. J. Tribbia, 2020: On the correspondence between seasonal forecast and long-term climate errors in sea surface temperatures. J. Climate, submitted.
-
-87.	Ma, H.-Y., C. Zhou, Y. Zhang, S. A. Klein, M. D. Zelinka, X. Zheng, S. Xie, W.-T. Chen, and C.-M. Wu, 2020: Evaluating climate model moist processes from diurnal to interannual time scales using a multi-year ensemble of short-range hindcasts. Geosci. Model Dev., submitted.
-
 86.	Wang, Y.‐C., Xie, S., Tang, S., & Lin, W. (2020). Evaluation of an improved convective triggering function: Observational evidence and SCM tests. Journal of Geophysical Research: Atmospheres, 125, 2019JD031651. https://doi.org/10.1029/2019JD031651.
 
-85.	Bogenschutz, P., S. Tang, P. Caldwell, S. Xie, W. Lin, and Y. Chen (2020): The E3SM version 1 Single Column Model, Geosci. Model Dev. Discuss., https://doi.org/10.5194/gmd-2020-27, in press, 2020.
+85.	Bogenschutz, P. A., Tang, S., Caldwell, P. M., Xie, S., Lin, W., and Chen, Y.-S.: The E3SM version 1 single-column model, Geosci. Model Dev., 13, 4443–4458, https://doi.org/10.5194/gmd-13-4443-2020, 2020.
 
 84.	Tang, S., S. Xie, M. Zhang, and S. Endo, 2020:  Improvement of Atmospheric Objective Analysis over Sloping Terrain and Its Impact on Shallow‐Cumulus Clouds in Large‐Eddy Simulations.  Journal of Geophysical Research: Atmospheres, https://doi.org/10.1029/2020JD032492.
 
@@ -406,44 +463,11 @@ Highlighted by Eos: https://eos.org/research-spotlights/what-makes-the-biggest-c
 
 1.  Tian Y., and S. C.  Xie, 1987: Test of Explicit Integration Schemes for the Barotropic Primitive Equation Model. Journal of Nanjing Institute of Meteorology, Vol.10, 95-102.
 
-## Selected White Papers and Other Program Documents (2011-2018)
+## Selected White Papers and Other Program Documents 
 
-1.	Xie, S. H. Ma, S. Tang, D. Neelin, and P. Bechtold, 2019: Experiment Design for GASS Diurnal Cycle of Precipitation Over Tropical and Midlatitude Lands. Part I: SCM/CRM/LES. https://portal.nersc.gov/project/capt/diurnal/.
+1.	BERAC. 2022. U.S. Scientific Leadership Addressing Energy, Ecosystems, Climate, and Sustainable Prosperity: Report from the BERAC Subcommittee on International Benchmarking, DOE/SC-0208. M. McCann and P. Reed, eds. Biological and Environmental Research Advisory Committee. DOI:10.2172/1895129. (S. Xie was the lead author for the climate science chapter)
+4.	Xie, S. D. Neelin, P. Bechtold, H. Ma, 2018: Improving the simulation of diurnal and sub-diurnal precipitation over different climate regimes. White paper to the Global Atmospheric System Studies (GASS) Panel.
+3.	DOE Workshop Report on “ACME/ASR/ARM Coordination Workshop”, Oct. 21-22, 2015, Washington D. C., USA. DOE BER Documentation. (S. Xie was the workshop co-Chair and member of writing team) 
+2.	The Atmospheric Radiation Measurement Climate Research Facility Decadal Vision. DOE ARM documentation, 2014 (Contributing author)
+1.	BER CESD. 2013: Report on the U.S./European Workshop on Climate Change Challenges and Observations. DOE/SC-0154. (Contributing author)
 
-19.	Xie, S. H. Ma, D. Neelin, and P. Bechtold, 2019: GASS Diurnal Cycle of Precipitation Experiment Design. Part II: GCM/ESM. https://portal.nersc.gov/project/capt/diurnal/.
-
-18.	Xie, S. D. Neelin, P. Bechtold, H. Ma, 2018: Improving the simulation of diurnal and sub-diurnal precipitation over different climate regimes. White paper to the Global Atmospheric System Studies (GASS) Panel.
-
-17.	Riihimaki, L., including S. Xie, 2018: Translator Plan: A Coordinated Vision for Fiscal Years 2018-2020. https://www.arm.gov/publications/programdocs/doe-sc-arm-17-039.pdf.
-
-16.	DOE Workshop Report on “2017 Developers’ Meeting”, July 18-20, 2017, PNNL, Richland, WA. (Contributing author)
-
-15.	Zhang C and S Xie. 2017. ARM Data-Oriented Metrics and Diagnostics Package for Climate Model Evaluation Value-Added Product. Ed. by Robert Stafford, ARM Climate Research Facility. DOE/SC-ARM-TR-202.
-
-14.	Zhang Y and S Xie. 2017. ARM Cloud Radar Simulator Package for Global Climate Models Value-Added Product.Ed. by Robert Stafford, ARM Climate Research Facility. DOE/SC-ARM-TR-190.
-
-13.	DOE Workshop Report on “ACME/ASR/ARM Coordination Workshop”, Oct. 21-22, 2016, Washington D. C., USA. DOE BER Documentation. http://science.energy.gov/~/media/ber/pdf/workshop%20reports/CESD_ACME_ARM_ASR_workshopreport_web.pdf  (workshop co-Chair, one of the lead authors).
-
-12.	The US DOE ASR Workshop Report on the Representation of Convection in the Next Generation Climate Models Feb 3-5 2016, Richland, WA. (Workshop participant)
-
-11. Contributed to the Atmospheric Radiation Measurement Climate Research Facility Data Decadal Vision. DOE ARM documentation, in preparation, 2015.
-
-10. DOE Workshop Report on “ACME/ASR/ARM coordination meeting”, Oct. 21-22, 2015, Washington D. C., USA. DOE BER Documentation, in preparation, (workshop co-Chair).
-
-9. DOE Workshop Report on “DOE Data and Informatics Workshop”, August 13-15, 2015, Washington D. C., USA. DOE BER Documentation., in preparation, (workshop participant).
-
-8. DOE Workshop Report on “The DOE High-Resolution Modeling Workshop”, May 19-20, 2014, Washington D. C., USA. DOE BER Documentation. (workshop participant).
-
-7. DOE Workshop Report on “The DOE ARM North Slope of Alaska Supersite Workshop”, Sept. 10-11, 2014, Washington D. C., USA. DOE BER Documentation. (workshop participant).
-
-6. Contributed to the Atmospheric Radiation Measurement Climate Research Facility Decadal Vision. DOE ARM documentation, http://www.arm.gov/publications/programdocs/doe-sc-arm-14-029.pdf, 2014.
-
-5. Haeffelin M. and S. Xie. 2013: US-EU Data-Harmonization Working Group Whitepaper for “Atmospheric Research Observatory Data Re-Analysis for GCM and LES Initialization and Evaluation and Climate Studies”. DOE ARM documentation.
-
-4. DOE Workshop Report on “Climate Change Challenges and Observations”, November 2012, Washington D. C., USA. DOE BER Documentation. (workshop participant).
-
-3. DOE Workshop Report on “Community Modeling and Long-Term Predictions of the Integrated Water Cycle”, September 2012, Washington D. C., USA. DOE BER Documentation. (workshop participant).
-
-2. Xie, S., et al. 2011: The whitepaper for “Quantification of Uncertainty in Cloud Retrievals (QUICR)”. DOE ARM documentation.
-
-1. Xie, S., et al. 2011: Guidance for Modification and Reprocessing of ARM Datastreams. DOE ARM documentation.
