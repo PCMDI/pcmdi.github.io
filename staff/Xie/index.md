@@ -97,7 +97,7 @@ Before I came to the United States, I had worked for 5 years at the National Met
 
 * Major developer/played leading role in developing the second generation of Chinese medium-range weather forecast model (1993). The work received the first place award of the Chinese Meteorological Administration (CMA) Science and Technology Award in 1994, the most prestigious award in CMA.
 
-* The convective triggering mechnaism developed in Xie et al. (2019) has been used in E3SM version 2 for improving its precipitation distribution and diurnal cycle. The work is highlighted by eos: https://eos.org/research-spotlights/one-step-closer-to-a-milestone-in-climate-modeling
+* The convective triggering mechanism developed in Xie et al. (2019) has been used in E3SM version 2 for improving its precipitation distribution and diurnal cycle. The work is highlighted by eos: https://eos.org/research-spotlights/one-step-closer-to-a-milestone-in-climate-modeling
 
 * The new convective triggering mechanism developed in Xie and Zhang (2000) has been used in the operational weather prediction model of the Japanese Meteorological Agency (JMA) to improve its precipitation forecast in 2008. Relevant studies were highlighted in both “Our Changing Planet - The U.S. Climate Change Science Program for Fiscal Year 2006” and the “DOE ARM Notable Research Findings for the Past Five Years”.
 
@@ -107,7 +107,7 @@ Before I came to the United States, I had worked for 5 years at the National Met
 
 * The research on developing continuous large-scale forcing datasets for SCMs/CRMs was highlighted in the “DOE ARM Notable Research Finds for the Past Five Years”.
 
-* The ARM Best Estimate (ARMBE) dataset was highlighted by the 2010 DOE BER Advisory Committee (BERAC) review for the ARM program. The idea of creating ARMBE-like dataset is being adopted by several field programs in US and European.
+* The ARM Best Estimate (ARMBE) dataset was highlighted by the 2010 DOE BER Advisory Committee (BERAC) review for the ARM program. The idea of creating ARMBE-like dataset is being adopted by several field programs in US and Europe.
 
 * Built an SCM based on the NCAR CCM3.
 
