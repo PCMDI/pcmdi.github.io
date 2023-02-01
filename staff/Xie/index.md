@@ -14,8 +14,8 @@ title: Shaocheng Xie
     7000 East Avenue, L-103<br>
     Livermore, CA 94551<br>
     <br>
-    Tel: (925) 422-6023<br>
-    Fax: (925) 422-7675<br>
+    Tel: <br>
+    Fax: <br>
     Email: <a href="mailto:xie2@llnl.gov">xie2@llnl.gov</a><br>
 </p>
 
@@ -27,20 +27,6 @@ Ph.D., 1998, State University of New York at Stony Brook. New York, USA.
 M.S., 1988, Chinese Academy of Meteorological Sciences. Beijing, China.
 
 B.S., 1985, Nanjing Institute of Meteorology, Nanjing, China.
-
-## Professional Experience
-
-My research interests include climate model development and validation, cloud and convection parameterization developments, and objective data analysis. I work with the DOE Energy Exascale Earth System Model (E3SM) and the NSF/DOE Community Atmospheric Model (CAM). I use a hierarchy process modeling approach, including single-column model (SCM), cloud-resolving model (CRM), and the short-range hindcast approach (e.g., Cloud-Associated Parameterizations Testbed (CAPT)), to test existing and new parameterizations with both field data and satellite observations.
-
-As a lead for the E3SM Atmospheric Group, I led/co-led the development of the first generation of E3SM Atmosphere Model (EAMv1) and its the next generation development of atmospheric physics for EAMv3. I am currently leading the development of EAMv3 with the specific emphasis on integrating and assessing various improvements in atmospheric chemistry, aerosol, clouds, and convection in E3SM.
-
-My research on parameterization developments is mainly focused on convective trigger/closure for deep convection. Specifically, I would like to understand what physical processes and large-scale dynamic and thermodynamic control of cumulus convection and how these processes can be appropriately parameterized in climate models. Currently I emphasize on improving the diurnal cycle of model precipitation, particularly the nocturnal elevated  convection over lands, through improving convective triggering mechanisms. I am leading a Global Atmospheric System Studies (GASS) project on modeling diurnal and semi-diurnal cycle of precipitation in different climate regimes.
-
-For the field data analysis, the goal is to develop necessary data products with advanced data analysis methods and quantify their uncertainty in support of cloud modeling study and climate model development. I have been heavily involved in the DOE Atmospheric Radiation Measurement (ARM) program since 1998. One of my responsibilities is to transform the detailed ARM observations into a form that can be easily used by the climate modeling community. Some widely used data products from my ARM science infrastructure group include the ARM best estimate dataset (ARMBE) and the variational analysis derived large-scale forcing data for SCM/CRM/LES studies. We also develop tools to promote ARM data particularly to the climate modeling community, which includes the ongoing effort to develop an ARM radar simulator and an ARM-oriented process diagnostics package for GCMs. 
-
-In recent years, I have started to explore the machine learning approach to help climate model developments and address data quality issues with ARM observations.
-
-Before I came to the United States, I had worked for 5 years at the National Meteorological Center of China. My research was in the development of numerical weather forecast model for medium-range weather forecasts, which included the development of numerical methods for calculating large-scale advection terms and testing various parameterizations of cumulus convection. I was the major project leader for the development of the second generation of the Chinese Medium-range Weather Forecast Model.
 
 ## Professional Employment
 
@@ -61,6 +47,21 @@ Before I came to the United States, I had worked for 5 years at the National Met
 ***Jul 1988 - Aug. 1993: Research scientist/Senior Research Scientist, Numerical Weather Prediction Division, National Meteorological Center, Beijing, China.***
 
 *   Technical Leader for developing the second generation of the Chinese medium-range weather forecast model
+
+## Professional Experience
+
+My research interests include climate model development and validation, cloud and convection parameterization developments, and objective data analysis. I work with the DOE Energy Exascale Earth System Model (E3SM) and the NSF/DOE Community Atmospheric Model (CAM). I use a hierarchy process modeling approach, including single-column model (SCM), cloud-resolving model (CRM), and the short-range hindcast approach (e.g., Cloud-Associated Parameterizations Testbed (CAPT)), to test existing and new parameterizations with both field data and satellite observations.
+
+As a lead for the E3SM Atmospheric Group, I led/co-led the development of the first generation of E3SM Atmosphere Model (EAMv1) and its the next generation development of atmospheric physics for EAMv3. I am currently leading the development of EAMv3 with the specific emphasis on integrating and assessing various improvements in atmospheric chemistry, aerosol, clouds, and convection in E3SM.
+
+My research on parameterization developments is mainly focused on convective trigger/closure for deep convection. Specifically, I would like to understand what physical processes and large-scale dynamic and thermodynamic control of cumulus convection and how these processes can be appropriately parameterized in climate models. Currently I emphasize on improving the diurnal cycle of model precipitation, particularly the nocturnal elevated  convection over lands, through improving convective triggering mechanisms. I am leading a Global Atmospheric System Studies (GASS) project on modeling diurnal and semi-diurnal cycle of precipitation in different climate regimes.
+
+For the field data analysis, the goal is to develop necessary data products with advanced data analysis methods and quantify their uncertainty in support of cloud modeling study and climate model development. I have been heavily involved in the DOE Atmospheric Radiation Measurement (ARM) program since 1998. One of my responsibilities is to transform the detailed ARM observations into a form that can be easily used by the climate modeling community. Some widely used data products from my ARM science infrastructure group include the ARM best estimate dataset (ARMBE) and the variational analysis derived large-scale forcing data for SCM/CRM/LES studies. We also develop tools to promote ARM data particularly to the climate modeling community, which includes the ongoing effort to develop an ARM radar simulator and an ARM-oriented process diagnostics package for GCMs. 
+
+In recent years, I have started to explore the machine learning approach to help climate model developments and address data quality issues with ARM observations.
+
+Before I came to the United States, I had worked for 5 years at the National Meteorological Center of China. My research was in the development of numerical weather forecast model for medium-range weather forecasts, which included the development of numerical methods for calculating large-scale advection terms and testing various parameterizations of cumulus convection. I was the major project leader for the development of the second generation of the Chinese Medium-range Weather Forecast Model.
+
 
 ## Leadership in Major US DOE Climate Projects
 
