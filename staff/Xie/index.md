@@ -14,8 +14,6 @@ title: Shaocheng Xie
     7000 East Avenue, L-103<br>
     Livermore, CA 94551<br>
     <br>
-    Tel: <br>
-    Fax: <br>
     Email: <a href="mailto:xie2@llnl.gov">xie2@llnl.gov</a><br>
 </p>
 
@@ -32,9 +30,9 @@ B.S., 1985, Nanjing Institute of Meteorology, Nanjing, China.
 
 ***Jun 2001- Present: Research Scientist, Lawrence Livermore National Laboratory (LLNL), Livermore, CA.***
 
-*   Section Head for Climate Science Section, (2022 - )
+*   Head of the LLNL Climate Science Section supervising ~50 climate scientists, (2022 - )
 
-*   Group leader for the Cloud Processes Research and Modeling group (2013 - 2022)
+*   leader of the LLNL Cloud Processes Research and Modeling group (2013 - 2022)
 
 *   LLNL Climate Program Leadership Team Member (2013 - )   
 
@@ -42,19 +40,22 @@ B.S., 1985, Nanjing Institute of Meteorology, Nanjing, China.
 
 ***Oct 1998 - May 2001: Post-doctoral researcher, Lawrence Livermore National Laboratory, Livermore, CA.***
 
-***Aug 1993 - Oct 1998: Research Assistant, Inst. of Terrestrial and Planetary Atmosphere, SUNY at Stony Brook. Stony Brook, New York.***
+***Aug 1993 - Oct 1998: Research Assistant, School of Marine and Atmospheric Sciences, SUNY at Stony Brook. Stony Brook, New York.***
 
 ***Jul 1988 - Aug. 1993: Research scientist/Senior Research Scientist, Numerical Weather Prediction Division, National Meteorological Center, Beijing, China.***
 
 *   Technical Leader for developing the second generation of the Chinese medium-range weather forecast model
+*   Research Scientist (8/1988 - 4/1993) and Senior Research Scientist (4/1993-8/1993)
 
 ## Professional Experience
 
-My research interests include climate model development and validation, cloud and convection parameterization developments, and objective data analysis. I work with the DOE Energy Exascale Earth System Model (E3SM) and the NSF/DOE Community Atmospheric Model (CAM). I use a hierarchy process modeling approach, including single-column model (SCM), cloud-resolving model (CRM), and the short-range hindcast approach (e.g., Cloud-Associated Parameterizations Testbed (CAPT)), to test existing and new parameterizations with both field data and satellite observations.
+My research covers weather and climate modeling, climate model diagnosis and validation, atmospheric physical parameterization developments, in particular, convection parameterizations, and observational analysis and uncertainty quantification. I work with the DOE Energy Exascale Earth System Model (E3SM) and the NSF/DOE Community Atmospheric Model (CAM). I use a hierarchy process modeling approach, including single-column model (SCM), cloud-resolving model (CRM), and the short-range hindcast approach (e.g., Cloud-Associated Parameterizations Testbed (CAPT)), to test existing and new parameterizations with both field data and satellite observations.
 
-As a lead for the E3SM Atmospheric Group, I led/co-led the development of the first generation of E3SM Atmosphere Model (EAMv1) and its the next generation development of atmospheric physics for EAMv3. I am currently leading the development of EAMv3 with the specific emphasis on integrating and assessing various improvements in atmospheric chemistry, aerosol, clouds, and convection in E3SM.
+As lead for the E3SM Atmospheric Group since 2015, I led/co-led the development of the first generation of E3SM Atmosphere Model (EAMv1) and its the next generation development of atmospheric physics for EAMv3. I am currently leading the development of EAMv3 with the specific emphasis on integrating and assessing various improvements in atmospheric chemistry, aerosol, clouds, and convection in E3SM.
 
-My research on parameterization developments is mainly focused on convective trigger/closure for deep convection. Specifically, I would like to understand what physical processes and large-scale dynamic and thermodynamic control of cumulus convection and how these processes can be appropriately parameterized in climate models. Currently I emphasize on improving the diurnal cycle of model precipitation, particularly the nocturnal elevated  convection over lands, through improving convective triggering mechanisms. I am leading a Global Atmospheric System Studies (GASS) project on modeling diurnal and semi-diurnal cycle of precipitation in different climate regimes.
+My research on physical parameterization developments is mainly focused on convective trigger/closure for deep convection. Specifically, I would like to understand what physical processes and large-scale dynamic and thermodynamic control of cumulus convection and how these processes can be appropriately parameterized in climate models. By performing observational analyses, I demonstrated how cumulus clouds are related to environmental conditions, which results in the development of a physically based convective triggering function that is used in several current weather and climate models. I currently emphasize on improving the diurnal cycle of model precipitation, particularly the nocturnal elevated  convection over lands, through improving convective processes in climate models. I am leading a GEWEX Global Atmospheric System Studies (GASS) project on modeling diurnal and semi-diurnal cycle of precipitation in different climate regimes.
+
+For climate model diagnosis and validation, I co-led a team that utilized the short-range weather forecast technique in diagnosing climate model errors, in particular, associated with cloud-related processes. I also systematically explored the correspondence between short- and long-timescale systematic errors in current climate models and clarify over what timescales model systematic errors develop with the goal to provide essential clue to the origins of these errors.
 
 For the field data analysis, the goal is to develop necessary data products with advanced data analysis methods and quantify their uncertainty in support of cloud modeling study and climate model development. I have been heavily involved in the DOE Atmospheric Radiation Measurement (ARM) program since 1998. One of my responsibilities is to transform the detailed ARM observations into a form that can be easily used by the climate modeling community. Some widely used data products from my ARM science infrastructure group include the ARM best estimate dataset (ARMBE) and the variational analysis derived large-scale forcing data for SCM/CRM/LES studies. We also develop tools to promote ARM data particularly to the climate modeling community, which includes the ongoing effort to develop an ARM radar simulator and an ARM-oriented process diagnostics package for GCMs. 
 
