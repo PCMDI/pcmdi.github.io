@@ -27,25 +27,22 @@ M.S., 1988, Chinese Academy of Meteorological Sciences. Beijing, China.
 B.S., 1985, Nanjing Institute of Meteorology, Nanjing, China.
 
 ## Professional Employment
+***Lawrence Livermore National Laboratory, Livermore, California, USA (1998 – present).***
 
-***Jun 2001- Present: Research Scientist, Lawrence Livermore National Laboratory (LLNL), Livermore, CA.***
+*	Staff Scientist, 2001 – present.
+*	Head of the Climate Science Section (supervising ~50 climate scientists), 2022 - present
+*	Leader of the Cloud Processes Research and modeling group, 2013 – 2022
+*	Deputy Group Leader for the Climate and Carbon Science group, 2010 – 2013
+*	Post-doctoral researcher, 1998 –2001.
 
-*   Head of the LLNL Climate Science Section supervising ~50 climate scientists, (2022 - )
+***School of Marine and Atmospheric Sciences, SUNY at Stony Brook. New York, USA. (1993 - 1998)***
 
-*   leader of the LLNL Cloud Processes Research and Modeling group (2013 - 2022)
+*	Research Assistant, August 1993 - October 1998
 
-*   LLNL Climate Program Leadership Team Member (2013 - )   
+***National Meteorological Center, Beijing, China (1988 - 1993).***
 
-*   Deputy group leader for Climate and Carbon Science group (2010 – 2013)
-
-***Oct 1998 - May 2001: Post-doctoral researcher, Lawrence Livermore National Laboratory, Livermore, CA.***
-
-***Aug 1993 - Oct 1998: Research Assistant, School of Marine and Atmospheric Sciences, SUNY at Stony Brook. Stony Brook, New York.***
-
-***Jul 1988 - Aug. 1993: Research scientist/Senior Research Scientist, Numerical Weather Prediction Division, National Meteorological Center, Beijing, China.***
-
-*   Technical Leader for developing the second generation of the Chinese medium-range weather forecast model
-*   Research Scientist (8/1988 - 4/1993) and Senior Research Scientist (4/1993-8/1993)
+*	Major developer and then technical leader for developing the second generation of the Chinese Medium-range Weather Forecast System, 1988-1993.
+*	Research Scientist (8/1988 - 4/1993) and Senior Research Scientist (4/1993-8/1993)
 
 ## Professional Experience
 
@@ -175,17 +172,19 @@ Before I came to the United States, I had worked for 5 years at the National Met
 2. Xie, S. et al., 2011: Development of the Large-Scale Forcing Data to Support MC3E Cloud Modeling Studies. Invited speaker, AGU fall meeting, Dec. 5-9, 2011, San Francisco, CA, USA.
 1. Xie, S., 2011: Transform Detailed ARM Observations into An Useful Climate Modeling dataset. Invited Speaker, DOE ARM Data Developer Meeting. July 16 – 17, 2011, Oak Ridge, TN, USA.
 
-## Publications (Total 137 published, H-Index = 46 with 20 Papers with over 100 citations, source: google scholar)
+## Publications (Total 137, H-Index = 46 with 20 Papers with over 100 citations, source: google scholar)
 
-## First and Second Author Peer-Reviewed Publications (17)
+## First and Second Author Peer-Reviewed Publications (42)
 
 1.	Tao, C., Xie, S., Tang, S. et al. Diurnal cycle of precipitation over global monsoon systems in CMIP6 simulations. Clim Dyn (2022). https://doi.org/10.1007/s00382-022-06546-0
 
 118.	Zhang, M., Xie, S., Liu, X., Lin, W., Zheng, X., Golaz, J.-C., & Zhang, Y. (2022). Cloud phase simulation at high latitudes in EAMv2: Evaluation using CALIPSO observations and comparison with EAMv1. Journal of Geophysical Research: Atmospheres, 127, e2022JD037100. https://doi.org/10.1029/2022JD037100
 
+2. Zhang, M., Xie, S., et al. (2022). Evaluating EAMv2 simulated stratiform mixed-phase cloud properties at Northern and Southern high latitudes against ARM measurements. Submitted to JGR.
+
 107.	Tang, S., Xie, S., Guo, Z., Hong, S.-Y., Khouider, B., Klocke, D., et al. (2021) Long-term single-column model intercomparison of diurnal cycle of precipitation over midlatitude and tropical land. Q J R Meteorol Soc, 1– 29. Available from: https://doi.org/10.1002/qj.4222.120.
 
-109. Tang, S., P. Gleckler, S. Xie, et al. (2021): Evaluating the Diurnal and Semidiurnal Cycle of Precipitation in CMIP6 Models Using Satellite- and Ground-Based Observations, Journal of Climate, 34(8), 3189-3210.  https://doi.org/10.1175/JCLI-D-20-0639.1.
+109. Tang, S., P. Gleckler, S. Xie, et al. (2021): Evaluating the Diurnal and Semidiurnal Cycle of Precipitation in CMIP6 Models Using Satellite- and Ground-Based Observations, Journal of Climate, 34(8), 3189-3210.  https://doi.org/10.1175/JCLI-D-20-0639.1. (S. Xie was the corresponding author)
 
 94. Lin, W. and S. Xie (2020): Chapter on Frameworks for Testing and Evaluating Fast Physics Parameterizations in Climate and Weather Forecasting Models (accepted), in the book Fast Physics in Large Scale Atmospheric Models: Parameterization, Evaluation, and Observations, edited by Y. Liu, P. Kollias and L. J. Donner.
 
@@ -261,7 +260,7 @@ Before I came to the United States, I had worked for 5 years at the National Met
 
 1.  Tian Y., and S. C.  Xie, 1987: Test of Explicit Integration Schemes for the Barotropic Primitive Equation Model. Journal of Nanjing Institute of Meteorology, Vol.10, 95-102.
 
-## Other Peer-Reviewed Publications (120)
+## Other Peer-Reviewed Publications (95)
 
 1.	Dong, X., Zheng, X., Xi, B., & Xie, S. (2023). A Climatology of Midlatitude Maritime Cloud Fraction and Radiative Effect Derived from the ARM ENA Ground-Based Observations, Journal of Climate, 36(2), 531-546. Retrieved Jan 25, 2023, from https://journals.ametsoc.org/view/journals/clim/36/2/JCLI-D-22-0290.1.xml.
 
