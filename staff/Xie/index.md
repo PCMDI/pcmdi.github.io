@@ -187,23 +187,61 @@ Before I came to the United States, I had worked for 5 years at the National Met
 
 109. Tang, S., P. Gleckler, S. Xie, et al. (2021): Evaluating the Diurnal and Semidiurnal Cycle of Precipitation in CMIP6 Models Using Satellite- and Ground-Based Observations, Journal of Climate, 34(8), 3189-3210.  https://doi.org/10.1175/JCLI-D-20-0639.1.
 
+94. Lin, W. and S. Xie (2020): Chapter on Frameworks for Testing and Evaluating Fast Physics Parameterizations in Climate and Weather Forecasting Models (accepted), in the book Fast Physics in Large Scale Atmospheric Models: Parameterization, Evaluation, and Observations, edited by Y. Liu, P. Kollias and L. J. Donner.
+
+90. Zhang, M., S. Xie, X. Liu, et al. (2020). Toward Understanding the Simulated Phase Partitioning of Arctic Single-Layer Mixed-Phase Clouds in E3SM. Earth and Space Science, https://doi.org/10.1002/essoar.10502164.1. 
+
+91. Xie et al. (2020) “Improving the Simulation of Diurnal Precipitation over Monsoon Regimes. Invited article for 2020 quarter 4 GEWEX QUARTERLY. https://www.gewex.org/gewex-content/uploads/2020/12/Q42020.pdf.
+
+93.	Wang, Y.‐C., Xie, S., Tang, S., & Lin, W. (2020). Evaluation of an improved convective triggering function: Observational evidence and SCM tests. Journal of Geophysical Research: Atmospheres, 125, 2019JD031651. https://doi.org/10.1029/2019JD031651.
+
+84.	Tang, S., S. Xie, M. Zhang, and S. Endo, 2020:  Improvement of Atmospheric Objective Analysis over Sloping Terrain and Its Impact on Shallow‐Cumulus Clouds in Large‐Eddy Simulations.  Journal of Geophysical Research: Atmospheres, https://doi.org/10.1029/2020JD032492.
+
+83.	Zhang, C., S. Xie, C. Tao, S. Tang, T. Emmeneger, J. Neelin, K. Schiro, and W. Lin (2020): The ARM Data-oriented Metrics and Diagnostics Package for Climate Models - A New Tool for Evaluating Climate Models with Field Data. Bull. Amer. Meteor. Soc., doi: https://doi.org/10.1175/BAMS-D-19-0282.1.
+
 109.	Xie, S. et al. (2019): Improved Diurnal Cycle of Precipitation in E3SM with a Revised Convective Triggering Function. Journal of Advances in Modeling Earth Systems, 11. https://doi.org/10.1029/2019MS001702. 
+
+79.	Rasch, P. J., S. Xie, P. Ma, W. Lin, et al. (2019): An Overview of the Atmospheric Component of the Energy Exascale Earth System Model. Journal of Advances in Modeling Earth Systems, DOI:10.1029/2019MS001629.
+
+74.	Tang, S., Xie, S., Zhang, M., Tang, Q., Zhang, Y., Klein, S. A., et al (2019). Differences in Eddy‐Correlation and Energy‐Balance Surface Turbulent Heat Flux Measurements and Their Impacts on the Large‐scale Forcing Fields at the ARM SGP Site. Journal of Geophysical Research: Atmospheres, 124. https://doi.org/10.1029/2018JD029689.
 
 16.	Xie, S., Lin, W., Rasch, P. J., Ma, P.‐L., Neale, R., Larson, V. E., et al. (2018). Understanding cloud and convective characteristics in version 1 of the E3SM atmosphere model. Journal of Advances in Modeling Earth Systems, 10, 2618–2644. https://doi.org/10.1029/2018MS001350. 
 
-15. Xie, S., Y. Zhang, S. E. Giangrande, M. P. Jensen, R. McCoy, and M. Zhang, 2014: Interactions between Cumulus Convection and Its Environment as Revealed by the MC3E Sounding Array.  J. Geophys. Res. Atmos., 119, 11784–11808, doi: 10.1002/2014JD022011.
+68.	Zhang, Y. S. Xie, et al. 2018: Evaluation of clouds in version 1 of the E3SM atmosphere model with satellite simulators. Journal of Advances in Modeling Earth Systems, 11. https://doi.org/10.1029/2018MS001562.
+
+67. Tang, Q., S. Xie, Y. Zhang, T. Phillips, J. Santanello, D. Cook, L. Riihimaki, and K. Gaustad, 2018: Heterogeneity in Warm-Season Land-Atmosphere Coupling over the U.S. Southern Great Plains.  J. Geophys. Res., (Atmospheres), https://doi.org/10.1029/2018JD028463. 
+
+66. Zhang, Y., S. Xie, et al., 2018: The ARM cloud radar simulator for global climate models: Bridging field data and climate models. Bull. Amer. Meteor. Soc., 99, 21–26, https://doi.org/10.1175/BAMS-D-16-0258.1.
+
+64. Zhang, C., S. Xie, S. A. Klein, H. Ma, S. Tang, K. Van Weverbery, C. J. Morcrette, and J. Petch, 2018: CAUSES: Diagnosis of the Summertime Warm Bias in CMIP5 Climate Models at the ARM Southern Great Plains Site. J. Geophys. Res. Atmos., 123, 2968–2992. DOI: 10.1002/2017JD027200.
+
+53. Tang, S., S. Xie, et al. 2016: Large-Scale Vertical Velocity, Diabatic Heating and Drying Profiles Associated with Seasonal and Diurnal Variations of Convective Systems Observed in the GoAmazon2014/5 Experiment, Atmos. Chem. Phys. Discuss., 2016, 1-39, doi: 10.5194/acp-2016-644.
+
+55. Xie, S., Y. Zhang, S. E. Giangrande, M. P. Jensen, R. McCoy, and M. Zhang, 2014: Interactions between Cumulus Convection and Its Environment as Revealed by the MC3E Sounding Array.  J. Geophys. Res. Atmos., 119, 11784–11808, doi: 10.1002/2014JD022011.
+
+43. Ma, H., S. Xie, S. Klein, et al. 2014: On the Correspondence between Mean Forecast Errors and Climate Errors in CMIP5 Models. J. Climate. 27, 1781-1798. doi: 10.1175/JCLI-D-13-00474.1.
+
+42. Zhao, C., S. Xie, X. Chen, M. Jensen, and M. Dunn, 2014: Quantifying uncertainties of cloud microphysical property retrievals with a perturbation method.  J. Geophys. Res. Atmos., 119, 5375–5385, doi:10.1002/2013JD021112.
 
 14. Xie, S., X. Liu, C. Zhao, and Y. Zhang, 2013: Sensitivity of CAM5 Simulated Arctic Clouds and Radiation to Ice Nucleation, J. Clim. 26, 5981-5999, DOI: 10.1175/JCLI-D-12-00517.1.
 
+40. Ma, H., S. Xie, J. Boyle, S. Klein, and Y. Zhang, 2013: Development of Metrics and Diagnostics for CAM Climate Model Short-range Forecasts. J. Climate. 26, 1516-1534. doi: 10.1175/JCLI-D-12-00235.1.
+
+36. Zhang, Y., S. Xie, C. Covey, D. D. Lucas, P. Gleckler, S. Klein, J. Tannahill, C. Doutriaux,and R. Klein, 2012: Regional assessment of the parameter-dependent performance of CAM4 in simulating tropical clouds. Geophys. Res. Lett., 39, L14708, doi:10.1029/2012GL052184.
+
 13. Xie, S., H. Ma, J. Boyle, S. Klein, and Y. Zhang, 2012:  On the Correspondence between Short- and Long- Timescale Systematic Errors in CAM4/CAM5 for the Years of Tropical Convection.  J. Clim. 25, 7937–7955. doi: 10.1175/JCLI-D-12-00134.1.
+
+28. Liu, X., S. Xie, J. Boyle, S. A. Klein, X. Shi, Z. Wang, W. Lin, S. J. Ghan, M. Earle, P. S. K. Liu, and A. Zelenyuk1, 2011: Testing Cloud Microphysics Parameterizations in NCAR CAM5 with ISDAC and M-PACE Observations. J. Geophys. Res., 116, D00T11, doi:10.1029/2011JD015889.
 
 12. Xie, S., and 16-coauthors, 2010: ARM climate modeling best estimate data, Bull. Amer. Meteor. Soc, 91, 13–20 , doi:10.1175/2009BAMS2891.1 .
 
 11. Xie, S., T. Hume, C. Jakob, S. Klein, R. McCoy, and M. Zhang, 2010: Observed large-scale structures and diabatic heating and drying profiles during TWP-ICE, J. Climate, 23, 57-79, doi:10.1175/2009JCLI3071.1< .
 
-10. Xie, S., J. Boyle, S. A. Klein, X. Liu and S. Ghan, 2008: Simulations of Arctic Mixed-Phase Clouds in Forecasts with CAM3 and AM2 for M-PACE, Journal of Geophysical Research, 113, D04211, doi:10.1029/2007JD009225 .
+10. Xie, S., J. Boyle, S. A. Klein, X. Liu and S. Ghan, 2008: Simulations of Arctic Mixed-Phase Clouds in Forecasts with CAM3 and AM2 for M-PACE, Journal of Geophysical Research, 113, D04211, doi:10.1029/2007JD009225.
 
-9.  Xie, S., S. Klein, M. Zhang, J. Yio, R. Cederall, and R. McCoy, 2006: Developing large-scale forcing data for single-column and cloud-resolving models from the Mixed-Phase Arctic Cloud Experiment.  J. Geophys. Res., 111, D19104, doi:10.1029/2005JD006950 .
+15. Liu, X., S. Xie, and S. J. Ghan, 2007: Evaluation of a new mixed-Phase cloud microphysics parameterization with the NCAR single column climate model (SCAM) and ARM M-PACE observations, Geophysical Research Letter, 34, L23712, doi:10.1029/2007GL031446.
+
+17.  Xie, S., S. Klein, M. Zhang, J. Yio, R. Cederall, and R. McCoy, 2006: Developing large-scale forcing data for single-column and cloud-resolving models from the Mixed-Phase Arctic Cloud Experiment.  J. Geophys. Res., 111, D19104, doi:10.1029/2005JD006950 .
 
 8.  Xie, S., et al., 2006: An assessment of ECMWF analyses and model forecasts over the North Slope of Alaska using observations from the ARM Mixed-Phase Arctic Cloud Experiment.  J. Geophys. Res., 111, D05107, doi:10.1029/2005JD006509 .
 
@@ -220,6 +258,8 @@ Before I came to the United States, I had worked for 5 years at the National Met
 2.  Xie, S., and M. H. Zhang, 2000: Impact of the Convection triggering Function on Single-Column Model Simulations.  J. Geophys. Res., 105, 14983-14996, DOI: 10.1029/2000JD900170
 
 1.  Xie, S. C., 1991: A New Positive Definite Advection Scheme and its Application to the Moisture Equation. ACTA METEOROLOGICA SINICA, Vol.49, 11-20.
+
+1.  Tian Y., and S. C.  Xie, 1987: Test of Explicit Integration Schemes for the Barotropic Primitive Equation Model. Journal of Nanjing Institute of Meteorology, Vol.10, 95-102.
 
 ## Other Peer-Reviewed Publications (120)
 
@@ -276,29 +316,16 @@ Before I came to the United States, I had worked for 5 years at the National Met
 
 98.	Wang, H., Easter, R. C., Zhang, R., Ma, P.‐L., Singh, B., Zhang, K., et al. ( 2020). Aerosols in the E3SM Version 1: New developments and their impacts on radiative forcing. Journal of Advances in Modeling Earth Systems, 12, e2019MS001851. https://doi.org/10.1029/2019MS001851.
 
-94. Lin, W. and S. Xie (2020): Chapter on Frameworks for Testing and Evaluating Fast Physics Parameterizations in Climate and Weather Forecasting Models (accepted), in the book Fast Physics in Large Scale Atmospheric Models: Parameterization, Evaluation, and Observations, edited by Y. Liu, P. Kollias and L. J. Donner.
-
-90. Zhang, M., S. Xie, X. Liu, et al. (2020). Toward Understanding the Simulated Phase Partitioning of Arctic Single-Layer Mixed-Phase Clouds in E3SM. Earth and Space Science, https://doi.org/10.1002/essoar.10502164.1. 
 
 89.	Neale, R. B., W. Lin, S. Xie, C. Hannay, J. Bacmeister, 2020: Sub-Seasonal Tropical Variability in the DOE EarthEnergy Exascale System Model (E3SM) version 1. Submitted to JAMES.
 
-91. Xie et al. (2020) “Improving the Simulation of Diurnal Precipitation over Monsoon Regimes. Invited article for 2020 quarter 4 GEWEX QUARTERLY. https://www.gewex.org/gewex-content/uploads/2020/12/Q42020.pdf.
-
-93.	Wang, Y.‐C., Xie, S., Tang, S., & Lin, W. (2020). Evaluation of an improved convective triggering function: Observational evidence and SCM tests. Journal of Geophysical Research: Atmospheres, 125, 2019JD031651. https://doi.org/10.1029/2019JD031651.
-
 85.	Bogenschutz, P. A., Tang, S., Caldwell, P. M., Xie, S., Lin, W., and Chen, Y.-S.: The E3SM version 1 single-column model, Geosci. Model Dev., 13, 4443–4458, https://doi.org/10.5194/gmd-13-4443-2020, 2020.
-
-84.	Tang, S., S. Xie, M. Zhang, and S. Endo, 2020:  Improvement of Atmospheric Objective Analysis over Sloping Terrain and Its Impact on Shallow‐Cumulus Clouds in Large‐Eddy Simulations.  Journal of Geophysical Research: Atmospheres, https://doi.org/10.1029/2020JD032492.
-
-83.	Zhang, C., S. Xie, C. Tao, S. Tang, T. Emmeneger, J. Neelin, K. Schiro, and W. Lin (2020): The ARM Data-oriented Metrics and Diagnostics Package for Climate Models - A New Tool for Evaluating Climate Models with Field Data. Bull. Amer. Meteor. Soc., doi: https://doi.org/10.1175/BAMS-D-19-0282.1.
 
 82. Siongco, A.C., H. Ma, S.A. Klein, S. Xie, A.R. Karspeck, K. Raeder, and J.L. Anderson, 2020: A Hindcast Approach to Diagnosing the Equatorial Pacific Cold Tongue SST Bias in CESM1. J. Climate, 33, 1437–1453, https://doi.org/10.1175/JCLI-D-19-0513.1.
 
 81. Caldwell, P. M., et al. (including S. Xie) (2019). The DOE E3SM coupled model version 1: Description and results at high resolution. Journal of Advances in Modeling Earth Systems, 11, 4095– 4146. https://doi.org/10.1029/2019MS001870.
 
 80. Wang, H., et al. (including S. Xie) ( 2020). Aerosols in the E3SM Version 1: New developments and their impacts on radiative forcing. Journal of Advances in Modeling Earth Systems, 12, e2019MS001851. https://doi.org/10.1029/2019MS001851.
-
-79.	Rasch, P. J., S. Xie, P. Ma, W. Lin, et al. (2019): An Overview of the Atmospheric Component of the Energy Exascale Earth System Model. Journal of Advances in Modeling Earth Systems, DOI:10.1029/2019MS001629.
 
 78.	 Zheng, X., Golaz, J.‐C., Xie, S., Tang, Q., Lin, W., Zhang, M., et al. ( 2019). The summertime precipitation bias in E3SM Atmosphere Model version 1 over the Central United States. Journal of Geophysical Research: Atmospheres, 124, 8935– 8952. https://doi.org/10.1029/2019JD030662.
 
@@ -308,7 +335,6 @@ Before I came to the United States, I had worked for 5 years at the National Met
 
 75.  Golaz, J. C. et al. (including S. Xie) (2019): The DOE E3SM Coupled Model Version 1: Overview and Evaluation at Standard Resolution, JAMES, https://doi.org/10.1029/2018MS001603.
 
-74.	Tang, S., Xie, S., Zhang, M., Tang, Q., Zhang, Y., Klein, S. A., et al (2019). Differences in Eddy‐Correlation and Energy‐Balance Surface Turbulent Heat Flux Measurements and Their Impacts on the Large‐scale Forcing Fields at the ARM SGP Site. Journal of Geophysical Research: Atmospheres, 124. https://doi.org/10.1029/2018JD029689.
 
 73. Tang, Q., S. A. Klein, S. Xie, W. Lin, et al. (2019). Regionally refined capability in E3SM Atmosphere Model Version 1 (EAMv1) and applications for high-resolution modelling. Geosci. Model Dev. Discuss., https://doi.org/10.5194/gmd-2019-11.
 
@@ -320,15 +346,7 @@ Before I came to the United States, I had worked for 5 years at the National Met
 
 69.	Zhang, T., Zhang, M., Lin, W., Lin, Y., Xue, W., Yu, H., He, J., Xin, X., Ma, H.-Y., Xie, S., and Zheng, W. 2018: Automatic tuning of the Community Atmospheric Model (CAM5) by using short-term hindcasts with an improved downhill simplex optimization method, Geosci. Model Dev., 11, 5189-5201, https://doi.org/10.5194/gmd-11-5189-2018. 
 
-68.	Zhang, Y. S. Xie, et al. 2018: Evaluation of clouds in version 1 of the E3SM atmosphere model with satellite simulators. Journal of Advances in Modeling Earth Systems, 11. https://doi.org/10.1029/2018MS001562.
-
-67. Tang, Q., S. Xie, Y. Zhang, T. Phillips, J. Santanello, D. Cook, L. Riihimaki, and K. Gaustad, 2018: Heterogeneity in Warm-Season Land-Atmosphere Coupling over the U.S. Southern Great Plains.  J. Geophys. Res., (Atmospheres), https://doi.org/10.1029/2018JD028463. 
-
-66. Zhang, Y., S. Xie, et al., 2018: The ARM cloud radar simulator for global climate models: Bridging field data and climate models. Bull. Amer. Meteor. Soc., 99, 21–26, https://doi.org/10.1175/BAMS-D-16-0258.1.
-
 65. Feldman, D. R., W. D. Collins, S.C. Biraud, M.D. Risser, D.D. Turner, P.J. Gero, S. Xie, E.J. Mlawer, T.R Shippert, L.D. Riihimaki, E.J. Dlugokency, P.C. Novelli, D. Helmig, J. Hueber, M. S. Torn, 2018: First observation of CH4 surface radiative forcing and its thermodynamic dependence, Nature Geoscience. 11, 238-241. DOI:10.1038/s41561-018-0085-9.
-
-64. Zhang, C., S. Xie, S. A. Klein, H. Ma, S. Tang, K. Van Weverbery, C. J. Morcrette, and J. Petch, 2018: CAUSES: Diagnosis of the Summertime Warm Bias in CMIP5 Climate Models at the ARM Southern Great Plains Site. J. Geophys. Res. Atmos., 123, 2968–2992. DOI: 10.1002/2017JD027200
 
 63. Ma, H.-Y., S. A. Klein, S. Xie, et al. 2018: CAUSES: On the role of surface energy budget errors to the warm surface air temperature error over the Central U.S. J. Geophys. Res. Atmos., 123, 2888–2909. DOI: 10.1002/2017JD027194.
 
@@ -351,8 +369,6 @@ Before I came to the United States, I had worked for 5 years at the National Met
 54. Ciesielski, P. E., R. H. Johnson, X. Jiang, Y. Zhang, and S. Xie (2017), Relationships between radiation,clouds, and convection during DYNAMO, J. Geophys. Res. Atmos., 122, 2529–2548, doi:10.1002/2016JD025965.
 Highlighted by Eos: https://eos.org/research-spotlights/what-makes-the-biggest-cycle-in-tropical-weather-tick
 
-53. Tang, S., S. Xie, et al. 2016: Large-Scale Vertical Velocity, Diabatic Heating and Drying Profiles Associated with Seasonal and Diurnal Variations of Convective Systems Observed in the GoAmazon2014/5 Experiment, Atmos. Chem. Phys. Discuss., 2016, 1-39, doi: 10.5194/acp-2016-644.
-
 52. Zhang, M., Somerville, R.C. and Xie, S., 2016. The SCM Concept and Creation of ARM Forcing Datasets. Meteorological Monographs, 57, pp.24-1. DOI: http://dx.doi.org/10.1175/AMSMONOGRAPHS-D-15-0040.1.
 
 51. Tang, S. , M. Zhang, and S. Xie 2015: Ensemble Constrained Variational Analysis of Atmospheric Forcing Data for Process Models and Application to Evaluate Simulated Clouds in CAM. J. Geophys. Res. Atmos., doi: 10.1002/2015JD024167.
@@ -371,13 +387,7 @@ Highlighted by Eos: https://eos.org/research-spotlights/what-makes-the-biggest-c
 
 44. Jensen, M. P., Toto, T., Troyan, D., Ciesielski, P. E., Holdridge, D., Kyrouac, J., Schatz, J., Zhang, Y., and Xie, S.: The Midlatitude Continental Convective Clouds Experiment (MC3E) sounding network: operations, processing and analysis, Atmos. Meas. Tech., 8, 421-434, doi:10.5194/amt-8-421-2015, 2015.
 
-43. Ma, H., S. Xie, S. Klein, et al. 2014: On the Correspondence between Mean Forecast Errors and Climate Errors in CMIP5 Models. J. Climate. 27, 1781-1798. doi: 10.1175/JCLI-D-13-00474.1.
-
-42. Zhao, C., S. Xie, X. Chen, M. Jensen, and M. Dunn, 2014: Quantifying uncertainties of cloud microphysical property retrievals with a perturbation method.  J. Geophys. Res. Atmos., 119, 5375–5385, doi:10.1002/2013JD021112.
-
 41. Petch, J., A. Hill, L. Davis, A. Fridlind, C. Jakob, Y. Lin, S. Xie, and P. Zhu, 2014: Evaluation of intercomparison of four different types of model simulating TWP-ICE, Q. J. R. Meteorol. Soc., 140, 826-837, DOI: 10.1002/qj.2192.
-
-40. Ma, H., S. Xie, J. Boyle, S. Klein, and Y. Zhang, 2013: Development of Metrics and Diagnostics for CAM Climate Model Short-range Forecasts. J. Climate. 26, 1516-1534. doi: 10.1175/JCLI-D-12-00235.1.
 
 39. Lin, Y., M. Zhao, Y. Ming, J-C. Golaz, L. J. Donner, S. A. Klein, V. Ramaswamy, and S. Xie, 2013: Precipitation partitioning, tropical clouds and intraseasonal variability in GFDL AM2. J. Clim. , 26, 5453–5466. doi: 10.1175/JCLI-D-12-00442.1.
 
@@ -385,23 +395,17 @@ Highlighted by Eos: https://eos.org/research-spotlights/what-makes-the-biggest-c
 
 37. Davies, L. C. Jakob, V. Kumar, P. May and S. Xie, 2013: Relationships between the large-scale atmosphere and the small-scale state for Darwin, Australia. J. Geophys. Res., accepted. DOI: 10.1002/jgrd.50645.
 
-36. Zhang, Y., S. Xie, C. Covey, D. D. Lucas, P. Gleckler, S. Klein, J. Tannahill, C. Doutriaux,and R. Klein, 2012: Regional assessment of the parameter-dependent performance of CAM4 in simulating tropical clouds. Geophys. Res. Lett., 39, L14708, doi:10.1029/2012GL052184.
-
 35. Qian Y, CN Long, H Wang, JM Comstock, SA McFarlane, and S Xie. 2012: Evaluation of Cloud Fraction and Its Radiative Effect Simulated by IPCC AR4 Global Models Against ARM Surface Observations, Atmos. Chem. Phys., 12, 1785-1810. DOI:10.5194/acp-12-1785-2012.
 
 34. Zhao, C., S. A. Klein, S. Xie, X. Liu, J. S. Boyle, and Y. Zhang, 2012: Aerosol First Indirect effects on non-precipitating low-level liquid cloud properties as simulated by CAM5 at ARM sites, Geophys. Res. Lett., 39, L08806, doi:10.1029/2012GL051213.
 
 33. Fridlind, A., et al. (including S. Xie), 2012: A Cloud-Resolving Model Intercomparison Based on the Tropical Warm Pool–International Cloud Experiment, Part I: Specification and Results versus Domain-Wide Observations. J. Geophys. Res., 117, D05204 DOI: 10.1029/2011JD016595.
 
-32. Zhao, C. S. Xie, S. Klein, et al., 2012: Toward Understanding of Differences in Current Cloud Retrievals of ARM Ground-based Measurements. J. Geophys. Res., 117, D10206, DOI: 10.1029/2011JD016792.  
-
 31. Huang, D., C. Zhao, M. Dunn, X. Dong, G. G. Mace, M. P. Jensen, S. Xie, and Y. Liu, 2012: An intercomparison of radar-based liquid cloud microphysics retrievals and implication for model evaluation studies. Atmos. Meas. Tech., 5, 1409-1424   DOI: 10.5194/amt-5-1409-2012.
 
 30. Lin, Y., L. J. Donner, J. Petch, P. Bechtold, J. Boyle, S. A. Klein, T. Komori, K. Wapler, M. Willett, X. Xie, M. Zhao, S. Xie, S. A. MaFarlane, C. Schumacher, 2012: TWP-ICE global atmospheric model intercomparison: Convection responsiveness and resolution impact.  J. Geophys. Res., 117, D09111, doi: 10.1029/2011JD017018.
 
 29. Chuang, C. C., J. Kelly, J. Boyle, and S. Xie, 2012:  Sensitivity of Aerosol Indirect Effects to Cloud Nucleation and Autoconversion Parameterizations in Short-Range Weather Forecasts over the Southern Great Plains During May 2003 IOP. Journal of Advances in Modeling Earth Systems, DOI: 10.1029/2012MS000161. 
-
-28. Liu, X., S. Xie, J. Boyle, S. A. Klein, X. Shi, Z. Wang, W. Lin, S. J. Ghan, M. Earle, P. S. K. Liu, and A. Zelenyuk1, 2011: Testing Cloud Microphysics Parameterizations in NCAR CAM5 with ISDAC and M-PACE Observations. J. Geophys. Res., 116, D00T11, doi:10.1029/2011JD015889.
 
 27. Zeng, X., W. Tao, T. Matsui, S. Xie, S. Lang, M. Zhang, D. Starr, and X. Li 2011: Estimating the ice crystal enhancement factor in the tropics.  J. Atmos. Sci. 68, 1424-1434.
 
@@ -426,8 +430,6 @@ Highlighted by Eos: https://eos.org/research-spotlights/what-makes-the-biggest-c
 17. Guo, H., J. Penner, M. Herzog, and S. Xie, 2007: In vestigation of the first and second aerosol indirect effects on clouds during the May 2003 ARM intensive operational period at Southern Great Plains. J. Geophys. Res. 112, D15206, doi:10.1029/2006JD007173 .
 
 16. Zeng, X., W. Tao et al., S. Xie et al., 2007: Evaluation of long-term cloud resolving modeling with observational cloudy data.  J. Atmos. Sci. 64, 4153-4177. doi: 10.1175/2007JAS2170.1
-
-15. Liu, X., S. Xie, and S. J. Ghan, 2007: Evaluation of a new mixed-Phase cloud microphysics parameterization with the NCAR single column climate model (SCAM) and ARM M-PACE observations, Geophysical Research Letter, 34, L23712, doi:10.1029/2007GL031446 .
 
 14. Klein, S., X. Jiang, J. Boyle, S. Malyshev, S. Xie, 2006: Diagnosis of the summertime warm and dry bias over the U. S.  Southern Great Plains in the GFDL climate model using a weather forecasting approach.  Geophys. Res. Lett ., 33, L18805, doi:10.1029/2006GL027567
 
@@ -455,7 +457,6 @@ Highlighted by Eos: https://eos.org/research-spotlights/what-makes-the-biggest-c
 
 2.  Shen, Y., X. Ding, and S. Xie, 1994: Analysis increment vertical interpolation scheme in T63 data assimilation and its experiments. Quart. J. of Applied Meteorology, Vol. 4.
 
-1.  Tian Y., and S. C.  Xie, 1987: Test of Explicit Integration Schemes for the Barotropic Primitive Equation Model. Journal of Nanjing Institute of Meteorology, Vol.10, 95-102.
 
 ## Selected White Papers and Other Program Documents 
 
