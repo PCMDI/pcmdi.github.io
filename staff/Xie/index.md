@@ -13,7 +13,6 @@ title: Shaocheng Xie
     Lawrence Livermore National Laboratory<br>
     7000 East Avenue, L-103<br>
     Livermore, CA 94551<br>
-    <br>
     Email: <a href="mailto:xie2@llnl.gov">xie2@llnl.gov</a><br>
 </p>
 
