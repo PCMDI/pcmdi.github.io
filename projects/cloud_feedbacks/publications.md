@@ -9,6 +9,10 @@ title: Cloud Feedbacks
 ---
 ## Publications
 
+### 2023
+
+* Zhou, C., M. Wang, M. D. Zelinka, Y. Liu, Y. Dong, K. C. Armour, 2023: Explaining Forcing Efficacy with Pattern Effect and State Dependence, <em>Geophys. Res. Lett.</em>, doi:[10.1029/2022GL101700](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2022GL101700).
+
 ### 2022
 
 * Zelinka, M. D., I. Tan, L. Oreopoulos, G. Tselioudis, 2022: Detailing Cloud Property Feedbacks with a Regime-Based Decomposition, <em>Clim Dyn.</em>, doi:[10.1007/s00382-022-06488-7](https://link.springer.com/article/10.1007/s00382-022-06488-7).

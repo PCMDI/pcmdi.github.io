@@ -9,6 +9,9 @@ title: Cloud Feedbacks
 ---
 ## Research Highlights
 
+### 2023
+* Zhou, C., M. Wang, M. D. Zelinka, Y. Liu, Y. Dong, and K. C. Armour. 2023: [Explaining Forcing Efficacy With Pattern Effect And State Dependence](https://climatemodeling.science.energy.gov/research-highlights/explaining-forcing-efficacy-pattern-effect-and-state-dependence)
+
 ### 2022
 * Qin, Y., M. D. Zelinka, and S. A. Klein, 2022: [Estimate Coupled Cloud Feedbacks from Inexpensive Short-Term Atmosphere-Only Simulations](https://climatemodeling.science.energy.gov/research-highlights/estimate-coupled-cloud-feedbacks-inexpensive-short-term-atmosphere-only)
 
