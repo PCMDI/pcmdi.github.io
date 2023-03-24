@@ -73,12 +73,12 @@ alt="PMP EOS article">
 <a href="precip_distribution_metric_table.pdf" target="_new">Metric description table</a>
 
 ### - Amount Peak
-- [**Portrait chart for large domain** (CMIP6-amip)][Bar_IFD-1]
-- [**Portrait chart for large domain** (CMIP5-amip)][Bar_IFD-1]
-- [**Portrait chart for large domain clustered by precipitation** (CMIP6-amip)][Bar_IFD-1]
-- [**Portrait chart for large domain clustered by precipitation** (CMIP5-amip)][Bar_IFD-1]
-- [**Portrait chart for modified IPCC AR6 regions** (CMIP6-amip)][Bar_IFD-1]
-- [**Portrait chart for modified IPCC AR6 regions** (CMIP5-amip)][Bar_IFD-1]
+- [**Portrait chart for large domain** (CMIP6-amip)][Bar_IFD-1-1]
+- [**Portrait chart for large domain** (CMIP5-amip)][Bar_IFD-1-2]
+- [**Portrait chart for large domain clustered by precipitation** (CMIP6-amip)][Bar_IFD-1-3]
+- [**Portrait chart for large domain clustered by precipitation** (CMIP5-amip)][Bar_IFD-1-4]
+- [**Portrait chart for modified IPCC AR6 regions** (CMIP6-amip)][Bar_IFD-1-5]
+- [**Portrait chart for modified IPCC AR6 regions** (CMIP5-amip)][Bar_IFD-1-6]
 
 ### - Amount P10
 - [**Portrait chart for large domain** (CMIP6-amip)][Bar_IFD-1]
@@ -226,7 +226,13 @@ Wehner, M., P Gleckler, J Lee, 2020: Characterization of long period return valu
 
 [Bar_SDI-1]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/precip/variability_across_timescales/intermittency/pr_intermittency.amean_interactive.html
 
-[Bar_IFD-1]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/precip/intensity.frequency_distribution/unevenness/pr_unevenness.amean_interactive.html
+[Bar_IFD-0]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/precip/intensity.frequency_distribution/unevenness/pr_unevenness.amean_interactive.html
+[Bar_IFD-1-1]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/precip/intensity.frequency_distribution/large_domain/interactive_portrait_dits_regrid.180x90_ensmean_cmip5_amtpeak_ANN.html
+[Bar_IFD-1-2]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/precip/intensity.frequency_distribution/large_domain/interactive_portrait_dits_regrid.180x90_ensmean_cmip6_amtpeak_ANN.html
+[Bar_IFD-1-3]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/precip/intensity.frequency_distribution/large.clust_domain/interactive_portrait_dits_regrid.180x90_ensmean_cmip5_amtpeak_ANN.html
+[Bar_IFD-1-4]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/precip/intensity.frequency_distribution/large.clust_domain/interactive_portrait_dits_regrid.180x90_ensmean_cmip6_amtpeak_ANN.html
+[Bar_IFD-1-5]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/precip/intensity.frequency_distribution/AR6.modified_domain/interactive_portrait_dits_regrid.180x90_ensmean_cmip5_amtpeak_ANN.html
+[Bar_IFD-1-6]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/precip/intensity.frequency_distribution/AR6.modified_domain/interactive_portrait_dits_regrid.180x90_ensmean_cmip6_amtpeak_ANN.html
 
 [Metrics]:{{site.baseurl}}/research/metrics/
 [extreme]: extreme.html
