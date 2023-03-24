@@ -70,6 +70,8 @@ alt="PMP EOS article">
 
 ## Intensity/Frequency Distribution
 
+<a href="precip_distribution_metric_table.pdf" target="_new">Metric description table</a>
+
 ### - Amount Peak
 - [**Portrait chart for large domain** (CMIP6-amip)][Bar_IFD-1]
 - [**Portrait chart for large domain** (CMIP5-amip)][Bar_IFD-1]
