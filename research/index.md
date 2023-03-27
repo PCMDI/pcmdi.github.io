@@ -11,7 +11,7 @@ PCMDI has led research into the detection and attribution of the causes of clima
 
 ---
 
-# Climate Model Metrics
+# Climate Model Evaluation
 
 #### [Diagnosis of Climate Model Performance][Metrics]
 PCMDI’s mission is to develop improved methods and tools for the diagnosis and evaluation of climate models. The PCMDI metrics package is used to objectively compare results from climate models with observations using well-established statistical tests. Results are produced in the context of all model simulations contributed to CMIP6 and earlier CMIP phases.
