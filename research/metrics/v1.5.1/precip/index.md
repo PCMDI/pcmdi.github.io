@@ -6,11 +6,7 @@ title: PCMDI - Metrics
 ---
 
 # Benchmarking Simulated Precipitation
-
-<br/>
-
 Welcome to the results site for benchmarking simulated precipitation in Earth System Models (ESMs)! This effort has been inspired by the outcomes of a July 2019 DOE workshop (Pendergrass, et al., 2019).  That workshop was motivated by discussions that have taken place in recent years in various working groups of the WCRP including the Working Group on Numerical Experimentation (WGNE) and Working Group on Coupled Models (WGCM).  This site was initially made public 2020/10/10 and will be regularly updated as our efforts advance, so check back here soon to see progress.  
-
 <br/>
 
 <center>
@@ -20,167 +16,83 @@ alt="PMP EOS article">
 <br/>
 
 
-
 ## Spatial Distribution of Mean State
-
 - [**Taylor diagrams of spatial distribution** (CMIP6-histotical)][mean]
-
 <br/>
 
 
 ## Seasonal Cycle
-
 - [**Line graph of domain averaged seasonal cycle with monthly mean** (CMIP6-histotical)][Line_SC-1]
 - [**Bar chart of RMS and RMSC for the seasonal cycle** (CMIP6-histotical)][Bar_SC-1]
-
 <br/>
-
 
 
 ## Variability Across Timescales (from Sub-daily to Interannual) 
 The precipitation variability across timescales is measured by two independent methods: i) standard deviation at different timescales, ii) spectral power at different timescales.
 
 ### - Standard deviation at different timescales 
-
 - [**Bar chart of domain averaged STD** (CMIP6-histotical)][Bar_VAC-2]
 - [**Bar chart of domain averaged STD** (CMIP5-histotical)][Bar_VAC-1]
 - [**Portrait chart of domain averaged STD** (CMIP6-histotical)][Port_VAC-2]
 - [**Portrait chart of domain averaged STD** (CMIP5-histotical)][Port_VAC-1]
 
-
 ### - Spectral power at different timescales 
-
 - [**Portrait chart of domain and frequency averaged spectral power** (CMIP6-histotical)][Port_PS-2]
 - [**Portrait chart of domain and frequency averaged spectral power** (CMIP5-histotical)][Port_PS-1]
 
-
 ### - Diurnal cycle - phase and amplitude
-
 - [**Line graph of domain averaged diurnal cycle** (CMIP6-amip)][Line_DC-1]
 - [**Bar chart of RMS and RMSC for the diurnal cycle** (CMIP6-amip)][Bar_DC-1]
 - [**Bar chart of RMS and RMSC for the diurnal cycle** (CMIP6-amip) (Specific ARM sites used in Fig. 10 of Tang et al. 2021)][Bar_DC-2]
 
-
 ### - Sub-daily intermittency
-
 - [**Bar chart of domain averaged sub-daily intermittency** (CMIP6-amip)][Bar_SDI-1]
-
 <br/>
 
 
-
-## Intensity/Frequency Distribution <a href="precip_distribution_metric_table.pdf" target="_new">[Metric description table]</a>
-The precipitation distribution metrics are applied to three tiers of domains: i) large domain (Tropics and Extratropics with separated land and ocean) commonly used in the PMP, ii) large domain clustered by precipitation (Tropics and Extratropics with separated land and ocean, and separated heavy, moderate, and light precipitation regions), and iii) modified IPCC AR6 regions.
+## Intensity/Frequency Distribution
+The <a href="precip_distribution_metric_table.pdf" target="_new">precipitation distribution metrics</a> are applied to three tiers of domains below: 
 <br/>
-Below plots are interacive portrait charts for three tiers of domains.
+**Domain 1**: Large domain commonly used in the PMP (Tropics and Extratropics with separated land and ocean)
+<br/>
+**Domain 2**: Large domain clustered by precipitation (Domain 1 with separated heavy, moderate, and light precipitation regions)
+<br/>
+**Domain 3**: Modified IPCC AR6 regions (Global domain partitioned into 62 regions, Ahn et al. 2023a)
+<br/>
+All plots below are **interacive portrait charts** for three tiers of domains unless otherwise stated.
 
-### - Amount Peak
-- Peak: CMIP6-amip (Domain 1, 2, 3) | CMIP5-amip (Domain 1, 2, 3)
-- Large domain ([CMIP6-amip][Bar_IFD-1-1], [CMIP5-amip][Bar_IFD-1-2])
-- Large domain clustered by precipitation (CMIP6-amip, CMIP5-amip)
-- Modified IPCC AR6 regions (CMIP6-amip, CMIP5-amip)
-- [**Portrait chart for large domain** (CMIP6-amip)][Bar_IFD-1-1]
-- [**Portrait chart for large domain** (CMIP5-amip)][Bar_IFD-1-2]
-- [**Portrait chart for large domain clustered by precipitation** (CMIP6-amip)][Bar_IFD-1-3]
-- [**Portrait chart for large domain clustered by precipitation** (CMIP5-amip)][Bar_IFD-1-4]
-- [**Portrait chart for modified IPCC AR6 regions** (CMIP6-amip)][Bar_IFD-1-5]
-- [**Portrait chart for modified IPCC AR6 regions** (CMIP5-amip)][Bar_IFD-1-6]
+#### - Amount Peak : [CMIP6-amip][Bar_IFD-1-1] (Domain [1][Bar_IFD-1-1], [2][Bar_IFD-1-3], [3][Bar_IFD-1-5]) | [CMIP5-amip][Bar_IFD-1-2] (Domain [1][Bar_IFD-1-2], [2][Bar_IFD-1-4], [3][Bar_IFD-1-6])
 
-### - Amount P10
-- [**Portrait chart for large domain** (CMIP6-amip)][Bar_IFD-2-1]
-- [**Portrait chart for large domain** (CMIP5-amip)][Bar_IFD-2-2]
-- [**Portrait chart for large domain clustered by precipitation** (CMIP6-amip)][Bar_IFD-2-3]
-- [**Portrait chart for large domain clustered by precipitation** (CMIP5-amip)][Bar_IFD-2-4]
-- [**Portrait chart for modified IPCC AR6 regions** (CMIP6-amip)][Bar_IFD-2-5]
-- [**Portrait chart for modified IPCC AR6 regions** (CMIP5-amip)][Bar_IFD-2-6]
+#### - Amount P10 : [CMIP6-amip][Bar_IFD-2-1] (Domain [1][Bar_IFD-2-1], [2][Bar_IFD-2-3], [3][Bar_IFD-2-5]) | [CMIP5-amip][Bar_IFD-2-2] (Domain [1][Bar_IFD-2-2], [2][Bar_IFD-2-4], [3][Bar_IFD-2-6])
 
-### - Amount P90
-- [**Portrait chart for large domain** (CMIP6-amip)][Bar_IFD-3-1]
-- [**Portrait chart for large domain** (CMIP5-amip)][Bar_IFD-3-2]
-- [**Portrait chart for large domain clustered by precipitation** (CMIP6-amip)][Bar_IFD-3-3]
-- [**Portrait chart for large domain clustered by precipitation** (CMIP5-amip)][Bar_IFD-3-4]
-- [**Portrait chart for modified IPCC AR6 regions** (CMIP6-amip)][Bar_IFD-3-5]
-- [**Portrait chart for modified IPCC AR6 regions** (CMIP5-amip)][Bar_IFD-3-6]
+#### - Amount P90 : [CMIP6-amip][Bar_IFD-3-1] (Domain [1][Bar_IFD-3-1], [2][Bar_IFD-3-3], [3][Bar_IFD-3-5]) | [CMIP5-amip][Bar_IFD-3-2] (Domain [1][Bar_IFD-3-2], [2][Bar_IFD-3-4], [3][Bar_IFD-3-6])
 
-### - Frequency Peak
-- [**Portrait chart for large domain** (CMIP6-amip)][Bar_IFD-4-1]
-- [**Portrait chart for large domain** (CMIP5-amip)][Bar_IFD-4-2]
-- [**Portrait chart for large domain clustered by precipitation** (CMIP6-amip)][Bar_IFD-4-3]
-- [**Portrait chart for large domain clustered by precipitation** (CMIP5-amip)][Bar_IFD-4-4]
-- [**Portrait chart for modified IPCC AR6 regions** (CMIP6-amip)][Bar_IFD-4-5]
-- [**Portrait chart for modified IPCC AR6 regions** (CMIP5-amip)][Bar_IFD-4-6]
+#### - Frequency Peak : [CMIP6-amip][Bar_IFD-4-1] (Domain [1][Bar_IFD-4-1], [2][Bar_IFD-4-3], [3][Bar_IFD-4-5]) | [CMIP5-amip][Bar_IFD-4-2] (Domain [1][Bar_IFD-4-2], [2][Bar_IFD-4-4], [3][Bar_IFD-4-6])
 
-### - Frequency P10
-- [**Portrait chart for large domain** (CMIP6-amip)][Bar_IFD-5-1]
-- [**Portrait chart for large domain** (CMIP5-amip)][Bar_IFD-5-2]
-- [**Portrait chart for large domain clustered by precipitation** (CMIP6-amip)][Bar_IFD-5-3]
-- [**Portrait chart for large domain clustered by precipitation** (CMIP5-amip)][Bar_IFD-5-4]
-- [**Portrait chart for modified IPCC AR6 regions** (CMIP6-amip)][Bar_IFD-5-5]
-- [**Portrait chart for modified IPCC AR6 regions** (CMIP5-amip)][Bar_IFD-5-6]
+#### - Frequency P10 : [CMIP6-amip][Bar_IFD-5-1] (Domain [1][Bar_IFD-5-1], [2][Bar_IFD-5-3], [3][Bar_IFD-5-5]) | [CMIP5-amip][Bar_IFD-5-2] (Domain [1][Bar_IFD-5-2], [2][Bar_IFD-5-4], [3][Bar_IFD-5-6])
 
-### - Frequency P90
-- [**Portrait chart for large domain** (CMIP6-amip)][Bar_IFD-6-1]
-- [**Portrait chart for large domain** (CMIP5-amip)][Bar_IFD-6-2]
-- [**Portrait chart for large domain clustered by precipitation** (CMIP6-amip)][Bar_IFD-6-3]
-- [**Portrait chart for large domain clustered by precipitation** (CMIP5-amip)][Bar_IFD-6-4]
-- [**Portrait chart for modified IPCC AR6 regions** (CMIP6-amip)][Bar_IFD-6-5]
-- [**Portrait chart for modified IPCC AR6 regions** (CMIP5-amip)][Bar_IFD-6-6]
+#### - Frequency P90 : [CMIP6-amip][Bar_IFD-6-1] (Domain [1][Bar_IFD-6-1], [2][Bar_IFD-6-3], [3][Bar_IFD-6-5]) | [CMIP5-amip][Bar_IFD-6-2] (Domain [1][Bar_IFD-6-2], [2][Bar_IFD-6-4], [3][Bar_IFD-6-6])
 
-### - Unevenness
-- [**Portrait chart for large domain** (CMIP6-amip)][Bar_IFD-7-1]
-- [**Portrait chart for large domain** (CMIP5-amip)][Bar_IFD-7-2]
-- [**Portrait chart for large domain clustered by precipitation** (CMIP6-amip)][Bar_IFD-7-3]
-- [**Portrait chart for large domain clustered by precipitation** (CMIP5-amip)][Bar_IFD-7-4]
-- [**Portrait chart for modified IPCC AR6 regions** (CMIP6-amip)][Bar_IFD-7-5]
-- [**Portrait chart for modified IPCC AR6 regions** (CMIP5-amip)][Bar_IFD-7-6]
-- [**Bar chart of domain averaged Unevenness** (CMIP6-histotical)][Bar_IFD-7-7]
+#### - Unevenness : [CMIP6-amip][Bar_IFD-7-1] (Domain [1][Bar_IFD-7-1], [2][Bar_IFD-7-3], [3][Bar_IFD-7-5]) | [CMIP5-amip][Bar_IFD-7-2] (Domain [1][Bar_IFD-7-2], [2][Bar_IFD-7-4], [3][Bar_IFD-7-6])
+- [**Bar chart of large domain averaged Unevenness** (CMIP6-histotical)][Bar_IFD-7-7]
 
-### - Fraction of Precipitating Days
-- [**Portrait chart for large domain** (CMIP6-amip)][Bar_IFD-8-1]
-- [**Portrait chart for large domain** (CMIP5-amip)][Bar_IFD-8-2]
-- [**Portrait chart for large domain clustered by precipitation** (CMIP6-amip)][Bar_IFD-8-3]
-- [**Portrait chart for large domain clustered by precipitation** (CMIP5-amip)][Bar_IFD-8-4]
-- [**Portrait chart for modified IPCC AR6 regions** (CMIP6-amip)][Bar_IFD-8-5]
-- [**Portrait chart for modified IPCC AR6 regions** (CMIP5-amip)][Bar_IFD-8-6]
+#### - Fraction of Precipitating Days : [CMIP6-amip][Bar_IFD-8-1] (Domain [1][Bar_IFD-8-1], [2][Bar_IFD-8-3], [3][Bar_IFD-8-5]) | [CMIP5-amip][Bar_IFD-8-2] (Domain [1][Bar_IFD-8-2], [2][Bar_IFD-8-4], [3][Bar_IFD-8-6])
 
-### - Simple Daily Intensity Index (SDII)
-- [**Portrait chart for large domain** (CMIP6-amip)][Bar_IFD-9-1]
-- [**Portrait chart for large domain** (CMIP5-amip)][Bar_IFD-9-2]
-- [**Portrait chart for large domain clustered by precipitation** (CMIP6-amip)][Bar_IFD-9-3]
-- [**Portrait chart for large domain clustered by precipitation** (CMIP5-amip)][Bar_IFD-9-4]
-- [**Portrait chart for modified IPCC AR6 regions** (CMIP6-amip)][Bar_IFD-9-5]
-- [**Portrait chart for modified IPCC AR6 regions** (CMIP5-amip)][Bar_IFD-9-6]
+#### - Simple Daily Intensity Index (SDII) : [CMIP6-amip][Bar_IFD-9-1] (Domain [1][Bar_IFD-9-1], [2][Bar_IFD-9-3], [3][Bar_IFD-9-5]) | [CMIP5-amip][Bar_IFD-9-2] (Domain [1][Bar_IFD-9-2], [2][Bar_IFD-9-4], [3][Bar_IFD-9-6])
 
-### - Perkins Score
-- [**Portrait chart for large domain** (CMIP6-amip)][Bar_IFD-10-1]
-- [**Portrait chart for large domain** (CMIP5-amip)][Bar_IFD-10-2]
-- [**Portrait chart for large domain clustered by precipitation** (CMIP6-amip)][Bar_IFD-10-3]
-- [**Portrait chart for large domain clustered by precipitation** (CMIP5-amip)][Bar_IFD-10-4]
-- [**Portrait chart for modified IPCC AR6 regions** (CMIP6-amip)][Bar_IFD-10-5]
-- [**Portrait chart for modified IPCC AR6 regions** (CMIP5-amip)][Bar_IFD-10-6]
+#### - Perkins Score : [CMIP6-amip][Bar_IFD-10-1] (Domain [1][Bar_IFD-10-1], [2][Bar_IFD-10-3], [3][Bar_IFD-10-5]) | [CMIP5-amip][Bar_IFD-10-2] (Domain [1][Bar_IFD-10-2], [2][Bar_IFD-10-4], [3][Bar_IFD-10-6])
 
-### - Bimodality
-- [**Portrait chart for large domain** (CMIP6-amip)][Bar_IFD-11-1]
-- [**Portrait chart for large domain** (CMIP5-amip)][Bar_IFD-11-2]
-- [**Portrait chart for large domain clustered by precipitation** (CMIP6-amip)][Bar_IFD-11-3]
-- [**Portrait chart for large domain clustered by precipitation** (CMIP5-amip)][Bar_IFD-11-4]
-- [**Portrait chart for modified IPCC AR6 regions** (CMIP6-amip)][Bar_IFD-11-5]
-- [**Portrait chart for modified IPCC AR6 regions** (CMIP5-amip)][Bar_IFD-11-6]
-
+#### - Bimodality : [CMIP6-amip][Bar_IFD-11-1] (Domain [1][Bar_IFD-11-1], [2][Bar_IFD-11-3], [3][Bar_IFD-11-5]) | [CMIP5-amip][Bar_IFD-11-2] (Domain [1][Bar_IFD-11-2], [2][Bar_IFD-11-4], [3][Bar_IFD-11-6])
 <br/>
 
 
 ## Extremes  
-
 - [**Precipitation extremes** (CMIP5&6-histotical)][extreme]
-
 <br/>
 
 
 ## Drought
-
 Comming soon:  Frequency of SPI spells and consecutive dry days.
-
 <br/>
 
 
