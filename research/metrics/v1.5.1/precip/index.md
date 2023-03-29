@@ -19,13 +19,14 @@ alt="PMP EOS article">
 ## Spatial Distribution of Mean State
 - [**Taylor diagrams of spatial distribution** (CMIP6-histotical)][mean]
 <br/>
+<br/>
 
 
 ## Seasonal Cycle
 - [**Line graph of domain averaged seasonal cycle with monthly mean** (CMIP6-histotical)][Line_SC-1]
 - [**Bar chart of RMS and RMSC for the seasonal cycle** (CMIP6-histotical)][Bar_SC-1]
 <br/>
-
+<br/>
 
 ## Variability Across Timescales (from Sub-daily to Interannual) 
 The precipitation variability across timescales is measured by two independent methods: i) standard deviation at different timescales, ii) spectral power at different timescales.
@@ -48,7 +49,7 @@ The precipitation variability across timescales is measured by two independent m
 ### - Sub-daily intermittency
 - [**Bar chart of domain averaged sub-daily intermittency** (CMIP6-amip)][Bar_SDI-1]
 <br/>
-
+<br/>
 
 ## Intensity/Frequency Distribution
 The <a href="precip_distribution_metric_table.pdf" target="_new">precipitation distribution metrics</a> are applied to three tiers of domains below: 
@@ -89,7 +90,7 @@ All plots below are **interactive portrait charts** for three tiers of domains u
 ## Extremes  
 - [**Precipitation extremes** (CMIP5&6-histotical)][extreme]
 <br/>
-
+<br/>
 
 ## Drought
 Comming soon:  Frequency of SPI spells and consecutive dry days.
