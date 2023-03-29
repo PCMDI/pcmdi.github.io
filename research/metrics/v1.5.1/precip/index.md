@@ -54,37 +54,30 @@ The precipitation variability across timescales is measured by two independent m
 ## Intensity/Frequency Distribution
 The <a href="precip_distribution_metric_table.pdf" target="_new">precipitation distribution metrics</a> are applied to three tiers of domains below: 
 <br/>
-**Domain 1**: Large domain commonly used in the PMP (Tropics and Extratropics with separated land and ocean)
+**Domain 1 (D1)**: Large domain commonly used in the PMP (Tropics and Extratropics with separated land and ocean)
 <br/>
-**Domain 2**: Large domain clustered by precipitation (Domain 1 with separated heavy, moderate, and light precipitation regions)
+**Domain 2 (D2)**: Large domain clustered by precipitation (Domain 1 with separated heavy, moderate, and light precipitation regions)
 <br/>
-**Domain 3**: Modified IPCC AR6 regions (Global domain partitioned into 62 regions, Ahn et al. 2023a)
+**Domain 3 (D3)**: Modified IPCC AR6 regions (Global domain partitioned into 62 regions, Ahn et al. 2023a)
 <br/>
 All plots below are **interactive portrait charts** for three tiers of domains unless otherwise stated.
 
-#### - Amount Peak : [CMIP6-amip][Bar_IFD-1-1] (Domain [1][Bar_IFD-1-1], [2][Bar_IFD-1-3], [3][Bar_IFD-1-5]) | [CMIP5-amip][Bar_IFD-1-2] (Domain [1][Bar_IFD-1-2], [2][Bar_IFD-1-4], [3][Bar_IFD-1-6])
-
-#### - Amount P10 : [CMIP6-amip][Bar_IFD-2-1] (Domain [1][Bar_IFD-2-1], [2][Bar_IFD-2-3], [3][Bar_IFD-2-5]) | [CMIP5-amip][Bar_IFD-2-2] (Domain [1][Bar_IFD-2-2], [2][Bar_IFD-2-4], [3][Bar_IFD-2-6])
-
-#### - Amount P90 : [CMIP6-amip][Bar_IFD-3-1] (Domain [1][Bar_IFD-3-1], [2][Bar_IFD-3-3], [3][Bar_IFD-3-5]) | [CMIP5-amip][Bar_IFD-3-2] (Domain [1][Bar_IFD-3-2], [2][Bar_IFD-3-4], [3][Bar_IFD-3-6])
-
-#### - Frequency Peak : [CMIP6-amip][Bar_IFD-4-1] (Domain [1][Bar_IFD-4-1], [2][Bar_IFD-4-3], [3][Bar_IFD-4-5]) | [CMIP5-amip][Bar_IFD-4-2] (Domain [1][Bar_IFD-4-2], [2][Bar_IFD-4-4], [3][Bar_IFD-4-6])
-
-#### - Frequency P10 : [CMIP6-amip][Bar_IFD-5-1] (Domain [1][Bar_IFD-5-1], [2][Bar_IFD-5-3], [3][Bar_IFD-5-5]) | [CMIP5-amip][Bar_IFD-5-2] (Domain [1][Bar_IFD-5-2], [2][Bar_IFD-5-4], [3][Bar_IFD-5-6])
-
-#### - Frequency P90 : [CMIP6-amip][Bar_IFD-6-1] (Domain [1][Bar_IFD-6-1], [2][Bar_IFD-6-3], [3][Bar_IFD-6-5]) | [CMIP5-amip][Bar_IFD-6-2] (Domain [1][Bar_IFD-6-2], [2][Bar_IFD-6-4], [3][Bar_IFD-6-6])
-
-#### - Unevenness : [CMIP6-amip][Bar_IFD-7-1] (Domain [1][Bar_IFD-7-1], [2][Bar_IFD-7-3], [3][Bar_IFD-7-5]) | [CMIP5-amip][Bar_IFD-7-2] (Domain [1][Bar_IFD-7-2], [2][Bar_IFD-7-4], [3][Bar_IFD-7-6])
-- [**Bar chart of large domain averaged Unevenness** (CMIP6-histotical)][Bar_IFD-7-7]
-
-#### - Fraction of Precipitating Days : [CMIP6-amip][Bar_IFD-8-1] (Domain [1][Bar_IFD-8-1], [2][Bar_IFD-8-3], [3][Bar_IFD-8-5]) | [CMIP5-amip][Bar_IFD-8-2] (Domain [1][Bar_IFD-8-2], [2][Bar_IFD-8-4], [3][Bar_IFD-8-6])
-
-#### - Simple Daily Intensity Index (SDII) : [CMIP6-amip][Bar_IFD-9-1] (Domain [1][Bar_IFD-9-1], [2][Bar_IFD-9-3], [3][Bar_IFD-9-5]) | [CMIP5-amip][Bar_IFD-9-2] (Domain [1][Bar_IFD-9-2], [2][Bar_IFD-9-4], [3][Bar_IFD-9-6])
-
-#### - Perkins Score : [CMIP6-amip][Bar_IFD-10-1] (Domain [1][Bar_IFD-10-1], [2][Bar_IFD-10-3], [3][Bar_IFD-10-5]) | [CMIP5-amip][Bar_IFD-10-2] (Domain [1][Bar_IFD-10-2], [2][Bar_IFD-10-4], [3][Bar_IFD-10-6])
-
-#### - Bimodality : [CMIP6-amip][Bar_IFD-11-1] (Domain [1][Bar_IFD-11-1], [2][Bar_IFD-11-3], [3][Bar_IFD-11-5]) | [CMIP5-amip][Bar_IFD-11-2] (Domain [1][Bar_IFD-11-2], [2][Bar_IFD-11-4], [3][Bar_IFD-11-6])
+| [Metric](precip_distribution_metric_table.pdf) | [CMIP6-AMIP][Bar_IFD-1-1] | [CMIP5-AMIP][Bar_IFD-1-2]
+| ---- | --- | --- |
+| Amount Peak | [D1][Bar_IFD-1-1], [D2][Bar_IFD-1-3], [D3][Bar_IFD-1-5] | [D1][Bar_IFD-1-2], [D2][Bar_IFD-1-4], [D3][Bar_IFD-1-6]
+| Amount P10 | [D1][Bar_IFD-2-1], [D2][Bar_IFD-2-3], [D3][Bar_IFD-2-5] | [D1][Bar_IFD-2-2], [D2][Bar_IFD-2-4], [D3][Bar_IFD-2-6]
+| Amount P90 | [D1][Bar_IFD-3-1], [D2][Bar_IFD-3-3], [D3][Bar_IFD-3-5] | [D1][Bar_IFD-3-2], [D2][Bar_IFD-3-4], [D3][Bar_IFD-3-6]
+| Frequency Peak | [D1][Bar_IFD-4-1], [D2][Bar_IFD-4-3], [D3][Bar_IFD-4-5] | [D1][Bar_IFD-4-2], [D2][Bar_IFD-4-4], [D3][Bar_IFD-4-6]
+| Frequency P10 | [D1][Bar_IFD-5-1], [D2][Bar_IFD-5-3], [D3][Bar_IFD-5-5] | [D1][Bar_IFD-5-2], [D2][Bar_IFD-5-4], [D3][Bar_IFD-5-6]
+| Frequency P90 | [D1][Bar_IFD-6-1], [D2][Bar_IFD-6-3], [D3][Bar_IFD-6-5] | [D1][Bar_IFD-6-2], [D2][Bar_IFD-6-4], [D3][Bar_IFD-6-6]
+| Unevenness | [D1][Bar_IFD-7-1], [D2][Bar_IFD-7-3], [D3][Bar_IFD-7-5] | [D1][Bar_IFD-7-2], [D2][Bar_IFD-7-4], [D3][Bar_IFD-7-6]
+| Fraction of Precipitating Days | [D1][Bar_IFD-8-1], [D2][Bar_IFD-8-3], [D3][Bar_IFD-8-5] | [D1][Bar_IFD-8-2], [D2][Bar_IFD-8-4], [D3][Bar_IFD-8-6]
+| Simple Daily Intensity Index (SDII) | [D1][Bar_IFD-9-1], [D2][Bar_IFD-9-3], [D3][Bar_IFD-9-5] | [D1][Bar_IFD-9-2], [D2][Bar_IFD-9-4], [D3][Bar_IFD-9-6]
+| Perkins Score | [D1][Bar_IFD-10-1], [D2][Bar_IFD-10-3], [D3][Bar_IFD-10-5] | [D1][Bar_IFD-10-2], [D2][Bar_IFD-10-4], [D3][Bar_IFD-10-6]
+| Bimodality | [D1][Bar_IFD-11-1], [D2][Bar_IFD-11-3], [D3][Bar_IFD-11-5] | [D1][Bar_IFD-11-2], [D2][Bar_IFD-11-4], [D3][Bar_IFD-11-6]
 <br/>
+
+- [**Bar chart of large domain averaged Unevenness** (CMIP6-histotical)][Bar_IFD-7-7]
 
 
 ## Extremes  
