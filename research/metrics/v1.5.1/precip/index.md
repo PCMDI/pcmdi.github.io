@@ -75,6 +75,10 @@ The precipitation distribution metrics are applied to three tiers of domains: i)
 Below plots are interacive portrait charts for three tiers of domains.
 
 ### - Amount Peak
+- Peak: CMIP6-amip (Domain 1, 2, 3) | CMIP5-amip (Domain 1, 2, 3)
+- Large domain ([CMIP6-amip][Bar_IFD-1-1], [CMIP5-amip][Bar_IFD-1-2])
+- Large domain clustered by precipitation (CMIP6-amip, CMIP5-amip)
+- Modified IPCC AR6 regions (CMIP6-amip, CMIP5-amip)
 - [**Portrait chart for large domain** (CMIP6-amip)][Bar_IFD-1-1]
 - [**Portrait chart for large domain** (CMIP5-amip)][Bar_IFD-1-2]
 - [**Portrait chart for large domain clustered by precipitation** (CMIP6-amip)][Bar_IFD-1-3]
