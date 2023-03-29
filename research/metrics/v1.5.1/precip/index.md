@@ -38,6 +38,7 @@ alt="PMP EOS article">
 
 
 ## Variability Across Timescales (from Sub-daily to Interannual) 
+The precipitation variability across timescales is measured by two independent methods: i) standard deviation at different timescales, ii) spectral power at different timescales.
 
 ### - Standard deviation at different timescales 
 
@@ -69,6 +70,9 @@ alt="PMP EOS article">
 
 
 ## Intensity/Frequency Distribution <a href="precip_distribution_metric_table.pdf" target="_new">[Metric description table]</a>
+The precipitation distribution metrics are applied to three tiers of domains: i) large domain (Tropics and Extratropics with separated land and ocean) commonly used in the PMP, ii) large domain clustered by precipitation (Tropics and Extratropics with separated land and ocean, and separated heavy, moderate, and light precipitation regions), and iii) modified IPCC AR6 regions.
+<br/>
+Below plots are interacive portrait charts for three tiers of domains.
 
 ### - Amount Peak
 - [**Portrait chart for large domain** (CMIP6-amip)][Bar_IFD-1-1]
