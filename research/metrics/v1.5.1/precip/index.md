@@ -59,7 +59,7 @@ The <a href="precip_distribution_metric_table.pdf" target="_new">precipitation d
 <br/>
 **Domain 3**: Modified IPCC AR6 regions (Global domain partitioned into 62 regions, Ahn et al. 2023a)
 <br/>
-All plots below are **interacive portrait charts** for three tiers of domains unless otherwise stated.
+All plots below are **interactive portrait charts** for three tiers of domains unless otherwise stated.
 
 #### - Amount Peak : [CMIP6-amip][Bar_IFD-1-1] (Domain [1][Bar_IFD-1-1], [2][Bar_IFD-1-3], [3][Bar_IFD-1-5]) | [CMIP5-amip][Bar_IFD-1-2] (Domain [1][Bar_IFD-1-2], [2][Bar_IFD-1-4], [3][Bar_IFD-1-6])
 
