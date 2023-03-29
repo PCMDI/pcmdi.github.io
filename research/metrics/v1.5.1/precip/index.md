@@ -62,7 +62,7 @@ The <a href="precip_distribution_metric_table.pdf" target="_new">precipitation d
 <br/>
 All plots below are **interactive portrait charts** for three tiers of domains unless otherwise stated.
 
-| [Metric](precip_distribution_metric_table.pdf) | [CMIP6-AMIP][Bar_IFD-1-1] | [CMIP5-AMIP][Bar_IFD-1-2]
+| [Metric](precip_distribution_metric_table.pdf) | CMIP6-AMIP | CMIP5-AMIP
 | ---- | --- | --- |
 | Amount Peak | [D1][Bar_IFD-1-1], [D2][Bar_IFD-1-3], [D3][Bar_IFD-1-5] | [D1][Bar_IFD-1-2], [D2][Bar_IFD-1-4], [D3][Bar_IFD-1-6]
 | Amount P10 | [D1][Bar_IFD-2-1], [D2][Bar_IFD-2-3], [D3][Bar_IFD-2-5] | [D1][Bar_IFD-2-2], [D2][Bar_IFD-2-4], [D3][Bar_IFD-2-6]
@@ -75,10 +75,10 @@ All plots below are **interactive portrait charts** for three tiers of domains u
 | Simple Daily Intensity Index (SDII) | [D1][Bar_IFD-9-1], [D2][Bar_IFD-9-3], [D3][Bar_IFD-9-5] | [D1][Bar_IFD-9-2], [D2][Bar_IFD-9-4], [D3][Bar_IFD-9-6]
 | Perkins Score | [D1][Bar_IFD-10-1], [D2][Bar_IFD-10-3], [D3][Bar_IFD-10-5] | [D1][Bar_IFD-10-2], [D2][Bar_IFD-10-4], [D3][Bar_IFD-10-6]
 | Bimodality | [D1][Bar_IFD-11-1], [D2][Bar_IFD-11-3], [D3][Bar_IFD-11-5] | [D1][Bar_IFD-11-2], [D2][Bar_IFD-11-4], [D3][Bar_IFD-11-6]
-<br/>
 
 - [**Bar chart of large domain averaged Unevenness** (CMIP6-histotical)][Bar_IFD-7-7]
-
+<br/>
+<br/>
 
 ## Extremes  
 - [**Precipitation extremes** (CMIP5&6-histotical)][extreme]
