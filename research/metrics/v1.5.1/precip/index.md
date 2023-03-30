@@ -75,6 +75,7 @@ All plots below are **interactive portrait charts** for three tiers of domains u
 | Simple Daily Intensity Index (SDII) | [D1][Bar_IFD-9-1], [D2][Bar_IFD-9-3], [D3][Bar_IFD-9-5] | [D1][Bar_IFD-9-2], [D2][Bar_IFD-9-4], [D3][Bar_IFD-9-6]
 | Perkins Score | [D1][Bar_IFD-10-1], [D2][Bar_IFD-10-3], [D3][Bar_IFD-10-5] | [D1][Bar_IFD-10-2], [D2][Bar_IFD-10-4], [D3][Bar_IFD-10-6]
 | Bimodality | [D1][Bar_IFD-11-1], [D2][Bar_IFD-11-3], [D3][Bar_IFD-11-5] | [D1][Bar_IFD-11-2], [D2][Bar_IFD-11-4], [D3][Bar_IFD-11-6]
+
 <br/>
 
 - [**Bar chart of large domain averaged Unevenness** (CMIP6-histotical)][Bar_IFD-7-7]
