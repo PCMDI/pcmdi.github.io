@@ -62,7 +62,7 @@ The <a href="precip_distribution_metric_table.pdf" target="_new">precipitation d
 <br/>
 All plots below are **interactive portrait charts** for three tiers of domains unless otherwise stated.
 
-| [Metric](precip_distribution_metric_table.pdf) | CMIP6-AMIP    | CMIP5-AMIP
+| [Metric](precip_distribution_metric_table.pdf) | CMIP6-AMIP | CMIP5-AMIP
 | ---- | --- | --- |
 | Amount Peak | [D1][Bar_IFD-1-1], [D2][Bar_IFD-1-3], [D3][Bar_IFD-1-5] | [D1][Bar_IFD-1-2], [D2][Bar_IFD-1-4], [D3][Bar_IFD-1-6]
 | Amount P10 | [D1][Bar_IFD-2-1], [D2][Bar_IFD-2-3], [D3][Bar_IFD-2-5] | [D1][Bar_IFD-2-2], [D2][Bar_IFD-2-4], [D3][Bar_IFD-2-6]
@@ -72,7 +72,7 @@ All plots below are **interactive portrait charts** for three tiers of domains u
 | Frequency P90 | [D1][Bar_IFD-6-1], [D2][Bar_IFD-6-3], [D3][Bar_IFD-6-5] | [D1][Bar_IFD-6-2], [D2][Bar_IFD-6-4], [D3][Bar_IFD-6-6]
 | Unevenness | [D1][Bar_IFD-7-1], [D2][Bar_IFD-7-3], [D3][Bar_IFD-7-5] | [D1][Bar_IFD-7-2], [D2][Bar_IFD-7-4], [D3][Bar_IFD-7-6]
 | Fraction of Precipitating Days | [D1][Bar_IFD-8-1], [D2][Bar_IFD-8-3], [D3][Bar_IFD-8-5] | [D1][Bar_IFD-8-2], [D2][Bar_IFD-8-4], [D3][Bar_IFD-8-6]
-| Simple Daily Intensity Index (SDII)    | [D1][Bar_IFD-9-1], [D2][Bar_IFD-9-3], [D3][Bar_IFD-9-5] | [D1][Bar_IFD-9-2], [D2][Bar_IFD-9-4], [D3][Bar_IFD-9-6]
+| Simple Daily Intensity Index (SDII) | [D1][Bar_IFD-9-1], [D2][Bar_IFD-9-3], [D3][Bar_IFD-9-5] | [D1][Bar_IFD-9-2], [D2][Bar_IFD-9-4], [D3][Bar_IFD-9-6]
 | Perkins Score | [D1][Bar_IFD-10-1], [D2][Bar_IFD-10-3], [D3][Bar_IFD-10-5] | [D1][Bar_IFD-10-2], [D2][Bar_IFD-10-4], [D3][Bar_IFD-10-6]
 | Bimodality | [D1][Bar_IFD-11-1], [D2][Bar_IFD-11-3], [D3][Bar_IFD-11-5] | [D1][Bar_IFD-11-2], [D2][Bar_IFD-11-4], [D3][Bar_IFD-11-6]
 <br/>
