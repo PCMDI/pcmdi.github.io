@@ -86,7 +86,7 @@ The efforts of the authors are supported by the [Regional and Global Climate Mod
 
 [latest]: {{site.baseurl}}/research/metrics/
 
-[v1.5.1]: {{site.baseurl}}/research/metrics/v1.5.0
+[v1.5.1]: {{site.baseurl}}/research/metrics/v1.5.1
 [v1.5.0]: {{site.baseurl}}/research/metrics/v1.5.0
 [v1.4.1]: {{site.baseurl}}/research/metrics/v1.4.1
 [v1.4.0]: {{site.baseurl}}/research/metrics/v1.4.0
