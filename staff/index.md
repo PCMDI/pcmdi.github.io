@@ -144,4 +144,4 @@ Pacific Northwest National Laboratory |  |  |
 [krasting]: https://www.gfdl.noaa.gov/john-krasting-homepage/
 
 [mapnnl]: https://www.pnnl.gov/science/staff/staff_info.asp?staff_num=7579
-[qin4]: https://people.llnl.gov/qin4
+[qin4]: https://www.pnnl.gov/science/staff/staff_info.asp?staff_num=11555
