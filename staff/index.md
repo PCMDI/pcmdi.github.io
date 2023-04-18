@@ -25,7 +25,6 @@ Name | Position | E-mail | Phone Number
 [Ordonez, Ana][ordonez] | Research Scientist | ordonez4@llnl.gov | 
 [Pallotta, Giuliana][pallotta] | Research Scientist | pallottagold1@llnl.gov | (925) 422-2778
 [Po-Chedley, Stephen][pochedley] | Research Scientist | pochedley1@llnl.gov | (925) 422-3421
-[Qin, Hongchen][qin5] | Post-Doctoral Research Scientist | qin5@llnl.gov | (925) 424-3922
 [Qin, Yi][qin4] | Post-Doctoral Research Scientist | qin4@llnl.gov | (925) 423-7007
 [Taylor, Karl][taylor] | Research Scientist | taylor13@llnl.gov | (925) 423-3623
 [Zelinka, Mark][zelinka] | Research Scientist | zelinka1@llnl.gov | (925) 423-5146
@@ -89,9 +88,10 @@ Pacific Northwest National Laboratory |  |  |
 [Sperber, Ken][sperber] | Research Scientist | |
 [Williams, Dean][williams] | Computer Scientist	 | |
 [Klein, Steve][klein] | Project Leader | |
+[Qin, Hongchen][qin5] | Post-Doctoral Research Scientist | |
 {: class="table table-striped"}
 
-###### Document version: 27 March 2023
+###### Document version: 17 April 2023
 
 [ahn]: https://people.llnl.gov/ahn6
 [ames]: {{site.baseurl}}/staff/ames
@@ -116,7 +116,7 @@ Pacific Northwest National Laboratory |  |  |
 [pallotta]: https://people.llnl.gov/pallottagold1
 [phillips]: {{site.baseurl}}/staff/phillips
 [pochedley]: https://people.llnl.gov/pochedley1
-[qin5]: https://people.llnl.gov/qin5
+[qin5]: {{site.baseurl}}/staff/#
 [qin4]: https://people.llnl.gov/qin4
 [santer]: {{site.baseurl}}/staff/santer
 [sperber]: {{site.baseurl}}/staff/sperber
