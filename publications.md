@@ -23,7 +23,7 @@ Publications 2003-2023
 *   **Tesdal, J.-E.**, **G. A. MacGilchrist**, R. L. Beadling, S. M. Griffies, J. P. Krasting and **P. J. Durack**, 2023: Revisiting interior water mass responses to surface forcing changes and the subsequent effects on overturning in the Southern Ocean. _J. Geophys. Res.: Oceans_, 128 (3), e2022JC019105, doi: [10.1029/2022JC019105](https://doi.org/10.1029/2022JC019105).
 *   Zhou, C., M. Wang, **M. D. Zelinka**, Y. Liu, Y. Dong, K. C. Armour, 2023: Explaining Forcing Efficacy with Pattern Effect and State Dependence, _Geophys. Res. Lett._, doi: [10.1029/2022GL101700](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2022GL101700).
 *   Beobide-Arsuaga, G., A. Düsterhus, W. A. Müller, **E. A. Barnes** and J. Baehr, 2023: Spring regional sea surface temperatures as a precursor of European summer heatwaves. _Geophys. Res. Lett._ 50 (2), doi: [10.1029/2022gl100727](https://dx.doi.org/10.1029/2022gl100727.).
-
+*   **Zelinka, M. D.**, I. Tan, L. Oreopoulos, G. Tselioudis, 2023: Detailing cloud property feedbacks with a regime-based decomposition, _Clim Dyn._, 60, 2983–3003, doi: [10.1007/s00382-022-06488-7](https://link.springer.com/article/10.1007/s00382-022-06488-7).
 * * *
 
 ### 2022
@@ -51,7 +51,6 @@ Publications 2003-2023
 *   Tao, C., S. Xie, S. Tang, **J. Lee**, **H.-Y. Ma**, C. Zhang, and W. Lin, 2022: Diurnal cycle of precipitation over global monsoon systems in CMIP6 simulations. _Clim. Dyn._, doi: [10.1007/s00382-022-06546-0](https://doi.org/10.1007/s00382-022-06546-0)
 *   **Thackeray, C.W., A. Hall, J. Norris**, and **D. Chen**, 2022: Constraining the increased frequency of global precipitation extremes under warming. _Nat. Clim. Change_, 12, 441--448, doi: [10.1038/s41558-022-01329-1](https://www.nature.com/articles/s41558-022-01329-1).
 *   Wang, Y., J. Mao J, F. Hoffman, **C. Bonfils**, H. Douville, M. Jin, P.E. Thornton, D. Ricciuto, X. Shi, H. Chen, S.D. Wullschleger, 2022, Quantification of human contribution to soil moisture-based terrestrial aridity, _Nat. Commun._, 13, 1-11, doi: [10.1038/s41467-022-34071-5](https://doi.org/10.1038/s41467-022-34071-5)**.**
-*   **Zelinka, M. D.**, I. Tan, L. Oreopoulos, G. Tselioudis, 2022: Detailing cloud property feedbacks with a regime-based decomposition, _Clim Dyn._, doi: [10.1007/s00382-022-06488-7](https://link.springer.com/article/10.1007/s00382-022-06488-7).
 *   **Zelinka, M. D., S. A. Klein, Y. Qin,** and **T. A. Myers**, 2022: Evaluating climate models' cloud feedbacks against expert judgment, _J. Geophys. Res._, 127, e2021JD035198, doi: [10.1029/2021JD035198](https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2021JD035198).
 
 * * *
