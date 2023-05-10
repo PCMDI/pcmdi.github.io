@@ -11,11 +11,11 @@ title: Cloud Feedbacks
 
 ### 2023
 
+* Zelinka, M. D., I. Tan, L. Oreopoulos, G. Tselioudis, 2023: Detailing Cloud Property Feedbacks with a Regime-Based Decomposition, <em>Clim Dyn.</em>, 60, 2983–3003, doi:[10.1007/s00382-022-06488-7](https://link.springer.com/article/10.1007/s00382-022-06488-7).
+ 
 * Zhou, C., M. Wang, M. D. Zelinka, Y. Liu, Y. Dong, K. C. Armour, 2023: Explaining Forcing Efficacy with Pattern Effect and State Dependence, <em>Geophys. Res. Lett.</em>, doi:[10.1029/2022GL101700](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2022GL101700).
 
 ### 2022
-
-* Zelinka, M. D., I. Tan, L. Oreopoulos, G. Tselioudis, 2022: Detailing Cloud Property Feedbacks with a Regime-Based Decomposition, <em>Clim Dyn.</em>, doi:[10.1007/s00382-022-06488-7](https://link.springer.com/article/10.1007/s00382-022-06488-7).
 
 * Hausfather, Z., K. Marvel, G. A. Schmidt, J. W. Nielsen-Gammon, and M. D. Zelinka, 2022: Climate simulations: recognize the ‘hot model’ problem, <em>Nature</em>, doi:[10.1038/d41586-022-01192-2](https://www.nature.com/articles/d41586-022-01192-2).
 
