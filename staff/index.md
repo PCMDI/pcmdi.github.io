@@ -14,7 +14,7 @@ Name | Position | E-mail | Phone Number
 [Ahn, Min-Seop][ahn] | Post-Doctoral Research Scientist | ahn6@llnl.gov | (925) 423-2121
 [Ames, Sasha][ames] | Computer Scientist | ames4@llnl.gov | (925) 424-4644
 [Bonfils, Celine][bonfils] | Research Scientist | bonfils2@llnl.gov | (925) 423-9923
-[Dong, Bo][dong] | Post-Doctoral Research Scientist | | 
+[Dong, Bo][dong] | Post-Doctoral Research Scientist | dong12@llnl.gov | 
 [Durack, Paul][durack] | Research Scientist | durack1@llnl.gov | (925) 422-5208
 [Gleckler, Peter][gleckler] | Research Scientist | gleckler1@llnl.gov | (925) 422-7631
 [Hoang, Anthony][hoang] | Systems Manager | hoang1@llnl.gov | (925) 423-6733
