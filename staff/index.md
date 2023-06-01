@@ -11,7 +11,6 @@ group: "navigation"
 Name | Position | E-mail | Phone Number
 --- | --- | --- | --- | ---
 [Ullrich, Paul][ullrich] | Project Leader | ullrich4@llnl.gov |
-[Ahn, Min-Seop][ahn] | Post-Doctoral Research Scientist | ahn6@llnl.gov | (925) 423-2121
 [Ames, Sasha][ames] | Computer Scientist | ames4@llnl.gov | (925) 424-4644
 [Bonfils, Celine][bonfils] | Research Scientist | bonfils2@llnl.gov | (925) 423-9923
 [Dong, Bo][dong] | Post-Doctoral Research Scientist | dong12@llnl.gov |
@@ -90,6 +89,7 @@ Pacific Northwest National Laboratory |  |  |
 [Williams, Dean][williams] | Computer Scientist	 | |
 [Klein, Steve][klein] | Project Leader | |
 [Qin, Hongchen][qin5] | Post-Doctoral Research Scientist | |
+[Ahn, Min-Seop][ahn] | Post-Doctoral Research Scientist |  | 
 {: class="table table-striped"}
 
 ###### Document version: 1 June 2023
