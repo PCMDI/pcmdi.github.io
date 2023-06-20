@@ -10,6 +10,7 @@ title: Cloud Feedbacks
 ## Publications
 
 ### 2023
+* Myers, T. A., M. D. Zelinka, and S. A. Klein, 2023: Observational Constraints on the Cloud Feedback Pattern Effect, <em>J. Climate</em>, doi:[10.1175/JCLI-D-22-0862.1](https://journals.ametsoc.org/view/journals/clim/aop/JCLI-D-22-0862.1/JCLI-D-22-0862.1.xml), in press.
 
 * Zelinka, M. D., I. Tan, L. Oreopoulos, G. Tselioudis, 2023: Detailing Cloud Property Feedbacks with a Regime-Based Decomposition, <em>Clim Dyn.</em>, 60, 2983–3003, doi:[10.1007/s00382-022-06488-7](https://link.springer.com/article/10.1007/s00382-022-06488-7).
  
