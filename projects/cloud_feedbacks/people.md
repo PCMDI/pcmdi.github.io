@@ -9,8 +9,9 @@ title: Cloud Feedbacks
 ---
 ## Project Participants
 
-* [Stephen A. Klein](https://people.llnl.gov/klein21) (LLNL) 
+* [Li-Wei Chao](https://www.linkedin.com/in/li-wei-chao-vivian) (LLNL) 
 * [Alex Hall](https://dept.atmos.ucla.edu/alexhall) (UCLA)
+* [Stephen A. Klein](#) (LLNL)
 * [Po-Lun Ma](https://www.pnnl.gov/science/staff/staff_info.asp?staff_num=7579) (PNNL) 
 * [Jesse Norris](https://dept.atmos.ucla.edu/alexhall/people/jesse-norris) (UCLA) 
 * [Yi Qin](https://www.pnnl.gov/science/staff/staff_info.asp?staff_num=11555) (PNNL) 
@@ -24,7 +25,7 @@ title: Cloud Feedbacks
 * [Peter Caldwell](https://pcmdi.llnl.gov/staff/caldwell/index.html) (LLNL)
 * [Di Chen](https://scholar.google.com/citations?hl=en&user=s9OnuRMAAAAJ) 
 * [Anthony DeAngelis](https://scholar.google.com/citations?user=pzDevCsAAAAJ&hl=en) (NASA Goddard, GMAO) 
-* Neil Gordon (Space and Naval Warfare Systems Command) 
+* [Neil Gordon](https://www.linkedin.com/in/neildgordon/) (Space and Naval Warfare Systems Command) 
 * [Timothy Myers](https://sites.google.com/site/myerstimothy/) (NOAA Cooperative Institute for Research in Environmental Sciences / CU Boulder) 
 * [Xin Qu](https://scholar.google.com/citations?user=48Cp-LoAAAAJ&hl=en)
 * [Christopher Terai](https://scholar.google.com/citations?user=jHE9srIAAAAJ&hl=en) (LLNL) 

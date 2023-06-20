@@ -10,16 +10,26 @@ title: Cloud Feedbacks
 ## Publications
 
 ### 2023
+* Myers, T. A., M. D. Zelinka, and S. A. Klein, 2023: Observational Constraints on the Cloud Feedback Pattern Effect, <em>J. Climate</em>, doi:[10.1175/JCLI-D-22-0862.1](https://journals.ametsoc.org/view/journals/clim/aop/JCLI-D-22-0862.1/JCLI-D-22-0862.1.xml), in press.
+
+* Tang, Q., et al. including Y. Qin, 2023: The Fully Coupled Regionally Refined Model of E3SM Version 2: Overview of the Atmosphere, Land, and River, <em>Geosci. Model Dev.</em>, doi:[10.5194/gmd-2022-262](https://gmd.copernicus.org/preprints/gmd-2022-262/).
 
 * Zelinka, M. D., I. Tan, L. Oreopoulos, G. Tselioudis, 2023: Detailing Cloud Property Feedbacks with a Regime-Based Decomposition, <em>Clim Dyn.</em>, 60, 2983–3003, doi:[10.1007/s00382-022-06488-7](https://link.springer.com/article/10.1007/s00382-022-06488-7).
  
 * Zhou, C., M. Wang, M. D. Zelinka, Y. Liu, Y. Dong, K. C. Armour, 2023: Explaining Forcing Efficacy with Pattern Effect and State Dependence, <em>Geophys. Res. Lett.</em>, doi:[10.1029/2022GL101700](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2022GL101700).
 
 ### 2022
+* Chen, D., J. Norris, C. W. Thackeray, and A. Hall, 2022: Increasing precipitation whiplash in climate change hotspots, <em>Environ. Res. Lett.</em>, 17, 124011, doi:[10.1088/1748-9326/aca3b9](https://iopscience.iop.org/article/10.1088/1748-9326/aca3b9).
+
+* Golaz, J.-C., et al. including Y. Qin and P.-L. Ma, 2022: The DOE E3SM Model version 2: Overview of the physical model and initial model evaluation, <em>J. Adv. Model. Earth Syst.</em>, 14, doi:[10.1029/2022MS003156](https://doi.org/10.1029/2022MS003156).
 
 * Hausfather, Z., K. Marvel, G. A. Schmidt, J. W. Nielsen-Gammon, and M. D. Zelinka, 2022: Climate simulations: recognize the ‘hot model’ problem, <em>Nature</em>, doi:[10.1038/d41586-022-01192-2](https://www.nature.com/articles/d41586-022-01192-2).
 
 * Ma, P.-L., et al. including S. A. Klein and M. D. Zelinka, 2022: Better calibration of cloud parameterizations and subgrid effects increases the fidelity of E3SM Atmosphere Model version 1, <em>Geosci. Model Dev.</em>, doi:[10.5194/gmd-2021-298](https://gmd.copernicus.org/preprints/gmd-2021-298/).
+
+* Norris, J., A. Hall, C. W. Thackeray, D. Chen, and G. Madakumbura, 2022, 	Evaluating hydrologic sensitivity in CMIP6 models: anthropogenic forcing versus ENSO, <em>J. Climate, 35</em>, 6955–6968, doi:[10.1175/JCLI-D-21-0842.1](https://journals.ametsoc.org/view/journals/clim/35/21/JCLI-D-21-0842.1.xml).
+
+* Norris, J., D. Chen, A. Hall, and C. W. Thackeray, 2022: Moisture-Budget Drivers of Global Projections of Meteorological Drought From Multiple GCM Large Ensembles, <em>J. Geophys. Res.</em>, 127, e2022JD037745, doi: [10.1029/2022JD037745](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2022JD037745?af=R).
 
 * Qin, Y., M. D. Zelinka, and S. A. Klein, 2022: On the Correspondence between Atmosphere-Only and Coupled Simulations for Radiative Feedbacks and Forcing from CO2, <em>J. Geophys. Res.</em>, 127, e2021JD035460. doi:[10.1029/2021JD035460](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2021JD035460).
 
