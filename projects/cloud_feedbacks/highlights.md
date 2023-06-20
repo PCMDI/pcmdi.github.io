@@ -10,9 +10,19 @@ title: Cloud Feedbacks
 ## Research Highlights
 
 ### 2023
-* Zhou, C., M. Wang, M. D. Zelinka, Y. Liu, Y. Dong, and K. C. Armour. 2023: [Explaining Forcing Efficacy With Pattern Effect And State Dependence](https://climatemodeling.science.energy.gov/research-highlights/explaining-forcing-efficacy-pattern-effect-and-state-dependence)
+* Myers, T. A., M. D. Zelinka, and S. A. Klein, 2023: [Observational Constraints on the Cloud Feedback Pattern Effect](https://climatemodeling.science.energy.gov/research-highlights/observational-constraints-cloud-feedback-pattern-effect)
+
+* Zhou, C., M. Wang, M. D. Zelinka, Y. Liu, Y. Dong, and K. C. Armour, 2023: [Explaining Forcing Efficacy With Pattern Effect And State Dependence](https://climatemodeling.science.energy.gov/research-highlights/explaining-forcing-efficacy-pattern-effect-and-state-dependence)
 
 ### 2022
+* Chen, D., J. Norris, C. W. Thackeray, and A. Hall, 2022: [Increasing Volatility of Precipitation Around the Globe](https://climatemodeling.science.energy.gov/research-highlights/increasing-volatility-precipitation-around-globe)
+  
+* Golaz, J.‐C., et al. including Y. Qin and P.-L. Ma, 2022: [DOE Energy Exascale Earth System Model (E3SM) Version 2](https://climatemodeling.science.energy.gov/research-highlights/doe-energy-exascale-earth-system-model-e3sm-version-2-0)
+
+* Norris, J., D. Chen, A. Hall, and C. W. Thackeray, 2022: [Mechanisms of Global Drought Intensification in the 21st Century](https://climatemodeling.science.energy.gov/research-highlights/mechanisms-global-drought-intensification-21st-century)
+  
+* Norris, J., A. Hall, C. W. Thackeray, D. Chen, and G. D. Madakumbura, 2022: [El Niño and La Niña Events in Central Pacific are a Good Proxy for Future Global Precipitation Increase](https://climatemodeling.science.energy.gov/research-highlights/el-nino-and-la-nina-events-central-pacific-are-good-proxy-future-global)
+  
 * Qin, Y., M. D. Zelinka, and S. A. Klein, 2022: [Estimate Coupled Cloud Feedbacks from Inexpensive Short-Term Atmosphere-Only Simulations](https://climatemodeling.science.energy.gov/research-highlights/estimate-coupled-cloud-feedbacks-inexpensive-short-term-atmosphere-only)
 
 * Samset, B. H., C. Zhou, J. S. Fuglestvedt, M. T. Lund, J. Marotzke, and M. D. Zelinka, 2022: [Speeding up Detection of Climate Response to Emission Reductions](https://climatemodeling.science.energy.gov/research-highlights/speeding-detection-climate-response-emission-reductions)
