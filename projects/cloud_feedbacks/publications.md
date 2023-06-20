@@ -29,7 +29,7 @@ title: Cloud Feedbacks
 
 * Norris, J., A. Hall, C. W. Thackeray, D. Chen, and G. Madakumbura, 2022, 	Evaluating hydrologic sensitivity in CMIP6 models: anthropogenic forcing versus ENSO, <em>J. Climate, 35</em>, 6955–6968, doi:[10.1175/JCLI-D-21-0842.1](https://journals.ametsoc.org/view/journals/clim/35/21/JCLI-D-21-0842.1.xml).
 
-* Norris, J., D. Chen, A. Hall, and C. W. Thackeray, 2022: Moisture-budget drivers of global drought projections from multiple GCM large ensembles, <em>J. Geophys. Res.</em>, 127, e2022JD037745, doi: [10.1029/2022JD037745](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2022JD037745?af=R).
+* Norris, J., D. Chen, A. Hall, and C. W. Thackeray, 2022: Moisture-Budget Drivers of Global Projections of Meteorological Drought From Multiple GCM Large Ensembles, <em>J. Geophys. Res.</em>, 127, e2022JD037745, doi: [10.1029/2022JD037745](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2022JD037745?af=R).
 
 * Qin, Y., M. D. Zelinka, and S. A. Klein, 2022: On the Correspondence between Atmosphere-Only and Coupled Simulations for Radiative Feedbacks and Forcing from CO2, <em>J. Geophys. Res.</em>, 127, e2021JD035460. doi:[10.1029/2021JD035460](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2021JD035460).
 
