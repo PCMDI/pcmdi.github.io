@@ -10,12 +10,16 @@ title: Cloud Feedbacks
 ## Publications
 
 ### 2023
-* Myers, T. A., M. D. Zelinka, and S. A. Klein, 2023: Observational Constraints on the Cloud Feedback Pattern Effect, <em>J. Climate</em>, doi:[10.1175/JCLI-D-22-0862.1](https://journals.ametsoc.org/view/journals/clim/aop/JCLI-D-22-0862.1/JCLI-D-22-0862.1.xml), in press.
+* Bonan, D. B., N. Feldl, M. D. Zelinka, and L. C. Hahn, 2023: Contributions to regional precipitation change and its polar-amplified pattern under warming, <em>Environ. Res.: Climate</em>, 2, 035010, doi:[10.1088/2752-5295/ace27a](https://iopscience.iop.org/article/10.1088/2752-5295/ace27a).
+
+* Myers, T. A., M. D. Zelinka, and S. A. Klein, 2023: Observational Constraints on the Cloud Feedback Pattern Effect, <em>J. Climate</em>, 36, 6533–6545, doi:[10.1175/JCLI-D-22-0862.1](https://journals.ametsoc.org/view/journals/clim/36/18/JCLI-D-22-0862.1.xml).
 
 * Tang, Q., et al. including Y. Qin, 2023: The Fully Coupled Regionally Refined Model of E3SM Version 2: Overview of the Atmosphere, Land, and River, <em>Geosci. Model Dev.</em>, doi:[10.5194/gmd-2022-262](https://gmd.copernicus.org/preprints/gmd-2022-262/).
 
 * Zelinka, M. D., I. Tan, L. Oreopoulos, G. Tselioudis, 2023: Detailing Cloud Property Feedbacks with a Regime-Based Decomposition, <em>Clim Dyn.</em>, 60, 2983–3003, doi:[10.1007/s00382-022-06488-7](https://link.springer.com/article/10.1007/s00382-022-06488-7).
- 
+
+* Zelinka, M. D., C. J. Smith, Y. Qin, and K. E. Taylor, 2023: Comparison of methods to estimate aerosol effective radiative forcings in climate models, <em>Atmos. Chem. Phys.</em>, 23, 8879–8898, doi:[10.5194/acp-23-8879-2023](https://acp.copernicus.org/articles/23/8879/2023/acp-23-8879-2023.html).
+  
 * Zhou, C., M. Wang, M. D. Zelinka, Y. Liu, Y. Dong, K. C. Armour, 2023: Explaining Forcing Efficacy with Pattern Effect and State Dependence, <em>Geophys. Res. Lett.</em>, doi:[10.1029/2022GL101700](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2022GL101700).
 
 ### 2022
