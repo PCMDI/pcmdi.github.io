@@ -1,0 +1,30 @@
+# Turn on mod_rewrite
+RewriteEngine On
+
+# Block undesirable requests in general
+RewriteCond %{THE_REQUEST} ^GET\ http [NC,OR]
+
+# Block undesirable requests specifically
+RewriteCond %{REQUEST_URI} cs\.txt?$ [OR]
+
+# Block undesirables by referrer
+#RewriteCond %{HTTP_REFERER} ^http://www\.ultraorganizer\.com [OR]
+
+# Block undesirables by IP address
+RewriteCond %{REMOTE_ADDR} ^194\.153\.113\.23 [OR]
+
+# Block undesirables by user-agent
+RewriteCond %{HTTP_USER_AGENT} ^bot [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} grub [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} holmes [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} naver [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} Nutch [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} Pete-Spider [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} SBIder [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} Seekbot [NC,OR]
+
+# The last item in the list must not have an OR
+RewriteCond %{HTTP_USER_AGENT} wget [NC]
+
+# Feed them all a 403 Forbidden
+RewriteRule .* - [F]

@@ -1,0 +1,109 @@
+/************************************************************************
+	Site: CSIRO Ocean Change Portal
+	==============
+	1 - Universal Styles
+	2 - Structure & Layout
+	3 - Main Navigation
+	4 - Page Elements
+	5 - Forms
+************************************************************************/
+
+.lineargradient {background: -moz-linear-gradient(top, #CE1B5C, #9B104F);background: -webkit-gradient(linear, 0 0, 0 100%, from(#CE1B5C), to(#9B104F));}
+
+/***********************************************************************
+	1 - UNIVERSAL STYLES
+************************************************************************/
+
+html, body, form, fieldset {margin:0;padding:0;}
+html {font-size:100.01%;}
+body {font: 0.9em/1.4em 'Helvetica Neue', Helvetica, Arial, sans-serif;color:#333;background:#2B3856;} /* Background colour */
+h1, h2, h3, h4, h5, h6 {font-family:Helvetica, Arial, sans-serif;letter-spacing:-0.03em}
+h1, .tag, .sidebartext {font:1.75em/1.2em Helvetica, Arial, sans-serif;margin:0 0 20px -1px;letter-spacing:-0.03em;}
+.tag {font-size:1.4em;}
+.sidebartext {font-size:0.8em;font-weight:bold;text-align:right;letter-spacing:+0.01em;}
+h2 {font-size:1.4em;font-weight:normal;margin:1.5em 0 .6em -1px;}
+h2 a {text-decoration:none;color:#000;}
+h3 {font-size:1.2em;margin-top:1.5em;}
+h3 span {font-size:0.8em;color:#999;}
+img {border:0;}
+img, div {behavior: url(iepngfix.htc) }
+ul {margin:0 0 1em 1em;}
+li {margin:0 0 .5em;}
+p {margin:0 0 1em;}
+acronym {border-bottom:1px dashed black;cursor:help;}
+abbr {border-bottom:1px dashed black;cursor:help;}
+blockquote {line-height:140%;margin:1.5em 0 0.7em;margin-left:20px;padding-left:20px;border-left:12px solid #EEE;}
+cite {text-align:right;display:block;margin-bottom:2.5em;}
+cite span {font-weight:bold;}
+dfn {border-bottom:1px dashed #999;cursor:help;/*use for pop-up definitions???*/}
+a {text-decoration:none;}
+a:link {color:#059AE5;}
+a:hover {text-decoration:none;color:#FF9900;}
+a:visited {}
+
+/***********************************************************************
+	2 - STRUCTURE AND LAYOUT
+************************************************************************/
+
+#wrapper {width:960px;margin:0 auto;}
+#main {float:left;width:900px;padding:0 20px;background:#FFF;} /* Internal block */
+#header {padding:0;margin:0 0 40px;}
+#logo {display:block;width:80px;height:71px;padding-top:30px;}
+#nav {float:left;width:300px;margin:0;}
+#content {float:left;width:900px;padding:0;margin:0;}
+#sidebar {float:right;width:300px;padding:0;margin-right:-15px;}
+#footer {width:900px;float:left;clear:both; margin:30px 0 0;padding-top:0px;border-top:1px solid #CCC;text-align:center;font-size:0.8em;color:#FFF;}
+#footer p {color:#666;margin:10px 0 15px;padding-top:10px;} /* Footer margin/padding properties */
+
+/***********************************************************************
+	3 - MAIN NAVIGATION
+************************************************************************/
+
+.nav {padding:0;float:right;}
+.nav li {float:left;list-style-type:none;}
+.nav li a {color:#666;text-decoration:none;display:block;height:20px;padding:3px 7px 4px;margin-left:5px;-moz-border-radius-bottomleft:4px;-moz-border-radius-bottomright:4px;-webkit-border-bottom-left-radius:4px;-webkit-border-bottom-right-radius:4px;}
+.nav li a:link {}
+.nav li a:hover {background:#333;color:#FFF;}
+.nav li a:visited {}
+.nav .current {background:#E7BBBB;color:#333;font-weight:bold;} /* Current tab colour - http://www.computerhope.com/tips/tip143.htm */
+.nav .noncurrent {background:#DEE0E2;color:#333;} /* noncurrent tab http://www.w3schools.com/css/ - font properties */
+
+/***********************************************************************
+	4 - PAGE ELEMENTS
+************************************************************************/
+
+p span {padding:4px 5px 3px;background:#ffff33;font-weight:bold;}
+span.style1 {color:#FFF;}
+/*.matchmaker {padding-left:200px;margin-bottom:70px;background:url('images/demo.gif') no-repeat 0 0;} */
+/*.placeholder {background-image:url('images/demo.jpg')} */
+div.bodyclass h2 {margin-top:1.1em;}
+/*.resources ul {margin:0;padding:0;list-style-type:none;} */
+/*.resources li {margin-bottom:1.5em;} */
+/* .blogs li {margin-bottom:0.5em;} */
+
+/***********************************************************************
+	5 - FORMS
+************************************************************************/
+
+.contactform {padding:20px 20px 94px;margin:0;width:300px;background:#DEE0E2;-moz-border-radius:6px;-webkit-border-radius:6px;}
+.contactform h2 {margin:0 0 12px;}
+.contactform img {float:left;}
+fieldset {border:none;}
+legend {font-size:1.5em;margin:10px 0;}
+input, textarea {border:none;display:block;font: 0.9em/1.4em 'Helvetica Neue', Helvetica, Arial, sans-serif;color:#333;background:#FFF;border:2px solid transparent;margin-bottom:8px;padding:4px 5px;-moz-border-radius:3px;-webkit-border-radius:3px;}
+input {}
+textarea {width:286px;height:120px;}
+input:focus, textarea:focus {border:2px solid #FF0000;}
+label span {display:none;}
+#submit {display:inline-block;cursor:pointer;float:left;clear:both;border:none;background:#FE4973;background: -moz-linear-gradient(top, #FE4973, #CE1B5C);background: -webkit-gradient(linear, 0 0, 0 100%, from(#FE4973), to(#CE1B5C)); -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);text-shadow: 0 -1px 1px rgba(0,0,0,0.25);color:#FFF;padding:4px 7px;margin:6px 0 0;font-size:15px;-moz-border-radius:4px;-webkit-border-radius:4px;}
+#submit:hover {background:#FE4973;background: -moz-linear-gradient(top, #CE1B5C, #9B104F);background: -webkit-gradient(linear, 0 0, 0 100%, from(#CE1B5C), to(#9B104F));}
+#name, #email, #organization {width:180px;}
+#deadline {width:100px;}
+#organization_description {width:286px;}
+#seccode {width:100px;float:left;margin-right:5px;padding:6px 5px;}
+.enquiry, .response {margin:0;padding-left:100px;}
+.response {margin-bottom:40px;}
+.enquiry h3, .response h3 {margin:1.2em 0 -1.2em -100px}
+.enquiry span, .response span {display:block;padding:1px 6px 3px;font-weight:bold;background:#333;color:#FFF;-moz-border-radius:3px;-webkit-border-radius:3px;margin:0 0 8px -100px;}
+.enquiry 
+.viewall {background:#DEE0E2;}

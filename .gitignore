@@ -5,3 +5,4 @@ _site/
 .jekyll-cache/
 .bundle/
 vendor/bundle
+_obsolete
