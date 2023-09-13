@@ -10,8 +10,12 @@ title: Cloud Feedbacks
 ## Research Highlights
 
 ### 2023
+* Bonan, D., N. Feldl, M. Zelinka, and L. Hahn, 2023: [Contributions to Regional Precipitation Change and its Polar-Amplified Pattern Under Warming](https://climatemodeling.science.energy.gov/research-highlights/contributions-regional-precipitation-change-and-its-polar-amplified-pattern)
+
 * Myers, T. A., M. D. Zelinka, and S. A. Klein, 2023: [Observational Constraints on the Cloud Feedback Pattern Effect](https://climatemodeling.science.energy.gov/research-highlights/observational-constraints-cloud-feedback-pattern-effect)
 
+* Zelinka, M., C. J. Smith, Y. Qin, and K. Taylor, 2023: [Comparison of Methods to Estimate Aerosol Effective Radiative Forcings in Climate Models](https://climatemodeling.science.energy.gov/research-highlights/comparison-methods-estimate-aerosol-effective-radiative-forcings-climate-models)
+  
 * Zhou, C., M. Wang, M. D. Zelinka, Y. Liu, Y. Dong, and K. C. Armour, 2023: [Explaining Forcing Efficacy With Pattern Effect And State Dependence](https://climatemodeling.science.energy.gov/research-highlights/explaining-forcing-efficacy-pattern-effect-and-state-dependence)
 
 ### 2022
