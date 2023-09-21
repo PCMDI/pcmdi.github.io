@@ -20,9 +20,9 @@ Note that earlier versions (prior to 2007) of the observational dataset on which
 <center>
 <p>Please <a href="mailto:PCMDI-AMIPBCS-request@listserv.llnl.gov">subscribe to the pcmdi-amipbcs mailing list</a> so that we can contact you with information concerning these data sets.</p>
 <p><a href="{{site.baseurl}}/mips/amip/AMIP2EXPDSN/BCS/amipbc_dwnld_files/360x180/v1.0.0/nc/readme_nc">README</a></p>
-<p><b>Current version: PCMDI-AMIP-1.1.7 (1 February 2022; Data coverage 1870-1-1 to 2021-06-30)</b></p>
-<p>Please see the input4MIPs website at <a href="https://esgf-node.llnl.gov/search/input4mips/?institution_id=PCMDI&source_version=1.1.7" target="_blank">http://esgf-node.llnl.gov/search/input4mips/</a></p>
+<p><b>Current version: PCMDI-AMIP-1.1.9 (12 May 2023; Data coverage 1870-1-1 to 2022-12-31)</b></p>
+<p>Please see the input4MIPs website at <a href="https://esgf-node.llnl.gov/search/input4mips/?institution_id=PCMDI&source_version=1.1.9" target="_blank">http://esgf-node.llnl.gov/search/input4mips/</a></p>
 </center>
 
 
-###### Document version: 2 February 2022
+###### Document version: 21 September 2023
