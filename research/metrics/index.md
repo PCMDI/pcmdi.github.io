@@ -61,6 +61,7 @@ Results are also accessible from the [Coordinated Model Evaluation Capabilities 
 
 ---
 ## <a name="updates"></a>Update History
+- [**v1.6.1**][v1.6.1] (2023-10-09): MJO interactive bar chart updated.
 - [**v1.6.0**][v1.6.0] (2023-05-19): Precipitation distribution metrics newly added and modes of variability updated.
 - [**v1.5.1**][v1.5.1] (2022-11-04): Mean climate interactive portrait plot updated and precipitation variability across timescale portrait plot newly added.
 - [**v1.5.0**][v1.5.0] (2020-10-08): Precipitation benchmarking newly added and Mean climate parallel coordinate and portrait plots updated.
@@ -87,6 +88,7 @@ The efforts of the authors are supported by the [Regional and Global Climate Mod
 
 [latest]: {{site.baseurl}}/research/metrics/
 
+[v1.6.1]: {{site.baseurl}}/research/metrics/v1.6.1
 [v1.6.0]: {{site.baseurl}}/research/metrics/v1.6.0
 [v1.5.1]: {{site.baseurl}}/research/metrics/v1.5.1
 [v1.5.0]: {{site.baseurl}}/research/metrics/v1.5.0
