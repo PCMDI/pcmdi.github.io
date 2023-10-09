@@ -6,7 +6,7 @@ title: PCMDI - Metrics
 ###### [Research][research] > [Metrics][metrics]
 ---
 
-# PCMDI Simulation Summaries: CMIP mean state and variability (v1.5.1)<a name="top"></a>
+# PCMDI Simulation Summaries: CMIP mean state and variability (v1.6.1)<a name="top"></a>
 
 <br/>
 The PCMDI Metrics Package ([PMP][pmp]) is a capability that is used to produce a diverse suite of "quick-look" objective summaries of Earth System Model (ESM) agreement with observations. The [PMP][pmp] is routinely applied to multiple generations of CMIP, including the most recent results from CMIP6 as they become available. These results are regularly updated as additional simulations become available, new analysis are included, and as presentation improvements and corrections are made. 
@@ -43,7 +43,7 @@ Results are also accessible from the [Coordinated Model Evaluation Capabilities 
 
 ---
 ## <a name="variability_modes"></a>Extratropical Modes of Variability ([results][description_variability])
-- Based on the work of [Lee et al. (2019)][lee2019], we present skill metrics for the _Northern Annular Model (NAM), the North Atlantic Oscillation (NAO), the Southern Annular Mode (SAM), the Pacific North American pattern (PNA), the North Pacific Oscillation (NPO), the Pacific Decadal Oscillation (PDO), and the North Pacific Gyre Oscillation (NPGO)_. For NAM, NAO, SAM, PNA, and NPO the results are based on sea-level pressure, while the results for PDO and NPGO are based on sea surface temperature. Our approach distinguishes itself from other studies that analyze modes of variability in that we use the Common Basis Function approach (CBF), in which model anomalies are projected onto the observed modes of variability. Using the Historical simulations, the skill of the spatial patterns is given by the Root-Mean-Squared-Error (RMSE), and the Amplitude gives the standard deviation of the Principal Component time series. The skill metrics are calculated with respect to a primary and secondary sets of observations denoted by the triangles in each cell of the Portrait Plots.
+- Based on the work of Lee et al. ([2019][lee2019], [2021][lee2021]), we present skill metrics for the _Northern Annular Model (NAM), the North Atlantic Oscillation (NAO), the Southern Annular Mode (SAM), the Pacific North American pattern (PNA), the North Pacific Oscillation (NPO), the Pacific Decadal Oscillation (PDO), and the North Pacific Gyre Oscillation (NPGO)_. For NAM, NAO, SAM, PNA, and NPO the results are based on sea-level pressure, while the results for PDO and NPGO are based on sea surface temperature. Our approach distinguishes itself from other studies that analyze modes of variability in that we use the Common Basis Function approach (CBF), in which model anomalies are projected onto the observed modes of variability. Using the Historical simulations, the skill of the spatial patterns is given by the Root-Mean-Squared-Error (RMSE), and the Amplitude gives the standard deviation of the Principal Component time series. The skill metrics are calculated with respect to a primary and secondary sets of observations denoted by the triangles in each cell of the Portrait Plots.
 
 <p align="right"><a href="#top">Back to List</a></p>
 
@@ -61,6 +61,8 @@ Results are also accessible from the [Coordinated Model Evaluation Capabilities 
 
 ---
 ## <a name="updates"></a>Update History
+- [**v1.6.1**][v1.6.1] (2023-10-09): MJO interactive bar chart updated.
+- [**v1.6.0**][v1.6.0] (2023-05-19): Precipitation distribution metrics newly added and modes of variability updated.
 - [**v1.5.1**][v1.5.1] (2022-11-04): Mean climate interactive portrait plot updated and precipitation variability across timescale portrait plot newly added.
 - [**v1.5.0**][v1.5.0] (2020-10-08): Precipitation benchmarking newly added and Mean climate parallel coordinate and portrait plots updated.
 - [**v1.4.1**][v1.4.1] (2020-07-20): MJO metrics with recent CMIP6 results
@@ -86,7 +88,9 @@ The efforts of the authors are supported by the [Regional and Global Climate Mod
 
 [latest]: {{site.baseurl}}/research/metrics/
 
-[v1.5.1]: {{site.baseurl}}/research/metrics/v1.5.0
+[v1.6.1]: {{site.baseurl}}/research/metrics/v1.6.1
+[v1.6.0]: {{site.baseurl}}/research/metrics/v1.6.0
+[v1.5.1]: {{site.baseurl}}/research/metrics/v1.5.1
 [v1.5.0]: {{site.baseurl}}/research/metrics/v1.5.0
 [v1.4.1]: {{site.baseurl}}/research/metrics/v1.4.1
 [v1.4.0]: {{site.baseurl}}/research/metrics/v1.4.0
@@ -107,6 +111,7 @@ The efforts of the authors are supported by the [Regional and Global Climate Mod
 [description_precip]: precip
 
 [lee2019]: https://link.springer.com/article/10.1007/s00382-018-4355-4
+[lee2021]: https://journals.ametsoc.org/view/journals/clim/34/17/JCLI-D-20-0832.1.xml
 [sperber2004]: https://doi.org/10.1007/s00382-014-2099-3
 [ahn2017]: https://doi.org/10.1007/s00382-017-3558-4
 [Bellenger2014]: https://doi.org/10.1007/s00382-013-1783-z
