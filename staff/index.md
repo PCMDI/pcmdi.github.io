@@ -98,7 +98,7 @@ Pacific Northwest National Laboratory |  |  |
 [ames]: {{site.baseurl}}/staff/ames
 [bader]: https://people.llnl.gov/bader2
 [bonfils]: {{site.baseurl}}/staff/bonfils
-[caldwell]: {{site.baseurl}}/staff/caldwell
+[caldwell]: https://people.llnl.gov/caldwell19
 [covey]: {{site.baseurl}}/staff/covey
 [dong]: {{site.baseurl}}/staff/#
 [doutriaux]: {{site.baseurl}}/staff/doutriaux
