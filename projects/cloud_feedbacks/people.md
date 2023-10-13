@@ -22,7 +22,7 @@ title: Cloud Feedbacks
 ## Former Participants
 
 * [Florent Brient](http://www.umr-cnrm.fr/spip.php?article1046&lang=fr) (Meteo-France)  
-* [Peter Caldwell](https://pcmdi.llnl.gov/staff/caldwell/index.html) (LLNL)
+* [Peter Caldwell](https://people.llnl.gov/caldwell19/index.html) (LLNL)
 * [Di Chen](https://scholar.google.com/citations?hl=en&user=s9OnuRMAAAAJ) 
 * [Anthony DeAngelis](https://scholar.google.com/citations?user=pzDevCsAAAAJ&hl=en) (NASA Goddard, GMAO) 
 * [Neil Gordon](https://www.linkedin.com/in/neildgordon/) (Space and Naval Warfare Systems Command) 
