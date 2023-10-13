@@ -85,7 +85,7 @@ Science/Biological and Environmental Research
 * [Stephen A. Klein](https://pls.llnl.gov/people/staff-bios/aeed/klein-s) (Principal Investigator) 
 * [Karl Taylor](https://pcmdi.llnl.gov/staff/taylor/karlcv.html) (co-Investigator) 
 * [Alex Hall](http://www.atmos.ucla.edu/csrl/) (co-Investigator, UCLA) 
-* [Peter Caldwell](https://people.llnl.gov/caldwell19/index.html) 
+* [Peter Caldwell](https://people.llnl.gov/caldwell19) 
 * [Timothy Myers](https://sites.google.com/site/myerstimothy/) 
 * Yi Qin
 * [Mark Zelinka](https://markdzelinka.wordpress.com/) 
