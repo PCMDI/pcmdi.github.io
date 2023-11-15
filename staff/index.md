@@ -13,6 +13,7 @@ Name | Position | E-mail | Phone Number
 [Ullrich, Paul][ullrich] | Project Leader | ullrich4@llnl.gov |
 [Ames, Sasha][ames] | Computer Scientist | ames4@llnl.gov | (925) 424-4644
 [Bonfils, Celine][bonfils] | Research Scientist | bonfils2@llnl.gov | (925) 423-9923
+[Chang, Kristin][chang] | Research Scientist | chang61@llnl.gov |
 [Dong, Bo][dong] | Post-Doctoral Research Scientist | dong12@llnl.gov |
 [Durack, Paul][durack] | Research Scientist | durack1@llnl.gov | (925) 422-5208
 [Gleckler, Peter][gleckler] | Research Scientist | gleckler1@llnl.gov | (925) 422-7631
@@ -99,6 +100,7 @@ Pacific Northwest National Laboratory |  |  |
 [bader]: https://people.llnl.gov/bader2
 [bonfils]: {{site.baseurl}}/staff/bonfils
 [caldwell]: https://people.llnl.gov/caldwell19
+[chang]: https://people.llnl.gov/chang61
 [covey]: {{site.baseurl}}/staff/covey
 [dong]: {{site.baseurl}}/staff/#
 [doutriaux]: {{site.baseurl}}/staff/doutriaux
