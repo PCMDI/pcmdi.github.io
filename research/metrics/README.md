@@ -18,7 +18,7 @@ Make change under `./v1.6.2`
 
 ### 3. Update symlink
 ```git rm latest```
-```ln -sf v1.3.2 latest```
+```ln -sf v1.6.2 latest```
 
 ### 4. Update (overwrite) `index.md`
 ```cp ./latest/index.md .```
