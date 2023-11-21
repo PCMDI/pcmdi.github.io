@@ -9,15 +9,19 @@
 # How to update
 
 ### 1. Copy the latest version directory to a new version directory
-For example, let's say old: v1.3.1 and new: v1.3.2
-```cp -r ./v1.3.1 ./v1.3.2```
+For example, let's say old: v1.6.1 and new: v1.6.2
+```cp -r ./v1.6.1 ./v1.6.2```
 
 ### 2. Make update under the new directory
-Make change under `./v1.3.2`
+Make change under `./v1.6.2`
+```git add v1.6.2```
 
 ### 3. Update symlink
-```rm latest```
+```git rm latest```
 ```ln -sf v1.3.2 latest```
 
 ### 4. Update (overwrite) `index.md`
 ```cp ./latest/index.md .```
+
+### 5. Commit changes to git
+```git commit -am 'update'```
