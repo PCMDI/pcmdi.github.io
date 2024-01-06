@@ -9,7 +9,7 @@ We are currently experiencing an outage on the <a href="http://esgf-node.llnl.go
 
 ## Alternative ESGF/CMIP access portals:
 
-### <a href="https://aims2.llnl.gov/search" target="_blank">LLNL Metagrid web portal (West Coast USA)</a>
+<!-- ### <a href="https://aims2.llnl.gov/search" target="_blank">LLNL Metagrid web portal (West Coast USA)</a> -->
 
 ### <a href="https://esgf-node.ornl.gov/search" target="_blank">ORNL Metagrid web portal (East Coast USA)</a>
 
