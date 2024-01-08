@@ -15,15 +15,15 @@ title: PCMDI - PNAS_2021 - e3sm
 
 filename | size
    ---   | ---
-[ttt20_E3SM-cobe2_r1i1p1_197901-201412.nc]({{site.baseurl}}/climate-data/PNAS_2021/e3sm/ttt20_E3SM-cobe2_r1i1p1_197901-201412.nc) | 50K
-[ttt20_E3SM-cobe2_r2i1p1_197901-201412.nc]({{site.baseurl}}/climate-data/PNAS_2021/e3sm/ttt20_E3SM-cobe2_r2i1p1_197901-201412.nc) | 50K
-[ttt20_E3SM-cobe2_r3i1p1_197901-201412.nc]({{site.baseurl}}/climate-data/PNAS_2021/e3sm/ttt20_E3SM-cobe2_r3i1p1_197901-201412.nc) | 50K
-[ttt20_E3SM-ersst5_r1i1p1_197901-201412.nc]({{site.baseurl}}/climate-data/PNAS_2021/e3sm/ttt20_E3SM-ersst5_r1i1p1_197901-201412.nc) | 50K
-[ttt20_E3SM-ersst5_r2i1p1_197901-201412.nc]({{site.baseurl}}/climate-data/PNAS_2021/e3sm/ttt20_E3SM-ersst5_r2i1p1_197901-201412.nc) | 50K
-[ttt20_E3SM-ersst5_r3i1p1_197901-201412.nc]({{site.baseurl}}/climate-data/PNAS_2021/e3sm/ttt20_E3SM-ersst5_r3i1p1_197901-201412.nc) | 50K
-[ttt20_E3SM-hadisst_r1i1p1_197901-201412.nc]({{site.baseurl}}/climate-data/PNAS_2021/e3sm/ttt20_E3SM-hadisst_r1i1p1_197901-201412.nc) | 50K
-[ttt20_E3SM-hadisst_r2i1p1_197901-201412.nc]({{site.baseurl}}/climate-data/PNAS_2021/e3sm/ttt20_E3SM-hadisst_r2i1p1_197901-201412.nc) | 50K
-[ttt20_E3SM-hadisst_r3i1p1_197901-201412.nc]({{site.baseurl}}/climate-data/PNAS_2021/e3sm/ttt20_E3SM-hadisst_r3i1p1_197901-201412.nc) | 50K
-[ttt20_E3SM-pcmdi_r1i1p1_197901-201412.nc]({{site.baseurl}}/climate-data/PNAS_2021/e3sm/ttt20_E3SM-pcmdi_r1i1p1_197901-201412.nc) | 50K
-[ttt20_E3SM-pcmdi_r2i1p1_197901-201412.nc]({{site.baseurl}}/climate-data/PNAS_2021/e3sm/ttt20_E3SM-pcmdi_r2i1p1_197901-201412.nc) | 50K
-[ttt20_E3SM-pcmdi_r3i1p1_197901-201412.nc]({{site.baseurl}}/climate-data/PNAS_2021/e3sm/ttt20_E3SM-pcmdi_r3i1p1_197901-201412.nc) | 50K
+[ttt20_E3SM-cobe2_r1i1p1_197901-201412.nc](https://pcmdi.llnl.gov/climate-data/PNAS_2021/e3sm/ttt20_E3SM-cobe2_r1i1p1_197901-201412.nc) | 50K
+[ttt20_E3SM-cobe2_r2i1p1_197901-201412.nc](https://pcmdi.llnl.gov/climate-data/PNAS_2021/e3sm/ttt20_E3SM-cobe2_r2i1p1_197901-201412.nc) | 50K
+[ttt20_E3SM-cobe2_r3i1p1_197901-201412.nc](https://pcmdi.llnl.gov/climate-data/PNAS_2021/e3sm/ttt20_E3SM-cobe2_r3i1p1_197901-201412.nc) | 50K
+[ttt20_E3SM-ersst5_r1i1p1_197901-201412.nc](https://pcmdi.llnl.gov/climate-data/PNAS_2021/e3sm/ttt20_E3SM-ersst5_r1i1p1_197901-201412.nc) | 50K
+[ttt20_E3SM-ersst5_r2i1p1_197901-201412.nc](https://pcmdi.llnl.gov/climate-data/PNAS_2021/e3sm/ttt20_E3SM-ersst5_r2i1p1_197901-201412.nc) | 50K
+[ttt20_E3SM-ersst5_r3i1p1_197901-201412.nc](https://pcmdi.llnl.gov/climate-data/PNAS_2021/e3sm/ttt20_E3SM-ersst5_r3i1p1_197901-201412.nc) | 50K
+[ttt20_E3SM-hadisst_r1i1p1_197901-201412.nc](https://pcmdi.llnl.gov/climate-data/PNAS_2021/e3sm/ttt20_E3SM-hadisst_r1i1p1_197901-201412.nc) | 50K
+[ttt20_E3SM-hadisst_r2i1p1_197901-201412.nc](https://pcmdi.llnl.gov/climate-data/PNAS_2021/e3sm/ttt20_E3SM-hadisst_r2i1p1_197901-201412.nc) | 50K
+[ttt20_E3SM-hadisst_r3i1p1_197901-201412.nc](https://pcmdi.llnl.gov/climate-data/PNAS_2021/e3sm/ttt20_E3SM-hadisst_r3i1p1_197901-201412.nc) | 50K
+[ttt20_E3SM-pcmdi_r1i1p1_197901-201412.nc](https://pcmdi.llnl.gov/climate-data/PNAS_2021/e3sm/ttt20_E3SM-pcmdi_r1i1p1_197901-201412.nc) | 50K
+[ttt20_E3SM-pcmdi_r2i1p1_197901-201412.nc](https://pcmdi.llnl.gov/climate-data/PNAS_2021/e3sm/ttt20_E3SM-pcmdi_r2i1p1_197901-201412.nc) | 50K
+[ttt20_E3SM-pcmdi_r3i1p1_197901-201412.nc](https://pcmdi.llnl.gov/climate-data/PNAS_2021/e3sm/ttt20_E3SM-pcmdi_r3i1p1_197901-201412.nc) | 50K
