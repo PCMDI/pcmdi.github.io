@@ -10,7 +10,7 @@ title: Detection and Attribution
 
 ### 2023
 #### Exceptional Stratospheric Contribution to Human Fingerprints on Atmospheric Temperature
-> Santer, B. D., S. Po-Chedley, L. Zhang, C.-Z. Zou, Q. Fu, S. Solomon, D. W. J. Thompson, C. Mears, and K. E. Taylor, 2023: Proceedings of the National Academy of Sciences, DOI: 10.1073/pnas.2300758120 ([Download Data – 117MB]({{site.url}}/climate-data/PNAS_2023/Santer_MSU_SSU.zip))
+> Santer, B. D., S. Po-Chedley, L. Zhang, C.-Z. Zou, Q. Fu, S. Solomon, D. W. J. Thompson, C. Mears, and K. E. Taylor, 2023: Proceedings of the National Academy of Sciences, DOI: 10.1073/pnas.2300758120 ([Download Data – 117MB](https://pcmdi.llnl.gov/climate-data/PNAS_2023/Santer_MSU_SSU.zip))
 
 ---
 
