@@ -56,7 +56,7 @@ The EWR results are based on the work of [Ahn et al. (2017)][ahn2017]. Implement
 
 [CMIP56_ewr_models]: https://pcmdi.llnl.gov/pmp-preliminary-results/mjo_metrics/mjo_ewr_cmip5and6_overlap_runs_average_sorted_standalone.html
 [CMIP56_ewr_mips]: https://pcmdi.llnl.gov/pmp-preliminary-results/mjo_metrics/mjo_ewr_cmip5and6_overlap_runs_average_standalone.html
-[ewribc]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/mjo/bar_chart/mjo_ewr_cmip5and6_overlap_runs_average_v20231121.html
+[ewribc]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/mjo/bar_chart/mjo_ewr_cmip5and6_overlap_runs_average_v20240118.html
 
 [research]:{{site.baseurl}}/research
 [metrics]:{{site.baseurl}}/research/metrics
