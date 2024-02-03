@@ -9,10 +9,21 @@ title: Cloud Feedbacks
 ---
 ## Publications
 
+### 2024
+* Chao, L.-W., M. D. Zelinka, and A. E. Dessler, 2024: Evaluating cloud feedback components in observations and their representation in climate models. _J. Geophys. Res._, 129, e2023JD039427. doi:[10.1029/2023JD039427](https://doi.org/10.1029/2023JD039427).
+   
+* Qin, Y., X. Zheng, S. A. Klein, M. D. Zelinka, P.-L. Ma, J.-C. Golaz, S. Xie, 2024: Causes of Reduced Climate Sensitivity in E3SM from Version 1 to Version 2, _J. Adv. Model. Earth Syst._, doi:[10.1029/2023MS003875](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2023MS003875).
+
 ### 2023
 * Bonan, D. B., N. Feldl, M. D. Zelinka, and L. C. Hahn, 2023: Contributions to regional precipitation change and its polar-amplified pattern under warming, <em>Environ. Res.: Climate</em>, 2, 035010, doi:[10.1088/2752-5295/ace27a](https://iopscience.iop.org/article/10.1088/2752-5295/ace27a).
 
+* Cropper, S., C. Thackeray, and J. Emile-Geay, 2023. Revisiting A Constraint On Equilibrium Climate Sensitivity From A Last Millennium Perspective, _Geophys. Res. Lett._ 50. doi:[10.1029/2023GL104126](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2023GL104126).
+
 * Myers, T. A., M. D. Zelinka, and S. A. Klein, 2023: Observational Constraints on the Cloud Feedback Pattern Effect, <em>J. Climate</em>, 36, 6533–6545, doi:[10.1175/JCLI-D-22-0862.1](https://journals.ametsoc.org/view/journals/clim/36/18/JCLI-D-22-0862.1.xml).
+
+* Rugenstein, M., M. D. Zelinka, K. Karnauskas, P. Ceppi, and T. Andrews, 2023: Patterns of Surface Warming Matter for Climate Sensitivity, _Eos_, 104, doi:[10.1029/2023EO230411](https://eos.org/features/patterns-of-surface-warming-matter-for-climate-sensitivity).
+
+* Samset, B., C. Zhou, J. S. Fuglestvedt, M. T. Lund, J. Marotzke, and M. D. Zelinka, 2023: Steady global surface warming from 1973 to 2022 but increased warming rate after 1990, _Commun. Earth Environ._, 4, 400, doi:[10.1038/s43247-023-01061-4](https://www.nature.com/articles/s43247-023-01061-4).
 
 * Tang, Q., et al. including Y. Qin, 2023: The Fully Coupled Regionally Refined Model of E3SM Version 2: Overview of the Atmosphere, Land, and River, <em>Geosci. Model Dev.</em>, doi:[10.5194/gmd-2022-262](https://gmd.copernicus.org/preprints/gmd-2022-262/).
 
