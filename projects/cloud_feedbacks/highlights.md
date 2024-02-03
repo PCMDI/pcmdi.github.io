@@ -9,10 +9,19 @@ title: Cloud Feedbacks
 ---
 ## Research Highlights
 
+### 2024
+* Chao, L.‐W., M. D. Zelinka, and A. E. Dessler, 2024: [Evaluating Cloud Feedback Components in Observations and Their Representation in Climate Models](https://climatemodeling.science.energy.gov/research-highlights/evaluating-cloud-feedback-components-observations-and-their-representation)
+
 ### 2023
 * Bonan, D., N. Feldl, M. Zelinka, and L. Hahn, 2023: [Contributions to Regional Precipitation Change and its Polar-Amplified Pattern Under Warming](https://climatemodeling.science.energy.gov/research-highlights/contributions-regional-precipitation-change-and-its-polar-amplified-pattern)
 
+* Cropper, S., C. Thackeray, and J. Emile-Geay, 2023: [Revisiting a Constraint on Equilibrium Climate Sensitivity From a Last Millennium Perspective](https://climatemodeling.science.energy.gov/research-highlights/revisiting-constraint-equilibrium-climate-sensitivity-last-millennium)
+  
 * Myers, T. A., M. D. Zelinka, and S. A. Klein, 2023: [Observational Constraints on the Cloud Feedback Pattern Effect](https://climatemodeling.science.energy.gov/research-highlights/observational-constraints-cloud-feedback-pattern-effect)
+
+* Rugenstein, M., M. D. Zelinka, K. B. Karnauskas, P. Ceppi, and T. Andrews, 2023: [Patterns of Surface Warming Matter for Climate Sensitivity](https://climatemodeling.science.energy.gov/research-highlights/patterns-surface-warming-matter-climate-sensitivity)
+
+* Samset, B. H., C. Zhou, J. S. Fuglestvedt, M. T. Lund, J. Marotzke, and M. D. Zelinka, 2023: [Steady Global Surface Warming Through 2022, After a Recent Step Up in Warming Rate](https://climatemodeling.science.energy.gov/research-highlights/steady-global-surface-warming-through-2022-after-recent-step-warming-rate)
 
 * Zelinka, M., C. J. Smith, Y. Qin, and K. Taylor, 2023: [Comparison of Methods to Estimate Aerosol Effective Radiative Forcings in Climate Models](https://climatemodeling.science.energy.gov/research-highlights/comparison-methods-estimate-aerosol-effective-radiative-forcings-climate-models)
   
