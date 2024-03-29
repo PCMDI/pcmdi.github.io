@@ -7,7 +7,7 @@ title: PCMDI - Metrics
 
 # Extratropical Modes of Variability: Taylor Diagrams
 
-### [*PROTOTYPE*] Taylor Diagrams for all modes and seasons
+### Taylor Diagrams for all modes and seasons
   - [**TDs for ALL CMIP3/5/6 models**][td_all]
   - [**TDs for US models in CMIP3/5/6**][td_us]
 
@@ -24,5 +24,5 @@ title: PCMDI - Metrics
 
 [lee2019]: https://link.springer.com/article/10.1007/s00382-018-4355-4
 
-[td_all]: https://pcmdi.llnl.gov/pmp-preliminary-results/variability_modes/taylor_diagrams/
-[td_us]: https://pcmdi.llnl.gov/pmp-preliminary-results/variability_modes/US_models_taylor_diagrams/
+[td_all]: https://pcmdi.llnl.gov/pmp-preliminary-results/graphics/variability_modes/taylor_diagrams/index.html
+[td_us]: https://pcmdi.llnl.gov/pmp-preliminary-results/graphics/variability_modes/taylor_diagrams/US_models.html
