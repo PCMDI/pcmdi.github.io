@@ -75,6 +75,8 @@ The Portrait Plots are interactive. Clicking on any cell triangle will give its 
   - #### [CMIP5 Historical][CMIP5_variability_amplitude]
   - #### [CMIP3 20c3m][CMIP3_variability_amplitude]
 
+### [Taylor Diagrams][taylordiagram]
+
 <br/>
 
 ### General Conclusions
@@ -103,6 +105,7 @@ It is notable that for the majority of amplitude cells the model-to-observed ref
 [CMIP5_variability_rmse]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/variability_modes/portrait_plot/pmp_mov_page_viewer.html?parameter=v20230516/mov_portrait_plot_cmip5_historical_rmse_cbf_v20230516.html
 [CMIP6_variability_rmse]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/variability_modes/portrait_plot/pmp_mov_page_viewer.html?parameter=v20230516/mov_portrait_plot_cmip6_historical_rmse_cbf_v20230516.html
 
+[taylordiagram]: taylordiagram
 
 [research]:{{site.baseurl}}/research
 [metrics]:{{site.baseurl}}/research/metrics
