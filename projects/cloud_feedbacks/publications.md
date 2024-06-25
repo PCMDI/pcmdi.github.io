@@ -10,10 +10,20 @@ title: Cloud Feedbacks
 ## Publications
 
 ### 2024
+* Cesana, G. V., et al. including M. D. Zelinka, 2024: Observational constraint on a feedback from supercooled clouds reduces projected warming uncertainty, _Commun. Earth Environ._, 5, 181, doi:[10.1038/s43247-024-01339-1](https://www.nature.com/articles/s43247-024-01339-1).
+  
 * Chao, L.-W., M. D. Zelinka, and A. E. Dessler, 2024: Evaluating cloud feedback components in observations and their representation in climate models. _J. Geophys. Res._, 129, e2023JD039427. doi:[10.1029/2023JD039427](https://doi.org/10.1029/2023JD039427).
+  
+* Norris, J., C. W. Thackeray, A. Hall, and G. D. Madakumbura, 2024: Historical sensible-heat-flux variations key to predicting future hydrologic sensitivity, _npj Clim. Atmos. Sci._, 7, 128, doi:[10.1038/s41612-024-00676-4](https://www.nature.com/articles/s41612-024-00676-4).
    
 * Qin, Y., X. Zheng, S. A. Klein, M. D. Zelinka, P.-L. Ma, J.-C. Golaz, S. Xie, 2024: Causes of Reduced Climate Sensitivity in E3SM from Version 1 to Version 2, _J. Adv. Model. Earth Syst._, doi:[10.1029/2023MS003875](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2023MS003875).
 
+* Tan, I., M. D. Zelinka, et al., 2024: Contributions from cloud morphological changes to the interannual shortwave cloud feedback based on MODIS and ISCCP satellite observations, _J. Geophys. Res._, 129, doi:[10.1029/2023JD040540](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2023JD040540).
+  
+* Zhang, Y., Xie, S., Qin, Y., Lin, W., Golaz, J.-C., Zheng, X., Ma, P.-L., Qian, Y., Tang, Q., Terai, C. R., and Zhang, M, 2024: Understanding changes in cloud simulations from E3SM version 1 to version 2, _Geosci. Model Dev._, 17, 169–189, doi:[10.5194/gmd-17-169-2024](https://gmd.copernicus.org/articles/17/169/2024/).
+  
+* Zhao, X., et al. including Y. Qin,  M. D. Zelinka,  S. A. Klein, P.-L. Ma, 2024: Larger cloud liquid water enhances both aerosol indirect forcing and cloud radiative feedback in two Earth System Models, _Geophys. Res. Lett._, 51, doi:[10.1029/2023GL105529](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2023GL105529). 
+  
 ### 2023
 * Bonan, D. B., N. Feldl, M. D. Zelinka, and L. C. Hahn, 2023: Contributions to regional precipitation change and its polar-amplified pattern under warming, <em>Environ. Res.: Climate</em>, 2, 035010, doi:[10.1088/2752-5295/ace27a](https://iopscience.iop.org/article/10.1088/2752-5295/ace27a).
 
