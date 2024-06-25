@@ -10,7 +10,17 @@ title: Cloud Feedbacks
 ## Research Highlights
 
 ### 2024
+* Cesana, G. V., A. S. Ackerman, A. M. Fridlind, I. Silber, A. D. Del Genio, M. D. Zelinka, H. Chepfer, T. Khadir, and R. Roehrig, 2024: [Observational Constraint On A Feedback From Supercooled Clouds Reduces Projected Warming Uncertainty](https://climatemodeling.science.energy.gov/research-highlights/observational-constraint-feedback-supercooled-clouds-reduces-projected-warming)
+
 * Chao, L.‐W., M. D. Zelinka, and A. E. Dessler, 2024: [Evaluating Cloud Feedback Components in Observations and Their Representation in Climate Models](https://climatemodeling.science.energy.gov/research-highlights/evaluating-cloud-feedback-components-observations-and-their-representation)
+
+* Norris, J., C. W. Thackeray, A. Hall, and G. D. Madakumbura, 2024: [Historical Sensible-Heat-Flux Variations Key To Predicting Future Hydrologic Sensitivity](https://climatemodeling.science.energy.gov/research-highlights/predicting-intensification-global-precipitation-under-climate-change)
+  
+* Tan, I., M. D. Zelinka, Q. Coopman, B. H. Kahn, L. Oreopoulos, G. Tselioudis, D. T. McCoy, and N. Li, 2024: [Contributions From Cloud Morphological Changes To The Interannual Shortwave Cloud Feedback Based On Modis And Isccp Satellite Observations](https://climatemodeling.science.energy.gov/research-highlights/contributions-cloud-regime-changes-observed-cloud-feedback)
+  
+* Zhang, Y., S. Xie, Y. Qin, W. Lin, J.-C. Golaz, X. Zheng, P.-L. Ma, et al., 2024: [Understanding Changes In Cloud Simulations From E3Sm Version 1 To Version 2](https://climatemodeling.science.energy.gov/research-highlights/understanding-changes-cloud-simulations-e3sm-version-1-version-2)
+  
+* Zhao, X., X. Liu, L. Lin, Y. Qin, M. D. Zelinka, S. A. Klein, M. Zhang, et al., 2024: [Larger Cloud Liquid Water Enhances Both Aerosol Indirect Forcing And Cloud Radiative Feedback In Two Earth System Models](https://climatemodeling.science.energy.gov/research-highlights/larger-cloud-liquid-water-enhances-both-aerosol-indirect-forcing-and-cloud)
 
 ### 2023
 * Bonan, D., N. Feldl, M. Zelinka, and L. Hahn, 2023: [Contributions to Regional Precipitation Change and its Polar-Amplified Pattern Under Warming](https://climatemodeling.science.energy.gov/research-highlights/contributions-regional-precipitation-change-and-its-polar-amplified-pattern)
@@ -19,6 +29,8 @@ title: Cloud Feedbacks
   
 * Myers, T. A., M. D. Zelinka, and S. A. Klein, 2023: [Observational Constraints on the Cloud Feedback Pattern Effect](https://climatemodeling.science.energy.gov/research-highlights/observational-constraints-cloud-feedback-pattern-effect)
 
+* Qin, Y., X. Zheng, S. A Klein, M. D. Zelinka, P.‐L. Ma, J.-C. Golaz, and S. Xie, 2023: [Causes Of Reduced Climate Sensitivity In E3Sm From Version 1 To Version 2](https://climatemodeling.science.energy.gov/research-highlights/causes-reduced-climate-sensitivity-e3sm-version-1-version-2)
+  
 * Rugenstein, M., M. D. Zelinka, K. B. Karnauskas, P. Ceppi, and T. Andrews, 2023: [Patterns of Surface Warming Matter for Climate Sensitivity](https://climatemodeling.science.energy.gov/research-highlights/patterns-surface-warming-matter-climate-sensitivity)
 
 * Samset, B. H., C. Zhou, J. S. Fuglestvedt, M. T. Lund, J. Marotzke, and M. D. Zelinka, 2023: [Steady Global Surface Warming Through 2022, After a Recent Step Up in Warming Rate](https://climatemodeling.science.energy.gov/research-highlights/steady-global-surface-warming-through-2022-after-recent-step-warming-rate)
