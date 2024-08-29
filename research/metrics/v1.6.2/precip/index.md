@@ -98,9 +98,9 @@ Comming soon:  Frequency of SPI spells and consecutive dry days.
 ## References
 <br/>
 
-Ahn, Min-Seop, Paul A. Ullrich, Jiwoo Lee, Peter J. Gleckler, Hsi-Yen Ma, Christopher R. Terai, Peter A. Bogenschutz, and Ana C. Ordonez, 2023b: Bimodality in Simulated Precipitation Frequency Distributions and Its Relationship with Convective Parameterizations, Geophysical Research Letters, under review.
+Ahn, Min-Seop, Paul A. Ullrich, Jiwoo Lee, Peter J. Gleckler, Hsi-Yen Ma, Christopher R. Terai, Peter A. Bogenschutz, and Ana C. Ordonez, 2024: Bimodality in simulated precipitation frequency distributions and its relationship with convective parameterizations. npj Climate and Atmospheric Science, 7, 132, <https://doi.org/10.1038/s41612-024-00685-3>
 
-Ahn, Min-Seop, Paul A. Ullrich, Peter J. Gleckler, Jiwoo Lee, Ana C. Ordonez, and Angeline G. Pendergrass, 2023a: Evaluating Precipitation Distributions at Regional Scales: A Benchmarking Framework and Application to CMIP5 and CMIP6, Geoscientific Model Development, under review, [https://doi.org/10.5194/egusphere-2022-1106](https://doi.org/10.5194/egusphere-2022-1106)
+Ahn, Min-Seop, Paul A. Ullrich, Peter J. Gleckler, Jiwoo Lee, Ana C. Ordonez, and Angeline G. Pendergrass, 2023: Evaluating precipitation distributions at regional scales: a benchmarking framework and application to CMIP5 and 6 models. Geoscientific Model Development, 16, 3927–3951, <https://doi.org/10.5194/gmd-16-3927-2023>
 
 Ahn, Min-Seop, Peter J. Gleckler, Jiwoo Lee, Angeline G. Pendergrass, and Christian Jakob, 2022: Benchmarking Simulated Precipitation Variability Amplitude across Timescales, Jornal of Climate, 35, 3173–3196, [https://doi.org/10.1175/JCLI-D-21-0542.1](https://doi.org/10.1175/JCLI-D-21-0542.1)
 
