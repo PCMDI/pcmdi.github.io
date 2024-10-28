@@ -14,8 +14,12 @@ title: Cloud Feedbacks
 
 * Chao, L.‐W., M. D. Zelinka, and A. E. Dessler, 2024: [Evaluating Cloud Feedback Components in Observations and Their Representation in Climate Models](https://climatemodeling.science.energy.gov/research-highlights/evaluating-cloud-feedback-components-observations-and-their-representation)
 
-* Norris, J., C. W. Thackeray, A. Hall, and G. D. Madakumbura, 2024: [Historical Sensible-Heat-Flux Variations Key To Predicting Future Hydrologic Sensitivity](https://climatemodeling.science.energy.gov/research-highlights/predicting-intensification-global-precipitation-under-climate-change)
-  
+* Espinosa, Z. I. and M. D. Zelinka, 2024: [Cloud Feedbacks Enhance Sea Surface Temperature Variability](https://climatemodeling.science.energy.gov/research-highlights/cloud-feedbacks-enhance-sea-surface-temperature-variability)
+
+* Norris, J., C. W. Thackeray, A. Hall, and G. D. Madakumbura, 2024: [Predicting the Intensification of Global Precipitation Under Climate Change](https://climatemodeling.science.energy.gov/research-highlights/predicting-intensification-global-precipitation-under-climate-change)
+
+* Qin, Y., X. Zheng, S. A. Klein, M. D. Zelinka, P.-L. Ma, J.-C. Golaz, S. Xie, 2024: [Causes of Reduced Climate Sensitivity in E3SM from Version 1 to Version 2](https://climatemodeling.science.energy.gov/research-highlights/causes-reduced-climate-sensitivity-e3sm-version-1-version-2)
+     
 * Tan, I., M. D. Zelinka, Q. Coopman, B. H. Kahn, L. Oreopoulos, G. Tselioudis, D. T. McCoy, and N. Li, 2024: [Contributions From Cloud Morphological Changes To The Interannual Shortwave Cloud Feedback Based On Modis And Isccp Satellite Observations](https://climatemodeling.science.energy.gov/research-highlights/contributions-cloud-regime-changes-observed-cloud-feedback)
   
 * Zhang, Y., S. Xie, Y. Qin, W. Lin, J.-C. Golaz, X. Zheng, P.-L. Ma, et al., 2024: [Understanding Changes In Cloud Simulations From E3Sm Version 1 To Version 2](https://climatemodeling.science.energy.gov/research-highlights/understanding-changes-cloud-simulations-e3sm-version-1-version-2)
