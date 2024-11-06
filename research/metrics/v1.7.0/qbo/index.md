@@ -7,7 +7,7 @@ title: QBO
 
 # Quasi-Biennial Oscillation (QBO)
 <br/>
-Text Here
+
 
 <br/>
 ### Summary statistics in Interactive Bar Charts

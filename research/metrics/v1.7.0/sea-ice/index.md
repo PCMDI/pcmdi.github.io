@@ -7,7 +7,7 @@ title: Sea-Ice
 
 # Sea Ice Area
 <br/>
-Text Here
+
 
 <br/>
 ### Summary statistics in Interactive Bar Charts
