@@ -11,7 +11,7 @@ title: QBO
 
 <br/>
 ### Summary statistics in Interactive Bar Charts
-  - (PROTOTYPE) **[QBO-MJO Teleconnection for CMIP5 and CMIP6 Historical][seaice_ibc]**
+  - (PROTOTYPE) **[QBO-MJO Teleconnection for CMIP5 and CMIP6 Historical][qbo-mjo_ibc]**
   - NOTE: Supported browsers are Chrome, Firefox, Safari, and Microsoft Edge. Microsoft Internet Explorer is no longer supported.
 
 ---
