@@ -6,7 +6,7 @@ title: PCMDI - Metrics
 ###### [Research][research] > [Metrics][metrics]
 ---
 
-# PCMDI Simulation Summaries: CMIP mean state and variability (v1.6.2)<a name="top"></a>
+# PCMDI Simulation Summaries: CMIP mean state and variability (v1.7.0)<a name="top"></a>
 
 <br/>
 The PCMDI Metrics Package ([PMP][pmp]) is a capability that is used to produce a diverse suite of "quick-look" objective summaries of Earth System Model (ESM) agreement with observations. The [PMP][pmp] is routinely applied to multiple generations of CMIP, including the most recent results from CMIP6 as they become available. These results are regularly updated as additional simulations become available, new analysis are included, and as presentation improvements and corrections are made. 
