@@ -11,7 +11,7 @@ title: Sea-Ice
 
 <br/>
 ### Summary statistics in Interactive Bar Charts
-  - (PROTOTYPE) **[Sea Icea Area for CMIP5 and CMIP6 Historical][seaice_ibc]**
+  - (PROTOTYPE) **[Sea Icea Area for CMIP3, CMIP5, and CMIP6 Historical][seaice_ibc]**
   - NOTE: Supported browsers are Chrome, Firefox, Safari, and Microsoft Edge. Microsoft Internet Explorer is no longer supported.
 
 ---
