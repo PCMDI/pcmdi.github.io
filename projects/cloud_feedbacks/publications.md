@@ -9,6 +9,9 @@ title: Cloud Feedbacks
 ---
 ## Publications
 
+### 2025
+* Lin, Y., G. V. Cesana, C. Proistosescu, M. D. Zelinka, and K. C. Armour, 2025: The Relative Importance of Forced and Unforced Temperature Patterns in Driving the Time Variation of Low-Cloud Feedback. _J. Climate_, 38, 513–529, doi:[10.1175/JCLI-D-24-0014.1](https://journals.ametsoc.org/view/journals/clim/38/2/JCLI-D-24-0014.1.xml).
+
 ### 2024
 * Ceppi, P., T. A. Myers, P. Nowack, C. J. Wall, & M. D. Zelinka, 2024: Implications of a pervasive climate model bias for low-cloud feedback, _Geophys. Res. Lett._, 51, doi:[10.1029/2024GL110525](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024GL110525).
   
