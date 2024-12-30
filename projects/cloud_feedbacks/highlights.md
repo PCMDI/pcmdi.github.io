@@ -9,7 +9,12 @@ title: Cloud Feedbacks
 ---
 ## Research Highlights
 
+### 2025
+*Lin, Y.-J., G. V. Cesana, C. Proistosescu, M. D. Zelinka, and K. C. Armour, 2025: [The Relative Importance Of Forced And Unforced Temperature Patterns In Driving The Time Variation Of Low-Cloud Feedback](https://eesm.science.energy.gov/research-highlights/relative-importance-forced-and-unforced-temperature-patterns-driving-time)
+
 ### 2024
+* Ceppi, P., T. A. Myers, P. Nowack, C. J. Wall, and M. D. Zelinka, 2024: [Implications Of A Pervasive Climate Model Bias For Low‐Cloud Feedback](https://eesm.science.energy.gov/research-highlights/implications-pervasive-climate-model-bias-low-cloud-feedback)
+  
 * Cesana, G. V., A. S. Ackerman, A. M. Fridlind, I. Silber, A. D. Del Genio, M. D. Zelinka, H. Chepfer, T. Khadir, and R. Roehrig, 2024: [Observational Constraint On A Feedback From Supercooled Clouds Reduces Projected Warming Uncertainty](https://climatemodeling.science.energy.gov/research-highlights/observational-constraint-feedback-supercooled-clouds-reduces-projected-warming)
 
 * Chao, L.‐W., M. D. Zelinka, and A. E. Dessler, 2024: [Evaluating Cloud Feedback Components in Observations and Their Representation in Climate Models](https://climatemodeling.science.energy.gov/research-highlights/evaluating-cloud-feedback-components-observations-and-their-representation)
