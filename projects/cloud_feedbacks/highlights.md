@@ -9,7 +9,7 @@ title: Cloud Feedbacks
 ---
 ## Research Highlights
 
-### 2025
+### 2025  
 * Lin, Y.-J., G. V. Cesana, C. Proistosescu, M. D. Zelinka, and K. C. Armour, 2025: [The Relative Importance Of Forced And Unforced Temperature Patterns In Driving The Time Variation Of Low-Cloud Feedback](https://eesm.science.energy.gov/research-highlights/relative-importance-forced-and-unforced-temperature-patterns-driving-time)
 
 ### 2024
@@ -26,6 +26,8 @@ title: Cloud Feedbacks
 * Qin, Y., X. Zheng, S. A. Klein, M. D. Zelinka, P.-L. Ma, J.-C. Golaz, S. Xie, 2024: [Causes of Reduced Climate Sensitivity in E3SM from Version 1 to Version 2](https://climatemodeling.science.energy.gov/research-highlights/causes-reduced-climate-sensitivity-e3sm-version-1-version-2)
      
 * Tan, I., M. D. Zelinka, Q. Coopman, B. H. Kahn, L. Oreopoulos, G. Tselioudis, D. T. McCoy, and N. Li, 2024: [Contributions From Cloud Morphological Changes To The Interannual Shortwave Cloud Feedback Based On Modis And Isccp Satellite Observations](https://climatemodeling.science.energy.gov/research-highlights/contributions-cloud-regime-changes-observed-cloud-feedback)
+  
+* Thackeray, C. W., M. D. Zelinka, J. Norris, A. Hall, and S. Po‐Chedley, 2024: [Relationship Between Tropical Cloud Feedback And Climatological Bias In Clouds](https://eesm.science.energy.gov/research-highlights/relationship-between-tropical-cloud-feedback-and-climatological-bias-clouds)
   
 * Zhang, Y., S. Xie, Y. Qin, W. Lin, J.-C. Golaz, X. Zheng, P.-L. Ma, et al., 2024: [Understanding Changes In Cloud Simulations From E3Sm Version 1 To Version 2](https://climatemodeling.science.energy.gov/research-highlights/understanding-changes-cloud-simulations-e3sm-version-1-version-2)
   
