@@ -32,14 +32,14 @@ The PCMDI Metrics Package ([PMP][pmp]) is a capability that is used to produce a
 
 ---
 ## <a name="precip"></a>Benchmarking Simulated Precipitation ([results][description_precip])
-- These results were inspired by the outcomes of a [July 2019 DOE workshop][doeworkshop2019]. Several teams were established at this workshop with one group tasked to incorporate an initial set of benchmarks into a common analysis framework and applying it to CMIP6 and earlier generations of climate models ([Pendergrass, et al., 2019][pendergrass2020]). The results presented here illustrate the progress of this benchmarking effort. In parallel, a second group continues to develop exploratory metrics.  Ultimately, this effort aims to provide a guide to modelers as they strive to improve simulated precipitation.
+- These results were inspired by the outcomes of a [July 2019 DOE workshop][doeworkshop2019]. Several teams were established at this workshop with one group tasked to incorporate an initial set of benchmarks into a common analysis framework and applying it to CMIP6 and earlier generations of Earth System models ([Pendergrass, et al., 2019][pendergrass2020]). The results presented here illustrate the progress of this benchmarking effort. In parallel, a second group continues to develop exploratory metrics.  Ultimately, this effort aims to provide a guide to modelers as they strive to improve simulated precipitation.
 
 <p align="right"><a href="#top">Back to List</a></p>
 
 ---
 ## <a name="enso"></a>El Niño-Southern Oscillation ([results][description_enso])
 
-- El Niño-Southern Oscillation (ENSO) is the dominant mode of interannual variability in the tropical Pacific and has far reaching impacts on global climate. It is there therefore key to ensure its correct simulation in state-of-the-art climate models. Community-wide synthesis of metrics to evaluate the performance, teleconnections and processes of ENSO in coupled GCMs is proposed by the ENSO working group of the [International CLIVAR Pacific panel][clivar_pacific]. The corresponding objective comparisons of simulations against observations shown here result from a collaboration between scientists at [Institut Pierre Simon Laplace (IPSL)][ipsl] and [PCMDI][pcmdi]. This effort strives to improve and expand upon the ENSO model performance tests proposed by [Bellenger et al. (2014)][Bellenger2014] for CMIP5. The metrics are demonstrated through application to the CMIP archive following works of Planton et al. (2020, BAMS, under review).
+- El Niño-Southern Oscillation (ENSO) is the dominant mode of interannual variability in the tropical Pacific and has far reaching impacts on global climate. It is there therefore key to ensure its correct simulation in state-of-the-art Earth System models. Community-wide synthesis of metrics to evaluate the performance, teleconnections and processes of ENSO in coupled GCMs is proposed by the ENSO working group of the [International CLIVAR Pacific panel][clivar_pacific]. The corresponding objective comparisons of simulations against observations shown here result from a collaboration between scientists at [Institut Pierre Simon Laplace (IPSL)][ipsl] and [PCMDI][pcmdi]. This effort strives to improve and expand upon the ENSO model performance tests proposed by [Bellenger et al. (2014)][Bellenger2014] for CMIP5. The metrics are demonstrated through application to the CMIP archive following works of Planton et al. (2020, BAMS, under review).
 
 <p align="right"><a href="#top">Back to List</a></p>
 
@@ -81,7 +81,7 @@ The PCMDI Metrics Package ([PMP][pmp]) is a capability that is used to produce a
 
 Questions or comments about the PCMDI Simulation Summaries should be sent to the [PMP team](mailto:pcmdi-metrics@llnl.gov).
 
-The efforts of the authors are supported by the [Regional and Global Climate Modeling Program][RGMA] of the [United States Department of Energy's Office of Science][DOEOS]. This work is funded by the Climate and Environmental Sciences Division of the DOE Office of Science and is performed under the auspices of the U.S. Department of Energy by [Lawrence Livermore National Laboratory][LLNL] under contract DE-AC52-07NA27344. LLNL-WEB-812310
+The work of PCMDI and results presented on this web page are supported by the [Regional and Global Model Analysis (RGMA) program area](https://eesm.science.energy.gov/program-area/regional-global-model-analysis) under the [Earth and Environmental System Modeling (EESM) program](https://eesm.science.energy.gov/about) within the [Earth and Environmental Systems Sciences Division (EESSD)](https://science.osti.gov/ber/Research/eessd) of the [United States Department of Energy’s (DOE) Office of Science (OSTI)](https://science.osti.gov/). The work of PCMDI is performed under the auspices of the U.S. DOE by [Lawrence Livermore National Laboratory (LLNL)](https://pls.llnl.gov/) under contract DE-AC52-07NA27344. LLNL-WEB-812310.
 
 [latest]: {{site.baseurl}}/research/metrics/
 
