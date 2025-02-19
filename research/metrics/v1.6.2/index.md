@@ -85,7 +85,7 @@ Results are also accessible from the [Coordinated Model Evaluation Capabilities 
 
 Questions or comments about the PCMDI Simulation Summaries should be sent to the [PMP team](mailto:pcmdi-metrics@llnl.gov).
 
-The efforts of the authors are supported by the [Regional and Global Climate Modeling Program][RGMA] of the [United States Department of Energy's Office of Science][DOEOS]. This work is funded by the Climate and Environmental Sciences Division of the DOE Office of Science and is performed under the auspices of the U.S. Department of Energy by [Lawrence Livermore National Laboratory][LLNL] under contract DE-AC52-07NA27344. LLNL-WEB-812310
+The work of PCMDI and results presented on this web page are supported by the [Regional and Global Model Analysis (RGMA) program area](https://eesm.science.energy.gov/program-area/regional-global-model-analysis) under the [Earth and Environmental System Modeling (EESM) program](https://eesm.science.energy.gov/about) within the [Earth and Environmental Systems Sciences Division (EESSD)](https://science.osti.gov/ber/Research/eessd) of the [United States Department of Energy’s (DOE) Office of Science (OSTI)](https://science.osti.gov/). The work of PCMDI is performed under the auspices of the U.S. DOE by [Lawrence Livermore National Laboratory (LLNL)](https://pls.llnl.gov/) under contract DE-AC52-07NA27344. LLNL-WEB-812310.
 
 [latest]: {{site.baseurl}}/research/metrics/
 
