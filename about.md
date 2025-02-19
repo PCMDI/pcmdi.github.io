@@ -6,7 +6,9 @@ group: "navigation"
 
 <div class="hero-unit">
   <h1>PCMDI</h1>
-  <p>The Program for Climate Model Diagnosis and Intercomparison: furthering the understanding of climate change through model and observational analysis and community leadership</p><br>
+  <p>The PCMDI: Earth System Model Evaluation Project is furthering
+     the understanding of Earth system change through model and
+     observational analysis and community leadership</p><br>
                        <div class="row , visible-xs-block visible-s-block visible-md-inline-block">
                           <div class="col-xs-4 col-md-4 ">
                             <img class="pull-left" src="{{site.baseurl}}/Data/media/images/pic.png" alt="..." paddling="1px" style="width:280px;height:228px;" >
@@ -23,20 +25,20 @@ group: "navigation"
 PCMDI was established in 1989 at the Lawrence Livermore National Laboratory ([LLNL]),
 located in the [San Francisco Bay Area][SF], California. PCMDI participants include
 research and computer scientists at LLNL, other research laboratories, and universities.
-The Regional and Global Model Analysis ([RGMA]) Program Area of the United States
+The Regional and Global Modeling and Analysis ([RGMA]) Program Area of the United States
 Department of Energy's (DOE) Earth and Environmental Systems Modeling ([EESM])
 Program is the primary project funder. The EESM is a component of the Earth and
 Environmental Systems Sciences Division ([EESSD]) which is within the Biological
 and Environmental Research ([BER]) Program Office of the DOE's [Office of Science][OoS].
 
 The PCMDI mission is to develop advanced methods and tools for diagnosis and intercomparison
-to improve Global Climate (GCMs) and Earth System Models (ESMs). The need for innovative
+to improve Earth System Models (ESMs). The need for innovative
 analysis of ESM simulations is apparent as increasingly more complex models are
 in development. At the same time, disagreements among these simulations relative
 to observations and their predictions of climate change remain significant and
 incompletely understood. Through PCMDI's efforts, ESMs will advance so that they
 are capable of addressing the critical questions that policymakers and society
-have about ongoing global and regional climate change.
+have about ongoing global and regional climate variability and change.
 
 PCMDI's mission demands that we work on scientific projects and infrastructural
 tasks. Our current scientific projects focus on developing

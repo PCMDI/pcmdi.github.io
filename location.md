@@ -10,14 +10,16 @@ group: "navigation"
       <tbody>
         <tr>
           <td align="left"><b>Mailing address</b><br>
-            Program for Climate Model Diagnosis <br> & Intercomparison<br>
+            PCMDI:<br>
+            Earth System Model Evaluation Project<br>
             Lawrence Livermore National Laboratory<br>
             P.O. Box 808<br>
             L-103<br>
             Livermore, CA 94551-0808<br>
             Tel: (925) 422-5932</td>
            <td align="left"><b>Street address</b><br>
-            Program for Climate Model Diagnosis <br> & Intercomparison<br>
+            PCMDI:<br>
+            Earth System Model Evaluation Project<br>
             Lawrence Livermore National Laboratory<br>
             7000 East Avenue<br>
             Bldg. 170, L-103 <br>
@@ -29,9 +31,6 @@ group: "navigation"
 </center>
 
 ----
-
-
-
 
 <center>
 
@@ -79,13 +78,16 @@ The San Jose International Airport is about 36 miles southwest of the Laboratory
 <center><iframe id="badge" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d789.3260162384117!2d-121.71731449269105!3d37.68905749741413!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x160e174249c59775!2sLawrence+Livermore+National+Laboratory+Westgate+Badge+Office!5e0!3m2!1sen!2sus!4v1470852626753" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></center>
 <h4>I-580 to the Laboratory's Westgate Badge Office</h4>
 
-    To go to the Lab's Westgate Badge Office, take the Vasco Road exit. Keep to the right at the fork in the exit ramp.
+    To go to the Lab's Westgate Badge Office, take the Vasco Road exit.
+    Keep to the right at the fork in the exit ramp.
     Travel SOUTH on Vasco Road about 1.5 miles.
     Turn left at Westgate Drive, the fourth traffic light on Vasco Road.
-    Take the first right to the Laboratory's Westgate Badge Office, which is the first building to the right before passing the guarded entrance. All visitors must check in at this office prior to entering the Laboratory's main site.
-    PCMDI is located on the second floor of the large gray-colored LLNL Building 170 that is visible from the Westgate Badge Office.
-
-
+    Take the first right to the Laboratory's Westgate Badge Office,
+    which is the first building to the right before passing the guarded
+    entrance. All visitors must check in at this office prior to entering
+    the Laboratory's main site.
+    PCMDI is located on the second floor of the large gray-colored LLNL
+    Building 170 that is visible from the Westgate Badge Office.
 
 <script>
 
@@ -101,7 +103,6 @@ if ((screen.width < 650) && (screen.width > 450)){
     document.getElementById("oklmap").style.height="300px";
     document.getElementById("oklmap").style.border="1px";
 
-
     document.getElementById("sjmap").src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d808269.8513667781!2d-122.64880997732568!3d37.689056512109126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x808f778c55555555%3A0xa4f25c571acded3f!2sSan+Francisco+International+Airport+(SFO)%2C+San+Francisco%2C+CA+94128!3m2!1d37.6213129!2d-122.3789554!4m5!1s0x808fde1cf96c9a41%3A0xf7e280030f00ed38!2sLawrence+Livermore+National+Laboratory%2C+East+Avenue%2C+Livermore%2C+CA!3m2!1d37.6876861!2d-121.706457!5e0!3m2!1sen!2sus!4v1469027601592";
     document.getElementById("sjmap").style.width="400px";
     document.getElementById("sjmap").style.height="300px";
@@ -111,7 +112,6 @@ if ((screen.width < 650) && (screen.width > 450)){
     document.getElementById("badge").style.width="400px";
     document.getElementById("badge").style.height="300px";
     document.getElementById("badge").style.border="1px";
-
 
 }
 
@@ -140,7 +140,5 @@ if ((screen.width < 450) && (screen.width > 310 )){
 
 
 }
-
-
 
 </script>
