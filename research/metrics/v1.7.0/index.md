@@ -91,9 +91,9 @@ Latest:
 
 Earlier versions:
 
-* Gleckler, P. J., Doutriaux, C., Durack, P. J., Taylor, K. E., Zhang, Y., Williams, D. N., Mason, E., and Servonnat, J.: A more powerful reality test for Earth System Models, Eos T. Am. Geophys. Un., 97, https://doi.org/10.1029/2016eo051663, **2016**. 
+* Gleckler, P. J., Doutriaux, C., Durack, P. J., Taylor, K. E., Zhang, Y., Williams, D. N., Mason, E., and Servonnat, J.: A more powerful reality test for climate models, Eos T. Am. Geophys. Un., 97, https://doi.org/10.1029/2016eo051663, **2016**. 
 
-* Gleckler, P. J., Taylor, K. E., and Doutriaux, C.: Performance metrics for Earth System Models, J. Geophys. Res., 113, D06104, https://doi.org/10.1029/2007jd008972, **2008**. 
+* Gleckler, P. J., Taylor, K. E., and Doutriaux, C.: Performance metrics for climate models, J. Geophys. Res., 113, D06104, https://doi.org/10.1029/2007jd008972, **2008**. 
 
 
 ---
