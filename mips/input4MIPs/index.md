@@ -26,6 +26,6 @@ Earlier versions of many of these datasets were used in the [5th Coupled Model I
 
 [CMIP6EndorsedMIPs]: http://www.wcrp-climate.org/modelling-wgcm-mip-catalogue/modelling-wgcm-cmip6-endorsed-mips
 [CMIP5]: /mips/cmip5
-[CMIP6]: https://aims2.llnl.gov/search?project=input4MIPs&activeFacets={%22mip_era%22:%22CMIP6%22}
-[CMIP6Plus]: https://aims2.llnl.gov/search?project=input4MIPs&activeFacets={%22mip_era%22:%22CMIP6Plus%22}
+[CMIP6]: {% raw %} https://aims2.llnl.gov/search?project=input4MIPs&activeFacets={%22mip_era%22:%22CMIP6%22} {% endraw %}
+[CMIP6Plus]: {% raw %} https://aims2.llnl.gov/search?project=input4MIPs&activeFacets={%22mip_era%22:%22CMIP6Plus%22} {% endraw %}
 [input4MIPs]: https://input4mips-cvs.readthedocs.io
