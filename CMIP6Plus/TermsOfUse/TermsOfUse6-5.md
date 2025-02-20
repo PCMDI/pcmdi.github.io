@@ -27,11 +27,11 @@ Additional CMIP6Plus project information can be obtained from the CMIP-IPO [CMIP
 
 The CMIP6Plus archive contains the output of scientific simulations of the past and potential future that are subject to multiple sources of error, ranging from errors in data handling to errors in the representation of the real world in either the model or the experimental setup for which the model was used. Different parts of the CMIP6Plus archive may be subject to differing levels of such errors, and users should be alert to these issues and their potential consequences (and to the limitations of liability expressed in the data licenses).
 
-###### Document version: 6.5 (19 February 2025)
+###### Document version: 6.5 (20 February 2025)
 
 [CC BY 4.0]: https://creativecommons.org/licenses/by/4.0/
 [CMIP6Plus]: https://wcrp-cmip.org/cmip6plus/
 [Data Citation Guidelines]: http://bit.ly/2gBCuqM
-[here (model names)]: https://wcrp-cmip.github.io/CMIP6Plus_CVs/docs/CMIP6Plus_source_id.html
-[here (institution names)]: https://wcrp-cmip.github.io/CMIP6Plus_CVs/docs/CMIP6Plus_institution_id.html
+[here (model names)]: https://github.com/WCRP-CMIP/CMIP6Plus_CVs/blob/main/CMIP6Plus_source_id.json
+[here (institution names)]: https://github.com/WCRP-CMIP/WCRP-universe/tree/main/src-data/organisation
 [CMIP Publications webpage]: https://cmip-publications.llnl.gov
