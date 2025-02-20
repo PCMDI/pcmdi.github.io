@@ -22,13 +22,15 @@ prototype data are currently available,
 Earlier versions of forcing data were prepared for the preceding phase, CMIP6,
 and were also [published to the input4MIPs CMIP6 MIP era on ESGF][CMIP6], which
 include data for the CMIP6 DECK experiments, and additional datasets were
-prepared for many of the [CMIP6-endorsed model intercomparison projects (MIPs) experiments][CMIP6EndorsedMIPs].
+prepared for many of the
+[CMIP6-endorsed model intercomparison projects (MIPs) experiments][CMIP6EndorsedMIPs].
 
-Earlier versions of many of these datasets were used in the [5th Coupled Model Intercomparison Project (CMIP5)][CMIP5].
+Earlier versions of many of these datasets were used in the
+[5th Coupled Model Intercomparison Project (CMIP5)][CMIP5].
 
 [More Information][input4MIPs]
 
-[CMIP6EndorsedMIPs]: http://www.wcrp-climate.org/modelling-wgcm-mip-catalogue/modelling-wgcm-cmip6-endorsed-mips
+[CMIP6EndorsedMIPs]: https://wcrp-cmip.org/mips/cmip6-endorsed-mips/
 [CMIP5]: /mips/cmip5
 [CMIP6]: {% raw %} https://aims2.llnl.gov/search?project=input4MIPs&activeFacets={%22mip_era%22:%22CMIP6%22} {% endraw %}
 [CMIP6Plus]: {% raw %} https://aims2.llnl.gov/search?project=input4MIPs&activeFacets={%22mip_era%22:%22CMIP6Plus%22} {% endraw %}
