@@ -43,21 +43,22 @@ Colorado State University |  |  |
 --- | --- | --- | ---
 [Barnes, Elizabeth][barnes] | | |
 [Arcodia, Marybeth][arcodia] | | |
+[Rugenstein, Maria][rugenstein] | | |
 [Valkonen, Elina][valkonen] | | |
 {: class="table table-striped"}
 
 UC Davis |  |  |
 --- | --- | --- | ---
-[Han, Yushan][hany] | | |
 [Chen, Hongyu][chenh] | | |
+[Han, Yushan][hany] | | |
 {: class="table table-striped"}
 
 Princeton University/NOAA-GFDL |  |  |
 --- | --- | --- | ---
-[MacGilchrist, Graeme][macgilchrist] | | |
-[Tesdal, Jan-Erik][tesdal] | | |
 [Griffies, Stephen][griffies] | | |
 [Krasting, John][krasting] | | |
+[MacGilchrist, Graeme][macgilchrist] | | |
+[Tesdal, Jan-Erik][tesdal] | | |
 {: class="table table-striped"}
 
 Pacific Northwest National Laboratory |  |  |
@@ -73,7 +74,6 @@ Pacific Northwest National Laboratory |  |  |
 [Caldwell, Peter][caldwell] | Research Scientist | caldwell19@llnl.gov | (925) 422-4197
 [Covey, Curt][covey] | Research Scientist | covey1@llnl.gov | (925) 422-1828
 [Golaz, Chris][golaz] | Research Scientist | golaz1@llnl.gov | (925) 423-6912
-[Santer, Ben][santer] | Research Scientist | |
 [Xie, Shaocheng][xie] | Research Scientist | xie2@llnl.gov | (925) 422-6023
 [Zhang, Chengzhu][zhang40] | Research Scientist | zhang40@llnl.gov | (925) 424-4573
 {: class="table table-striped"}
@@ -81,19 +81,20 @@ Pacific Northwest National Laboratory |  |  |
 ## Former participants
 
 --- | --- | --- | --- | ---
+[Ahn, Min-Seop][ahn] | Post-Doctoral Research Scientist |  | 
 [Doutriaux, Charles][doutriaux] | Computer Scientist | doutriaux1@llnl.gov | (925) 422-1487
 [Harris, Matthew][harris] | Computer Scientist | harris112@llnl.gov | (925) 423-8978
+[Klein, Steve][klein] | Project Leader | |
 [Nadeau, Denis][nadeau] | Computer Scientist | |
 [Painter, Jeff][painter] | Computer Scientist | |
-[Phillips, Tom][phillips] | Research Scientist | phillips14@llnl.gov | (925) 422-0072
+[Phillips, Tom][phillips] | Research Scientist | |
+[Qin, Hongchen][qin5] | Post-Doctoral Research Scientist | |
+[Santer, Ben][santer] | Research Scientist | |
 [Sperber, Ken][sperber] | Research Scientist | |
 [Williams, Dean][williams] | Computer Scientist	 | |
-[Klein, Steve][klein] | Project Leader | |
-[Qin, Hongchen][qin5] | Post-Doctoral Research Scientist | |
-[Ahn, Min-Seop][ahn] | Post-Doctoral Research Scientist |  | 
 {: class="table table-striped"}
 
-###### Document version: 1 June 2023
+###### Document version: 25 February 2025
 
 [ahn]: https://people.llnl.gov/ahn6
 [ames]: {{site.baseurl}}/staff/ames
@@ -137,6 +138,7 @@ Pacific Northwest National Laboratory |  |  |
 
 [barnes]: https://www.atmos.colostate.edu/people/faculty/barnes/
 [arcodia]: https://sites.google.com/view/barnesgroup-csu/group
+[rugenstein]: https://www.atmos.colostate.edu/people/faculty/rugenstein/
 [valkonen]: https://sites.google.com/view/barnesgroup-csu/group
 
 [chenh]: https://climate.ucdavis.edu/people.php
