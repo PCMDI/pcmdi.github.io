@@ -1,9 +1,9 @@
 ---
 layout: detect
-title: Detection and Attribution
+title: Drivers and Responses of Observed Variability and Change
 ---
 
-# Detection and Attribution
+# Drivers and Responses of Observed Variability and Change
 ### Synthetic Microwave Sounding Unit (MSU) temperatures
 
 ---

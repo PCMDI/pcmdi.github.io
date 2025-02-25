@@ -1,14 +1,12 @@
 --- 
 layout: detect 
-title: Detection & Attribution 
+title: Drivers and Responses of Observed Variability and Change 
 ---
-# Detection & Attribution Group
+# Drivers and Responses of Observed Variability and Change
 
 <br>
 
 * [Celine Bonfils](https://people.llnl.gov/bonfils2)
-* [Benjamin Santer](https://people.llnl.gov/santer1)
 * [Giuliana Pallotta Goldhahn](https://people.llnl.gov/pallottagold1)
 * [Jeffrey Painter](https://people.llnl.gov/painter1)
 * [Stephen Po-Chedley](https://people.llnl.gov/pochedley1)
-

@@ -1,8 +1,8 @@
 --- 
 layout: detect 
-title: Detection & Attribution 
+title: Drivers and Responses of Observed Variability and Change 
 ---
-# Detection and Attribution Publications
+# Drivers and Responses of Observed Variability and Change
 
 ---
 ## Publications
