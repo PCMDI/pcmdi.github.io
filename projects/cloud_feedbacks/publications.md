@@ -10,7 +10,18 @@ title: Cloud Feedbacks
 ## Publications
 
 ### 2025
+* Bonan, D. B., J. E. Kay, N. Feldl, and M. D. Zelinka, 2025: Mid-latitude clouds contribute to Arctic amplification via interactions with other climate feedbacks, _Environ. Res.: Climate_, 4, 015001, doi:[10.1088/2752-5295/ada84b](https://iopscience.iop.org/article/10.1088/2752-5295/ada84b).
+
 * Lin, Y., G. V. Cesana, C. Proistosescu, M. D. Zelinka, and K. C. Armour, 2025: The Relative Importance of Forced and Unforced Temperature Patterns in Driving the Time Variation of Low-Cloud Feedback. _J. Climate_, 38, 513–529, doi:[10.1175/JCLI-D-24-0014.1](https://journals.ametsoc.org/view/journals/clim/38/2/JCLI-D-24-0014.1.xml).
+
+* Mauritsen, T., et al. including S. A. Klein and M. D. Zelinka, 2025: Earth’s energy imbalance more than doubled in recent decades, _AGU adv._, 6, doi:[10.1029/2024AV001636](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024AV001636).
+  
+* Norris, J., S. Rahimi, L. Huang, B. Bass, C. W. Thackeray, and A. Hall, 2025: Uncertainty of western U.S. snowfall loss derived from regional climate model large ensemble, _npj Clim. Atmos. Sci._, 8, 134, doi:[10.1038/s41612-025-01002-2](https://www.nature.com/articles/s41612-025-01002-2).
+
+* Zelinka, M. D., L.-W. Chao, T. A. Myers, Y. Qin, and S. A. Klein, 2025: Technical note: Recommendations for diagnosing cloud feedbacks and rapid cloud adjustments using cloud radiative kernels, _Atmos. Chem. Phys._, 25, 1477-1495, doi:[10.5194/acp-25-1477-2025](https://acp.copernicus.org/articles/25/1477/2025/acp-25-1477-2025.html).
+
+* Zhou, C., Q. Wang, I. Tan, L. Zhang, M. D. Zelinka, M. Wang, and J. Bloch-Johnson, 2025: Sea ice pattern effect on Earth’s energy budget is characterized by hemispheric asymmetry, _Sci. Adv._, 11, doi:[10.1126/sciadv.adr4248](https://www.science.org/doi/10.1126/sciadv.adr4248).
+
 
 ### 2024
 * Ceppi, P., T. A. Myers, P. Nowack, C. J. Wall, & M. D. Zelinka, 2024: Implications of a pervasive climate model bias for low-cloud feedback, _Geophys. Res. Lett._, 51, doi:[10.1029/2024GL110525](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024GL110525).
@@ -26,7 +37,9 @@ title: Cloud Feedbacks
 * Qin, Y., X. Zheng, S. A. Klein, M. D. Zelinka, P.-L. Ma, J.-C. Golaz, S. Xie, 2024: Causes of Reduced Climate Sensitivity in E3SM from Version 1 to Version 2, _J. Adv. Model. Earth Syst._, doi:[10.1029/2023MS003875](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2023MS003875).
 
 * Tan, I., M. D. Zelinka, et al., 2024: Contributions from cloud morphological changes to the interannual shortwave cloud feedback based on MODIS and ISCCP satellite observations, _J. Geophys. Res._, 129, doi:[10.1029/2023JD040540](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2023JD040540).
-  
+
+* Thackeray, C. W., M. D. Zelinka, J. Norris, A. Hall, S. Po-Chedley, 2024: Relationship between tropical cloud feedback and climatological bias in clouds. _Geophysical Research Letters_, 51, [doi:10.1029/2024GL111347](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024GL111347)
+     
 * Zhang, Y., Xie, S., Qin, Y., Lin, W., Golaz, J.-C., Zheng, X., Ma, P.-L., Qian, Y., Tang, Q., Terai, C. R., and Zhang, M, 2024: Understanding changes in cloud simulations from E3SM version 1 to version 2, _Geosci. Model Dev._, 17, 169–189, doi:[10.5194/gmd-17-169-2024](https://gmd.copernicus.org/articles/17/169/2024/).
   
 * Zhao, X., et al. including Y. Qin,  M. D. Zelinka,  S. A. Klein, P.-L. Ma, 2024: Larger cloud liquid water enhances both aerosol indirect forcing and cloud radiative feedback in two Earth System Models, _Geophys. Res. Lett._, 51, doi:[10.1029/2023GL105529](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2023GL105529). 
