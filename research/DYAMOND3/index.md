@@ -43,7 +43,7 @@ To address several of the primary goals listed above does not generally require 
 ### Data Format
 - The  0.25˚ horizontal resolution grid to which data should be coarsened is defined in [this scrip grid file](https://web.lcrc.anl.gov/public/e3sm/mapping/grids/cmip6_720x1440_scrip.20181001.nc).
 - 3D data should be regridded to the following 37 pressure levels: 1000, 975, 950, 925, 900, 875, 850, 825, 800, 775, 750, 700, 650, 600, 550, 500, 450, 400, 350, 300, 250, 225, 200, 175, 150, 125, 100, 70, 50, 30, 20, 10, 7, 5, 3, 2, and 1 hPa.
-- Data is to be provided in NetCDF files conforming to [Climate and Forecast (CF) Metadata Conventions](http://cf-pcmdi.llnl.gov/).
+- Data is to be provided in NetCDF files conforming to [Climate and Forecast (CF) Metadata Conventions](https://cfconventions.org/).
 - For hourly and 3-hourly fields, one file per variable per day is requested.
 - For monthly fields, one file per variable per month is requested.
 - The axes should be named as time, level (for multi level fields), latitude, and longitude.
