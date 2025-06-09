@@ -10,7 +10,7 @@ group: "navigation"
 
 For the latest CMIP7 information, please see the dedicated WCRP-CMIP homepage ([https://wcrp-cmip.org](https://wcrp-cmip.org/cmip-phases/cmip7/)). For CMIP mailing list and engagement information, please see the dedicated "getting involved" homepage ([here](https://wcrp-cmip.org/get-involved/)). For ESGF and MIP data download information, please see the ESGF homepage ([https://esgf.github.io](https://esgf.github.io)), along with ESGF mailing list info ([here](https://esgf.github.io/mailing-list.html)).
 
-For CMIP6 and earlier phase information, please see the homepages on this site at [CMIP6](../CMIP6), [CMIP5](../mips/cmip5), [CMIP3](../mips/cmip3/) and all earlier MIP phases [here](../mips).
+For CMIP6 and earlier phase information, please see the [CMIP6](../CMIP6), [CMIP5](../mips/cmip5), [CMIP3](../mips/cmip3/) homepages on this site, or for all earlier MIP phases [here](../mips).
 
 ## Project staff @ LLNL
 
