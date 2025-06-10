@@ -43,11 +43,11 @@ obs4MIPs (Observations for Model Intercomparisons Project) is an activity to mak
 ### [input4MIPs][input4MIPs]
 input4MIPs (input datasets for Model Intercomparison Projects) is an activity to make available via ESGF the boundary condition and forcing datasets needed for CMIP6 and CMIP7. The latest information about CMIP7 datasets can be found on the <a href="https://input4mips-cvs.readthedocs.io" target="_blank">input4MIPs_CVs website</a>.
 
-Various datasets are needed for the pre-industrial control (piControl), AMIP, and historical simulations, and additional datasets were needed for many of the <a href="https://wcrp-cmip.org/mips/cmip6-endorsed-mips" target="_blank">[CMIP6-endorsed model intercomparison projects (MIPs) experiments</a>, along with those that will be needed for the CMIP7 MIP follow-ons.
+Various datasets are needed for the pre-industrial control (piControl), AMIP, and historical simulations, and additional datasets were needed for many of the <a href="https://wcrp-cmip.org/mips/cmip6-endorsed-mips" target="_blank">CMIP6-endorsed model intercomparison projects (MIPs) experiments</a>, along with those that will be needed for the CMIP7 MIP follow-ons.
 
 Earlier versions of many of these datasets were used in the [5th Coupled Model Intercomparison Project (CMIP5)][CMIP5]</a>.
 
-##### Document version:  9 June 2025
+##### Document version: 10 June 2025
 
 [AMIP]:{{site.baseurl}}/mips/amip/amip.html
 [CMIP]:{{site.baseurl}}/mips/cmip/about-cmip.html

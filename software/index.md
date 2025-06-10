@@ -24,7 +24,7 @@ The xarray Climate Data Analysis Tools package (xCDAT) is an xarray extension fo
 ### [the Community Data Analysis Tools (CDAT; deprecated)][CDAT]
 the Community Data Analysis Tools (CDAT) was a powerful and complete front-end to a rich set of visual-data exploration and analysis capabilities well suited for climate-data analysis problems. This software is now formally deprecated and no longer supported.
 
-##### Document version:  9 June 2025
+##### Document version: 10 June 2025
 
 [CF]:http://cfconventions.org
 [CMOR]:http://cmor.llnl.gov
