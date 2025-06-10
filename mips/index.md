@@ -34,7 +34,7 @@ The Coupled Model Intercomparison Project Phase VII
 # obs4MIPs
 
 ### [obs4MIPs][obs4MIPs]
-obs4MIPs (Observations for Model Intercomparisons Project) is an activity to make observational products more accessible for climate model intercomparisons
+obs4MIPs (Observations for Model Intercomparison Projects) is an activity to make observational products more accessible for climate model intercomparisons.
 
 ---
 
@@ -45,9 +45,13 @@ input4MIPs (input datasets for Model Intercomparison Projects) is an activity to
 
 Various datasets are needed for the pre-industrial control (piControl), AMIP, and historical simulations, and additional datasets were needed for many of the <a href="https://wcrp-cmip.org/mips/cmip6-endorsed-mips" target="_blank">CMIP6-endorsed model intercomparison projects (MIPs) experiments</a>, along with those that will be needed for the CMIP7 MIP follow-ons.
 
-Earlier versions of many of these datasets were used in the [5th Coupled Model Intercomparison Project (CMIP5)][CMIP5]</a>.
+Earlier versions of many of these datasets were used in the [5th Coupled Model Intercomparison Project (CMIP5)][CMIP5].
 
-##### Document version: 10 June 2025
+
+
+
+
+###### Document version: 10 June 2025
 
 [AMIP]:{{site.baseurl}}/mips/amip/amip.html
 [CMIP]:{{site.baseurl}}/mips/cmip/about-cmip.html

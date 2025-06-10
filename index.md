@@ -12,6 +12,3 @@ group: "navigation"
 
 
 ###### Document version: 25 February 2022
-
-
-
