@@ -136,7 +136,8 @@ All output is expected to be time-averaged to the requested temporal resolution(
 
 ### Additional Information
 * Globus should be used to copy data to NERSC. See instuctions at [this location](https://docs.nersc.gov/services/globus/).
-* To set up an account on NERSC to analyze the data, please contact [Mark Zelinka](mailto:zelinka1@llnl.gov) and [Paul Ullrich](mailto:ullrich4@llnl.gov).<br/><br/>
+* To set up an account on NERSC to analyze the data, please contact [Paul Ullrich](mailto:ullrich4@llnl.gov).
+* For questions about this protocol or to provide feedback on it, please contact [Mark Zelinka](mailto:zelinka1@llnl.gov).<br/><br/>
 
 ### Acknowledgments
 This work is sponsored by the Regional and Global Model Analysis ([RGMA](https://climatemodeling.science.energy.gov/program/regional-global-model-analysis)) program of the Earth and Environmental Systems Sciences Division ([EESSD](https://science.osti.gov/ber/Research/eessd)) in the Office of Biological and Environmental Research ([BER](https://science.osti.gov/ber)) within the Department of Energy's ([DOE](https://www.energy.gov/)) Office of Science ([OS](https://science.osti.gov/)). The work at PCMDI is performed under the auspices of the U.S. Department of Energy by Lawrence Livermore National Laboratory under Contract DE-AC52-07NA27344.
