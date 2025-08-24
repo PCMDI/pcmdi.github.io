@@ -8,9 +8,17 @@ group: "navigation"
 
 ## CMIP and ESGF queries and information
 
-For the latest CMIP7 information, please see the dedicated WCRP-CMIP homepage ([https://wcrp-cmip.org](https://wcrp-cmip.org/cmip-phases/cmip7/)). For CMIP mailing list and engagement information, please see the dedicated "getting involved" homepage ([here](https://wcrp-cmip.org/get-involved/)). For ESGF and MIP data download information, please see the ESGF homepage ([https://esgf.github.io](https://esgf.github.io)), along with ESGF mailing list info ([here](https://esgf.github.io/mailing-list.html)).
+For the latest CMIP7 information, please see the dedicated WCRP-CMIP homepage
+([https://wcrp-cmip.org](https://wcrp-cmip.org/cmip-phases/cmip7/)). For CMIP
+mailing list and engagement information, please see the dedicated "getting involved"
+homepage ([here](https://wcrp-cmip.org/get-involved/)). For ESGF and MIP data
+download information, please see the ESGF homepage
+([https://esgf.github.io](https://esgf.github.io)), along with ESGF mailing
+list info ([here](https://esgf.github.io/mailing-list.html)).
 
-For CMIP6 and earlier phase information, please see the [CMIP6](../CMIP6), [CMIP5](../mips/cmip5), [CMIP3](../mips/cmip3/) homepages on this site, or for all earlier MIP phases [here](../mips).
+For CMIP6 and earlier phase information, please see the [CMIP6](../CMIP6),
+[CMIP5](../mips/cmip5), [CMIP3](../mips/cmip3/) homepages on this site, or
+for all earlier MIP phases [here](../mips).
 
 ## Project staff @ LLNL
 
@@ -19,8 +27,8 @@ Name | Position | E-mail | Phone Number
 [Ullrich, Paul][ullrich] | Project Leader | ullrich4@llnl.gov |
 [Ames, Sasha][ames] | Computer Scientist | ames4@llnl.gov | (925) 424-4644
 [Bonfils, Celine][bonfils] | Research Scientist | bonfils2@llnl.gov | (925) 423-9923
-[Chang, Kristin][chang] | Research Scientist | chang61@llnl.gov |
-[Dong, Bo][dong] | Post-Doctoral Research Scientist | dong12@llnl.gov |
+[Chang, Kristin][chang] | Research Scientist | chang61@llnl.gov | (925) 422-4834
+[Chao, Li-Wei][chao] | Post-Doctoral Research Scientist | chao5@llnl.gov |
 [Durack, Paul][durack] | Research Scientist | durack1@llnl.gov | (925) 422-5208
 [Gleckler, Peter][gleckler] | Research Scientist | gleckler1@llnl.gov | (925) 422-7631
 [Hoang, Anthony][hoang] | Systems Manager | hoang1@llnl.gov | (925) 423-6733
@@ -28,7 +36,6 @@ Name | Position | E-mail | Phone Number
 [Lee, Jiwoo][lee] | Research Scientist | lee1043@llnl.gov | (925) 422-0932
 [Ma, Hsi-Yen][ma] | Research Scientist | ma21@llnl.gov | (925) 422-5958
 [Mauzey, Christopher][mauzey] | Computer Scientist | mauzey1@llnl.gov | (925) 422-6970
-[Ordonez, Ana][ordonez] | Research Scientist | ordonez4@llnl.gov |
 [Pallotta, Giuliana][pallotta] | Research Scientist | pallottagold1@llnl.gov | (925) 422-2778
 [Po-Chedley, Stephen][pochedley] | Research Scientist | pochedley1@llnl.gov | (925) 422-3421
 [Taylor, Karl][taylor] | Research Scientist | taylor13@llnl.gov | (925) 423-3623
@@ -63,7 +70,6 @@ Princeton University/NOAA-GFDL |  |  |
 --- | --- | --- | ---
 [Griffies, Stephen][griffies] | | |
 [Krasting, John][krasting] | | |
-[MacGilchrist, Graeme][macgilchrist] | | |
 [Tesdal, Jan-Erik][tesdal] | | |
 {: class="table table-striped"}
 
@@ -76,7 +82,6 @@ Pacific Northwest National Laboratory |  |  |
 ## Affiliated contributors
 
 --- | --- | --- | --- | ---
-[Bader, David][bader] | | |
 [Caldwell, Peter][caldwell] | Research Scientist | caldwell19@llnl.gov | (925) 422-4197
 [Covey, Curt][covey] | Research Scientist | covey1@llnl.gov | (925) 422-1828
 [Golaz, Chris][golaz] | Research Scientist | golaz1@llnl.gov | (925) 423-6912
@@ -87,11 +92,15 @@ Pacific Northwest National Laboratory |  |  |
 ## Former participants
 
 --- | --- | --- | --- | ---
-[Ahn, Min-Seop][ahn] | Post-Doctoral Research Scientist |  | 
+[Ahn, Min-Seop][ahn] | Post-Doctoral Research Scientist | |
+[Bader, David][bader] | | |
+[Dong, Bo][dong] | Post-Doctoral Research Scientist | |
 [Doutriaux, Charles][doutriaux] | Computer Scientist | doutriaux1@llnl.gov | (925) 422-1487
 [Harris, Matthew][harris] | Computer Scientist | harris112@llnl.gov | (925) 423-8978
 [Klein, Steve][klein] | Project Leader | |
+[MacGilchrist, Graeme][macgilchrist] | Post-Doctoral Research Scientist | |
 [Nadeau, Denis][nadeau] | Computer Scientist | |
+[Ordonez, Ana][ordonez] | Research Scientist | |
 [Painter, Jeff][painter] | Computer Scientist | |
 [Phillips, Tom][phillips] | Research Scientist | |
 [Qin, Hongchen][qin5] | Post-Doctoral Research Scientist | |
@@ -100,7 +109,7 @@ Pacific Northwest National Laboratory |  |  |
 [Williams, Dean][williams] | Computer Scientist	 | |
 {: class="table table-striped"}
 
-###### Document version: 10 June 2025
+###### Document version: 24 August 2025
 
 [ahn]: https://people.llnl.gov/ahn6
 [ames]: {{site.baseurl}}/staff/ames
@@ -108,6 +117,7 @@ Pacific Northwest National Laboratory |  |  |
 [bonfils]: {{site.baseurl}}/staff/bonfils
 [caldwell]: https://people.llnl.gov/caldwell19
 [chang]: https://people.llnl.gov/chang61
+[chao]: https://people.llnl.gov/chao5
 [covey]: {{site.baseurl}}/staff/covey
 [dong]: {{site.baseurl}}/staff/#
 [doutriaux]: {{site.baseurl}}/staff/doutriaux
