@@ -52,18 +52,26 @@ UCLA |  |  |
 [Madakumbura, Gavin][madakumbura] | | |
 {: class="table table-striped"}
 
-Colorado State University |  |  |
+Boston University |  |  |
 --- | --- | --- | ---
 [Barnes, Elizabeth][barnes] | | |
-[Arcodia, Marybeth][arcodia] | | |
+[Fernandez, Martin][fernandez] | | |
+{: class="table table-striped"}
+
+Colorado State University |  |  |
+--- | --- | --- | ---
 [Rugenstein, Maria][rugenstein] | | |
-[Valkonen, Elina][valkonen] | | |
 {: class="table table-striped"}
 
 UC Davis |  |  |
 --- | --- | --- | ---
 [Chen, Hongyu][chenh] | | |
 [Han, Yushan][hany] | | |
+{: class="table table-striped"}
+
+University of Miami |  |  |
+--- | --- | --- | ---
+[Arcodia, Marybeth][arcodia] | | |
 {: class="table table-striped"}
 
 Princeton University/NOAA-GFDL |  |  |
@@ -106,10 +114,11 @@ Pacific Northwest National Laboratory |  |  |
 [Qin, Hongchen][qin5] | Post-Doctoral Research Scientist | |
 [Santer, Ben][santer] | Research Scientist | |
 [Sperber, Ken][sperber] | Research Scientist | |
+[Valkonen, Elina][valkonen] | Post-Doctoral Research Scientist | |
 [Williams, Dean][williams] | Computer Scientist	 | |
 {: class="table table-striped"}
 
-###### Document version: 24 August 2025
+###### Document version: 25 August 2025
 
 [ahn]: https://people.llnl.gov/ahn6
 [ames]: {{site.baseurl}}/staff/ames
@@ -142,6 +151,7 @@ Pacific Northwest National Laboratory |  |  |
 [sperber]: {{site.baseurl}}/staff/sperber
 [taylor]: {{site.baseurl}}/staff/taylor
 [ullrich]: https://people.llnl.gov/ullrich4
+[valkonen]: https://sites.google.com/view/barnesgroup-csu/group
 [williams]:{{site.baseurl}}/staff/williams
 [xie]: {{site.baseurl}}/staff/Xie
 [zelinka]: https://mzelinka.github.io
@@ -152,13 +162,15 @@ Pacific Northwest National Laboratory |  |  |
 [thackeray]: https://dept.atmos.ucla.edu/alexhall/people/chad-thackeray
 [madakumbura]: https://dept.atmos.ucla.edu/alexhall/people/gavin-dayanga
 
-[barnes]: https://www.atmos.colostate.edu/people/faculty/barnes/
-[arcodia]: https://sites.google.com/view/barnesgroup-csu/group
+[barnes]: https://sites.google.com/view/barnesgroup-csu/group
+[fernandez]: https://mafern.github.io/ 
+
 [rugenstein]: https://www.atmos.colostate.edu/people/faculty/rugenstein/
-[valkonen]: https://sites.google.com/view/barnesgroup-csu/group
 
 [chenh]: https://climate.ucdavis.edu/people.php
 [hany]: https://climate.ucdavis.edu/people.php
+
+[arcodia]: https://marybetharcodia.wixsite.com/earth
 
 [macgilchrist]: https://gmacgilchrist.github.io/
 [tesdal]: https://aos.princeton.edu/people/jan-erik-tesdal
