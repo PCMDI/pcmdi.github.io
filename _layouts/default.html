@@ -4,7 +4,9 @@
         {% include head.html %}
     </head>
     <body>
+        {% if site.us_gov_site %}
         {% include usa_banner.html %}
+        {% endif %}
         {% include pcmdi_nav.html %}
 
         <div class="container" id="top">
