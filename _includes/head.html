@@ -7,6 +7,9 @@
 
 <title>{{ page.title }}</title>
 
+{% if site.us_gov_site %}
+<link rel="stylesheet" href="{{site.baseurl}}/Data/uswds/css/uswds.min.css">
+{% endif %}
 <link rel="stylesheet" href="{{site.baseurl}}/Data/media/css/bootstrap.min.css"/>
 <link rel="stylesheet" href="{{site.baseurl}}/Data/media/css/bootstrap.mods.css"/>
 <link rel="stylesheet" href="{{site.baseurl}}/Data/media/css/shadowbox.css"/>
@@ -26,3 +29,8 @@
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script type="text/javascript" src="{{site.baseurl}}/Data/media/js/googleAnalyticsTag.js" ></script>
+
+{% if site.us_gov_site %}
+<!-- U.S. Web Design System (USWDS) -->
+<script src="{{site.baseurl}}/Data/uswds/js/uswds-init.min.js"></script>
+{% endif %}
