@@ -1,6 +1,7 @@
 ---
 layout: default
 title: PCMDI - DYAMOND3
+description: DYAMOND3 homepage
 ---
 
 # DYAMOND3
