@@ -2,6 +2,7 @@
 layout: default
 title:  About
 group: "navigation"
+description: Earth System Model Evaluation Project is furthering the understanding of Earth system change through model and observational analysis and community leadership
 ---
 
 <div class="hero-unit">

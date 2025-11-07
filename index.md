@@ -2,6 +2,7 @@
 layout: default
 title: Home
 group: "navigation"
+description: PCMDI homepage
 ---
 <img src="{{site.baseurl}}/Data/media/images/220224_durack1_PCMDILogoWithText-trim-940Wpx-png8.png"
      alt="PCMDI Earth System Model Evaluation Project - logo"
