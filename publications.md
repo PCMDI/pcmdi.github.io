@@ -2,6 +2,7 @@
 layout: default
 title:  Publications
 group: "navigation"
+description: Publications with involvement from PCMDI researchers
 ---
 
 Publications

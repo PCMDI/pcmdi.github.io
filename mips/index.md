@@ -2,6 +2,7 @@
 layout: default
 title: MIPs
 group: "navigation"
+description: Past and current intercomparison projects
 ---
 
 # Model Intercomparison
