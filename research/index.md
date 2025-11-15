@@ -2,6 +2,7 @@
 layout: default
 title: Research
 group: "navigation"
+description: An overview of PCMDI's research projects
 ---
 
 # Earth System Model (ESM) Evaluation

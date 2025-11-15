@@ -1,6 +1,7 @@
 ---
 layout: default
 title: PCMDI - Metrics
+description: The PCMDI Metrics Package homepage
 ---
 
 ###### [Research][research] > [Metrics][metrics]

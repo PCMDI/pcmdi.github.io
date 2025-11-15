@@ -1,6 +1,7 @@
 ---
 layout: default
 title: CMIP6Plus Homepage
+description: CMIP6Plus Homepage
 ---
 
 # CMIP6Plus - Coupled Model Intercomparison Project Phase 6+

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: CMIP6 Participation Guidance for Data Managers
+description: Guidance for managers of ESGF data nodes
 ---
 
 <style type="text/css">

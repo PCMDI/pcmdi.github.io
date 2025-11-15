@@ -1,6 +1,7 @@
 ---
 layout: default
 title: CMIP6 Homepage
+description: An overview of CMIP6 with links to user, manager, and modeler guides, CMIP6 output archives, and other CMIP6-related info
 ---
 
 # CMIP6 - Coupled Model Intercomparison Project Phase 6

@@ -2,6 +2,7 @@
 layout: default
 title: Software
 group: "navigation"
+description: Software developed or supported by PCMDI
 ---
 
 # Software

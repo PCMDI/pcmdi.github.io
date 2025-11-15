@@ -2,6 +2,7 @@
 layout: default
 title:  Staff
 group: "navigation"
+description: Listings of current and former PCMDI staff, and collaborators from other institutions
 ---
 
 # The PCMDI Community
