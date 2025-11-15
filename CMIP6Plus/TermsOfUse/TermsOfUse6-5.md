@@ -1,6 +1,7 @@
 ---
 layout: default
 title:  CMIP6Plus Terms of Use
+description:  CMIP6Plus Terms of Use
 ---
 
 # CMIP6Plus: Terms of Use
