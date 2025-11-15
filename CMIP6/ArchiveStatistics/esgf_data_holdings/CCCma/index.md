@@ -1,6 +1,7 @@
 ---
 layout: default
 title: ESGF CMIP6 CCCma Data Holdings
+description: ESGF CMIP6 CCCma Data Holdings
 ---
 
 # ESGF CMIP6 CCCma Data Holdings

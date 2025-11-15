@@ -1,6 +1,7 @@
 ---
 layout: default
 title: ESGF CMIP6 SIMIP Data Holdings
+description: ESGF CMIP6 SIMIP Data Holdings
 ---
 
 # ESGF CMIP6 SIMIP Data Holdings
