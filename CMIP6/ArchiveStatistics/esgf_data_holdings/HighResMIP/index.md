@@ -1,6 +1,7 @@
 ---
 layout: default
 title: ESGF CMIP6 HighResMIP Data Holdings
+description: ESGF CMIP6 HighResMIP Data Holdings
 ---
 
 # ESGF CMIP6 HighResMIP Data Holdings

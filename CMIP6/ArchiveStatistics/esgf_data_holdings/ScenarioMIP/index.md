@@ -1,6 +1,7 @@
 ---
 layout: default
 title: ESGF CMIP6 ScenarioMIP Data Holdings
+description: ESGF CMIP6 ScenarioMIP Data Holdings
 ---
 
 # ESGF CMIP6 ScenarioMIP Data Holdings

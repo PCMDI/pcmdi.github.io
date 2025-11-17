@@ -1,6 +1,7 @@
 ---
 layout: default
 title: ESGF CMIP6 RFMIP Data Holdings
+description: ESGF CMIP6 RFMIP Data Holdings
 ---
 
 # ESGF CMIP6 RFMIP Data Holdings
