@@ -9,14 +9,50 @@ title: Cloud Feedbacks
 ---
 ## Publications
 
+### 2026
+* Ceppi, P., S. Wilson Kemsley, H. Andersen, T. Andrews, R. J. Kramer, P. Nowack, C. J. Wall, and M.D. Zelinka, 2026: Emerging low-cloud feedback and adjustment in global satellite observations, Atmos. Chem. Phys., 26, 4153–4171, doi:[10.5194/acp-26-4153-2026](https://acp.copernicus.org/articles/26/4153/2026/).
+
+* Chao, L.-W., M. D. Zelinka, C. R. Terai, H. Beydoun, B. R. Hillman, N. D. Keen, P. M. Caldwell, P.A. Bogenschutz, and S. A. Klein, 2026: Examining Cloud Feedback Components in the Simple Cloud-Resolving E3SM Atmosphere Model (SCREAM), J. Climate, doi:[10.1175/JCLI-D-25-0656.1](https://journals.ametsoc.org/view/journals/clim/aop/JCLI-D-25-0656.1/JCLI-D-25-0656.1.xml), in press.
+
+* Dingley, B., et al. including M. D. Zelinka, 2026: CMIP7 Data Request: Atmosphere Priorities and Opportunities, Geosci. Model Dev., in press.
+
+* Espinosa, Z., M. D. Zelinka, C. M. Bitz, K. C. Armour, 2026: The Strength of Coupling to the Southern Ocean Modulates Tropical Eastern Pacific Variability and Forced Response, J. Climate, 39, 1543–1558, doi:[10.1175/JCLI-D-25-0226.1](https://journals.ametsoc.org/view/journals/clim/39/6/JCLI-D-25-0226.1.xml).
+
+* Feng, C., et al. including M. D. Zelinka, 2026: Interconnection of Aerosol-Cloud Interactions and Cloud Feedback through Warm Rain Process, J. Geophys. Res., 131, doi:[10.1029/2025JD044854](https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2025JD044854).
+
+* Fridlind, A. M., et al. including M. D. Zelinka, 2025: Toward a Climate OSSE Framework for Satellite Mission Design, Bull. Amer. Meteor. Soc., 107, E431–E445, doi:[10.1175/BAMS-D-24-0242.1](https://journals.ametsoc.org/view/journals/bams/107/3/BAMS-D-24-0242.1.xml).
+
+* Nugent, J. M., et al. including M. D. Zelinka, 2026: Overview of the Nephele Perturbed Parameter Ensemble for aerosol-cloud interactions in E3SMv3, J. Adv. Model. Earth Syst., 18, doi:[10.1029/2025MS004989](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2025MS004989).
+
+* Tam, R. Y. S., T. A. Myers, M. D. Zelinka, C. Proistosescu, Y.-J. Lin, K. Marvel, 2026: Meteorological Drivers of the Low-Cloud Radiative Feedback Pattern Effect and its Uncertainty, Atmos. Chem. Phys., 26, 4289–4311, doi:[10.5194/acp-26-4289-2026](https://acp.copernicus.org/articles/26/4289/2026/).
+
+* Zelinka, M. D., T. A. Myers, Y. Qin, L.-W. Chao, S. A. Klein, S. Po-Chedley, P.-L. Ma, C. Wall, P. Ceppi, A. Gettelman, 2026: Recent cloud trends and extremes reaffirm established bounds on cloud feedback and aerosol-cloud interactions, Commun. Earth Environ., doi:[10.1038/s43247-026-03461-8](https://www.nature.com/articles/s43247-026-03461-8).
+
+* Zhang, Y., et al. including L.-W. Chao and M. D. Zelinka, 2026: Understanding Biases in Simulated Cloud Radiative Effects in E3SMv3, Earth Space Sci., doi:[10.1029/2025EA004757](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2025EA004757).
+
+
 ### 2025
+* Aerenson, T. et al. including M. D. Zelinka, 2025: Global models predict clouds at the wrong time of day: does it matter for radiation and climate? Sci. Adv., 11, eady3236, doi:[10.1126/sciadv.ady3236](https://www.science.org/doi/10.1126/sciadv.ady3236).
+
 * Bonan, D. B., J. E. Kay, N. Feldl, and M. D. Zelinka, 2025: Mid-latitude clouds contribute to Arctic amplification via interactions with other climate feedbacks, _Environ. Res.: Climate_, 4, 015001, doi:[10.1088/2752-5295/ada84b](https://iopscience.iop.org/article/10.1088/2752-5295/ada84b).
+
+* Chao, L.-W., M. D. Zelinka, et al., 2025: Evaluating Mean State Cloud Properties in the Simple Cloud-Resolving E3SM Atmosphere Model (SCREAM), J. Adv. Model. Earth Syst., 17, e2025MS005133. doi:[10.1029/2025MS005133](https://doi.org/10.1029/2025MS005133).
+
+* Hill, P. G., D. L. Finney, and M. D. Zelinka, 2025: Cloud feedback uncertainty in the equatorial Pacific across CMIP6 models, Geophys. Res. Lett., 52, doi:[10.1029/2025GL117183](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2025GL117183).
 
 * Lin, Y., G. V. Cesana, C. Proistosescu, M. D. Zelinka, and K. C. Armour, 2025: The Relative Importance of Forced and Unforced Temperature Patterns in Driving the Time Variation of Low-Cloud Feedback. _J. Climate_, 38, 513–529, doi:[10.1175/JCLI-D-24-0014.1](https://journals.ametsoc.org/view/journals/clim/38/2/JCLI-D-24-0014.1.xml).
 
 * Mauritsen, T., et al. including S. A. Klein and M. D. Zelinka, 2025: Earth’s energy imbalance more than doubled in recent decades, _AGU adv._, 6, doi:[10.1029/2024AV001636](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024AV001636).
   
 * Norris, J., S. Rahimi, L. Huang, B. Bass, C. W. Thackeray, and A. Hall, 2025: Uncertainty of western U.S. snowfall loss derived from regional climate model large ensemble, _npj Clim. Atmos. Sci._, 8, 134, doi:[10.1038/s41612-025-01002-2](https://www.nature.com/articles/s41612-025-01002-2).
+
+* Qin, Y., P. -L. Ma, M. D. Zelinka, S. A. Klein, T. Zhang, X. Zheng, V. E. Larson, M. Huang, 2025: Impact of Turbulence Representation on the Relationship Between Cloud Feedback and Aerosol-Cloud Interaction in an E3SMv2 Perturbed Parameter Ensemble, J. Adv. Model. Earth Syst., 17, doi:[10.1029/2024MS004756](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024MS004756).
+
+* Terai, C. R., et al. including L.-W. Chao, H.-Y. Ma, M. D. Zelinka, Y. Qin, P. Ullrich, 2025: Radiative, hydrologic, and circulation responses to warming in Cess-Potter simulations using the global 3.25-km SCREAM, J. Adv. Model. Earth Syst., 17, doi:[10.1029/2024MS004930](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024MS004930).
+
+* Wall, C., et al., including Y. Qin & P.-L. Ma, 2025: Decomposing Cloud Radiative Feedbacks by Cloud-Top Phase. J. Climate, 38, 4023–4043, doi:[10.1175/JCLI-D-24-0538.1](https://journals.ametsoc.org/view/journals/clim/38/16/JCLI-D-24-0538.1.xml).
+
+* Zehrung, A., A. D King, Z. Nicholls, M. D Zelinka, and M. Meinshausen, 2025: Standardising the “Gregory method” for calculating equilibrium climate sensitivity, Geosci. Model Dev., 18, 9433–9450, doi:[10.5194/gmd-18-9433-2025](https://gmd.copernicus.org/articles/18/9433/2025/).
 
 * Zelinka, M. D., L.-W. Chao, T. A. Myers, Y. Qin, and S. A. Klein, 2025: Technical note: Recommendations for diagnosing cloud feedbacks and rapid cloud adjustments using cloud radiative kernels, _Atmos. Chem. Phys._, 25, 1477-1495, doi:[10.5194/acp-25-1477-2025](https://acp.copernicus.org/articles/25/1477/2025/acp-25-1477-2025.html).
 
