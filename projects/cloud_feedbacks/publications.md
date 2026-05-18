@@ -20,7 +20,7 @@ title: Cloud Feedbacks
 
 * Feng, C., et al. including M. D. Zelinka, 2026: Interconnection of Aerosol-Cloud Interactions and Cloud Feedback through Warm Rain Process, J. Geophys. Res., 131, doi:[10.1029/2025JD044854](https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2025JD044854).
 
-* Fridlind, A. M., et al. including M. D. Zelinka, 2025: Towards a Climate OSSE Framework for Satellite Mission Design, Bull. Amer. Meteor. Soc., 107, E431–E445, doi:[10.1175/BAMS-D-24-0242.1](https://journals.ametsoc.org/view/journals/bams/107/3/BAMS-D-24-0242.1.xml).
+* Fridlind, A. M., et al. including M. D. Zelinka, 2025: Toward a Climate OSSE Framework for Satellite Mission Design, Bull. Amer. Meteor. Soc., 107, E431–E445, doi:[10.1175/BAMS-D-24-0242.1](https://journals.ametsoc.org/view/journals/bams/107/3/BAMS-D-24-0242.1.xml).
 
 * Nugent, J. M., et al. including M. D. Zelinka, 2026: Overview of the Nephele Perturbed Parameter Ensemble for aerosol-cloud interactions in E3SMv3, J. Adv. Model. Earth Syst., 18, doi:[10.1029/2025MS004989](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2025MS004989).
 
