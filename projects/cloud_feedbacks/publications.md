@@ -46,7 +46,7 @@ title: Cloud Feedbacks
   
 * Norris, J., S. Rahimi, L. Huang, B. Bass, C. W. Thackeray, and A. Hall, 2025: Uncertainty of western U.S. snowfall loss derived from regional climate model large ensemble, _npj Clim. Atmos. Sci._, 8, 134, doi:[10.1038/s41612-025-01002-2](https://www.nature.com/articles/s41612-025-01002-2).
 
-* Qin, Y., P. -L. Ma, M. D. Zelinka, S. A. Klein, T. Zhang, X. Zheng, V. E. Larson, M. Huang, 2025: Impact of Turbulence on the Relationship between Cloud Feedback and Aerosol-Cloud Interaction in an E3SMv2 Perturbed Parameter Ensemble, J. Adv. Model. Earth Syst., 17, doi:[10.1029/2024MS004756](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024MS004756).
+* Qin, Y., P. -L. Ma, M. D. Zelinka, S. A. Klein, T. Zhang, X. Zheng, V. E. Larson, M. Huang, 2025: Impact of Turbulence Representation on the Relationship Between Cloud Feedback and Aerosol-Cloud Interaction in an E3SMv2 Perturbed Parameter Ensemble, J. Adv. Model. Earth Syst., 17, doi:[10.1029/2024MS004756](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024MS004756).
 
 * Terai, C. R., et al. including L.-W. Chao, H.-Y. Ma, M. D. Zelinka, Y. Qin, P. Ullrich, 2025: Radiative, hydrologic, and circulation responses to warming in Cess-Potter simulations using the global 3.25-km SCREAM, J. Adv. Model. Earth Syst., 17, doi:[10.1029/2024MS004930](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024MS004930).
 
