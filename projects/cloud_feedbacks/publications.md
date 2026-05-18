@@ -18,7 +18,7 @@ title: Cloud Feedbacks
 
 * Espinosa, Z., M. D. Zelinka, C. M. Bitz, K. C. Armour, 2026: The Strength of Coupling to the Southern Ocean Modulates Tropical Eastern Pacific Variability and Forced Response, J. Climate, 39, 1543–1558, doi:[10.1175/JCLI-D-25-0226.1](https://journals.ametsoc.org/view/journals/clim/39/6/JCLI-D-25-0226.1.xml).
 
-* Feng, C., et al. including M. D. Zelinka, 2026: Interconnection of Aerosol Cloud Interactions and Cloud Feedback through Warm Rain Process, J. Geophys. Res., 131, doi:[10.1029/2025JD044854](https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2025JD044854).
+* Feng, C., et al. including M. D. Zelinka, 2026: Interconnection of Aerosol-Cloud Interactions and Cloud Feedback through Warm Rain Process, J. Geophys. Res., 131, doi:[10.1029/2025JD044854](https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2025JD044854).
 
 * Fridlind, A. M., et al. including M. D. Zelinka, 2025: Towards a Climate OSSE Framework for Satellite Mission Design, Bull. Amer. Meteor. Soc., 107, E431–E445, doi:[10.1175/BAMS-D-24-0242.1](https://journals.ametsoc.org/view/journals/bams/107/3/BAMS-D-24-0242.1.xml).
 
