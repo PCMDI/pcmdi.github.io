@@ -1,9 +1,4 @@
-<?
-$title = "PCMDI > IPCC Model Output > About IPCC Model Output > Info for Analysts";
-$header_image = "http://www-pcmdi.llnl.gov/images/banner_ipcc.jpg";
-$welcome_image = "http://www-pcmdi.llnl.gov/images/headers/about_ipcc_model_output.jpg";
-require ("http://www-pcmdi.llnl.gov/header.inc");
-?>
+
 
 <head>
   <meta http-equiv="Content-Type" content="text/html;charset=us-ascii">
@@ -31,7 +26,7 @@ definitions of variables</a></p>
 <p align="left" style="margin-top: 0; margin-bottom: 0">
 <a href="#model_names">Official model names</a></p>
 <p align="left" style="margin-top: 0; margin-bottom: 0">
-<a href="model_documentation/ipcc_model_documentation.php">Model documentation</a> 
+<a href="#">Model documentation</a> 
 (including simulation forcing information)</p>
 <p align="left" style="margin-top: 0; margin-bottom: 0">
 <a href="#time_info">
@@ -41,7 +36,7 @@ compared to?</a></p>
 <a href="#IPCC_timeline">IPCC 
 deadlines and transfer of information to WG1 Lead Authors</a></p>
 <p align="left" style="margin-top: 0; margin-bottom: 0">
-<a href="about_ipcc.php">Getting started and other information</a></p>
+<a href="#">Getting started and other information</a></p>
 </blockquote>
 <p>
 <b><font size="3"><a name="Terms of use agreement">Terms of use agreement</a></font></b></p>
@@ -159,7 +154,7 @@ model names</font></a></b></p>
 </font>
 <p>
 To minimize confusion and maximize uniformity across analyses, authors are urged 
-to use the official <a href="model_documentation/ipcc_model_documentation.php">
+to use the official <a href="#">
 CMIP3 model 
 &quot;I.D.'s&quot;</a> when referring to individual model results.&nbsp; In addition it 
 would usually be appropriate to include a table containing the names of the 
@@ -167,7 +162,7 @@ modeling groups along with citations to their relevant papers.</p>
 <p>
 <b><font size="3"><a name="Model_documentation">Model documentation</a></font></b></p>
 <p>
-Click <a href="model_documentation/ipcc_model_documentation.php">here</a> for 
+Click <a href="#">here</a> for 
 available documentation of models and their simulations, which have been 
 contributed to the WCRP CMIP3 multi-model dataset. Note that for most models you can find 
 information concerning the forcing that was applied in each simulation.</p>
@@ -294,8 +289,3 @@ review process.&nbsp; Further details regarding this procedure will be forthcomi
 
 <!-- stopprint -->
 
-<?
-
-require ("http://www-pcmdi.llnl.gov/footer.inc");
-
-?>
