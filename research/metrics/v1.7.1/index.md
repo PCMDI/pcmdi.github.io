@@ -7,7 +7,7 @@ description: The PCMDI Metrics Package homepage
 ###### [Research][research] > [Metrics][metrics]
 ---
 
-# PCMDI Simulation Summaries: CMIP mean state and variability (v1.7.1)<a name="top"></a>
+# PCMDI Simulation Summaries: CMIP mean state and variability (v1.7.2)<a name="top"></a>
 
 <br/>
 The PCMDI Metrics Package ([PMP][pmp]) is a capability that is used to produce a diverse suite of "quick-look" objective summaries of Earth System Model (ESM) agreement with observations. The [PMP][pmp] is routinely applied to multiple generations of CMIP, including the most recent results from CMIP6 as they become available. These results are regularly updated as additional simulations become available, new analysis are included, and as presentation improvements and corrections are made. 
@@ -63,6 +63,7 @@ The PCMDI Metrics Package ([PMP][pmp]) is a capability that is used to produce a
 
 ---
 ## <a name="updates"></a>Update History
+- [**v1.7.2**][v1.7.2] (2026-09-02): AI-MIP Mean Climate added
 - [**v1.7.1**][v1.7.1] (2026-01-21): Prototype DCPP results added
 - [**v1.7.0**][v1.7.0] (2024-11-06): Prototype sea-ice and QBO results added
 - [**v1.6.2**][v1.6.2] (2023-11-21): ENSO and MJO interactive plots updated (minor fix)
@@ -106,6 +107,7 @@ The work of PCMDI and results presented on this web page are supported by the [R
 
 [latest]: {{site.baseurl}}/research/metrics/
 
+[v1.7.2]: {{site.baseurl}}/research/metrics/v1.7.2
 [v1.7.1]: {{site.baseurl}}/research/metrics/v1.7.1
 [v1.7.0]: {{site.baseurl}}/research/metrics/v1.7.0
 [v1.6.2]: {{site.baseurl}}/research/metrics/v1.6.2
