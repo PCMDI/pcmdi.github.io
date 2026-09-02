@@ -30,7 +30,8 @@ Mean state results from the PCMDI Metrics Package (PMP) are used to produce "qui
   - [**CMIP5 historical simulations**][portrait_cmip5_hist]
   - [**CMIP6 AMIP simulations**][portrait_cmip6_amip]
   - [**CMIP5 AMIP simulations**][portrait_cmip5_amip]
-  - [**AIMIP simulations**][portrait_aimip]
+  - [**AI-MIP simulations**][portrait_aimip]
+  - [**AI-MIP and CMIP6 simulations**][portrait_aimip_cmip]
 
   - **Additional decompositions for CMIP6 Historical**
     - [Global space-time (Gleckler et al. 2008): rms_xyt][portrait_cmip6_hist_global_rms_xyt]
@@ -62,7 +63,8 @@ Taylor, K. E., 2001: Summarizing multiple aspects of model performance in a sing
 [portrait_cmip5_hist]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/portrait_plot/mean_clim/cmip6/historical/v20240430/mean_clim_portrait_plot_4seasons_cmip5_historical_rms_xy_v20240430.html
 [portrait_cmip6_amip]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/portrait_plot/mean_clim/cmip6/historical/v20240430/mean_clim_portrait_plot_4seasons_cmip6_amip_rms_xy_v20240430.html
 [portrait_cmip5_amip]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/portrait_plot/mean_clim/cmip6/historical/v20240430/mean_clim_portrait_plot_4seasons_cmip5_amip_rms_xy_v20240430.html
-[portrait_aimip]: https://pcmdi.llnl.gov/pmp-preliminary-results/graphics/mean_climate/aimip/pages/v20260603/AIMIP_CMIP_interactive_portrait_page.html
+[portrait_aimip]: https://pcmdi.llnl.gov/pmp-preliminary-results/graphics/mean_climate/aimip/pages/v20260603/AIMIP_interactive_portrait_page.html
+[portrait_aimip_cmip]: https://pcmdi.llnl.gov/pmp-preliminary-results/graphics/mean_climate/aimip/pages/v20260603/AIMIP_CMIP_interactive_portrait_page.html
 
 [portrait_cmip6_hist_old]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/portrait_plot/mean_clim/cmip6/historical/v20201008/global/rms_xy_season/clickable_portrait.html
 [portrait_cmip5_hist_old]: https://pcmdi.llnl.gov/pmp-preliminary-results/interactive_plot/portrait_plot/mean_clim/cmip5/historical/v20200506/clickable_portrait.html
